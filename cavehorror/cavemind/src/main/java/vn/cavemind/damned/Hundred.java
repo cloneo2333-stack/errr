@@ -126,7 +126,8 @@ public final class Hundred {
             if (t == 30) say(p, "Tìm thấy rồi. Về nhà thôi.", ChatFormatting.WHITE);
             if (e instanceof Mob m && t > 30) {
                 BlockPos lid = vn.cavemind.lore.Lore.part(lvl, "p", "lid");
-                if (lid != null && t % 10 == 0) m.getNavigation().moveTo(lid.getX() + 0.5, lid.getY() + 1, lid.getZ() + 0.5, 0.15);
+                // about 0.9 m/s so it actually reaches the well (7-9 m) before it fades; 0.15 as a raw multiplier made it 0.35 m/s
+                if (lid != null && t % 10 == 0) m.getNavigation().moveTo(lid.getX() + 0.5, lid.getY() + 1, lid.getZ() + 0.5, vn.cavemind.path.Walker.pace(m, 0.045));
             }
             return t < 260;
         }
