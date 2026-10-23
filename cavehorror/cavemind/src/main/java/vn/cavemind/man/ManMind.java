@@ -93,6 +93,8 @@ public final class ManMind {
         long nextDouse;
         Vec3 dragTo, dragDir;
         boolean dragged;
+        double closest = 1e9;
+        boolean darkSeen;
         boolean relaxed;
         boolean walking;
         vn.cavemind.path.Walker walker;
@@ -133,6 +135,11 @@ public final class ManMind {
         if (!p.isAlive() || vn.cavemind.compat.Compat.exempt(p) || p.level().dimension() != Level.OVERWORLD) {
             leave(p, pr, s, now, false);
             return;
+        }
+        if (now % 20 == 0) {
+            Entity near = s.hunt != null ? s.hunt.body(p.serverLevel()) : body(p, s);
+            if (near != null) s.closest = Math.min(s.closest, near.distanceTo(p));
+            if (s.seen > 0 && Meter.dark(p, w)) s.darkSeen = true;
         }
         if (s.hunt == null && now % 20 == 0 && crowded(p, s, now)) return;
         if (s.hunt != null) {
@@ -209,7 +216,6 @@ public final class ManMind {
         s.cause = cause;
         s.wantHunt = pr.anger >= 60 && (p.serverLevel().isNight() || w.underground);
         SESSIONS.put(p.getUUID(), s);
-        if (Meter.due(pr) == 2) Meter.complete(p, 2);
         if (Meter.huntDue(p)) s.end = Math.max(s.end, now + 9600);
         if (body instanceof Mob m) vn.cavemind.world.Motion.pose(m, "cm_hold", now);
         if (Cfg.FOG.get()) Net.fx(p, Net.FOG, w.underground ? 0.25f : 0.45f, 600);
@@ -336,8 +342,10 @@ public final class ManMind {
         SESSIONS.remove(p.getUUID());
         if (Cfg.FOG.get()) Net.fx(p, Net.FOG, 0f, 400);
         pr.manSessions++;
-        if (Meter.due(pr) == 3) Meter.complete(p, 3);
-        if (s.hunted && Meter.due(pr) == 4) Meter.complete(p, 4);
+        int due = Meter.due(pr);
+        if (due == 2) Meter.visited(p, 2, s.seen > 0 || s.closest < 24);
+        else if (due == 3) Meter.visited(p, 3, s.darkSeen || s.hunted);
+        else if (due == 4 && s.hunted) Meter.complete(p, 4);
         long day = Dread.day(p.serverLevel());
         if (pr.firstDay < 0) pr.firstDay = day;
         int cap = 1 + (int) ((day - pr.firstDay) * 0.8) + pr.manSessions / 3;

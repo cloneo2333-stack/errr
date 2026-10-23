@@ -76,6 +76,7 @@ public final class Profile {
     public boolean gotFinder;
     public long lastHuntCatch = -1;
     public ListTag mazeBag;
+    public boolean visitAway;
     public long pasted, cleaned;
     public int stampGifts;
 

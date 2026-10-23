@@ -82,12 +82,13 @@ public final class Homes {
         choose(p, pr);
     }
 
+    // Building and using chests count toward a home even for someone who never sleeps in a bed.
     public static void worked(ServerPlayer p, BlockPos at, double w) {
         if (p.level().dimension() != Level.OVERWORLD) return;
         Profile pr = MindData.profile(p);
-        Profile.Home h = near(pr, at, MERGE);
-        if (h == null) return;
-        h.score += w;
+        seed(pr);
+        add(pr, at).score += w;
+        choose(p, pr);
     }
 
     public static void tick(ServerPlayer p, Watch w, Profile pr, long now) {
@@ -100,8 +101,12 @@ public final class Homes {
             pr.homeDay = day;
             pr.homes.removeIf(h -> h.score < 0.3 && (pr.home == null || h.pos.distSqr(pr.home) > MERGE * MERGE));
         }
-        Profile.Home h = near(pr, p.blockPosition(), 16);
-        if (h != null && (w.indoors || w.light >= 8)) h.score += 0.06;
+        // so does staying a long time under a roof or by your own light
+        if (w.indoors || w.light >= 8 && !w.outside) {
+            Profile.Home h = near(pr, p.blockPosition(), 16);
+            if (h == null) h = add(pr, p.blockPosition());
+            h.score += 0.06;
+        }
         choose(p, pr);
     }
 
@@ -119,7 +124,7 @@ public final class Homes {
             if (cur.bed != null && !cur.bed.equals(pr.home)) pr.home = cur.bed;
             return;
         }
-        if (best.score > cur.score * SWITCH + 2 && best.nights >= 2) set(p, pr, anchor, "dọn nhà");
+        if (best.score > cur.score * SWITCH + 2 && (best.nights >= 2 || cur.nights == 0 && best.score >= SETTLE * 2)) set(p, pr, anchor, "dọn nhà");
     }
 
     static void set(ServerPlayer p, Profile pr, BlockPos at, String why) {
