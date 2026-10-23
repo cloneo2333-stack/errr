@@ -10,6 +10,7 @@ import net.minecraft.tags.BlockTags;
 import net.minecraft.util.Mth;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.Mob;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.level.block.DoorBlock;
 import net.minecraft.world.level.block.FenceGateBlock;
 import net.minecraft.world.level.block.state.BlockState;
@@ -44,6 +45,14 @@ public final class Walker {
         this.goal = goal;
         this.speed = speed;
         this.mode = mode;
+    }
+
+    // Navigation speed is a multiplier on the movement attribute, and vanilla feeds that product in twice (as speed and
+    // as forward input), so a walking mob covers about (attribute * multiplier)^2 * 2.16 blocks a tick on plain ground.
+    // This turns a wanted pace into the multiplier. A player for scale: 0.065 sneaking, 0.216 walking, 0.28 sprinting.
+    public static double pace(Mob m, double blocksPerTick) {
+        double attr = m.getAttributeValue(Attributes.MOVEMENT_SPEED);
+        return attr <= 1e-4 ? 1.0 : Math.sqrt(blocksPerTick / 2.1586) / attr;
     }
 
     public Walker gait(String anim, int len) {

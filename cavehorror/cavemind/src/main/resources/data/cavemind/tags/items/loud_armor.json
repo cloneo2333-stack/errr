@@ -1,0 +1,61 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:chainmail_helmet",
+    "minecraft:chainmail_chestplate",
+    "minecraft:chainmail_leggings",
+    "minecraft:chainmail_boots",
+    "minecraft:iron_helmet",
+    "minecraft:iron_chestplate",
+    "minecraft:iron_leggings",
+    "minecraft:iron_boots",
+    "minecraft:golden_helmet",
+    "minecraft:golden_chestplate",
+    "minecraft:golden_leggings",
+    "minecraft:golden_boots",
+    "minecraft:netherite_helmet",
+    "minecraft:netherite_chestplate",
+    "minecraft:netherite_leggings",
+    "minecraft:netherite_boots",
+    {
+      "id": "arphex:juggernaut_helmet",
+      "required": false
+    },
+    {
+      "id": "arphex:juggernaut_chestplate",
+      "required": false
+    },
+    {
+      "id": "arphex:juggernaut_leggings",
+      "required": false
+    },
+    {
+      "id": "arphex:juggernaut_boots",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:dark_metal_armor_helmet",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:dark_metal_armor_chestplate",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:dark_metal_armor_leggings",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:dark_metal_armor_boots",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:spiny_shell_armor_helmet",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:spiny_shell_armor_chestplate",
+      "required": false
+    }
+  ]
+}

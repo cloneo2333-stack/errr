@@ -5,9 +5,18 @@ import java.util.Map;
 import java.util.UUID;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.TagKey;
 import net.minecraft.util.Mth;
+import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.Vec3;
 
@@ -36,8 +45,11 @@ public final class Watch {
     public long lastStep;
     public boolean stepped;
     private boolean wasGround = true;
-    public int light;
+    public int light, ambient;
     public boolean underground, indoors, confined, outside;
+    // how loud the worn armour makes every step, jump and landing for the creatures that listen (Ears): padded leather
+    // and chitin 0.5, nothing or light gear 1, full plate 1.5. Presence Footsteps already plays the clink itself.
+    public float armor = 1f;
     public int envTick;
     public long ticks;
     public final java.util.ArrayDeque<long[]> crumbs = new java.util.ArrayDeque<>();
@@ -72,7 +84,7 @@ public final class Watch {
                 stepAcc = 0;
                 stepped = true;
                 lastStep = ticks;
-                double r = p.isCrouching() ? 3 : p.isSprinting() ? 24 : 12;
+                double r = (p.isCrouching() ? 3 : p.isSprinting() ? 24 : 12) * armor;
                 Ears.noise(p, now, r, p.isSprinting() ? Ears.Kind.SPRINT : Ears.Kind.STEP);
             }
         }
@@ -98,11 +110,12 @@ public final class Watch {
         float n = 0;
         if (p.isSprinting()) n = Math.max(n, 0.55f);
         boolean ground = p.onGround();
-        if (ground && !wasGround && p.fallDistance > 1.2f) Ears.noise(p, now, 14, Ears.Kind.LAND);
-        else if (!ground && wasGround && vel.y > 0.05) Ears.noise(p, now, 14, Ears.Kind.JUMP);
+        if (ground && !wasGround && p.fallDistance > 1.2f) Ears.noise(p, now, 14 * armor, Ears.Kind.LAND);
+        else if (!ground && wasGround && vel.y > 0.05) Ears.noise(p, now, 14 * armor, Ears.Kind.JUMP);
         wasGround = ground;
         if (!p.onGround() && vel.y > 0.05) n = Math.max(n, 0.45f);
         if (p.isCrouching()) n *= 0.3f;
+        n *= 0.5f + 0.5f * armor;
         noise = Math.max(noise * 0.93f, n);
 
         if (++envTick >= 10) {
@@ -127,7 +140,9 @@ public final class Watch {
     private void senseEnv(ServerPlayer p) {
         ServerLevel lvl = p.serverLevel();
         BlockPos head = BlockPos.containing(p.getEyePosition());
-        light = lvl.getMaxLocalRawBrightness(head);
+        ambient = lvl.getMaxLocalRawBrightness(head);
+        light = Math.max(ambient, held(p));
+        armor = armorNoise(p);
         boolean sky = lvl.canSeeSky(head);
         int sea = lvl.getSeaLevel();
         int surface = lvl.getHeight(net.minecraft.world.level.levelgen.Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, head.getX(), head.getZ());
@@ -151,6 +166,36 @@ public final class Watch {
         indoors = !underground && roof > 0 && walls >= 3;
         confined = underground && walls >= 2 && roof > 0 && roof <= 4 || indoors;
         outside = !underground && !indoors;
+    }
+
+    static final TagKey<Item> QUIET = TagKey.create(Registries.ITEM, new ResourceLocation("cavemind", "quiet_armor"));
+    static final TagKey<Item> LOUD = TagKey.create(Registries.ITEM, new ResourceLocation("cavemind", "loud_armor"));
+
+    // Heavier armour (by armour points, or tagged loud) up to 1.5; pieces tagged quiet pull it down towards 0.5.
+    static float armorNoise(Player p) {
+        int worn = 0, quiet = 0, loud = 0;
+        for (ItemStack st : p.getArmorSlots()) {
+            if (st.isEmpty()) continue;
+            worn++;
+            if (st.is(QUIET)) quiet++;
+            else if (st.is(LOUD)) loud++;
+        }
+        if (worn == 0) return 1f;
+        double base = Math.max(1 + 0.5 * Mth.clamp((p.getAttributeValue(Attributes.ARMOR) - 8) / 12, 0, 1), 1 + 0.125 * loud);
+        double q = quiet / 4.0;
+        return (float) (base * (1 - q) + 0.5 * q);
+    }
+
+    // What a torch or lantern in hand lights up. Dynamic Lights shows that light on the client, but the server's light
+    // map never sees it, so without this someone holding a torch still counted as hiding in the dark.
+    public static int held(Player p) {
+        int best = 0;
+        for (ItemStack st : new ItemStack[]{p.getMainHandItem(), p.getOffhandItem()}) {
+            if (st.isEmpty()) continue;
+            if (st.getItem() instanceof BlockItem bi) best = Math.max(best, bi.getBlock().defaultBlockState().getLightEmission());
+            else if (st.is(Items.LAVA_BUCKET)) best = 15;
+        }
+        return best;
     }
 
     private static boolean solid(Level lvl, BlockPos pos) {

@@ -88,7 +88,9 @@ public final class Game {
     int hideDelay;
     double perceive, lastDist = 40;
     boolean noticed, hunted, caught, why1, warnedSign, los, stuckShown, slept, active, victory;
-    int gate;
+    // owed: strikes carried in from games you lost or ran from; lost: it found you; payUp: hunt once the pointing is over
+    boolean lost, marked, payUp;
+    int gate, owed, watched, grip;
     String reason = "";
     String cause = "";
     String ending = "";
@@ -200,6 +202,7 @@ public final class Game {
         }
         GAMES.put(p.getUUID(), g);
         Profile pr = MindData.profile(p);
+        g.owe(pr);
         pr.dGames++;
         PaceLog.encounter(p, "damned", "invite", cause);
         CaveMind.debug("the Damned invites {} to play ({})", p.getGameProfile().getName(), cause);
@@ -220,11 +223,18 @@ public final class Game {
             return false;
         }
         GAMES.put(p.getUUID(), g);
+        g.owe(MindData.profile(p));
         MindData.profile(p).dGames++;
         Tension.stress(p, 6, "rủ nó chơi");
         PaceLog.encounter(p, "damned", "active", g.cause);
         CaveMind.debug("{} invites the Damned to play at {} (gate {})", p.getGameProfile().getName(), post, gate);
         return true;
+    }
+
+    // A game you lost or walked out on is not forgotten: the next one starts with those strikes already counted,
+    // so it skips the warning (one owed) or goes straight for you on the first slip (two owed). Winning pays one back.
+    void owe(Profile pr) {
+        owed = strikes = Math.min(2, pr.dDebt);
     }
 
     boolean atPost(ServerPlayer p, BlockPos post, long now) {
@@ -326,6 +336,7 @@ public final class Game {
     }
 
     static boolean dark(ServerPlayer p) {
+        if (Watch.held(p) > 6) return false;
         if (Dark.on(p)) return Dark.dark(p);
         ServerLevel lvl = p.serverLevel();
         BlockPos eye = BlockPos.containing(p.getEyePosition());
@@ -335,8 +346,8 @@ public final class Game {
     static int bright(ServerPlayer p) {
         ServerLevel lvl = p.serverLevel();
         BlockPos eye = BlockPos.containing(p.getEyePosition());
-        if (Dark.on(p)) return lvl.getBrightness(LightLayer.SKY, eye) - Math.max(lvl.getSkyDarken(), 7);
-        return lvl.getMaxLocalRawBrightness(eye);
+        if (Dark.on(p)) return Math.max(Watch.held(p), lvl.getBrightness(LightLayer.SKY, eye) - Math.max(lvl.getSkyDarken(), 7));
+        return Math.max(Watch.held(p), lvl.getMaxLocalRawBrightness(eye));
     }
 
     static boolean hiding(ServerPlayer p, Watch w) {
@@ -349,6 +360,7 @@ public final class Game {
         since = now;
         reason = why;
         if ((next == S.RETREAT || next == S.CAUGHT) && ending.isEmpty()) ending = why;
+        if (next == S.MARK) marked = true;
         stare = 0;
         lightTicks = 0;
         Entity e = body(p);
@@ -392,6 +404,12 @@ public final class Game {
             case INVITE -> to(p, S.COUNT, now, "bắt đầu đếm dù chưa ai thấy");
             case COUNT -> to(p, S.SEEK, now, "đếm quá lâu");
             case SEEK -> {
+                Entity e = body(p);
+                // Keeping it on screen freezes it, so watching it for the whole round is not hiding: it knew where your eyes were.
+                if (e != null && watched * 2 > LIMIT.get(S.SEEK)) {
+                    tell(p, "Bạn nhìn nó suốt cả ván. Nó biết bạn ở đâu.");
+                    yield found(p, w, e, now);
+                }
                 win(p, now, "nó tìm chán rồi bỏ đi");
                 yield to(p, S.RETREAT, now, "hết giờ tìm");
             }
@@ -467,6 +485,8 @@ public final class Game {
             if (beat == 1 && Dark.start(p) > 0 && pr.dGames <= 3) line += "  (đèn quanh đây tắt hết: núp sau cây, bụi, đá hay trong nhà rồi ngồi thụp xuống)";
             else if (beat == 1 && pr.dGames <= 2) line += "  (nó đang đếm: đi trốn đi, đừng nhìn nó)";
             say(p, line, ChatFormatting.GRAY);
+            if (beat == 1 && owed > 0) tell(p, owed == 1 ? "Bạn còn nợ nó một ván. Lần này nó không nhắc nữa: phạm luật là nó nhớ mặt bạn."
+                : "Bạn nợ nó hai ván. Phạm luật một lần thôi là nó săn bạn.");
             vn.cavemind.compat.Radio.relay(p, "…" + num(beat) + "…", beat);
             if (beat % 6 == 1 && e.distanceTo(p) < 40) Haunt.breath(p, e.getEyePosition(), 0.25f);
             Tension.stress(p, 0.4, "tiếng đếm");
@@ -532,8 +552,11 @@ public final class Game {
         if (scene) return kidScene(p, w, now);
         if (e != null) {
             double dist = e.distanceTo(p);
-            if (on && looking(p, w, e) && !hiding(p, w)) {
-                if (++stare >= 240) {
+            if (on) watched++;
+            if (on && looking(p, w, e)) {
+                // crouching in the dark buys time (24 s instead of 12) but staring back still gives you away
+                stare += hiding(p, w) ? 1 : 2;
+                if (stare >= 480) {
                     say(p, "Nhìn thẳng vào nó là nó thấy bạn.", ChatFormatting.DARK_GRAY);
                     return found(p, w, e, now);
                 }
@@ -609,6 +632,12 @@ public final class Game {
         pr.moment(new Moment(Moment.SEEK, Dread.day(lvl), Dread.time(lvl), e.blockPosition(), placements, 2));
         PaceLog.encounter(p, "damned", "found you", placements + " moves");
         vn.cavemind.life.Child.played(p.server, 40);
+        // Losing costs a game owed. Already owing one, the loser has to count: it hunts you once it has pointed.
+        lost = true;
+        boolean owing = pr.dDebt > 0;
+        pr.dDebt = Math.min(3, pr.dDebt + 1);
+        payUp = owing;
+        if (!payUp) Fx.later(lvl, 70, () -> tell(p, "Bạn thua ván này. Giờ bạn nợ nó một ván."));
         return to(p, S.RETREAT, now, "tìm thấy bạn");
     }
 
@@ -771,7 +800,7 @@ public final class Game {
         if (now == telegraphUntil || walker == null) {
             Motion.stop(m);
             Fx.soundAll(lvl, "apollyon:gutteral_roar", SoundSource.HOSTILE, e.position(), 2.2f, 1.15f);
-            walker = new Walker(p.blockPosition(), 0.3, Stealth.Mode.PLAIN);
+            walker = new Walker(p.blockPosition(), Walker.pace(m, 0.3), Stealth.Mode.PLAIN);
             walker.freezes = false;
             walker.doors = true;
             walker.gait = null;
@@ -799,12 +828,19 @@ public final class Game {
             return to(p, S.LOST, now, "bạn cắt được tầm nhìn của nó");
         }
         m.setAggressive(dist < 9);
-        walker.speed = dist > 14 ? 0.31 : 0.27;
+        // blocks a tick: a little faster than your sprint while far off, a little slower up close (walking never gets you away)
+        walker.speed = Walker.pace(m, dist > 14 ? 0.31 : 0.27);
         if (now % 10 == 0) walker.retarget(BlockPos.containing(lastSeen));
         Walker.Step st = walker.tick(m, now, viewers(e));
         if (st == Walker.Step.FAILED) {
             walker = null;
             if (!seen(e)) closer(p, w, now, Math.max(6, dist * 0.7));
+        }
+        // it crawls up walls and pillars after you instead of waiting at the bottom
+        if (m.horizontalCollision && p.getY() > m.getY() + 0.6 && dist < 16) {
+            Vec3 v = m.getDeltaMovement();
+            m.setDeltaMovement(v.x * 0.6, 0.24, v.z * 0.6);
+            m.fallDistance = 0;
         }
         stuck(p, m, now);
         return true;
@@ -824,6 +860,7 @@ public final class Game {
 
     boolean grab(ServerPlayer p, Watch w, Mob m, long now) {
         caught = true;
+        grip = 4;
         to(p, S.CAUGHT, now, "chạm được vào bạn");
         Vec3 front = p.getEyePosition().add(Vec3.directionFromRotation(0, p.getYRot()).scale(1.1));
         m.getNavigation().stop();
@@ -840,6 +877,39 @@ public final class Game {
         pr.moment(new Moment(Moment.CAUGHT, Dread.day(lvl), Dread.time(lvl), p.blockPosition(), strikes, 0));
         PaceLog.encounter(p, "damned", "caught", reason);
         return true;
+    }
+
+    private static final Map<UUID, Long> WRENCH_DAY = new HashMap<>();
+
+    // In the two and a half seconds it holds someone before dragging them under, a friend can tear them loose: a heavy
+    // blow does it at once, full swings take two. Ai thua thì đếm: the one who interfered takes over the game owed.
+    void wrench(ServerPlayer owner, ServerPlayer by, int w, boolean heavy, long now) {
+        grip -= w;
+        Entity e = body(owner);
+        if (grip > 0 || e == null) return;
+        ServerLevel lvl = owner.serverLevel();
+        Vec3 at = e.position();
+        owner.removeEffect(MobEffects.MOVEMENT_SLOWDOWN);
+        owner.removeEffect(MobEffects.DARKNESS);
+        Fx.soundAll(lvl, "apollyon:deep_laugh", SoundSource.HOSTILE, at, 0.7f, 0.6f);
+        Fx.soundAll(lvl, "minecraft:block.candle.extinguish", SoundSource.HOSTILE, at, 1.0f, 0.5f);
+        Profile op = MindData.profile(owner), bp = MindData.profile(by);
+        op.dDebt = Math.max(0, op.dDebt - 1);
+        bp.dDebt = Math.min(3, bp.dDebt + 1);
+        tell(owner, by.getGameProfile().getName() + " giằng bạn khỏi tay nó.");
+        tell(by, "Bạn giằng " + owner.getGameProfile().getName() + " khỏi tay nó. Ai thua thì đếm: giờ bạn nợ nó một ván.");
+        long day = Dread.day(lvl);
+        Long last = WRENCH_DAY.get(by.getUUID());
+        if ((last == null || last != day) && by.getRandom().nextFloat() < (heavy ? 0.6f : 0.3f)) {
+            WRENCH_DAY.put(by.getUUID(), day);
+            net.minecraft.world.entity.item.ItemEntity ie = new net.minecraft.world.entity.item.ItemEntity(lvl, at.x, at.y + 0.5, at.z,
+                new net.minecraft.world.item.ItemStack(vn.cavemind.gear.Gear.ECHO.get()));
+            ie.setDefaultPickUpDelay();
+            lvl.addFreshEntity(ie);
+        }
+        holdUntil = now + 20;
+        PaceLog.encounter(owner, "damned", "wrenched free", by.getGameProfile().getName());
+        to(owner, S.RETREAT, now, "bạn bè giằng bạn lại");
     }
 
     boolean caught(ServerPlayer p, Watch w, Entity e, long now) {
@@ -871,7 +941,7 @@ public final class Game {
                 double a = r.nextDouble() * Math.PI * 2, d = 4 + r.nextDouble() * 7;
                 sweep.add(c.add(Math.cos(a) * d, 0, Math.sin(a) * d));
             }
-            walker = new Walker(BlockPos.containing(sweep.get(0)), 0.2, Stealth.Mode.PLAIN);
+            walker = new Walker(BlockPos.containing(sweep.get(0)), Walker.pace(m, 0.2), Stealth.Mode.PLAIN);
             walker.freezes = false;
             walker.doors = true;
             walker.gait = null;
@@ -883,7 +953,7 @@ public final class Game {
             sweep.remove(0);
             Motion.play(m, p.getRandom().nextBoolean() ? "cm_search_a" : "cm_search_b", 50, now);
             if (sweep.isEmpty()) return to(p, S.RETREAT, now, "lục tung xung quanh không thấy");
-            walker = new Walker(BlockPos.containing(sweep.get(0)), 0.2, Stealth.Mode.PLAIN);
+            walker = new Walker(BlockPos.containing(sweep.get(0)), Walker.pace(m, 0.2), Stealth.Mode.PLAIN);
             walker.freezes = false;
             walker.doors = true;
             walker.gait = null;
@@ -897,6 +967,11 @@ public final class Game {
         if (now < holdUntil) {
             if (e instanceof Mob m) Motion.snap(m, p.getEyePosition());
             return true;
+        }
+        if (payUp) {
+            payUp = false;
+            if (Tension.allows(p, Tension.Permit.ENGAGE) && !peaceful(p)) return startHunt(p, w, now);
+            tell(p, "Bạn lại thua. Nó chưa đuổi theo, nhưng nó nhớ cả hai ván.");
         }
         if (e instanceof Mob m && !posed) {
             posed = true;
@@ -936,9 +1011,9 @@ public final class Game {
         Kids.clear(p.serverLevel(), kids);
         if (holdStage == 1) Net.fx(p, Net.HOLD, 0f, 0);
         Dark.end(p);
-        Director.release(p, "damned", hunted || caught || strikes >= 2);
+        Director.release(p, "damned", hunted || caught || marked);
         Profile pr = MindData.profile(p);
-        if (strikes == 0 && !hunted) pr.dDebt = Math.max(0, pr.dDebt - 1);
+        if (strikes == owed && !hunted && !lost) pr.dDebt = Math.max(0, pr.dDebt - 1);
         if (pr.dStage < 1) pr.dStage = 1;
         if (active) vn.cavemind.chapter.Chapters.ended(p, gate, victory, tree, ending.isEmpty() ? reason : ending);
         CaveMind.debug("damned game with {} ends ({}, strikes {})", p.getGameProfile().getName(), reason, strikes);
@@ -957,19 +1032,33 @@ public final class Game {
         vn.cavemind.life.Child.played(p.server, 60);
     }
 
-    public static void attacked(ServerPlayer p, Entity e) {
+    public static void attacked(ServerPlayer p, Entity e, vn.cavemind.sense.Swing.Blow b) {
         for (Game g : GAMES.values()) {
             if (!e.getUUID().equals(g.body)) continue;
             ServerPlayer owner = p.server.getPlayerList().getPlayer(g.player);
             if (owner == null) return;
             long now = p.server.getTickCount();
+            int w = b == null ? 1 : b.weight();
             Fx.sound(p, "apollyon:damage_noise", SoundSource.HOSTILE, e.position(), 0.8f, 1.4f);
             if (e instanceof Mob m) {
                 m.getNavigation().stop();
                 if (g.walker != null) g.walker.stop(m);
             }
             if (g.s == S.HUNT || g.s == S.LOST) {
-                g.telegraphUntil = now + 20;
+                // a heavy blow holds it for two and a half seconds, a full one for a second, a rushed one hardly at all
+                g.telegraphUntil = Math.max(g.telegraphUntil, now + (w >= 4 ? 50 : w >= 2 ? 20 : 6));
+                if (w >= 4) {
+                    Vec3 push = e.position().subtract(p.position()).multiply(1, 0, 1);
+                    if (push.lengthSqr() > 1e-4) {
+                        push = push.normalize().scale(0.7);
+                        e.setDeltaMovement(push.x, 0.3, push.z);
+                        e.hurtMarked = true;
+                    }
+                }
+                return;
+            }
+            if (g.s == S.CAUGHT && p != owner) {
+                g.wrench(owner, p, w, b != null && b.heavy(), now);
                 return;
             }
             if (g.s == S.CAUGHT || g.s == S.RETREAT) return;
@@ -998,6 +1087,11 @@ public final class Game {
 
     void say(ServerPlayer p, String text, ChatFormatting color) {
         p.displayClientMessage(Component.literal(text).withStyle(color, ChatFormatting.ITALIC), true);
+    }
+
+    // in chat, so the counting on the action bar does not wipe it
+    static void tell(ServerPlayer p, String text) {
+        p.displayClientMessage(Component.literal(text).withStyle(ChatFormatting.GRAY, ChatFormatting.ITALIC), false);
     }
 
     static boolean peaceful(ServerPlayer p) {

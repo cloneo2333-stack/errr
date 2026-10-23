@@ -93,6 +93,7 @@ public final class ManMind {
         long nextDouse;
         Vec3 dragTo, dragDir;
         boolean dragged;
+        int grip;
         double closest = 1e9;
         boolean darkSeen;
         boolean relaxed;
@@ -109,9 +110,18 @@ public final class ManMind {
     public static void forget(ServerPlayer p) {
         Session s = SESSIONS.remove(p.getUUID());
         if (s != null) {
+            ranOut(p, MindData.profile(p), s);
             discard(p.serverLevel(), s.body);
             if (s.hunt != null) s.hunt.discard(p.serverLevel());
         }
+    }
+
+    // Logging out or slipping through a portal mid-frenzy used to just end it. He holds it against you: for the next
+    // two nights (anger loses 6 a day, 60 is the line) he comes already wanting to hunt.
+    static void ranOut(ServerPlayer p, Profile pr, Session s) {
+        if (s.hunt == null || s.hunt.phase == 0 || s.hunt.retreat || s.hunt.caught) return;
+        pr.anger(Math.max(25, 72 - pr.anger));
+        CaveMind.debug("{} ran out on the Man's frenzy, anger {}", p.getGameProfile().getName(), pr.anger);
     }
 
     public static void clear() {
@@ -133,6 +143,7 @@ public final class ManMind {
         Session s = SESSIONS.get(p.getUUID());
         if (s == null) return;
         if (!p.isAlive() || vn.cavemind.compat.Compat.exempt(p) || p.level().dimension() != Level.OVERWORLD) {
+            if (p.isAlive()) ranOut(p, pr, s);
             leave(p, pr, s, now, false);
             return;
         }
@@ -1142,7 +1153,9 @@ public final class ManMind {
                     }
                     return false;
                 }
-                if (now % 10 == 0) m.getNavigation().moveTo(p, 0.42);
+                // 1.5 m/s, his deliberate pace elsewhere (glide 0.07-0.075); 0.42 as a raw multiplier crept at 0.7 m/s
+                // and the 45 s walk usually ran out before he got within 12.5 m
+                if (now % 10 == 0) m.getNavigation().moveTo(p, vn.cavemind.path.Walker.pace(m, 0.075));
                 vn.cavemind.world.Motion.walk(m, now);
                 if (dist <= 12.5) {
                     m.getNavigation().stop();
@@ -1435,13 +1448,13 @@ public final class ManMind {
         start(s, t, now);
     }
 
-    public static void huntHit(ServerPlayer p, Entity e) {
+    public static void huntHit(ServerPlayer p, Entity e, vn.cavemind.sense.Swing.Blow b) {
         MindData.profile(p).bold(4);
         for (Map.Entry<UUID, Session> en : SESSIONS.entrySet()) {
             Session s = en.getValue();
             if (s.hunt == null || !e.getUUID().equals(s.hunt.crawler)) continue;
             ServerPlayer owner = p.server.getPlayerList().getPlayer(en.getKey());
-            s.hunt.hit(owner != null ? owner : p, e, p.server.getTickCount());
+            s.hunt.hit(owner != null ? owner : p, p, e, b, p.server.getTickCount());
             return;
         }
     }
@@ -1566,7 +1579,16 @@ public final class ManMind {
         Director.scare(p, 14);
     }
 
-    public static void attacked(ServerPlayer p, Entity e) {
+    public static void attacked(ServerPlayer p, Entity e, vn.cavemind.sense.Swing.Blow b) {
+        for (Map.Entry<UUID, Session> en : SESSIONS.entrySet()) {
+            Session d = en.getValue();
+            if (d.tac != Tac.DRAG || d.body == null || !d.body.equals(e.getUUID()) || !(e instanceof Mob m)) continue;
+            ServerPlayer victim = p.server.getPlayerList().getPlayer(en.getKey());
+            if (victim != null) {
+                Pack.cut(victim, p, d, m, b, p.server.getTickCount());
+                return;
+            }
+        }
         Session s = SESSIONS.get(p.getUUID());
         Profile pr = MindData.profile(p);
         pr.manHurt++;
@@ -1629,8 +1651,8 @@ public final class ManMind {
         s.hunt = new Hunt(p, w, at, now, why);
         s.hunt.stand = stand;
         s.hunt.marked = s.marked;
-        if (s.hunt.pack >= 2) Pack.sayAll(Pack.members(p), "CƠN ĐIÊN nhắm vào cả nhóm (" + s.hunt.pack + " người). Cần " + s.hunt.need()
-            + " đòn để đẩy lùi hắn. Đứng sát nhau trong ánh sáng thì hắn chỉ lấy tối đa một mạng; tản ra thì hắn có thể lấy " + s.hunt.maxKills());
+        if (s.hunt.pack >= 2) Pack.sayAll(Pack.members(p), "CƠN ĐIÊN nhắm vào cả nhóm (" + s.hunt.pack + " người). Cần chừng " + (s.hunt.need() + 1) / 2
+            + " nhát chém đầy lực để đẩy lùi hắn, vũ khí nặng chỉ cần một nửa. Đứng sát nhau trong ánh sáng thì hắn chỉ lấy tối đa một mạng; tản ra thì hắn có thể lấy " + s.hunt.maxKills());
         pr.manHunts++;
         pr.manLastHuntDay = Dread.day(p.serverLevel());
         CaveMind.debug("the Man hunts {}", p.getGameProfile().getName());

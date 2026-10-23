@@ -74,10 +74,11 @@ public final class Haunt {
     private static final Map<UUID, Plan> PLANS = new HashMap<>();
     private static final java.util.Set<UUID> NEAR = new java.util.HashSet<>();
 
+    // The night's plan survives a relog: the night is only ever rolled once, so dropping it here made logging out the
+    // way to a quiet night.
     public static void forget(ServerPlayer p) {
         Run r = RUNS.remove(p.getUUID());
         if (r != null) discard(p.serverLevel(), r.body);
-        PLANS.remove(p.getUUID());
     }
 
     public static void clear() {
@@ -108,21 +109,13 @@ public final class Haunt {
         }
         if (now % 20 != 0) return;
         ServerLevel lvl = p.serverLevel();
-        if (lvl.dimension() != Level.OVERWORLD || vn.cavemind.compat.Compat.exempt(p)) return;
         Profile pr = MindData.profile(p);
-        long day = Dread.day(lvl);
-        if (pr.dPeace) return;
-        if ((day < Cfg.DAMNED_START_DAY.get() || pr.playTicks < 24000)) return;
-        if (pr.dQuietUntilDay >= 0 && day < pr.dQuietUntilDay) return;
+        if (!haunting(p, pr, lvl)) return;
         int tod = Dread.time(lvl);
         long key = nightKey(lvl);
-        Plan pl = PLANS.get(p.getUUID());
         boolean night = tod >= 13000 || tod < 1000;
-        if (night && (pl == null || pl.nightKey != key) && pr.dLastNight != key) {
-            pl = plan(p, pr, key);
-            PLANS.put(p.getUUID(), pl);
-            pr.dLastNight = key;
-        }
+        Plan pl = tonight(p, pr, lvl);
+        if (pl == null) pl = PLANS.get(p.getUUID());
         if (pr.dStage >= 2 && pr.dShrine == null && Cfg.DAMNED_SHRINE.get() && !night && now % 200 == 0) {
             BlockPos s = Shrine.build(p, pr);
             if (s != null) pr.dShrine = s;
@@ -166,6 +159,28 @@ public final class Haunt {
             if (sc != null && begin(p, w, pr, sc, now)) pl.at = -1;
             else pl.at = tod + 400 + p.getRandom().nextInt(800);
         }
+    }
+
+    static boolean haunting(ServerPlayer p, Profile pr, ServerLevel lvl) {
+        if (lvl.dimension() != Level.OVERWORLD || vn.cavemind.compat.Compat.exempt(p) || pr.dPeace) return false;
+        long day = Dread.day(lvl);
+        if (day < Cfg.DAMNED_START_DAY.get() || pr.playTicks < 24000) return false;
+        return pr.dQuietUntilDay < 0 || day >= pr.dQuietUntilDay;
+    }
+
+    // Tonight's plan, rolled once per night. It is rolled from dusk rather than from 13000: beds work from about 12000,
+    // and someone who went to bed the moment they could skipped the night before it was ever planned, so the Damned
+    // never visited them in their sleep or came the morning after.
+    static Plan tonight(ServerPlayer p, Profile pr, ServerLevel lvl) {
+        long key = nightKey(lvl);
+        Plan pl = PLANS.get(p.getUUID());
+        if (pl != null && pl.nightKey == key) return pl;
+        int tod = Dread.time(lvl);
+        if (pr.dLastNight == key || tod >= 1000 && tod < 11800) return null;
+        pl = plan(p, pr, key);
+        PLANS.put(p.getUUID(), pl);
+        pr.dLastNight = key;
+        return pl;
     }
 
     private static Plan plan(ServerPlayer p, Profile pr, long key) {
@@ -434,9 +449,10 @@ public final class Haunt {
     public static void sleeping(ServerPlayer p, Watch w, long now) {
         if (!Compat.damnedActive() || !Cfg.DAMNED_SLEEP.get()) return;
         if (RUNS.containsKey(p.getUUID())) return;
-        Plan pl = PLANS.get(p.getUUID());
         ServerLevel lvl = p.serverLevel();
-        if (pl == null || pl.nightKey != nightKey(lvl)) return;
+        Profile pr = MindData.profile(p);
+        Plan pl = haunting(p, pr, lvl) ? tonight(p, pr, lvl) : null;
+        if (pl == null) return;
         if (pl.visit && p.getSleepTimer() == 22) {
             pl.visit = false;
             Run r = new Run();
@@ -444,7 +460,7 @@ public final class Haunt {
             r.start = r.modeAt = now;
             if (Director.claim(p, "damned") && Visit.setup(p, w, r)) {
                 RUNS.put(p.getUUID(), r);
-                MindData.profile(p).dVisits++;
+                pr.dVisits++;
                 CaveMind.debug("it visits {} in their sleep", p.getGameProfile().getName());
             } else {
                 Director.abort(p, "damned");

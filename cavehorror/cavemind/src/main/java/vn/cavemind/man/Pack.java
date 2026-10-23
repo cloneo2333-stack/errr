@@ -200,7 +200,7 @@ final class Pack {
         if (away.lengthSqr() < 1e-3) return false;
         away = away.normalize();
         Vec3 dest = p.position();
-        for (int i = 1; i <= 4; i++) {
+        for (int i = 1; i <= 8; i++) {
             Vec3 q = p.position().add(away.scale(i));
             BlockPos f = Spots.nearFloor(lvl, BlockPos.containing(q), 2, 1);
             if (f == null || !lvl.getFluidState(f).isEmpty() || !lvl.getFluidState(f.below()).isEmpty()) break;
@@ -215,6 +215,7 @@ final class Pack {
         s.body = e.getUUID();
         s.dragTo = dest;
         s.dragDir = away;
+        s.grip = GRIP;
         if (e instanceof Mob m) {
             m.setAggressive(true);
             vn.cavemind.world.Motion.snap(m, p.getEyePosition());
@@ -222,6 +223,10 @@ final class Pack {
         Compat.anim(e, "cm_twitch");
         return true;
     }
+
+    // The grab now lasts about three seconds instead of under one: a hard yank, then a slow drag towards the dark,
+    // long enough for someone to turn round and cut him loose (cut()).
+    static final int DRAG_T = 64, GRIP = 4;
 
     static boolean runDrag(ServerPlayer p, Watch w, Profile pr, ManMind.Session s, Mob m, long now) {
         long t = now - s.tacStart;
@@ -235,14 +240,18 @@ final class Pack {
             sayAll(g, "Hắn túm lấy " + p.getGameProfile().getName() + " từ phía sau và lôi vào bóng tối");
             for (ServerPlayer o : g) Director.scare(o, o == p ? 25 : 12);
         }
-        if (t >= 3 && t <= 13 && s.dragDir != null) {
-            Vec3 v = s.dragDir.scale(0.38);
+        if (t >= 3 && t < DRAG_T && s.dragDir != null) {
+            boolean yank = t <= 6;
+            boolean there = s.dragTo != null && p.position().distanceToSqr(s.dragTo) < 0.36;
+            Vec3 v = there ? Vec3.ZERO : s.dragDir.scale(yank ? 0.38 : 0.1);
             p.setDeltaMovement(v.x, Math.max(p.getDeltaMovement().y, 0.02), v.z);
             p.hurtMarked = true;
             Vec3 behind = p.position().add(s.dragDir.scale(1.1));
             m.teleportTo(behind.x, m.getY(), behind.z);
+            if (t % 16 == 0) Fx.soundAll(lvl, "minecraft:block.gravel.step", SoundSource.HOSTILE, p.position(), 0.7f, 0.6f);
+            if (t == 40) p.hurt(lvl.damageSources().mobAttack((LivingEntity) m), 1f);
         }
-        if (t >= 18) {
+        if (t >= DRAG_T) {
             Fx.soundAll(lvl, "man:vanish", SoundSource.HOSTILE, m.position(), 1f, 0.8f);
             pr.moment(new Moment(Moment.FRENZY, Dread.day(lvl), Dread.time(lvl), p.blockPosition(), 1, 0));
             s.dragged = true;
@@ -252,10 +261,63 @@ final class Pack {
         return true;
     }
 
+    private static final java.util.Map<UUID, Long> CUT_DAY = new java.util.HashMap<>();
+
+    // A blow at the arm that holds someone. A heavy blow cuts it at once, full swings from a friend take two, rushed
+    // swings four; the one being dragged can only hit behind them, so their own blows count half. Cutting someone
+    // loose costs the rescuer: he lets go, but now he wants them (marked for the next frenzy, angrier with them), and
+    // once a day the cut leaves a fog bone shard behind.
+    static void cut(ServerPlayer victim, ServerPlayer by, ManMind.Session s, Mob m, vn.cavemind.sense.Swing.Blow b, long now) {
+        ServerLevel lvl = victim.serverLevel();
+        int w = b == null ? 1 : b.weight();
+        if (by == victim) w /= 2;
+        if (w <= 0) return;
+        s.grip -= w;
+        Fx.soundAll(lvl, "minecraft:entity.player.attack.crit", SoundSource.HOSTILE, m.position(), 0.8f, 0.6f);
+        if (s.grip > 0) {
+            vn.cavemind.compat.Compat.anim(m, "cm_twitch");
+            return;
+        }
+        Vec3 at = m.position();
+        Fx.soundAll(lvl, "man:scream_loop", SoundSource.HOSTILE, at, 1.4f, 1.6f);
+        Fx.soundAll(lvl, "man:vanish", SoundSource.HOSTILE, at, 1f, 0.7f);
+        lvl.sendParticles(net.minecraft.core.particles.ParticleTypes.LARGE_SMOKE, at.x, at.y + 0.8, at.z, 18, 0.3, 0.4, 0.3, 0.02);
+        victim.setDeltaMovement(0, victim.getDeltaMovement().y, 0);
+        victim.hurtMarked = true;
+        Net.fx(victim, Net.SHAKE, 1.2f, 8);
+        if (by != victim) Net.fx(by, Net.SHAKE, 1.2f, 8);
+        m.discard();
+        s.body = null;
+        s.tac = null;
+        s.dragged = true;
+        s.nextTac = now + 200 + victim.getRandom().nextInt(300);
+        if (by != victim) {
+            s.marked = by.getUUID();
+            MindData.profile(by).anger(10);
+            Profile vp = MindData.profile(victim);
+            if (ManMind.huntAllowed(victim, Watch.of(victim), vp, s)) s.wantHunt = true;
+            victim.displayClientMessage(net.minecraft.network.chat.Component.literal(by.getGameProfile().getName() + " chặt đứt tay hắn, kéo bạn lại.")
+                .withStyle(net.minecraft.ChatFormatting.GRAY, net.minecraft.ChatFormatting.ITALIC), true);
+            by.displayClientMessage(net.minecraft.network.chat.Component.literal("Bạn chặt đứt tay hắn. Hắn nhìn bạn rất lâu trước khi tan đi.")
+                .withStyle(net.minecraft.ChatFormatting.DARK_RED, net.minecraft.ChatFormatting.ITALIC), true);
+        }
+        long day = Dread.day(lvl);
+        Long last = CUT_DAY.get(by.getUUID());
+        if ((last == null || last != day) && victim.getRandom().nextFloat() < (b != null && b.heavy() ? 0.7f : 0.35f)) {
+            CUT_DAY.put(by.getUUID(), day);
+            net.minecraft.world.entity.item.ItemEntity ie = new net.minecraft.world.entity.item.ItemEntity(lvl, at.x, at.y + 0.5, at.z,
+                new net.minecraft.world.item.ItemStack(vn.cavemind.gear.Gear.BONE.get()));
+            ie.setDefaultPickUpDelay();
+            lvl.addFreshEntity(ie);
+        }
+        vn.cavemind.director.PaceLog.encounter(victim, "man", "drag cut", by.getGameProfile().getName());
+        CaveMind.debug("{} cut {} loose from the Man", by.getGameProfile().getName(), victim.getGameProfile().getName());
+    }
+
     private Pack() {}
 
     static boolean shaded(ServerPlayer p) {
         BlockPos eye = BlockPos.containing(p.getEyePosition());
-        return !p.serverLevel().canSeeSky(eye) && p.serverLevel().getBrightness(net.minecraft.world.level.LightLayer.BLOCK, eye) <= 7;
+        return Watch.held(p) <= 7 && !p.serverLevel().canSeeSky(eye) && p.serverLevel().getBrightness(net.minecraft.world.level.LightLayer.BLOCK, eye) <= 7;
     }
 }
