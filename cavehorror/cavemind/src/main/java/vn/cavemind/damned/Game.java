@@ -485,7 +485,7 @@ public final class Game {
             else if (beat == 1 && pr.dGames <= 2) line += "  (nó đang đếm: đi trốn đi, đừng nhìn nó)";
             say(p, line, ChatFormatting.GRAY);
             if (beat == 1 && owed > 0) tell(p, owed == 1 ? "Bạn còn nợ nó một ván. Lần này nó không nhắc nữa: phạm luật là nó nhớ mặt bạn."
-                : "Bạn nợ nó hai ván. Phạm luật một lần nữa là nó săn bạn.");
+                : "Bạn nợ nó hai ván. Phạm luật một lần thôi là nó săn bạn.");
             vn.cavemind.compat.Radio.relay(p, "…" + num(beat) + "…", beat);
             if (beat % 6 == 1 && e.distanceTo(p) < 40) Haunt.breath(p, e.getEyePosition(), 0.25f);
             Tension.stress(p, 0.4, "tiếng đếm");
