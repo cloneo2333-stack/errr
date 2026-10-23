@@ -60,6 +60,7 @@ public final class ClientFx {
             case Net.DARK -> SeekFx.dark(a, ticks);
             case Net.HOLD -> SeekFx.hold(a, ticks);
             case Net.SCAN -> SeekFx.scan(a, ticks);
+            case Net.MIST -> MazeHud.mist(a);
             default -> {}
         }
     }
@@ -153,9 +154,20 @@ public final class ClientFx {
     @SubscribeEvent(priority = EventPriority.LOW)
     public static void fog(ViewportEvent.RenderFog e) {
         if (maze()) {
-            float far = Math.min(e.getFarPlaneDistance(), fog > 0.001f ? 12f : 22f);
-            e.setFarPlaneDistance(far);
-            e.setNearPlaneDistance(Math.min(e.getNearPlaneDistance(), 0.5f));
+            float far, near;
+            if (MazeHud.pitchBlack()) {
+                // camera off: past two metres there is nothing but black, whatever the gamma says
+                far = MazeHud.BLACK_FAR;
+                near = MazeHud.BLACK_NEAR;
+            } else if (MazeHud.nightVision()) {
+                far = MazeHud.NV_FAR * (1f - MazeHud.dim());
+                near = far * 0.3f;
+            } else {
+                far = fog > 0.001f ? 12f : 22f;
+                near = 0.5f;
+            }
+            e.setFarPlaneDistance(Math.min(e.getFarPlaneDistance(), far));
+            e.setNearPlaneDistance(Math.min(e.getNearPlaneDistance(), near));
             e.setFogShape(FogShape.SPHERE);
             e.setCanceled(true);
             return;
@@ -180,9 +192,10 @@ public final class ClientFx {
     @SubscribeEvent(priority = EventPriority.LOW)
     public static void fogColor(ViewportEvent.ComputeFogColor e) {
         if (maze()) {
-            e.setRed(0.035f);
-            e.setGreen(0.03f);
-            e.setBlue(0.028f);
+            float k = MazeHud.showing() ? 0f : 1f;
+            e.setRed(0.035f * k);
+            e.setGreen(0.03f * k);
+            e.setBlue(0.028f * k);
             return;
         }
         if (SeekFx.dark > 0.001f) {

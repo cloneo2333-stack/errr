@@ -266,5 +266,14 @@
   "item.cavemind.lo_dom_dom": "Firefly Jar",
   "item.cavemind.lo_dom_dom.desc1": "Right click: a firefly flies towards where you need to go, leaving a glowing trail.",
   "item.cavemind.lo_dom_dom.desc2": "Shift + right click: change what it looks for (auto, page, playground, meeting point, unseen place).",
-  "item.cavemind.lo_dom_dom.desc3": "Flies about thirty blocks. Twelve seconds before it can go again."
+  "item.cavemind.lo_dom_dom.desc3": "Flies about thirty blocks. Twelve seconds before it can go again.",
+  "subtitles.cavemind.maze.hum": "Pressure hum",
+  "subtitles.cavemind.maze.focus": "Lens focusing",
+  "subtitles.cavemind.maze.sob": "A child sobs",
+  "subtitles.cavemind.maze.cough": "Someone coughs",
+  "subtitles.cavemind.maze.scrape": "Nails scrape the wall",
+  "subtitles.cavemind.maze.tape": "Tape crackles",
+  "subtitles.cavemind.maze.top": "A top whines",
+  "subtitles.cavemind.maze.harmonica": "Harmonica",
+  "subtitles.cavemind.maze.twang": "Slingshot twangs"
 }

@@ -74,7 +74,7 @@ public final class Book {
     }
 
     public static void ensure(ServerPlayer p) {
-        if (p.isSpectator()) return;
+        if (p.isSpectator() || Maze.inMaze(p)) return;
         Profile pr = MindData.profile(p);
         if (!pr.gotFinder) {
             ItemStack jar = new ItemStack(vn.cavemind.gear.Gear.FINDER.get());

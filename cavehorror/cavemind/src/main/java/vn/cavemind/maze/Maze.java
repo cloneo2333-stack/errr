@@ -80,6 +80,11 @@ public final class Maze {
 
     record Ret(ResourceKey<Level> dim, Vec3 pos, float yaw) {}
 
+    static final class Ink {
+        final List<BlockPos> veins = new ArrayList<>();
+        long next;
+    }
+
     static final class Run {
         final int slot;
         final Round core;
@@ -102,6 +107,9 @@ public final class Maze {
         final Set<Integer> blocked = new HashSet<>();
         final Map<UUID, Integer> decoys = new HashMap<>();
         boolean crimson;
+        final Map<Integer, Ink> ink = new HashMap<>();
+        final Map<Integer, Long> tapped = new HashMap<>();
+        long nextScrape;
 
         Run(int slot, Round core, Mode mode, ServerLevel lvl) {
             this.slot = slot;
@@ -231,6 +239,7 @@ public final class Maze {
         Vec3 at = r.world(r.core.g.spawn[0], r.core.g.spawn[1], F + 1);
         p.addEffect(new MobEffectInstance(MobEffects.DARKNESS, 60, 0, false, false));
         p.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 30, 0, false, false));
+        Bag.stash(p);
         p.fallDistance = 0;
         p.teleportTo(r.lvl, at.x, at.y, at.z, 0f, 0f);
         p.fallDistance = 0;
@@ -288,6 +297,7 @@ public final class Maze {
             say(p, "Nó không chơi với người ở chế độ sáng tạo hay khán giả.", ChatFormatting.DARK_GRAY);
             return true;
         }
+        unchain(ow, l);
         for (int k = 1; k <= 2; k++) {
             BlockState above = ow.getBlockState(l.above(k));
             if (above.getBlock() instanceof CandleBlock || !above.isAir() && above.canBeReplaced()) {
@@ -313,6 +323,16 @@ public final class Maze {
 
     private static final java.util.Map<java.util.UUID, Integer> HINT = new java.util.HashMap<>();
 
+    // Older playgrounds hung the chain one block above the lid, right in the shaft: nobody fit past it.
+    static void unchain(ServerLevel ow, BlockPos l) {
+        BlockPos low = l.above(2);
+        if (!ow.isLoaded(low) || !ow.getBlockState(low).is(Blocks.CHAIN)) return;
+        ow.setBlock(low, Blocks.AIR.defaultBlockState(), 3);
+        BlockPos hi = l.above(3);
+        BlockState up = ow.getBlockState(hi);
+        if (up.isAir() || up.getBlock() instanceof net.minecraft.world.level.block.SlabBlock) ow.setBlock(hi, Blocks.CHAIN.defaultBlockState(), 3);
+    }
+
     static void hint(ServerPlayer p, long now) {
         if (now % 20 != (p.getId() & 15)) return;
         ServerLevel ow = p.serverLevel();
@@ -321,6 +341,7 @@ public final class Maze {
             HINT.remove(p.getUUID());
             return;
         }
+        unchain(ow, l);
         int state = 0;
         BlockState c = ow.getBlockState(l.above());
         if (c.getBlock() instanceof CandleBlock && c.getValue(CandleBlock.LIT)) state = 2;
@@ -528,6 +549,7 @@ public final class Maze {
         ambient(r, ps, now);
         for (Round.Event ev : r.core.events) event(r, ps, ev, now);
         r.core.events.clear();
+        inkTick(r, ps, now);
         if (r.core.mode == Round.Mode.PLAY && r.core.t == Round.COUNT) for (ServerPlayer p : ps) say(p, "…bốn mươi tám. Đi tìm đây.", ChatFormatting.DARK_GRAY);
         if (r.core.brain.mode == Brain.Mode.COUNT && r.core.t % 20 == 0) {
             int beat = (int) (r.core.t / 20) + 1;
@@ -613,6 +635,7 @@ public final class Maze {
                 if (!fast && r.lvl.getRandom().nextFloat() < 0.18f) Fx.sound(p, "minecraft:block.wooden_door.close", SoundSource.HOSTILE, e.position(), 0.12f * near, 0.45f);
             }
         }
+        scrape(r, ps, e, mv, now);
         voice(r, ps, e, now);
         int toys = 7 - r.core.remainingToys();
         int left = (int) Math.max(0, (Round.TIME - r.core.t) / 20);
@@ -627,7 +650,7 @@ public final class Maze {
             boolean hiding = rr != null && r.core.tucked(rr);
             if (b.listening() && rr != null && rr.closet >= 0 && rr.closet == r.core.brain.goalCloset()) danger = Math.max(danger, 0.95f);
             boolean seen = rr != null && b.mode == Brain.Mode.CHASE && r.core.brain.focusId() == rr.id;
-            Cam.tick(p, Math.min(1f, danger), toys, left, hiding, now, rr, seen);
+            Cam.tick(p, Math.min(1f, danger), toys, left, hiding, now, rr, seen, (float) d, rr == null ? 0 : rr.campStage);
             if (rr != null && Cam.panting(p) && now % 50 == (p.getId() % 50) && !r.core.tucked(rr)) r.core.noise(rr.x, rr.z, 4, Round.N_VOICE, rr.id);
         }
         if (now % 60 == 0 && b.y >= 0) {
@@ -679,6 +702,61 @@ public final class Maze {
             }
             case "lunge" -> {
                 for (ServerPlayer p : ps) if (p.position().distanceTo(at) < 24) Fx.sound(p, Compat.sound("apollyon:damage_noise", "minecraft:entity.warden.roar"), SoundSource.HOSTILE, at, 0.8f, 0.7f);
+            }
+            case "cry" -> {
+                int i = ev.a();
+                boolean first = r.core.cryAt == r.core.t;
+                net.minecraft.util.RandomSource rnd = r.lvl.getRandom();
+                for (ServerPlayer p : ps) {
+                    double d = p.position().distanceTo(at);
+                    if (d > 56) continue;
+                    Fx.sound(p, vn.cavemind.world.Sounds.SOB, SoundSource.HOSTILE, at, 2.4f, 1.0f + rnd.nextFloat() * 0.08f);
+                    Fx.sound(p, Compat.sound(TOY_CALL[i], "minecraft:block.amethyst_block.chime"), SoundSource.HOSTILE, at, 1.6f, 1.0f);
+                    if (first) say(p, "Ở đâu đó, " + TOY_NAME[i] + " đang khóc thút thít. Nhặt nó lên trước khi nó tới dỗ.", ChatFormatting.GRAY);
+                }
+            }
+            case "cry_call" -> {
+                for (ServerPlayer p : ps) {
+                    say(p, "Không ai dỗ " + TOY_NAME[ev.a()] + ". Tiếng khóc gọi nó tới đó rồi.", ChatFormatting.DARK_RED);
+                    Fx.sound(p, Compat.sound("apollyon:deep_laugh", "minecraft:entity.warden.nearby_closer"), SoundSource.HOSTILE, damnedAt(r, at), 0.5f, 1.25f);
+                }
+            }
+            case "betray" -> {
+                for (ServerPlayer p : ps) {
+                    Integer id = r.ids.get(p.getUUID());
+                    boolean me = id != null && id == ev.a();
+                    if (p.position().distanceTo(at) < 40) Fx.sound(p, Compat.sound("horror_element_mod:kids_laughing", "minecraft:entity.allay.ambient_without_item"), SoundSource.HOSTILE, at, 1.6f, 0.9f);
+                    if (me) {
+                        say(p, "…cậu ấy ở đằng kia kìa… món đồ chơi chỉ về phía bạn.", ChatFormatting.DARK_RED);
+                        vn.cavemind.net.Net.fx(p, vn.cavemind.net.Net.SHAKE, 0.7f, 10);
+                    } else if (ev.a() >= 0) say(p, "Món đồ chơi vừa chỉ chỗ một người.", ChatFormatting.DARK_GRAY);
+                }
+            }
+            case "ink" -> {
+                Ink k = r.ink.computeIfAbsent(ev.a(), x -> new Ink());
+                seep(r, k, ev.x(), ev.z());
+                k.next = now;
+            }
+            case "ink_clear" -> clearInk(r, ev.a());
+            case "cough" -> {
+                for (ServerPlayer p : ps) {
+                    if (p.position().distanceTo(at) > 40) continue;
+                    Integer id = r.ids.get(p.getUUID());
+                    boolean me = id != null && id == ev.a();
+                    Fx.sound(p, vn.cavemind.world.Sounds.COUGH, SoundSource.PLAYERS, at, me ? 1.0f : 1.8f, 0.95f + r.lvl.getRandom().nextFloat() * 0.1f);
+                    if (me) {
+                        say(p, "Bạn sặc khí lạnh và ho lên một tiếng. Nó nghe thấy rồi.", ChatFormatting.DARK_RED);
+                        vn.cavemind.net.Net.fx(p, vn.cavemind.net.Net.MIST, 1f, 90);
+                    }
+                }
+            }
+            case "rip" -> {
+                for (ServerPlayer p : ps) {
+                    if (p.position().distanceTo(at) > 24) continue;
+                    Fx.sound(p, "minecraft:entity.zombie.break_wooden_door", SoundSource.HOSTILE, at, 1.0f, 0.7f);
+                    Fx.sound(p, Compat.sound("apollyon:small_jumpscare", "minecraft:entity.warden.roar"), SoundSource.HOSTILE, at, 0.7f, 1.3f);
+                    if (p.position().distanceTo(at) < 4) vn.cavemind.net.Net.fx(p, vn.cavemind.net.Net.SHAKE, 1.4f, 14);
+                }
             }
             case "gasp" -> {
                 for (ServerPlayer p : ps) {
@@ -813,12 +891,14 @@ public final class Maze {
         p.fallDistance = 0;
         p.teleportTo(dst, at.x, at.y, at.z, ret == null ? p.getYRot() : ret.yaw(), 0f);
         p.fallDistance = 0;
+        Bag.restore(p);
     }
 
     static void out(ServerPlayer p, String why) {
         Cam.exit(p);
         Run r = run(p);
         WHO.remove(p.getUUID());
+        if (!inMaze(p) && p.isAlive()) Bag.restore(p);
         if (r == null) return;
         Integer id = r.ids.get(p.getUUID());
         Round.Runner rn = id == null ? null : r.core.runner(id);
@@ -893,7 +973,7 @@ public final class Maze {
         List<ItemStack> keep = KEEP.computeIfAbsent(p.getUUID(), k -> new ArrayList<>());
         for (ItemEntity ie : drops) {
             ItemStack st = ie.getItem();
-            if (st.hasTag() && st.getTag().contains(TOY)) continue;
+            if (st.hasTag() && st.getTag().contains(TOY) || Bag.kit(st)) continue;
             keep.add(st.copy());
         }
         return true;
@@ -904,9 +984,13 @@ public final class Maze {
     }
 
     public static void clone(ServerPlayer old, ServerPlayer neu) {
-        if (!DIED.remove(old.getUUID())) return;
+        if (!DIED.remove(old.getUUID())) {
+            if (Bag.holding(neu) && !inMaze(neu)) Bag.restore(neu);
+            return;
+        }
         List<ItemStack> keep = KEEP.remove(old.getUUID());
         if (keep != null) for (ItemStack st : keep) if (!neu.getInventory().add(st)) neu.drop(st, false);
+        if (!inMaze(neu)) Bag.restore(neu);
         neu.experienceLevel = old.experienceLevel;
         neu.experienceProgress = old.experienceProgress;
         neu.totalExperience = old.totalExperience;
@@ -914,6 +998,7 @@ public final class Maze {
     }
 
     static void cleanup(Run r) {
+        for (Integer id : new ArrayList<>(r.ink.keySet())) clearInk(r, id);
         if (r.body != null) {
             Entity e = r.lvl.getEntity(r.body);
             if (e != null) e.discard();
@@ -1241,6 +1326,100 @@ public final class Maze {
         for (int i = 0; i < r.lamps.size(); i++) {
             if (r.lamps.get(i).distToCenterSqr(e.position()) > 49 || rnd.nextFloat() > 0.5f) continue;
             if (r.dimmed.add(i)) lamp(r, i, 0);
+        }
+    }
+
+    static final String[] TOY_NAME = {"nơ đỏ của Linh", "bi ve của Tuấn", "hạc giấy của Mai", "con quay của Bảo", "kẹp tóc của Hà", "nỏ thun của Nam", "kèn của Khoa"};
+    static final String[] TOY_CALL = {"minecraft:block.amethyst_block.chime", "minecraft:block.stone_button.click_on", "minecraft:item.book.page_turn", vn.cavemind.world.Sounds.TOP,
+        "minecraft:block.amethyst_cluster.hit", vn.cavemind.world.Sounds.TWANG, vn.cavemind.world.Sounds.HARMONICA};
+    static final String[] WHISPER = {"…chỗ này của tớ…", "…ra ngoài đi…", "…nó ngửi thấy rồi…", "…tớ cũng từng trốn ở đây…", "…đừng thở to thế…", "…đi đi, không là nó tới…"};
+
+    static Vec3 damnedAt(Run r, Vec3 fallback) {
+        Entity e = r.body == null ? null : r.lvl.getEntity(r.body);
+        return e == null ? fallback : e.position().add(0, 1.5, 0);
+    }
+
+    // Black veins creep over the walls around someone who has stayed put too long.
+    static void seep(Run r, Ink k, double x, double z) {
+        Grid g = r.core.g;
+        int tx = (int) Math.floor(x), tz = (int) Math.floor(z);
+        for (int dx = -2; dx <= 2; dx++) {
+            for (int dz = -2; dz <= 2; dz++) {
+                int qx = tx + dx, qz = tz + dz;
+                if (!Decor.in(qx, qz) || g.tile[qx][qz] == Grid.WALL || g.tile[qx][qz] == Grid.PILLAR) continue;
+                for (int d = 0; d < 4; d++) {
+                    int wx = qx + Decor.DX[d], wz = qz + Decor.DZ[d];
+                    if (!Decor.in(wx, wz) || g.tile[wx][wz] != Grid.WALL && g.tile[wx][wz] != Grid.PILLAR) continue;
+                    for (int h = 1; h <= 3; h++) {
+                        BlockPos q = r.at(qx, F + h, qz);
+                        BlockState st = r.lvl.getBlockState(q);
+                        var side = net.minecraft.world.level.block.PipeBlock.PROPERTY_BY_DIRECTION.get(Decor.DIR[d]);
+                        if (st.isAir()) {
+                            r.lvl.setBlock(q, Blocks.SCULK_VEIN.defaultBlockState().setValue(side, true), 2);
+                            k.veins.add(q);
+                        } else if (st.is(Blocks.SCULK_VEIN) && k.veins.contains(q)) r.lvl.setBlock(q, st.setValue(side, true), 2);
+                    }
+                }
+            }
+        }
+    }
+
+    static void clearInk(Run r, int id) {
+        Ink k = r.ink.remove(id);
+        if (k == null) return;
+        for (BlockPos q : k.veins) if (r.lvl.getBlockState(q).is(Blocks.SCULK_VEIN)) r.lvl.setBlock(q, Blocks.AIR.defaultBlockState(), 2);
+    }
+
+    static void inkTick(Run r, List<ServerPlayer> ps, long now) {
+        if (r.ink.isEmpty()) return;
+        for (ServerPlayer p : ps) {
+            Integer id = r.ids.get(p.getUUID());
+            Ink k = id == null ? null : r.ink.get(id);
+            if (k == null) continue;
+            if (now % 10 == 0) r.lvl.sendParticles(net.minecraft.core.particles.ParticleTypes.SQUID_INK, p.getX(), p.getY() + 1.6, p.getZ(), 3, 0.45, 0.5, 0.45, 0.002);
+            if (now < k.next) continue;
+            k.next = now + 70 + r.lvl.getRandom().nextInt(40);
+            say(p, WHISPER[r.lvl.getRandom().nextInt(WHISPER.length)], ChatFormatting.DARK_GRAY);
+            double a = r.lvl.getRandom().nextDouble() * Math.PI * 2;
+            Fx.sound(p, r.lvl.getRandom().nextBoolean() ? "man:short_whisper_1" : "man:short_whisper_2", SoundSource.HOSTILE, p.position().add(Math.cos(a) * 1.2, 1.4, Math.sin(a) * 1.2), 0.35f, 1.7f);
+        }
+    }
+
+    static boolean besideWall(Grid g, double x, double z) {
+        for (double ox : new double[]{-0.9, 0, 0.9}) {
+            for (double oz : new double[]{-0.9, 0, 0.9}) {
+                int ix = (int) Math.floor(x + ox), iz = (int) Math.floor(z + oz);
+                if (Decor.in(ix, iz) && g.tile[ix][iz] == Grid.WALL) return true;
+            }
+        }
+        return false;
+    }
+
+    // While searching it drags its nails along the plaster and knocks on the closets it brushes past.
+    static void scrape(Run r, List<ServerPlayer> ps, Entity e, double mv, long now) {
+        Brain b = r.core.brain;
+        if (b.y < 0 || !(b.mode == Brain.Mode.SEARCH || b.mode == Brain.Mode.LAST || b.mode == Brain.Mode.SWEEP)) return;
+        net.minecraft.util.RandomSource rnd = r.lvl.getRandom();
+        Grid g = r.core.g;
+        if (mv > 0.02 && now >= r.nextScrape && besideWall(g, b.x, b.z)) {
+            r.nextScrape = now + 45 + rnd.nextInt(70);
+            for (ServerPlayer p : ps) {
+                double d = p.position().distanceTo(e.position());
+                if (d > 24) continue;
+                Fx.sound(p, vn.cavemind.world.Sounds.SCRAPE, SoundSource.HOSTILE, e.position().add(0, 1.3, 0), 0.9f, 0.8f + rnd.nextFloat() * 0.35f);
+            }
+        }
+        for (int i = 0; i < g.closets.size(); i++) {
+            Grid.Closet c = g.closets.get(i);
+            if (Math.hypot(c.x + 0.5 - b.x, c.z + 0.5 - b.z) > 1.7 || now - r.tapped.getOrDefault(i, -1000L) < 160) continue;
+            r.tapped.put(i, now);
+            Vec3 at = Vec3.atCenterOf(r.at(c.x, F + 2, c.z));
+            String knock = c.kind == Grid.LOCKER ? "minecraft:block.iron_trapdoor.close" : "minecraft:block.wood.hit";
+            for (ServerPlayer p : ps) {
+                if (p.position().distanceTo(at) > 20) continue;
+                Fx.sound(p, knock, SoundSource.HOSTILE, at, c.kind == Grid.LOCKER ? 0.25f : 0.5f, c.kind == Grid.LOCKER ? 1.7f : 0.6f);
+                Fx.later(r.lvl, 6, () -> Fx.sound(p, knock, SoundSource.HOSTILE, at, c.kind == Grid.LOCKER ? 0.18f : 0.4f, c.kind == Grid.LOCKER ? 1.8f : 0.55f));
+            }
         }
     }
 

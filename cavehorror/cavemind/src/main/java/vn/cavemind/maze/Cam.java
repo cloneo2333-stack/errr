@@ -25,6 +25,8 @@ public final class Cam {
         float danger, fear, stamina = 1;
         int toys, left;
         boolean hiding, exhausted, holding;
+        float near = 99f;
+        int camp;
     }
 
     private static final Map<UUID, St> ST = new HashMap<>();
@@ -92,10 +94,12 @@ public final class Cam {
         else p.removeEffect(MobEffects.NIGHT_VISION);
     }
 
-    static void tick(ServerPlayer p, float danger, int toys, int left, boolean hiding, long now, Round.Runner rn, boolean seen) {
+    static void tick(ServerPlayer p, float danger, int toys, int left, boolean hiding, long now, Round.Runner rn, boolean seen, float near, int camp) {
         St s = ST.get(p.getUUID());
         if (s == null) return;
         s.danger = danger;
+        s.near = near;
+        s.camp = camp;
         s.toys = toys;
         s.left = left;
         s.hiding = hiding;
@@ -142,7 +146,7 @@ public final class Cam {
     }
 
     static void send(ServerPlayer p, St s) {
-        Net.send(p, new Net.Cam(true, (float) s.battery, s.nv, s.danger, s.toys, s.left, s.hiding, s.stamina, s.fear, s.exhausted, s.holding, on()));
+        Net.send(p, new Net.Cam(true, (float) s.battery, s.nv, s.danger, s.toys, s.left, s.hiding, s.stamina, s.fear, s.exhausted, s.holding, on(), s.near, s.camp));
     }
 
     private Cam() {}

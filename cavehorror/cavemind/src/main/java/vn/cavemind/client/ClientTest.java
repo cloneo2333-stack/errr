@@ -96,10 +96,10 @@ public final class ClientTest {
             }
             mc.setScreen(null);
         }
-        if (m < 240) MazeHud.on(new Net.Cam(true, 0.6f, false, 0.0f, 2, 400, false, 1f, 0.3f, false, false, true));
-        else if (m < 360) MazeHud.on(new Net.Cam(true, 0.55f, true, 0.1f, 2, 390, false, 0.8f, 0.2f, false, false, true));
-        else if (m < 480) MazeHud.on(new Net.Cam(true, 0.5f, false, 0.92f, 3, 380, true, 0.45f, 0.9f, false, true, true));
-        else MazeHud.on(new Net.Cam(true, 0.07f, true, 0.85f, 3, 370, false, 0.1f, 0.8f, true, false, true));
+        if (m < 240) MazeHud.on(new Net.Cam(true, 0.6f, false, 0.0f, 2, 400, false, 1f, 0.3f, false, false, true, 30f, 0));
+        else if (m < 360) MazeHud.on(new Net.Cam(true, 0.55f, true, 0.1f, 2, 390, false, 0.8f, 0.2f, false, false, true, 12f, 0));
+        else if (m < 480) MazeHud.on(new Net.Cam(true, 0.5f, false, 0.92f, 3, 380, true, 0.45f, 0.9f, false, true, true, 3f, 1));
+        else MazeHud.on(new Net.Cam(true, 0.07f, true, 0.85f, 3, 370, false, 0.1f, 0.8f, true, false, true, 5f, 0));
         boolean nvOn = m >= 240 && m < 360 || m >= 480;
         if (nvOn && !mc.player.hasEffect(net.minecraft.world.effect.MobEffects.NIGHT_VISION)) mc.player.addEffect(new net.minecraft.world.effect.MobEffectInstance(net.minecraft.world.effect.MobEffects.NIGHT_VISION, 2000, 0, false, false));
         if (!nvOn && mc.player.hasEffect(net.minecraft.world.effect.MobEffects.NIGHT_VISION)) mc.player.removeEffect(net.minecraft.world.effect.MobEffects.NIGHT_VISION);

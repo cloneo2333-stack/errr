@@ -15,7 +15,7 @@ import vn.cavemind.CaveMind;
 import vn.cavemind.sense.Watch;
 
 public final class Net {
-    private static final String V = "5";
+    private static final String V = "6";
     public static final SimpleChannel CH = NetworkRegistry.newSimpleChannel(
         new ResourceLocation(CaveMind.MODID, "main"), () -> V, NetworkRegistry.acceptMissingOr(V), NetworkRegistry.acceptMissingOr(V));
 
@@ -26,6 +26,7 @@ public final class Net {
     public static final int DARK = 5;
     public static final int HOLD = 6;
     public static final int SCAN = 7;
+    public static final int MIST = 8;
 
     public static void init() {
         CH.messageBuilder(View.class, 0, NetworkDirection.PLAY_TO_SERVER)
@@ -184,12 +185,12 @@ public final class Net {
     }
 
     public record Cam(boolean on, float battery, boolean nv, float danger, int toys, int left, boolean hiding, float stamina, float fear, boolean exhausted, boolean holding,
-                      boolean cam) {
-        public static final Cam OFF = new Cam(false, 0, false, 0, 0, 0, false, 1, 0, false, false, false);
+                      boolean cam, float near, int camp) {
+        public static final Cam OFF = new Cam(false, 0, false, 0, 0, 0, false, 1, 0, false, false, false, 99f, 0);
 
         public Cam(FriendlyByteBuf b) {
             this(b.readBoolean(), b.readFloat(), b.readBoolean(), b.readFloat(), b.readByte(), b.readVarInt(), b.readBoolean(), b.readFloat(), b.readFloat(), b.readBoolean(),
-                b.readBoolean(), b.readBoolean());
+                b.readBoolean(), b.readBoolean(), b.readFloat(), b.readByte());
         }
 
         public void write(FriendlyByteBuf b) {
@@ -205,6 +206,8 @@ public final class Net {
             b.writeBoolean(exhausted);
             b.writeBoolean(holding);
             b.writeBoolean(cam);
+            b.writeFloat(near);
+            b.writeByte(camp);
         }
 
         public void handle(Supplier<NetworkEvent.Context> ctx) {

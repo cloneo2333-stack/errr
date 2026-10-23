@@ -75,6 +75,9 @@ public final class Profile {
     public int dHolds, dHoldFails;
     public boolean gotFinder;
     public long lastHuntCatch = -1;
+    public ListTag mazeBag;
+    public long pasted, cleaned;
+    public int stampGifts;
 
     public static final class Home {
         public BlockPos pos, bed;
@@ -316,6 +319,10 @@ public final class Profile {
         v5.putInt("dHolds", dHolds);
         v5.putBoolean("gotFinder", gotFinder);
         v5.putInt("dHoldFails", dHoldFails);
+        if (mazeBag != null) v5.put("mazeBag", mazeBag);
+        v5.putLong("pasted", pasted);
+        v5.putLong("cleaned", cleaned);
+        v5.putInt("stampGifts", stampGifts);
         t.put("v5", v5);
         t.putInt("ver", 5);
         return t;
@@ -433,6 +440,10 @@ public final class Profile {
             p.dHolds = v5.getInt("dHolds");
             p.gotFinder = v5.getBoolean("gotFinder");
             p.dHoldFails = v5.getInt("dHoldFails");
+            if (v5.contains("mazeBag")) p.mazeBag = v5.getList("mazeBag", Tag.TAG_COMPOUND);
+            p.pasted = v5.getLong("pasted");
+            p.cleaned = v5.getLong("cleaned");
+            p.stampGifts = v5.getInt("stampGifts");
         }
         if (t.contains("mbar")) {
             CompoundTag bar = t.getCompound("mbar");

@@ -1,0 +1,87 @@
+{
+  "maze.hum": {
+    "subtitle": "subtitles.cavemind.maze.hum",
+    "sounds": [
+      {
+        "name": "cavemind:maze/hum",
+        "stream": false
+      }
+    ]
+  },
+  "maze.focus": {
+    "subtitle": "subtitles.cavemind.maze.focus",
+    "sounds": [
+      {
+        "name": "cavemind:maze/focus",
+        "stream": false
+      }
+    ]
+  },
+  "maze.sob": {
+    "subtitle": "subtitles.cavemind.maze.sob",
+    "sounds": [
+      {
+        "name": "cavemind:maze/sob1",
+        "stream": false
+      },
+      {
+        "name": "cavemind:maze/sob2",
+        "stream": false
+      }
+    ]
+  },
+  "maze.cough": {
+    "subtitle": "subtitles.cavemind.maze.cough",
+    "sounds": [
+      {
+        "name": "cavemind:maze/cough",
+        "stream": false
+      }
+    ]
+  },
+  "maze.scrape": {
+    "subtitle": "subtitles.cavemind.maze.scrape",
+    "sounds": [
+      {
+        "name": "cavemind:maze/scrape",
+        "stream": false
+      }
+    ]
+  },
+  "maze.tape": {
+    "subtitle": "subtitles.cavemind.maze.tape",
+    "sounds": [
+      {
+        "name": "cavemind:maze/tape",
+        "stream": false
+      }
+    ]
+  },
+  "maze.top": {
+    "subtitle": "subtitles.cavemind.maze.top",
+    "sounds": [
+      {
+        "name": "cavemind:maze/top",
+        "stream": false
+      }
+    ]
+  },
+  "maze.harmonica": {
+    "subtitle": "subtitles.cavemind.maze.harmonica",
+    "sounds": [
+      {
+        "name": "cavemind:maze/harmonica",
+        "stream": false
+      }
+    ]
+  },
+  "maze.twang": {
+    "subtitle": "subtitles.cavemind.maze.twang",
+    "sounds": [
+      {
+        "name": "cavemind:maze/twang",
+        "stream": false
+      }
+    ]
+  }
+}

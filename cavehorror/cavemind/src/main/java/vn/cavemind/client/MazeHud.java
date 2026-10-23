@@ -1,5 +1,8 @@
 package vn.cavemind.client;
 
+import com.mojang.blaze3d.pipeline.RenderTarget;
+import com.mojang.blaze3d.pipeline.TextureTarget;
+import com.mojang.blaze3d.platform.GlStateManager;
 import com.mojang.blaze3d.platform.InputConstants;
 import com.mojang.blaze3d.systems.RenderSystem;
 import java.util.Random;
@@ -11,11 +14,16 @@ import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.renderer.EffectInstance;
 import net.minecraft.client.renderer.PostChain;
 import net.minecraft.client.renderer.PostPass;
+import net.minecraft.client.resources.sounds.AbstractTickableSoundInstance;
 import net.minecraft.client.resources.sounds.SimpleSoundInstance;
+import net.minecraft.client.resources.sounds.SoundInstance;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
 import net.minecraft.util.Mth;
+import net.minecraft.util.RandomSource;
+import net.minecraft.world.phys.HitResult;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.ClientPlayerNetworkEvent;
 import net.minecraftforge.client.event.RegisterGuiOverlaysEvent;
@@ -29,8 +37,11 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.ForgeRegistries;
 import org.lwjgl.glfw.GLFW;
+import org.lwjgl.opengl.GL11;
+import org.lwjgl.opengl.GL30;
 import vn.cavemind.CaveMind;
 import vn.cavemind.net.Net;
+import vn.cavemind.world.Sounds;
 
 @Mod.EventBusSubscriber(modid = CaveMind.MODID, value = Dist.CLIENT)
 public final class MazeHud {
@@ -50,6 +61,15 @@ public final class MazeHud {
     static boolean broken;
     static int cw, ch;
 
+    static final float BLACK_FAR = 2.0f, BLACK_NEAR = 0.35f, NV_FAR = 18f;
+    static final int FOCUS_TICKS = 9;
+    static float near = 99f, shownAura, shownDim, lcdK, shownInk, mist, humVol, ghost, tearY = 0.5f;
+    static int camp, focus, focusReady, tear, nextTear, lastMemo = -1, seenIdx;
+    static boolean wasHolding, focusSoon;
+    static final double[] SEEN = {30, 30, 30, 30, 30};
+    static TextureTarget history;
+    static Hum hum;
+
     public static void on(Net.Cam c) {
         Minecraft mc = Minecraft.getInstance();
         if (c.on() && !on) {
@@ -57,6 +77,7 @@ public final class MazeHud {
             shown = 0;
         }
         if (c.nv() != nv && on && c.on()) static_(mc, 0.18f);
+        if (c.nv() && !nv && on && c.on()) focusSoon = true;
         on = c.on();
         nv = c.nv();
         battery = c.battery();
@@ -69,7 +90,30 @@ public final class MazeHud {
         exhausted = c.exhausted();
         holding = c.holding();
         cam = c.cam();
+        near = c.near();
+        camp = c.camp();
         last = System.currentTimeMillis();
+    }
+
+    // camera on but night vision off: the fog closes in at two metres
+    static boolean pitchBlack() {
+        return active() && cam && !nv;
+    }
+
+    static boolean nightVision() {
+        return active() && cam && nv;
+    }
+
+    static float dim() {
+        return shownDim;
+    }
+
+    static float lcd() {
+        return active() ? lcdK : 0f;
+    }
+
+    static void mist(float a) {
+        mist = Math.max(mist, Mth.clamp(a, 0f, 1f));
     }
 
     static boolean active() {
@@ -84,6 +128,10 @@ public final class MazeHud {
     public static void logout(ClientPlayerNetworkEvent.LoggingOut e) {
         on = false;
         close();
+        if (history != null) {
+            history.destroyBuffers();
+            history = null;
+        }
     }
 
     @SubscribeEvent
@@ -97,8 +145,15 @@ public final class MazeHud {
         boolean act = active();
         fade = Mth.clamp(fade + (act && cam ? 0.05f : -0.04f), 0f, 1f);
         if (fade <= 0f && chain != null) close();
-        if (!act) return;
+        if (!act) {
+            mist = ghost = shownAura = shownDim = lcdK = shownInk = humVol = 0f;
+            tear = focus = 0;
+            near = 99f;
+            return;
+        }
         tick++;
+        presence(mc);
+        lens(mc);
         shown = Math.min(1f, shown + 0.04f);
         shownStamina += (stamina - shownStamina) * 0.25f;
         shownFear += (fear - shownFear) * 0.15f;
@@ -121,6 +176,99 @@ public final class MazeHud {
             nextStatic = tick + 120 + R.nextInt(80);
             static_(mc, 0.2f);
         }
+    }
+
+    // The Damned's pressure: a sub-bass hum inside 15 m, the night vision choking and black veins inside 8 m.
+    static void presence(Minecraft mc) {
+        float aura = near < 8f ? Mth.clamp((8f - near) / 7f, 0f, 1f) : 0f;
+        float dim = near < 8f ? 0.3f * Mth.clamp((8f - near) / 3f, 0f, 1f) : 0f;
+        shownAura += (aura - shownAura) * 0.08f;
+        shownDim += (dim - shownDim) * 0.1f;
+        lcdK += ((cam && !nv ? 1f : 0f) - lcdK) * 0.2f;
+        shownInk += ((camp >= 1 ? 1f : 0f) - shownInk) * 0.03f;
+        float h = near < 15f ? (float) Math.pow((15f - near) / 15f, 1.3) * 0.9f : 0f;
+        humVol += (h - humVol) * 0.08f;
+        if (humVol > 0.02f && (hum == null || !mc.getSoundManager().isActive(hum))) {
+            hum = new Hum(sound(Sounds.HUM, SoundEvents.BEACON_AMBIENT));
+            mc.getSoundManager().play(hum);
+        }
+    }
+
+    // Lens behaviour: autofocus hunting, breath fogging the glass, tape tearing when the fear runs high.
+    static void lens(Minecraft mc) {
+        if (focus > 0) focus--;
+        if (mist > 0f) mist = Math.max(0f, mist - 0.011f);
+        if (hiding && wasHolding && !holding) mist(0.9f);
+        wasHolding = holding;
+        if (hiding && exhausted && tick % 50 == 0) mist(0.65f);
+        if (focusSoon) {
+            focusSoon = false;
+            hunt(mc);
+        }
+        if (tick % 4 == 0 && mc.player != null) {
+            HitResult hit = mc.player.pick(28.0, 1f, false);
+            double d = hit.getLocation().distanceTo(mc.player.getEyePosition());
+            double shortest = d;
+            for (double v : SEEN) shortest = Math.min(shortest, v);
+            SEEN[seenIdx++ % SEEN.length] = d;
+            if (cam && d > 9 && shortest < 4.5 && tick >= focusReady) hunt(mc);
+        }
+        if (tear > 0) tear--;
+        ghost = Math.max(0f, ghost - 0.025f);
+        if (cam && shownFear > 0.7f && tick >= nextTear) {
+            nextTear = tick + 40 + R.nextInt(70);
+            tear = 7;
+            tearY = 0.12f + R.nextFloat() * 0.76f;
+            ghost = 0.6f;
+            play(mc, sound(Sounds.TAPE, SoundEvents.UI_BUTTON_CLICK.value()), 0.9f + R.nextFloat() * 0.2f, 0.22f);
+        }
+    }
+
+    static void hunt(Minecraft mc) {
+        focus = FOCUS_TICKS;
+        focusReady = tick + 70;
+        play(mc, sound(Sounds.FOCUS, SoundEvents.UI_BUTTON_CLICK.value()), 0.95f + R.nextFloat() * 0.1f, 0.3f);
+    }
+
+    static float focusBlur(float pt) {
+        if (focus <= 0) return 0f;
+        float t = Mth.clamp((focus - pt) / FOCUS_TICKS, 0f, 1f);
+        float v = t > 0.6f ? 1f : t > 0.42f ? 0.4f : t > 0.24f ? 0.8f : t / 0.24f * 0.45f;
+        return nv ? v : v * 0.6f;
+    }
+
+    static final class Hum extends AbstractTickableSoundInstance {
+        Hum(SoundEvent s) {
+            super(s, SoundSource.HOSTILE, RandomSource.create());
+            looping = true;
+            delay = 0;
+            volume = 0.02f;
+            relative = true;
+            attenuation = SoundInstance.Attenuation.NONE;
+        }
+
+        @Override
+        public boolean canStartSilent() {
+            return true;
+        }
+
+        @Override
+        public void tick() {
+            if (!active()) {
+                stop();
+                return;
+            }
+            volume = Math.max(0.0001f, humVol);
+        }
+    }
+
+    // F1 would strip the camcorder off the screen; survival players keep the HUD.
+    @SubscribeEvent
+    public static void noHideGui(TickEvent.RenderTickEvent e) {
+        if (e.phase != TickEvent.Phase.START) return;
+        Minecraft mc = Minecraft.getInstance();
+        if (!mc.options.hideGui || mc.player == null || mc.player.isCreative() || mc.player.isSpectator()) return;
+        mc.options.hideGui = false;
     }
 
     static void static_(Minecraft mc, float vol) {
@@ -158,6 +306,18 @@ public final class MazeHud {
         if (active() && cam && e.usedConfiguredFov()) e.setFOV(e.getFOV() * (1.06 + fear * 0.04));
     }
 
+    static void remember(Minecraft mc) {
+        RenderTarget main = mc.getMainRenderTarget();
+        if (history == null || history.width != main.width || history.height != main.height) {
+            if (history != null) history.destroyBuffers();
+            history = new TextureTarget(main.width, main.height, false, Minecraft.ON_OSX);
+        }
+        GlStateManager._glBindFramebuffer(GL30.GL_READ_FRAMEBUFFER, main.frameBufferId);
+        GlStateManager._glBindFramebuffer(GL30.GL_DRAW_FRAMEBUFFER, history.frameBufferId);
+        GlStateManager._glBlitFrameBuffer(0, 0, main.width, main.height, 0, 0, history.width, history.height, GL11.GL_COLOR_BUFFER_BIT, GL11.GL_NEAREST);
+        GlStateManager._glBindFramebuffer(GL30.GL_FRAMEBUFFER, 0);
+    }
+
     static void close() {
         if (chain != null) {
             try {
@@ -178,6 +338,7 @@ public final class MazeHud {
                 chain = new PostChain(mc.getTextureManager(), mc.getResourceManager(), mc.getMainRenderTarget(), POST);
                 var swap = chain.getTempTarget("swap");
                 pass = chain.addPass("cavemind:camcorder", mc.getMainRenderTarget(), swap);
+                pass.addAuxAsset("HistorySampler", () -> history != null ? history.getColorTextureId() : mc.getMainRenderTarget().getColorTextureId(), w, h);
                 chain.addPass("blit", swap, mc.getMainRenderTarget());
                 cw = ch = 0;
             }
@@ -208,7 +369,21 @@ public final class MazeHud {
         fx.safeGetUniform("Fear").set(fear);
         fx.safeGetUniform("Seed").set((tick % 97) + R.nextFloat());
         fx.safeGetUniform("Fade").set(fade);
+        fx.safeGetUniform("Time").set((tick + pt) / 20f);
+        fx.safeGetUniform("Focus").set(focusBlur(pt));
+        fx.safeGetUniform("Mist").set(mist);
+        fx.safeGetUniform("Tear").set(tear > 0 ? Math.min(1f, 0.3f + (tear - pt) / 3f) : 0f);
+        fx.safeGetUniform("TearY").set(tearY);
+        fx.safeGetUniform("Ghost").set(ghost);
+        fx.safeGetUniform("Aura").set(shownAura);
+        fx.safeGetUniform("Dim").set(shownDim);
+        fx.safeGetUniform("Lcd").set(lcdK);
+        fx.safeGetUniform("Ink").set(shownInk);
         try {
+            if (tick != lastMemo && tick % 10 == 0) {
+                lastMemo = tick;
+                remember(mc);
+            }
             RenderSystem.disableBlend();
             RenderSystem.disableDepthTest();
             RenderSystem.resetTextureMatrix();
@@ -239,6 +414,7 @@ public final class MazeHud {
             for (int y = 0; y < h; y += gap + bar) g.fillGradient(0, y, w, y + bar, sa, (int) (slats * 190) << 24);
             g.fill(0, 0, w / 7, h, sa);
             g.fill(w - w / 7, 0, w, h, sa);
+            scratches(g, w, h, slats);
         }
         if (cam && danger > 0.7f && R.nextFloat() < danger * 0.2f) {
             int y = R.nextInt(Math.max(1, h)), bh = 1 + R.nextInt(2);
@@ -247,6 +423,27 @@ public final class MazeHud {
         RenderSystem.depthMask(true);
         RenderSystem.enableDepthTest();
         ui(g, mc.font, w, h, k);
+    }
+
+    // Fingernail gouges on the inside of the door, left by whoever hid here before.
+    static void scratches(GuiGraphics g, int w, int h, float k) {
+        Random r = new Random(4848);
+        int a = (int) (k * 120);
+        for (int i = 0; i < 24; i++) {
+            float x0 = r.nextFloat() * w, y0 = r.nextFloat() * h * 0.85f;
+            float ang = (float) (Math.PI * (0.32 + r.nextFloat() * 0.36));
+            float len = h * (0.07f + r.nextFloat() * 0.17f);
+            int col = (a * (55 + r.nextInt(45)) / 100) << 24 | (r.nextBoolean() ? 0xC8B49A : 0x9A8268);
+            int nails = 3 + r.nextInt(2), steps = Math.max(2, (int) (len / 2));
+            for (int n = 0; n < nails; n++) {
+                float ox = n * 3.2f, oy = n * 0.9f;
+                for (int s = 0; s < steps; s++) {
+                    float t = s / (float) steps;
+                    int px = (int) (x0 + ox + Mth.cos(ang) * len * t + Mth.sin(t * 9f + i) * 1.2f), py = (int) (y0 + oy + Mth.sin(ang) * len * t);
+                    g.fill(px, py, px + 1, py + 2, col);
+                }
+            }
+        }
     }
 
     static void bar(GuiGraphics g, Font f, int x, int y, int bw, String label, float v, int col, int a, boolean blink) {
@@ -329,6 +526,11 @@ public final class MazeHud {
         public static void keys(RegisterKeyMappingsEvent e) {
             e.register(KEY);
             e.register(BookClient.KEY);
+        }
+
+        @SubscribeEvent
+        public static void sky(net.minecraftforge.client.event.RegisterDimensionSpecialEffectsEvent e) {
+            e.register(new ResourceLocation(CaveMind.MODID, "gio_48"), new MazeSky());
         }
 
         @SubscribeEvent
