@@ -134,8 +134,71 @@ public final class Book {
                 }
                 setMode(p.server, arg == 1 ? 1 : 0, p);
             }
+            case Net.Ask.PASTE -> paste(p, arg);
+            case Net.Ask.CLEAN -> clean(p, arg);
             default -> {}
         }
+    }
+
+    // Stamps: one per journal page pasted in (bits 0-23) and one per opened chapter stamped (bits 24-29).
+    public static final int STAMP_CHAPTER = 24, STAMINA_AT = 4, BATTERY_AT = 8, RECIPE_AT = 12;
+
+    public static int stamps(Profile pr) {
+        return Long.bitCount(pr.pasted);
+    }
+
+    static boolean stampable(Profile pr, int idx) {
+        if (idx >= 0 && idx < Pages.TOTAL) return (pr.pages & 1L << idx) != 0;
+        int ch = idx - STAMP_CHAPTER + 1;
+        return ch >= 1 && ch <= 6 && pr.chapter >= ch;
+    }
+
+    static void paste(ServerPlayer p, int idx) {
+        Profile pr = MindData.profile(p);
+        if (idx < 0 || idx >= STAMP_CHAPTER + 6 || !stampable(pr, idx) || (pr.pasted & 1L << idx) != 0) return;
+        pr.pasted |= 1L << idx;
+        int n = stamps(pr);
+        Fx.sound(p, "minecraft:block.amethyst_block.chime", SoundSource.PLAYERS, p.position(), 0.5f, 1.6f);
+        p.displayClientMessage(Component.literal("Dấu ấn " + n + ". Cuốn sổ ấm lên trong tay bạn.").withStyle(ChatFormatting.GOLD, ChatFormatting.ITALIC), true);
+        if (n >= STAMINA_AT && (pr.stampGifts & 1) == 0) {
+            pr.stampGifts |= 1;
+            p.displayClientMessage(Component.literal("Đủ " + STAMINA_AT + " dấu ấn: dưới mê cung bạn chạy và nín thở lâu hơn 15%.").withStyle(ChatFormatting.GOLD), false);
+        }
+        if (n >= BATTERY_AT && (pr.stampGifts & 2) == 0) {
+            pr.stampGifts |= 2;
+            p.displayClientMessage(Component.literal("Đủ " + BATTERY_AT + " dấu ấn: pin máy quay bền hơn một phần tư.").withStyle(ChatFormatting.GOLD), false);
+        }
+        if (n >= RECIPE_AT && (pr.stampGifts & 4) == 0) {
+            pr.stampGifts |= 4;
+            rareRecipe(p, pr);
+        }
+        MindData.dirty(p.server);
+        Net.send(p, new Net.Book(Net.Book.UPDATE, build(p, -1).toString()));
+    }
+
+    static void rareRecipe(ServerPlayer p, Profile pr) {
+        ItemStack gift = Gifts.rare(p, Math.max(2, pr.chapter), "những trang nhật ký");
+        for (var rec : p.server.getRecipeManager().getRecipes()) {
+            ItemStack out = rec.getResultItem(p.server.registryAccess());
+            if (out.isEmpty() || out.getItem() != gift.getItem()) continue;
+            p.awardRecipes(List.of(rec));
+            p.displayClientMessage(Component.literal("Đủ " + RECIPE_AT + " dấu ấn: sổ mở khóa công thức ").append(out.getHoverName()).append(".").withStyle(ChatFormatting.GOLD), false);
+            break;
+        }
+        p.displayClientMessage(Component.literal("Giữa các trang sổ kẹp sẵn một món vũ khí hiếm.").withStyle(ChatFormatting.GOLD), false);
+        Gifts.give(p, gift);
+    }
+
+    static void clean(ServerPlayer p, int idx) {
+        Profile pr = MindData.profile(p);
+        if (idx < 0 || idx >= Pages.TOTAL || (pr.pages & 1L << idx) == 0) return;
+        pr.cleaned |= 1L << idx;
+        MindData.dirty(p.server);
+    }
+
+    static boolean lurking(ServerPlayer p) {
+        net.minecraft.world.entity.Entity e = vn.cavemind.man.ManMind.walkingBody(p);
+        return e != null && e.level() == p.level() && e.distanceTo(p) < 48;
     }
 
     public static void setMode(MinecraftServer s, int m, ServerPlayer by) {
@@ -256,12 +319,23 @@ public final class Book {
             c.addProperty("t", Chapters.TITLE[i]);
             c.addProperty("c", i >= 2 ? Points.CHILD[i] : "");
             c.addProperty("open", pr.chapter >= i);
+            c.addProperty("st", (pr.pasted & 1L << (STAMP_CHAPTER + i - 1)) != 0);
             chs.add(c);
         }
         o.add("chapters", chs);
         JsonArray notes = new JsonArray();
-        for (int i = 0; i < Pages.TOTAL; i++) if ((pr.pages & 1L << i) != 0) notes.add(sec(Pages.TITLE[i], Pages.TEXT[i]));
+        for (int i = 0; i < Pages.TOTAL; i++) {
+            if ((pr.pages & 1L << i) == 0) continue;
+            JsonObject n = sec(Pages.TITLE[i], Pages.TEXT[i]);
+            n.addProperty("i", i);
+            n.addProperty("c", (pr.cleaned & 1L << i) != 0);
+            n.addProperty("p", (pr.pasted & 1L << i) != 0);
+            notes.add(n);
+        }
         o.add("notes", notes);
+        o.addProperty("stamps", stamps(pr));
+        o.addProperty("pasted", pr.pasted);
+        o.addProperty("lurk", lurking(p));
         o.addProperty("found", found);
         JsonArray start = new JsonArray();
         start.add(true);

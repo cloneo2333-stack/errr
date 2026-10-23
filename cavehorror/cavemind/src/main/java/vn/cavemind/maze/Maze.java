@@ -236,6 +236,7 @@ public final class Maze {
 
     static void join(Run r, ServerPlayer p, Ret ret) {
         Round.Runner rn = r.core.add(r.nextId++);
+        if (vn.cavemind.chapter.Book.stamps(MindData.profile(p)) >= vn.cavemind.chapter.Book.STAMINA_AT) rn.drain = 1 / 1.15;
         r.ids.put(p.getUUID(), rn.id);
         r.back.put(p.getUUID(), ret);
         WHO.put(p.getUUID(), r.slot);

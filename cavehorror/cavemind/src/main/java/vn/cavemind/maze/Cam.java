@@ -27,6 +27,7 @@ public final class Cam {
         boolean hiding, exhausted, holding;
         float near = 99f;
         int camp;
+        double drain = 1;
     }
 
     private static final Map<UUID, St> ST = new HashMap<>();
@@ -41,6 +42,7 @@ public final class Cam {
 
     static void enter(ServerPlayer p) {
         St s = new St();
+        if (vn.cavemind.chapter.Book.stamps(vn.cavemind.memory.MindData.profile(p)) >= vn.cavemind.chapter.Book.BATTERY_AT) s.drain = 0.75;
         ST.put(p.getUUID(), s);
         var speed = p.getAttribute(net.minecraft.world.entity.ai.attributes.Attributes.MOVEMENT_SPEED);
         if (speed != null && speed.getModifier(SLOW) == null) {
@@ -118,7 +120,7 @@ public final class Cam {
         if (hiding && danger < 0.4f) target = Math.min(target, 0.15f);
         s.fear += target > s.fear ? Math.min(0.03f, target - s.fear) : -Math.min(hiding ? 0.008f : 0.004f, s.fear - target);
         if (s.nv) {
-            s.battery = Math.max(0, s.battery - DRAIN);
+            s.battery = Math.max(0, s.battery - DRAIN * s.drain);
             if (now % 40 == 0) p.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 300, 0, false, false, false));
             if (s.battery < 0.15 && !s.warned) {
                 s.warned = true;
@@ -136,7 +138,7 @@ public final class Cam {
     public static boolean drain(ServerPlayer p, double amount) {
         St s = ST.get(p.getUUID());
         if (s == null || s.battery <= 0.005) return false;
-        s.battery = Math.max(0, s.battery - amount);
+        s.battery = Math.max(0, s.battery - amount * s.drain);
         return true;
     }
 

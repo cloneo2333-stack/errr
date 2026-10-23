@@ -235,7 +235,7 @@ public final class Net {
     }
 
     public record Ask(int op, int arg) {
-        public static final int OPEN = 0, MODE = 1;
+        public static final int OPEN = 0, MODE = 1, PASTE = 2, CLEAN = 3;
 
         public Ask(FriendlyByteBuf b) {
             this(b.readByte(), b.readVarInt());

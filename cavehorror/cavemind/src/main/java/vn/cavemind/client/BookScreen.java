@@ -27,7 +27,10 @@ import vn.cavemind.CaveMind;
 public final class BookScreen extends Screen {
     static final String[] TABS = {"Bắt đầu", "Mục tiêu", "Các chương", "Hướng dẫn", "Mê cung", "Vật phẩm", "Ghi chép"};
     static final int INK = 0xFF3B2A1E, RED = 0xFF7A1A14, FAINT = 0xFF8A7458, PAPER_A = 0xFFE9DCBD, PAPER_B = 0xFFD9C79F;
-    static final int GUIDE = 0, CHAPTERS = 2, GEAR = 5;
+    static final int GUIDE = 0, CHAPTERS = 2, GEAR = 5, NOTES = 6;
+    static final int DIRT_W = 14, DIRT_H = 8;
+    static final java.util.Map<Integer, float[]> DIRT = new java.util.HashMap<>();
+    static long scrawlDay = -1;
 
     record Entry(String id, String moon, int color, String name, String from, String use, String cost, String[] grid) {}
 
@@ -85,50 +88,59 @@ public final class BookScreen extends Screen {
     record Card(String img, String title, String body, String tip, Thing... things) {}
 
     static final Card[] CARDS = {
-        new Card("so", "Cuốn sổ này", "Bấm J hoặc chuột phải để mở. Sổ không vứt được, mất thì tự quay lại túi. Lúc nào không biết làm gì, mở trang Mục tiêu.",
-            "Lật từng thẻ ở trang này theo thứ tự. Dấu đỏ ĐÃ TRẢI QUA hiện lên khi bạn đã thật sự gặp chuyện đó. Lạc đường thì thả lọ đom đóm.",
+        new Card("so", "Cuốn sổ này", "Phím J mở sổ. Không biết làm gì: xem trang Mục tiêu.", "Dấu đỏ ĐÃ TRẢI QUA: việc bạn đã gặp.",
             new Thing("cavemind:so_chuong", "Sổ Chương: mở bằng phím J"), new Thing("cavemind:lo_dom_dom", "Lọ đom đóm: bay về phía nơi bạn cần tới")),
-        new Card("man", "Người trong sương", "Thanh THE MAN ở góc màn hình đầy dần khi bạn sống sót. Tối thì ở trong nhà có đèn và đóng cửa. Ngủ không né được hắn: hắn tới từ lúc chạng vạng.",
-            "Nghe hắn ở gần thì rung chuông để đuổi. Rung mãi thì hắn quen tiếng chuông và không sợ nữa.",
+        new Card("man", "Người trong sương", "Thanh THE MAN đầy là hắn tới.", "Rung chuông nhiều, hắn sẽ quen.",
             new Thing("minecraft:bell", "Chuông: rung để đuổi hắn"), new Thing("minecraft:lantern", "Ánh sáng giữ hắn ở xa hơn")),
-        new Card("dem", "Đứa trẻ úp mặt vào cây", "Nghe tiếng đếm và thấy một đứa trẻ úp mặt vào thân cây: nó đang rủ bạn chơi trốn tìm. Nó đếm tới bốn mươi tám rồi đi tìm.",
-            "Đừng bỏ về nhà, đừng đào hay đánh nó, đừng nhìn trộm lúc nó đếm. Phạm luật nhiều lần là nó đi săn bạn.",
+        new Card("dem", "Đứa trẻ úp mặt vào cây", "Nó đang rủ bạn chơi trốn tìm.", "Đừng bỏ về, đừng đánh, đừng nhìn trộm.",
             new Thing("minecraft:candle", "Thắng ván, nó để lại một ngọn nến tắt")),
-        new Card("tron", "Cách trốn", "Núp sau cây, bụi, đá hoặc vào nhà. Giữ Shift ngồi thụp và đứng im. Đèn quanh bạn sẽ tắt: chỗ tối, có che chắn là chỗ tốt.",
-            "Khi chữ NÍN THỞ hiện lên, nó đang đứng ngay sau lưng bạn. Giữ Shift, không bước, không xoay chuột cho tới khi tiếng thở đi xa."),
-        new Card("chuong", "Mở chương mới", "Làm nhiệm vụ của chương trong sổ nhiệm vụ. Xong thì một đứa trẻ gửi lời mời và la bàn sương vào túi bạn. Đi theo la bàn tới điểm hẹn.",
-            "Ở điểm hẹn: đọc cuốn sổ trên bục, thắp hết nến, nhặt món đồ chơi dưới cây đếm. Tối đến, cầm đồ chơi chạm vào cây để rủ nó chơi.",
+        new Card("tron", "Cách trốn", "Ngồi thụp ở chỗ tối, có che chắn.", "Chữ NÍN THỞ hiện: giữ Shift, đừng nhúc nhích."),
+        new Card("chuong", "Mở chương mới", "Xong nhiệm vụ chương: nhận la bàn sương.", "Ở điểm hẹn: đọc sổ, thắp nến, nhặt đồ chơi.",
             new Thing("minecraft:compass", "La bàn sương chỉ đường tới điểm hẹn"), new Thing("minecraft:candle", "Thắp hết nến ở điểm hẹn"),
             new Thing("cavemind:con_quay_linh", "Món đồ chơi: cầm nó chạm vào cây đếm")),
-        new Card("gieng", "Sân chơi bỏ hoang", "Sau vài ngày, một sân chơi có cây đếm, giếng sắt số 4 và chuông trường hiện ra đâu đó gần bạn. Tìm cột khói mảnh bốc lên giữa rừng, hoặc thả lọ đom đóm.",
-            "Luật chơi nằm trong cái rương dưới gốc cây đếm. Tấm biển ở đó không nói dối. Đừng phá thứ gì trong sân chơi, nó nhớ đấy.",
+        new Card("gieng", "Sân chơi bỏ hoang", "Vài ngày sau, nó hiện ra gần bạn.", "Đừng phá gì trong sân chơi. Nó nhớ.",
             new Thing("cavemind:lo_dom_dom", "Lọ đom đóm: chuột phải để thả, Shift + chuột phải để đổi thứ cần tìm"), new Thing("minecraft:chest", "Rương dưới cây đếm: luật chơi"), new Thing("minecraft:bell", "Chuông trường")),
-        new Card("me", "Giờ Thứ Bốn Mươi Tám", "Đặt nến đang cháy lên nắp giếng rồi rung chuông trường: nắp mở, nhảy xuống là vào mê cung. Bạn bè nhảy kịp sẽ chơi cùng ván.",
-            "Dưới đó tối đen: bấm N bật nhìn đêm, nhặt pin. Gom bảy món đồ chơi về rương rồi rung chuông, hoặc trốn tới khi chuông tự vang.",
+        new Card("me", "Giờ Thứ Bốn Mươi Tám", "Nến trên nắp giếng, rung chuông trường, nhảy.", "Bảy đồ chơi về rương, rồi rung chuông.",
             new Thing("minecraft:candle", "Nến đang cháy đặt lên nắp giếng"), new Thing("minecraft:bell", "Rồi rung chuông trường")),
-        new Card("trang", "Trang nhật ký rách", "Thấy một cột khói mảnh bốc lên là có một trang ở dưới đó, cạnh ngọn nến trên tấm đá rêu. Có hai mươi bốn trang, mỗi trang kể một mảnh chuyện.",
-            "Mỗi trang cho nến và pin. Cứ bốn trang có một món quà, trang mười hai và hai mươi bốn có quà hiếm.",
+        new Card("trang", "Trang nhật ký rách", "Hai mươi bốn trang, mỗi trang một mảnh chuyện.", "Dán vào sổ: đủ 4, 8, 12 dấu ấn có quà.",
             new Thing("cavemind:trang_nhat_ky", "Trang nhật ký rách")),
-        new Card("an", "Phần còn lại: tự tìm", "Có thứ nhớ những gì bạn đào. Một bông hồng còn sống đáng giá hơn bạn nghĩ. Có ba cách để mọi chuyện kết thúc.",
-            "Sổ này chỉ kể tới đây. Phần sâu hơn nằm ngoài kia, trong bóng tối.")
+        new Card("an", "Phần còn lại: tự tìm", "Có thứ nhớ những gì bạn đào.", "Phần sâu hơn nằm trong bóng tối.")
     };
+
+    // Red arrows scrawled over each sketch: target point, label corner (both in the 160x96 picture), label of six words at most.
+    record Mark(int tx, int ty, int lx, int ly, String text) {}
+
+    static final Mark[][] MARKS = {
+        {new Mark(82, 38, 4, 6, "J: mở sổ"), new Mark(34, 64, 4, 84, "lạc đường: thả đom đóm")},
+        {new Mark(104, 36, 96, 4, "thanh đầy: hắn tới"), new Mark(30, 62, 2, 34, "tối: vào nhà"), new Mark(110, 58, 98, 84, "chuông → đuổi hắn")},
+        {new Mark(100, 44, 104, 6, "đếm tới 48"), new Mark(84, 32, 4, 10, "đừng nhìn trộm"), new Mark(72, 76, 4, 84, "thắng: được nến")},
+        {new Mark(68, 68, 4, 40, "Shift: ngồi im"), new Mark(104, 66, 96, 84, "núp sau vật che"), new Mark(130, 32, 84, 6, "tránh chỗ sáng")},
+        {new Mark(32, 50, 50, 8, "la bàn → điểm hẹn"), new Mark(108, 66, 66, 84, "đọc sổ"), new Mark(132, 76, 104, 34, "thắp đủ nến")},
+        {new Mark(70, 50, 4, 18, "nến cháy trên nắp"), new Mark(140, 50, 96, 8, "rung chuông trường"), new Mark(70, 76, 4, 84, "rồi nhảy xuống")},
+        {new Mark(22, 18, 30, 30, "N: nhìn đêm, tốn pin"), new Mark(80, 62, 92, 82, "đừng nhìn quá 2 giây!")},
+        {new Mark(60, 30, 76, 8, "khói mảnh = một trang"), new Mark(92, 78, 104, 56, "dán vào sổ")},
+        {new Mark(80, 46, 96, 10, "nó đang nhìn")}
+    };
+
     static final String[] TOYS = {"cavemind:so_chuong", "cavemind:con_quay_linh", "cavemind:bi_ve_tuan", "cavemind:dong_ho_mai", "cavemind:dieu_giay_bao", "cavemind:coi_go_nam"};
     static final String[][] RULES = {
-        {"The Man, người trong sương", "Hắn cao, gầy và rất kiên nhẫn. Thanh THE MAN ở góc màn hình đầy dần khi bạn sống sót. Mỗi mốc là một việc hắn chắc chắn làm: ghé nhà khi bạn vắng, tới thật gần lúc trời tối, thử bạn trong bóng tối, rồi một đêm săn không thể ngủ qua. Ngủ không giúp bạn né hắn: hắn tới từ lúc chạng vạng. Rung chuông để đuổi hắn, nhưng rung nhiều thì hắn quen."},
-        {"The Damned, đứa trẻ thứ tám", "Nó chỉ muốn có người chơi cùng. Khi nó rủ chơi trốn tìm: ngồi thụp, đứng yên, ở chỗ tối, và đừng nhìn thẳng vào nó. Cầm bông hồng sống để xua nó đi."},
-        {"Herobrine", "Nó nhớ những gì bạn đào và những gì bạn xây. Đào thẳng xuống một mình là gọi nó tới. Những tấm biển lạ là nó đang nói chuyện với bạn."},
-        {"Nhà của bạn", "Những thứ trong sương nhận ra nhà bạn từ nơi bạn ngủ nhiều đêm, nơi bạn ở lâu và nơi bạn cất đồ. Ngủ tạm một đêm ở chỗ khác không làm chúng lạc dấu. Dọn hẳn sang nhà mới thì vài đêm sau chúng sẽ biết."},
-        {"Trang nhật ký rách", "Hai mươi bốn trang nằm rải rác quanh bạn, cạnh một ngọn nến trên đá rêu. Mỗi trang có một cột khói mảnh bốc lên, nhìn thấy từ xa. Mỗi trang cho nến và pin, cứ bốn trang có một món quà, trang thứ mười hai và hai mươi bốn có quà hiếm."},
-        {"Chơi chung hay chơi riêng", "Chơi chung: khi một người mở chương, cả nhóm cùng sang chương đó, và ai nhảy xuống giếng trong lúc nắp mở sẽ chơi cùng một ván trốn tìm. Chơi riêng: mỗi người tự đi chương của mình. Chủ thế giới chọn khi mới vào và đổi được ở đây."}
+        {"The Man", "Thanh đầy: hắn tới. Tối: ở trong nhà sáng đèn. Chuông đuổi hắn, rung nhiều hắn quen."},
+        {"The Damned", "Ngồi thụp, đứng im, chỗ tối, đừng nhìn nó. Hoa hồng sống xua nó."},
+        {"Herobrine", "Nó nhớ thứ bạn đào. Đừng đào thẳng xuống một mình."},
+        {"Nhà của bạn", "Nơi bạn ngủ, ở lâu, cất đồ. Dọn nhà: vài đêm sau chúng biết."},
+        {"Trang nhật ký", "Khói mảnh là một trang. Dán vào sổ để có dấu ấn."},
+        {"Chơi chung / riêng", "Chung: cả nhóm cùng chương, cùng ván. Chủ thế giới chọn."}
     };
     static final String[][] MAZE = {
-        {"Vào mê cung", "Đặt một ngọn nến đang cháy ngay trên nắp giếng sắt số bốn ở sân chơi, rồi rung cái chuông của trường. Nắp mở trong một lúc. Nhảy xuống. Bạn bè nhảy theo trước khi nắp đóng sẽ chơi cùng ván."},
-        {"Mục tiêu", "Nó đếm bốn mươi tám nhịp rồi đi tìm. Nhặt đủ bảy món đồ chơi, mang về rương ở phòng giếng và rung chuông. Nếu không, hãy trốn cho tới khi chuông tự vang."},
-        {"Máy quay", "Mê cung tối đen. Bấm [N] để bật nhìn đêm, nó ăn pin rất nhanh. Pin nằm rải rác ở những chỗ tối nhất. Hết pin thì bạn chỉ còn tai."},
-        {"Thanh SỨC", "Chạy và nín thở đều tốn sức. Hết sức bạn sẽ thở hắt ra, nó nghe thấy, và bạn phải đi chậm một lúc. Đừng chạy hết sức rồi mới chui vào tủ."},
-        {"Thanh SỢ", "Nỗi sợ tăng khi nó ở gần, khi bạn ở trong bóng tối không có máy quay, và vọt lên khi nó thấy bạn. Sợ quá bạn sẽ thở dốc, và nó nghe được tiếng thở ấy."},
-        {"Chỗ trốn", "Tủ áo, tủ khóa trong lớp học, buồng tắm, và những hốc tối giữa hai kệ sách. Trong tủ: khi nó đứng ngoài cửa áp tai nghe, hãy ngồi thụp để nín thở. Trong hốc tối: ngồi thụp và đứng yên. Nó có thể giả vờ bỏ đi rồi đứng chờ ngay ngoài cửa."},
-        {"Khi nó đuổi", "Nó lao tới rất nhanh khi ở gần. Chạy qua chỗ rẽ để cắt tầm nhìn, đánh nó một cái sẽ làm nó khựng lại. Bị bắt thì bạn bị đẩy ra ngoài, những người còn lại vẫn chơi tiếp."}
+        {"Vào mê cung", "Nến cháy trên nắp giếng, rung chuông trường, nhảy."},
+        {"Túi đồ", "Đồ của bạn được cất lại. Dưới đó chỉ có máy quay, máy thu âm, hai viên bi."},
+        {"Mục tiêu", "Bảy đồ chơi về rương, rung chuông. Hoặc trốn tới hết giờ."},
+        {"Máy quay", "[N] nhìn đêm, tốn pin. Tắt đi: chỉ thấy một mét rưỡi."},
+        {"Đồ chơi khóc", "Nhặt nó trong 20 giây. Không thì nó chỉ chỗ bạn."},
+        {"Thanh SỨC", "Chạy, nín thở đều tốn sức. Hết sức: thở hắt ra."},
+        {"Thanh SỢ", "Trên 70%: hình rách, nó nghe tiếng bạn thở."},
+        {"Chỗ trốn", "Tủ: ngồi thụp để nín thở. Trốn lì 50 giây: bạn sẽ ho."},
+        {"Khi nó đuổi", "Rẽ gấp để cắt tầm nhìn. Đánh nó: nó khựng lại."}
     };
 
     JsonObject data;
@@ -142,6 +154,9 @@ public final class BookScreen extends Screen {
     final List<int[]> hits = new ArrayList<>();
     final List<Component> tips = new ArrayList<>();
     final List<int[]> tipBoxes = new ArrayList<>();
+    int selNote = -1, scrubs, crayonBeat = -1;
+    long glowAt, crayonAt;
+    int[] dirtBox;
 
     public BookScreen(JsonObject data, int page) {
         super(Component.literal("Sổ Chương"));
@@ -151,6 +166,23 @@ public final class BookScreen extends Screen {
         if (this.tab < 0 || this.tab >= TABS.length) this.tab = 0;
         this.card = firstOpen();
         this.opened = System.currentTimeMillis();
+        Minecraft mc = Minecraft.getInstance();
+        if (mc.level != null) {
+            long t = mc.level.getDayTime() % 24000, day = mc.level.getDayTime() / 24000;
+            // around midnight, now and then, something writes over the page
+            if (t > 17400 && t < 18800 && day != scrawlDay && mc.level.random.nextFloat() < 0.4f) {
+                scrawlDay = day;
+                crayonAt = opened + 900;
+            }
+        }
+    }
+
+    boolean lurk() {
+        return data.has("lurk") && data.get("lurk").getAsBoolean();
+    }
+
+    long pasted() {
+        return data.has("pasted") ? data.get("pasted").getAsLong() : 0L;
     }
 
     void refresh(JsonObject o) {
@@ -284,9 +316,18 @@ public final class BookScreen extends Screen {
         if (tab == GUIDE) guide(g, f, cx, cy, cw, chh, mx, my);
         else if (tab == CHAPTERS) chapters(g, f, cx, cy, cw, chh, mx, my);
         else if (tab == GEAR) gear(g, f, cx, cy, cw, chh, mx, my);
+        else if (tab == NOTES) notes(g, f, cx, cy, cw, chh, mx, my);
         else content(g, f, cx, cy, cw, chh);
+        doodle(g, lx + lw - 22, by + bh - 62, mx, my);
+        long since = System.currentTimeMillis() - glowAt;
+        if (since < 700) {
+            int a = (int) (70 * (1f - since / 700f));
+            g.fillGradient(bx, by, bx + bw, by + bh / 2, a << 24 | 0xFFD98A, (a / 3) << 24 | 0xFFD98A);
+            g.fillGradient(bx, by + bh / 2, bx + bw, by + bh, (a / 3) << 24 | 0xFFD98A, a << 24 | 0xFFD98A);
+        }
         g.pose().popPose();
         super.render(g, mx, my, pt);
+        crayon(g, f);
         for (int i = 0; i < tipBoxes.size(); i++) {
             if (in(mx, my, tipBoxes.get(i))) {
                 g.renderTooltip(f, tips.get(i), mx, my);
@@ -345,6 +386,8 @@ public final class BookScreen extends Screen {
         RenderSystem.disableBlend();
         float k = iw / 160f;
         alive(g, f, c.img(), ix, iy + lift, k, mx, my, now);
+        float drawn = ease((now - Math.max(turned, opened)) / 450f);
+        for (Mark m : MARKS[card]) mark(g, f, ix, iy + lift, iw, ih, k, m, drawn);
         if (done(card) && card < CARDS.length - 1) stamp(g, f, ix + iw - 34, iy + 12);
         hits.add(new int[]{0, ix, iy, ix + iw, iy + ih});
         int ty = iy + ih + 4;
@@ -412,6 +455,7 @@ public final class BookScreen extends Screen {
                 g.drawString(f, "J", x + (int) (28 * k), y + (int) (62 * k), RED, false);
             }
             case "man" -> {
+                if (lurk()) eyes(g, x + (int) (104 * k), y + (int) (37 * k), Math.max(1, (int) (2 * k)), mx, my, now);
                 for (int i = 0; i < 4; i++) {
                     float t = now / (2600f + i * 700f) + i * 1.7f;
                     int fx = x + (int) ((80 + Mth.sin(t) * 70) * k) - 24, fy = y + (int) ((58 + i * 5) * k);
@@ -479,6 +523,276 @@ public final class BookScreen extends Screen {
         }
     }
 
+    // A red pen arrow from the note to the thing in the sketch, drawn in as the card turns.
+    void mark(GuiGraphics g, Font f, int ix, int iy, int iw, int ih, float k, Mark m, float drawn) {
+        float sc = k < 0.9f ? 0.66f : 0.75f;
+        int tw = (int) (f.width(m.text()) * sc), th = (int) (9 * sc);
+        int lx = Mth.clamp(ix + (int) (m.lx() * k), ix + 1, ix + iw - tw - 1), ly = Mth.clamp(iy + (int) (m.ly() * k), iy + 1, iy + ih - th - 1);
+        int tx = ix + (int) (m.tx() * k), ty = iy + (int) (m.ty() * k);
+        float sx = Mth.clamp(tx, lx, lx + tw), sy = ty < ly ? ly - 1 : ty > ly + th ? ly + th + 1 : ly + th / 2f;
+        if (tx >= lx && tx <= lx + tw) sx = lx + tw / 2f;
+        double len = Math.hypot(tx - sx, ty - sy);
+        int col = 0xE0B0201A;
+        if (len > 4) {
+            double ux = (tx - sx) / len, uy = (ty - sy) / len;
+            double end = (len - 2.5) * drawn;
+            for (double d = 0; d < end; d += 0.6) {
+                double wob = Math.sin(d * 0.35 + m.tx()) * 0.6;
+                g.fill((int) (sx + ux * d - uy * wob), (int) (sy + uy * d + ux * wob), (int) (sx + ux * d - uy * wob) + 1, (int) (sy + uy * d + ux * wob) + 1, col);
+            }
+            if (drawn >= 1f) {
+                double hx = sx + ux * (len - 2.5), hy = sy + uy * (len - 2.5);
+                for (int sgn : new int[]{1, -1}) {
+                    double ax = -ux * 0.8 + sgn * -uy * 0.6, ay = -uy * 0.8 + sgn * ux * 0.6;
+                    for (double d = 0; d < 4; d += 0.6) g.fill((int) (hx + ax * d), (int) (hy + ay * d), (int) (hx + ax * d) + 1, (int) (hy + ay * d) + 1, col);
+                }
+            }
+        }
+        if (drawn < 0.35f) return;
+        g.pose().pushPose();
+        g.pose().translate(lx, ly, 0);
+        g.pose().scale(sc, sc, 1);
+        g.drawString(f, m.text(), 0, 0, 0xFFB0201A, false);
+        g.pose().popPose();
+    }
+
+    void eyes(GuiGraphics g, int cx, int cy, int r, int mx, int my, long now) {
+        for (int side : new int[]{-1, 1}) {
+            int ex = cx + side * (r * 2 + 1);
+            double ang = Math.atan2(my - cy, mx - ex), d = Math.min(r * 0.9, Math.hypot(mx - ex, my - cy) / 40.0);
+            g.fill(ex - r, cy - r, ex + r + 1, cy + r + 1, 0xFFE9DCBD);
+            int px = ex + (int) Math.round(Math.cos(ang) * d), py = cy + (int) Math.round(Math.sin(ang) * d);
+            g.fill(px - Math.max(0, r / 2), py - Math.max(0, r / 2), px + Math.max(1, r / 2 + 1), py + Math.max(1, r / 2 + 1), 0xFF7A1A14);
+        }
+    }
+
+    // A pencil sketch of the Man in the margin. When he is really standing out there, he looks at your cursor.
+    void doodle(GuiGraphics g, int x, int y, int mx, int my) {
+        int ink = 0x903B2A1E;
+        for (int dy = 0; dy < 12; dy++) {
+            int hw = (int) (4.5 * Math.sqrt(1 - Math.pow((dy - 6) / 6.5, 2)));
+            g.fill(x - hw, y + dy, x - hw + 1, y + dy + 1, ink);
+            g.fill(x + hw, y + dy, x + hw + 1, y + dy + 1, ink);
+        }
+        g.fill(x - 3, y, x + 4, y + 1, ink);
+        g.fill(x - 2, y + 12, x + 3, y + 13, ink);
+        g.fill(x - 7, y + 15, x + 8, y + 16, ink);
+        g.fill(x - 7, y + 15, x - 6, y + 30, ink);
+        g.fill(x + 7, y + 15, x + 8, y + 30, ink);
+        g.fill(x, y + 13, x + 1, y + 15, ink);
+        if (lurk()) eyes(g, x, y + 5, 1, mx, my, System.currentTimeMillis());
+        else {
+            g.fill(x - 3, y + 5, x - 1, y + 6, ink);
+            g.fill(x + 2, y + 5, x + 4, y + 6, ink);
+        }
+    }
+
+    // Red wax crayon scrawling itself across the book, then fading.
+    void crayon(GuiGraphics g, Font f) {
+        if (crayonAt <= 0) return;
+        long e = System.currentTimeMillis() - crayonAt;
+        if (e < 0) return;
+        if (e > 4300) {
+            crayonAt = 0;
+            return;
+        }
+        String[] lines = {"ĐÓNG SỔ LẠI.", "NÓ ĐANG Ở SAU LƯNG."};
+        int shown = (int) (e / 75);
+        int a = e < 3000 ? 255 : (int) (255 * (1f - (e - 3000) / 1300f));
+        if (shown % 5 == 0 && shown <= lines[0].length() + lines[1].length() && crayonBeat != shown) {
+            crayonBeat = shown;
+            Minecraft.getInstance().getSoundManager().play(SimpleSoundInstance.forUI(SoundEvents.VILLAGER_WORK_CARTOGRAPHER, 0.6f + (shown % 3) * 0.1f, 0.7f));
+        }
+        java.util.Random r = new java.util.Random(4848);
+        g.pose().pushPose();
+        g.pose().translate(width / 2f, height / 2f - 8, 0);
+        g.pose().mulPose(Axis.ZP.rotationDegrees(-7f));
+        g.pose().scale(2.2f, 2.2f, 1f);
+        int n = 0;
+        for (int li = 0; li < lines.length; li++) {
+            String ln = lines[li];
+            int x0 = -f.width(ln) / 2, y0 = li * 11 - 10;
+            for (int i = 0; i < ln.length(); i++, n++) {
+                String ch = String.valueOf(ln.charAt(i));
+                int jx = r.nextInt(3) - 1, jy = r.nextInt(3) - 1;
+                if (n < shown) {
+                    g.drawString(f, ch, x0 + jx, y0 + jy, (a * 3 / 5) << 24 | 0xE04030, false);
+                    g.drawString(f, ch, x0 + jx, y0 + jy + 1, a << 24 | 0xA01010, false);
+                }
+                x0 += f.width(ch);
+            }
+        }
+        g.pose().popPose();
+    }
+
+    static int noteIndex(JsonObject o) {
+        return o.has("i") ? o.get("i").getAsInt() : -1;
+    }
+
+    // Ghi chép: 24 empty frames to paste found pages into, stamps that pay out, and pages you must scrub clean to read.
+    void notes(GuiGraphics g, Font f, int x, int y, int w, int h, int mx, int my) {
+        JsonArray notes = data.getAsJsonArray("notes");
+        long pasted = pasted();
+        int stamps = Long.bitCount(pasted);
+        g.drawString(f, "DẤU ẤN " + stamps + "/30", x, y, RED, false);
+        String[][] goals = {{"4", "sức +15%"}, {"8", "pin bền"}, {"12", "công thức"}};
+        int gx = x + w;
+        for (int i = goals.length - 1; i >= 0; i--) {
+            boolean got = stamps >= Integer.parseInt(goals[i][0]);
+            String lbl = goals[i][0] + ": " + goals[i][1];
+            int lw = (int) (f.width(lbl) * 0.66f) + 4;
+            gx -= lw + 2;
+            g.fill(gx, y - 1, gx + lw, y + 8, got ? 0xFF7A1A14 : 0x20000000);
+            g.pose().pushPose();
+            g.pose().translate(gx + 2, y + 1, 0);
+            g.pose().scale(0.66f, 0.66f, 1);
+            g.drawString(f, lbl, 0, 0, got ? 0xFFF4E2C8 : FAINT, false);
+            g.pose().popPose();
+        }
+        java.util.Map<Integer, JsonObject> found = new java.util.HashMap<>();
+        if (notes != null) for (JsonElement e : notes) {
+            JsonObject o = e.getAsJsonObject();
+            if (noteIndex(o) >= 0) found.put(noteIndex(o), o);
+        }
+        if (selNote < 0 || !found.containsKey(selNote)) {
+            selNote = -1;
+            for (int i = 0; i < 24 && selNote < 0; i++) if (found.containsKey(i) && !found.get(i).get("c").getAsBoolean()) selNote = i;
+            for (int i = 23; i >= 0 && selNote < 0; i--) if (found.containsKey(i)) selNote = i;
+        }
+        long now = System.currentTimeMillis();
+        int cell = Math.min(22, w / 8), gy = y + 12;
+        for (int i = 0; i < 24; i++) {
+            int px = x + i % 8 * cell, py = gy + i / 8 * cell, s = cell - 3;
+            JsonObject o = found.get(i);
+            boolean have = o != null, stuck = (pasted & 1L << i) != 0, hov = mx >= px && mx < px + s && my >= py && my < py + s;
+            if (!have) {
+                for (int d = 0; d < s; d += 3) {
+                    g.fill(px + d, py, px + d + 1, py + 1, 0x60000000 | FAINT & 0xFFFFFF);
+                    g.fill(px + d, py + s - 1, px + d + 1, py + s, 0x60000000 | FAINT & 0xFFFFFF);
+                    g.fill(px, py + d, px + 1, py + d + 1, 0x60000000 | FAINT & 0xFFFFFF);
+                    g.fill(px + s - 1, py + d, px + s, py + d + 1, 0x60000000 | FAINT & 0xFFFFFF);
+                }
+                continue;
+            }
+            if (!stuck) {
+                float b = 0.5f + 0.5f * Mth.sin(now / 240f + i);
+                g.fill(px - 1, py - 1, px + s + 1, py + s + 1, (int) (60 + 120 * b) << 24 | 0xB0201A);
+            }
+            g.fill(px, py + 1, px + s, py + s, stuck ? 0xFFEFE4C8 : 0xFFD8C8A0);
+            for (int t = 0; t < s; t += 2) g.fill(px + t, py, px + t + 1, py + 1 + (t / 2 % 2), stuck ? 0xFFEFE4C8 : 0xFFD8C8A0);
+            for (int t = 3; t < s - 3; t += 3) g.fill(px + 2, py + t, px + s - 2, py + t + 1, 0x303B2A1E);
+            if (stuck) {
+                int cx = px + s / 2, cy = py + s / 2;
+                for (int dy = -4; dy <= 4; dy++) {
+                    int hw = (int) Math.sqrt(16 - dy * dy);
+                    g.fill(cx - hw, cy + dy, cx + hw + 1, cy + dy + 1, 0xB07A1A14);
+                }
+                g.drawString(f, String.valueOf(i + 1), cx - f.width(String.valueOf(i + 1)) / 2, cy - 4, 0xFFF4E2C8, false);
+            }
+            if (i == selNote) g.fill(px - 2, py + s + 1, px + s + 2, py + s + 2, RED);
+            if (hov) g.fill(px, py, px + s, py + s, 0x20FFFFFF);
+            hits.add(new int[]{50 + i, px, py, px + s, py + s});
+            tip(Component.literal("Trang " + (i + 1) + ": " + str(o, "h") + (stuck ? "" : "  (bấm để dán)")), px, py, px + s, py + s);
+        }
+        int ty = gy + cell * 3 + 4;
+        g.fill(x, ty, x + w, ty + 1, 0x30000000);
+        ty += 5;
+        dirtBox = null;
+        if (selNote < 0) {
+            for (FormattedCharSequence q : f.split(FormattedText.of("Chưa có trang nào. Để ý những cột khói mảnh giữa rừng."), w)) {
+                g.drawString(f, q, x, ty, FAINT, false);
+                ty += 9;
+            }
+            return;
+        }
+        JsonObject o = found.get(selNote);
+        g.drawString(f, (selNote + 1) + ". " + str(o, "h"), x, ty, RED, false);
+        ty += 12;
+        int bottom = y + h - 10;
+        List<FormattedCharSequence> body = f.split(FormattedText.of(str(o, "b")), w);
+        maxScroll = Math.max(0, body.size() * 9 - (bottom - ty));
+        scroll = Mth.clamp(scroll, 0, maxScroll);
+        g.enableScissor(x - 2, ty - 1, x + w + 2, bottom);
+        int yy = ty - scroll;
+        for (FormattedCharSequence q : body) {
+            g.drawString(f, q, x, yy, INK, false);
+            yy += 9;
+        }
+        boolean clean = o.get("c").getAsBoolean();
+        if (!clean) {
+            float[] dirt = DIRT.computeIfAbsent(selNote, k -> {
+                float[] d = new float[DIRT_W * DIRT_H];
+                java.util.Arrays.fill(d, 1f);
+                return d;
+            });
+            int dh = Math.min(bottom - ty, Math.max(36, body.size() * 9));
+            dirtBox = new int[]{x - 2, ty - 1, w + 4, dh};
+            boolean blood = selNote % 3 == 0;
+            java.util.Random r = new java.util.Random(selNote * 7919L);
+            int cw = (w + 4) / DIRT_W + 1, chh = dh / DIRT_H + 1;
+            for (int j = 0; j < DIRT_H; j++) {
+                for (int i = 0; i < DIRT_W; i++) {
+                    float a = dirt[j * DIRT_W + i];
+                    for (int sj = 0; sj < 2; sj++) for (int si = 0; si < 2; si++) {
+                        float jitter = 0.75f + r.nextFloat() * 0.25f;
+                        if (a < 0.02f) continue;
+                        int c = blood ? (r.nextBoolean() ? 0x4A1210 : 0x3A0C0A) : (r.nextBoolean() ? 0x3A2A1C : 0x2E2218);
+                        int x0 = x - 2 + i * cw + si * cw / 2, y0 = ty - 1 + j * chh + sj * chh / 2;
+                        g.fill(x0, y0, x0 + cw / 2 + 1, y0 + chh / 2 + 1, (int) (Math.min(1f, a) * jitter * 245) << 24 | c);
+                    }
+                }
+            }
+        }
+        g.disableScissor();
+        g.pose().pushPose();
+        g.pose().translate(x, y + h - 8, 0);
+        g.pose().scale(0.75f, 0.75f, 1);
+        g.drawString(f, clean ? "bấm vào khung để đọc trang khác" : "giữ chuột trái, chà lên vết bẩn để đọc", 0, 0, clean ? FAINT : RED, false);
+        g.pose().popPose();
+    }
+
+    void scrub(double mx, double my) {
+        if (dirtBox == null || selNote < 0) return;
+        float[] dirt = DIRT.get(selNote);
+        if (dirt == null) return;
+        double u = (mx - dirtBox[0]) / dirtBox[2] * DIRT_W, v = (my - dirtBox[1]) / dirtBox[3] * DIRT_H;
+        if (u < -1 || v < -1 || u > DIRT_W + 1 || v > DIRT_H + 1) return;
+        float sum = 0;
+        for (int j = 0; j < DIRT_H; j++) {
+            for (int i = 0; i < DIRT_W; i++) {
+                double d = Math.hypot(i + 0.5 - u, (j + 0.5 - v) * 1.4);
+                if (d < 1.8) dirt[j * DIRT_W + i] = Math.max(0f, dirt[j * DIRT_W + i] - (float) (0.22 * (1.8 - d)));
+                sum += dirt[j * DIRT_W + i];
+            }
+        }
+        if (++scrubs % 5 == 0) Minecraft.getInstance().getSoundManager().play(SimpleSoundInstance.forUI(SoundEvents.BRUSH_GENERIC, 0.9f + (scrubs % 4) * 0.08f, 0.55f));
+        if (sum / dirt.length > 0.16f) return;
+        JsonArray notes = data.getAsJsonArray("notes");
+        if (notes != null) for (JsonElement e : notes) if (noteIndex(e.getAsJsonObject()) == selNote) e.getAsJsonObject().addProperty("c", true);
+        DIRT.remove(selNote);
+        Minecraft.getInstance().getSoundManager().play(SimpleSoundInstance.forUI(SoundEvents.BRUSH_SAND_COMPLETED, 1.1f, 0.7f));
+        BookClient.ask(vn.cavemind.net.Net.Ask.CLEAN, selNote);
+    }
+
+    void paste(int idx) {
+        long bit = 1L << idx;
+        if ((pasted() & bit) != 0) return;
+        data.addProperty("pasted", pasted() | bit);
+        glowAt = System.currentTimeMillis();
+        Minecraft.getInstance().getSoundManager().play(SimpleSoundInstance.forUI(SoundEvents.AMETHYST_BLOCK_CHIME, 1.3f, 0.9f));
+        page(0.7f);
+        BookClient.ask(vn.cavemind.net.Net.Ask.PASTE, idx);
+    }
+
+    @Override
+    public boolean mouseDragged(double mx, double my, int button, double dx, double dy) {
+        if (tab == NOTES && button == 0) {
+            scrub(mx, my);
+            return true;
+        }
+        return super.mouseDragged(mx, my, button, dx, dy);
+    }
+
     void chapters(GuiGraphics g, Font f, int x, int y, int w, int h, int mx, int my) {
         JsonArray chs = data.getAsJsonArray("chapters");
         if (chs == null) return;
@@ -512,6 +826,11 @@ public final class BookScreen extends Screen {
             g.fill(px - r + 1, py - r + 1, px + r - 1, py + r - 1, open ? 0xFFEFE4C8 : 0xFF4A3A2A);
             if (open) g.renderItem(stack(TOYS[i]), px - 8, py - 8);
             else g.drawString(f, "?", px - f.width("?") / 2, py - 4, 0xFFB8A888, false);
+            boolean stamped = o.has("st") && o.get("st").getAsBoolean();
+            if (open && !stamped) {
+                float b = 0.5f + 0.5f * Mth.sin(now / 200f + i);
+                g.fill(px + r - 4, py - r - 2, px + r + 2, py - r + 4, (int) (120 + 135 * b) << 24 | 0xB0201A);
+            } else if (stamped) g.fill(px + r - 4, py - r - 2, px + r + 2, py - r + 4, 0xFF7A1A14);
             g.drawString(f, String.valueOf(i + 1), px - 2, py + r + 2, sel ? RED : FAINT, false);
             hits.add(new int[]{20 + i, px - 11, py - 11, px + 11, py + 11});
             tip(Component.literal("Chương " + (i + 1) + ": " + str(o, "t") + (open ? "" : " (khóa)")), px - 11, py - 11, px + 11, py + 11);
@@ -542,6 +861,21 @@ public final class BookScreen extends Screen {
             g.fill(x, ty, x + 20, ty + 20, 0x18000000);
             g.renderItem(stack(TOYS[node]), x + 2, ty + 2);
             g.drawString(f, "Món đồ chơi của " + child, x + 26, ty + 6, INK, false);
+        }
+        if (open) {
+            ty += 26;
+            boolean stamped = o.has("st") && o.get("st").getAsBoolean();
+            if (stamped) stamp(g, f, x + 40, ty + 4);
+            else {
+                String lbl = "[ Đóng dấu chương ]";
+                int lw = f.width(lbl) + 6;
+                boolean hov = mx >= x && mx < x + lw && my >= ty - 2 && my < ty + 11;
+                float b = 0.5f + 0.5f * Mth.sin(now / 220f);
+                g.fill(x, ty - 2, x + lw, ty + 11, hov ? 0xFF9A2A20 : (int) (150 + 100 * b) << 24 | 0x7A1A14);
+                g.drawString(f, lbl, x + 3, ty, 0xFFF4E2C8, false);
+                hits.add(new int[]{80 + node, x, ty - 2, x + lw, ty + 11});
+                tip(Component.literal("Một dấu ấn mới cho cuốn sổ"), x, ty - 2, x + lw, ty + 11);
+            }
         }
         g.pose().pushPose();
         g.pose().translate(x, y + h - 8, 0);
@@ -655,7 +989,8 @@ public final class BookScreen extends Screen {
     }
 
     static final String[] RULE_ICONS = {"minecraft:bell", "minecraft:rose_bush", "minecraft:iron_pickaxe", "minecraft:red_bed", "cavemind:trang_nhat_ky", "minecraft:totem_of_undying"};
-    static final String[] MAZE_ICONS = {"minecraft:candle", "cavemind:con_quay_linh", "cavemind:pin_may_quay", "minecraft:sugar", "minecraft:fermented_spider_eye", "minecraft:oak_door", "minecraft:iron_sword"};
+    static final String[] MAZE_ICONS = {"minecraft:candle", "minecraft:chest", "cavemind:con_quay_linh", "cavemind:pin_may_quay", "cavemind:dong_ho_mai", "minecraft:sugar", "minecraft:fermented_spider_eye",
+        "minecraft:oak_door", "minecraft:iron_sword"};
 
     void iconHeading(List<Line> out, Font f, String s, int w, String icon) {
         ItemStack st = stack(icon);
@@ -795,7 +1130,23 @@ public final class BookScreen extends Screen {
             } else if (id >= 20 && id < 26) {
                 if (node != id - 20) page(1.2f);
                 node = id - 20;
+            } else if (id >= 50 && id < 74) {
+                int idx = id - 50;
+                if (selNote != idx) {
+                    selNote = idx;
+                    scroll = 0;
+                    page(1.2f);
+                }
+                paste(idx);
+            } else if (id >= 80 && id < 86) {
+                paste(vn.cavemind.chapter.Book.STAMP_CHAPTER + id - 80);
+                JsonArray chs = data.getAsJsonArray("chapters");
+                if (chs != null) chs.get(id - 80).getAsJsonObject().addProperty("st", true);
             }
+            return true;
+        }
+        if (tab == NOTES && button == 0 && dirtBox != null) {
+            scrub(mx, my);
             return true;
         }
         if (data.has("host") && data.get("host").getAsBoolean() && mx >= modeX && mx < modeX + modeW && my >= modeY && my < modeY + 12) {

@@ -23,7 +23,7 @@ public final class Round {
         public int toys;
         public int still;
         public int stare;
-        public double stamina = 1;
+        public double stamina = 1, drain = 1;
         public boolean exhausted, holding;
         int breathAt;
         public int camp, campStage;
@@ -180,7 +180,7 @@ public final class Round {
         boolean near = brain.y >= 0 && brain.mode != Brain.Mode.COUNT && Math.hypot(r.x - brain.x, r.z - brain.z) < 4.5;
         r.holding = false;
         if (r.sprint && r.speed > 0.1 && !r.exhausted) {
-            r.stamina -= 1.0 / 130;
+            r.stamina -= 1.0 / 130 * r.drain;
             if (r.stamina <= 0) {
                 r.stamina = 0;
                 r.exhausted = true;
@@ -192,7 +192,7 @@ public final class Round {
         if (tucked(r) && near) {
             if (r.crouch) {
                 r.holding = true;
-                r.stamina -= 1.0 / 80;
+                r.stamina -= 1.0 / 80 * r.drain;
                 if (r.stamina <= 0) {
                     r.stamina = 0.25;
                     r.exhausted = true;
