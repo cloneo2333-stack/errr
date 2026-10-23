@@ -51,7 +51,7 @@ public final class Cam {
         }
         if (on()) p.displayClientMessage(Component.literal(HIDE), true);
         send(p, s);
-        p.server.execute(() -> p.displayClientMessage(Component.literal("Máy quay cũ đang chạy. Bấm [N] để bật nhìn đêm, nó ăn pin rất nhanh.").withStyle(ChatFormatting.GRAY, ChatFormatting.ITALIC), true));
+        p.server.execute(() -> p.displayClientMessage(Component.literal("Máy quay cũ đang chạy. Không bật nhìn đêm [N] thì chỉ thấy một mét rưỡi trước mặt. Nhìn đêm ăn pin rất nhanh.").withStyle(ChatFormatting.GRAY, ChatFormatting.ITALIC), true));
     }
 
     static void exit(ServerPlayer p) {

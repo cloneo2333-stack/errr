@@ -48,6 +48,7 @@ final class Bag {
         MindData.dirty(p.server);
         give(p);
         p.inventoryMenu.broadcastChanges();
+        p.displayClientMessage(Component.literal("Đồ đạc của bạn ở lại trên kia. Dưới này chỉ có máy quay, máy thu âm và hai viên bi.").withStyle(ChatFormatting.GRAY, ChatFormatting.ITALIC), false);
         CaveMind.debug("stashed {} stacks of {} before the maze", bag.size(), p.getGameProfile().getName());
     }
 

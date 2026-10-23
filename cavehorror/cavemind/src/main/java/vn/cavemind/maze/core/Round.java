@@ -28,6 +28,7 @@ public final class Round {
         int breathAt;
         public int camp, campStage;
         int campKey = Integer.MIN_VALUE;
+        double campX, campZ;
 
         public Runner(int id) {
             this.id = id;
@@ -286,23 +287,25 @@ public final class Round {
         return best;
     }
 
-    static int campKey(Grid g, Runner r) {
+    static int campKey(Runner r) {
         if (r.closet >= 0) return 100000 + r.closet;
         if (r.nook >= 0) return 200000 + r.nook;
-        int c = Grid.cellAt(r.x, r.z);
-        return g.room[c] >= 0 ? 300000 + g.room[c] : c;
+        return -1;
     }
 
-    // Staying put too long: ink seeps from the walls, then a cough gives the hiding place away.
+    // Staying put too long (the same closet or nook, or within a few steps out in the open):
+    // ink seeps from the walls, then a cough gives the hiding place away.
     void camping(Runner r) {
         if (brain.mode == Brain.Mode.COUNT || r.light) {
             r.camp = 0;
             return;
         }
-        int key = campKey(g, r);
-        if (key != r.campKey) {
+        int key = campKey(r);
+        if (key != r.campKey || key < 0 && Math.hypot(r.x - r.campX, r.z - r.campZ) > 3.0) {
             if (r.campStage > 0) events.add(new Event("ink_clear", r.x, r.z, r.id));
             r.campKey = key;
+            r.campX = r.x;
+            r.campZ = r.z;
             r.camp = 0;
             r.campStage = 0;
             return;
