@@ -1,0 +1,191 @@
+
+#Overall pace and anti-frustration
+[general]
+	#Log every decision the minds make (latest.log, prefix [CaveMind])
+	debug = false
+	#How often things happen. 0.5 = half as often and a smaller daily scare budget, 2 = twice as often
+	#Range: 0.25 ~ 3.0
+	intensity = 1.0
+	#Anti-frustration: quiet first minutes after joining, nothing while you are in a menu, fighting, riding, AFK or in a raid, a calm stretch after you die, a daily scare budget
+	mercy = true
+	#Minutes of calm after a death (mercy)
+	#Range: 0 ~ 20
+	death_calm_minutes = 0
+	#Deaths and fights between players (and /kill) count for mercy. Off = friends killing each other does not pause the horror
+	pvp_counts = false
+	#The creatures may let themselves be seen from afar when they choose to: a figure in the window, at its lair, sitting in your dark house
+	glimpses = true
+
+#Tension Director: each player has a 0-100 tension meter that goes build-up, peak, fade, release. It never places a creature, it only allows, forbids and hints
+[director]
+	#Pace the horror per player with the tension meter
+	enabled = true
+	#Tension that starts a peak (lowest, picked at random each cycle)
+	#Range: 10 ~ 100
+	peak_min = 55
+	#Tension that starts a peak (highest)
+	#Range: 10 ~ 100
+	peak_max = 85
+	#Seconds a peak may last (min). Only during a peak may a creature attack or punish
+	#Range: 5 ~ 300
+	peak_hold_min = 20
+	#Seconds a peak may last (max)
+	#Range: 5 ~ 600
+	peak_hold_max = 45
+	#Minutes of build-up with nothing noticing you before the Director hints an area to the creatures (min)
+	#Range: 0.5 ~ 120.0
+	hint_minutes_min = 6.0
+	#Same, max
+	#Range: 0.5 ~ 240.0
+	hint_minutes_max = 12.0
+	#Chance a build-up gets no hint at all: only what the creatures find by themselves
+	#Range: 0.0 ~ 1.0
+	dry_chance = 0.2
+	#Stop other mods' stalkers from piling on while a scene is running or during relief
+	headliner_gate = true
+	#How many stalker-class entities may hunt the same player at once
+	#Range: 1 ~ 4
+	max_headliners = 1
+	#Entity ids (or modid:*) that count as stalker-class headliners
+	headliners = ["cave_dweller:cave_dweller", "the_knocker:knocker", "the_knocker:knockerstalk", "the_knocker:knockerstalklooked", "anomaly:anomaly_chase", "anomaly:anomaly_ghost", "anomaly:anomaly_diamond", "the_obsessed:idk_stalker_surprise", "the_obsessed:idk_stalker_saviour", "the_obsessed:idk_stalker_mimic", "the_obsessed:idk_stalker_unhappy", "the_obsessed:idk_stalker_opportunistic", "the_obsessed:idk_spider_jealous", "apollyon:the_fallen", "apollyon:the_infector"]
+	#Minutes of release (true quiet) after a peak (min)
+	#Range: 0 ~ 60
+	relax_min = 3
+	#Minutes of release after a peak (max)
+	#Range: 0 ~ 120
+	relax_max = 8
+	#Cave dread events: digging behind the walls, echo steps, breathing in the dark
+	cave_dread = true
+	#Torches the player placed far behind them can go missing
+	torch_theft = true
+	#Fog thickens when the Man is near (client)
+	fog = true
+	#Ambient sound and music cut out before something happens (client)
+	silence = true
+
+#The Man From The Fog
+[man_from_the_fog]
+	#Replace the Man From The Fog's spawn/look/vanish logic with the Cave Mind stalker
+	enabled = true
+	#How fast he grows hungry and how short he rests, on top of intensity. 2 = twice as eager
+	#Range: 0.25 ~ 4.0
+	frequency = 1.0
+	#He may also walk in under clear daylight when he is very hungry (underground he comes any time)
+	daytime = true
+	#He lives in the world: a lair, a daily routine, hunger for attention, caution, curiosity. He studies your base night after night and leaves signs even while you sleep
+	lives_in_world = true
+	#Late in the study he gets inside when nobody is home (or while you sleep) and may be waiting in a dark corner when you come back
+	enters_base = true
+	#He breaks off creeping tactics when another player is within 22 blocks
+	shy_of_groups = true
+	#Minutes a new player plays before the Man may walk in on them
+	#Range: 0 ~ 600
+	first_arrival_minutes = 6
+	#Minutes he walks away and rests after a visit (min). Then hunger, your scent and your noise bring him back
+	#Range: 0.5 ~ 120.0
+	rest_min = 4.0
+	#Minutes he rests after a visit (max)
+	#Range: 0.5 ~ 240.0
+	rest_max = 10.0
+	#The Man may hunt (rare, telegraphed, escapable by hiding)
+	hunt = true
+	#Familiarity level (0-10) before he will hunt unprovoked
+	#Range: 0 ~ 10
+	hunt_level = 5
+	#Damage per hit while hunting
+	#Range: 1.0 ~ 100.0
+	hunt_damage = 8.0
+	#He may knock and open doors at night
+	doors = true
+	#He works on things you find later: a worn trail, his nest, a peephole, a sealed tunnel
+	schemes = true
+	#He may rot part of your food stores, reset a line of crops and take one farm animal (never named, tamed or the last few)
+	steal = true
+	#He may knock you awake (never two nights running, never while other players are asleep)
+	wake = true
+	#Show his progress on the HUD and make every quarter of it end in something he does: traces at your home, a visit, a test in the dark, then a night hunt you cannot sleep through
+	progress_bar = true
+	#Minutes of awake play that fill his bar with no other help (seeing him, sleeping through nights and staying underground fill it faster)
+	#Range: 5 ~ 600
+	progress_minutes = 36
+
+#The Damned
+[the_damned]
+	#Replace The Damned with the non-lethal haunting
+	enabled = true
+	#In-game day the haunting may begin
+	#Range: 0 ~ 1000
+	start_day = 1
+	#Chance a night carries a haunting scene
+	#Range: 0.0 ~ 1.0
+	night_chance = 0.7
+	#It builds a shrine and writes about you
+	shrine = true
+	#It visits while you sleep
+	sleep_visits = true
+	#Candles go out, frames turn, torches go missing at night
+	traces = true
+	#The Forty Eighth Hour: when it catches you it drags you into its maze, and the playground well opens it if you ring the school bell with a lit candle on the lid. Your items are never lost there
+	maze = true
+	#Inside the maze you see through an old camcorder: night vision that eats batteries, grain, heartbeat and breathing, no minimap
+	camcorder = true
+
+#The Damned's game: it grows lonely, finds you by itself, counts to forty eight at a tree and searches. Play by the rules and you are safe, ignore it and it punishes you
+[hide_and_seek]
+	#The Damned invites you to play hide and seek (day or night)
+	enabled = true
+	#In-game day from which it may invite you
+	#Range: 0 ~ 100
+	start_day = 1
+	#How fast it grows lonely. 0.5 = half as often, 2 = twice as often
+	#Range: 0.0 ~ 5.0
+	frequency = 1.0
+
+#Herobrine
+[herobrine]
+	#Herobrine (From The Fog) as a rare, varied, player-like presence that remembers every move you make
+	enabled = true
+	#Silence From The Fog's own scheduled events (sightings, burning base, torch breaking, nightmares, fake crash) so only Cave Mind drives him (needs world reload)
+	replace_from_the_fog = true
+	#How fast the mine remembers you: memory grows with every block you dig or place and he echoes it back. 2 = twice as often
+	#Range: 0.25 ~ 4.0
+	frequency = 1.0
+	#In-game day he may first appear
+	#Range: 0 ~ 1000
+	start_day = 1
+	#Days survived before the walker, the builder and the replay of your own path
+	#Range: 0 ~ 100
+	bigger_shows_day = 3
+	#Days survived before someone asleep in your bed and the figure at your shoulder
+	#Range: 0 ~ 100
+	closest_shows_day = 6
+	#In-game days between his appearances (min)
+	#Range: 0.1 ~ 30.0
+	gap_days_min = 1.0
+	#In-game days between his appearances (max)
+	#Range: 0.1 ~ 60.0
+	gap_days_max = 2.5
+	#He may leave things in the world: signs that know your habits, tunnels continued past where you stopped, a leafless tree, copies of what you built
+	world_edits = true
+	#Skin texture for Herobrine (any From The Fog skin under watching:textures/item/herobrine/...)
+	skin = "watching:textures/item/herobrine/classic/classic.png"
+	#Rarely, a line saying a far away friend left the game, seen only by you (after you found the abandoned mine)
+	fake_leave = false
+
+#Daytime set-pieces
+[daylight]
+	#Daytime set-pieces: the figure in the field, the slow walker, animal rituals, a house that was touched, echoes of yourself. Never lethal, nothing thrown at the screen
+	enabled = true
+	#The Fallen sinks silently when looked at instead of flashing a full-screen jumpscare image (needs restart)
+	quiet_fallen = true
+
+#Quest chapters 2-6 open only after a hide and seek you start yourself, holding the lost child's toy for that chapter
+[chapters]
+	#Chapter gates: invitations, meeting points, toys, active hide and seek, rare gifts
+	enabled = true
+	#New monster families start spawning only after the chapter that brings them is unlocked by a player nearby
+	spawn_tiers = true
+	#Chance a hide and seek you start yourself (outside a chapter gate) ends with a rare weapon instead of a small gift
+	#Range: 0.0 ~ 1.0
+	rare_chance = 0.35
+

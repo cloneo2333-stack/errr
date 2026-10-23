@@ -1,0 +1,300 @@
+2870	Độ trễ biến mất khi rón rén
+2910	Lời nguyền đỏ thẫm
+3082	Da tùy chỉnh 1
+3083	Da tùy chỉnh 2
+3084	Da tùy chỉnh 3
+3085	Da tùy chỉnh 4
+3086	Da tùy chỉnh 5
+3087	Da tùy chỉnh
+3548	Mặc định
+3750	Đã tắt chế độ gỡ lỗi!
+3758	Đuốc biến mất
+3765	Khám phá một Lùm cây trụi lá.
+3766	Khám phá một cái cây mà bạn không hề chặt.
+3767	Khám phá một đường hầm do Herobrine đào.
+3769	Khám phá bất kỳ công trình nào do Herobrine dựng.
+3823	Méo mó
+3838	Ta có làm ngươi sợ
+3847	Ngươi có nghe thấy không
+3910	Món quà kinh hoàng
+3959	Động
+4039	Lớp phát sáng
+4209	Đã bật chế độ gỡ lỗi!
+15335	Cho phép Herobrine hù dọa người chơi khi họ tới quá gần.
+4239	Bắt gặp Herobrine đang đào quanh bạn khi bạn đi đào mỏ.
+4240	Bắt gặp Herobrine đang nhảy điệu griddy.
+4269	Tiếng Anh
+4296	Entity 303
+4457	Không xóa được Herobrine!
+4478	Vương quốc sụp đổ
+4490	Farlander
+4507	Tiếng bước chân đáng sợ
+4564	Tìm một Món quà kinh hoàng từ Herobrine.
+4571	Tìm một Món quà kinh hoàng có tên.
+4836	From The Fog
+4919	Bị Herobrine hù dọa lần đầu.
+4921	Đưa tôi ra khỏi đây!
+4922	Bị Herobrine bám theo mà không hề hay biết.
+4932	Cửa ma
+4933	Thợ mỏ ma
+4960	Đưa một chiếc đèn lồng cho Allay.
+4963	Trao nó quyền điều khiển
+4993	Trục trặc
+5302	Độ trễ ám
+5303	Gặp ác mộng lần đầu.
+5312	Hắn đang theo dõi...
+5458	Chào Liberty.
+5460	Chào ngươi,
+5463	Trợ giúp
+5473	Da Herobrine
+5530	Nhảy điệu griddy
+5531	Hoebrine trở lại
+5632	Tôi không xuống đó đâu.
+5636	Tôi không nhớ đã làm việc này.
+5639	Tôi phải trốn đi.
+5646	Ta thấy ngươi.
+5649	Phải gọi Kevin thôi!
+5655	Tôi lấy đấy, kệ ngươi!
+5656	Tôi đang chơi một mình mà, phải không?
+5657	Ta đang theo dõi...
+5772	Tăng độ trễ
+5963	Có ai đang theo tôi sao?
+5971	Nó đang giao tiếp...
+6132	Jed Kuzel: A Cabin On The Lake
+6134	Jed Kuzel: Alien Covenant (hỏng)
+6135	Jed Kuzel: Cargo Lift
+6136	Jed Kuzel: Chestburster
+6137	Jed Kuzel: Command Override
+6138	Jed Kuzel: Dead Civilization
+6139	Jed Kuzel: Grass Attack
+6140	Jed Kuzel: Launcher Landing
+6141	Jed Kuzel: Lonely Perfection
+6142	Jed Kuzel: Payload Deployment
+6143	Jed Kuzel: Planet 4
+6144	Jed Kuzel: Sails
+6145	Jed Kuzel: Survivor
+6146	Jed Kuzel: Terraforming
+6147	Jed Kuzel: The Covenant
+6148	Jed Kuzel: Wheat Field
+6149	Mảnh nhạc Jed Kuzel
+6167	Cơ chế hù dọa
+6275	Chỉ là một giấc mơ xấu... Phải không?
+6386	Dung nham không thể gây ra chuyện này...
+6394	Để tôi yên.
+6439	Liếm
+6677	Lắng nghe kỹ.
+6684	Tuyệt vời theo đúng nghĩa đen.
+6736	đang nhìn
+6776	Jack lù đù
+6778	Nguyệt thực
+6780	Ngôn ngữ khi lảng vảng
+6781	Cơ chế lảng vảng
+15563	Minecraft đã phát hiện một sự hiện diện lạ trong thế giới này. Bạn được khuyên ĐỪNG VƯỢT QUA MÀN HÌNH NÀY. Phớt lờ cảnh báo có thể dẫn tới những chuyện kỳ lạ hoặc những cuộc chạm trán. Hãy nhớ, đừng nhìn thẳng vào lỗi.
+7729	Đĩa nhạc
+7762	Bảng tên
+7841	Netherbrine
+7896	Cơ chế ác mộng
+7938	Không ngủ được
+8001	Null
+8002	Bị vô hiệu
+8110	Bị xáo trộn
+8153	Tắt
+8166	Cơ chế điện thờ gốc
+8358	Trang 1
+8359	Trang 2
+8360	Trang 3
+8361	Trang 4
+8362	Trang 5
+8363	Trang 6
+8364	Trang
+9318	Da ngẫu nhiên
+9325	Hiếm
+9635	Giảm độ trễ
+10272	Thắp lại điện thờ
+10309	Đang xóa mọi Herobrine.
+10805	Bị sculk xâm nhiễm
+11159	Bất ngờ ở điện thờ
+11179	Tỉ lệ bị bắt gặp
+11180	Âm thanh khi bị bắt gặp
+11181	Cảm nhận khi bị bắt gặp
+11229	Những tấm biển điềm gở
+11252	Thư viện da
+11253	Da
+11337	Cười
+11410	Có ai đó đang theo tôi...
+11640	Phát hiện Herobrine lần đầu.
+11820	Cơ chế bám theo
+11821	Độ trễ biến mất khi bám theo
+11917	Dừng lại.
+12451	Đã xóa mọi Herobrine!
+12453	Đã khôi phục cấu hình mặc định!
+12483	Cài đặt siêu bí mật
+12499	Sống sót 10 ngày.
+12500	Sống sót 100 ngày.
+12501	Sống sót 200 ngày.
+12502	Sống sót 3 ngày.
+12503	Sống sót 50 ngày.
+15792	Đổi cơ chế hù dọa sang cơ chế làm sập gốc. [CẢNH BÁO ĐỘNG KINH!] [KHÔNG HỢP VỚI MÁY YẾU!] (Chỉ hoạt động khi bật hù dọa.)
+12513	Tiếng Thụy Điển
+12543	Lấy lại quyền điều khiển
+12546	Lấy cây đuốc từ thợ mỏ ma.
+12757	Thần chết
+12759	Kẻ không đầu
+12898	Bí ngô trắng
+12909	Hiện không có Herobrine nào được tải trong thế giới này!
+16028	Lệnh này kích hoạt cơ chế rón rén và gọi Herobrine ra sau lưng người chơi được chọn.
+16029	Lệnh này kích hoạt cơ chế lảng vảng và gọi Herobrine ra đâu đó ở xa quanh người chơi được chọn. Herobrine có thể không xuất hiện nếu điểm xuất hiện của hắn cách một người chơi dưới 40 khối.
+16030	Lệnh này kích hoạt cơ chế ác mộng và gọi Herobrine ra cuối giường của người chơi được chọn. Herobrine sẽ không xuất hiện nếu người chơi không nằm trên giường.
+16031	Lệnh này kích hoạt cơ chế bám theo và gọi Herobrine ra đâu đó quanh người chơi được chọn. Herobrine có thể không xuất hiện nếu điểm xuất hiện của hắn nằm trong tầm nhìn của người chơi khác.
+12953	ĐÂY LÀ TÊN NGƯỜI CHƠI, ĐỔI NÓ KHÔNG CÓ TÁC DỤNG.
+12963	cơn ác mộng này.
+16065	Bật tắt việc Herobrine có thể thổi tắt nến của người chơi.
+16066	Bật tắt việc Herobrine có xuất hiện ở cuối giường khi bạn ngủ.
+16067	Bật tắt việc Herobrine có đổi đuốc của bạn thành đuốc Redstone và đèn lồng thành đèn lồng linh hồn. (kiểm tra mỗi ngày trong trò chơi một lần)
+16068	Bật tắt việc Herobrine có biến mất khi bị nhìn qua cửa sổ.
+16069	Bật tắt việc Herobrine có để lại biển hiệu cho người chơi trong một số sự kiện.
+16070	Bật tắt việc Herobrine có để lại quà trong rương của bạn. (Có thể xảy ra trước khi qua 3 ngày hoặc xây điện thờ. Kiểm tra mỗi ngày trong trò chơi một lần.)
+16071	Bật tắt việc Herobrine có ngăn bạn ngủ khi hắn ở gần. (Không hoạt động ở chế độ hòa bình.)
+16072	Bật tắt việc có sét đánh khi kích hoạt điện thờ Herobrine.
+13082	nữa?
+13393	Không phổ biến
+13436	Lỗi thực thể không rõ
+13671	TỈNH DẬY ĐI.
+13875	Ngươi là thứ gì
+13877	CÁI GÌ THẾ?
+13879	CÁI GÌ?!
+13931	Mắt trắng (cổ điển)
+13980	Ai đặt cái này ở đây?
+14122	Kẻ nhìn qua cửa sổ
+14153	Chứng kiến một con sói đã thuần hóa gầm gừ với Herobrine.
+14331	Ngươi không
+14353	Ngươi không thoát được đâu
+14354	Ngươi không thấy hắn, nhưng ta hứa là hắn thấy ngươi...
+14375	Ngươi không biết mình đã làm gì...
+14418	Ổn chứ nhóc?
+14428	ngươi?
+14452	Thây ma
+15567	ModernFix phát hiện đã cài Redirector. Redirector được biết là gây nhiều lỗi lạ và khó gỡ, rất nên gỡ nó đi.
+1051	Trung bình
+1208	Độ cao nền
+1305	Quần xã
+2413	Khí hậu
+2468	Lạnh
+4536	Khối lấp đầy
+5335	Biến thiên độ cao
+5514	Cao
+5518	Độ ẩm cao
+5808	Thông tin
+6762	Thấp
+7447	Vừa
+7768	Nature's Compass
+9001	Lượng mưa
+9293	Mưa
+9300	Lượng mưa
+10918	Chọn quần xã
+11376	Tuyết
+11826	Bắt đầu tìm
+11951	CHUỖI: LƯỢNG MƯA
+12535	Thẻ
+12630	Nhiệt độ
+13088	Khối trên cùng
+13582	Rất cao
+13583	Rất thấp
+13685	Ấm
+3170	Nút tối màu
+3192	Chế độ tối
+3737	Tắt lưu bộ lọc
+3917	Thả tất cả
+3918	Thả tất cả (kể cả thanh nóng)
+3919	Thả tất cả (túi đồ)
+4196	Bật lưu bộ lọc
+4552	Lọc vật phẩm
+4557	Lọc...
+7669	Chuyển tất cả
+7670	Chuyển tất cả (kể cả thanh nóng)
+7671	Chuyển tất cả (túi đồ)
+7674	Chuyển đồ giống nhau
+7675	Chuyển đồ giống nhau (kể cả thanh nóng)
+7676	Chuyển đồ giống nhau (túi đồ)
+7807	Nemo's Inventory Sorting
+11433	Sắp xếp (kể cả thanh nóng)
+11434	Sắp xếp (túi đồ)
+13041	Bật tắt lưu bộ lọc
+1514	Lò luyện đá đen
+1524	Lò nung đá đen
+1538	Bếp đá đen
+2538	Thành phần
+2919	Cụm nấm đỏ thẫm
+3679	Dao rựa kim cương
+5047	Dao rựa vàng
+5239	Strider nướng
+5244	Thịt Strider xay
+5533	Tai Hoglin
+5535	Da Hoglin
+5536	Thăn Hoglin
+5537	Thăn ngoại Hoglin
+5538	Chiến lợi phẩm Hoglin
+5939	Dao rựa sắt
+6984	Thạch dung nham
+7498	Hoa cẩm chướng bắt chước
+7816	Lò hun khói gạch Nether
+7835	Xiên nướng Nether
+7840	Nether's Delight
+7857	Dao rựa Netherit
+8853	Đĩa giăm bông Hoglin nhồi
+8854	Đĩa Hoglin quay nhồi
+8855	Đĩa mõm Hoglin nhồi
+8985	Chậu hoa cẩm chướng bắt chước
+9085	Ngọc đẩy
+9086	Thân quả cây đẩy
+9087	Cuống quả cây đẩy
+9088	Thân cây đẩy
+9089	Cuống cây đẩy
+9090	Đuốc cây đẩy
+9385	Hoglin nhồi sống
+10518	Đất linh hồn màu mỡ
+11446	Phân ủ linh hồn
+11513	Nhanh hơn nhờ chất kích hoạt kề bên (xem bên dưới)
+11514	Nhanh hơn nhờ lửa kề bên (xem bên dưới)
+11515	Nhanh hơn nhờ dung nham kề bên
+11946	Món hầm rêu Strider
+11947	Lát thịt Strider
+12417	Hoglin nhồi
+13730	Cụm nấm kì dị
+13750	Thịt mốc kì dị
+13996	Chỉ ủ được ở Nether
+14409	Bạn cần dao để cắt thứ này.
+25	 §9Kháng cự II (05:00)
+26	 §9Sức mạnh I (05:00)
+44	%1$s chảy máu tới chết
+45	%1$s chảy máu tới chết khi đang chiến đấu với %2$s
+46	%1$s chảy máu tới chết khi đang chiến đấu với %2$s dùng %3$s
+48	%1$s không chịu nổi kính vạn hoa
+14996	%1$s không chịu nổi kính vạn hoa khi đang chiến đấu với %2$s
+14997	%1$s không chịu nổi kính vạn hoa khi đang chiến đấu với %2$s dùng %3$s
+49	%1$s không chịu nổi cơn đau
+52	%1$s chết một cái chết rực lửa vinh quang
+53	%1$s chết một cái chết rực lửa vinh quang khi đang chiến đấu với %2$s
+14998	%1$s chết một cái chết rực lửa vinh quang khi đang chiến đấu với %2$s dùng %3$s
+58	%1$s bỏ cuộc khi đang chiến đấu với %2$s dùng %3$s
+120	%1$s bị hư không nuốt chửng
+121	%1$s bị %2$s dùng %3$s đẩy vào hư không
+122	%1$s bị hư không nuốt chửng khi đang cố thoát khỏi %2$s
+133	%1$s bỏ cuộc khi đang chiến đấu với %2$s
+380	Kiêng khem
+638	Gây Hồng thủy khi đánh trúng
+783	Phiến gạch Nether kiểu khác
+784	Bậc gạch Nether kiểu khác
+785	Gạch Nether kiểu khác
+786	Phiến gạch Nether đỏ kiểu khác
+787	Bậc gạch Nether đỏ kiểu khác
+788	Gạch Nether đỏ kiểu khác
+886	Thăng thần
+1517	Phiến gạch đá đen
+1518	Bậc gạch đá đen
+1519	Gạch đá đen
+1549	Chảy máu
+1812	Ánh sáng chói lọi
+1813	Trứng sinh ra Ánh sáng chói lọi
+2274	Lạnh cóng
+2301	Ván gỗ vân sam chạm khắc

@@ -1,0 +1,280 @@
+[22Oct2026 02:46:34.741] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\ACER\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --quickPlaySingleplayer, cmtest, --username, Tester, --mixin.config, cavemind.mixins.json]
+[22Oct2026 02:46:34.745] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.20.1 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[22Oct2026 02:46:34.883] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[22Oct2026 02:46:34.964] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[22Oct2026 02:46:35.261] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[22Oct2026 02:46:35.400] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/ACER/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[22Oct2026 02:46:35.416] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) UHD Graphics GL version 4.6.0 - Build 31.0.101.4032, Intel
+[22Oct2026 02:46:35.754] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[22Oct2026 02:46:35.759] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[22Oct2026 02:46:35.764] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[22Oct2026 02:46:35.769] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[22Oct2026 02:46:35.848] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[22Oct2026 02:46:37.062] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[22Oct2026 02:46:37.064] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\ACER\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --quickPlaySingleplayer, cmtest, --username, Tester]
+[22Oct2026 02:46:37.229] [main/WARN] [mixin/]: Reference map 'cavemind.refmap.json' for cavemind.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Oct2026 02:46:37.265] [main/WARN] [mixin/]: Error loading class: apollyon/procedures/TheDamnedCollidesProcedure (java.lang.ClassNotFoundException: apollyon.procedures.TheDamnedCollidesProcedure)
+[22Oct2026 02:46:37.268] [main/WARN] [mixin/]: Error loading class: apollyon/procedures/TheDamnedKillsProcedure (java.lang.ClassNotFoundException: apollyon.procedures.TheDamnedKillsProcedure)
+[22Oct2026 02:46:37.272] [main/WARN] [mixin/]: Error loading class: apollyon/procedures/TheDamnedSpawnsProcedure (java.lang.ClassNotFoundException: apollyon.procedures.TheDamnedSpawnsProcedure)
+[22Oct2026 02:46:37.273] [main/WARN] [mixin/]: Error loading class: apollyon/procedures/TheDamnedTicksProcedure (java.lang.ClassNotFoundException: apollyon.procedures.TheDamnedTicksProcedure)
+[22Oct2026 02:46:37.313] [main/WARN] [mixin/]: Error loading class: net/mcreator/man/procedures/ManaggresiveOnEntityTickUpdateProcedure (java.lang.ClassNotFoundException: net.mcreator.man.procedures.ManaggresiveOnEntityTickUpdateProcedure)
+[22Oct2026 02:46:37.314] [main/WARN] [mixin/]: Error loading class: net/mcreator/man/procedures/ManfromthefogOnEntityTickUpdate2Procedure (java.lang.ClassNotFoundException: net.mcreator.man.procedures.ManfromthefogOnEntityTickUpdate2Procedure)
+[22Oct2026 02:46:42.768] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 133 milliseconds
+[22Oct2026 02:46:43.914] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/ACER/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[22Oct2026 02:46:43.914] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/ACER/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[22Oct2026 02:46:43.927] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22Oct2026 02:46:43.932] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Tester
+[22Oct2026 02:46:44.018] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[22Oct2026 02:46:44.199] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[22Oct2026 02:46:44.201] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[22Oct2026 02:46:44.968] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
+[22Oct2026 02:46:45.107] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, cavemind_overrides
+[22Oct2026 02:46:45.232] [Worker-Main-1/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[22Oct2026 02:46:45.241] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[22Oct2026 02:46:46.112] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.0 Target: 47.4.28
+[22Oct2026 02:46:47.764] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[22Oct2026 02:46:47.764] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[22Oct2026 02:46:47.920] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (AB13X USB Audio)
+[22Oct2026 02:46:47.920] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[22Oct2026 02:46:48.027] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[22Oct2026 02:46:48.090] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[22Oct2026 02:46:48.091] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[22Oct2026 02:46:48.094] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[22Oct2026 02:46:48.097] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[22Oct2026 02:46:48.121] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[22Oct2026 02:46:48.122] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[22Oct2026 02:46:48.124] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[22Oct2026 02:46:48.125] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[22Oct2026 02:46:48.564] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[22Oct2026 02:46:48.845] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[22Oct2026 02:46:48.854] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[22Oct2026 02:46:48.855] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[22Oct2026 02:46:50.509] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[22Oct2026 02:46:50.621] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1303 advancements
+[22Oct2026 02:46:51.037] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[22Oct2026 02:46:51.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[22Oct2026 02:46:51.126] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\cmtest\serverconfig\forge-server.toml is not correct. Correcting
+[22Oct2026 02:46:51.128] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22Oct2026 02:46:51.128] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[22Oct2026 02:46:51.129] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[22Oct2026 02:46:51.129] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[22Oct2026 02:46:51.129] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[22Oct2026 02:46:51.129] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[22Oct2026 02:46:51.129] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[22Oct2026 02:46:51.129] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
+[22Oct2026 02:46:51.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[22Oct2026 02:46:53.422] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Oct2026 02:46:53.422] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Oct2026 02:46:53.422] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Oct2026 02:46:53.423] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Oct2026 02:46:53.423] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Oct2026 02:46:53.893] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 29%
+[22Oct2026 02:46:54.313] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[22Oct2026 02:46:54.326] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2950 ms
+[22Oct2026 02:46:54.596] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[22Oct2026 02:46:54.599] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[22Oct2026 02:46:54.754] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[22Oct2026 02:46:55.294] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[22Oct2026 02:46:55.346] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Tester[local:E:d32aedae] logged in with entity id 61 at (1057.7063094861674, 65.0, 1061.0529423944365)
+[22Oct2026 02:46:55.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tester joined the game
+[22Oct2026 02:46:56.143] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Trong túi b?n có m?t l? ?om ?óm. B?m chu?t ph?i ?? th? nó ra: nó bay v? phía n?i b?n c?n t?i.
+[22Oct2026 02:46:56.412] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 13 advancements
+[22Oct2026 02:46:57.608] [Server thread/INFO] [vn.cavemind.CaveMind/]: [CaveMind] play mode set to together by Tester
+[22Oct2026 02:46:57.630] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Cách ch?i: CH?I CHUNG. Ch??ng m? khóa ??ng b? cho c? nhóm, tr?n tìm chung m?t ván.
+[22Oct2026 02:46:58.620] [Render thread/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] scenario items
+[22Oct2026 02:46:59.627] [IO-Worker-14/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_000.png
+[22Oct2026 02:46:59.751] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_001.png
+[22Oct2026 02:46:59.822] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_002.png
+[22Oct2026 02:46:59.877] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_003.png
+[22Oct2026 02:46:59.919] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_004.png
+[22Oct2026 02:47:00.008] [IO-Worker-14/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_005.png
+[22Oct2026 02:47:00.081] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_006.png
+[22Oct2026 02:47:00.127] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_007.png
+[22Oct2026 02:47:00.217] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_008.png
+[22Oct2026 02:47:00.277] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_009.png
+[22Oct2026 02:47:00.347] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_010.png
+[22Oct2026 02:47:00.412] [IO-Worker-14/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_011.png
+[22Oct2026 02:47:00.487] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_012.png
+[22Oct2026 02:47:00.537] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_013.png
+[22Oct2026 02:47:00.629] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_014.png
+[22Oct2026 02:47:00.698] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_015.png
+[22Oct2026 02:47:00.738] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_016.png
+[22Oct2026 02:47:00.806] [IO-Worker-14/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_017.png
+[22Oct2026 02:47:00.903] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_018.png
+[22Oct2026 02:47:00.945] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_019.png
+[22Oct2026 02:47:01.008] [IO-Worker-18/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_020.png
+[22Oct2026 02:47:01.067] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_021.png
+[22Oct2026 02:47:01.145] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_022.png
+[22Oct2026 02:47:01.179] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_023.png
+[22Oct2026 02:47:01.251] [IO-Worker-14/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_024.png
+[22Oct2026 02:47:01.292] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_025.png
+[22Oct2026 02:47:01.360] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_026.png
+[22Oct2026 02:47:01.417] [IO-Worker-18/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_027.png
+[22Oct2026 02:47:01.486] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_028.png
+[22Oct2026 02:47:01.546] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_029.png
+[22Oct2026 02:47:01.612] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_030.png
+[22Oct2026 02:47:01.692] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_031.png
+[22Oct2026 02:47:01.725] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_032.png
+[22Oct2026 02:47:01.807] [IO-Worker-18/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_033.png
+[22Oct2026 02:47:01.858] [IO-Worker-14/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_034.png
+[22Oct2026 02:47:01.943] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_035.png
+[22Oct2026 02:47:01.980] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_036.png
+[22Oct2026 02:47:02.049] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_037.png
+[22Oct2026 02:47:02.104] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_038.png
+[22Oct2026 02:47:02.152] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_039.png
+[22Oct2026 02:47:02.228] [IO-Worker-18/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_040.png
+[22Oct2026 02:47:02.268] [IO-Worker-14/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_041.png
+[22Oct2026 02:47:02.350] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_042.png
+[22Oct2026 02:47:02.392] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_043.png
+[22Oct2026 02:47:02.436] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_044.png
+[22Oct2026 02:47:02.503] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_045.png
+[22Oct2026 02:47:02.561] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_046.png
+[22Oct2026 02:47:02.632] [IO-Worker-14/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_047.png
+[22Oct2026 02:47:02.695] [IO-Worker-18/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_048.png
+[22Oct2026 02:47:02.727] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_049.png
+[22Oct2026 02:47:02.781] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_050.png
+[22Oct2026 02:47:02.836] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_051.png
+[22Oct2026 02:47:02.895] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_052.png
+[22Oct2026 02:47:02.964] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_053.png
+[22Oct2026 02:47:03.047] [IO-Worker-14/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_054.png
+[22Oct2026 02:47:03.081] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_055.png
+[22Oct2026 02:47:03.151] [IO-Worker-18/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_056.png
+[22Oct2026 02:47:03.178] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_057.png
+[22Oct2026 02:47:03.217] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_058.png
+[22Oct2026 02:47:03.269] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_059.png
+[22Oct2026 02:47:03.804] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_000.png
+[22Oct2026 02:47:03.871] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_001.png
+[22Oct2026 02:47:03.971] [Server thread/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] firefly from (0.989650809764862, 72.53651640117168, 0.8365599036216735) to (208.5, 70.5, 67.5) ends (31.791275298535858, 72.66915922529485, 10.88853621338008) look (0.8160846829414368, -0.1391393393278122, 0.5609331727027893) yaw -55.499756
+[22Oct2026 02:47:03.973] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_002.png
+[22Oct2026 02:47:04.072] [IO-Worker-18/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_003.png
+[22Oct2026 02:47:04.134] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_004.png
+[22Oct2026 02:47:04.187] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_005.png
+[22Oct2026 02:47:04.222] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_006.png
+[22Oct2026 02:47:04.284] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_007.png
+[22Oct2026 02:47:04.342] [IO-Worker-14/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_008.png
+[22Oct2026 02:47:04.385] [IO-Worker-18/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_009.png
+[22Oct2026 02:47:04.429] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_010.png
+[22Oct2026 02:47:04.459] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_011.png
+[22Oct2026 02:47:04.527] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_012.png
+[22Oct2026 02:47:04.601] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_013.png
+[22Oct2026 02:47:04.658] [IO-Worker-14/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_014.png
+[22Oct2026 02:47:04.706] [IO-Worker-18/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_015.png
+[22Oct2026 02:47:04.770] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_016.png
+[22Oct2026 02:47:04.838] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_017.png
+[22Oct2026 02:47:04.873] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_018.png
+[22Oct2026 02:47:04.946] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_019.png
+[22Oct2026 02:47:04.984] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_020.png
+[22Oct2026 02:47:05.050] [IO-Worker-18/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_021.png
+[22Oct2026 02:47:05.105] [IO-Worker-14/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_022.png
+[22Oct2026 02:47:05.136] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_023.png
+[22Oct2026 02:47:05.193] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_024.png
+[22Oct2026 02:47:05.239] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_025.png
+[22Oct2026 02:47:05.276] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_026.png
+[22Oct2026 02:47:05.359] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_027.png
+[22Oct2026 02:47:05.389] [IO-Worker-18/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_028.png
+[22Oct2026 02:47:05.463] [IO-Worker-14/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_029.png
+[22Oct2026 02:47:05.495] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_030.png
+[22Oct2026 02:47:05.531] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_031.png
+[22Oct2026 02:47:05.556] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_032.png
+[22Oct2026 02:47:05.647] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_033.png
+[22Oct2026 02:47:05.685] [IO-Worker-19/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_034.png
+[22Oct2026 02:47:05.754] [IO-Worker-18/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_035.png
+[22Oct2026 02:47:05.820] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_036.png
+[22Oct2026 02:47:05.864] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_037.png
+[22Oct2026 02:47:05.888] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_038.png
+[22Oct2026 02:47:05.967] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_039.png
+[22Oct2026 02:47:05.999] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_040.png
+[22Oct2026 02:47:06.054] [IO-Worker-19/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_041.png
+[22Oct2026 02:47:06.133] [IO-Worker-18/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_042.png
+[22Oct2026 02:47:06.191] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_043.png
+[22Oct2026 02:47:06.239] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_044.png
+[22Oct2026 02:47:06.249] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_045.png
+[22Oct2026 02:47:06.331] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_046.png
+[22Oct2026 02:47:06.381] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_047.png
+[22Oct2026 02:47:06.409] [IO-Worker-19/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_048.png
+[22Oct2026 02:47:06.460] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_049.png
+[22Oct2026 02:47:06.482] [IO-Worker-18/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_050.png
+[22Oct2026 02:47:06.549] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_051.png
+[22Oct2026 02:47:06.616] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_052.png
+[22Oct2026 02:47:06.639] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_053.png
+[22Oct2026 02:47:06.695] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_054.png
+[22Oct2026 02:47:06.752] [IO-Worker-19/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_055.png
+[22Oct2026 02:47:06.770] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_056.png
+[22Oct2026 02:47:06.859] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_057.png
+[22Oct2026 02:47:06.888] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_058.png
+[22Oct2026 02:47:06.945] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_059.png
+[22Oct2026 02:47:06.957] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_060.png
+[22Oct2026 02:47:07.026] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_061.png
+[22Oct2026 02:47:07.084] [IO-Worker-19/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_062.png
+[22Oct2026 02:47:07.121] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_063.png
+[22Oct2026 02:47:07.141] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_064.png
+[22Oct2026 02:47:07.201] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_065.png
+[22Oct2026 02:47:07.227] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_066.png
+[22Oct2026 02:47:07.826] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_000.png
+[22Oct2026 02:47:07.886] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_001.png
+[22Oct2026 02:47:07.911] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_002.png
+[22Oct2026 02:47:07.981] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_003.png
+[22Oct2026 02:47:08.028] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_004.png
+[22Oct2026 02:47:08.093] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_005.png
+[22Oct2026 02:47:08.145] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_006.png
+[22Oct2026 02:47:08.183] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_007.png
+[22Oct2026 02:47:08.247] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_008.png
+[22Oct2026 02:47:08.308] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_009.png
+[22Oct2026 02:47:08.351] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_010.png
+[22Oct2026 02:47:08.422] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_011.png
+[22Oct2026 02:47:08.456] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_012.png
+[22Oct2026 02:47:08.546] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_013.png
+[22Oct2026 02:47:08.608] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_014.png
+[22Oct2026 02:47:08.655] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_015.png
+[22Oct2026 02:47:08.709] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_016.png
+[22Oct2026 02:47:08.759] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_017.png
+[22Oct2026 02:47:08.814] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_018.png
+[22Oct2026 02:47:08.857] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_019.png
+[22Oct2026 02:47:08.911] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_020.png
+[22Oct2026 02:47:08.967] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_021.png
+[22Oct2026 02:47:09.015] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_022.png
+[22Oct2026 02:47:09.052] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_023.png
+[22Oct2026 02:47:09.121] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_024.png
+[22Oct2026 02:47:09.171] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_025.png
+[22Oct2026 02:47:09.239] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_026.png
+[22Oct2026 02:47:09.264] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_027.png
+[22Oct2026 02:47:09.314] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_028.png
+[22Oct2026 02:47:09.374] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_029.png
+[22Oct2026 02:47:09.433] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_030.png
+[22Oct2026 02:47:09.458] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_031.png
+[22Oct2026 02:47:09.517] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_032.png
+[22Oct2026 02:47:09.561] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_033.png
+[22Oct2026 02:47:09.616] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_034.png
+[22Oct2026 02:47:09.674] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_035.png
+[22Oct2026 02:47:09.725] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_036.png
+[22Oct2026 02:47:09.784] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_037.png
+[22Oct2026 02:47:09.837] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_038.png
+[22Oct2026 02:47:09.866] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_039.png
+[22Oct2026 02:47:09.921] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_040.png
+[22Oct2026 02:47:10.021] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_041.png
+[22Oct2026 02:47:10.043] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_042.png
+[22Oct2026 02:47:10.074] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_043.png
+[22Oct2026 02:47:10.145] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_044.png
+[22Oct2026 02:47:10.221] [IO-Worker-19/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_045.png
+[22Oct2026 02:47:10.254] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_046.png
+[22Oct2026 02:47:10.323] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_047.png
+[22Oct2026 02:47:10.335] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[22Oct2026 02:47:10.374] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Tester lost connection: Disconnected
+[22Oct2026 02:47:10.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tester left the game
+[22Oct2026 02:47:10.379] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_048.png
+[22Oct2026 02:47:10.397] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[22Oct2026 02:47:10.402] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_049.png
+[22Oct2026 02:47:10.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[22Oct2026 02:47:10.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[22Oct2026 02:47:10.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[22Oct2026 02:47:10.504] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_051.png
+[22Oct2026 02:47:10.512] [IO-Worker-19/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_050.png
+[22Oct2026 02:47:11.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22Oct2026 02:47:11.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/cavemind:gio_48
+[22Oct2026 02:47:11.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22Oct2026 02:47:11.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22Oct2026 02:47:11.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (cmtest): All chunks are saved
+[22Oct2026 02:47:11.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (gio_48): All chunks are saved
+[22Oct2026 02:47:11.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22Oct2026 02:47:11.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22Oct2026 02:47:11.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

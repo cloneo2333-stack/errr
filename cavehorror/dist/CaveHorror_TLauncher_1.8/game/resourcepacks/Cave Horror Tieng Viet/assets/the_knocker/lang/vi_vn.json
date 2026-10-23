@@ -1,0 +1,16 @@
+{
+ "advancements.cant_sleep.descr": "Bạn không ngủ được vì có thứ gì đó cứ khiến bạn thao thức...",
+ "advancements.cant_sleep.title": "Tôi không ngủ được sao?",
+ "block.the_knocker.bridge": "Cây cầu",
+ "config.the_knocker.knockerconfig": "kẻ gõ cửa",
+ "entity.the_knocker.knocker": "Kẻ gõ cửa",
+ "entity.the_knocker.knockerstalk": "Kẻ gõ cửa",
+ "entity.the_knocker.knockerstalklooked": "Kẻ gõ cửa",
+ "entity.the_knocker.knockerswim": "Kẻ gõ cửa",
+ "item.the_knocker.bridge": "Cây cầu",
+ "item.the_knocker.knocker_disc": "Đĩa nhạc chủ đề Kẻ gõ cửa",
+ "item.the_knocker.knocker_spawn_egg": "Trứng sinh ra Kẻ gõ cửa",
+ "item.the_knocker.knockerswim_spawn_egg": "Trứng sinh ra Kẻ gõ cửa",
+ "the_knocker.configuration.respect_difficulty": "tôn trọng độ khó",
+ "the_knocker.configuration.spawn_rate": "tỉ lệ xuất hiện"
+}

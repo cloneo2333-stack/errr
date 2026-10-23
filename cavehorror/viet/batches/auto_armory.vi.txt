@@ -1,0 +1,180 @@
+531	Rìu chiến Adamantit
+532	Vòng phi đao Adamantit
+533	Dao găm Adamantit
+534	Đại đao Adamantit
+535	Đại kiếm Adamantit
+536	Kích Adamantit
+537	Lao Adamantit
+538	Katana Adamantit
+539	Trường kiếm Adamantit
+540	Giáo dài Adamantit
+541	Kiếm liễu Adamantit
+542	Đoản kiếm Adamantit
+543	Phi tiêu Adamantit
+544	Giáo Adamantit
+545	Dao nhọn Adamantit
+546	Dao ném Adamantit
+547	Song nhận Adamantit
+548	Kiếm hai tay Adamantit
+3666	Rìu chiến kim cương
+3668	Vòng phi đao kim cương
+3669	Dao găm kim cương
+3671	Đại đao kim cương
+3673	Đại kiếm kim cương
+3674	Kích kim cương
+3676	Lao kim cương
+3677	Katana kim cương
+3678	Trường kiếm kim cương
+3682	Giáo dài kim cương
+3683	Kiếm liễu kim cương
+3684	Đoản kiếm kim cương
+3686	Phi tiêu kim cương
+3687	Giáo kim cương
+3688	Dao nhọn kim cương
+3693	Dao ném kim cương
+3695	Song nhận kim cương
+3696	Kiếm hai tay kim cương
+4004	Rìu chiến Electrum
+4005	Vòng phi đao Electrum
+4006	Dao găm Electrum
+4007	Đại đao Electrum
+4008	Đại kiếm Electrum
+4009	Kích Electrum
+4010	Lao Electrum
+4011	Katana Electrum
+4012	Trường kiếm Electrum
+4013	Giáo dài Electrum
+4014	Kiếm liễu Electrum
+4015	Đoản kiếm Electrum
+4016	Phi tiêu Electrum
+4017	Giáo Electrum
+4018	Dao nhọn Electrum
+4019	Dao ném Electrum
+4020	Song nhận Electrum
+4021	Kiếm hai tay Electrum
+5034	Rìu chiến vàng
+5036	Vòng phi đao vàng
+5038	Dao găm vàng
+5039	Đại đao vàng
+5041	Đại kiếm vàng
+5042	Kích vàng
+5044	Lao vàng
+5045	Katana vàng
+5046	Trường kiếm vàng
+5048	Giáo dài vàng
+5049	Kiếm liễu vàng
+5051	Đoản kiếm vàng
+5052	Phi tiêu vàng
+5053	Giáo vàng
+5054	Dao nhọn vàng
+5055	Dao ném vàng
+5056	Song nhận vàng
+5057	Kiếm hai tay vàng
+5917	Rìu chiến sắt
+5923	Vòng phi đao sắt
+5925	Dao găm sắt
+5930	Đại đao sắt
+5932	Đại kiếm sắt
+5933	Kích sắt
+5936	Lao sắt
+5937	Katana sắt
+5938	Trường kiếm sắt
+5943	Giáo dài sắt
+5946	Kiếm liễu sắt
+5947	Đoản kiếm sắt
+5949	Phi tiêu sắt
+5951	Giáo sắt
+5952	Dao nhọn sắt
+5954	Dao ném sắt
+5958	Song nhận sắt
+5960	Kiếm hai tay sắt
+7781	Rìu chiến Necromium
+7782	Vòng phi đao Necromium
+7783	Dao găm Necromium
+7784	Đại đao Necromium
+7785	Đại kiếm Necromium
+7786	Kích Necromium
+7787	Lao Necromium
+7788	Katana Necromium
+7789	Trường kiếm Necromium
+7790	Giáo dài Necromium
+7791	Kiếm liễu Necromium
+7792	Đoản kiếm Necromium
+7793	Phi tiêu Necromium
+7794	Giáo Necromium
+7795	Dao nhọn Necromium
+7796	Dao ném Necromium
+7797	Song nhận Necromium
+7798	Kiếm hai tay Necromium
+7844	Rìu chiến Netherit
+7846	Vòng phi đao Netherit
+7847	Dao găm Netherit
+7848	Đại đao Netherit
+7850	Đại kiếm Netherit
+7851	Kích Netherit
+7854	Lao Netherit
+7855	Katana Netherit
+7856	Trường kiếm Netherit
+7858	Giáo dài Netherit
+7859	Kiếm liễu Netherit
+7862	Đoản kiếm Netherit
+7864	Phi tiêu Netherit
+7865	Giáo Netherit
+7866	Dao nhọn Netherit
+7868	Dao ném Netherit
+7869	Song nhận Netherit
+7870	Kiếm hai tay Netherit
+11199	Rìu chiến bạc
+11200	Vòng phi đao bạc
+11201	Dao găm bạc
+11203	Đại đao bạc
+11204	Đại kiếm bạc
+11205	Kích bạc
+11206	Lao bạc
+11207	Katana bạc
+11208	Trường kiếm bạc
+11209	Giáo dài bạc
+11210	Kiếm liễu bạc
+11211	Đoản kiếm bạc
+11212	Phi tiêu bạc
+11213	Giáo bạc
+11214	Dao nhọn bạc
+11215	Dao ném bạc
+11216	Song nhận bạc
+11217	Kiếm hai tay bạc
+11850	Rìu chiến đá
+11869	Vòng phi đao đá
+11872	Dao găm đá
+11875	Đại đao đá
+11878	Đại kiếm đá
+11879	Kích đá
+11881	Lao đá
+11882	Katana đá
+11883	Trường kiếm đá
+11890	Giáo dài đá
+11893	Kiếm liễu đá
+11895	Đoản kiếm đá
+11896	Phi tiêu đá
+11897	Giáo đá
+11901	Dao nhọn đá
+11902	Dao ném đá
+11905	Song nhận đá
+11906	Kiếm hai tay đá
+14166	Rìu chiến gỗ
+14171	Vòng phi đao gỗ
+14174	Dao găm gỗ
+14180	Đại đao gỗ
+14182	Đại kiếm gỗ
+14183	Kích gỗ
+14185	Lao gỗ
+14186	Katana gỗ
+14187	Trường kiếm gỗ
+14188	Giáo dài gỗ
+14191	Kiếm liễu gỗ
+14194	Đoản kiếm gỗ
+14195	Phi tiêu gỗ
+14197	Giáo gỗ
+14199	Dao nhọn gỗ
+14200	Dao ném gỗ
+14202	Song nhận gỗ
+14203	Kiếm hai tay gỗ

@@ -1,0 +1,190 @@
+14907	§cBia mộ: Carrion.exe
+14908	§cBia mộ: D4rkDevilX
+14909	§cBia mộ: DarkTitan066
+14914	§cChạm hút máu
+14915	§cBạn cảm thấy có thứ gì đó đang đuổi theo mình...
+14937	§dBom say xỉn
+14938	§dTai thỏ sát thủ
+14939	§dBom bóng ma
+14942	§dBia mộ: Derivas
+14946	§eBùa bền bỉ
+1511	Danh sách chặn
+1598	Những khối người chơi không thể nhấc lên
+2033	Mang vác
+2034	Carry On
+3067	Điều kiện nhấc khối tùy chỉnh
+3069	Điều kiện nhấc thực thể tùy chỉnh
+3078	Điều kiện nhấc tùy chỉnh (nâng cao)
+4291	Những thực thể người chơi không thể nhấc lên
+7590	Thay thế mô hình
+7591	Thay thế mô hình (nâng cao)
+11012	Cài đặt
+13979	Danh sách cho phép
+2054	Cave Dweller
+2055	Trứng sinh ra Cave Dweller
+276	(Bụi hang) Đã tắt hạt bụi
+277	(Bụi hang) Đã bật hạt bụi
+278	(Bụi hang) Đã tải lại cấu hình
+800	Số lượng hạt sinh ra ở mỗi độ sâu.
+894	Áp dụng
+938	Bạn có chắc muốn đặt lại mọi cài đặt?
+2051	Bụi hang
+2052	Bụi hang: Tắt
+2053	Bụi hang: Bật
+3735	Tắt hạt bụi hang?
+3872	Xong
+4189	Bật hạt bụi hang?
+15337	Dò tìm nâng cao cho kết quả chính xác hơn, dùng vị trí của hạt\n               thay vì của người chơi, có ảnh hưởng chút ít tới hiệu năng.
+4270	Dò tìm nâng cao: Tắt
+4271	Dò tìm nâng cao: Bật
+6770	Độ cao giới hạn dưới:
+6771	Độ cao giới hạn dưới: %s
+7713	Nhân số lượng hạt.
+8526	Số lượng hạt:
+8527	Số lượng hạt: %s
+8529	Hệ số nhân hạt:
+8530	Hệ số nhân hạt: %s
+8532	Loại hạt sinh ra. Nhấp để đổi vòng.
+8533	Loại hạt:
+10278	Tải lại cấu hình
+10371	Đặt lại cài đặt
+11069	Có sinh hạt trong thế giới siêu phẳng không?
+12484	Hạt ở thế giới siêu phẳng: Tắt
+12485	Hạt ở thế giới siêu phẳng: Bật
+12761	Độ cao hạt sinh ra nhiều nhất (theo tọa độ y của người chơi).
+15871	Độ cao hạt mờ dần và ngừng sinh ra (theo tọa độ y của người chơi).
+12833	Độ ngẫu nhiên vận tốc của hạt.
+13050	Bật tắt hạt
+13481	Độ cao giới hạn trên:
+13482	Độ cao giới hạn trên: %s
+13563	Độ ngẫu nhiên vận tốc: %s
+14236	Giới hạn trục X để sinh hạt.
+14237	Giới hạn X:
+14238	Giới hạn X: %s
+14257	Giới hạn trục Y để sinh hạt.
+14258	Giới hạn Y:
+14259	Giới hạn Y: %s
+14445	Giới hạn trục Z để sinh hạt.
+14446	Giới hạn Z:
+14447	Giới hạn Z: %s
+36	"UUID"? "Phỏng đoán"?
+321	Độ nổi khối
+15131	Khi bật, mọi dòng chữ sẽ được căn thẳng\nChỉ áp dụng cho kiểu hiển thị "Trước dòng"
+1031	Tự nhận biết tên gọi khác
+1270	Trước dòng
+1271	Trước tên
+2143	Chat Heads
+2421	Chưa cài Cloth Config!
+2771	Không mở được trình đơn cấu hình
+15383	Với đa số máy chủ, "UUID và phỏng đoán" là đủ.\nNếu máy chủ gửi UUID giả, phải dùng\n"Chỉ phỏng đoán".
+5268	Xử lý tin nhắn hệ thống
+5474	Chỉ phỏng đoán
+7752	Tên gọi khác
+15574	Bình thường máy chủ cho biết ai gửi tin nhắn,\ntức là UUID của người gửi. Nhưng nhiều máy chủ không làm vậy.\nChúng thậm chí còn gửi UUID giả. Khi đó ta phải\nphỏng đoán, tức là đoán dựa trên nội dung tin nhắn.\nCách phỏng đoán này không hoàn hảo nên có thể ghép nhầm đầu.
+8163	Dịch chữ trò chuyện không phải của người chơi
+8213	Mở trang Cloth Config trên CurseForge
+8214	Mở trang Cloth Config trên Modrinth
+10317	Vị trí hiển thị
+10318	Hiện bóng
+15681	Vẽ lớp mũ to hơn một chút\nđể đầu trong khung trò chuyện trông bớt phẳng.\nViệc này có thể gây lỗi hiển thị.\nHãy vào một thế giới để xem trước!
+15697	Xem bạn đang trò chuyện với ai!\nMod này thêm đầu người chơi bên cạnh tin nhắn của họ.
+10944	Nhận biết người gửi
+11327	Phỏng đoán thông minh
+15759	Một số máy chủ cho đặt biệt danh không thể tự ghép được.\nỞ đây bạn có thể tự ghép các biệt danh đó với tên hồ sơ, như:\nbiệt danh → tên hồ sơ
+16059	Tính năng này sẽ tìm các phản hồi cho lệnh /realname trên\nmáy chủ EssentialsX và tự thêm tên gọi khác cho nó.
+16080	Tắt phỏng đoán nếu biết chắc máy chủ có gửi UUID.\n(Áp dụng cho cách nhận biết người gửi "UUID và phỏng đoán")
+13536	UUID và phỏng đoán
+13537	Chỉ UUID
+16133	Vị trí hiển thị đầu trong khung trò chuyện\n\nGhi chú: "Trước tên" có thể không tương thích với một số mod.\nVới Caxton và Modern UI, "Trước dòng" sẽ tự được dùng.
+16134	Có thêm đầu vào tin nhắn "thuần" của máy chủ hay không.\nLưu ý là nhiều máy chủ (ví dụ chạy plugin FreedomChat)\nbiến tin nhắn của người chơi thành tin nhắn máy chủ!\nChỉ tắt tùy chọn này khi bạn biết mình đang làm gì!
+15035	Thêm hộp bóng vào chữ FPS, theo đúng kiểu chữ F3
+604	Nâng cao
+681	TẤT CẢ
+996	Gắn thêm
+15166	GẮN THÊM: Thêm chế độ không viền vào vòng chuyển đổi\nTHAY THẾ: Thay Toàn màn hình bằng Toàn màn hình không viền\nTẮT: Không thêm chế độ không viền vào vòng chuyển đổi
+1053	TB
+1425	Đen
+1512	Độ tối
+1556	Hạt khi phá khối
+1559	Hạt nứt khối
+1561	Khoảng cách tối đa của khối thực thể (ngang)
+1562	Khoảng cách tối đa của khối thực thể (dọc)
+1568	Chỉ ánh sáng khối
+1729	Không viền
+1730	Không viền khi nhấn F11
+1748	Dưới
+2081	Giữa
+2337	Đoạn hiện dần
+2424	Độ cao mây
+15275	Chỉnh độ sáng khi trăng tròn, hoặc mức sáng tối đa ở pha trăng đen
+15276	Chỉnh độ sáng khi trăng non, hoặc mức sáng tối thiểu ở pha trăng đen
+15277	Chỉnh độ sáng sương mù ở End khi bật bóng tối.
+15278	Chỉnh độ sáng sương mù ở Nether khi bật bóng tối.
+2571	Chỉnh điểm kết thúc của sương mù
+2572	Chỉnh hình dạng của sương mù
+2573	Chỉnh điểm bắt đầu của sương mù
+3070	Sương mù tùy chỉnh
+3071	Điểm kết thúc sương mù tùy chỉnh
+3072	Hình dạng sương mù tùy chỉnh
+3073	Điểm bắt đầu sương mù tùy chỉnh
+3150	Hình trụ
+3320	Bóng tối
+3322	Mức bóng tối
+3700	Mờ
+3734	Tắt tối ưu không viền
+3739	Tắt đi sẽ không vẽ nhãn tên cho mọi thực thể
+3740	Tắt đi sẽ không vẽ nhãn tên cho mọi người chơi
+15303	Tắt đi sẽ không vẽ nhãn tên cho vật phẩm, kể cả vật phẩm trong khung vật phẩm
+4197	Bật ở các chiều không gian khác
+4199	Bật ở End
+4200	Bật ở Nether
+4201	Bật ở Thế giới thực
+4202	Bật ở chiều không gian không có bầu trời
+4207	Bật phóng to
+4212	Bật giá trị sương mù tùy chỉnh
+4215	Bật hạt khi phá khối
+4216	Bật hạt nứt khi phá khối
+4217	Bật hạt nước mưa rơi xuống đất
+4218	Bật hạt nước rơi khi mưa
+4248	Độ sáng sương mù End
+4250	Sương mù bầu trời End
+4286	Thực thể
+4289	Khoảng cách tối đa của thực thể (ngang)
+4290	Khoảng cách tối đa của thực thể (dọc)
+4307	Giới hạn thực thể
+4489	Bầu trời xa
+4492	Giường nhanh
+4493	Rương nhanh
+4495	Tải lại ngôn ngữ nhanh
+4765	Bóng chữ
+15384	Buộc tắt tối ưu không viền của trình điều khiển\n\nĐiều này sửa lỗi chớp đen khi rời trò chơi (dễ thấy khi có nhiều màn hình) nhưng tắt nó đi có thể khiến số khung hình tụt mạnh
+4806	FPS
+4807	Căn ngang FPS
+4808	Lề ngang FPS
+4809	Hộp bóng FPS
+4810	Căn dọc FPS
+4811	Lề dọc FPS
+4867	Độ sáng trăng tròn (tối đa)
+4872	Toàn màn hình
+4996	Sương mù bầu trời chung
+5067	GPU
+5068	Chỉ GPU
+5259	Một nửa
+5489	Ẩn lời nhắc
+5494	Ẩn JEI, REI, EMI cho tới khi tìm kiếm
+15410	Ẩn và ngừng cập nhật thực thể ở xa quá số khối này. Tăng hiệu năng rất nhiều, nhất là quanh các trang trại mod.
+15411	Ẩn và ngừng cập nhật thực thể ở sâu hơn số khối này, cải thiện hiệu năng khi ở trên hang động. Lý tưởng nhất nên đặt thấp hơn khoảng cách ngang.
+15412	Ẩn và ngừng cập nhật quái vật ở xa quá số khối này. Tăng hiệu năng rất nhiều, nhất là quanh các trang trại kinh nghiệm.
+15413	Ẩn và ngừng cập nhật quái vật ở sâu hơn số khối này, cải thiện hiệu năng khi ở trên hang động. Lý tưởng nhất nên đặt thấp hơn khoảng cách ngang.
+15414	Ẩn khối thực thể ở xa quá số khối này. Tăng hiệu năng rất nhiều, nhất là quanh nhiều máy móc mod.
+15415	Ẩn khối thực thể ở sâu hơn số khối này, cải thiện hiệu năng khi ở trên hang động (nếu vì lý do nào đó bạn đặt máy móc trong hang). Lý tưởng nhất nên đặt thấp hơn khoảng cách ngang.
+15416	Ẩn danh sách vật phẩm của JEI, REI, EMI trừ khi bạn tìm kiếm. Gõ dấu cách để hiện mà không cần tìm
+15417	Ẩn lời nhắc tìm kiếm của JEI, REI, EMI xuất hiện khi danh sách vật phẩm bị ẩn
+5579	Độ lệch ngang của bảng FPS
+5581	Vị trí ngang của bảng FPS
+5688	Nếu tắt, bỏ hiệu ứng sương mù
+5689	Nếu tắt, bỏ hiệu ứng sương mù ở Nether
+5690	Nếu tắt, bỏ hiệu ứng sương mù ở End
+5691	Nếu tắt, bỏ hiệu ứng sương mù ở Thế giới thực
+5692	Nếu tắt, bỏ hiệu ứng Dải xanh ở mọi chiều không gian
+15448	Nếu tắt, chữ sẽ không còn bóng, trông phẳng hơn.\nTăng FPS tùy theo lượng chữ trên màn hình, nhất là với các mod BetterF3

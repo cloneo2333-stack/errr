@@ -1,0 +1,23 @@
+{
+  "parent": "cavemind:chuong/c4_nen",
+  "display": {
+    "icon": {
+      "item": "cavemind:dong_ho_mai"
+    },
+    "title": {
+      "text": "Chương 4: Sợi Chỉ Của Thời Gian Vỡ Nát"
+    },
+    "description": {
+      "text": "Thắng ván trốn tìm của Mai"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

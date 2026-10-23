@@ -1,0 +1,23 @@
+{
+  "parent": "cavemind:chuong/c2_moi",
+  "display": {
+    "icon": {
+      "item": "minecraft:hay_block"
+    },
+    "title": {
+      "text": "Nhà Của Linh"
+    },
+    "description": {
+      "text": "Tìm tới nhà kho bên giếng cạn"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

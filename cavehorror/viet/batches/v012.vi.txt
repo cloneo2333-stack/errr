@@ -1,0 +1,300 @@
+13149	Đống thân người
+13221	Đá túp
+13228	Lật ngược thế cờ
+13484	Bình tro
+13485	Bình tro đóng lại
+13486	Bình tro mở ra
+13585	Lọ máu
+13673	Xác sống
+13869	Chuẩn bị kỹ càng
+13981	Ai tắt đèn thế?
+14146	Bàn tay Bộ xương Wither
+14147	Sọ và lồng ngực Wither
+14148	Sọ Wither cắm trên cọc
+14149	Đống sọ Wither
+14150	Đống thân Wither
+14154	Chứng kiến một bóng ma dập tắt nguồn sáng.
+14222	Bóng ma
+14223	Bóng ma nô dịch linh hồn
+14224	Bóng ma bị thương
+14225	Trứng sinh ra Bóng ma
+14228	Cơn thịnh nộ của Lich
+16150	Phải, ta thấy ngươi... Nhưng để ta tận hưởng ánh mặt trời một lần thôi. Quay lại vào ban đêm.
+514	Máu axit 1
+515	Máu axit 2
+660	Đầu Alex
+994	Khối tạo không khí
+1057	Rìu và khúc gỗ
+1197	Dây thép gai
+1275	Thân bị chặt đầu
+1320	Rào chắn gỗ bạch dương
+1602	Máu 1
+1603	Máu 10
+1604	Máu 2
+1605	Máu 3
+1606	Máu 4
+1607	Máu 5
+1608	Máu 6
+1609	Máu 7
+1610	Máu 8
+1611	Máu 9
+1623	Dây thép gai dính máu
+1624	Rào chắn gỗ bạch dương dính máu
+1625	Rào chắn gỗ sồi sẫm dính máu
+1631	Khúc gỗ dính máu
+1632	Rào chắn gỗ sồi dính máu
+1633	Rào chắn gỗ vân sam dính máu
+1634	Bia mộ dính máu
+1695	Xác vướng dây thép gai
+1823	Đèn hỏng
+1827	Đèn hỏng đang bật
+1828	Ti vi hỏng
+2101	Thực thể bị xích
+2485	Xác lính thủy đánh bộ thuộc địa
+2486	Đầu lính thủy đánh bộ thuộc địa
+2705	Nông dân nhiễm nấm Cordyceps
+3014	Xác bị đóng đinh
+3059	Bức tranh bị nguyền
+3204	Rào chắn gỗ sồi sẫm
+3366	Bò chết
+3379	Xác thí nghiệm thất bại
+3414	Heo chết
+3615	Đầu lính sa mạc
+3619	Cửa tre bị phá
+3620	Cửa gỗ bạch dương bị phá
+3621	Cửa gỗ sồi sẫm bị phá
+3622	Cửa sắt bị phá
+3623	Cửa gỗ rừng bị phá
+3624	Cửa gỗ sồi bị phá
+3625	Cửa gỗ vân sam bị phá
+4912	Đầu sĩ quan Đức
+5177	Máu xanh 1
+5178	Máu xanh 2
+5277	Xác treo 1
+5278	Xác treo 2
+5288	Dân làng bị treo
+5311	Đầu người mặc đồ bảo hộ
+5472	Đầu Herobrine
+5592	Horror Element
+5599	Giường bệnh viện
+5623	Hài cốt người
+5739	Đầu bị xiên
+5740	Hiệp sĩ bị xiên
+5741	Bộ xương bị xiên
+5742	Người lính bị xiên
+7391	Xác lính thủy đánh bộ
+7803	cần tín hiệu Redstone
+8015	Rào chắn gỗ sồi
+8586	Đầu bị lừa
+9041	Đầu người nguyên thủy
+9542	Mắt đỏ
+9556	Đèn lồng đỏ
+9624	Redstone và không khí
+9633	Bộ kích hoạt Redstone
+9634	Bộ kích hoạt Redstone
+10628	Xác thối rữa
+10657	Đầu sĩ quan Nga
+10744	Nông dân bù nhìn
+10763	Xác nhà khoa học
+10935	Xác tự kết liễu
+11010	chỉnh thời gian về nửa đêm và gọi giông bão
+11017	Bàn tay bị chặt
+11182	Biển 1
+11183	Biển 2
+11265	Sọ bị chém
+11284	Xác bị xẻ lát
+11456	Khối âm thanh
+11542	Đầu nhện
+11604	Xác bị đâm xuyên
+11605	Dân làng bị đâm xuyên
+11652	Rào chắn gỗ vân sam
+11839	Đầu Steve
+13196	Chân bị kẹt bẫy
+13202	gây hiệu ứng hù dọa
+13608	Đầu dân làng
+13930	Mắt trắng
+14164	Cửa chớp gỗ
+14283	Mắt vàng
+0	\nmacOS thường gặp lỗi với nhiều gói shader.
+290	+ Kéo thả gói shader vào để thêm
+338	[%s] Phát hiện Not Enough Crashes!
+15211	Không thể bật gỡ lỗi, máy tính của bạn không hỗ trợ tính năng gỡ lỗi.
+3476	Đã tắt gỡ lỗi.
+15298	Đã bật gỡ lỗi, nhật ký gỡ lỗi sẽ chi tiết hơn!
+3893	Tải Rubidium
+4456	Không tải lại được shader! Lý do: %s
+4458	Không bật tắt được shader! Lý do: %s
+15577	Not Enough Crashes có thể làm hỏng nặng trò chơi khi xử lý sự cố, và không cho kết quả chính xác.\nMột lựa chọn tốt hơn là MixinTrace, có thể tìm nguyên nhân sập đáng tin hơn và không đưa trò chơi vào trạng thái lỗi.
+8149	Oculus
+15603	Oculus gặp lỗi khi tải shader; hãy báo lỗi này cho nhà phát triển Oculus.
+8150	Oculus không tải được!
+8151	Oculus hoặc máy tính của bạn
+15604	Oculus cần Rubidium để chạy mượt, nhưng lại tìm thấy bản không tương thích. Hãy tải đúng bản Rubidium, đặt vào thư mục mods, xóa bản sai, rồi mở lại trò chơi.
+15605	Oculus cần Rubidium để chạy mượt, nhưng Rubidium chưa được cài. Hãy tải Rubidium, đặt vào thư mục mods, rồi mở lại trò chơi.
+10280	Tải lại shader
+11023	Gói shader không tương thích!
+11024	Màn hình chọn gói shader
+11025	Đã tắt shader!
+11026	Đã tải lại shader!
+15973	Shader yêu cầu một tính năng (SSBO) mà GPU của bạn không hỗ trợ, có thể sẽ không chạy đúng.
+15974	Gói shader không tải được! Hãy báo lỗi cho nhà phát triển shader.
+15975	Gói shader bạn đang tải có tính năng %s không hỗ trợ. Hãy thử gói khác. Danh sách %s
+13055	Bật tắt shader
+13068	Đã chuyển shader sang %s!
+14133	Khung dây (chỉ chơi đơn)
+16180	Bạn không có ngữ cảnh gỡ lỗi, hãy khởi động lại để bật gỡ lỗi máy khách OpenGL.
+14434	máy tính của bạn
+168	Danh mục %s
+370	một mod §fcải thiện giao diện§r
+503	Trợ năng
+625	Chú thích nâng cao
+843	Chủ của con vật
+15151	Tạo chuyển động cho lớp phủ khi hiện và ẩn. Biến hình hộp khi kích thước thay đổi.
+881	Bất kỳ
+888	Diện mạo
+939	Bạn có chắc muốn đặt lại cài đặt?
+949	Giá treo giáp
+952	Giáp: %s
+1077	Độ mờ nền
+1192	Đàn banjo
+1228	Đàn trầm
+1229	Trống trầm
+1253	Tổ ong
+1255	ong,mật ong
+1256	Số ong: %s
+1278	Chuông
+1565	Mặt khối
+1589	Trạng thái khối
+1717	Tên sách: %s
+1739	Chồng lên thanh máu trùm
+1740	thanh máu trùm,ẩn,đẩy,xuống
+1779	Tiến độ phá
+1788	Thời gian chờ sinh sản: %s
+1790	Giá pha chế
+2084	Ở giữa
+2270	Trứng gà
+2277	Chuông gió
+2294	Kệ sách được đục
+2407	Que gõ
+2478	Thu thập dữ liệu và vẽ chú thích.
+2483	Đang thu thập vật phẩm...
+2507	Khối lệnh
+2524	Bộ so sánh
+2591	Thực thể chứa đồ
+2608	Thời gian biến đổi: %s
+2667	thời gian chờ,allay,nhân bản
+2777	Chuông bò
+2825	Crafting++
+2843	Create
+2862	Creeper
+3007	Tiến độ cây trồng
+3074	Đầu tùy chỉnh
+3155	D%s
+3167	Vùng nguy hiểm
+3168	Tối
+3474	Chế độ gỡ lỗi
+3585	Độ trễ: %d
+3633	Số lượng chi tiết
+3634	Chỉ khi chi tiết
+3698	Kèn didgeridoo
+3730	hướng,mặt
+3782	Hiện khối
+3783	Hiện trùm
+3792	Hiện thực thể
+3794	Hiện chất lỏng
+3796	Phải giữ phím hiển thị.
+3797	Phím hiển thị sẽ bật tắt nó.
+3800	Chế độ hiển thị
+3804	Tỉ lệ hiển thị
+3808	Hiện chú thích
+3821	Khoảng cách: %s
+3900	Rồng
+3932	Đã xuất dữ liệu thành công
+3936	Thời gian chờ nhân bản: %s
+3976	Sửa danh sách chặn trong tệp...
+3995	Công cụ hiệu quả
+3999	Đàn piano điện
+4042	Trống
+4221	Sức mạnh phù phép: %s
+4237	Sức mạnh phù phép
+4268	Kho năng lượng
+4295	thực thể
+4297	Giáp thực thể
+4300	Hiệu ứng thực thể
+4302	Máu thực thể
+4428	Tầm với mở rộng
+4446	mờ dần
+4473	Dự phòng
+4732	Đổi bên theo tay chính
+4744	Kho chất lỏng
+4748	Sáo
+4764	Theo tùy chọn chú thích nâng cao.
+4859	Nhiên liệu: %d tick
+4877	Đồ trong lò nung
+5248	Thời gian lớn: %s
+5249	Phát triển: %s
+5255	Đàn guitar
+5290	Đàn hạc
+5291	Công cụ thu hoạch
+5322	Máu: %s
+5480	Ẩn
+5481	Ẩn thanh máu trùm
+5486	Ẩn khỏi màn hình gỡ lỗi
+5487	Ẩn khỏi danh sách người chơi
+5508	Ẩn chú thích khi màn hình gỡ lỗi đang hiện.
+5509	Ẩn chú thích khi danh sách người chơi đang hiện.
+5510	Ẩn chú thích
+5512	ẩn,trên,giữa
+5539	Giữ
+5543	Giữ phím [Hiện chi tiết] để xem thêm thông tin.
+5548	Giữ Shift để xem thêm thông tin.
+5569	Mật ong: %s
+5573	Phễu bị khóa
+5578	Neo ngang
+5580	Vị trí ngang
+5596	Chỉ số ngựa
+5598	ngựa,thú cưng
+5667	Vị trí biểu tượng
+5669	Số biểu tượng mỗi dòng
+5673	mã,nâng cao,chú thích
+5773	Tăng giới hạn khoảng cách tới mục tiêu.
+5834	Đầu vào: %d
+5890	Túi đồ bị khóa
+5891	Túi đồ chưa được tạo
+5894	túi đồ,rương
+5977	Mô tả vật phẩm
+5981	Khung vật phẩm
+5990	Kho vật phẩm
+5997	Số vật phẩm mỗi dòng
+6121	Jade
+6122	Cấu hình Jade
+6123	Lõi Jade
+6124	Đã đóng Jade
+6125	Đã mở trình đọc màn hình của Jade
+6160	Đĩa nhạc trong máy hát
+6164	Độ cao nhảy: %s
+6296	Phím tắt
+6399	Bục giảng
+6405	Nhấp chuột trái để xóa nội dung
+6408	trái,phải,giữa,tỉ lệ
+6669	chất lỏng,nguồn,chỉ
+6683	Gọn nhẹ
+6705	vị trí
+6805	Snownee làm với %s
+7408	Đã trưởng thành
+7410	Số giáp tối đa để vẽ
+7417	Máu tối đa để vẽ
+7549	Lật vị trí chú thích khi tay chính là tay trái.
+7562	Sinh sản sinh vật
+7564	Sinh vật lớn lên
+7566	Loại lồng sinh quái
+7579	Tên mod
+7580	Tên mod trong chú thích vật phẩm
+7581	Tên mod trên chú thích vật phẩm
+7582	Cài đặt mod
+7587	Chế độ: %s
+7607	mã mod
+7761	không gian tên,mã mod
+7766	Đọc to
+7804	âm %s
+7884	Quả trứng tiếp theo: %s

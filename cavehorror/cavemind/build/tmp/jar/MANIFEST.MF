@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: cavemind
+Specification-Vendor: cavemind
+Specification-Version: 1
+Implementation-Title: cavemind
+Implementation-Version: 5.4.0
+Implementation-Vendor: cavemind
+MixinConfigs: cavemind.mixins.json
+

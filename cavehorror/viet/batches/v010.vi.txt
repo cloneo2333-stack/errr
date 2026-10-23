@@ -1,0 +1,300 @@
+5902	Ẩn cho tới khi hoàn thành
+5903	Ẩn cho tới khi hoàn thành X yêu cầu
+5975	Khoảng cách tối thiểu tự dò vật phẩm
+5979	Đã xóa bộ nhớ tạm hiển thị vật phẩm cho mọi người chơi
+5984	Tên vật phẩm
+5995	CHỈ có thể nộp vật phẩm qua Màn hình nhiệm vụ!
+5998	Vật phẩm sẽ được tự dò
+6153	Hãy vào một đội để hoàn thành nhiệm vụ!
+6315	Giết thực thể
+6334	Giết: %sx %s
+6644	Dòng này đã là JSON thành phần chữ!
+6646	Tuyến tính
+15536	Tuyến tính: phải hoàn thành nhiệm vụ trước khi bắt đầu các nhiệm vụ phụ thuộc\nLinh hoạt: yêu cầu của nhiệm vụ phụ thuộc làm được bất cứ lúc nào,\n  nhưng không hoàn thành được cho tới khi xong điều kiện
+6659	Mã nhiệm vụ liên kết: %s
+6704	Ghi đè ngôn ngữ
+6709	Thông báo khóa
+6712	Đã khóa nhiệm vụ cho %s
+6713	Bị khóa: bị một tuyến nhiệm vụ khác loại trừ
+6714	Bị khóa: chưa hoàn thành điều kiện
+6745	Điều kiện lặp vòng!
+6749	Thùng chiến lợi phẩm
+6750	Máy mở thùng chiến lợi phẩm
+6751	Kho thùng chiến lợi phẩm
+6752	Thùng chiến lợi phẩm
+6753	Phần thưởng chiến lợi phẩm
+6754	Số lượng chiến lợi phẩm
+7131	Mana
+7395	Khớp
+7403	Khớp NBT
+7414	Số nhiệm vụ phụ thuộc tối đa hoàn thành được
+7420	Tốc độ nạp tối đa
+7462	Tin nhắn
+7502	Chiều rộng tối thiểu cửa sổ nhiệm vụ đang mở
+7503	Số điều kiện tối thiểu cần có
+15565	Khoảng cách tối thiểu (tính bằng tick) giữa các lần kiểm tra túi đồ người chơi khi nó thay đổi\nGiá trị cao đỡ tốn TPS máy chủ, nhất là khi túi đồ người chơi thay đổi thường xuyên, nhưng thông báo tự hoàn thành nhiệm vụ sẽ chậm hơn.
+7533	X tối thiểu của người chơi (X người chơi phải >= X và < X+W)
+7534	Y tối thiểu của người chơi (Y người chơi phải >= Y và < Y+H)
+7535	Z tối thiểu của người chơi (Z người chơi phải >= Z và < Z+D)
+7554	Thiếu vật phẩm
+7561	mJ
+7610	Gói mod
+7621	Quái vật
+7672	Dời sang trái
+7673	Dời sang phải
+7678	Chuyển sang chương khác
+7779	Chế độ NBT
+7911	Không có nhiệm vụ phụ thuộc
+7912	Không có điều kiện
+7920	Tỉ lệ không có vật phẩm: %s
+7932	Không tìm thấy tệp nhiệm vụ, chuyện gì thế này?!
+7933	Không tìm thấy đối tượng nhiệm vụ có mã %s!
+7936	Không có phần thưởng
+7944	Không có yêu cầu
+7945	Chưa có bản dịch cho %s ở ngôn ngữ hiện tại '%s'
+15580	Lưu ý: tải lại nhiệm vụ là công cụ tiện lợi cho người làm nhiệm vụ, không nên dùng trên máy chủ đang chạy.
+7992	Không có gì
+7995	Thông báo
+8111	Mã đối tượng
+8114	Quan sát
+8115	Quan sát
+8147	Bát giác
+15606	Vẫn trao phần thưởng nhiệm vụ kể cả khi phần thưởng của đội bị chặn bằng lệnh '/ftbquests block_rewards'
+8164	Độ lệch Y
+8170	Cách cuộn chuột kiểu cũ
+8178	Một đã hoàn thành
+8182	Một đã bắt đầu
+15612	Chỉ áp dụng khi 'Nhiệm vụ lặp lại' là đúng.\nThời gian chờ (giây) từ lúc nhận hết phần thưởng tới lúc làm lại được các yêu cầu của nhiệm vụ.
+15613	Chỉ áp dụng khi Ẩn là đúng.\nNếu lớn hơn 0, nhiệm vụ sẽ hiện ra khi hoàn thành X yêu cầu trở lên.
+8192	Chỉ dò từ chế tạo
+8194	Chỉ từ Màn hình nhiệm vụ
+8195	Chỉ một
+8206	Chỉ hiện ở chế độ chỉnh sửa
+8207	Chỉ dùng được ở chế độ chỉnh sửa!
+8225	Mở nhiệm vụ
+8233	Mở trang hướng dẫn
+8241	Nhiệm vụ không bắt buộc
+8242	Yêu cầu không bắt buộc
+8243	Không bắt buộc, đặt nếu chỉ muốn cấp một tiêu chí
+15620	Thứ tự vẽ các hình ảnh trong cùng chương.\nHình có thứ tự cao hơn được vẽ đè lên hình thấp hơn.
+8325	Mức đầu ra
+8326	Ô đầu ra
+8551	Thụ động
+8555	Dán hình ảnh
+8557	Dán nhiệm vụ
+8558	Dán nhiệm vụ (không kèm điều kiện)
+8559	Dán liên kết nhiệm vụ
+8560	Dán yêu cầu
+8570	Ngũ giác
+8629	Ghim
+8821	Vị trí bảng nhiệm vụ đã ghim
+8822	Khoảng thụt X của bảng nhiệm vụ đã ghim
+8823	Khoảng thụt Y của bảng nhiệm vụ đã ghim
+8837	Đặt vật phẩm vào đây để hoàn thành nhiệm vụ
+8886	Máy dò người chơi
+8895	Tùy chọn người chơi
+8926	Chế độ điểm
+8927	Điểm
+9072	Tiến độ
+9073	Đã thay đổi tiến độ!
+9074	Màn hình tiến độ
+9075	Chế độ tiến triển
+9091	Thuộc tính
+15653	Thêm chức năng riêng khi nhấp vào hình ảnh:\n• Mở trang hoặc tệp bằng URL http://, https:// hoặc file:///\n• Chạy lệnh bằng 'command:<cmd>'\n• Nhảy tới nhiệm vụ bằng '#<quest_id>' (dùng Sao chép mã để lấy mã nhiệm vụ)\n• Kích hoạt CustomClickEvent (cho KubeJS hoặc mod khác) bằng 'custom:<resource_location>'
+9219	Nhiệm vụ
+9220	Nhiệm vụ 'Tắt công thức JEI'
+9221	Rào chắn nhiệm vụ
+9222	Sách nhiệm vụ
+9223	Giao diện Sách nhiệm vụ đã bị tắt!
+9224	Rương nhiệm vụ
+9225	Đã hoàn thành nhiệm vụ!
+9226	Đã tải lại dữ liệu nhiệm vụ từ tệp!
+9227	mô tả nhiệm vụ
+9228	Trình sửa mô tả nhiệm vụ
+15657	Có thể mở chi tiết nhiệm vụ, nhưng chữ mô tả không hiện cho tới khi hoàn thành nhiệm vụ
+9229	Máy dò nhiệm vụ
+9230	Mã nhiệm vụ
+15658	Nhiệm vụ bị ẩn với người chơi cho tới khi hoàn thành.\nHữu ích cho các nhiệm vụ phụ kiểu "trứng phục sinh".
+9231	Liên kết nhiệm vụ
+9232	Máy dò tiến độ nhiệm vụ
+9233	Thuộc tính nhiệm vụ
+9234	Thời gian chờ lặp lại nhiệm vụ
+9235	Chặn phần thưởng nhiệm vụ cho đội '%s' đặt thành: %s
+9236	Màn hình nhiệm vụ tạm dừng trò chơi một người
+9237	Hình dạng nhiệm vụ
+9238	phụ đề nhiệm vụ
+9240	Nhiệm vụ
+9241	Đã lưu nhiệm vụ trên máy khách tại %s
+9242	Đã lưu nhiệm vụ trên máy chủ
+9244	Sửa nhanh thuộc tính...
+9306	Thưởng ngẫu nhiên
+9315	Phần thưởng ngẫu nhiên
+9625	Máy dò Redstone
+10281	Tải lại giao diện
+10292	Bỏ làm điều kiện khỏi mục đã chọn
+10295	Bỏ các mục đã chọn khỏi điều kiện
+10312	Đổi tên ở đe để đặt mã nhiệm vụ
+10313	Đổi tên ở đe để đặt giai đoạn
+10330	Lặp lại sau %s
+10331	Nhiệm vụ lặp lại
+10342	Được yêu cầu bởi
+10344	Số điểm cần có
+10345	Mức Redstone cần có
+10347	Cần
+10359	Đặt lại (kèm điều kiện)
+10368	Đặt lại tiến độ
+10369	Đặt lại tiến độ cho đội của bạn?
+10507	Phần thưởng
+10508	Phần thưởng 'Tự nhận'
+10509	Phần thưởng 'Thưởng cả đội'
+10510	Phần thưởng bị chặn cho đội '%s'
+10511	Đã nhận phần thưởng!
+10512	Bảng phần thưởng
+10513	Phần thưởng
+10514	Phần thưởng sẽ hiện ở đây
+15689	Nhấp chuột phải vào 'Biểu tượng' trong trình sửa để mở bộ chọn hình tùy chỉnh
+10538	Nhấp chuột phải để mở
+10539	Nhấp chuột phải để mở cửa sổ nhiệm vụ
+10619	Xoay và dời khỏi góc
+10624	Góc xoay
+10634	Hình vuông bo góc
+10649	Chạy lệnh như thể người chơi có quyền cấp 2
+10650	Chạy với quyền nâng cao
+10726	Lưu trên máy chủ ngay
+10916	Chọn một thẻ vật phẩm
+10922	Chọn đối tượng nhiệm vụ
+10924	Chọn bảng phần thưởng
+10925	Chọn loại phần thưởng
+10927	Chọn loại yêu cầu
+10934	Vùng chọn trải qua nhiều dòng!
+10958	Hoàn thành yêu cầu theo thứ tự
+10978	Đặt làm nhiệm vụ tự chọn
+11004	Đặt trọng số
+11033	Hình dạng
+11054	Shift+Enter: lưu và thoát
+11067	Phím tắt: nhấp chuột giữa
+15733	Hiện biểu tượng ổ khóa trên các nhiệm vụ chưa bắt đầu được do điều kiện hoặc bị loại trừ.
+11106	Hiện biểu tượng cho nhiệm vụ bị khóa
+11117	Hiện con số
+11193	Im lặng
+11251	Da
+11372	Rón rén và nhấp chuột phải vào khối Màn hình nhiệm vụ để gắn
+11374	Rón rén và nhấp chuột phải để mở hết thứ đang cầm
+11754	Hình vuông
+11805	Giai đoạn
+11810	Rào chắn giai đoạn
+11829	Chỉ số
+11830	Tên chỉ số
+11937	Vật phẩm đã lưu: %d
+12423	Đối tượng
+12425	Phụ đề
+15779	Đã xuất thành công bảng phần thưởng '%s' với %s vật phẩm vào khối đích!
+12442	Đã nhập thành công bảng phần thưởng '%s' với %s vật phẩm!
+12563	Khối đích không có kho chứa!
+12573	Yêu cầu
+12574	Yêu cầu 'Tiêu hao vật phẩm'
+12575	Đã hoàn thành yêu cầu!
+12576	Số thứ tự yêu cầu
+12577	Màn hình nhiệm vụ
+12578	Màn hình nhiệm vụ (1x1)
+12579	Màn hình nhiệm vụ (3x3)
+12580	Màn hình nhiệm vụ (5x5)
+12581	Màn hình nhiệm vụ (7x7)
+12582	Bộ cấu hình Màn hình nhiệm vụ
+12583	Thiếu Màn hình nhiệm vụ!
+12584	Không truy cập được Màn hình nhiệm vụ từ đây!
+12585	Tiêu đề yêu cầu
+12586	Yêu cầu
+12587	Yêu cầu bỏ qua điều kiện
+12606	Đội
+12612	Thưởng cả đội
+12614	Năng lượng Tech Reborn
+15889	Ngôn ngữ dùng để sửa chữ của FTB Quests: tiêu đề chương, nhiệm vụ, yêu cầu và bảng phần thưởng, phụ đề chương và nhiệm vụ, và chữ mô tả nhiệm vụ.\nNếu trống, dùng ngôn ngữ Minecraft hiện tại.
+12962	Đây có thể là một khóa dịch
+12984	Thời gian
+12991	Thời gian đã qua
+12998	Bộ hẹn giờ
+12999	Số lần hoàn thành
+13015	tiêu đề
+13025	Thông báo
+13181	Bản dịch
+13235	Loại
+13448	Đã mở khóa nhiệm vụ cho %s
+13450	Chưa đặt tên
+13453	Bỏ ghim
+13520	Dùng biểu tượng yêu cầu làm biểu tượng nhiệm vụ
+13522	Dùng tiêu đề
+16096	Dùng điểm kinh nghiệm thay vì cấp để hoàn thành. Dùng máy tính để tìm ra giá trị cần đặt
+13527	Dùng cho giao diện và sự kiện KubeJS
+13528	Dùng trong %d phần thưởng nhiệm vụ
+13538	Vật phẩm hợp lệ cho %s
+13539	Vật phẩm hợp lệ:
+16099	Hỗ trợ các ký hiệu thay thế gốc, ví dụ @p\nKý hiệu thay thế đặc biệt:\n{x} / {y} / {z}: vị trí X/Y/Z hiện tại của người chơi\n{quest}: mã của nhiệm vụ này\n{chapter}: mã của chương này\n{team}: tên ngắn của đội người chơi
+13589	Xem nhiệm vụ phụ thuộc
+13590	Xem điều kiện
+13593	Xem liên kết nhiệm vụ
+13621	Hiển thị
+13624	Ghé quần xã
+13625	Ghé chiều không gian
+16108	CẢNH BÁO: Bảng %s có nhiều vật phẩm hơn khối đích chứa được, dừng tại đây!
+13846	Khớp NBT lỏng
+13861	Trọng số
+13862	Trọng số (Trùm)
+13863	Trọng số (Quái vật)
+13864	Trọng số (Thụ động)
+16119	Khi sai, con lăn chuột cuộn lên xuống: giữ Shift để kéo, Ctrl để thu phóng\nKhi đúng, con lăn chuột chỉ thu phóng (cách cũ của 1.19 trở về trước)
+16126	Khi đúng, chỉ có thể nộp vật phẩm bằng ống dẫn vào Màn hình nhiệm vụ\nChỉ áp dụng khi yêu cầu này bật Tiêu hao vật phẩm.
+16127	Khi đúng, nhấn Backspace lúc đang xem nhiệm vụ sẽ mở nhiệm vụ đã xem trước đó.\nKhi sai, Backspace giống Escape, chỉ đóng nhiệm vụ.
+16129	Khi đúng, phải hoàn thành yêu cầu đúng thứ tự đã thêm vào nhiệm vụ
+16130	Khi đúng, phải hoàn thành yêu cầu đúng thứ tự đã thêm vào nhiệm vụ\nMặc định nghĩa là dùng cài đặt của chương
+16131	Khi đúng, đây là một phần thưởng chung cho cả đội; chỉ người nộp nhận được\nKhi sai, mọi người chơi trực tuyến đều nhận phần thưởng
+13988	Chiều rộng
+14234	X
+14239	Vị trí X
+14241	Cỡ X (W)
+14248	XP
+14250	Cấp kinh nghiệm
+14256	Y
+14260	Vị trí Y
+14262	Cỡ Y (H)
+14348	Bạn có thể dùng chữ thường hoặc khóa dịch ở đây
+14349	Bạn có thể dùng mã này để dán nhiệm vụ hoặc liên kết nhiệm vụ
+14372	Bạn không có quyền thiết lập mục này!
+16187	Bạn phải ở chế độ chỉnh sửa (/ftbquests editing_mode) mới làm được việc này!
+14448	Vị trí Z
+14450	Cỡ Z (D)
+189	%s đã mời bạn vào nhóm của họ!
+190	%s đã vào nhóm của bạn!
+194	%s không phải thành viên của %s!
+195	%s không phải cán bộ của %s!
+501	Nhận lời ✔
+555	Thêm thành viên
+693	Mọi đội FTB: %s
+710	Đồng minh
+766	Đồng minh
+1221	Thuộc tính cơ bản của đội
+1982	Không thể đuổi chủ nhóm!
+2844	Lập nhóm
+2845	Lập một nhóm để mời thành viên và cùng tiến bộ
+2854	Đã tạo đội máy chủ mới '%s'!
+3487	Từ chối ✘
+3595	Đã xóa đội máy chủ '%s'!
+3601	Hạ cấp %s
+3602	Đã hạ %s xuống thành viên!
+3759	Giải tán nhóm
+3801	Tên hiển thị
+3852	Bạn có muốn hạ cấp người chơi %s không?
+3853	Bạn có muốn giải tán nhóm không?
+3856	Bạn có muốn đuổi người chơi %s không?
+3857	Bạn có muốn rời nhóm không?
+3858	Bạn có muốn đưa %s làm chủ nhóm không?
+3859	Bạn có muốn thăng cấp người chơi %s không?
+3860	Bạn có muốn bỏ %s khỏi đồng minh không?
+4266	Kẻ thù
+4790	Đã buộc giải tán nhóm '%s' (%s)!
+4819	Tự do tham gia
+15501	Trong gói mod này bạn chỉ có thể lập nhóm từ nút 'Đội của tôi' trong túi đồ!
+5758	Trong gói mod này bạn không thể lập nhóm trực tiếp!
+5905	Mời
+5906	Mời người chơi
+5908	Đã mời

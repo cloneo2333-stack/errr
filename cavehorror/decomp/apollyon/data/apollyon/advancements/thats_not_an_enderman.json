@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:ender_eye"
+    },
+    "title": {
+      "translate": "advancements.thats_not_an_enderman.title"
+    },
+    "description": {
+      "translate": "advancements.thats_not_an_enderman.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "thats_not_an_enderman_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "apollyon:apollyon"
+}

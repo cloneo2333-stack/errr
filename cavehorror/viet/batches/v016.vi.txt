@@ -1,0 +1,300 @@
+15266	Dừng hẳn hồi máu, không điều kiện. Khi đang bị Bỏng nước, nhận thêm 20% sát thương lửa và thêm sát thương Cháy sém
+2586	Công trình của Kẻ kiến tạo
+2774	Phản đòn
+2788	Gạch đá đen nứt
+3465	Suy nhược
+3492	Giá sách vân sam trang trí khắp nơi
+3493	Giá sách vân sam trang trí khắp nơi kiểu dưới
+3494	Giá sách vân sam trang trí khắp nơi kiểu trên
+3497	Giá sách vân sam trang trí trống
+3498	Giá sách vân sam trang trí
+3499	Giá sách vân sam trang trí kiểu thạch anh tím
+3500	Giá sách vân sam trang trí kiểu dưới
+3501	Giá sách vân sam trang trí kiểu quả cầu
+3502	Giá sách vân sam trang trí kiểu trên
+3503	Tủ ngăn kéo vân sam trang trí
+3504	Giá sách gạch đá trang trí
+3596	Hồng thủy
+3832	Ngọn lửa thần thánh
+4044	Tủ ngăn kéo vân sam trang trí trống phần dưới
+4051	Tủ ngăn kéo vân sam trang trí trống phần trên
+4532	Cột đá giũa
+4706	Vệt lửa
+4734	Cửa xả lũ
+15390	Nhận 25% kháng sát thương và hồi lại toàn bộ sát thương đã nhận cùng một lúc, sau một khoảng thời gian
+15395	Bị đóng băng liên tục, không điều kiện ngoài việc đang bị Lạnh cóng. Khi đang bị Lạnh cóng, nhận thêm 20% sát thương đóng băng
+5016	Đi nhanh nào
+5107	Cửa song gạch đá đen
+5108	Cửa sập song đá đen
+5109	Cửa song gạch Nether đỏ
+5116	Mảng sỏi
+5261	Nửa chặng đường
+5736	Lông vũ bất tử
+5738	Ân sủng bất tử
+5823	Gạch Nether đỏ viền
+5928	Song sắt lát sàn
+5959	Song sắt gắn tường
+6279	Kính vạn hoa kích hoạt
+6377	Mảnh cuối cùng
+7126	Ác tính
+7817	Cửa sập gạch Nether
+7890	Nexus Layer
+8562	Đá hoa văn
+8931	Song lát sàn đá đen mài nhẵn
+8932	Cột đá đen mài nhẵn
+8933	Song gắn tường đá đen mài nhẵn
+8934	Netherrack mài nhẵn
+8935	Netherrack đỏ mài nhẵn
+8936	Đá đen mài nhẵn chia ô
+8937	Phiến đá đen mài nhẵn chia ô
+8938	Bậc đá đen mài nhẵn chia ô
+8939	Phiến gạch đá mài nhẵn
+8940	Bậc gạch đá mài nhẵn
+8941	Phiến dọc gạch đá mài nhẵn
+8942	Gạch đá mài nhẵn
+8943	Đá đen mài nhẵn xếp dọc
+15662	Liên tục nhận sát thương đuối nước, mất dưỡng khí và bị đóng băng tại chỗ vì vận tốc bị đặt về không
+9563	Giá sách gạch Nether đỏ
+9565	Cửa sập gạch Nether đỏ
+9612	Táo đỏ hơn
+10623	Bộ xoay
+10734	Bỏng nước
+10886	Phiến gạch Nether chia ô
+10887	Bậc gạch Nether chia ô
+10888	Gạch Nether chia ô
+10889	Phiến gạch Nether đỏ chia ô
+10890	Bậc gạch Nether đỏ chia ô
+10891	Gạch Nether đỏ chia ô
+10892	Phiến gạch đá chia ô
+10893	Bậc gạch đá chia ô
+10894	Gạch đá chia ô
+15744	Giống hồi phục. Nếu đang đầy máu, thay vào đó nhận Hấp thụ tràn tới 50% máu tối đa
+15746	Giống suy yếu (mỗi cấp giảm 20% sát thương), nhưng áp dụng cho mọi nguồn sát thương
+11224	Cháy sém
+11450	Vệt lửa linh hồn
+11856	Cột gạch đá
+12538	Mỗi cấp nhận thêm 20% sát thương
+15795	Nhận từng đợt sát thương theo thời gian, mỗi lần như vậy lại bị Phát sáng
+15796	Nhận sát thương theo thời gian, tăng theo thời gian hiệu ứng còn lại. Khi bị cùng lúc với Bỏng nước, Cháy sém gây nhiều sát thương hơn
+15797	Nhận sát thương nhanh theo thời gian, tăng theo máu hiện tại. Nếu đang cháy, nhận thêm sát thương. Khi đang bị Ác tính, nhận thêm 20% sát thương nổ
+12545	Nhận sát thương chậm theo thời gian, tăng theo máu tối đa
+15798	Nhận sát thương chảy máu nhẹ. Khi bạn định hồi máu, có 2/3 cơ hội bị hủy.
+12560	Ván gỗ vân sam vuốt nhọn
+12981	Phiến gạch đá lát ô
+12982	Bậc gạch đá lát ô
+12983	Gạch đá lát ô
+13239	Máy đánh chữ
+13576	Gạch Nether xếp dọc
+13581	Gạch Nether đỏ xếp dọc
+13656	Bị hư không nuốt
+13904	Mỗi khi bạn định chạy nhanh, liên tục nhận sát thương
+14570	§6Ngoe nguẩy §8cái §6gloink §8của bạn nếu bạn
+14759	§8Và trong cuộc chiến khốn khổ này, xuyên qua
+14760	§8Và rồi hắn...
+14768	§8Dùng để gọi ra §6quả cầu kinh nghiệm§8 giá trị cao
+14773	§8nhật thực, ta sẽ lại trỗi dậy.
+14786	§8chìa nó ra.
+14804	§8Đặt hướng xoay của thực thể được nhấp chuột phải giống hướng của bạn.
+14806	§8sắt đá quyết tâm, và rồi hắn...
+14811	§8Từ bỏ thần tính của ngươi, và để làm gì?
+14814	§8tài nghệ của ngươi còn giá trị gì?
+14815	§8Khi mọi người cùng dòng giống ngươi đều gục ngã trước thời gian,
+14839	§9Kháng cự II (05:00)
+14844	§9Sức mạnh I (05:00)
+14888	§c[KHÔNG THỂ CÓ ĐƯỢC]
+504	Độ chính xác
+991	Bụi tinh tú
+3005	Sát thương chí mạng
+3006	Đòn chí mạng
+15315	Hiện thông tin ẩn của một số vật phẩm trong chú thích.
+3862	Né tránh
+15322	Nhân đôi vật phóng, nhưng mỗi bản sao chỉ gây 50% sát thương.
+3963	Mỗi cấp tăng 10% sức mạnh kỹ năng lớp nhân vật.
+3964	Mỗi cấp giảm 10% thời gian hồi kỹ năng lớp nhân vật.
+4497	Xoay nhanh
+4881	Cuồng nộ
+5316	Sức hồi máu
+5774	Tăng tốc độ bay của vật phóng.
+5775	Tăng bán kính quỹ đạo của vật phóng.
+6352	Tri thức
+6895	Sát thương phép
+6954	Kháng phép
+7548	Phản chiếu
+7743	Thần thoại
+8525	Đỡ đòn
+8569	Xuyên thấu
+9767	Hồi phục
+10373	Kiên cường
+10654	Xông tới
+13586	Lọ tri thức
+14483	§2# thời gian hồi giáp
+14484	§2# thời gian hồi vũ khí
+14489	§2+# sức mạnh giáp
+14490	§2+# sức mạnh vũ khí
+14833	§9Tri thức (2:00)
+14882	§c# sức mạnh giáp
+14883	§c# sức mạnh vũ khí
+14884	§c+# thời gian hồi giáp
+14885	§c+# thời gian hồi vũ khí
+14952	§f(# Exp§f)
+14953	§f(# máu§f)
+14954	§f(# cấp§f)
+14955	§f(# giây§f)
+14957	§fThưởng lớp nhân vật
+14958	§f §2Nhanh
+14959	§f §2Rất nhanh
+14960	§f §6Chậm
+14961	§f §cRất chậm
+14962	§f §fVừa
+13439	Người chơi không rõ
+266	%sm
+269	%s giây
+789	Luôn luôn
+1022	Tự động
+2117	Tên kênh tối đa %s ký tự
+2152	kiểm tra xem việc theo dõi người chơi có đang bật không
+2516	Gọn
+2716	Chu kỳ hiệu chỉnh: %s
+3040	Kênh hiện tại: "%s"
+3041	Chế độ kênh mặc định hiện tại: %s
+3046	Giới hạn tần suất hiện tại: %s
+3047	Thời gian hồi lại hiện tại: %s
+3053	Đang dùng kênh mặc định
+3729	Chỉ hướng
+3744	Đã tắt
+4203	bật hoặc tắt việc theo dõi người chơi
+4856	FTB Teams
+4861	Đầy đủ
+4923	lấy chế độ kênh mặc định hiện tại
+4924	lấy giới hạn tần suất đánh dấu hiện tại
+4925	lấy thời gian hồi lượt đánh dấu hiện tại
+4929	lấy kênh hiện tại của bạn
+4995	Toàn cục
+5477	Ẩn
+5983	Biểu tượng vật phẩm
+6362	Chỉ nhãn
+6707	Báo hiệu đánh dấu vị trí
+8217	mở giao diện cấu hình
+8227	Mở cài đặt
+8764	Kênh đánh dấu
+8765	Khoảng cách đánh dấu: %s
+8766	Thời gian đánh dấu: %s
+8767	Đánh dấu vị trí
+8768	Chỉ đánh dấu
+8769	Cỡ đánh dấu: %s
+8770	Âm lượng đánh dấu: %s
+8771	Ping Wheel
+8772	Cài đặt Ping Wheel
+8891	Thông tin người chơi
+8892	Thông tin người chơi hiện khi giữ phím "%s" (%s)
+8904	Theo dõi người chơi hiện đang: %s
+8905	Theo dõi người chơi giờ là: %s
+10981	Đã đặt kênh thành "%s"
+10982	Đã đặt kênh về mặc định
+10984	Đã đặt chế độ kênh mặc định thành %s
+10993	Đã đặt giới hạn tần suất thành %s
+10996	đặt chế độ kênh mặc định
+10998	đặt giới hạn tần suất đánh dấu
+10999	đặt thời gian hồi lượt đánh dấu
+11002	Đã đặt thời gian hồi lại thành %s
+11005	đặt kênh của bạn, dùng "" cho kênh mặc định
+12531	Đã đồng bộ với %s
+12608	Màu đội
+12610	Chỉ đội
+13437	Chế độ không rõ, các lựa chọn hợp lệ: %s
+13549	Đội kiểu gốc
+13633	Trò chuyện thoại
+16201	Bạn chỉ gửi và nhận đánh dấu với người chơi cùng kênh
+242	Không tìm thấy %s.
+802	Đã xảy ra lỗi trong quá trình tuần tự hóa.
+8841	Placebo
+10730	Đã lưu %s vào %s.
+13060	Bật tắt vệt sáng người ủng hộ
+13061	Bật tắt đôi cánh người ủng hộ
+15387	Tìm thấy %d xung đột tiềm ẩn. Xem logs/conflicts.log để biết chi tiết.
+10845	Đang tìm xung đột công thức...
+805	Có bản cập nhật
+806	Có bản cập nhật!\n Presence Footsteps %s cho MC%s
+1054	Loài chim
+1308	Hai chân
+2100	Xích leng keng
+2155	Đang kiểm tra cập nhật...
+2412	Người chơi máy khách: %d%%
+2545	Báo cáo ngắn gọn
+3572	Gói âm thanh mặc định
+4292	Thực thể: Tất cả
+4293	Thực thể: Chỉ người chơi
+4294	Thực thể: Người chơi và quái thù địch
+4449	Không tạo được báo cáo: %s
+4531	Đã lưu tệp thành: %s
+4772	Tiếng bước chân
+4868	Báo cáo đầy đủ
+4983	Kính rên rỉ
+4987	Kính lạch cạch
+4997	Âm lượng chung: %d%%
+4998	Âm lượng chung: TẮT
+5099	Cỏ lạo xạo
+5103	Cỏ sột soạt
+5114	Sỏi lạo xạo
+5664	Băng nứt
+6398	Lá sột soạt
+7467	Kim loại leng keng
+7710	Bùn nhóp nhép
+8314	Người chơi khác: %d%%
+8567	Ngựa có cánh
+9006	Presence Footsteps %s
+9007	Tùy chọn Presence Footsteps
+9204	Bốn chân
+10687	Cát lạo xạo
+11226	Chơi đơn và nhiều người
+11227	Chỉ chơi đơn
+11378	Tuyết lạo xạo
+11516	Giảm theo tốc độ: %d%%
+11822	Tư thế: %s
+11871	Đá vụn vỡ
+13811	Nước chảy
+13819	Sáp kêu cót két
+13872	Bề mặt ướt: %s
+14124	Cánh vỗ
+14125	Cánh gập lại
+14160	Gỗ cong oằn
+14161	Gỗ kẽo kẹt
+14163	Gỗ cót két
+14342	Bạn đang dùng bản mới nhất
+1299	Đèn đá lớn
+1818	Đèn đá rộng
+2298	Cột đá S chạm khắc
+2299	Cột đá S chạm khắc
+6360	Đèn đá L
+6361	Cột đá L
+6785	Đèn đá M
+6786	Khối đèn đá M
+6787	Cột đá M
+7523	Đèn đá mini không mái
+9611	Redden's Stone Lanterns
+10672	Đèn đá S
+10673	Cột đá S
+11312	Đèn đá nhỏ không mái
+11316	Đèn đá nhỏ có mái
+14245	Đèn đá XL
+14246	Đèn đá XL có mái
+14247	Cột đá XL
+14251	Đèn đá XS có chân
+14252	Đèn đá XS không mái
+14253	Đèn đá XS có mái
+14254	Đèn đá XS
+112	%1$s bị quạt trần xẻ tới chết
+214	%s điểm
+263	%s/%s cấp
+694	Mọi đồ nội thất và trang trí có chỗ chứa đồ
+698	Mọi vật phẩm. Xẻng lật, chảo, bánh mì nướng và hơn thế
+708	Mọi thứ cơ bản. Ghế, bàn và hơn thế
+770	Đã kết nối
+832	Đá lát lối đi andesit
+1088	Làm bánh
+1236	Phòng tắm
+1249	Phòng ngủ
+1251	Giường, bàn làm việc, tủ quần áo và hơn thế
+1415	Chim hót theo bài hát
+1727	Đang khởi động...
+1755	Nảy

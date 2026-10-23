@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:soul_campfire"
+    },
+    "title": {
+      "translate": "advancements.back_to_hell.title"
+    },
+    "description": {
+      "translate": "advancements.back_to_hell.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "back_to_hell_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "apollyon:condemned_to_die"
+}

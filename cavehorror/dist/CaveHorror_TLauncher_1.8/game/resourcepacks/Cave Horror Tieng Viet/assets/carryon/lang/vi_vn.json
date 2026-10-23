@@ -1,0 +1,14 @@
+{
+ "carryon.category.blacklist": "Danh sách chặn",
+ "carryon.category.custompickupconditions": "Điều kiện nhấc tùy chỉnh (nâng cao)",
+ "carryon.category.custompickupconditions.custompickupconditionsblocks": "Điều kiện nhấc khối tùy chỉnh",
+ "carryon.category.custompickupconditions.custompickupconditionsentities": "Điều kiện nhấc thực thể tùy chỉnh",
+ "carryon.category.modeloverrides": "Thay thế mô hình (nâng cao)",
+ "carryon.category.settings": "Cài đặt",
+ "carryon.category.whitelist": "Danh sách cho phép",
+ "carryon.general.blacklist.forbiddenentities": "Những thực thể người chơi không thể nhấc lên",
+ "carryon.general.blacklist.forbiddentiles": "Những khối người chơi không thể nhấc lên",
+ "carryon.general.modeloverrides.modeloverrides": "Thay thế mô hình",
+ "key.carry.category": "Carry On",
+ "key.carry.desc": "Mang vác"
+}

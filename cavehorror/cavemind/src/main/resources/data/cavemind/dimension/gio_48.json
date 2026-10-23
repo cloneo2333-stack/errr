@@ -1,0 +1,18 @@
+{
+  "type": "cavemind:gio_48",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "cavemind:gio_48",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "block": "minecraft:air",
+          "height": 1
+        }
+      ],
+      "structure_overrides": []
+    }
+  }
+}

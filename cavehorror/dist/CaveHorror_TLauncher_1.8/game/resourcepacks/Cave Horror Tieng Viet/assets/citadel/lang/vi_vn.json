@@ -1,0 +1,16 @@
+{
+ "block.citadel.lectern": "Bục giảng",
+ "book.citadel_book.hover_text_pillager_example": "Liên kết thực thể là những nút nhỏ xinh!",
+ "book.citadel_book.link_example": "Liên kết mẫu",
+ "book.citadel_book.root": "Sách Citadel!!!",
+ "citadel.follower.citadel": "Trạm vũ trụ",
+ "citadel.follower.citadel_gray": "Trạm vũ trụ (xám)",
+ "citadel.follower.citadel_red": "Trạm vũ trụ (đỏ)",
+ "citadel.follower.none": "Không có",
+ "citadel.gui.reset": "Đặt lại",
+ "item.citadel.citadel_book": "Sách Citadel",
+ "item.citadel.debug": "Trình gỡ lỗi Citadel",
+ "item.citadel.effect_item": "Hiệu ứng thuốc",
+ "item.citadel.fancy_item": "Vật phẩm lộng lẫy",
+ "item.citadel.icon_item": "Vật phẩm biểu tượng"
+}

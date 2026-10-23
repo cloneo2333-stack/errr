@@ -1,0 +1,15 @@
+{
+ "euphoria_patcher.button.support": "Ủng hộ EP",
+ "euphoria_patcher.button.update": "Cập nhật EP!",
+ "euphoria_patcher.donation.button": "Ủng hộ dự án",
+ "euphoria_patcher.donation.line1": "Chào bạn!",
+ "euphoria_patcher.donation.line2": "Vui vì bạn đang thích %s!",
+ "euphoria_patcher.donation.line2.highlight": "Euphoria Patches",
+ "euphoria_patcher.donation.line3": "Thêm cài đặt, hiệu ứng và tính năng mới tốn %s công sức.",
+ "euphoria_patcher.donation.line3.highlight": "vô số giờ",
+ "euphoria_patcher.donation.line4": "Nếu bạn thích bầu không khí thêm phần sống động trong thế giới của mình, hãy cân nhắc %s.",
+ "euphoria_patcher.donation.line4.highlight": "ủng hộ dự án",
+ "euphoria_patcher.donation.line5": "Cảm ơn bạn đã dùng Euphoria Patches <3",
+ "fml.menu.mods.info.description.euphoria_patcher": "Mod áp dụng phần bổ sung Euphoria Patches cho Complementary Shaders.\nBật và chỉnh cài đặt Euphoria Patches trong trình đơn cài đặt của gói shader\nBáo lỗi trên Discord!",
+ "modmenu.descriptionTranslation.euphoria_patcher": "Mod áp dụng phần bổ sung Euphoria Patches cho Complementary Shaders.\nBật và chỉnh cài đặt Euphoria Patches trong trình đơn cài đặt của gói shader\nBáo lỗi trên Discord!"
+}

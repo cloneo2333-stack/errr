@@ -1,0 +1,10 @@
+{
+	"id": "61b7f00ed263481186181d42a6fdbcc7",
+	"done": true,
+	"results": [
+		{
+			"cmd": "execute as @p run cavemind eye mark END roam (player died to Door Knight at 7:11)",
+			"result": 1
+		}
+	]
+}

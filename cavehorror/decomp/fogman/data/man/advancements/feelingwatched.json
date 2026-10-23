@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "man:textures/screens/banner.png",
+    "icon": {
+      "item": "minecraft:ender_eye"
+    },
+    "title": {
+      "translate": "advancements.feelingwatched.title"
+    },
+    "description": {
+      "translate": "advancements.feelingwatched.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "feelingwatched_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

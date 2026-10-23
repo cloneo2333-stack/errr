@@ -1,0 +1,22 @@
+{
+ "sdrp.compact_world": "Compact World",
+ "sdrp.compact_world.in": "Ở Compact World",
+ "sdrp.dungeon": "Dungeon World",
+ "sdrp.dungeon.in": "Ở Dungeon World",
+ "sdrp.logo": "Biểu trưng gói",
+ "sdrp.mainmenu": "Trình đơn chính",
+ "sdrp.mining": "Chiều không gian khai thác",
+ "sdrp.mining.in": "Ở chiều không gian khai thác",
+ "sdrp.otherside": "Otherside",
+ "sdrp.otherside.in": "Ở Otherside",
+ "sdrp.overworld": "Thế giới thực",
+ "sdrp.overworld.in": "Ở Thế giới thực",
+ "sdrp.paradise_lost": "Paradise Lost",
+ "sdrp.paradise_lost.in": "Ở Paradise Lost",
+ "sdrp.spatial_storage": "Kho không gian",
+ "sdrp.spatial_storage.in": "Ở kho không gian",
+ "sdrp.the_end": "End",
+ "sdrp.the_end.in": "Ở End",
+ "sdrp.the_nether": "Nether",
+ "sdrp.the_nether.in": "Ở Nether"
+}

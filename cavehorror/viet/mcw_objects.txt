@@ -1,0 +1,385 @@
+Rectangle|Window	82
+Resizeable|Window	82
+|Acacia Bridge	1
+|Acacia Bridge Stair	1
+|Arrow Slit	3
+|Attic Roof	100
+|Balcony	13
+|Bamboo Trapdoor	13
+|Barn Door	25
+|Barn Glassed Door	25
+|Barn Trapdoor	24
+|Barred Trapdoor	24
+|Barrel Trapdoor	24
+|Bars Toggles	1
+|Beach Door	24
+|Beach Trapdoor	24
+|Birch Bridge	1
+|Birch Bridge Stair	1
+|Blinds	23
+|Blossom Trapdoor	13
+|Bookshelf	26
+|Bookshelf Drawer	26
+|Brick Arrow Slit	3
+|Brick Attic Roof	1
+|Brick Bridge	1
+|Brick Bridge Stair	1
+|Brick Bridge Support	1
+|Brick Gothic Window	1
+|Brick Grass Topped Wall	1
+|Brick Lower Base Roof	1
+|Brick Lower Top Roof	1
+|Brick Pillar Wall	1
+|Brick Railing Gate	2
+|Brick Roof	1
+|Brick Steep Base Roof	1
+|Brick Steep Top Roof	1
+|Brick Top Roof	1
+|Bridge	43
+|Bridge Pier	9
+|Bridge Stair	42
+|Bridge Support	33
+|Bulk Stairs	13
+|Chair	26
+|Cherry Bridge	1
+|Cherry Bridge Stair	1
+|Cheval De Frise	1
+|Classic Door	24
+|Classic Trapdoor	24
+|Coffee Table	26
+|Compact Stairs	13
+|Cottage Door	24
+|Cottage Trapdoor	24
+|Counter	26
+|Covered Desk	26
+|Crimson Bridge	1
+|Crimson Bridge Stair	1
+|Cupboard Bookshelf	26
+|Cupboard Counter	26
+|Curtain	16
+|Curtain Rod	24
+|Curved Gate	24
+|Dark Oak Bridge	1
+|Dark Oak Bridge Stair	1
+|Dead Bridge	1
+|Dead Bridge Stair	1
+|Desk	26
+|Door	1
+|Double Drawer	26
+|Double Drawer Counter	26
+|Double Kitchen	26
+|Double Wardrobe	26
+|Drawer	26
+|Drawer Counter	26
+|Empyreal Bridge	1
+|Empyreal Bridge Stair	1
+|End Table	26
+|Fence	1
+|Fir Bridge	1
+|Fir Bridge Stair	1
+|Four Pane Window	76
+|Four Panel Door	25
+|Four Panel Trapdoor	24
+|Four Window	6
+|Garage Door	3
+|Glass Door	50
+|Glass Kitchen Cabinet	26
+|Glass Table	26
+|Glass Trapdoor	25
+|Gothic Window	4
+|Grass Topped Wall	11
+|Hedge	12
+|Hellbark Bridge	1
+|Hellbark Bridge Stair	1
+|Highley Gate	24
+|Horse Fence	24
+|Hospital Door	1
+|Jacaranda Bridge	1
+|Jacaranda Bridge Stair	1
+|Jungle Bridge	1
+|Jungle Bridge Stair	1
+|Kitchen Cabinet	26
+|Kitchen Sink	26
+|Large Drawer	26
+|Loft Stairs	13
+|Louvered Shutter	26
+|Lower Base Roof	100
+|Lower Bookshelf Drawer	26
+|Lower Top Roof	100
+|Lower Triple Drawer	26
+|Magic Bridge	1
+|Magic Bridge Stair	1
+|Mahogany Bridge	1
+|Mahogany Bridge Stair	1
+|Mangrove Bridge	1
+|Mangrove Bridge Stair	1
+|Maple Bridge	1
+|Maple Bridge Stair	1
+|Maple Hedge	3
+|Mesh Door	24
+|Mesh Trapdoor	10
+|Modern Chair	26
+|Modern Desk	26
+|Modern Door	24
+|Modern Wardrobe	26
+|Mosaic Attic Roof	1
+|Mosaic Glass	16
+|Mosaic Glass Pane	16
+|Mosaic Lower Base Roof	1
+|Mosaic Lower Top Roof	1
+|Mosaic Roof	1
+|Mosaic Steep Base Roof	1
+|Mosaic Steep Top Roof	1
+|Mosaic Top Roof	1
+|Mystic Door	25
+|Mystic Trapdoor	24
+|Nether Door	25
+|Oak Bridge	1
+|Oak Bridge Stair	1
+|Pale Oak Bridge	1
+|Pale Oak Bridge Stair	1
+|Palm Bridge	1
+|Palm Bridge Stair	1
+|Pane Window	81
+|Paper Door	24
+|Paper Trapdoor	24
+|Parapet	52
+|Path	13
+|Picket Fence	24
+|Pillar Wall	11
+|Pine Bridge	1
+|Pine Bridge Stair	1
+|Platform	13
+|Portcullis	1
+|Pyramid Gate	24
+|Rail Bridge	24
+|Railing	13
+|Railing Gate	11
+|Rain Gutter	16
+|Rain Gutter Downspout	16
+|Ranch Trapdoor	23
+|Redwood Bridge	1
+|Redwood Bridge Stair	1
+|Reinforced Door	1
+|Roof	100
+|Roof Block	4
+|Roof Slab	4
+|Shoji Door	25
+|Shoji Whole Door	25
+|Shutter	25
+|Skyline Stairs	13
+|Spruce Bridge	1
+|Spruce Bridge Stair	1
+|Stable Door	25
+|Stable Horse Door	25
+|Steep Base Roof	100
+|Steep Top Roof	100
+|Stockade Fence	24
+|Stool	26
+|Striped Awning	15
+|Striped Chair	26
+|Swamp Door	24
+|Swamp Trapdoor	23
+|Table	26
+|Terrace Stairs	13
+|Top Roof	100
+|Trapdoor	26
+|Triple Drawer	26
+|Tropical Door	24
+|Tropical Trapdoor	24
+|Umbran Bridge	1
+|Umbran Bridge Stair	1
+|Waffle Door	24
+|Waffle Trapdoor	10
+|Wardrobe	26
+|Warning Door	1
+|Warped Bridge	1
+|Warped Bridge Stair	1
+|Western Door	25
+|Whispering Door	24
+|Whispering Trapdoor	24
+|Willow Bridge	1
+|Willow Bridge Stair	1
+|Windowed Door	1
+|Wired Fence	24
+---unmatched 180
+%1$s was trying to cross a wired fence
+Acorn Metal Fence
+Asian Red Bridge
+Asian Red Bridge Pier
+Asian Red Bridge Stair
+Balustrade Andesite Bridge
+Balustrade Blackstone Bridge
+Balustrade Bricks Bridge
+Balustrade Cobblestone Bridge
+Balustrade Deepslate Bricks Bridge
+Balustrade Deepslate Tiles Bridge
+Balustrade Diorite Bridge
+Balustrade End Stone Bricks Bridge
+Balustrade Granite Bridge
+Balustrade Mossy Cobblestone Bridge
+Balustrade Mossy Stone Bricks Bridge
+Balustrade Mud Bricks Bridge
+Balustrade Nether Bricks Bridge
+Balustrade Prismarine Bricks Bridge
+Balustrade Red Sandstone Bridge
+Balustrade Sandstone Bridge
+Balustrade Stone Bricks Bridge
+Barred Trapdoor Print
+Base Attic Roof
+Base Lower Base Roof
+Base Lower Top Roof
+Base Rain Gutter
+Base Roof
+Base Roof Block
+Base Roof Slab
+Base Steep Base Roof
+Base Steep Top Roof
+Base Top Roof
+Bastion Metal Fence
+Bastion Metal Fence Gate
+Beach Door Print
+Beach Trapdoor Print
+Blinds Closes
+Blinds Opens
+Bridge Lantern
+Bridge Torch
+Can be stacked upwards to be taller
+Cathedral Metal Fence
+Classic Door Print
+Classic Trapdoor Print
+Cottage Door Print
+Cottage Trapdoor Print
+Crafting ingredient
+Crafting Ingredient
+Curved Metal Fence
+Curved Metal Fence Gate
+Cypress Hedge
+Dark Modern Door
+Dark Planks Oak Pane Window
+Double Curved Metal Fence
+Dry Bamboo Bridge
+Dry Bamboo Bridge Stair
+Dry Bamboo Bridge Support
+End Brick Arrow Slit
+End Brick Gothic Window
+End Brick Grass Topped Wall
+End Brick Pillar Wall
+End Brick Railing Gate
+Expanded Mesh Metal Fence
+Flowering Azalea Hedge
+Flowering Oak Hedge
+Fortress Metal Fence
+Four Panel Door Print
+Four Panel Trapdoor Print
+Garage Remote
+Golden Curtain Rod
+Gothic Metal Fence
+Grass Attic Roof
+Grass Lower Base Roof
+Grass Lower Top Roof
+Grass Roof
+Grass Steep Base Roof
+Grass Steep Top Roof
+Grass Top Roof
+Guardian Metal Fence
+Jail Door
+Macaw's Biomes O' Plenty
+Macaw's Bridges
+Macaw's Doors
+Macaw's Fences & Walls
+Macaw's Roofs
+Macaw's Trapdoors
+Macaw's Windows
+Macaw's Windows Additions
+Majestic Metal Fence Gate
+Mesh Door Print
+Mesh Metal Fence
+Mesh Metal Fence Gate
+Mesh Trapdoor Print
+Modern Andesite Wall
+Modern Blackstone Wall
+Modern Deepslate Brick Wall
+Modern Deepslate Wall
+Modern Diorite Wall
+Modern End Brick Wall
+Modern Granite Wall
+Modern Mud Brick Wall
+Modern Nether Brick Wall
+Modern Prismarine Wall
+Modern Quartz Wall
+Modern Red Sandstone Wall
+Modern Sandstone Wall
+Modern Stone Brick Wall
+Mossy Stone Bridge Stair
+Mossy Stone Bridge Support
+Mystic Door Print
+Mystic Trapdoor Print
+Nether Brick Arrow Slit
+Nether Brick Gothic Window
+Nether Brick Grass Topped Wall
+Nether Brick Pillar Wall
+Nether Brick Railing Gate
+Nether Door Print
+One Way Glass
+One Way Glass Pane
+Open Garage Door
+Open Shoji Door
+Origin Hedge
+Ornate Metal Fence
+Panelled Metal Fence
+Panelled Metal Fence Gate
+Paper Door Print
+Paper Trapdoor Print
+Pliers
+Railing Andesite Wall
+Railing Blackstone Wall
+Railing Deepslate Brick Wall
+Railing Deepslate Wall
+Railing Diorite Wall
+Railing End Brick Wall
+Railing Granite Wall
+Railing Mud Brick Wall
+Railing Nether Brick Wall
+Railing Prismarine Wall
+Railing Quartz Wall
+Railing Red Sandstone Wall
+Railing Sandstone Wall
+Railing Stone Brick Wall
+Rain Gutter
+Rain Gutter Downspout
+Rainbow Birch Hedge
+Requires Redstone Power to open
+Right click on a window, to change their shape
+Right click on a window, to lock them.
+Right click on the top roof to toggle between states
+Roofing Hammer
+Silver Garage Door
+Sliding Glass Door
+Snowblossom Hedge
+Store Door
+Swamp Door Print
+Swamp Trapdoor Print
+Tropical Door Print
+Tropical Trapdoor Print
+Twilight Metal Fence
+Use on Bridges/Stairs handrails
+Use Pliers/Shears to adjust the entrance
+Vintage Metal Fence
+Waffle Door Print
+Waffle Trapdoor Print
+Warning Trapdoor
+Whispering Door Print
+Whispering Trapdoor Print
+Window Base
+Window Closes
+Window Four Pane Base
+Window Half Pane Base
+Window Hammer
+Window Key
+Window Opens
+Wooden Cheval De Frise
+Wooden Portcullis
+%1$s was trying to cross a wired fence whilst trying to escape %2$s
+Place only one on the ceiling and when opened it will roll down
+Right click on a bridge to make an entrance, works only for 2+ wider bridges

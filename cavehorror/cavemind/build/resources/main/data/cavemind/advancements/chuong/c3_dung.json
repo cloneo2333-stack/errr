@@ -1,0 +1,23 @@
+{
+  "parent": "cavemind:chuong/c3_moi",
+  "display": {
+    "icon": {
+      "item": "minecraft:bell"
+    },
+    "title": {
+      "text": "Sân Chơi Tự Dựng"
+    },
+    "description": {
+      "text": "Tự dựng một điểm hẹn đủ luật cho Tuấn"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

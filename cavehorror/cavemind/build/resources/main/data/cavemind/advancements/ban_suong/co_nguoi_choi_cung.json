@@ -1,0 +1,23 @@
+{
+  "parent": "cavemind:ban_suong/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:candle"
+    },
+    "title": {
+      "text": "Có Người Chơi Cùng"
+    },
+    "description": {
+      "text": "Chơi trốn tìm với The Damned mà không bị tìm thấy"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

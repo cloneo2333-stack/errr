@@ -1,0 +1,23 @@
+{
+  "parent": "cavemind:chuong/c4_moi",
+  "display": {
+    "icon": {
+      "item": "minecraft:clock"
+    },
+    "title": {
+      "text": "Tháp Đồng Hồ Đổ"
+    },
+    "description": {
+      "text": "Tìm tới tháp đồng hồ dừng lúc mười một giờ bốn mươi tám"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

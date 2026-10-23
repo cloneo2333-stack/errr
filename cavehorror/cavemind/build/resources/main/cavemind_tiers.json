@@ -1,0 +1,35 @@
+{
+  "2": [
+    "arphex:scorpion_striker", "arphex:scorpion_larvae", "arphex:centipede_evictor", "arphex:centipede_evictor_larvae",
+    "arphex:solifuge_skulker", "arphex:spider_lunger", "arphex:spider_obstructer", "arphex:spider_sinker", "arphex:spider_funnel",
+    "arphex:hornet_harbinger", "arphex:mosquito_morbidity", "arphex:termite_tunneler_worker", "arphex:termite_tunneler_soldier",
+    "arphex:termite_tunneler_alate", "arphex:termite_tunneler_queen", "arphex:termite_tunneler_king",
+    "born_in_chaos_v1:corpse_fly", "born_in_chaos_v1:spiritof_chaos", "born_in_chaos_v1:fallen_chaos_knight", "born_in_chaos_v1:zombie_bruiser",
+    "born_in_chaos_v1:siamese_skeletons", "born_in_chaos_v1:swarmer", "born_in_chaos_v1:thornshell_crab", "born_in_chaos_v1:zombie_clown",
+    "born_in_chaos_v1:bonescaller", "born_in_chaos_v1:mr_pumpkin", "born_in_chaos_v1:mrs_pumpkin", "born_in_chaos_v1:pumpkin_bruiser",
+    "born_in_chaos_v1:senor_pumpkin",
+    "graveyard:ghoul", "graveyard:revenant", "graveyard:skeleton_creeper"
+  ],
+  "3": [
+    "arphex:spider_recluse", "arphex:spider_prowler", "arphex:spider_reaper", "arphex:spider_jump", "arphex:spider_flat",
+    "arphex:locust_landscourge", "arphex:hornet_harbinger_giant", "arphex:beetle_bulwark", "arphex:butterfly_bewitcher",
+    "arphex:moth_moontracker", "arphex:spider_ambusher", "arphex:spider_lurker",
+    "born_in_chaos_v1:dire_hound_leader", "born_in_chaos_v1:spirit_guide", "born_in_chaos_v1:spirit_guide_assistant",
+    "born_in_chaos_v1:skeleton_demoman", "born_in_chaos_v1:mother_spider", "born_in_chaos_v1:supreme_bonescaller", "born_in_chaos_v1:missioner",
+    "graveyard:reaper", "the_obsessed:*"
+  ],
+  "4": [
+    "born_in_chaos_v1:lifestealer", "born_in_chaos_v1:phantom_creeper", "born_in_chaos_v1:nightmare_stalker", "born_in_chaos_v1:krampus_henchman",
+    "born_in_chaos_v1:glutton_fish", "born_in_chaos_v1:sir_pumpkinhead",
+    "arphex:invisible_stalker", "arphex:sky_stalker", "arphex:pure_stalking", "arphex:mantis_mutilator",
+    "graveyard:nightmare", "weeping_angels:weeping_angel"
+  ],
+  "5": [
+    "born_in_chaos_v1:krampus", "born_in_chaos_v1:seared_spirit",
+    "arphex:enormous_spider_hallucination", "arphex:spider_chaser_hallucination", "arphex:spider_chaser_hallucination_2",
+    "arphex:spider_chaser_hallucination_3", "arphex:scorpioid_chaser_hallucination"
+  ],
+  "6": [
+    "arphex:giant_enemy_spider", "arphex:spider_wander"
+  ]
+}

@@ -1,0 +1,300 @@
+2980	Thân nấm đỏ thẫm
+3008	Cây trồng
+3009	Nỏ
+3030	Ctrl
+3048	Bàn làm việc hiện tại không hỗ trợ công thức này
+3051	Hiện là công thức mặc định cho:
+3121	Kính lục lam
+3122	Tấm kính lục lam
+3243	Gỗ sồi sẫm
+3489	Nguyên liệu bình trang trí
+3490	Mảnh gốm bình trang trí
+3520	Đá cuội phiến sâu
+3534	Quặng đá bảng sâu
+3573	Chồng mặc định
+3588	Xóa chồng trên con trỏ
+3640	Nhà phát triển
+3641	Chế độ nhà phát triển
+3670	Bột kim cương
+3681	Quặng kim cương
+3689	Khối chứa kim cương
+3812	Hiện mọi chồng chế tạo được
+3813	Hiện mọi chồng
+3814	Hiện mục yêu thích
+3815	Không hiện gì
+3816	Hiện các chồng đã chế tạo trước đó
+3817	Hiện các chồng đã tra cứu trước đó
+3881	Cửa
+3922	Giọt
+3937	Phù phép độ bền được
+3940	Bột
+3951	Nhuộm được
+3982	Chế độ chỉnh sửa
+3994	Vị trí hiệu ứng
+4027	Quặng ngọc lục bảo
+4028	Khối chứa ngọc lục bảo
+4034	Hiển thị nút cấu hình EMI
+4035	EMI đã tắt! Bật lại bằng
+4036	EMI đang tải lại...
+4037	EMI đang chờ dữ liệu công thức từ máy chủ...
+4045	Xô rỗng
+4048	Thứ chế tạo được khi tìm kiếm trống
+4049	Thanh bên khi tìm kiếm trống
+4223	Giáp phù phép được
+4224	Cung phù phép được
+4225	Giáp ngực phù phép được
+4226	Nỏ phù phép được
+4227	Trang bị phù phép được
+4228	Giáp chân phù phép được
+4229	Giáp đầu phù phép được
+4230	Giáp đùi phù phép được
+4231	Vũ khí sắc phù phép được
+4232	Kiếm phù phép được
+4233	Đinh ba phù phép được
+4234	Vũ khí phù phép được
+4236	Nhiên liệu phù phép
+4255	Đá End
+4257	Rương Ender
+4260	Bột ngọc Ender
+4261	Ngọc Ender
+4314	Xô nước chứa sinh vật
+4337	Lỗi
+4340	Lỗi khởi tạo
+4342	Lỗi hiển thị
+4504	Yêu thích
+4505	Mục yêu thích
+4509	Lông vũ
+4522	Cổng rào
+4523	Hàng rào
+4535	Điền công thức
+4701	Phù phép Lửa được
+4716	Cá
+4717	Phù phép câu cá được
+4719	Cần câu
+4739	Hoa
+4747	Đơn vị chất lỏng
+4758	Chọn thanh tìm kiếm
+4766	Thức ăn
+4771	Giáp chân
+4798	Tiến
+4805	Thức ăn cho cáo
+4820	Trang bị chống đóng băng
+4833	Thức ăn cho ếch
+4976	Kính
+4977	Khối kính
+4985	Tấm kính
+5007	Bột đá phát sáng
+5018	Thức ăn cho dê
+5022	Khối vàng
+5024	Bột vàng
+5025	Thỏi vàng
+5028	Quặng vàng
+5029	Tấm vàng
+5031	Khối chứa vàng
+5112	Sỏi
+5138	Kính xám
+5139	Tấm kính xám
+5197	Kính xanh lá cây
+5198	Tấm kính xanh lá cây
+5241	Mài
+5257	Thuốc súng
+5286	Biển treo
+5313	Giáp đầu
+5314	Tiêu đề
+5315	Đầu
+5462	Mũ giáp
+5464	Mức trợ giúp
+5505	Ẩn chồng
+5506	Ẩn chồng theo mã
+5524	Đánh dấu mặc định
+5525	Đánh dấu vùng loại trừ
+5532	Cuốc
+5534	Thức ăn cho Hoglin
+5561	Xô mật ong
+5595	Thức ăn cho ngựa
+5597	Thứ dụ được ngựa
+5721	Piglin con bỏ qua
+5788	Danh mục
+5789	Nguồn danh mục
+5805	Đá cuội bị nhiễm
+5815	Nguyên liệu
+5897	Ẩn
+5907	Mời người chơi trong thanh tìm kiếm chơi cờ
+5919	Khối sắt
+5927	Bột sắt
+5942	Quặng sắt
+5944	Tấm sắt
+5953	Khối chứa sắt
+6216	Gỗ rừng
+6364	Ngọc lưu ly
+6366	Quặng ngọc lưu ly
+6367	Quặng ngọc lưu ly
+6368	Khối chứa ngọc lưu ly
+6383	Dung nham
+6385	Xô dung nham
+6393	Da
+6400	Sách cho bục giảng
+6403	Trái (thu gọn)
+6407	Thanh bên trái
+6409	Đồ thừa
+6410	Giáp đùi
+6415	Quần giáp
+6467	Kính xanh nhạt
+6468	Tấm kính xanh nhạt
+6517	Kính xám nhạt
+6518	Tấm kính xám nhạt
+6590	Kính xanh lá mạ
+6591	Tấm kính xanh lá mạ
+6685	Lít
+6687	Thức ăn cho lạc đà không bướu
+6688	Thứ dụ được lạc đà không bướu
+6721	Ghi nhật ký nguyên liệu không có thẻ
+6723	Ghi nhật ký thẻ chưa dịch
+6725	Gỗ
+6739	Lịch sử tra cứu
+6761	Piglin ưa thích
+6763	Ít gây xao nhãng
+6826	Kính đỏ sậm
+6827	Tấm kính đỏ sậm
+7184	Gỗ đước
+7389	Lề
+7439	Chiều cao tối đa màn hình công thức
+7445	Thịt
+7450	Hạt dưa hấu
+7495	Mili xô
+7532	Chiều rộng tối thiểu màn hình công thức
+7537	Phù phép đào được
+7538	Phù phép đào nhiều đồ được
+7553	Chống chế tạo nhầm
+7578	Mã mod
+7592	Hiện đại
+7639	Đá cuội phủ rêu
+7728	Nấm
+7731	Đĩa nhạc
+7767	Gỗ tự nhiên ở Thế giới thực
+7811	Hàng rào gạch Nether
+7818	Gạch Nether
+7833	Bột thạch anh Nether
+7837	Ngôi sao Nether
+7839	Bướu Nether
+7853	Phôi Netherit
+7860	Bột vụn Netherit
+7861	Quặng vụn Netherit
+7867	Khối chứa Netherit
+7871	Netherrack
+7873	Quặng Netherrack
+7874	Không bao giờ
+7959	Gỗ không cháy
+7963	Bình thường
+7982	Không đủ nguyên liệu để chế tạo
+7990	Nhạc cụ trên khối nốt nhạc
+8053	Gỗ sồi
+8127	Hắc diện thạch
+8139	Chặn tín hiệu rung
+8146	Thức ăn cho mèo rừng
+8264	Kính cam
+8265	Tấm kính cam
+8357	Trang %s trên %s
+8510	Thức ăn cho gấu trúc
+8524	Thức ăn cho vẹt
+8576	Có lẽ bạn muốn xem một cái ngẫu nhiên?
+8607	Cúp
+8617	Thức ăn cho heo
+8621	Thức ăn cho Piglin
+8624	Thứ xua đuổi Piglin
+8792	Kính hồng
+8793	Tấm kính hồng
+8850	Ván gỗ
+8856	Tấm
+8928	Thức ăn độc với vẹt
+8978	Thuốc
+9011	Nhấn %s vào sản phẩm để đặt công thức mặc định cho chồng đó
+9012	Nhấn %s để thêm hoặc bỏ chồng yêu thích
+9013	Nhấn %s để chế tạo cả §9%s§r mẻ
+9014	Nhấn %s để chế tạo nhiều nhất có thể
+9015	Nhấn %s để thêm công thức vào yêu thích
+9016	Nhấn %s để còn ít đồ thừa nhất
+9017	Nhấn %s để ẩn chồng
+9018	Nhấn %s để ẩn chồng theo mã
+9019	Nhấn %s để đổi thanh bên
+9020	Nhấn %s để bật tắt mặc định cho mọi cây
+9021	Nhấn %s để dùng cho cây công thức này
+9025	Nhấn §6[ctrl + r]
+9047	Prismarin
+9060	Bột Prismarin
+9068	Tỉ lệ tạo ra: %s%%
+9069	Năng suất
+9131	Hạt bí ngô
+9164	Kính tím
+9165	Tấm kính tím
+9208	Thạch anh
+9209	Khối thạch anh
+9213	Quặng thạch anh
+9217	Khối chứa thạch anh
+9269	Thức ăn cho thỏ
+9292	Đường ray
+9346	Đồng thô
+9347	Khối đồng thô
+9348	Quặng đồng thô
+9349	Khối chứa đồng thô
+9358	Vàng thô
+9359	Khối vàng thô
+9360	Quặng vàng thô
+9361	Khối chứa vàng thô
+9365	Sắt thô
+9366	Khối sắt thô
+9368	Quặng sắt thô
+9369	Khối chứa sắt thô
+9371	Nguyên liệu thô
+9376	Quặng thô
+9416	Công thức
+9417	Thao tác sách công thức
+9418	Recipe Book Plus
+9419	Nút công thức
+9421	Nút công thức mặc định
+9422	Nút điền công thức
+15664	Không tìm thấy mã công thức trong bộ quản lý công thức, nhưng nó không phải mã tổng hợp\n§7%s§r\nNếu công thức không tương ứng với công thức JSON theo dữ liệu, nó nên dùng mã tổng hợp
+15665	Mã công thức trùng với một công thức gốc\n§7%s§r\nCông thức cần mã riêng để được tuần tự hóa\nViệc này sẽ làm hỏng công thức gốc có cùng mã
+15666	Mã công thức trùng với một công thức khác\n§7%s§r\nCông thức cần mã riêng để được tuần tự hóa\nViệc này sẽ làm hỏng các công thức khác có cùng mã
+15667	Mã công thức là §7null§r\nCông thức cần mã riêng để được tuần tự hóa\nViệc này chỉ ảnh hưởng tới công thức này
+9424	Màn hình công thức
+9425	Lề dọc màn hình công thức
+9426	Nút chụp màn hình công thức
+9427	Tỉ lệ ảnh chụp công thức
+9431	Cây công thức
+9432	Nút cây công thức
+9433	Hiển thị nút cây công thức
+15668	Đầu vào hoặc đầu ra của công thức là §7null§r\nDùng danh sách rỗng nếu không có đầu vào hay đầu ra\nDùng §7EmiStack.EMPTY§r để biểu thị chồng rỗng
+15669	Các ô của công thức không có đầu ra nào\nGọi §7SlotWidget.recipeContext(this)§r trên các đầu ra§r
+9545	Kính đỏ
+9546	Tấm kính đỏ
+9575	Cát đỏ
+9576	Cát kết đỏ
+9578	Khối cát kết đỏ
+9592	Phiến cát kết đỏ
+9593	Bậc cát kết đỏ
+9626	Bột Redstone
+9630	Quặng Redstone
+9632	Khối chứa Redstone
+9768	Đã đăng ký
+10291	Bỏ làm công thức mặc định
+10456	Đang giải cây công thức cho nguyên liệu
+10468	Khôi phục bản sao lưu
+10470	Khôi phục mặc định
+10506	Hoàn tác %s thay đổi
+10521	Phải (thu gọn)
+10527	Nhấp chuột phải để từ chối lời mời chơi cờ của %s
+10529	Nhấp chuột phải để khởi động lại
+10531	Thanh bên phải
+10549	Que
+10635	Hàng
+10686	Cát
+10689	Cát
+10690	Cát kết
+10692	Khối cát kết
+10706	Phiến cát kết
+10707	Bậc cát kết
+10718	Cây non
+10822	Tìm cấu hình...
+10824	Tìm trong EMI...
+10833	Mặc định tìm theo tên mod

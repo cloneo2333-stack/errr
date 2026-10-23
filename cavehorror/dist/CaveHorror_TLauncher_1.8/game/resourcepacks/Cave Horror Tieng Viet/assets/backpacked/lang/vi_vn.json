@@ -1,0 +1,5 @@
+{
+ "backpacked.gui.after_equipped_message": "%s Nhấn %s để mở hoặc %s để quản lý",
+ "backpacked.gui.backpacked_equipped": "Đã đeo ba lô!",
+ "backpacked.gui.no_more_backpack_slots": "Hết ô trống"
+}

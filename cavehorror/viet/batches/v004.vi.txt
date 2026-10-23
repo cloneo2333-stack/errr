@@ -1,0 +1,300 @@
+10838	Thanh bên tìm kiếm
+10839	Chọn thanh bên tìm kiếm
+10840	Mặc định tìm theo thẻ
+10842	Mặc định tìm theo chú thích
+10907	Hạt giống
+10980	Đặt làm công thức mặc định
+10983	Đặt mặc định
+11041	Kéo
+11042	Thức ăn cho cừu
+11045	Khiên
+11046	Shift
+11073	Xẻng
+11083	Hiện chi phí mỗi mẻ
+11084	Hiện chế tạo
+11105	Hiện lớp phủ khi rê chuột
+11126	Hiện trang trí công thức
+11127	Hiện mã công thức
+11155	Đang hiện
+11164	Hộp Shulker
+11173	Thanh bên
+11190	Biển hiệu
+11194	Kính silic
+11234	Kích thước
+11259	Sọ
+11264	Phiến
+11289	Viên slime
+11303	Hoa nhỏ
+11331	Nung chảy
+11335	Nung được %s vật phẩm
+11336	Nung thành kính
+11338	Rèn
+11348	Hun khói
+11375	Thức ăn cho Sniffer
+11448	Nền lửa linh hồn
+11503	Giáo
+11696	Gỗ vân sam
+11812	Kính màu
+11813	Tấm kính màu
+11814	Bậc thang
+11858	Gạch đá
+11868	Nút đá
+11870	Nguyên liệu chế tạo bằng đá
+11873	Bột đá
+11887	Quặng trong đá
+11903	Nguyên liệu công cụ đá
+11910	Cắt đá
+11919	Khối chứa
+11945	Thức ăn cho Strider
+11948	Thứ dụ được Strider
+11950	Sợi tơ
+12424	Bảng phụ
+12529	Kiếm
+12544	Chụp màn hình công thức
+12551	Hoa cao
+12650	Đất nung
+15942	Cây công thức cho thấy quy trình và chi phí gốc của một công thức\nCó thể kéo và phóng to khung hiển thị\n\nNhấp chuột trái vào một nút để chọn công thức gán cho nó\nGiữ §6[shift]§r để tự chọn dựa trên túi đồ của bạn\n\nNhấp chuột phải vào nút công thức để tạm thu gọn\nGiữ §6[shift]§r để xóa công thức\n\nTrạng thái ban đầu của cây do các công thức mặc định quyết định\nNút cạnh công thức có thể đặt công thức mặc định ưa thích\n\nNút bật tắt cạnh tổng chi phí giúp chế tạo theo cây công thức\nKhi đang chế tạo, nguyên liệu cần thu thập sẽ được hiện ra\n§bMục yêu thích tổng hợp§r sẽ được thêm vào thanh bên yêu thích,\nhiện các bước chưa xong và có thể dùng để chế tạo
+13003	Kính màu khói
+13039	Bật tắt thứ chế tạo được
+16064	Bật tắt dùng chung một cấu hình EMI cho mọi bản trò chơi thay vì mỗi bản một cấu hình riêng
+13065	Bật tắt hiển thị
+13084	Công cụ
+13096	Thanh bên trên
+13152	Tổng chi phí
+13186	Trong suốt
+13194	Cửa sập
+13195	Rương bẫy
+13201	Đinh ba
+13203	Nguyên liệu viền giáp
+13204	Khuôn viền giáp
+13205	Giáp gắn viền được
+13231	Thức ăn cho rùa
+13240	Giao diện
+13367	Không chế tạo được §cmẻ nào§r
+13390	Khối cát kết không màu
+13391	Phiến cát kết không màu
+13392	Bậc cát kết không màu
+13500	Dùng mã tổng hợp §7[namespace]§b:/§7[path]§r
+16090	Dùng mã tổng hợp §7[namespace]§b:/§7[path]§r như\n§7%s§b:/§7%s§r
+13503	Dùng bộ vẽ theo lô
+13552	Phù phép Biến mất được
+13571	Chi tiết
+13594	Xem cây công thức
+13595	Xem công thức
+13596	Xem cây chồng
+13597	Xem cây
+13598	Xem công dụng
+13609	Chỗ làm việc của dân làng
+13613	Hạt dân làng trồng được
+13623	Hiện
+13676	Tường
+13784	Thân nấm kì dị
+13802	Khối bướu
+13809	Nước
+13810	Xô nước
+13866	Chào mừng tới %s
+13880	Lúa mì
+13885	Hạt lúa mì
+13913	Tượng trắng
+13933	Kính trắng
+13934	Tấm kính trắng
+13938	Vua trắng
+13943	Mã trắng
+13954	Tốt trắng
+13956	Hậu trắng
+13962	Xe trắng
+14159	Thức ăn cho sói
+14165	Thùng gỗ
+14169	Nút gỗ
+14175	Cửa gỗ
+14178	Cổng rào gỗ
+14179	Hàng rào gỗ
+14190	Tấm áp lực gỗ
+14196	Phiến gỗ
+14198	Bậc thang gỗ
+14201	Cửa sập gỗ
+14204	Len
+14205	Thảm len
+14206	Bàn làm việc
+14211	Vị trí bàn làm việc
+14213	Tương tác với thế giới
+14230	Cờ lê
+14285	Kính vàng
+14286	Tấm kính vàng
+14399	Bạn chưa đặt cây công thức nào để xem...
+16213	Cây công thức §6đang chế tạo§r\nTiến độ sẽ hiện trong cây công thức\nĐã thêm §bmục yêu thích tổng hợp§r vào thanh bên
+14601	Cây công thức §6đang xem§r
+14894	§cXóa chồng đang cầm
+16253	§cEMI gặp lỗi nghiêm trọng khi tải lại, hãy xem nhật ký
+14899	§cĐang bị chậm, mọi thứ ổn chứ?
+14934	§dĐang nướng công thức...
+750	Cho phép Máy nhấc khối di chuyển và ném thực thể.
+751	Cho phép máy khoan đào lỗ to hơn.
+752	Cho phép Roi móc tung một đợt sát thương nhỏ trên diện rộng.
+753	Cho phép cuốc xới nhiều khối cùng lúc.
+754	Cho phép người dùng nhảy hai lần.
+755	Cho phép người dùng di chuyển nhanh hơn khi đỡ đòn.
+756	Cho phép người dùng chạy trên tường.
+757	Cho phép người dùng trượt nhờ đà tích được.
+758	Cho phép người mặc né sát thương.
+759	Cho phép người mặc thở dưới nước.
+760	Cho phép người mặc đổi chiều không gian bằng phím tắt.
+761	Cho phép người mặc bay.
+762	Cho phép người mặc nhảy khi đang ở trên không.
+763	Cho phép người mặc nhìn trong bóng tối.
+764	Cho phép bạn câu được nhiều loại kho báu hơn.
+966	Mũi tên được bắn ra mạnh hơn.
+967	Mũi tên hồi máu cho người chơi gần đó.
+968	Mũi tên có thể bật ngược về phía người bắn.
+1000	Tấn công một thực thể sẽ dập nó xuống đất.
+1002	Đòn đánh còn tạo ra vụ nổ.
+15168	Đòn đánh gây thêm sát thương lên kẻ địch không nhìn về phía bạn.
+1003	Đòn đánh gây nhiều sát thương hơn lên giáp của mục tiêu.
+1004	Đòn đánh gây nhiều sát thương hơn lên dân làng ác.
+1005	Đòn đánh gây nhiều sát thương hơn khi người dùng đầy máu.
+1006	Đòn đánh có cơ hội giết mục tiêu ngay lập tức
+1007	Đòn đánh trúng mọi thực thể gần đó.
+15169	Đòn đánh làm người dùng bị thương. Cứ đòn thứ năm gây sát thương cực lớn.
+1008	Đòn đánh gây độc cho mục tiêu.
+1009	Đòn đánh làm chậm mục tiêu.
+1010	Đòn đánh gọi sét đánh xuống mục tiêu.
+1011	Đòn đánh tạm thời làm suy yếu kẻ địch.
+1012	Đòn đánh khiến mục tiêu phát sáng.
+1043	Tự động châm thuốc nổ TNT vừa đặt.
+1277	Khi bị vật phóng bắn trúng đôi khi sẽ sinh ra mũi tên.
+1560	Đồ rơi từ khối bị hút về phía người dùng.
+1597	Khối có cơ hội rơi ra hạt vàng.
+1764	Cung có thể bắn mũi tên nổ.
+1777	Phá khối sẽ nung chảy nó luôn.
+1780	Phá khối nhanh hơn rất nhiều.
+1782	Phá khối đất nhanh hơn.
+1783	Phá nhiều khối cùng lúc.
+1784	Phá cả mạch quặng.
+1785	Phá gỗ nhanh hơn.
+2581	Các đòn liên tiếp gây nhiều sát thương hơn.
+3161	Gây sát thương cho người dùng.
+3162	Gây sát thương cho người mặc ở quần xã lạnh.
+3163	Gây sát thương cho người mặc dưới nắng trực tiếp.
+3164	Gây sát thương cho người mặc khi ở sâu dưới nước.
+3582	Hạ kẻ địch giúp tạm thời tăng phòng thủ.
+3583	Hạ kẻ địch sẽ hồi máu cho người dùng.
+4265	Kẻ địch tấn công bạn có thể bị dịch chuyển đi chỗ khác.
+4431	Kéo dài thời gian tồn tại của các cột từ phiến đá muối.
+4969	Cho búa khả năng gọi sét.
+4970	Giúp cánh cứng tăng tốc khi cất cánh.
+4971	Cho khiên đòn đập.
+4972	Cho người dùng thêm tim.
+4973	Cho người mặc hiệu ứng hấp thụ.
+4974	Cho người mặc hiệu ứng kháng cự.
+5095	Ban cho người mặc hiệu ứng có lợi tùy theo pha trăng hiện tại.
+5096	Ban cho người mặc hiệu ứng có lợi ở các chiều không gian khác nhau.
+15399	Grapple Mod https://www.curseforge.com/minecraft/mc-mods/grappling-hook-mod
+5318	Hồi máu cho người chơi gần đó.
+5549	Giữ shift để xem mô tả phù phép.
+5553	Giữ shift sẽ dùng kinh nghiệm để hồi máu.
+5600	Kẻ địch thù địch phớt lờ người mặc.
+5776	Tăng lượng sát thương khiên đỡ được.
+5777	Tăng sát thương lên quái vật thuộc loại sculk.
+5778	Tăng số lần boomerang nảy khỏi tường.
+5779	Tăng tốc độ di chuyển trên một số khối.
+5780	Tăng sát thương tấn công của người mặc.
+5781	Tăng sát thương của súng phun lửa và việc đặt lửa.
+5783	Tăng sức bật của người mặc.
+5784	Tăng tốc độ di chuyển của người mặc.
+5785	Tăng tốc độ của người mặc khi máu thấp.
+15506	Gây chậm chạp lên thực thể trúng các cột từ phiến đá muối.
+6335	Giết quái vật có thể rơi ra trứng sinh ra của quái vật đó.
+6336	Giết quái vật sẽ lan sculk ra xung quanh.
+6351	Đẩy lùi kẻ tấn công và vật phóng.
+6384	Khối dung nham gần đó sẽ đông lại thành hắc diện thạch.
+6737	Nhìn vào một thực thể sẽ kéo nó về phía bạn.
+7520	Đào luôn cả khối bên dưới khối mục tiêu.
+7569	Quái vật sẽ nhìn chằm chằm vào người mặc.
+9026	Nhấn phím R sẽ khiến người dùng bật ngược ra sau.
+15646	Nhấn phím R sẽ phóng người chơi theo hướng đang nhìn.
+9027	Nhấn phím Z sẽ bón bột xương cho các khối gần đó.
+9637	Giảm thời gian kéo cung.
+9638	Giảm sát thương nhận vào khi đỡ đòn.
+9639	Giảm thời gian hồi của khiên.
+9640	Giảm sát thương nhận vào.
+9641	Giảm tầm nhìn của người mặc.
+9762	Phản sát thương lại kẻ tấn công.
+10305	Xóa mọi hiệu ứng có lợi của người mặc.
+10306	Xóa các hiệu ứng có hại của người mặc.
+10325	Tự sửa công cụ theo thời gian.
+10473	Hồi lại cơn đói và độ no.
+10530	Nhấp chuột phải vào khối sẽ kéo các thực thể gần đó lại.
+11006	Đốt cháy kẻ tấn công và vật phóng.
+15716	Làm vỡ các cột từ phiến đá muối thành mảnh văng ra khi chúng gãy.
+15717	Shields+ https://www.curseforge.com/minecraft/mc-mods/shieldsplus
+11297	Làm chậm người dùng.
+11404	Một phần sát thương sẽ xuyên qua phù phép bảo vệ.
+12625	Dịch chuyển người dùng theo hướng ngẫu nhiên.
+15801	Dịch chuyển người mặc về mặt đất nếu họ rơi vào hư không.
+12637	Tạm thời tăng tốc sau khi người dùng bị thương.
+12872	Công cụ trở nên không thể phá hủy.
+12874	Người dùng phá khối nhanh hơn.
+12875	Người dùng được hồi máu khi tấn công kẻ khác.
+12876	Người dùng nhận sát thương ở quần xã nóng.
+12877	Người dùng sẽ bay về phía thứ họ đang nhìn.
+12878	Góc nhìn của người dùng xoay sang phải.
+12883	Người mặc có thể cưỡi mọi sinh vật.
+12884	Người mặc liên tục mất điểm đói và độ no.
+12885	Người mặc không nhận sát thương.
+12886	Người mặc rơi nhanh hơn.
+12887	Người mặc bị buộc nhìn vào sinh vật gần nhất.
+12888	Người mặc được hồi máu khi ở trong nước.
+12889	Người mặc miễn nhiễm sát thương lửa.
+12890	Người mặc bị trúng độc khi ở trong nước.
+12891	Người mặc di chuyển nhanh hơn trong nước.
+12892	Người mặc nhận sát thương nếu không thấy bầu trời.
+12893	Người mặc nhận sát thương trong bóng tối.
+12894	Người mặc sẽ rơi chậm hơn.
+12895	Người mặc sẽ bay lơ lửng.
+12896	Người mặc sẽ nhận sát thương nếu ở quá cao.
+12897	Người mặc sẽ nhận nhiều sát thương hơn bình thường.
+13534	Dùng cuốc có cơ hội tạo ra bột xương.
+16098	Nhấn chuột phải sẽ báo cho người dùng biết quặng gần đó.
+13692	Cảnh báo người dùng khi độ bền thấp.
+16117	Khi giết một sinh vật, phần sát thương dư sẽ dồn sang các sinh vật gần đó.
+13900	Khi máu thấp, người dùng sẽ phát nổ.
+15025	Mod áp dụng phần bổ sung Euphoria Patches cho Complementary Shaders.\nBật và chỉnh cài đặt Euphoria Patches trong trình đơn cài đặt của gói shader\nBáo lỗi trên Discord!
+577	Thêm cài đặt, hiệu ứng và tính năng mới tốn %s công sức.
+2775	vô số giờ
+4352	Euphoria Patches
+4975	Vui vì bạn đang thích %s!
+5476	Chào bạn!
+5705	Nếu bạn thích bầu không khí thêm phần sống động trong thế giới của mình, hãy cân nhắc %s.
+12488	Ủng hộ EP
+12490	Ủng hộ dự án
+12492	ủng hộ dự án
+12665	Cảm ơn bạn đã dùng Euphoria Patches <3
+13467	Cập nhật EP!
+1232	Tàn tích pháo đài
+1896	Kho báu bị chôn vùi
+2672	Tọa độ
+3614	Kim tự tháp sa mạc
+3701	Chiều không gian
+3818	Khoảng cách
+4247	Thành phố End
+4388	Explorer's Compass
+4796	Pháo đài
+4799	Đã tìm thấy
+5245	Nhóm
+5707	Lều tuyết
+6243	Kim tự tháp rừng
+6363	Hồ
+6433	Tầng
+6702	Chỉnh sửa cục bộ
+7239	Dinh thự
+7521	Hầm mỏ
+7522	Hầm mỏ vùng đất sét
+7629	Đền đài
+7751	Tên
+7831	Hóa thạch Nether
+7984	Không tìm thấy
+8143	Phế tích đại dương
+8144	Phế tích đại dương lạnh
+8145	Phế tích đại dương ấm
+8302	Quặng
+8627	Tiền đồn Pillager

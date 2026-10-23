@@ -1,0 +1,220 @@
+2834	Lâu đài cõi Trườn
+2835	Đất sét cõi Trườn
+2836	La bàn cõi Trườn
+2837	Phân ủ cõi Trườn
+2838	Mảng phân ủ cõi Trườn
+2839	Cõi Trườn tầng 2
+2840	Cõi Trườn tầng 3
+2841	Cõi Trườn chính
+2842	Cổng cõi Trườn
+2860	Đặt lại thời gian hồi chiêu sáng tạo
+2871	Con chân đốt rợn người
+2877	Tiếng kẽo kẹt rợn người không thuộc thế gian này
+2878	côn trùng rợn người
+2879	côn trùng rợn người tí hon
+3012	Rón rén và nhấp chuột phải vào mục tiêu để đặt
+3018	Càng nghiền
+3022	Mê cung bí ẩn
+3156	Dao găm phân hủy
+3321	Bóng tối hãy biến đi
+3462	Điềm báo tử
+3467	Hiệu ứng gỡ lỗi
+3477	Bụi suy tàn
+15301	Đã đánh bại ba trùm côn trùng quỷ dữ của mỗi chiều không gian. Nhưng mọi chuyện còn lâu mới kết thúc...
+3586	Xóa
+3597	Dáng hình quỷ dữ
+3600	Cơn thịnh nộ quỷ dữ
+3618	Miễn biến mất
+3626	Kẻ hủy diệt
+3627	Kẻ hủy diệt bóng tối
+3628	Kẻ hủy diệt địa ngục
+3630	Kẻ hủy diệt khổ đau
+3631	Kẻ hủy diệt khổng lồ
+3632	Kẻ hủy diệt hư không
+3643	Tàn phá
+3655	Diabolos Kẻ tàn sát
+3656	Bản sao Diabolos Kẻ tàn sát
+3657	Trứng sinh ra Bản sao Diabolos Kẻ tàn sát
+3658	Trứng sinh ra Diabolos Kẻ tàn sát
+3659	Tia sáng Diabolos
+3660	Trứng sinh ra Tia sáng Diabolos
+3661	Bóng nhân bản Diabolos
+3662	Trứng sinh ra Bóng nhân bản Diabolos
+3773	Xô nhiễm bệnh
+3896	Rồng quất hư không
+3897	Trứng sinh ra Rồng quất hư không
+3902	Chuồn chuồn chiến hạm
+3903	Trứng sinh ra Chuồn chuồn chiến hạm
+3933	Bộ kích hoạt hầm ngục
+3947	Lồng sinh kẻ ngủ hang
+3948	Trứng sinh ra Lồng sinh kẻ ngủ hang
+3973	Chất nhờn hồn ma
+4267	Kẻ thù ở gần
+4272	Giác quan tăng cường
+4274	Ảo giác nhện khổng lồ
+4275	Trứng sinh ra Ảo giác nhện khổng lồ
+4318	Ống dẫn hỗn mang
+4319	Trứng sinh ra Ống dẫn hỗn mang
+4320	Ma trận hỗn mang
+4321	Mảnh ma trận hỗn mang
+4322	Huyết thanh hỗn mang
+4346	Vĩnh hằng
+4347	Né tránh vĩnh hằng
+4348	Lương thực vĩnh hằng
+4349	Cổng hư ảo
+4425	Quặng tuyệt hảo
+4434	Vũ khí cực mạnh khai hỏa
+4494	Quái vật bay nhanh
+4704	Ngọc mắt mèo lửa
+4705	Mảnh ngọc mắt mèo lửa
+4723	Súng phun lửa
+4749	Chi ruồi
+4750	Ruồi mưng mủ
+4751	Trứng sinh ra Ruồi mưng mủ
+4753	Quái vật bay
+4755	Nhánh cây bắt ruồi
+4781	Găng tay lực
+4782	Bị nhấc bổng
+4789	Sức mạnh lực
+4795	Súng phun lửa axit kiến
+4802	Đã tìm thấy, thuần hóa và cưỡi một con bướm khổng lồ hiếm có.
+4875	Mạng phễu
+4911	Cơn bão khởi nguyên
+4952	Nhện khổng lồ thù địch
+4953	Nhện khổng lồ thù địch (quái ngày Cá tháng Tư)
+4954	Trứng sinh ra Nhện khổng lồ thù địch (quái ngày Cá tháng Tư)
+4955	Tuyến tơ khổng lồ
+4956	Mạng nhện khổng lồ
+4957	Trứng sinh ra Mạng nhện khổng lồ
+5020	Vàng
+5050	Bọ hung vàng
+5174	Xanh lá
+5200	Bọ hung vàng xanh
+5214	Bọ hung xanh
+5233	Vàng xanh
+5319	Đang phân tích sinh lực
+5326	Tim đập thình thịch
+5332	Kitin nặng
+5333	Khối kitin nặng
+5465	Huyết tương côn trùng
+5528	Kẻ hủy diệt cổ xưa
+5584	Ong bắp cày vụt qua
+5585	Mưa ong bắp cày
+5586	Ong bắp cày báo tử
+5587	Ong bắp cày báo tử khổng lồ
+5588	Trứng sinh ra Ong bắp cày báo tử khổng lồ
+5589	Trứng sinh ra Ong bắp cày báo tử
+5590	Đạn ong bắp cày
+5591	Trứng sinh ra Đạn ong bắp cày
+5621	Tiếng va đập cực lớn
+5631	Súng lửa địa ngục thôi miên
+5737	Thần bất tử
+15494	Sức mạnh Hình bóng bất tử cho bạn một bản sao khổng lồ, nhân đôi toàn bộ sát thương tấn công!
+5791	Ủng địa ngục
+5792	Áo địa ngục
+5794	Mũ địa ngục
+5795	Phôi địa ngục
+5796	Quần địa ngục
+5800	Sức mạnh địa ngục
+5801	Mảnh địa ngục
+5838	Đặt bất kỳ vật phẩm hay nhãn ghi tên nào để đánh dấu điểm mốc 1
+5839	Đặt bất kỳ vật phẩm hay nhãn ghi tên nào để đánh dấu điểm mốc 2
+5840	Đặt bất kỳ vật phẩm hay nhãn ghi tên nào để đánh dấu điểm mốc 3
+5896	Bất khả chiến bại
+5898	Khối dò tàng hình
+5899	Nửa phiến tàng hình
+5900	Kẻ rình mồi tàng hình
+5901	Trứng sinh ra Kẻ rình mồi tàng hình
+5912	Óng ánh
+5913	Bọ hung óng ánh
+6154	Súng phán xét
+6155	Ủng chiến binh khổng lồ
+6156	Áo chiến binh khổng lồ
+6157	Mũ chiến binh khổng lồ
+6158	Quần chiến binh khổng lồ
+6166	ĐÃ TẮT KỸ NĂNG NHẢY BẰNG PHÍM CÁCH, HÃY ĐẶT TRONG PHẦN ĐIỀU KHIỂN BÀN PHÍM
+15522	Đã giết trùm Kẻ hành hạ toàn năng, nhận Lõi khổ đau vĩnh cửu làm phần thưởng
+15523	Đã giết Nhện ba lưỡi hoặc bốn Nhện gieo bệnh, nhận Lăng kính thời gian làm phần thưởng
+15524	Đã giết Cua siết cổ, nhận Càng nghiền làm phần thưởng
+15525	Đã giết Diabolos Kẻ tàn sát hoặc bốn Nhện mẹ, nhận Ma trận hỗn mang làm phần thưởng
+15526	Đã giết Rồng quất hư không hoặc bốn Nhện gặt hồn, nhận Hốc đá hư không làm phần thưởng
+15527	Đã giết con bướm đêm nhện hùng mạnh canh giữ hầm ngục tầng ba cõi Trườn, nhận vật triệu hồi Bướm đêm nhện và được vào tầng sâu nhất của tầng 4
+15528	Đã giết Bọ cạp khát máu hoặc bốn Rết trục xuất, nhận viên Ngọc mắt mèo lửa làm phần thưởng
+15529	Đã giết Bướm đêm nhện hoặc bốn trùm nhỏ Nhện rình rập, nhận Pha lê vực thẳm làm phần thưởng
+15530	Đã giết Mối chúa đào hầm, nhận cuốc chim Kẻ đào kiến tạo và thú cưng Mối vua.
+15531	Đã giết Kẻ hành hạ hai lần và chế tạo vật triệu hồi Kẻ hành hạ huyền thoại
+6369	Con chân đốt lớn
+6645	Dải mạng nhện
+6647	Thuốc hoại tử kéo dài
+15547	Đã tìm thấy hầm ngục đầu tiên của cõi Trườn, mở đường xuống tầng thứ hai của chiều không gian cõi Trườn
+15548	Đã tìm thấy hầm ngục thứ hai của cõi Trườn, mở đường xuống tầng thứ ba của chiều không gian cõi Trườn
+15549	Đã tìm thấy Lâu đài cõi Trườn dưới lòng đất và thắp cổng bằng Pha lê vực thẳm để vào chiều không gian cõi Trườn
+6716	Châu chấu tàn phá đất đai
+6717	Trứng sinh ra Châu chấu tàn phá đất đai
+6718	Ấu trùng châu chấu
+6727	Tiếng ong bắp cày vo ve dài
+6728	Chân dài
+6729	Ruồi chân dài
+6730	Trứng sinh ra Ruồi chân dài
+6731	Trứng sinh ra Chân dài
+6732	Chân dài tí hon
+6733	Trứng sinh ra Chân dài tí hon
+6855	Giòi
+6856	Ấu trùng giòi
+6857	Giòi non
+6858	Trứng sinh ra Giòi non
+6860	Trứng sinh ra Giòi
+7133	Thịt ruồi nát
+7134	Thịt bọ cạp nát
+7135	Thịt nhện nát
+7241	Bọ ngựa xé xác
+7242	Trứng sinh ra Bọ ngựa xé xác
+7243	Áo choàng sinh lực
+7244	Áo choàng sinh lực
+7496	Cuốn chiếu cướp bóc
+7497	Trứng sinh ra Cuốn chiếu cướp bóc
+7567	Chiến lợi phẩm quái vật
+7634	Muỗi gieo bệnh
+7635	Trứng sinh ra Muỗi gieo bệnh
+7649	Bướm đêm đuổi theo
+7650	Bướm đêm đuổi theo nhanh
+7651	Chúa tể bướm đêm
+7652	Bướm đêm dõi trăng
+7653	Trứng sinh ra Bướm đêm dõi trăng
+7654	Bướm đêm thét
+7655	Bướm đêm đang thét
+7656	Bóng nhân bản bướm đêm
+7657	Trứng sinh ra Bóng nhân bản bướm đêm
+7658	Lồng sinh bướm đêm ngủ
+7659	Trứng sinh ra Lồng sinh bướm đêm ngủ
+7660	Triệu hồi bướm đêm
+7661	Bướm đêm dịch chuyển
+7662	Thiêu thân lao vào lửa
+7663	cánh bướm đêm
+7799	Hoại tử
+7800	Nanh hoại tử
+7805	Đạn báo thù
+7806	Trứng sinh ra Đạn báo thù
+7951	Chưa đặt điểm mốc nào
+15584	Đã có được Khắc tinh của bóng tối, miễn nhiễm hiệu ứng bóng tối
+8133	Đã có được một xô giòi hoặc gián
+15585	Đã có được La bàn cõi Trườn, món đồ quý giúp định hướng trong cõi Trườn, lại còn tìm được cổng để tới đó
+15587	Đã có được một món trong bộ Giáp vĩnh hằng, bảo vệ tối thượng và đa năng.
+8134	Đã có được Kính ngắm sinh lực
+8135	Đã có được móc kéo tơ nhện
+8136	Đã có được Máy phân rã vực thẳm, công cụ đa năng tối thượng
+8137	Đã có được Lưỡi kiếm vực thẳm, thanh kiếm sức mạnh vô hạn
+15588	Đã có được Cuốc chim vực thẳm, công cụ tối thượng để thám hiểm hang động
+8138	Đã có được Gậy thăng thiên, có khả năng bay lơ lửng.
+15589	Đã có được Khối lập phương thăng thiên, khối tối thượng có thể đẩy lùi Kẻ hành hạ và bảo vệ chủ nhân rất mạnh
+15590	Đã có được Găng tay hỗn loạn, có sức mạnh buộc quái vật chiến đấu cho bạn.
+15591	Đã có được Gậy hư ảo, có khả năng vô hình để đi xuyên tường đặc và dịch chuyển về các nơi đã qua
+15592	Đã có được Găng tay lực, có sức mạnh dùng nhiều kiểu niệm lực.
+15593	Đã có được Súng phun lửa axit kiến, vũ khí tầm gần mạnh mẽ gây sát thương diện rộng.
+15594	Đã có được súng trường khởi nguyên, hỏa lực cực mạnh
+15595	Đã có được vũ khí Mưa ong bắp cày, biến bạn thành chúa tể loài ong!
+15596	Đã có được Súng lửa địa ngục thôi miên, vũ khí phun lửa mạnh mẽ
+15597	Đã có được Súng phán xét, vũ khí cực kỳ mạnh có thể biến cả đàn kẻ thù thành tro bụi.
+15598	Đã có được Áo choàng sinh lực, miễn nhiễm độc và khô héo
+15599	Đã có được Lưỡi hái điểm kỳ dị, vũ khí tối thượng có thể chém xuyên cả kết cấu của không gian
+15600	Đã có được Cơn thịnh nộ hành hạ, vũ khí đáng sợ ngày càng mạnh lên theo thời gian

@@ -1,0 +1,23 @@
+{
+ "advancements.creepydecorations.broken_doll.desc": "Chế tạo Búp bê vỡ",
+ "advancements.creepydecorations.broken_doll.title": "Tuổi thơ bỏ lại phía sau",
+ "advancements.creepydecorations.emerging_hand.desc": "Chế tạo Bàn tay trồi lên",
+ "advancements.creepydecorations.emerging_hand.title": "Nấm mồ chưa đủ sâu",
+ "advancements.creepydecorations.haunted_pumpkin.desc": "Chế tạo Bí ngô ma ám",
+ "advancements.creepydecorations.haunted_pumpkin.title": "Vẫn còn le lói",
+ "advancements.creepydecorations.leg_shackle.desc": "Chế tạo Cùm chân",
+ "advancements.creepydecorations.leg_shackle.title": "Không lối thoát",
+ "advancements.creepydecorations.mossy_gravestone.desc": "Chế tạo Bia mộ phủ rêu",
+ "advancements.creepydecorations.mossy_gravestone.title": "Ký ức um tùm",
+ "advancements.creepydecorations.root.desc": "Đồ trang trí rợn người cho những nơi rợn người.",
+ "advancements.creepydecorations.root.title": "Creepy Decorations",
+ "advancements.creepydecorations.wooden_cross.desc": "Chế tạo Thập giá gỗ cũ",
+ "advancements.creepydecorations.wooden_cross.title": "Niềm tin trong mục rữa",
+ "block.creepydecorations.broken_doll": "Búp bê vỡ",
+ "block.creepydecorations.emerging_hand": "Bàn tay trồi lên",
+ "block.creepydecorations.haunted_pumpkin": "Bí ngô ma ám",
+ "block.creepydecorations.leg_shackle": "Cùm chân",
+ "block.creepydecorations.mossy_gravestone": "Bia mộ phủ rêu",
+ "block.creepydecorations.wooden_cross": "Thập giá gỗ cũ",
+ "creativetab.creepydecorations.creepy_decorations_creative_tab": "Creepy Decorations"
+}

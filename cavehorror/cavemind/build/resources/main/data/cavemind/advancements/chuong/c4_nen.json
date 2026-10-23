@@ -1,0 +1,23 @@
+{
+  "parent": "cavemind:chuong/c4_doc",
+  "display": {
+    "icon": {
+      "item": "minecraft:candle"
+    },
+    "title": {
+      "text": "Năm Ngọn Nến"
+    },
+    "description": {
+      "text": "Thắp đủ năm ngọn nến quanh tháp"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

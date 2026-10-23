@@ -1,0 +1,220 @@
+15601	Đã có được Kẻ truy hư báo thù, vũ khí đạn đuổi mục tiêu tầm xa mạnh mẽ
+15602	Đã có được Lốc xoáy tàn phá, vũ khí chết chóc bắn ra lốc xoáy và giúp di chuyển cực nhanh
+8313	Chiều không gian khác
+8336	Ngòi châm khổng lồ
+8520	Tê liệt
+8973	Thuốc hoại tử
+9000	SỨC MẠNH
+9103	Ba lô kẻ rình rập
+9104	Dù kẻ rình rập
+9143	Rình rập thuần túy
+9144	Trứng sinh ra Rình rập thuần túy
+9145	Tím
+9180	Bọ hung tím
+9218	Kiến chúa mỏi mệt
+9297	Mưa lửa địa ngục
+9307	Quái ArPhEx ngẫu nhiên của cõi Trườn
+9308	Sinh ngẫu nhiên chế độ điên loạn
+9309	Trứng sinh ra Sinh ngẫu nhiên chế độ điên loạn
+9310	Lựa chọn chiến lợi phẩm ngẫu nhiên
+9311	Quái ArPhEx ngẫu nhiên trên mặt đất Thế giới thực
+9312	Quái ArPhEx ngẫu nhiên trên mặt đất Thế giới thực
+9313	Trứng sinh ra Quái ArPhEx ngẫu nhiên trên mặt đất Thế giới thực
+9314	Trứng sinh ra Quái ArPhEx ngẫu nhiên trên mặt đất Thế giới thực
+9316	Mối ngẫu nhiên
+9362	Huyết dịch côn trùng sống
+15663	Đạt 100 cấp Kẻ hành hạ, thành tựu tối thượng trong ArPhEx
+9395	Đạt tổng cộng 50 cấp Kẻ hành hạ
+9406	Mạng nhện gặt hồn
+9636	Tan thành nguyên tử
+10276	Không ngơi nghỉ
+10332	Thuốc xua đuổi
+10339	Lực đẩy lùi
+10485	Tọa độ quay về 2
+10486	Tọa độ quay về 3
+10545	Gián non
+10546	Gián sông
+10547	Trứng sinh ra Gián sông
+10655	Lao tới dọa
+10656	Trứng sinh ra Lao tới dọa
+10740	Ấn bọ hung
+10741	Triệu hồi bọ hung
+10742	Trứng sinh ra Triệu hồi bọ hung
+10764	Thiêu đốt
+10765	Cột thiêu đốt
+10766	Đuốc thiêu đốt
+10770	Kính cháy sém
+10777	Cát cháy sém
+10778	Súp cháy sém
+10781	Bọ cạp khát máu
+10782	Bản sao Bọ cạp khát máu
+10783	Trứng sinh ra Bản sao Bọ cạp khát máu
+10784	Trứng sinh ra Bọ cạp khát máu
+10785	Bọ cạp khởi đầu
+10786	Trứng sinh ra Bọ cạp khởi đầu
+10787	Bóng nhân bản bọ cạp
+10788	Trứng sinh ra Bóng nhân bản bọ cạp
+10789	Triệu hồi bọ cạp
+10790	Ấu trùng bọ cạp
+10791	Trứng sinh ra Ấu trùng bọ cạp
+10792	Bọ cạp tấn công
+10793	Trứng sinh ra Bọ cạp tấn công
+10811	Bọ hung nâu bị niêm phong
+10812	Bọ hung vàng bị niêm phong
+10813	Bọ hung vàng xanh bị niêm phong
+10814	Bọ hung xanh bị niêm phong
+10815	Bọ hung óng ánh bị niêm phong
+10816	Bọ hung tím bị niêm phong
+10817	Bọ hung bị niêm phong
+10909	Xung chấn địa chấn
+15698	Sức mạnh Xung chấn địa chấn tạm cho bạn khả năng rón rén và đập đất tạo sóng xung kích, gây sát thương và đẩy lùi quái vật
+11003	ĐẶT VÀO PHÍM CÁCH, ARPHEX
+11074	Hiện
+11195	Kẻ phóng tơ
+11197	Đất tơ nhện
+11198	Đá tơ nhện
+11218	Bóng ma cá bạc
+11219	Trứng sinh ra Bóng ma cá bạc
+11228	Túi điểm kỳ dị
+11262	Kẻ rình trên trời
+11263	Trứng sinh ra Kẻ rình trên trời
+11292	Phóng tơ
+11321	Quả cầu Kẻ hành hạ nhỏ
+11322	Trứng sinh ra Quả cầu Kẻ hành hạ nhỏ
+11323	Mạng nhện nhỏ
+11324	Trứng sinh ra Mạng nhện nhỏ
+15751	Đã luyện một thỏi phôi địa ngục huyền thoại, dùng để chế giáp và vũ khí sức mạnh vô biên nhờ Bướm đêm nhện và Bọ cạp khát máu
+15752	Đã luyện một thỏi phôi u linh huyền thoại, dùng để chế giáp và vũ khí sức mạnh vô biên nhờ Bướm đêm nhện và Rồng quất hư không
+15753	Đã luyện một thỏi phôi bóng tối huyền thoại, dùng để chế giáp và vũ khí sức mạnh vô biên nhờ Bọ cạp khát máu và Rồng quất hư không
+15754	Đã luyện một thỏi phôi không thời gian mang sức mạnh vũ trụ, dùng để chế giáp và vũ khí sức mạnh tối thượng nhờ Nhện ba lưỡi và Diabolos Kẻ tàn sát
+11370	Kẻ chộp bật ra
+11402	Nhện lạc đà lén lút
+11403	Trứng sinh ra Nhện lạc đà lén lút
+11474	Ủng không thời gian
+11475	Áo không thời gian
+11476	Mũ không thời gian
+11477	Phôi không thời gian
+11478	Quần không thời gian
+11479	Sức mạnh không thời gian
+11480	Mảnh không thời gian
+11502	Giáo tê liệt
+11504	ĐÃ TẮT KỸ NĂNG SỨC MẠNH ĐẶC BIỆT, HÃY ĐẶT TRONG PHẦN ĐIỀU KHIỂN BÀN PHÍM
+11506	Ủng u linh
+11507	Áo u linh
+11508	Mũ u linh
+11509	Phôi u linh
+11510	Quần u linh
+11511	Sức mạnh u linh
+11512	Mảnh u linh
+11520	Hình cầu chuyển động
+11522	Nhện phục kích
+11523	Trứng sinh ra Nhện phục kích
+11524	Bầy nhện con
+11525	Trứng sinh ra Bầy nhện con
+11526	Kén nhện
+11527	Kén nhện (bọc Creeper)
+11528	Kén nhện (bọc Bộ xương)
+11529	Kén nhện (bẫy)
+11530	Kén nhện (bọc Dân làng)
+11531	Hũ nhện cua
+11532	Trứng nhện
+11535	Nhện dẹt
+11536	Hũ nhện dẹt
+11537	Trứng sinh ra Nhện dẹt
+11538	Nhện phễu
+11539	Trứng sinh ra Nhện phễu
+11540	Nhện khổng lồ Goliath
+11541	Trứng sinh ra Nhện khổng lồ Goliath
+11543	Nhện gieo bệnh
+11544	Trứng sinh ra Nhện gieo bệnh
+11545	Hũ nhện
+11546	Nhện nhảy
+11547	Hũ nhện nhảy
+11548	Trứng sinh ra Nhện nhảy
+11549	Ấu trùng nhện
+11550	Trứng sinh ra Ấu trùng nhện
+11551	Ấu trùng nhện tí hon
+11552	Trứng sinh ra Ấu trùng nhện tí hon
+11553	Nhện vồ mồi
+11554	Trứng sinh ra Nhện vồ mồi
+11555	Nhện ẩn nấp
+11556	Trứng sinh ra Nhện ẩn nấp
+11558	Nhện mẹ
+11559	Ấu trùng nhện mẹ
+11560	Trứng sinh ra Ấu trùng nhện mẹ
+11561	Trứng sinh ra Nhện mẹ
+11562	Bướm đêm nhện
+11563	Bướm đêm nhện ở hang
+11564	Trứng sinh ra Bướm đêm nhện ở hang
+11565	Bướm đêm nhện hù dọa
+11566	Ấu trùng bướm đêm nhện
+11567	Trứng sinh ra Ấu trùng bướm đêm nhện
+11568	Ảo giác bướm đêm nhện lao tới
+11569	Trứng sinh ra Ảo giác bướm đêm nhện lao tới
+11570	Trứng sinh ra Bướm đêm nhện
+11571	Ảo giác bướm đêm nhện rình rập
+11572	Trứng sinh ra Ảo giác bướm đêm nhện rình rập
+11573	Triệu hồi bướm đêm nhện
+11574	Ấu trùng triệu hồi bướm đêm nhện
+11575	Trứng sinh ra Ấu trùng triệu hồi bướm đêm nhện
+11576	Trứng sinh ra Triệu hồi bướm đêm nhện
+11577	Vật triệu hồi Bướm đêm nhện
+11579	Nhện cản đường
+11580	Trứng sinh ra Nhện cản đường
+11581	Nhện rình rập
+11582	Trứng sinh ra Nhện rình rập
+11583	Nhện gặt hồn
+11584	Trứng sinh ra Nhện gặt hồn
+11585	Nhện ẩn dật
+11586	Nhện ẩn dật trưng bày
+11587	Trứng sinh ra Nhện ẩn dật trưng bày
+11588	Trứng sinh ra Nhện ẩn dật
+11589	Tơ nhện mềm mại
+11590	Nhện kéo chìm
+11591	Trứng sinh ra Nhện kéo chìm
+11592	Nhện chộp mồi
+11593	Trứng sinh ra Nhện chộp mồi
+11594	Thuốc bổ nhện
+11596	Nhện góa phụ
+11597	Trứng sinh ra Nhện góa phụ
+11598	Người nhện
+11599	Cấu hình Bướm đêm nhện ở hang
+11602	Tơ nhện mềm mại
+11622	Thuốc hoại tử có thể ném được
+11625	Tâm trí rạn vỡ
+11841	Bọ que
+11842	Trứng sinh ra Bọ que
+12415	Khối lấp công trình
+12464	Triệu hồi tia nắng nổ
+12465	Trứng sinh ra Triệu hồi tia nắng nổ
+15789	Đã triệu hồi Rồng quất hư không bằng một khối thịt ruồi nát, cát linh hồn và dụng cụ đánh lửa
+15790	Đã triệu hồi Bọ cạp khát máu bằng một khối thịt bọ cạp nát, cát linh hồn và dụng cụ đánh lửa
+15791	Đã triệu hồi Bướm đêm nhện bằng một khối thịt nhện nát, cát linh hồn và dụng cụ đánh lửa
+12468	Bọ cạp mặt trời
+12469	Trứng sinh ra Bọ cạp mặt trời
+12470	Bọ cạp mặt trời tí hon
+12471	Trứng sinh ra Bọ cạp mặt trời tí hon
+12481	Siêu miễn nhiễm
+12486	Siêu trọng lực
+12487	Siêu vũ khí
+12554	Đã thuần hóa một con nhện săn mồi và cất nó vào hũ
+12555	Nhện lông đã thuần hóa
+12556	Trứng sinh ra Nhện lông đã thuần hóa
+12557	Nỗi kinh hoàng đã thuần
+12561	Dây buộc nhện lông
+12615	Dịch chuyển
+12617	Bóng ma dịch chuyển
+12618	Trứng sinh ra Bóng ma dịch chuyển
+12623	Bướm đêm dịch chuyển đang tới
+12624	bướm đêm dịch chuyển
+12636	Người canh giữ thời gian (đang làm)
+12638	Tua cuốn
+12639	Gò mối
+12640	Mối đào hầm có cánh
+12641	Trứng sinh ra Mối đào hầm có cánh
+12642	Mối vua đào hầm
+12643	Trứng sinh ra Mối vua đào hầm
+12644	Mối chúa đào hầm
+12645	Trứng sinh ra Mối chúa đào hầm
+12646	Mối lính đào hầm
+12647	Trứng sinh ra Mối lính đào hầm

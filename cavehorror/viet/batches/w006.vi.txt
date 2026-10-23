@@ -1,0 +1,291 @@
+2060	Chuyện kể Cave Horror: Tập 2
+2061	Chuyện kể Cave Horror: Tập 3
+2062	Chuyện kể Cave Horror: Tập 4
+2063	Chuyện kể Cave Horror: Tập 5
+2064	Chuyện kể Cave Horror: Tập 6
+2065	Chuyện kể Cave Horror: Tập 7
+2066	Chuyện kể Cave Horror: Tập 8
+2067	Chuyện kể Cave Horror: Tập 9
+2068	Album Chuyện kể Cave Horror
+4700	Lửa chống bóng tối.
+4761	Sương mù của kẻ bị lãng quên.
+4891	Cánh cổng đọa đày.
+5870	Vào vực sâu.
+6726	Chiến binh đơn độc.
+8865	Playa: Ánh sáng cuối cùng của Thế giới thực
+8866	Playa: Ánh sáng cuối cùng của Thế giới thực.
+10484	Huyền thoại trở lại.
+12504	Sống sót qua điều không thể.
+13147	Cõi của kẻ hành hạ.
+2057	Chuyện kể Cave Horror
+2765	Không xác định được tham số
+8521	Tham số tại vị trí %s %s %s: %s
+1805	Cây cầu
+5634	Tôi không ngủ được sao?
+6345	Kẻ gõ cửa
+6346	kẻ gõ cửa
+6347	Trứng sinh ra Kẻ gõ cửa
+6348	Đĩa nhạc chủ đề Kẻ gõ cửa
+10461	tôn trọng độ khó
+11497	tỉ lệ xuất hiện
+14355	Bạn không ngủ được vì có thứ gì đó cứ khiến bạn thao thức...
+374	Bị bắt cóc
+641	Cào cấu hung hăng
+811	Áo choàng rách cổ xưa
+839	Tiếng rít giận dữ
+842	Xác động vật
+846	Độ dài vòng chuyển động (tick)
+848	Chọn chuyển động
+900	Kẻ ám ảnh hình nhện
+901	Trứng sinh ra Kẻ ám ảnh hình nhện
+1510	Bã cống đen kịt
+2024	Bùa mai rùa
+2029	Bị cưỡng ép mang đi
+15218	Đã lọt vào mắt The Obsessed, lập tức thành mục tiêu cho nỗi mê đắm của nó
+2406	Tiếng lách cách
+3017	Xác động vật bị nghiền nát
+3055	Giá trị hiện tại
+3060	Thú bông bị nguyền
+3061	Đã đặt Thú bông bị nguyền
+3478	Tim động vật thối rữa
+3479	Cục thịt đang phân hủy
+3617	được thiết kế để dùng cùng nhau
+3629	Kẻ hủy diệt nỗi ám ảnh
+3772	Búi tóc nhiễm bệnh
+3774	Khối tóc nhiễm bệnh
+3822	Tiếng rít từ xa
+3944	Trứng nhện bám bụi
+4521	Mảnh xương đùi
+4712	Ấn tượng đầu tiên
+4988	Cào lên kính
+5327	tiếng tim đập khe khẽ
+5624	Kẻ ám ảnh hình người (BẢN LÀM DỞ)
+5625	Trứng sinh ra Kẻ ám ảnh hình người (BẢN LÀM DỞ)
+5675	Kẻ rình ở góc Idk
+5676	Trứng sinh ra Kẻ rình ở góc Idk
+5677	Kẻ rình Idk
+5678	Kẻ rình Idk bắt cóc
+5679	Trứng sinh ra Kẻ rình Idk bắt cóc
+5680	Kẻ rình Idk bò trườn
+5681	Trứng sinh ra Kẻ rình Idk bò trườn
+5682	Kẻ rình Idk bóng đè
+5683	Trứng sinh ra Kẻ rình Idk bóng đè
+5684	Trứng sinh ra Kẻ rình Idk
+5962	Tiếng lách cách cáu kỉnh
+6350	Tiếng gõ cửa
+6744	Thời gian lặp (tick)
+6746	Giá trị lặp
+6758	Bộ kiểm tra tầm nhìn
+6768	Tiếng cào khẽ
+6769	Tiếng cào khe khẽ
+7525	The Obsessed thu nhỏ
+7897	Tiếng giật mình ác mộng
+7977	Không phải mọi tổ hợp đều
+8116	The Obsessed xây dựng
+8117	The Obsessed lích chích
+8118	The Obsessed ăn
+8119	The Obsessed bị giết
+8120	Tiếng rít của The Obsessed
+8121	The Obsessed thét lên
+8122	The Obsessed rung cánh
+8123	cấu hình The Obsessed
+8125	Miễn nhiễm ám ảnh
+8126	Tranh Kẻ ám ảnh
+15586	Có được Thú bông bị nguyền, làm từ những món quà của kẻ ám ảnh
+8954	Chế độ chiếm hữu (BẢN LÀM DỞ)
+8955	Trứng sinh ra Chế độ chiếm hữu (BẢN LÀM DỞ)
+9631	Kim chỉ Redstone
+10733	Giàn giáo
+11060	Tiếng giật mình
+11196	Côn trùng bọc tơ
+11255	Tiếng lạo xạo chạy
+11271	Ảo giác quỷ bóng đè
+11272	Trứng sinh ra Ảo giác quỷ bóng đè
+11296	Tiếng cạo chậm rãi
+11578	The Obsessed nhện chạy
+11816	Ủng kẻ rình
+11817	Giáp ngực kẻ rình
+11818	Mũ kẻ rình
+11819	Quần giáp kẻ rình
+12480	Siêu bóng tối
+12495	Ghê tởm tột độ
+12661	Chọn kết cấu
+12664	Giá trị kết cấu
+12812	The Obsessed
+12813	The Obsessed (kẻ nhắm mục tiêu)
+12814	Trứng sinh ra The Obsessed (kẻ nhắm mục tiêu)
+12815	Trứng sinh ra The Obsessed
+13190	Mái bẫy
+13191	Mái bẫy (đi qua được)
+16097	Đã dùng Vật tổ ghê tởm để gỡ hoặc chặn một mục tiêu ám ảnh
+13553	Đã đánh bại Kẻ ám ảnh của bạn, chấm dứt vòng đời nghìn năm của nó
+14151	Nấm héo
+14893	§cKiếm gỡ lỗi
+14912	§cVật tổ ghê tởm
+2374	Xóa các thông báo đang hiện
+13026	Toast Control
+158	%s tự bật micrô khi bạn nói.
+588	Chỉnh kích hoạt bằng giọng nói
+15330	Bật thử micrô và chắc chắn bạn nghe được giọng mình khi nói. Nếu không được, hãy dùng kích hoạt giọng nói thủ công và chỉnh ngưỡng kích hoạt.
+15346	Khuếch đại quá %s dB có thể gây méo tiếng và các lỗi khác!
+4887	Độ khuếch đại: %s
+5064	Nhận được phản hồi sau %s ms qua %s lần thử
+7245	Thủ công
+15639	Hãy giữ bật tự chỉnh độ khuếch đại micrô để mọi người nghe bạn với âm lượng ổn định.
+9024	Nhấn để phát âm thanh thử.
+15758	Một số mô đun không tải được: có thể hệ điều hành của bạn không được hỗ trợ.
+12533	Mặc định hệ thống
+13632	Kích hoạt bằng giọng nói: %s
+3667	Rìu chiến kim cương
+3672	Đại phủ kim cương
+3675	Rìu cầm tay kim cương
+5035	Rìu chiến vàng
+5040	Đại phủ vàng
+5043	Rìu cầm tay vàng
+5918	Rìu chiến sắt
+5931	Đại phủ sắt
+5934	Rìu cầm tay sắt
+7845	Rìu chiến Netherit
+7849	Đại phủ Netherit
+7852	Rìu cầm tay Netherit
+11851	Rìu chiến đá
+11877	Đại phủ đá
+11880	Rìu cầm tay đá
+13557	Variant Tools and Weaponry: Vũ khí thêm
+14167	Rìu chiến gỗ
+14181	Đại phủ gỗ
+14184	Rìu cầm tay gỗ
+14192	Que gỗ
+147	Sở hữu %d đá dịch chuyển
+148	Tổng %d đá dịch chuyển, sở hữu %d
+187	%s đã kích hoạt %d đá dịch chuyển và sở hữu %d trong số đó
+294	•     sở hữu %s (%s): %s
+295	• đã kích hoạt %s (%s): %s
+527	Đã kích hoạt đá dịch chuyển %s cho %d người chơi
+528	Đã kích hoạt đá dịch chuyển %s cho %s
+15156	Khoảng cách gần đúng (tính bằng đoạn) giữa các đá dịch chuyển sinh tự do khi tạo thế giới. Đặt 0 để tắt.
+992	cách %d khối
+1507	Đá dịch chuyển đen
+3016	Mảnh hòa nhịp vỡ vụn
+3331	Đã tắt mọi đá dịch chuyển cho %d người chơi
+3332	Đã tắt mọi đá dịch chuyển cho %s
+3335	Đã tắt đá dịch chuyển %s cho %d người chơi
+3336	Đã tắt đá dịch chuyển %s cho %s
+3547	Đá dịch chuyển đá bảng sâu
+4262	Đá dịch chuyển Ender
+15339	Đảm bảo hầu như làng nào cũng có đá dịch chuyển, bằng cách sinh nó sớm nhất có thể. Ngoài ra, đá dịch chuyển thường sẽ nằm ở giữa làng.
+5617	Lượng kinh nghiệm cần cho mỗi con vật được buộc dây đi cùng bạn.
+15461	Nếu bật, điểm đánh dấu JourneyMap sẽ được tạo cho mỗi đá dịch chuyển đã kích hoạt.
+15462	Nếu bật, điểm đánh dấu JourneyMap chỉ được tạo khi chưa cài mod 'JourneyMap Integration'.
+5695	Nếu bật, sinh vật được buộc dây sẽ dịch chuyển cùng bạn.
+15465	Nếu bật, chỉ người chơi sáng tạo mới đặt, sửa hay phá được đá dịch chuyển. Việc này KHÔNG tắt công thức chế tạo.
+15466	Nếu bật, chỉ chủ của đá dịch chuyển (người đặt nó) mới đổi tên được.
+15476	Nếu bật, chữ phủ trên đá dịch chuyển sẽ không luôn sáng tối đa nữa.
+5701	Nếu bật, đá dịch chuyển sinh ra khi tạo thế giới sẽ không thể phá.
+5748	ở %s
+5877	Mã định danh không hợp lệ: %s
+5968	Nó sẽ bị tiêu hao ở lần dịch chuyển tới.
+15538	Danh sách chiều không gian người chơi được phép dịch chuyển xuyên chiều đi và đến. Nếu để trống, cho phép mọi chiều không gian trừ những chiều trong dimensionalWarpDenyList.
+15539	Danh sách chiều không gian người chơi không được dịch chuyển xuyên chiều đi và đến. Chỉ dùng khi dimensionalWarpAllowList trống.
+15540	Danh sách chiều không gian mà đá dịch chuyển được phép sinh ra khi tạo thế giới. Nếu để trống, dùng mọi chiều không gian trừ những chiều trong worldGenDimensionDenyList.
+15541	Danh sách chiều không gian mà đá dịch chuyển không được sinh ra khi tạo thế giới. Chỉ dùng khi worldGenDimensionAllowList trống.
+15543	Danh sách sinh vật được buộc dây không thể mang theo khi dịch chuyển.
+9003	Ưu tiên mod 'JourneyMap Integration'
+10361	Đã đặt lại mọi thời gian hồi cho %d người chơi
+10362	Đã đặt lại mọi thời gian hồi cho %s
+10364	Đã đặt lại thời gian hồi %s cho %d người chơi
+10365	Đã đặt lại thời gian hồi %s cho %s
+15705	Đặt 'ALLOW' để cho phép dịch chuyển xuyên chiều nói chung. Đặt 'GLOBAL_ONLY' để chỉ cho dịch chuyển xuyên chiều tới đá dịch chuyển toàn cục. Đặt 'DENY' để cấm mọi dịch chuyển xuyên chiều.
+15706	Đặt 'DEFAULT' để chỉ sinh đá dịch chuyển có kết cấu thường. Đặt 'MOSSY' hoặc 'SANDY' để sinh toàn bộ theo kiểu đó. Đặt 'BIOME' để kiểu dáng tùy theo quần xã nơi nó sinh ra.
+15707	Đặt 'NONE' để không có nút trong túi đồ. Đặt 'NEAREST' để có nút dịch chuyển tới đá dịch chuyển gần nhất. Đặt 'ANY' để có nút mở trình đơn chọn đá dịch chuyển. Đặt tên một đá dịch chuyển để có nút dịch chuyển tới đá có tên đó.
+15708	Đặt 'PRESET_FIRST' để ưu tiên dùng tên trong danh sách tên tùy chỉnh. Đặt 'PRESET_ONLY' để chỉ dùng các tên tùy chỉnh đó. Đặt 'MIXED' để một số đá dùng tên tùy chỉnh, số khác dùng tên ngẫu nhiên.
+15709	Đặt sai để cho phép người chơi không ở chế độ sáng tạo biến đá dịch chuyển thành toàn cục, kích hoạt sẵn cho mọi người chơi.
+15710	Đặt đúng nếu muốn đảo ngược chi phí kinh nghiệm, tức là càng gần càng đắt. Có thể dùng để khuyến khích các cách đi lại quãng ngắn khác.
+15711	Đặt đúng nếu muốn người chơi dịch chuyển giữa các đá chỉ bằng cách nhấp chuột phải vào đá dịch chuyển.
+15713	Đặt đúng nếu muốn đá dịch chuyển được thêm vào khi tạo làng. Một số làng vẫn có thể không có đá dịch chuyển.
+15807	Số khối ứng với mỗi cấp kinh nghiệm phải trả. Nếu đặt 500, chi phí gốc để đi 1000 khối là 2 cấp.
+15815	Chi phí cấp kinh nghiệm gốc khi đi giữa các chiều không gian. Bỏ qua khoảng cách khối.
+15835	Thời gian hồi (giây) giữa các lần dùng nút trong túi đồ.
+15836	Thời gian hồi (giây) giữa các lần dùng đá dịch chuyển cầm tay. Thời gian này gắn với người chơi chứ không phải vật phẩm, nên nhiều viên dùng chung thời gian hồi.
+15897	Chi phí kinh nghiệm gốc tối đa (có thể bị các hệ số bên dưới vượt quá), đặt 0 để tắt mọi chi phí kinh nghiệm theo khoảng cách.
+15904	Chi phí kinh nghiệm gốc tối thiểu (có thể bị các hệ số bên dưới làm thấp hơn).
+15909	Hệ số áp dụng cho chi phí kinh nghiệm gốc khi dịch chuyển từ đá cổng.
+15910	Hệ số áp dụng cho chi phí kinh nghiệm gốc khi dịch chuyển từ đá chia sẻ này sang đá chia sẻ khác.
+15911	Hệ số áp dụng cho chi phí kinh nghiệm gốc khi dịch chuyển từ tấm dịch chuyển này sang tấm khác.
+15912	Hệ số áp dụng cho chi phí kinh nghiệm gốc khi dịch chuyển từ đá dịch chuyển này sang đá khác.
+15913	Hệ số áp dụng cho chi phí kinh nghiệm gốc khi dịch chuyển bằng vật phẩm Đá dịch chuyển cầm tay (không phải khối Đá dịch chuyển đâu, Konstantin)
+15914	Hệ số áp dụng cho chi phí kinh nghiệm gốc khi dịch chuyển qua nút trong túi đồ.
+15915	Hệ số áp dụng cho thời gian hồi khi dịch chuyển tới đá dịch chuyển toàn cục qua nút trong túi đồ hoặc đá cầm tay.
+15997	Thời gian (tick) để dùng một cuộn giấy. Đây là thời gian nạp khi giữ nhấp chuột phải.
+15998	Thời gian (tick) để dùng tấm dịch chuyển. Đây là thời gian người chơi phải đứng trên đó.
+15999	Thời gian (tick) để dùng đá dịch chuyển cầm tay. Đây là thời gian nạp khi giữ nhấp chuột phải.
+12902	Vị trí x của nút dịch chuyển trong trình đơn sáng tạo.
+12903	Vị trí x của nút dịch chuyển trong túi đồ.
+12904	Vị trí y của nút dịch chuyển trong trình đơn sáng tạo.
+12905	Vị trí y của nút dịch chuyển trong túi đồ.
+16020	Những tên này sẽ được dùng cho chế độ tạo tên PRESET. Xem tùy chọn nameGenerationMode để biết thêm.
+13835	Không tìm thấy đá dịch chuyển ở vị trí này
+13836	Đá dịch chuyển (x, y, z) của %s (chỉ cái sở hữu):
+13837	Đá dịch chuyển (x, y, z) của %s:
+16138	Có mang sinh vật được buộc dây theo khi dịch chuyển giữa các chiều không gian không.
+14358	Bạn không thể phá đá dịch chuyển này.
+186	%s bị Weeping Angel bẻ gãy cổ
+216	%s đấm đá quá mạnh...
+245	%s bị hút vào vòng xoáy...
+287	* Tương tác để đổi tư thế
+288	* Rón rén và tương tác để đổi kiểu
+373	a_dizzle
+663	Alice (bazan)
+664	Alice (quặng đồng)
+665	Alice (quặng kim cương)
+666	Alice (đất)
+667	Alice (quặng ngọc lục bảo)
+668	Alice (quặng vàng)
+669	Alice (quặng sắt)
+670	Alice (quặng ngọc lưu ly)
+671	Alice (phủ rêu)
+672	Alice (thạch anh)
+673	Alice (gỉ sét, mất cánh)
+674	Alice (gỉ sét, mất tay)
+675	Alice (gỉ sét, mất đầu)
+676	Alice (gỉ sét)
+677	Alice (đá)
+834	Thiên thần thổi
+835	Thiên thần chế giễu
+851	Phát hiện dị thường: %s
+1193	Chiều không gian bị cấm
+1566	Phá khối?
+2292	Đục
+2293	Tượng đục
+2331	Máy phát Chronodyne
+3015	Đang vỡ vụn
+3703	Đinh!
+4041	Cảm xúc
+5629	Loại sát thương?
+6349	Tiếng gõ
+6711	Đã khóa
+8921	Bệ tượng
+8949	Tư thế
+10679	Sally
+10680	Sally Sparrow
+11377	Thiên thần tuyết
+11481	SpareTime (gỉ sét)
+11482	SpareTime (đá)
+11496	Gọi ra Weeping Angel
+11815	Tầm rình rập
+11832	Tượng
+12562	Tardis cất cánh
+12616	Tỉ lệ dịch chuyển
+12620	Tầm dịch chuyển
+12730	Bác sĩ
+12992	Thời gian luôn thắng
+12993	Thời gian luôn thắng
+13000	Máy dò thời gian lằng nhằng
+13555	Kiểu
+13859	Weeping Angel
+13860	Weeping Angels
+13906	Tiếng vù vù
+3702	Chọn chiều không gian
+7251	Chọn bản đồ
+7952	Không có bản đồ hang của WM
+7953	Không có bản đồ thế giới

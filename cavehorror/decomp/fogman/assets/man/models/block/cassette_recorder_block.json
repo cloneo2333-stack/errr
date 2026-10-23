@@ -1,0 +1,9 @@
+{
+  "parent": "man:custom/cassette_recorder",
+  "textures": {
+    "all": "man:block/cassette_recorder",
+    "particle": "man:block/cassette_recorder",
+    "0": "man:block/cassette_recorder"
+  },
+  "render_type": "solid"
+}

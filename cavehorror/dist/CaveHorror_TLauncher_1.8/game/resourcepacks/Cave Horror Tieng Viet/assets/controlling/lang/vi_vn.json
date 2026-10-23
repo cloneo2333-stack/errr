@@ -1,0 +1,14 @@
+{
+ "options.availableKeys": "Phím có sẵn",
+ "options.category": "Danh mục",
+ "options.confirmReset": "Xác nhận?",
+ "options.key": "Phím",
+ "options.showAll": "Hiện tất cả",
+ "options.showConflicts": "Hiện xung đột",
+ "options.showNone": "Hiện phím chưa gán",
+ "options.sort": "Sắp xếp",
+ "options.sortAZ": "A→Z",
+ "options.sortNone": "Không có",
+ "options.sortZA": "Z→A",
+ "options.toggleFree": "Bật tắt tự do"
+}

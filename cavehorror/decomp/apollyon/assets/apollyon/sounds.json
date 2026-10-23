@@ -1,0 +1,390 @@
+{
+  "spawn_noise": {
+    "sounds": [
+      {
+        "name": "apollyon:distant_bellow",
+        "stream": false
+      },
+      {
+        "name": "apollyon:distant_call",
+        "stream": false
+      },
+      {
+        "name": "apollyon:distant_grunt",
+        "stream": false
+      },
+      {
+        "name": "apollyon:distant_roar",
+        "stream": false
+      },
+      {
+        "name": "apollyon:distant_rumble",
+        "stream": false
+      },
+      {
+        "name": "apollyon:distant_scream",
+        "stream": false
+      }
+    ]
+  },
+  "step_sound": {
+    "sounds": [
+      {
+        "name": "apollyon:step_1",
+        "stream": false
+      },
+      {
+        "name": "apollyon:step_2",
+        "stream": false
+      },
+      {
+        "name": "apollyon:step_3",
+        "stream": false
+      },
+      {
+        "name": "apollyon:step_4",
+        "stream": false
+      },
+      {
+        "name": "apollyon:step_5",
+        "stream": false
+      },
+      {
+        "name": "apollyon:step_6",
+        "stream": false
+      }
+    ]
+  },
+  "damage_noise": {
+    "subtitle": "subtitles.damage_noise",
+    "sounds": [
+      {
+        "name": "apollyon:damage_1",
+        "stream": false
+      },
+      {
+        "name": "apollyon:damage_2",
+        "stream": false
+      },
+      {
+        "name": "apollyon:damage_3",
+        "stream": false
+      },
+      {
+        "name": "apollyon:damage_4",
+        "stream": false
+      }
+    ]
+  },
+  "damned_death": {
+    "subtitle": "subtitles.damned_death",
+    "sounds": [
+      {
+        "name": "apollyon:condemned_to_die",
+        "stream": false
+      }
+    ]
+  },
+  "petrified_begin": {
+    "sounds": [
+      {
+        "name": "apollyon:spotted",
+        "stream": false
+      }
+    ]
+  },
+  "living_sound": {
+    "sounds": [
+      {
+        "name": "apollyon:damned_shriek_1",
+        "stream": false
+      },
+      {
+        "name": "apollyon:damned_shriek_2",
+        "stream": false
+      },
+      {
+        "name": "apollyon:damned_shriek_3",
+        "stream": false
+      },
+      {
+        "name": "apollyon:damned_shriek_4",
+        "stream": false
+      }
+    ]
+  },
+  "jumpscare_sound": {
+    "sounds": [
+      {
+        "name": "apollyon:jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "hallucination_sound": {
+    "sounds": [
+      {
+        "name": "apollyon:hallucination",
+        "stream": false
+      }
+    ]
+  },
+  "player_death": {
+    "sounds": [
+      {
+        "name": "apollyon:player_death",
+        "stream": false
+      }
+    ]
+  },
+  "quieter_spawn": {
+    "sounds": [
+      {
+        "name": "apollyon:distant_call_quiet",
+        "stream": false
+      },
+      {
+        "name": "apollyon:distant_bellow_quiet",
+        "stream": false
+      },
+      {
+        "name": "apollyon:distant_scream_quiet",
+        "stream": false
+      },
+      {
+        "name": "apollyon:distant_rumble_quiet",
+        "stream": false
+      },
+      {
+        "name": "apollyon:distant_roar_quiet",
+        "stream": false
+      },
+      {
+        "name": "apollyon:distant_grunt_quiet",
+        "stream": false
+      }
+    ]
+  },
+  "shallow_breathing": {
+    "sounds": [
+      {
+        "name": "apollyon:shallowbreathing1",
+        "stream": false
+      },
+      {
+        "name": "apollyon:shallowbreathing2",
+        "stream": false
+      },
+      {
+        "name": "apollyon:shallowbreathing3",
+        "stream": false
+      },
+      {
+        "name": "apollyon:shallowbreathing4",
+        "stream": false
+      },
+      {
+        "name": "apollyon:shallowbreathing5",
+        "stream": false
+      },
+      {
+        "name": "apollyon:shallowbreathing6",
+        "stream": false
+      },
+      {
+        "name": "apollyon:shallowbreathing7",
+        "stream": false
+      },
+      {
+        "name": "apollyon:shallowbreathing8",
+        "stream": false
+      },
+      {
+        "name": "apollyon:shallowbreathing9",
+        "stream": false
+      }
+    ]
+  },
+  "villager_dialogue": {
+    "sounds": [
+      {
+        "name": "apollyon:dialogue1",
+        "stream": false
+      },
+      {
+        "name": "apollyon:dialogue2",
+        "stream": false
+      },
+      {
+        "name": "apollyon:dialogue3",
+        "stream": false
+      }
+    ]
+  },
+  "infector_hurt": {
+    "sounds": [
+      {
+        "name": "apollyon:infectorhurt1",
+        "stream": false
+      },
+      {
+        "name": "apollyon:infectorhurt2",
+        "stream": false
+      },
+      {
+        "name": "apollyon:infectorhurt3",
+        "stream": false
+      }
+    ]
+  },
+  "gutteral_roar": {
+    "subtitle": "subtitles.gutteral_roar",
+    "sounds": [
+      {
+        "name": "apollyon:gutteral_roar",
+        "stream": false
+      }
+    ]
+  },
+  "deep_laugh": {
+    "subtitle": "subtitles.deep_laugh",
+    "sounds": [
+      {
+        "name": "apollyon:deep_laugh",
+        "stream": false
+      }
+    ]
+  },
+  "light_suspense": {
+    "sounds": [
+      {
+        "name": "apollyon:light_suspense",
+        "stream": false
+      }
+    ]
+  },
+  "gateway_pursuit": {
+    "sounds": [
+      {
+        "name": "apollyon:gateway_pursuit",
+        "stream": true
+      }
+    ]
+  },
+  "intense_rise": {
+    "sounds": [
+      {
+        "name": "apollyon:intense_rise",
+        "stream": true
+      }
+    ]
+  },
+  "cutscene_rise": {
+    "sounds": [
+      {
+        "name": "apollyon:cutscene_rise",
+        "stream": false
+      }
+    ]
+  },
+  "chase_music": {
+    "sounds": [
+      {
+        "name": "apollyon:chase_music",
+        "stream": false
+      }
+    ]
+  },
+  "fallen_jumpscare": {
+    "subtitle": "subtitles.fallen_jumpscare",
+    "sounds": [
+      {
+        "name": "apollyon:fallen_jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "damned_sneak": {
+    "sounds": [
+      {
+        "name": "apollyon:stalking",
+        "stream": false
+      }
+    ]
+  },
+  "small_jumpscare": {
+    "sounds": [
+      {
+        "name": "apollyon:jump",
+        "stream": false
+      }
+    ]
+  },
+  "break_rose": {
+    "subtitle": "subtitles.break_rose",
+    "sounds": [
+      {
+        "name": "apollyon:breakrose4",
+        "stream": false
+      },
+      {
+        "name": "apollyon:breakrose3",
+        "stream": false
+      },
+      {
+        "name": "apollyon:breakrose2",
+        "stream": false
+      },
+      {
+        "name": "apollyon:breakrose1",
+        "stream": false
+      }
+    ]
+  },
+  "place_rose": {
+    "subtitle": "subtitles.place_rose",
+    "sounds": [
+      {
+        "name": "apollyon:placerose4",
+        "stream": false
+      },
+      {
+        "name": "apollyon:placerose3",
+        "stream": false
+      },
+      {
+        "name": "apollyon:placerose2",
+        "stream": false
+      },
+      {
+        "name": "apollyon:placerose1",
+        "stream": false
+      }
+    ]
+  },
+  "used_rose": {
+    "subtitle": "subtitles.used_rose",
+    "sounds": [
+      {
+        "name": "apollyon:roseagainstdamned",
+        "stream": false
+      }
+    ]
+  },
+  "stew_consumed": {
+    "sounds": [
+      {
+        "name": "apollyon:consumedstewoflife",
+        "stream": false
+      }
+    ]
+  },
+  "damned_flee": {
+    "sounds": [
+      {
+        "name": "apollyon:damnedflee",
+        "stream": false
+      }
+    ]
+  }
+}

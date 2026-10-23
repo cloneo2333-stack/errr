@@ -1,0 +1,6 @@
+#Restore Hardcore World Configuration
+#Keep the world as hardcore after restore (true) or convert to survival (false)
+keepHardcore = true
+#Keep the player's inventory/experience after restore (true) or drop it (false)
+keepInventory = false
+

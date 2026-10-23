@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Xem trước The Damned</title>
+<style>
+  :root { --bg: #0b0d12; --panel: #141821; --line: #252b38; --text: #d8dce6; --dim: #8a93a6; --accent: #c9534a; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 14px/1.45 system-ui, "Segoe UI", sans-serif; display: flex; height: 100vh; overflow: hidden; }
+  #side { width: 250px; flex: none; background: var(--panel); border-right: 1px solid var(--line); display: flex; flex-direction: column; }
+  #side h1 { font-size: 15px; margin: 14px 16px 4px; letter-spacing: .3px; }
+  #side p.sub { margin: 0 16px 10px; color: var(--dim); font-size: 12px; }
+  #list { overflow: auto; flex: 1; padding: 0 8px 12px; }
+  .it { padding: 8px 10px; border-radius: 8px; cursor: pointer; margin: 2px 0; border: 1px solid transparent; }
+  .it:hover { background: #1b2130; }
+  .it.on { background: #22283a; border-color: #3a435a; }
+  .it b { display: block; font-weight: 600; font-size: 13px; }
+  .it span { color: var(--dim); font-size: 11.5px; }
+  #main { flex: 1; position: relative; display: flex; flex-direction: column; min-width: 0; }
+  #view { flex: 1; position: relative; min-height: 0; }
+  canvas { width: 100%; height: 100%; display: block; }
+  #bar { background: var(--panel); border-top: 1px solid var(--line); padding: 8px 12px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+  button { background: #222838; color: var(--text); border: 1px solid #343c52; border-radius: 7px; padding: 6px 10px; cursor: pointer; font: inherit; font-size: 13px; }
+  button.on { background: #3b2a2c; border-color: var(--accent); }
+  input[type=range] { flex: 1; min-width: 140px; accent-color: var(--accent); }
+  #time { font-variant-numeric: tabular-nums; color: var(--dim); min-width: 92px; }
+  #cap { position: absolute; left: 16px; top: 14px; right: 16px; color: var(--dim); font-size: 13px; pointer-events: none; }
+  #cap b { color: var(--text); font-size: 15px; }
+  #cue { position: absolute; left: 50%; top: 18%; transform: translateX(-50%); color: #e7d9c4; font-style: italic; letter-spacing: 1px; opacity: 0; transition: opacity .25s; pointer-events: none; text-shadow: 0 0 8px #000; }
+  label { color: var(--dim); font-size: 12.5px; display: flex; gap: 5px; align-items: center; }
+  @media (max-width: 720px) { body { flex-direction: column; } #side { width: 100%; height: 38vh; } }
+</style>
+</head>
+<body>
+<div id="side">
+  <h1>The Damned, xem trước ngoại tuyến</h1>
+  <p class="sub">Mô hình, texture và file động tác lấy thẳng từ bản mod 1.7.0. Kéo chuột để xoay, cuộn để thu phóng.</p>
+  <div id="list"></div>
+</div>
+<div id="main">
+  <div id="view"><canvas id="c"></canvas>
+  <div id="cap"></div>
+  <div id="cue"></div></div>
+  <div id="bar">
+    <button id="play">Tạm dừng</button>
+    <button id="restart">Phát lại</button>
+    <input id="scrub" type="range" min="0" max="1000" value="0">
+    <span id="time">0.00 / 0.00 s</span>
+    <button data-cam="pov" class="on">Mắt người chơi</button>
+    <button data-cam="side">Bên cạnh</button>
+    <button data-cam="top">Trên xuống</button>
+    <button data-cam="spin">Tự xoay</button>
+    <label><input id="slow" type="checkbox"> Chậm 0,5</label>
+    <label><input id="bug" type="checkbox"> Lỗi cũ (nghiêng 90°)</label>
+    <label><input id="snd" type="checkbox" checked> Âm thanh</label>
+  </div>
+</div>
+<script>
+const D = /*DATA*/null;
+const cv = document.getElementById('c');
+const gl = cv.getContext('webgl', { antialias: true, preserveDrawingBuffer: true });
+
+const I = () => [1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1];
+function mul(a, b) { const o = new Array(16); for (let r = 0; r < 4; r++) for (let c = 0; c < 4; c++) { let s = 0; for (let k = 0; k < 4; k++) s += a[r*4+k] * b[k*4+c]; o[r*4+c] = s; } return o; }
+const T = (x, y, z) => [1,0,0,x, 0,1,0,y, 0,0,1,z, 0,0,0,1];
+const Sc = (x, y, z) => [x,0,0,0, 0,y,0,0, 0,0,z,0, 0,0,0,1];
+function RX(a) { const c = Math.cos(a), s = Math.sin(a); return [1,0,0,0, 0,c,-s,0, 0,s,c,0, 0,0,0,1]; }
+function RY(a) { const c = Math.cos(a), s = Math.sin(a); return [c,0,s,0, 0,1,0,0, -s,0,c,0, 0,0,0,1]; }
+function RZ(a) { const c = Math.cos(a), s = Math.sin(a); return [c,-s,0,0, s,c,0,0, 0,0,1,0, 0,0,0,1]; }
+const ap = (m, p) => [m[0]*p[0]+m[1]*p[1]+m[2]*p[2]+m[3], m[4]*p[0]+m[5]*p[1]+m[6]*p[2]+m[7], m[8]*p[0]+m[9]*p[1]+m[10]*p[2]+m[11]];
+const DEG = Math.PI / 180;
+const tr = m => [m[0],m[4],m[8],m[12], m[1],m[5],m[9],m[13], m[2],m[6],m[10],m[14], m[3],m[7],m[11],m[15]];
+
+const num = v => { if (typeof v === 'number') return v; const f = parseFloat(v); return isNaN(f) ? 0 : f; };
+function vec(v) {
+  if (Array.isArray(v)) return v.map(num);
+  if (v && typeof v === 'object') { if ('vector' in v) return vec(v.vector); if ('post' in v) return vec(v.post); if ('pre' in v) return vec(v.pre); }
+  const n = num(v); return [n, n, n];
+}
+const EASE = {
+  linear: t => t, easeInSine: t => 1 - Math.cos(t * Math.PI / 2), easeOutSine: t => Math.sin(t * Math.PI / 2),
+  easeInOutSine: t => -(Math.cos(Math.PI * t) - 1) / 2, easeInCubic: t => t * t * t, easeOutCubic: t => 1 - Math.pow(1 - t, 3),
+  easeInOutCubic: t => t < .5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2, easeInQuart: t => t ** 4, easeOutQuart: t => 1 - Math.pow(1 - t, 4),
+  easeInOutQuart: t => t < .5 ? 8 * t ** 4 : 1 - Math.pow(-2 * t + 2, 4) / 2, easeInOutQuad: t => t < .5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2,
+};
+const cache = new Map();
+function keys(ch) {
+  if (cache.has(ch)) return cache.get(ch);
+  let k;
+  if (Array.isArray(ch) || typeof ch !== 'object' || ch === null || 'vector' in ch) k = [[0, vec(ch), 'linear']];
+  else k = Object.keys(ch).map(t => [parseFloat(t), vec(ch[t]), (ch[t] && ch[t].easing) || 'linear']).sort((a, b) => a[0] - b[0]);
+  cache.set(ch, k); return k;
+}
+function sample(ch, t) {
+  const k = keys(ch);
+  if (t <= k[0][0]) return k[0][1];
+  for (let i = 0; i < k.length - 1; i++) {
+    const [t0, a] = k[i], [t1, b, e] = k[i + 1];
+    if (t <= t1) { let u = t1 > t0 ? (t - t0) / (t1 - t0) : 1; u = (EASE[e] || EASE.linear)(u); return a.map((x, j) => x + (b[j] - x) * u); }
+  }
+  return k[k.length - 1][1];
+}
+
+const bones = {}, kids = {};
+for (const b of D.bones) { bones[b.name] = b; (kids[b.parent || ''] = kids[b.parent || ''] || []).push(b.name); }
+
+function boxUV(c) {
+  const [u, v] = c.uv, [sx, sy, sz] = c.size;
+  return { up: { uv: [u + sz, v], uv_size: [sx, sz] }, down: { uv: [u + sz + sx, v], uv_size: [sx, sz] },
+    north: { uv: [u + sz, v + sz], uv_size: [sx, sy] }, south: { uv: [u + 2 * sz + sx, v + sz], uv_size: [sx, sy] },
+    west: { uv: [u, v + sz], uv_size: [sz, sy] }, east: { uv: [u + sz + sx, v + sz], uv_size: [sz, sy] } };
+}
+
+function build(anim, t, bug) {
+  const A = (D.anims[anim] || {}).bones || {};
+  const out = [];
+  const world = mul(RY(Math.PI), Sc(1 / 16, 1 / 16, 1 / 16));
+  const L = new Light();
+  function rec(name, M) {
+    const b = bones[name], ch = A[name] || {};
+    const p = b.pivot || [0, 0, 0], px = -p[0], py = p[1], pz = p[2];
+    const r0 = b.rotation || [0, 0, 0];
+    const ar = ch.rotation ? sample(ch.rotation, t) : [0, 0, 0];
+    const apos = ch.position ? sample(ch.position, t) : [0, 0, 0];
+    const asc = ch.scale ? sample(ch.scale, t) : [1, 1, 1];
+    let ry = ar[1];
+    if (bug && name === 'model') ry -= 90;
+    M = mul(M, T(-apos[0], apos[1], apos[2]));
+    M = mul(M, T(px, py, pz));
+    M = mul(M, RZ((r0[2] + ar[2]) * DEG)); M = mul(M, RY((-r0[1] - ry) * DEG)); M = mul(M, RX((-r0[0] - ar[0]) * DEG));
+    M = mul(M, Sc(asc[0], asc[1], asc[2]));
+    M = mul(M, T(-px, -py, -pz));
+    for (const c of b.cubes || []) {
+      const o = c.origin, s = c.size, inf = c.inflate || 0;
+      const ox = -(o[0] + s[0]) - inf, oy = o[1] - inf, oz = o[2] - inf;
+      const x1 = ox + s[0] + 2 * inf, y1 = oy + s[1] + 2 * inf, z1 = oz + s[2] + 2 * inf;
+      let C = M;
+      if (c.rotation) {
+        const cp = c.pivot || [0, 0, 0], cr = c.rotation;
+        C = mul(C, T(-cp[0], cp[1], cp[2])); C = mul(C, RZ(cr[2] * DEG)); C = mul(C, RY(-cr[1] * DEG)); C = mul(C, RX(-cr[0] * DEG)); C = mul(C, T(cp[0], -cp[1], -cp[2]));
+      }
+      const W = mul(world, C);
+      const uvs = Array.isArray(c.uv) ? boxUV(c) : (c.uv || {});
+      const F = {
+        north: [[x1, y1, oz], [ox, y1, oz], [ox, oy, oz], [x1, oy, oz]],
+        south: [[ox, y1, z1], [x1, y1, z1], [x1, oy, z1], [ox, oy, z1]],
+        east: [[ox, y1, oz], [ox, y1, z1], [ox, oy, z1], [ox, oy, oz]],
+        west: [[x1, y1, z1], [x1, y1, oz], [x1, oy, oz], [x1, oy, z1]],
+        up: [[ox, y1, oz], [x1, y1, oz], [x1, y1, z1], [ox, y1, z1]],
+        down: [[ox, oy, z1], [x1, oy, z1], [x1, oy, oz], [ox, oy, oz]],
+      };
+      for (const f in F) {
+        const fu = uvs[f]; if (!fu) continue;
+        const [u, v] = fu.uv, [w, h] = fu.uv_size || [0, 0];
+        const q = F[f].map(pt => ap(W, pt));
+        const tc = [[u, v], [u + w, v], [u + w, v + h], [u, v + h]].map(([a, bb]) => [a / D.tw, bb / D.th]);
+        const e1 = q[1].map((x, i) => x - q[0][i]), e2 = q[3].map((x, i) => x - q[0][i]);
+        let n = [e1[1] * e2[2] - e1[2] * e2[1], e1[2] * e2[0] - e1[0] * e2[2], e1[0] * e2[1] - e1[1] * e2[0]];
+        const nl = Math.hypot(...n) || 1; n = n.map(x => -x / nl);
+        const sh = L.shade(n);
+        for (const i of [0, 1, 2, 0, 2, 3]) out.push(q[i][0], q[i][1], q[i][2], tc[i][0], tc[i][1], sh);
+      }
+    }
+    for (const k of kids[name] || []) rec(k, M);
+  }
+  for (const r of kids[''] || []) rec(r, I());
+  return new Float32Array(out);
+}
+function Light() { const l = [0.35, 0.8, 0.5], m = Math.hypot(...l); this.shade = n => 0.38 + 0.62 * Math.max(0, (n[0] * l[0] + n[1] * l[1] + n[2] * l[2]) / m) + 0.12 * Math.max(0, -n[2]); }
+
+const VS = `attribute vec3 p; attribute vec2 uv; attribute float sh; uniform mat4 vp; uniform vec3 eye; varying vec2 vuv; varying float vsh; varying float vd;
+void main(){ gl_Position = vp * vec4(p,1.0); vuv = uv; vsh = sh; vd = distance(p, eye); }`;
+const FS = `precision mediump float; uniform sampler2D base; uniform sampler2D glow; uniform vec4 col; varying vec2 vuv; varying float vsh; varying float vd;
+void main(){ vec3 fogc = vec3(0.11,0.12,0.15); float fog = clamp((vd-6.0)/26.0, 0.0, 0.85);
+ if (col.a > 0.0) { gl_FragColor = vec4(mix(col.rgb, fogc, fog), 1.0); return; }
+ vec4 b = texture2D(base, vuv); if (b.a < 0.1) discard; vec4 g = texture2D(glow, vuv);
+ vec3 c = b.rgb * 0.82 * vsh + vec3(0.075, 0.08, 0.095) * vsh + g.rgb * g.a * 1.25; gl_FragColor = vec4(mix(c, fogc, fog * 0.9), 1.0); }`;
+function sh(type, src) { const s = gl.createShader(type); gl.shaderSource(s, src); gl.compileShader(s); if (!gl.getShaderParameter(s, gl.COMPILE_STATUS)) throw gl.getShaderInfoLog(s); return s; }
+const prog = gl.createProgram(); gl.attachShader(prog, sh(gl.VERTEX_SHADER, VS)); gl.attachShader(prog, sh(gl.FRAGMENT_SHADER, FS)); gl.linkProgram(prog); gl.useProgram(prog);
+const loc = { p: gl.getAttribLocation(prog, 'p'), uv: gl.getAttribLocation(prog, 'uv'), sh: gl.getAttribLocation(prog, 'sh'), vp: gl.getUniformLocation(prog, 'vp'), eye: gl.getUniformLocation(prog, 'eye'), col: gl.getUniformLocation(prog, 'col'), base: gl.getUniformLocation(prog, 'base'), glow: gl.getUniformLocation(prog, 'glow') };
+function tex(unit, src) {
+  const t = gl.createTexture(); gl.activeTexture(gl.TEXTURE0 + unit); gl.bindTexture(gl.TEXTURE_2D, t);
+  gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, 1, 1, 0, gl.RGBA, gl.UNSIGNED_BYTE, new Uint8Array([0, 0, 0, 0]));
+  const im = new Image(); im.onload = () => { gl.activeTexture(gl.TEXTURE0 + unit); gl.bindTexture(gl.TEXTURE_2D, t); gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, im); };
+  im.src = 'data:image/png;base64,' + src;
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.NEAREST); gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.NEAREST);
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE); gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+}
+tex(0, '%BASE%'); tex(1, '%GLOW%'); gl.uniform1i(loc.base, 0); gl.uniform1i(loc.glow, 1);
+const vbo = gl.createBuffer(), gbo = gl.createBuffer();
+const grid = []; for (let i = -12; i <= 12; i++) { grid.push(i, 0, -12, 0, 0, 1, i, 0, 12, 0, 0, 1, -12, 0, i, 0, 0, 1, 12, 0, i, 0, 0, 1); }
+gl.bindBuffer(gl.ARRAY_BUFFER, gbo); gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(grid), gl.STATIC_DRAW);
+function attrs() { gl.enableVertexAttribArray(loc.p); gl.vertexAttribPointer(loc.p, 3, gl.FLOAT, false, 24, 0); gl.enableVertexAttribArray(loc.uv); gl.vertexAttribPointer(loc.uv, 2, gl.FLOAT, false, 24, 12); gl.enableVertexAttribArray(loc.sh); gl.vertexAttribPointer(loc.sh, 1, gl.FLOAT, false, 24, 20); }
+
+function persp(fov, asp, n, f) { const t = 1 / Math.tan(fov / 2); return [t / asp, 0, 0, 0, 0, t, 0, 0, 0, 0, (f + n) / (n - f), 2 * f * n / (n - f), 0, 0, -1, 0]; }
+function look(e, c) {
+  let z = e.map((x, i) => x - c[i]); const zl = Math.hypot(...z); z = z.map(x => x / zl);
+  let x = [z[2], 0, -z[0]]; const xl = Math.hypot(...x) || 1; x = x.map(v => v / xl);
+  const y = [z[1] * x[2] - z[2] * x[1], z[2] * x[0] - z[0] * x[2], z[0] * x[1] - z[1] * x[0]];
+  return [x[0], x[1], x[2], -(x[0] * e[0] + x[1] * e[1] + x[2] * e[2]), y[0], y[1], y[2], -(y[0] * e[0] + y[1] * e[1] + y[2] * e[2]), z[0], z[1], z[2], -(z[0] * e[0] + z[1] * e[1] + z[2] * e[2]), 0, 0, 0, 1];
+}
+
+let cur = D.list[0][0], t0 = performance.now(), paused = false, ptime = 0, cam = 'pov';
+let yaw = 0, pitch = 4, dist = 7.5, drag = null, lastT = 0;
+const CAMS = { pov: [0, 3, 7.5], side: [90, 6, 8], top: [20, 62, 9], spin: [0, 8, 8.5] };
+function setCam(k) { cam = k; [yaw, pitch, dist] = CAMS[k]; document.querySelectorAll('[data-cam]').forEach(b => b.classList.toggle('on', b.dataset.cam === k)); }
+document.querySelectorAll('[data-cam]').forEach(b => b.onclick = () => setCam(b.dataset.cam));
+cv.onmousedown = e => drag = [e.clientX, e.clientY, yaw, pitch];
+window.onmouseup = () => drag = null;
+window.onmousemove = e => { if (!drag) return; yaw = drag[2] - (e.clientX - drag[0]) * 0.4; pitch = Math.max(-10, Math.min(85, drag[3] + (e.clientY - drag[1]) * 0.3)); if (cam === 'spin') cam = 'free'; };
+cv.onwheel = e => { dist = Math.max(2.5, Math.min(24, dist * (e.deltaY > 0 ? 1.1 : 0.9))); e.preventDefault(); };
+
+const len = () => (D.anims[cur] || {}).animation_length || 1;
+const loops = () => { const l = (D.anims[cur] || {}).loop; return l === true || l === 'true'; };
+function now() { const sp = document.getElementById('slow').checked ? 0.5 : 1; return paused ? ptime : ptime + (performance.now() - t0) / 1000 * sp; }
+function restart() { ptime = 0; t0 = performance.now(); fired.clear(); }
+document.getElementById('play').onclick = () => { if (paused) { t0 = performance.now(); paused = false; } else { ptime = now(); paused = true; } document.getElementById('play').textContent = paused ? 'Phát' : 'Tạm dừng'; };
+document.getElementById('restart').onclick = () => { restart(); if (paused) document.getElementById('play').click(); };
+document.getElementById('slow').onchange = () => { ptime = now(); t0 = performance.now(); };
+const scrub = document.getElementById('scrub');
+scrub.oninput = () => { ptime = scrub.value / 1000 * len(); t0 = performance.now(); if (!paused) document.getElementById('play').click(); fired.clear(); };
+
+const list = document.getElementById('list');
+for (const [k, n, d] of D.list) {
+  const el = document.createElement('div'); el.className = 'it' + (k === cur ? ' on' : ''); el.innerHTML = '<b></b><span></span>';
+  el.querySelector('b').textContent = n; el.querySelector('span').textContent = d;
+  el.onclick = () => { cur = k; document.querySelectorAll('.it').forEach(x => x.classList.remove('on')); el.classList.add('on'); restart(); if (paused) document.getElementById('play').click(); caption(); };
+  list.appendChild(el);
+}
+function caption() { const it = D.list.find(x => x[0] === cur); document.getElementById('cap').innerHTML = '<b></b><br><span></span>'; document.querySelector('#cap b').textContent = it[1]; document.querySelector('#cap span').textContent = it[2]; }
+caption();
+
+let ac = null;
+function click(kind) {
+  if (!document.getElementById('snd').checked) return;
+  ac = ac || new AudioContext();
+  const n = ac.createBufferSource(), len2 = kind === 'crack' ? 0.22 : 0.07, buf = ac.createBuffer(1, ac.sampleRate * len2, ac.sampleRate), d = buf.getChannelData(0);
+  for (let i = 0; i < d.length; i++) d[i] = (Math.random() * 2 - 1) * Math.pow(1 - i / d.length, kind === 'crack' ? 3 : 6);
+  n.buffer = buf; const f = ac.createBiquadFilter(); f.type = 'bandpass'; f.frequency.value = kind === 'crack' ? 1400 : 700; f.Q.value = kind === 'crack' ? 0.8 : 2.5;
+  const g = ac.createGain(); g.gain.value = kind === 'crack' ? 0.9 : 0.6; n.connect(f).connect(g).connect(ac.destination); n.start();
+}
+const CUES = { cm_point: [[1.9, 'click', 'lách'], [2.2, 'click', 'cách'], [2.5, 'click', 'lách'], [3.55, 'crack', 'rắc']], cm_owl: [[0.9, 'crack', 'rắc'], [1.75, 'crack', 'rắc'], [2.6, 'crack', 'rắc']] };
+const fired = new Set();
+const cue = document.getElementById('cue');
+function cues(t) {
+  for (const [at, kind, word] of CUES[cur] || []) {
+    const id = cur + at;
+    if (t >= at && !fired.has(id) && t - at < 0.3) { fired.add(id); click(kind); cue.textContent = word; cue.style.opacity = 1; setTimeout(() => cue.style.opacity = 0, 380); }
+  }
+}
+
+function frame() { draw(); requestAnimationFrame(frame); }
+window.shot = (a, t, c) => { if (a) { cur = a; caption(); } if (c) setCam(c); if (!paused) document.getElementById('play').click(); ptime = t; draw(); return cur + '@' + t; };
+function draw() {
+  const w = cv.clientWidth * devicePixelRatio, h = cv.clientHeight * devicePixelRatio;
+  if (cv.width !== w || cv.height !== h) { cv.width = w; cv.height = h; }
+  gl.viewport(0, 0, w, h);
+  gl.clearColor(0.11, 0.12, 0.15, 1); gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT); gl.enable(gl.DEPTH_TEST);
+  let t = now(); const L2 = len();
+  if (loops()) t = t % L2; else if (t > L2 + 1.5 && !paused) { restart(); t = 0; }
+  const ts = Math.min(t, L2);
+  if (!paused) cues(t);
+  scrub.value = Math.round(ts / L2 * 1000);
+  document.getElementById('time').textContent = ts.toFixed(2) + ' / ' + L2.toFixed(2) + ' s';
+  if (cam === 'spin') yaw += 0.25;
+  const tgt = [0, cam === 'pov' ? 1.45 : 1.5, 0], yr = yaw * DEG, pr = pitch * DEG;
+  const eye = cam === 'pov' && yaw === 0 && pitch === 3 ? [0, 1.62, dist] : [tgt[0] + Math.sin(yr) * Math.cos(pr) * dist, tgt[1] + Math.sin(pr) * dist, tgt[2] + Math.cos(yr) * Math.cos(pr) * dist];
+  const vp = mul(persp(55 * DEG, w / h, 0.05, 80), look(eye, tgt));
+  gl.uniformMatrix4fv(loc.vp, false, new Float32Array(tr(vp))); gl.uniform3fv(loc.eye, eye);
+  gl.uniform4f(loc.col, 0.16, 0.18, 0.22, 1); gl.bindBuffer(gl.ARRAY_BUFFER, gbo); attrs(); gl.drawArrays(gl.LINES, 0, grid.length / 6);
+  const vb = build(cur, ts, document.getElementById('bug').checked);
+  gl.uniform4f(loc.col, 0, 0, 0, 0); gl.bindBuffer(gl.ARRAY_BUFFER, vbo); gl.bufferData(gl.ARRAY_BUFFER, vb, gl.DYNAMIC_DRAW); attrs(); gl.drawArrays(gl.TRIANGLES, 0, vb.length / 6);
+}
+frame();
+</script>
+</body>
+</html>

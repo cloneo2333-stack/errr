@@ -1,0 +1,160 @@
+
+[General]
+	#Enables all configured ArPhEx modded biome spawns for the Nether.
+	"Enable Integration" = true
+
+["Mob Specific Spawns"]
+
+	#THE NETHER
+	#
+	# You can use basically any modded world generation with this config, just add new lines with biomes from the mod you're using.
+	# Has to look like this -> modId:biomeId -> so for example biomesoplenty:undergrowth
+	# You can easily find the modId and biomeId using the in-game /locate command
+	#
+	# Some info for each config section:
+	# Enabled: Whether biome-specific spawning is enabled for this mob.
+	# Allowed Biomes: Biome IDs where this mob may spawn. Biome IDs from other mods may also be used.
+	# Spawn Weight: The mob's spawn weight. Higher values make the mob more common relative to other mobs.
+	# Min Count: Minimum group size.
+	# Max Count: Maximum group size.
+	#
+	["Mob Specific Spawns".ant_arsonist]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:undergrowth"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 4
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 2
+
+	["Mob Specific Spawns".centipede_evictor_larvae]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:visceral_heap", "biomesoplenty:erupting_inferno", "biomesoplenty:withered_abyss"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 6
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 1
+
+	["Mob Specific Spawns".centipede_stalker]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:undergrowth", "biomesoplenty:crystalline_chasm"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 6
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 1
+
+	["Mob Specific Spawns".fly_festerer]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:undergrowth", "biomesoplenty:crystalline_chasm"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 24
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 2
+
+	["Mob Specific Spawns".long_legs]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:crystalline_chasm", "biomesoplenty:withered_abyss"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 24
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 2
+
+	["Mob Specific Spawns".maggot_larvae]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:withered_abyss"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 8
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 2
+
+	["Mob Specific Spawns".millipede_marauder]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:undergrowth"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 16
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 1
+
+	["Mob Specific Spawns".mosquito_morbidity]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:undergrowth", "biomesoplenty:crystalline_chasm"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 16
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 1
+
+	["Mob Specific Spawns".moth_moontracker]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:undergrowth", "biomesoplenty:crystalline_chasm"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 4
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 2
+
+	["Mob Specific Spawns".roach_riverspawn]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:crystalline_chasm", "biomesoplenty:withered_abyss"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 8
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 2
+
+	["Mob Specific Spawns".scorpion_striker]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:crystalline_chasm"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 8
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 1
+
+	["Mob Specific Spawns".silverfish_spectre]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:undergrowth"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 16
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 4
+
+	["Mob Specific Spawns".spider_flat]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:withered_abyss", "biomesoplenty:visceral_heap", "biomesoplenty:erupting_inferno"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 4
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 1
+
+	["Mob Specific Spawns".spider_larvae]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:undergrowth", "biomesoplenty:crystalline_chasm"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 16
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 2
+

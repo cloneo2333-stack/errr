@@ -1,0 +1,300 @@
+10979	Đặt làm trang hiện tại
+11022	Đã gỡ shader
+11076	Hiện số ảnh trong album
+11092	Hiện chi tiết trong chú thích máy ảnh
+11098	Hiện số khung phim trong chú thích máy ảnh
+11099	Hiện thanh độ đầy phim trên máy ảnh
+11124	Hiện người chụp trong chú thích ảnh
+11128	Hiện chú thích công thức nếu chưa cài JEI
+11165	Tốc độ màn trập
+15743	Tốc độ màn trập\n§7Thời gian phơi sáng ảnh hưởng tới độ sáng của ảnh
+11184	Ký tên album
+11188	Ánh lấp lánh của album đã ký
+11189	Album ảnh đã ký
+11236	Cỡ: %smm
+11406	Đã xảy ra lỗi. Xem nhật ký để biết chi tiết.
+11409	Rốt cuộc một số ảnh không có sẵn.
+11414	Có gì đó không ổn... Có lẽ nhật ký sẽ cho biết thêm?
+15765	Nguồn tại địa chỉ có cấu trúc không rõ và không thể chiếu.
+11465	Nguồn tại địa chỉ được bảo vệ bởi một thế lực không rõ.
+15766	Nguồn tại địa chỉ nằm ngoài giới hạn thời gian của Máy chiếu.
+11626	Chẻ đôi hạt ánh sáng
+11635	Những bộ xương ngớ ngẩn rùng rợn
+11795	Ảnh xếp chồng
+11796	Số ảnh xếp chồng tối đa
+11797	Xếp chồng ảnh
+11834	Độ lệch X của biểu tượng trạng thái
+11835	Độ lệch Y của biểu tượng trạng thái
+12540	Chụp một bức ảnh ở End
+12541	Tự chụp ảnh
+12547	Người chụp: %s
+12589	Rách nát
+12662	Kết cấu: %s
+15925	Tờ giấy sạch trơn. Không còn dấu vết hình ảnh nào trên đó, kể cả nếu từng có.
+12942	Lệnh này phải do người chơi dùng.
+13012	Mẹo: Bộ phận máy ảnh
+13013	Mẹo: Trang hướng dẫn
+13232	Hướng dẫn
+13420	Hậu quả khôn lường
+13502	Dùng làm giấy để in các lớp còn lại
+16092	Dùng Chân máy ảnh để chụp một người chơi cùng mèo và sói đã thuần hóa
+13505	Dùng máy ảnh để chụp lên một khung phim
+13510	Dùng đèn chớp khi chụp ảnh trong bóng tối
+16094	Dùng Máy chiếu xuyên cõi để chiếu một hình ảnh từ cõi khác
+13524	Dùng khi rón rén để thiết lập
+13599	Kính ngắm
+16104	Kính ngắm\n§7Cho thấy hình ảnh qua ống kính\n§8 • \n§8Nhấn hoặc giữ [%s§8]%s§8 để mở bảng điều khiển máy ảnh\n§8 • \n§8Nhấn [%s§8] để bật tắt chế độ tự chụp\n§8Giữ [%s§8] ở chế độ tự chụp để xoay máy ảnh
+13667	Kính ngắm ngang thắt lưng
+13803	Đó là đèn rọi à? Rọi vào tôi?
+13995	Người lưu giữ thế giới hoang dã
+14207	Tầm hoạt động
+14301	Mực in vàng
+16205	Bạn đang xuất %s ảnh. Việc này có thể mất một lúc.
+14479	Ảnh hưởng tới độ nhạy phóng to
+14502	§4Tiêu hao khi dùng
+14536	§6Sạch
+14547	§6Hòa sắc
+14609	§7Đã sao chép [§r%s§7] vào bộ nhớ tạm
+14610	§7[§r%s§7]: sao chép mã ảnh
+14611	§7[§r%s§7]: sao chép đường dẫn tệp đã lưu
+14612	§7[§r%s§7]: sao chép đường dẫn kết cấu
+14613	§7[§r%s§7]: thả ra dưới dạng vật phẩm
+14614	§7[§r%s§7]: mở tệp đã lưu
+14646	§7Đã thả: [§r%s§7]
+14649	§7Phim: §f%s/%s
+14673	§7Ảnh: %s
+16223	§7Cõi này có kết giới bảo vệ khiến không thể chiếu từ cõi khác.
+16224	§7Khi được đổi tên thành URL hoặc đường dẫn tệp và dùng làm kính lọc, cho phép chiếu hình ảnh từ cõi khác
+14707	§8 hoặc [§7Nhấp chuột giữa§8]
+14742	§8[§7Nhấp chuột trái§8] hoặc [§7Cuộn lên§8] để phóng to
+14743	§8[§7Nhấp chuột trái§8] hoặc §8[§7Cuộn lên§8] để xem
+14744	§8[§7Nhấp chuột trái§8] để thêm
+14745	§8[§7Nhấp chuột trái§8] để sửa
+14747	§8[§7Nhấp chuột phải§8] để đổi chế độ
+14748	§8[§7Nhấp chuột phải§8] để xóa sạch
+14749	§8[§7Nhấp chuột phải§8] để gỡ bỏ
+14750	§8[§7Nhấp chuột phải§8] bằng vật phẩm để lắp hoặc đổi phụ kiện
+14751	§8[§7Nhấp chuột phải§8] bằng §7Kéo§8 để xóa dòng này
+14752	§8[§7Rón rén và dùng§8] hoặc §8[§7Nhấp chuột phải§8] để thiết lập
+14753	§8[§7Rón rén và dùng§8] để thiết lập
+14754	§8[§7Rón rén và dùng§8] bằng vật phẩm để lắp hoặc đổi phụ kiện
+14755	§8Phím [§7Rón rén§8] sẽ được dùng nếu chưa gán
+14756	§8[§7Dùng§8] để đổi tên
+14782	§8Giữ [§7Shift§8] để in ở chế độ sáng tạo
+14783	§8Giữ [§7Shift§8] để xem chi tiết
+11440	Sắp xếp
+4437	Đôi mắt
+4438	Đôi mắt biến mất trong tiếng cười
+4440	Đôi mắt rít lên
+11415	Có thứ gì đó cười
+11488	Sinh ra Đôi mắt
+221	Còn %s...
+1118	Giỏ tre
+1269	Củ dền
+1280	Quả mọng
+1762	Bát salad lấp lánh
+1770	Bánh mì
+1931	Cây bắp cải
+1932	Nguyên liệu salad bắp cải
+1933	Hạt bắp cải
+1936	Tủ
+1968	Khói báo hiệu lửa trại
+1980	Không thể nấu dưới nước...
+1981	Không thể nấu khi bị ngập...
+2010	Biển vải
+2011	Biển vải treo tường
+2032	Cà rốt
+2540	Chất kích hoạt ủ phân
+2618	Thịt xông khói chín
+2622	Bò bít tết
+2630	Gà chín
+2631	Cá tuyết chín
+2633	Trứng chín
+2634	Cá chín
+2647	Thịt cừu chín
+2650	Thịt heo chín
+2652	Cá hồi chín
+2661	Nấu ăn
+3100	Thớt
+3472	Vật phẩm gỡ lỗi: không dùng để chơi
+3488	Phân hủy
+3887	Bột nhào
+3912	Đồ uống
+3924	Rơi ra lát bánh
+3997	Trứng
+4508	Tiệc
+4728	Nằm phẳng trên thớt
+4770	Đã cắt thức ăn
+4991	Salad lấp lánh
+5073	Ngũ cốc
+5275	Biển vải treo
+5328	Vật dẫn nhiệt
+5329	Nguồn nhiệt
+5330	Nguồn nhiệt có khay
+5987	Đặt vật phẩm lên thớt
+5988	Lấy vật phẩm khỏi thớt
+6344	Dao
+7444	Bữa ăn
+7492	Sữa
+7493	Chai sữa
+7494	Xô sữa
+7516	Đào được bằng dao
+7725	Nơi cụm nấm mọc được
+7724	Cụm nấm
+8185	Cây hành
+8186	Súp hành
+8187	Hành tây
+8553	Mì Ý
+8615	Bánh nướng
+8838	Đặt được
+8840	Đặt được khi rón rén
+8851	Trồng từ bên dưới
+8948	Đã dọn một phần
+8964	Khoai tây
+9129	Bánh bí ngô
+9332	Thịt xông khói sống
+9336	Thịt bò sống
+9344	Thịt gà sống
+9345	Cá tuyết sống
+9351	Trứng sống
+9352	Cá sống
+9372	Thịt sống
+9375	Thịt cừu sống
+9378	Mì Ý sống
+9379	Thịt heo sống
+9381	Cá hồi sống
+10515	Cây lúa
+10516	Hạt gạo
+10517	Hạt lúa giống
+10568	Hàng rào dây thừng
+10569	Cổng rào dây thừng
+10570	Cổng rào dây thừng được buộc
+10571	Cổng rào dây thừng được tháo
+10606	Dây thừng
+10678	Nguyên liệu salad
+10977	Đồ đựng thức ăn
+11282	Lát bánh bí ngô
+11368	Đồ ăn vặt
+11940	Khối rơm
+11941	Dụng cụ gặt rơm
+12523	Đồ ngọt
+12651	Địa hình
+13072	Cây cà chua
+13073	Hạt cà chua
+13074	Dây cà chua trên dây thừng
+13075	Cà chua
+13083	Đã khắc công cụ trên thớt
+13213	Cá nhiệt đới
+13380	Không bị Đất màu mỡ ảnh hưởng
+13560	Rau củ
+13674	Biển vải treo tường
+13881	Bánh mì lúa mì
+16116	Lúa mì có thể thành Bột nhào khi chế tạo cùng một Xô nước. Nhưng đừng lo, nước trong xô sẽ không bị hết!
+13882	Bột nhào lúa mì
+13884	Hạt lúa mì
+13991	Cây trồng hoang dại
+14170	Tủ gỗ
+123	%1$s đã không cẩn thận khi làm vườn
+135	%2$s héo tàn vì %1$s làm vườn cẩu thả
+324	50% cơ hội phát sáng và nhìn trong đêm, hoặc khô héo
+325	50% cơ hội phát sáng hoặc khô héo
+892	Rượu táo
+1447	Cá tuyết đen
+1493	Trà đen
+1494	Lá trà đen
+1495	Bao lá trà đen
+1548	Ớt rực lửa
+1940	Tỉnh táo
+1985	Bánh bông lan cắm nến
+2384	Xóa 2 hiệu ứng có hại
+2453	Cà phê
+2454	Hạt cà phê
+2455	Bao hạt cà phê
+2456	Quả cà phê
+2457	Ngọn bụi cà phê
+2458	Bánh bông lan cà phê
+15259	Cà phê không mọc tốt ở Thế giới thực! Hãy trồng nó gần những cây trồng quen thuộc khác để nó hút dưỡng chất từ chúng mà lớn.
+2460	Thân cà phê
+2461	Thân cà phê đôi
+2462	Thân cà phê giữa
+2593	Chứa %s ly nước
+2595	Chứa 1 ly nước
+3166	Trà bồ công anh
+4429	Kéo dài 1 hiệu ứng thêm 15 giây
+4430	Kéo dài 1 hiệu ứng thêm 30 giây
+4491	Farmer's Respite
+4888	Trà của kẻ đỏ đen
+5218	Trà xanh
+5219	Bánh quy trà xanh
+5220	Lá trà xanh
+5221	Bao lá trà xanh
+5269	Cẩn thận khi cầm
+5606	Ca cao nóng
+5847	Hồi máu tức thì
+5888	Loài xâm lấn
+6293	Ấm đun
+6294	Ấm đun réo
+7442	mB
+7449	Nước ép dưa hấu
+7838	Bánh mì men chua Bướu Nether
+7950	Không có nước
+8981	Chậu bụi cà phê
+8990	Chậu bụi trà
+8993	Chậu bụi cà phê dại
+8994	Chậu bụi trà dại
+9195	Trà mưng mủ
+10607	Bánh quả tầm xuân
+10608	Lát bánh quả tầm xuân
+10609	Trà quả tầm xuân
+10610	Quả tầm xuân
+11146	Đang hiện thứ pha chế được
+11281	Lát bánh bông lan cà phê
+15773	Dùng rìu kìm hãm sự phát triển của bụi trà để giữ nó làm vật trang trí!
+12588	Cây cảnh ngon miệng
+12596	Bụi trà
+15799	Bụi trà bị oxy hóa theo thời gian! Hãy trồng chúng trên cỏ và để mắt tới chúng để canh thời điểm thu hoạch!
+12597	Cà ri trà
+12599	Hạt trà
+13990	Bụi cà phê dại
+13992	Bụi trà dại
+14143	Rễ khô héo
+14144	Cây rễ khô héo
+14307	Trà vàng
+14308	Lá trà vàng
+14309	Bao lá trà vàng
+4363	Nhanh nhẹn đến bực mình
+4498	Nhanh hơn chiếc bàn bình thường
+4499	Chiếc bàn nhanh nhất miền Tây
+6562	Nhanh như chớp
+7435	Hiệu năng tối đa
+13452	Nhạy đến rợn người
+13454	Nhanh vô lý
+21	 §9Phôi đỏ thẫm
+23	 §9Trang bị sắt
+27	 §9Thịnh nộ II (06:00)
+61	%1$s bị hút mất linh hồn
+91	%1$s bị nguyên tử hóa bởi vụ nổ sievert của %2$s
+92	%1$s bị nguyên tử hóa bởi vụ nổ sievert của %2$s dùng %3$s
+93	%1$s bị nguyên tử hóa bởi một vụ nổ sievert
+94	%1$s bị thiêu từ trong ra ngoài, chỉ còn cái vỏ rỗng
+15000	%1$s bị thiêu từ trong ra ngoài, chỉ còn cái vỏ rỗng khi đang chiến đấu với %2$s
+15001	%1$s bị thiêu từ trong ra ngoài, chỉ còn cái vỏ rỗng khi đang chiến đấu với %2$s dùng %3$s
+96	%1$s bị nổ tung từ bên trong
+97	%1$s bị nổ tung từ bên trong khi đang chiến đấu với %2$s
+98	%1$s bị nổ tung từ bên trong khi đang chiến đấu với %2$s dùng %3$s
+100	%1$s bị hạ gục
+101	%1$s bị hạ gục khi đang chiến đấu với %2$s
+102	%1$s bị hạ gục khi đang chiến đấu với %2$s dùng %3$s
+103	%1$s bị xóa sổ
+104	%1$s bị xóa sổ khi đang cố thoát khỏi %2$s
+105	%1$s bị xóa sổ khi đang cố thoát khỏi %2$s dùng %3$s
+109	%1$s bị trừ khử đích đáng
+110	%1$s bị trừ khử đích đáng khi đang chiến đấu với %2$s
+111	%1$s bị trừ khử đích đáng khi đang chiến đấu với %2$s dùng %3$s
+114	%1$s bị hút mất linh hồn khi đang cố thoát khỏi %2$s
+115	%1$s bị hút mất linh hồn khi đang cố thoát khỏi %2$s dùng %3$s
+127	Tim của %1$s ngừng đập vì đòn dội ngược từ chính đòn tấn công của mình
+15020	Mỗi cấp thêm 15% tổng giáp và độ bền giáp. Có được từ bộ giáp đỏ thẫm
+320	300 Sievert
+350	
+351	Trứng sinh ra 

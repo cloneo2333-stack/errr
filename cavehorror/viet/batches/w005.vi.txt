@@ -1,0 +1,300 @@
+1036	Nâng cấp tự nung
+1039	Nâng cấp tự hun khói
+1108	Gỗ tre
+1222	Nâng cấp bậc cơ bản
+1223	Nâng cấp từ cơ bản lên bậc đồng
+1224	Nâng cấp từ cơ bản lên bậc kim cương
+1225	Nâng cấp từ cơ bản lên bậc vàng
+1226	Nâng cấp từ cơ bản lên bậc sắt
+1227	Nâng cấp từ cơ bản lên bậc Netherit
+1310	Gỗ bạch dương
+1545	Nâng cấp luyện
+2159	Gỗ anh đào
+2285	Chipped: Nâng cấp bàn giả kim
+2286	Chipped: Nâng cấp bàn thực vật học
+2287	Chipped: Nâng cấp bàn thợ mộc
+2288	Chipped: Nâng cấp thổi thủy tinh
+2289	Chipped: Nâng cấp bàn khung cửi
+2290	Chipped: Nâng cấp bàn thợ nề
+2291	Chipped: Nâng cấp bàn chế tác
+2523	Nâng cấp nén
+2543	Nâng cấp ép gọn
+2687	Hộp Shulker đồng
+2689	Nâng cấp từ đồng lên bậc kim cương
+2690	Nâng cấp từ đồng lên bậc vàng
+2691	Nâng cấp từ đồng lên bậc sắt
+2692	Nâng cấp từ đồng lên bậc Netherit
+2824	Nâng cấp chế tạo
+3194	Gỗ sồi sẫm
+3475	Công cụ gỡ lỗi
+3491	Bàn trang trí
+3685	Hộp Shulker kim cương
+3694	Nâng cấp từ kim cương lên bậc Netherit
+4385	Nâng cấp bơm kinh nghiệm
+4516	Nâng cấp cho ăn
+4555	Nâng cấp bộ lọc
+4837	Mặt trước
+5030	Hộp Shulker vàng
+5032	Nâng cấp từ vàng lên bậc kim cương
+5033	Nâng cấp từ vàng lên bậc Netherit
+5575	Nâng cấp phễu
+5807	Nâng cấp vô hạn (quản trị)
+5948	Hộp Shulker sắt
+5955	Nâng cấp từ sắt lên bậc kim cương
+5956	Nâng cấp từ sắt lên bậc vàng
+5957	Nâng cấp từ sắt lên bậc Netherit
+6161	Nâng cấp máy hát
+6169	Gỗ rừng
+6618	Thùng giới hạn %s%s I
+6619	Thùng giới hạn %s%s II
+6620	Thùng giới hạn %s%s III
+6621	Thùng giới hạn %s%s IV
+6622	Thùng đồng giới hạn %s%s I
+6623	Thùng đồng giới hạn %s%s II
+6624	Thùng đồng giới hạn %s%s III
+6625	Thùng đồng giới hạn %s%s IV
+6626	Thùng kim cương giới hạn %s%s I
+6627	Thùng kim cương giới hạn %s%s II
+6628	Thùng kim cương giới hạn %s%s III
+6629	Thùng kim cương giới hạn %s%s IV
+6630	Thùng vàng giới hạn %s%s I
+6631	Thùng vàng giới hạn %s%s II
+6632	Thùng vàng giới hạn %s%s III
+6633	Thùng vàng giới hạn %s%s IV
+6634	Thùng sắt giới hạn %s%s I
+6635	Thùng sắt giới hạn %s%s II
+6636	Thùng sắt giới hạn %s%s III
+6637	Thùng sắt giới hạn %s%s IV
+6638	Thùng Netherit giới hạn %s%s I
+6639	Thùng Netherit giới hạn %s%s II
+6640	Thùng Netherit giới hạn %s%s III
+6641	Thùng Netherit giới hạn %s%s IV
+6666	Đang liên kết với bộ điều khiển tại x:%s y:%s z:%s
+6715	Khóa hoặc mở khóa
+6987	Nâng cấp nam châm
+7136	Gỗ đước
+7555	Thiếu vật phẩm:
+7863	Hộp Shulker Netherit
+8005	Gỗ sồi
+8353	Băng keo đóng gói
+8365	Cọ sơn
+8613	Nâng cấp nhặt đồ
+9119	Nâng cấp bơm
+11150	Hiện hoặc ẩn số lượng
+11151	Hiện hoặc ẩn mức đầy
+11152	Hiện hoặc ẩn khóa
+11153	Hiện hoặc ẩn bậc hay lớp phủ
+11154	Hiện hoặc ẩn nâng cấp
+11163	Hộp Shulker
+11334	Nâng cấp nung chảy
+11350	Nâng cấp hun khói
+11427	Sophisticated Storage
+11642	Gỗ vân sam
+11762	Hạ cấp chồng bậc 1
+11763	Hạ cấp chồng bậc 2
+11764	Hạ cấp chồng bậc 3
+11770	Chuyển đổi nâng cấp chồng: bậc 1 cộng lên bậc 2
+11771	Chuyển đổi nâng cấp chồng: bậc 1 cộng lên bậc 3
+11772	Chuyển đổi nâng cấp chồng: bậc 1 cộng lên bậc 4
+11773	Chuyển đổi nâng cấp chồng: bậc 1 cộng lên bậc 5
+11774	Chuyển đổi nâng cấp chồng: bậc 1 lên bậc 1 cộng
+11778	Chuyển đổi nâng cấp chồng: bậc 1 lên bậc 5
+11781	Chuyển đổi nâng cấp chồng: bậc 2 lên bậc 5
+11783	Chuyển đổi nâng cấp chồng: bậc 3 lên bậc 5
+11784	Chuyển đổi nâng cấp chồng: bậc 4 lên bậc 5
+11785	Nâng cấp chồng bậc Omega
+11786	Nâng cấp chồng bậc 1
+11787	Nâng cấp chồng bậc 1 cộng
+11788	Nâng cấp chồng bậc 2
+11789	Nâng cấp chồng bậc 3
+11790	Nâng cấp chồng bậc 4
+11791	Nâng cấp chồng bậc 5
+11909	Nâng cấp máy cắt đá
+11922	Bộ điều khiển kho
+11924	Cổng vào ra kho
+11925	Cổng vào kho
+11928	Liên kết kho
+11930	Cổng ra kho
+11932	Công cụ kho
+12482	Băng keo đóng gói siêu cấp
+12498	Nâng cấp vô hạn sinh tồn
+13447	Đang hủy liên kết với bộ điều khiển
+13473	Đế nâng cấp
+13648	Nâng cấp hủy đồ
+13697	Gỗ kì dị
+837	Xương rồng giận dữ
+838	Trứng sinh ra Xương rồng giận dữ
+840	Bí ngô giận dữ
+841	Trứng sinh ra Bí ngô giận dữ
+7802	Kim
+647	Không khí
+649	Không khí hoặc chất lỏng
+682	Tất cả
+1578	Bảng khối
+1655	Gel xanh nước biển
+1891	Công cụ xây dựng
+2382	Xóa vùng chọn
+2383	Đã xóa các vị trí
+2405	Đã nhấp
+2414	Bộ nhớ tạm đã hết hạn
+2416	Nhân bản
+2417	Đã nhân bản vùng
+2547	Hình nón
+3032	Hình lập phương
+3033	Khung lập phương
+3120	Gel lục lam
+3324	Bộ xử lý dữ liệu
+3960	Lồng sinh quái động
+3986	Sửa vùng chọn
+4379	Mở rộng %s
+4426	Kéo dài
+4427	Kéo dài xuống
+4444	Hướng
+4534	Lấp đầy
+4733	Tràn
+4885	Ngẫu nhiên
+5015	Quay lại
+5070	Đã nắm biên
+5071	Đã nắm góc
+5196	Gel xanh lá
+5541	Giữ [Control] để xem điều khiển
+5542	Giữ [Shift] để xem thông tin
+5556	Lập phương rỗng
+5852	Độ nguyên vẹn
+6417	Độ dài: %s, Sẽ đặt: %s
+6643	Đường thẳng
+7679	Đã dời %d khối %s
+8180	Một hoặc nhiều vị trí nằm trong vùng chưa tải
+8211	Mở giao diện Công cụ xây dựng
+8263	Gel cam
+15621	Vượt giới hạn nhân bản gốc %s khối khi nhân bản %s khối. Việc này có thể mất một lúc
+15622	Vượt giới hạn lấp đầy gốc %s khối khi lấp đầy %s khối. Việc này có thể mất một lúc
+8842	Đã đặt %d %s
+8843	Đã đặt %d khối
+8844	Đã đặt %d khối
+8845	Đã đặt biên
+8846	Đã đặt góc
+8950	Chưa chọn vị trí: %s
+9203	Kim tự tháp
+9305	Ngẫu nhiên
+9392	Tầm với
+9544	Gel đỏ
+9621	Làm lại
+9622	Đang làm lại thay đổi: %d%%
+10334	Đã thay %d khối
+10335	Đã thay %d khối
+10336	Đã thay %d khối bằng %s
+10475	Giữ trạng thái
+10911	Chọn vị trí thứ nhất
+10912	Chọn vị trí thứ hai
+10913	Chọn khối để đặt
+10932	Đã chọn %s
+10933	Đã chọn bảng khối từ đồ bên trong
+10992	Đặt vị trí %d (%s, %s, %s)
+10994	Đặt tầm với thành %s
+11160	Thu hẹp %s
+11235	Cỡ (%s, %s, %s)
+12416	Vật phẩm công trình
+13414	Đang hoàn tác thay đổi: %d%%
+14235	Trục X
+14240	Cỡ X
+14261	Cỡ Y
+14284	Gel vàng
+14369	Bạn không có quyền dùng vật phẩm này
+14410	Bạn cần quyền dùng lệnh để lấy vật phẩm trong thẻ này.
+14444	Trục Z
+14449	Cỡ Z
+16254	• %s để chọn góc thứ nhất.\n• %s + %s để chọn góc thứ hai.\n• %s vào một góc để dời nó. Giữ %s để dời cả vùng biên.
+16255	• %s để chọn vị trí thứ nhất.\n• %s + %s để chọn vị trí thứ hai.
+14974	• Cho phép sửa vùng chọn hiện tại.\n• Phím tắt: %s
+16256	• Hoạt động giống lồng sinh quái gốc, nhưng dùng các hành vi đã đăng ký sẵn thay vì lưu logic sinh quái trong chính khối. Các hành vi này phải do mod đăng ký trong mã.\n• Đặt khối và mở giao diện để đặt dữ liệu.
+16257	• Thay đổi tầm với của bạn khi cầm vật phẩm này.
+14975	• Xóa vùng chọn hiện tại.
+16258	• Nhân bản vùng đã chọn tới vị trí của bạn.\n\n%s\n• %s để nhân bản vùng đã chọn tới vị trí của bạn.
+16259	• Nhận dạng hình theo mặt khối được nhấp và kéo dài nó theo hướng đã nhấp.\n\n• %s vào mặt một khối để kéo dài hình.
+14976	• Quyết định bao nhiêu khối thực sự được đặt.
+14977	• Quyết định hình dạng vùng bị ảnh hưởng.
+14978	• Quyết định khối nào sẽ bị thay.
+16260	• Mở rộng vùng đã chọn theo hướng bạn đang nhìn.\n• Giữ %s để dời vùng chọn về phía trước.
+16261	• Mở rộng mặt chỉ định của vùng chọn hiện tại.\n• Giữ %s để dời vùng chọn thay vào đó.
+16262	• Lấp đầy các khối quanh chỗ bạn nhấp bằng bảng khối hiện tại.\n\n• %s vào một khối để chọn thứ cần đặt.\n• %s để đặt hình.
+16263	• Lấp đầy vùng đã chọn bằng bảng khối hiện tại.\n\n• %s vào một khối để chọn thứ dùng để lấp.\n%s\n• %s để lấp vùng bằng bảng khối hiện tại.
+16264	• Làm tràn mức y sát mặt khối được nhấp bằng bảng khối hiện tại.\n\n• %s vào một khối để chọn thứ dùng để tràn.\n• %s vào mặt khối hướng về phía bạn muốn tràn.
+16265	• Với các chế độ cần bảng khối, bạn có thể nhấn %s vào một khối để chọn nó. Bạn cũng có thể cầm một vật phẩm trên chuột và nhấp chuột phải vào chồng này để chọn khối đó. Nếu dùng khối hay vật phẩm có kho chứa, kho chứa sẽ được chuyển thành bảng khối.
+16266	• Tạo đồ vật trong công trình dựa trên dữ liệu bên trong.\n• Đặt khối và mở giao diện để đặt dữ liệu. Bạn có thể thử dữ liệu bằng nút Tạo.
+14979	• Khoảng cách dời vùng đã chọn.
+16267	• Lật đối xứng thứ chế độ công cụ hiện tại sẽ đặt theo trục đã chọn.
+16268	• Dời vùng đã chọn theo hướng bạn đang nhìn.\n\n%s\n• %s để dời vùng đã chọn theo hướng bạn đang nhìn.
+16269	• Chỉ loang gel ở vị trí không lộ ra bầu trời. Rất hợp cho căn phòng có tường trống.
+14980	• Đặt khi đang rón rén để kích hoạt hiệu ứng loang.
+16270	• Đặt một hàng khối giữa các vị trí đã chọn.\n\n• %s vào một khối để chọn thứ dùng để lấp.\n%s\n• %s để đặt hàng bằng bảng khối hiện tại.
+14981	• Nhấn %s khi đang cầm để mở giao diện.
+14982	• Tầm: %s tới %s
+16271	• Làm lại một thao tác đã hoàn tác thực hiện bằng %s.\n• Phím tắt: %s
+16272	• Thay mọi khối khớp nối liền với khối mục tiêu bằng bảng khối hiện tại.\n\n• %s vào một khối để chọn thứ cần đặt.\n• %s vào một khối để thay nó.
+16273	• Xoay thứ chế độ công cụ hiện tại sẽ đặt theo góc đã chọn.
+16274	• Thu hẹp mặt chỉ định của vùng chọn hiện tại.\n• Giữ %s để dời vùng chọn thay vào đó.
+16275	• Tự loang theo các hướng chính và hướng chéo. Hữu ích để vòng qua dây leo và các góc kỳ lạ.
+16276	• Loang gel theo các hướng chính, chỉ thay không khí.
+16277	• Loang gel trên một mặt phẳng tùy theo cách nó được đặt.
+16278	• Loang gel với khoảng cách tùy theo số lượng bạn đang cầm. Tối đa 50.
+14983	• Đưa bạn về màn hình trước.\n• Phím tắt: %s
+16279	• Hành vi của khối này chưa được định nghĩa. Hãy chắc chắn bạn đang dùng hoặc kế thừa StructureGelBlock trong mã.
+16280	• Các khối sẽ được đặt bằng chế độ này.\n• %s để xóa bảng khối.\n• Bảng khối hiện tại: %s
+14984	• Cơ hội mục này được dùng.
+14985	• Chiều cao vùng chọn theo trục Y.
+14986	• Chiều dài vùng chọn theo trục X.
+14987	• Chiều dài vùng chọn theo trục Z.
+14988	• Bán kính vùng bị ảnh hưởng.
+16281	• Đúng nếu thao tác lan sang các khối chéo. Sai nếu chỉ xét các khối kề trực tiếp.
+16282	• Hoàn tác thao tác trước đó thực hiện bằng %s.\n• Phím tắt: %s
+14989	• Dùng thuốc súng để phá mọi gel nối liền.
+16283	• Dùng để chỉnh khối với nhiều chế độ và cài đặt khác nhau.\n• Nhấn %s khi đang cầm để mở giao diện.
+14990	• Dùng vị trí hiện tại của bạn làm góc thứ nhất.
+14991	• Dùng vị trí hiện tại của bạn làm góc thứ hai.
+16284	• Khoan... Sao bạn tới được đây? Thôi kệ, bạn đã ở đây rồi nên chắc đây không còn là bí mật nữa. Nhân lúc bạn đang chú ý, đừng quên uống đủ nước nhé!
+16285	• Khi đúng, lấp cả các khối bên dưới mặt phẳng cần làm tràn.
+16286	• Khi đúng, giữ nguyên trạng thái khối của khối đã chọn. Khi sai, khối được đặt sẽ theo cách đặt tự nhiên của chúng, nếu đặt được.
+14992	• Khi đúng, xóa vùng gốc khỏi thế giới.
+16287	• Bạn có thể đổi tầm với bằng cách giữ %s và lăn chuột.
+16288	• Bạn có thể hoàn tác thao tác trước bằng %s và làm lại bằng %s.
+5	 Tác giả:
+7875	Không bao giờ hiện công trình này nữa
+11110	Hiện thông báo công trình gần nhất
+12414	Structure Credits
+13034	Bật tắt chế độ tin nhắn trò chuyện
+13037	Bật tắt hiển thị liên tục
+13054	Bật tắt yêu cầu công trình khác
+13056	Bật tắt hiện người tạo
+13057	Bật tắt chỉ hiện một lần
+13059	Bật tắt thông báo công trình
+13868	Chào mừng tới:
+14636	§7Có thể thấy thông báo ngay khi vào lại công trình.
+14641	§7Tên người tạo sẽ bị ẩn.
+14642	§7Tên người tạo sẽ được hiện.
+14665	§7Thông báo sẽ mờ dần sau một lúc.
+14666	§7Thông báo sẽ hiện suốt khi ở trong công trình.
+16221	§7Phải ghé công trình khác trước khi thấy lại thông báo.
+14683	§7Đã bật thông báo công trình.
+14684	§7Đã tắt thông báo công trình.
+14685	§7Thông báo công trình sẽ hiện dạng lớp phủ.
+14686	§7Thông báo công trình sẽ hiện trong khung trò chuyện.
+14687	§7Thông báo công trình sẽ hiện mỗi lần.
+14688	§7Thông báo công trình chỉ hiện một lần mỗi công trình.
+14694	§7Công trình này đã được đặt không hiện thông báo.
+14695	§7Công trình này sẽ không hiện thông báo.
+14700	§7Chào mừng tới: %1$s
+14701	§7Chào mừng tới: %1$s §7, tác giả: %2$s
+10795	thanh cuộn
+313	1. Chiến binh đơn độc.
+316	2. Huyền thoại trở lại.
+319	3. Vào vực sâu.
+322	4. Sương mù của kẻ bị lãng quên.
+323	5. Cánh cổng đọa đày.
+326	6. Cõi của kẻ hành hạ.
+327	7. Giới hạn cuối cùng.
+328	8. Lửa chống bóng tối.
+329	9. Sống sót qua điều không thể.
+1778	Giới hạn cuối cùng.
+2058	Chuyện kể Cave Horror: Tuyển tập
+2059	Chuyện kể Cave Horror: Tập 1

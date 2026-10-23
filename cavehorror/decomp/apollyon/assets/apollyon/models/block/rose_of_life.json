@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "apollyon:block/roseoflife",
+    "particle": "apollyon:block/roseoflife"
+  },
+  "render_type": "cutout"
+}

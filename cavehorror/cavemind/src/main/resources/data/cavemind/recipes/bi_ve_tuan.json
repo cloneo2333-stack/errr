@@ -1,0 +1,32 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "arphex"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "born_in_chaos_v1"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NGN",
+    "GOG",
+    "NGN"
+  ],
+  "key": {
+    "N": {
+      "item": "born_in_chaos_v1:dark_metal_nugget"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "O": {
+      "item": "arphex:fire_opal"
+    }
+  },
+  "result": {
+    "item": "cavemind:bi_ve_tuan"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "parent": "cavemind:chuong/c3_dung",
+  "display": {
+    "icon": {
+      "item": "cavemind:bi_ve_tuan"
+    },
+    "title": {
+      "text": "Chương 3: Nơi Bầu Trời Vỡ Ra"
+    },
+    "description": {
+      "text": "Thắng ván trốn tìm của Tuấn"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

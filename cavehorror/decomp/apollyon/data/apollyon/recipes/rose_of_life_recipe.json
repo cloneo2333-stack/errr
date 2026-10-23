@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:wither_rose"
+    },
+    "b": {
+      "item": "apollyon:sustenance"
+    }
+  },
+  "result": {
+    "item": "apollyon:rose_of_life",
+    "count": 1
+  }
+}

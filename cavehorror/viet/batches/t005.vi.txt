@@ -1,0 +1,220 @@
+2482	đang thu thập
+2848	Tạo cổng
+3509	Nghỉ sâu
+4345	ước lượng tiết kiệm với nén của MC
+4360	ví dụ
+4860	đầy đủ
+4994	toàn cục
+5295	mã băm
+5515	tốn tài nguyên, mặc định tắt
+5685	Nghỉ
+5686	Cổng nghỉ
+5747	vào
+6553	Nghỉ nhẹ
+6682	đã sáng
+6703	Đệm cục bộ
+7247	Bản đồ
+8152	tắt
+8159	ngoại tuyến
+8161	đệm ngoại tuyến
+8237	tỉ lệ tối ưu
+8238	Luồng đã tối ưu
+8239	luồng đã tối ưu
+8320	ra
+8352	gói tin thô
+8829	gói
+8909	người chơi
+9328	tỉ lệ
+9329	thô
+9353	luồng thô
+9398	thời gian thực
+10299	Gỡ cờ vô hiệu hóa
+10488	dùng lại
+10490	dùng lại đường truyền
+10723	tiết kiệm
+10949	đã gửi
+10962	máy chủ
+10964	đệm máy chủ
+10973	bộ nhớ máy chủ
+10975	Phiên máy chủ
+11759	máy chủ ngoại tuyến
+11760	máy chủ tạm
+12461	Tóm tắt
+12628	tạm
+12629	đệm tạm
+13151	Tổng
+13154	Tổng lưu lượng
+13155	tỉ lệ tổng
+13156	mẫu
+13188	Truyền tải đang tắt
+13189	Không thể truyền tải
+13206	đã cắt bớt
+13440	lý do không rõ
+13669	đang chờ đồng bộ 4Hz
+13670	Đang chờ lưu lượng của bộ tối ưu
+14114	Thắng
+14130	đường truyền
+3088	Chữ tùy chỉnh
+4792	Cài đặt Forge trong trò chơi
+4904	Chung
+5844	Nhập chữ bạn muốn vào đây (có thể nhiều dòng).
+15701	Chọn những thương hiệu bạn muốn hiện trên màn hình chính (nếu có).
+591	Điều chỉnh độ nhạy chuột theo mức phóng to
+1024	Tự điều chỉnh
+1289	Better Zoom
+1290	Cấu hình Better Zoom
+2343	Máy quay điện ảnh
+3733	Tắt nhún nhảy
+3754	Tắt nhún góc nhìn khi phóng to để hình ảnh không rung lắc
+15323	Hệ số làm mượt chuyển cảnh phóng to (cao hơn thì nhanh và kém mượt, thấp hơn thì chậm và mượt hơn)
+3965	Hệ số làm mượt: %s
+4190	Bật chuyển động máy quay điện ảnh khi phóng to
+4214	Bật chuyển cảnh mượt khi phóng to và thu nhỏ
+5552	Giữ để phóng to
+5609	Phím tắt
+7586	Cách điều chỉnh mức phóng to
+7666	Hệ số độ nhạy chuột khi phóng to
+7667	Độ nhạy chuột: %s
+8216	Mở cấu hình
+10350	Khi bật, phải giữ phím phóng to
+10727	Lưu cài đặt
+11367	Phóng to mượt
+13066	Bật tắt phóng to
+13886	Con lăn
+13887	Con lăn và phím tắt
+14472	Mức tăng mỗi lần phóng to hoặc thu nhỏ
+14473	Mức tăng phóng to: %s
+14475	Chế độ phóng to
+38	$%s mỗi tháng
+565	Thêm máy chủ của bạn
+1072	Quay lại
+1243	Hãy là người đầu tiên thêm máy chủ!
+1416	Trình đơn tích hợp máy chủ BisectHosting
+1917	Độ rộng nút
+2104	Đổi
+2322	Chọn gói tiết kiệm
+2324	Chọn loại gói
+2325	Chọn gói cao cấp
+2418	Đóng
+3611	Mô tả
+3760	Bỏ
+3781	Hiện biểu ngữ
+4452	Không tải được các gói
+4453	Không tải được danh sách máy chủ công cộng
+4480	Sai
+4511	Tính năng
+4549	Lọc theo tên
+4550	Lọc theo tên
+4551	Lọc theo nền tảng
+5616	Bạn dự kiến cùng lúc có bao nhiêu người chơi trên máy chủ?
+6375	Chơi lần cuối
+6404	Vị trí nút bên trái
+6423	Cùng tạo máy chủ Minecraft của bạn nào.
+6696	Đang tải các gói
+6697	Đang tải danh sách máy chủ công cộng
+7611	Màn hình cấu hình gói mod
+7677	Kéo thanh trượt để chọn gói khác
+7881	Tiếp
+8301	Đặt gói
+8346	Chế độ sửa gói
+8347	Mã gói
+8537	Mã đối tác
+15645	Nhấn "Chọn" để dùng gói này, hoặc nhấn "Đổi" để chọn gói khác.
+9108	Danh sách máy chủ công cộng
+9109	Màn hình tải máy chủ công cộng
+9110	Máy chủ công cộng
+10722	Lưu
+10910	Chọn
+10930	Chọn gói
+10972	Biểu ngữ danh sách máy chủ
+11436	Sắp xếp theo độ trễ
+11437	Sắp xếp theo số người chơi
+12916	Không có máy chủ công cộng nào.
+13014	Tiêu đề
+13089	Vị trí nút phía trên
+13217	Đúng
+13513	Dùng tệp ngôn ngữ
+13530	Màn hình cấu hình người dùng
+13548	Nút gốc
+13592	Xem máy chủ công cộng
+13839	Chúng tôi thấy bạn đang chạy:
+13845	Chúng tôi đã chọn gói hoàn hảo cho bạn!
+1303	Ống nhòm hai mắt
+60	%1$s mắc vào bụi gai khi cố trốn khỏi %2$s
+89	%1$s tắm hơi đến chết vì %2$s
+106	%1$s bị đâm thủng đến chết
+116	%1$s bị luộc sống bằng hơi nước
+661	Đá End phủ tảo
+990	Rừng thưa dương lá rung
+1020	Vườn cực quang
+1198	Hà biển
+1612	Máu nhỏ giọt
+1613	Máu ùng ục
+1765	Lá bụi gai
+1814	Phiến gạch lưu huỳnh
+1815	Cầu thang gạch lưu huỳnh
+1816	Tường gạch lưu huỳnh
+1817	Gạch lưu huỳnh
+2295	Gạch lưu huỳnh được đục
+3152	Lá bách
+3153	Chồi cây bách
+3388	Tấm biển treo gỗ chết
+3452	Tấm biển treo gỗ chết trên tường
+4068	Thuyền gỗ thiên giới
+4069	Thuyền gỗ thiên giới có rương
+4076	Nút gỗ thiên giới
+4091	Cửa gỗ thiên giới
+4099	Hàng rào gỗ thiên giới
+4100	Cổng rào gỗ thiên giới
+4108	Tấm biển treo gỗ thiên giới
+4115	Lá cây thiên giới
+4117	Thân cây thiên giới
+4136	Ván gỗ thiên giới
+4149	Tấm áp lực gỗ thiên giới
+4155	Chồi cây thiên giới
+4159	Tấm biển gỗ thiên giới
+4161	Phiến gỗ thiên giới
+4164	Cầu thang gỗ thiên giới
+4175	Cửa sập gỗ thiên giới
+4180	Tấm biển treo gỗ thiên giới trên tường
+4181	Tấm biển gỗ thiên giới trên tường
+4187	Gỗ thiên giới
+4256	Hoa nở End
+4264	Cây ký sinh Ender
+4327	Đá End
+4436	Hoa củ mắt
+4631	Tấm biển treo gỗ linh sam
+4694	Tấm biển treo gỗ linh sam trên tường
+5008	Chất liệu tơ đom đóm
+5113	Bãi sỏi
+5388	Tấm biển treo gỗ Hellbark
+5451	Tấm biển treo gỗ Hellbark trên tường
+5516	Cỏ cao vút
+5517	Cây cỏ cao vút
+5607	Suối nước nóng
+5622	Lá súng khổng lồ
+5670	Diên vĩ băng giá
+6045	Rừng thưa phượng tím
+6050	Tấm biển treo gỗ phượng tím
+6113	Tấm biển treo gỗ phượng tím trên tường
+6773	Dây sáng xoắn
+6774	Cây dây sáng xoắn
+6912	Tấm biển treo gỗ ma thuật
+6976	Tấm biển treo gỗ ma thuật trên tường
+7037	Tấm biển treo gỗ dái ngựa
+7100	Tấm biển treo gỗ dái ngựa trên tường
+7270	Thuyền gỗ phong
+7271	Thuyền gỗ phong có rương
+7278	Nút gỗ phong
+7293	Cửa gỗ phong
+7301	Hàng rào gỗ phong
+7302	Cổng rào gỗ phong
+7310	Tấm biển treo gỗ phong
+7317	Thân cây phong
+7336	Ván gỗ phong
+7349	Tấm áp lực gỗ phong
+7358	Tấm biển gỗ phong
+7360	Phiến gỗ phong
+7363	Cầu thang gỗ phong
+7374	Cửa sập gỗ phong
+7379	Tấm biển treo gỗ phong trên tường

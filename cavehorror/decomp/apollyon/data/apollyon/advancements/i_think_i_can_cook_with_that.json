@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "apollyon:stew_of_life"
+    },
+    "title": {
+      "translate": "advancements.i_think_i_can_cook_with_that.title"
+    },
+    "description": {
+      "translate": "advancements.i_think_i_can_cook_with_that.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "i_think_i_can_cook_with_that_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "apollyon:working_with_what_weve_got"
+}

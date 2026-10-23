@@ -1,0 +1,484 @@
+{
+ "variants": {
+  "facing=north,text=0": {
+   "model": "cavemind:block/chu_tuong_0"
+  },
+  "facing=east,text=0": {
+   "model": "cavemind:block/chu_tuong_0",
+   "y": 90
+  },
+  "facing=south,text=0": {
+   "model": "cavemind:block/chu_tuong_0",
+   "y": 180
+  },
+  "facing=west,text=0": {
+   "model": "cavemind:block/chu_tuong_0",
+   "y": 270
+  },
+  "facing=north,text=1": {
+   "model": "cavemind:block/chu_tuong_1"
+  },
+  "facing=east,text=1": {
+   "model": "cavemind:block/chu_tuong_1",
+   "y": 90
+  },
+  "facing=south,text=1": {
+   "model": "cavemind:block/chu_tuong_1",
+   "y": 180
+  },
+  "facing=west,text=1": {
+   "model": "cavemind:block/chu_tuong_1",
+   "y": 270
+  },
+  "facing=north,text=2": {
+   "model": "cavemind:block/chu_tuong_2"
+  },
+  "facing=east,text=2": {
+   "model": "cavemind:block/chu_tuong_2",
+   "y": 90
+  },
+  "facing=south,text=2": {
+   "model": "cavemind:block/chu_tuong_2",
+   "y": 180
+  },
+  "facing=west,text=2": {
+   "model": "cavemind:block/chu_tuong_2",
+   "y": 270
+  },
+  "facing=north,text=3": {
+   "model": "cavemind:block/chu_tuong_3"
+  },
+  "facing=east,text=3": {
+   "model": "cavemind:block/chu_tuong_3",
+   "y": 90
+  },
+  "facing=south,text=3": {
+   "model": "cavemind:block/chu_tuong_3",
+   "y": 180
+  },
+  "facing=west,text=3": {
+   "model": "cavemind:block/chu_tuong_3",
+   "y": 270
+  },
+  "facing=north,text=4": {
+   "model": "cavemind:block/chu_tuong_4"
+  },
+  "facing=east,text=4": {
+   "model": "cavemind:block/chu_tuong_4",
+   "y": 90
+  },
+  "facing=south,text=4": {
+   "model": "cavemind:block/chu_tuong_4",
+   "y": 180
+  },
+  "facing=west,text=4": {
+   "model": "cavemind:block/chu_tuong_4",
+   "y": 270
+  },
+  "facing=north,text=5": {
+   "model": "cavemind:block/chu_tuong_5"
+  },
+  "facing=east,text=5": {
+   "model": "cavemind:block/chu_tuong_5",
+   "y": 90
+  },
+  "facing=south,text=5": {
+   "model": "cavemind:block/chu_tuong_5",
+   "y": 180
+  },
+  "facing=west,text=5": {
+   "model": "cavemind:block/chu_tuong_5",
+   "y": 270
+  },
+  "facing=north,text=6": {
+   "model": "cavemind:block/chu_tuong_6"
+  },
+  "facing=east,text=6": {
+   "model": "cavemind:block/chu_tuong_6",
+   "y": 90
+  },
+  "facing=south,text=6": {
+   "model": "cavemind:block/chu_tuong_6",
+   "y": 180
+  },
+  "facing=west,text=6": {
+   "model": "cavemind:block/chu_tuong_6",
+   "y": 270
+  },
+  "facing=north,text=7": {
+   "model": "cavemind:block/chu_tuong_7"
+  },
+  "facing=east,text=7": {
+   "model": "cavemind:block/chu_tuong_7",
+   "y": 90
+  },
+  "facing=south,text=7": {
+   "model": "cavemind:block/chu_tuong_7",
+   "y": 180
+  },
+  "facing=west,text=7": {
+   "model": "cavemind:block/chu_tuong_7",
+   "y": 270
+  },
+  "facing=north,text=8": {
+   "model": "cavemind:block/chu_tuong_8"
+  },
+  "facing=east,text=8": {
+   "model": "cavemind:block/chu_tuong_8",
+   "y": 90
+  },
+  "facing=south,text=8": {
+   "model": "cavemind:block/chu_tuong_8",
+   "y": 180
+  },
+  "facing=west,text=8": {
+   "model": "cavemind:block/chu_tuong_8",
+   "y": 270
+  },
+  "facing=north,text=9": {
+   "model": "cavemind:block/chu_tuong_9"
+  },
+  "facing=east,text=9": {
+   "model": "cavemind:block/chu_tuong_9",
+   "y": 90
+  },
+  "facing=south,text=9": {
+   "model": "cavemind:block/chu_tuong_9",
+   "y": 180
+  },
+  "facing=west,text=9": {
+   "model": "cavemind:block/chu_tuong_9",
+   "y": 270
+  },
+  "facing=north,text=10": {
+   "model": "cavemind:block/chu_tuong_10"
+  },
+  "facing=east,text=10": {
+   "model": "cavemind:block/chu_tuong_10",
+   "y": 90
+  },
+  "facing=south,text=10": {
+   "model": "cavemind:block/chu_tuong_10",
+   "y": 180
+  },
+  "facing=west,text=10": {
+   "model": "cavemind:block/chu_tuong_10",
+   "y": 270
+  },
+  "facing=north,text=11": {
+   "model": "cavemind:block/chu_tuong_11"
+  },
+  "facing=east,text=11": {
+   "model": "cavemind:block/chu_tuong_11",
+   "y": 90
+  },
+  "facing=south,text=11": {
+   "model": "cavemind:block/chu_tuong_11",
+   "y": 180
+  },
+  "facing=west,text=11": {
+   "model": "cavemind:block/chu_tuong_11",
+   "y": 270
+  },
+  "facing=north,text=12": {
+   "model": "cavemind:block/chu_tuong_12"
+  },
+  "facing=east,text=12": {
+   "model": "cavemind:block/chu_tuong_12",
+   "y": 90
+  },
+  "facing=south,text=12": {
+   "model": "cavemind:block/chu_tuong_12",
+   "y": 180
+  },
+  "facing=west,text=12": {
+   "model": "cavemind:block/chu_tuong_12",
+   "y": 270
+  },
+  "facing=north,text=13": {
+   "model": "cavemind:block/chu_tuong_13"
+  },
+  "facing=east,text=13": {
+   "model": "cavemind:block/chu_tuong_13",
+   "y": 90
+  },
+  "facing=south,text=13": {
+   "model": "cavemind:block/chu_tuong_13",
+   "y": 180
+  },
+  "facing=west,text=13": {
+   "model": "cavemind:block/chu_tuong_13",
+   "y": 270
+  },
+  "facing=north,text=14": {
+   "model": "cavemind:block/chu_tuong_14"
+  },
+  "facing=east,text=14": {
+   "model": "cavemind:block/chu_tuong_14",
+   "y": 90
+  },
+  "facing=south,text=14": {
+   "model": "cavemind:block/chu_tuong_14",
+   "y": 180
+  },
+  "facing=west,text=14": {
+   "model": "cavemind:block/chu_tuong_14",
+   "y": 270
+  },
+  "facing=north,text=15": {
+   "model": "cavemind:block/chu_tuong_15"
+  },
+  "facing=east,text=15": {
+   "model": "cavemind:block/chu_tuong_15",
+   "y": 90
+  },
+  "facing=south,text=15": {
+   "model": "cavemind:block/chu_tuong_15",
+   "y": 180
+  },
+  "facing=west,text=15": {
+   "model": "cavemind:block/chu_tuong_15",
+   "y": 270
+  },
+  "facing=north,text=16": {
+   "model": "cavemind:block/chu_tuong_16"
+  },
+  "facing=east,text=16": {
+   "model": "cavemind:block/chu_tuong_16",
+   "y": 90
+  },
+  "facing=south,text=16": {
+   "model": "cavemind:block/chu_tuong_16",
+   "y": 180
+  },
+  "facing=west,text=16": {
+   "model": "cavemind:block/chu_tuong_16",
+   "y": 270
+  },
+  "facing=north,text=17": {
+   "model": "cavemind:block/chu_tuong_17"
+  },
+  "facing=east,text=17": {
+   "model": "cavemind:block/chu_tuong_17",
+   "y": 90
+  },
+  "facing=south,text=17": {
+   "model": "cavemind:block/chu_tuong_17",
+   "y": 180
+  },
+  "facing=west,text=17": {
+   "model": "cavemind:block/chu_tuong_17",
+   "y": 270
+  },
+  "facing=north,text=18": {
+   "model": "cavemind:block/chu_tuong_18"
+  },
+  "facing=east,text=18": {
+   "model": "cavemind:block/chu_tuong_18",
+   "y": 90
+  },
+  "facing=south,text=18": {
+   "model": "cavemind:block/chu_tuong_18",
+   "y": 180
+  },
+  "facing=west,text=18": {
+   "model": "cavemind:block/chu_tuong_18",
+   "y": 270
+  },
+  "facing=north,text=19": {
+   "model": "cavemind:block/chu_tuong_19"
+  },
+  "facing=east,text=19": {
+   "model": "cavemind:block/chu_tuong_19",
+   "y": 90
+  },
+  "facing=south,text=19": {
+   "model": "cavemind:block/chu_tuong_19",
+   "y": 180
+  },
+  "facing=west,text=19": {
+   "model": "cavemind:block/chu_tuong_19",
+   "y": 270
+  },
+  "facing=north,text=20": {
+   "model": "cavemind:block/chu_tuong_20"
+  },
+  "facing=east,text=20": {
+   "model": "cavemind:block/chu_tuong_20",
+   "y": 90
+  },
+  "facing=south,text=20": {
+   "model": "cavemind:block/chu_tuong_20",
+   "y": 180
+  },
+  "facing=west,text=20": {
+   "model": "cavemind:block/chu_tuong_20",
+   "y": 270
+  },
+  "facing=north,text=21": {
+   "model": "cavemind:block/chu_tuong_21"
+  },
+  "facing=east,text=21": {
+   "model": "cavemind:block/chu_tuong_21",
+   "y": 90
+  },
+  "facing=south,text=21": {
+   "model": "cavemind:block/chu_tuong_21",
+   "y": 180
+  },
+  "facing=west,text=21": {
+   "model": "cavemind:block/chu_tuong_21",
+   "y": 270
+  },
+  "facing=north,text=22": {
+   "model": "cavemind:block/chu_tuong_22"
+  },
+  "facing=east,text=22": {
+   "model": "cavemind:block/chu_tuong_22",
+   "y": 90
+  },
+  "facing=south,text=22": {
+   "model": "cavemind:block/chu_tuong_22",
+   "y": 180
+  },
+  "facing=west,text=22": {
+   "model": "cavemind:block/chu_tuong_22",
+   "y": 270
+  },
+  "facing=north,text=23": {
+   "model": "cavemind:block/chu_tuong_23"
+  },
+  "facing=east,text=23": {
+   "model": "cavemind:block/chu_tuong_23",
+   "y": 90
+  },
+  "facing=south,text=23": {
+   "model": "cavemind:block/chu_tuong_23",
+   "y": 180
+  },
+  "facing=west,text=23": {
+   "model": "cavemind:block/chu_tuong_23",
+   "y": 270
+  },
+  "facing=north,text=24": {
+   "model": "cavemind:block/chu_tuong_24"
+  },
+  "facing=east,text=24": {
+   "model": "cavemind:block/chu_tuong_24",
+   "y": 90
+  },
+  "facing=south,text=24": {
+   "model": "cavemind:block/chu_tuong_24",
+   "y": 180
+  },
+  "facing=west,text=24": {
+   "model": "cavemind:block/chu_tuong_24",
+   "y": 270
+  },
+  "facing=north,text=25": {
+   "model": "cavemind:block/chu_tuong_25"
+  },
+  "facing=east,text=25": {
+   "model": "cavemind:block/chu_tuong_25",
+   "y": 90
+  },
+  "facing=south,text=25": {
+   "model": "cavemind:block/chu_tuong_25",
+   "y": 180
+  },
+  "facing=west,text=25": {
+   "model": "cavemind:block/chu_tuong_25",
+   "y": 270
+  },
+  "facing=north,text=26": {
+   "model": "cavemind:block/chu_tuong_26"
+  },
+  "facing=east,text=26": {
+   "model": "cavemind:block/chu_tuong_26",
+   "y": 90
+  },
+  "facing=south,text=26": {
+   "model": "cavemind:block/chu_tuong_26",
+   "y": 180
+  },
+  "facing=west,text=26": {
+   "model": "cavemind:block/chu_tuong_26",
+   "y": 270
+  },
+  "facing=north,text=27": {
+   "model": "cavemind:block/chu_tuong_27"
+  },
+  "facing=east,text=27": {
+   "model": "cavemind:block/chu_tuong_27",
+   "y": 90
+  },
+  "facing=south,text=27": {
+   "model": "cavemind:block/chu_tuong_27",
+   "y": 180
+  },
+  "facing=west,text=27": {
+   "model": "cavemind:block/chu_tuong_27",
+   "y": 270
+  },
+  "facing=north,text=28": {
+   "model": "cavemind:block/chu_tuong_28"
+  },
+  "facing=east,text=28": {
+   "model": "cavemind:block/chu_tuong_28",
+   "y": 90
+  },
+  "facing=south,text=28": {
+   "model": "cavemind:block/chu_tuong_28",
+   "y": 180
+  },
+  "facing=west,text=28": {
+   "model": "cavemind:block/chu_tuong_28",
+   "y": 270
+  },
+  "facing=north,text=29": {
+   "model": "cavemind:block/chu_tuong_29"
+  },
+  "facing=east,text=29": {
+   "model": "cavemind:block/chu_tuong_29",
+   "y": 90
+  },
+  "facing=south,text=29": {
+   "model": "cavemind:block/chu_tuong_29",
+   "y": 180
+  },
+  "facing=west,text=29": {
+   "model": "cavemind:block/chu_tuong_29",
+   "y": 270
+  },
+  "facing=north,text=30": {
+   "model": "cavemind:block/chu_tuong_30"
+  },
+  "facing=east,text=30": {
+   "model": "cavemind:block/chu_tuong_30",
+   "y": 90
+  },
+  "facing=south,text=30": {
+   "model": "cavemind:block/chu_tuong_30",
+   "y": 180
+  },
+  "facing=west,text=30": {
+   "model": "cavemind:block/chu_tuong_30",
+   "y": 270
+  },
+  "facing=north,text=31": {
+   "model": "cavemind:block/chu_tuong_31"
+  },
+  "facing=east,text=31": {
+   "model": "cavemind:block/chu_tuong_31",
+   "y": 90
+  },
+  "facing=south,text=31": {
+   "model": "cavemind:block/chu_tuong_31",
+   "y": 180
+  },
+  "facing=west,text=31": {
+   "model": "cavemind:block/chu_tuong_31",
+   "y": 270
+  }
+ }
+}

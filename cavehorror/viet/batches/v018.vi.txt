@@ -1,0 +1,130 @@
+15069	Thêm mô đun thông minh vào Bẫy sàn sẽ khiến nó biến mất khi một bẫy sàn cùng chủ ngay cạnh biến mất.
+15070	Thêm mô đun thông minh vào đầu đọc thẻ từ sẽ cho phép điều khiển tự do các cấp thẻ từ mà đầu đọc chấp nhận.
+15071	Thêm mô đun thông minh vào khối laser sẽ cho phép tắt laser ở từng mặt cụ thể của khối.
+15072	Thêm mô đun thông minh vào Bộ ổn định khe nứt sẽ cho phép bạn chọn loại dịch chuyển mà nó phát hiện được.
+15073	Thêm mô đun thông minh vào Thuyền biển an ninh sẽ áp thời gian chờ sau khi nhập sai mã. Trong thời gian đó, không thể nhập mã mới.
+15074	Thêm mô đun thông minh vào Hệ thống đánh chặn sẽ cho phép bạn chọn loại vật phóng mà hệ thống được phép nhắm tới.
+15075	Thêm mô đun thông minh vào chuông báo động sẽ cho phép bạn chọn âm thanh nó phát khi được kích hoạt.
+15076	Thêm mô đun thông minh vào máy quét túi đồ sẽ khiến máy kiểm tra cả phù phép và dữ liệu khác khi quét túi đồ.
+15077	Thêm mô đun tốc độ vào protecto sẽ cho phép nó tấn công nhanh gấp đôi.
+15078	Thêm mô đun tốc độ vào Hệ thống đánh chặn cho phép nó phá hủy mục tiêu nhanh gấp đôi.
+15079	Thêm mô đun tốc độ vào I.M.S. sẽ khiến I.M.S. bắn nhanh hơn, đồng thời tăng tốc độ của bom được bắn ra.
+15080	Thêm mô đun lưu trữ vào Bộ quản lý Túi khối sẽ thêm kho chứa cho nó, cho phép bạn cất các khối cần để xây Túi khối. Việc này cũng cho phép tự lắp ráp Túi khối nếu có đủ nguyên liệu.
+15081	Thêm mô đun lưu trữ sẽ cho phép máy quét cất vật phẩm tìm được vào kho chứa sẵn có khi có thứ gì đi qua vùng quét.
+15082	Thêm mô đun danh sách cho phép vào máy dò thay đổi khối sẽ cho phép người chơi trong danh sách đặt hoặc phá khối gần đó mà không bị ghi lại. Họ cũng xem được mọi mục đã ghi, nhưng không thể xóa hay đổi cài đặt của khối.
+15083	Thêm mô đun danh sách cho phép vào Bộ quản lý Túi khối sẽ cho phép người chơi trong danh sách đi xuyên qua các mặt của Túi khối.
+15084	Thêm mô đun danh sách cho phép vào Bẫy lồng sẽ giúp người chơi trong danh sách không bị bẫy.
+15085	Thêm mô đun danh sách cho phép vào tủ trưng bày sẽ cho phép người chơi trong danh sách mở mà không cần biết mã.
+15086	Thêm mô đun danh sách cho phép vào Bẫy sàn sẽ cho phép người chơi trong danh sách đi qua khối mà không kích hoạt bẫy.
+15087	Thêm mô đun danh sách cho phép vào khung sẽ cho phép người chơi trong danh sách xem hình ảnh máy quay hiện tại của khung, và chọn máy quay hiện trong khung.
+15088	Thêm mô đun danh sách cho phép vào bảng phím sẽ cho phép người chơi trong danh sách dùng khối mà không cần biết mã.
+15089	Thêm mô đun danh sách cho phép vào đầu đọc thẻ từ sẽ cho phép người chơi trong danh sách gắn thẻ từ của họ với đầu đọc và xem cài đặt.
+15090	Thêm mô đun danh sách cho phép vào cửa bàn phím sẽ cho phép người chơi trong danh sách dùng khối mà không cần biết mã.
+15091	Thêm mô đun danh sách cho phép vào cửa sập bàn phím sẽ cho phép người chơi trong danh sách dùng khối mà không cần biết mã.
+15092	Thêm mô đun danh sách cho phép vào bàn phím sẽ cho phép người chơi trong danh sách dùng khối mà không cần biết mã.
+15093	Thêm mô đun danh sách cho phép vào khối laser sẽ cho phép người chơi trong danh sách đi qua tia laser mà không phát tín hiệu Redstone.
+15094	Thêm mô đun danh sách cho phép vào nút báo động khẩn sẽ cho phép người chơi trong danh sách nhấn nút.
+15095	Thêm mô đun danh sách cho phép vào Thùng có mật mã sẽ cho phép người chơi mở mà không cần biết mã. Ngoài ra, Phễu gia cố của người chơi trong danh sách có thể lấy vật phẩm ra khỏi thùng.
+15096	Thêm mô đun danh sách cho phép vào Lò luyện có mật mã sẽ cho phép người chơi mở mà không cần biết mã. Ngoài ra, Phễu gia cố của người chơi trong danh sách có thể lấy vật phẩm ra khỏi lò luyện.
+15097	Thêm mô đun danh sách cho phép vào Rương có mật mã sẽ cho phép người chơi mở mà không cần biết mã. Ngoài ra, Phễu gia cố của người chơi trong danh sách có thể lấy vật phẩm ra khỏi rương.
+15098	Thêm mô đun danh sách cho phép vào Lò nung có mật mã sẽ cho phép người chơi mở mà không cần biết mã. Ngoài ra, Phễu gia cố của người chơi trong danh sách có thể lấy vật phẩm ra khỏi lò nung.
+15099	Thêm mô đun danh sách cho phép vào Lò hun khói có mật mã sẽ cho phép người chơi mở mà không cần biết mã. Ngoài ra, Phễu gia cố của người chơi trong danh sách có thể lấy vật phẩm ra khỏi lò hun khói.
+15100	Thêm mô đun danh sách cho phép vào radar cầm tay sẽ loại người chơi trong danh sách khỏi việc dò tìm của radar.
+15101	Thêm mô đun danh sách cho phép vào protecto sẽ cho phép người chơi trong danh sách đi vào tầm của protecto mà không bị nhắm tới.
+15102	Thêm mô đun danh sách cho phép vào nút gia cố sẽ cho phép người chơi trong danh sách kích hoạt nó.
+15103	Thêm mô đun danh sách cho phép vào Vạc gia cố sẽ cho phép người chơi trong danh sách tương tác với Vạc gia cố.
+15104	Thêm mô đun danh sách cho phép vào Kệ sách được đục gia cố sẽ cho phép người chơi trong danh sách tương tác với Kệ sách được đục gia cố.
+15105	Thêm mô đun danh sách cho phép vào Máy phân phát gia cố sẽ cho phép người chơi trong danh sách xem đồ bên trong. Ngoài ra, Phễu gia cố của người chơi trong danh sách có thể lấy vật phẩm ra khỏi máy phân phát.
+15106	Thêm mô đun danh sách cho phép vào Máy thả gia cố sẽ cho phép người chơi trong danh sách xem đồ bên trong. Ngoài ra, Phễu gia cố của người chơi trong danh sách có thể lấy vật phẩm ra khỏi máy thả.
+15107	Thêm mô đun danh sách cho phép vào cổng rào gia cố sẽ cho phép người chơi trong danh sách mở nó.
+15108	Thêm mô đun danh sách cho phép vào phễu gia cố sẽ cho phép người chơi trong danh sách xem đồ bên trong phễu.
+15109	Thêm mô đun danh sách cho phép vào Bục giảng gia cố sẽ cho phép người chơi trong danh sách đọc sách trên bục. Họ vẫn không thể lấy sách ra.
+15110	Thêm mô đun danh sách cho phép vào Cần gạt gia cố sẽ cho phép người chơi trong danh sách kích hoạt nó.
+15111	Thêm mô đun danh sách cho phép vào tấm áp lực gia cố sẽ cho phép người chơi trong danh sách kích hoạt nó.
+15112	Thêm mô đun danh sách cho phép vào Bộ ổn định khe nứt sẽ cho phép người chơi trong danh sách dịch chuyển vào hoặc ra khỏi vùng lân cận khối.
+15113	Thêm mô đun danh sách cho phép vào cửa quét sẽ cho phép người chơi dùng cửa quét dù họ không phải người đặt khối.
+15114	Thêm mô đun danh sách cho phép vào cửa sập quét sẽ cho phép người chơi dùng cửa sập quét dù họ không phải người đặt khối.
+15115	Thêm mô đun danh sách cho phép vào biển bí mật sẽ cho phép người chơi trong danh sách tương tác và đọc chữ trên đó.
+15116	Thêm mô đun danh sách cho phép vào Thuyền biển an ninh sẽ cho phép người chơi lên thuyền, và mở rương mà không cần biết mã. Ngoài ra, Phễu gia cố của người chơi trong danh sách có thể lấy vật phẩm ra khỏi rương.
+15117	Thêm mô đun danh sách cho phép vào hệ thống an ninh âm thanh sẽ cho phép người chơi trong danh sách lưu giai điệu của hệ thống vào máy phát giai điệu cầm tay, và nghe giai điệu trong giao diện của hệ thống.
+15118	Thêm mô đun danh sách cho phép vào Hệ thống đánh chặn sẽ khiến nó bỏ qua vật phóng do người chơi trong danh sách ném, cùng đạn của Súng canh và bom I.M.S. của họ.
+15119	Thêm mô đun danh sách cho phép vào Máy ghi tên người dùng sẽ giúp người chơi trong danh sách không bị ghi lại, đồng thời cho họ xem danh sách người đã bị ghi.
+15120	Thêm mô đun danh sách cho phép vào hàng rào hoặc cổng rào điện sẽ cho phép người chơi trong danh sách chạm vào mà không bị thương.
+15121	Thêm mô đun danh sách cho phép vào I.M.S. sẽ cho phép người chơi trong danh sách đi vào tầm của I.M.S. mà không bị nhắm tới.
+15122	Thêm mô đun danh sách cho phép vào máy quét túi đồ sẽ cho phép người chơi trong danh sách đi qua vùng quét mà không bị kiểm tra túi đồ.
+15123	Thêm mô đun danh sách cho phép vào máy quay sẽ cho phép người chơi trong danh sách truy cập máy quay.
+15124	Thêm mô đun danh sách cho phép vào máy quét võng mạc sẽ cho phép người chơi trong danh sách dùng máy quét dù họ không phải người đặt khối.
+15125	Thêm mô đun Redstone vào máy quay cho phép máy quay phát tín hiệu Redstone 15 khối khi được bật.
+15126	Thêm mô đun thông minh vào máy quay cho phép chủ đặt hướng nhìn mặc định chỉ bằng một nút bấm. Đây là hướng người chơi sẽ nhìn khi bắt đầu xem máy quay.
+593	Chế độ quản trị
+594	Công cụ quản trị
+636	Ảnh hưởng mọi người chơi
+637	Ảnh hưởng mọi người chơi.
+640	Chế độ hung hăng
+652	Chuông báo động
+653	Chuông báo động đang kêu
+747	Thông báo danh sách cho phép: %s
+748	Mô đun danh sách cho phép
+15149	Đã xảy ra lỗi bất ngờ khi hiện hình ảnh máy quay. Rất có thể do mod không tương thích. Xem thêm thông tin trong nhật ký trò chơi.
+810	Mìn mảnh vỡ cổ đại
+15152	Bất kỳ tín hiệu Redstone nào cũng khiến máy gửi phát tín hiệu cường độ 15.
+15153	Mọi khối gia cố đều chế tạo được như sau, nếu sách này không nói khác. Đặt khối gốc tương ứng (ví dụ Đá gia cố → Đá) rồi phá nó bằng Máy gia cố khối đa năng, hoặc nhấp chuột phải Máy gia cố khối đa năng, đặt khối vào ô rồi đóng giao diện.
+15165	Lắp ráp Túi khối thất bại %1$s Bộ quản lý Túi khối. (Khối sai: %2$s)
+1026	Tự lắp ráp
+1048	Mô đun có sẵn:
+1049	Tùy chọn có sẵn:
+1073	Chữ mặt sau:
+1166	Bè biển an ninh tre
+1390	Thuyền biển an ninh gỗ bạch dương
+1542	Mìn lò luyện
+1557	Máy dò thay đổi khối
+1569	Mìn khối
+15199	Mìn khối là mìn ngụy trang thành một khối khác. Đi vào hoặc đào phải sẽ khiến nó phát nổ. Chủ của mìn thì không bị.
+1573	Khối thạch anh pha lê
+1581	Đã kích hoạt Túi khối!
+1582	Đã lắp ráp Túi khối!
+1583	Đã tắt Túi khối!
+1584	Bộ quản lý Túi khối
+1585	Tường Túi khối
+15200	Tường Túi khối dùng để xây Túi khối. Xem thêm ở trang Bộ quản lý Túi khối.
+1587	Gia cố khối
+1757	Mìn nhảy
+1758	Đã gắn máy quay tại %s vào màn hình.
+1759	Đã gắn mìn tại %s vào công cụ điều khiển từ xa.
+1760	Đã gắn súng canh tại %s vào công cụ điều khiển từ xa.
+1772	Phá
+1773	Phá và đặt
+1809	Cặp tài liệu
+15202	bởi Geforce, bl4ckscor3, Redstone_Dubstep và ChainmailPickaxe
+1941	Bẫy lồng
+1953	Màn hình máy quay
+1954	Tên máy quay: %s
+1956	Màn trập máy quay
+1965	Máy quay thu phóng
+1966	Chế độ ngụy trang
+1979	Sinh vật NPC nhìn vào máy quét có kích hoạt được nó không?
+2017	Bắt sinh vật: %s
+2239	Thuyền biển an ninh gỗ anh đào
+2296	Khối thạch anh pha lê chạm khắc
+2323	Chọn màu viền
+2338	Khoảng cách tải đoạn: %s
+2372	Mìn Claymore
+15249	Mìn Claymore phát nổ một giây sau khi có sinh vật hoặc người chơi đi vào phạm vi 5 khối phía trước mìn. Nhấp chuột phải vào mìn khi cầm kìm cắt dây sẽ tháo ngòi và cho phép phá nó. Nhấp chuột phải khi cầm đá lửa và thép sẽ bật lại.
+2378	Xóa danh sách
+2379	Xóa bản ghi
+2388	Nhấp vào đây để sao chép %s mục đăng ký vào bộ nhớ tạm.
+15253	Nhấp vào một mục âm thanh trong danh sách để chọn âm thanh chuông báo động phát.
+15254	Nhấp vào các ô bên dưới để chọn những mặt laser hoạt động.
+15255	Nhấp vào các mục trong danh sách bên dưới để bật tắt việc phát hiện loại dịch chuyển đó.
+15256	Nhấp vào các mục trong danh sách bên dưới để bật tắt việc nhắm tới loại vật phóng đó.
+2427	Mìn quặng than
+2432	Mìn đá cuội phiến sâu
+2442	Mìn đá cuội
+2451	Bẻ khóa mã thất bại, hãy thử lại.
+2452	Máy bẻ mã
+2496	Thấu kính màu
+15262	Ghép thẻ này với một Thẻ từ dùng giới hạn trong bàn chế tạo để điều chỉnh số lần dùng được.
+2525	Đầu ra bộ so sánh: %s
+2592	Khóa kho chứa
+2613	Đã chuyển đổi khối tại %s, %s, %s
+2668	Thời gian chờ: %s

@@ -1,0 +1,220 @@
+8308	Tấm kính hoa văn
+8334	Vũ khí quá nặng
+8577	Mảnh băng vĩnh cửu
+8579	Bom bóng ma
+8580	Creeper bóng ma
+8581	Sinh ra Creeper bóng ma
+8582	Trứng sinh ra Creeper bóng ma
+8584	Bột bóng ma
+8614	Mẩu kim loại tối
+8625	Đống kim loại tối
+8626	Đống đầu lâu
+8970	Thuốc say xỉn
+8971	Thuốc kén sống
+8972	Thuốc hút cạn ma lực
+8974	Thuốc kích thích
+9002	Khao khát của kẻ săn mồi
+9095	Được bóng tối che chở
+9112	Vũng say xỉn
+9113	Vũng kích thích
+9123	Bom bí ngô
+9124	Trứng sinh ra Bom bí ngô
+9125	Bí ngô đầu gấu
+9126	Trứng sinh ra Bí ngô đầu gấu
+9127	Bí ngô ngốc nghếch
+9128	Trứng sinh ra Bí ngô ngốc nghếch
+9132	Ngài Bí Ngô
+9133	Linh hồn bí ngô
+9134	Biểu tượng Linh hồn bí ngô
+9135	Trứng sinh ra Linh hồn bí ngô
+9137	Đầu bí ngô
+9138	Biểu tượng Đầu bí ngô
+9139	Trứng sinh ra Đầu bí ngô
+9176	Kính hoa văn tím
+9177	Tấm kính hoa văn tím
+9201	Đội Mũ của Lính đặt mìn bị nguyền
+9268	Nhanh nhẹn như thỏ
+9302	Cuồng nộ
+9303	CUỒNG NỘ!
+9304	Cuồng nộ bùng phát
+10294	Ăn Kẹo bạc hà để hết Mùi thối
+10464	Linh hồn không yên
+10465	Sinh ra Linh hồn không yên
+10466	Trứng sinh ra Linh hồn không yên
+10541	Mổ toang Dạ dày cá tham ăn
+10544	Bạc hà sông
+10629	Trứng Phục Sinh thối
+10630	Cá thối
+10631	Bí ngô địa ngục thối
+10632	Đất thối
+10633	Mùi thối
+10674	Hiến tế
+10743	Bù nhìn rơm
+10749	Kính hoa văn đỏ thắm
+10750	Tấm kính hoa văn đỏ thắm
+10751	Kẻ truy bức đỏ thắm
+10752	Trứng sinh ra Kẻ truy bức đỏ thắm
+10767	Nút gỗ cháy sém
+10768	Hàng rào gỗ cháy sém
+10769	Cổng rào gỗ cháy sém
+10771	Thân cây cháy sém
+10772	Ván gỗ cháy sém
+10773	Cửa gỗ cháy sém
+10774	Phiến gỗ cháy sém
+10775	Cầu thang gỗ cháy sém
+10776	Tấm áp lực gỗ cháy sém
+10779	Cửa sập gỗ cháy sém
+10780	Gỗ cháy sém
+10846	Linh hồn cháy xém
+10847	Trứng sinh ra Linh hồn cháy xém
+10848	Sự kiện theo mùa
+10906	Hạt giống hỗn loạn
+10945	Thầy triệu hồi lão luyện
+10946	Quý ông Bí Ngô
+10947	Trứng sinh ra Quý ông Bí Ngô
+10959	Sinh ra Sir Pumpkinhead
+10960	Sir Pumpkinhead chỉ xuất hiện từ ngày 25 tháng 10 đến ngày 5 tháng 11
+11032	Lắc và trộn
+11040	Sọ vỡ nát
+11043	Chiến binh vỏ cứng
+11166	Bộ xương dính liền
+11167	Trứng sinh ra Bộ xương dính liền
+11168	Cặp bộ xương dính liền
+11169	Trứng sinh ra Cặp bộ xương dính liền
+11230	Sir Pumpkinhead
+11231	Trứng sinh ra Sir Pumpkinhead
+11232	Kỵ sĩ không đầu
+11233	Trứng sinh ra Kỵ sĩ không đầu
+11240	Sinh ra Bom bộ xương
+11244	Bộ xương đặt mìn
+11245	Trứng sinh ra Bộ xương đặt mìn
+11248	Bộ xương đập phá
+11249	Sinh ra Bộ xương đập phá
+11250	Trứng sinh ra Bộ xương đập phá
+11344	Cá hun khói
+11345	Thịt hun khói
+11346	Thịt quái vật hun khói
+11351	Thân cây cháy sém âm ỉ
+11352	Gỗ cháy sém âm ỉ
+11379	Bão tuyết
+11447	Kẻ ăn linh hồn
+11452	Phân tầng linh hồn
+11453	Hiệu ứng phân tầng linh hồn
+11490	Công trình sinh ra: §7Gò chó săn
+11491	Công trình sinh ra: §4Tháp bóng tối
+11492	Công trình sinh ra: §5Đoàn xe chú hề
+11493	Công trình sinh ra: §6Tháp canh
+11494	Công trình sinh ra: §cGiếng lửa
+11495	Công trình sinh ra: §eTrang trại
+11557	Hàm nhện
+11595	Nhện lãnh chúa
+11600	Nhện mẹ
+11601	Trứng sinh ra Nhện mẹ
+11606	Vỏ gai
+11607	Linh hồn dẫn đường
+11608	Phụ tá Linh hồn dẫn đường
+11609	Trứng sinh ra Phụ tá Linh hồn dẫn đường
+11610	Sinh ra Linh hồn dẫn đường
+11611	Trứng sinh ra Linh hồn dẫn đường
+11612	Biểu tượng Linh hồn dẫn đường
+11613	Linh hồn hỗn loạn
+11614	Sinh ra Linh hồn hỗn loạn
+11615	Trứng sinh ra Linh hồn hỗn loạn
+11616	Bụi linh hồn
+11617	Trứng Phục Sinh linh hồn
+11618	Bánh gừng linh hồn
+11619	Thuốc say xỉn có thể ném được
+11620	Thuốc kén sống có thể ném được
+11621	Thuốc hút cạn ma lực có thể ném được
+11623	Thuốc kích thích có thể ném được
+11668	Chàng cao bồi gỗ vân sam dưới ánh trăng
+11669	Biểu tượng Chàng cao bồi gỗ vân sam dưới ánh trăng
+11757	Cận vệ của chúa tể bóng tối
+11758	Cận vệ của Chúa tể bóng tối
+11799	Gậy gây mù
+11811	Gạch đá sét đen ố màu
+15769	Đứng trên thân cây vân sam khi đang cưỡi, đội Mũ của Lính đặt mìn bị nguyền dưới ánh trăng, giết bất kỳ quái vật nào.
+11838	Giẫm vào bẫy chó săn
+11845	Nước sắc kích thích
+11846	Cơn kích thích dâng trào
+11847	Kích thích
+11889	Bền bỉ như đá
+12338	Thân cây cháy sém đã cạo vỏ
+12339	Gỗ cháy sém đã cạo vỏ
+12410	Cuồng nộ mạnh
+12418	Choáng váng
+12419	Làm ai đó choáng bằng Búa phá sọ
+12420	Đòn gây choáng
+12493	Kẻ gọi xương tối cao
+12494	Trứng sinh ra Kẻ gọi xương tối cao
+12511	Kẻ bầy đàn
+12512	Trứng sinh ra Kẻ bầy đàn
+12515	Trận chiến ngọt ngào
+12520	Cơn điên ngọt ngào
+12530	Bản giao hưởng hỗn loạn
+12654	Sự hiện diện đáng sợ
+12693	Giòi xuất hiện sau khi thây ma chết
+12719	Ngày của người chết
+12900	Gió tối sầm
+12974	Cua vỏ gai
+12975	Sinh ra Cua vỏ gai
+12976	Trứng sinh ra Cua vỏ gai
+16077	Biến Linh hồn cháy xém thành Linh hồn địa ngục bằng Thuốc tiên biến đổi
+13180	Bông hoa biến hình
+13185	Thuật biến đổi
+13199	Cho kẹo hay bị ghẹo
+13408	Triệu hồi xác sống
+13422	Hòa làm một với bóng tối
+13423	Hòa làm một với bóng tối
+13449	Thợ săn xui xẻo
+13806	Máy tái chế rác
+13854	Đá giăng tơ
+14142	Kháng khô héo
+14231	Ông già Noel giả
+14435	Cơn no của bạn sẽ là vĩnh cửu!
+14453	Thây ma đầu gấu
+14454	Sinh ra Thây ma đầu gấu
+14455	Trứng sinh ra Thây ma đầu gấu
+14456	Thây ma chú hề
+14457	Sinh ra Thây ma chú hề
+14458	Trứng sinh ra Thây ma chú hề
+14459	Thây ma ngư dân
+14460	Sinh ra Thây ma ngư dân
+14461	Trứng sinh ra Thây ma ngư dân
+14462	Thây ma tiều phu
+14463	Sinh ra Thây ma tiều phu
+14464	Trứng sinh ra Thây ma tiều phu
+14466	Sinh ra Thây ma trong thùng
+14491	§2Bùa tàng hình
+14497	§3Quặng kim cương bị nhiễm
+14500	§4Trí khôn
+14501	§4Bùa cuồng nộ
+14503	§4Đá sét đen bị nguyền
+14504	§4Gạch đá sét đen bị nguyền
+14505	§4Phiến gạch đá sét đen bị nguyền
+14506	§4Cầu thang gạch đá sét đen bị nguyền
+14507	§4Tường gạch đá sét đen bị nguyền
+14508	§4Cột đá sét đen bị nguyền
+14509	§4Phiến cột đá sét đen bị nguyền
+14510	§4Phiến đá sét đen bị nguyền
+14511	§4Cầu thang đá sét đen bị nguyền
+14512	§4Tường đá sét đen bị nguyền
+14513	§4Đá sét đen chạm khắc bị nguyền
+14514	§4Gạch đá sét đen nứt bị nguyền
+14515	§4Đá sét đen nung bị nguyền
+14516	§4Gạch đá sét đen phủ rêu bị nguyền
+14517	§4Tấm kính hoa văn đỏ thắm bị nguyền
+14518	§4Gạch đá sét đen ố màu bị nguyền
+14520	§4Quả cầu của thầy triệu hồi
+14521	§4Búa dừng
+14522	§4Biện pháp tối cao
+14525	§4Bia mộ: Plug
+14530	§6Túi kẹo
+14531	§6Cành bạch dương
+14532	§6Gậy Kẻ gọi xương
+14534	§6Kiếm cà rốt
+14537	§6Bẫy chó săn đã đóng
+14538	§6Mũ của Lính đặt mìn bị nguyền
+14539	§6Ủng kim loại tối
+14540	§6Áo kim loại tối
+14541	§6Mũ kim loại tối

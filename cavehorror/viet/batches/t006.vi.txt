@@ -1,0 +1,220 @@
+7380	Tấm biển gỗ phong trên tường
+7386	Gỗ phong
+7631	Đồng hoang
+7638	Cát đen phủ rêu
+8274	Đống lá phong cam
+8275	Lá phong cam
+8276	Chồi cây phong cam
+8330	Thảm cỏ um tùm
+8441	Tấm biển treo gỗ dừa
+8504	Tấm biển treo gỗ dừa trên tường
+8644	Thuyền gỗ thông
+8645	Thuyền gỗ thông có rương
+8652	Nút gỗ thông
+8667	Cửa gỗ thông
+8675	Hàng rào gỗ thông
+8676	Cổng rào gỗ thông
+8684	Tấm biển treo gỗ thông
+8691	Lá thông
+8693	Thân cây thông
+8712	Ván gỗ thông
+8725	Tấm áp lực gỗ thông
+8731	Chồi cây thông
+8735	Tấm biển gỗ thông
+8737	Phiến gỗ thông
+8740	Cầu thang gỗ thông
+8751	Cửa sập gỗ thông
+8756	Tấm biển treo gỗ thông trên tường
+8757	Tấm biển gỗ thông trên tường
+8763	Gỗ thông
+8982	Chậu chồi cây bách
+8983	Chậu chồi cây thiên giới
+8984	Chậu hoa nở End
+8986	Chậu chồi cây phong cam
+8987	Chậu chồi cây thông
+8988	Chậu chồi cây phong đỏ
+8989	Chậu chồi cây hoa tuyết
+8991	Chậu xương rồng tí hon
+8992	Chậu oải hương trắng
+8995	Chậu chồi cây phong vàng
+9196	Bong bóng mủ vỡ
+9558	Đống lá phong đỏ
+9559	Lá phong đỏ
+9560	Chồi cây phong đỏ
+9690	Tấm biển treo gỗ đỏ
+9753	Tấm biển treo gỗ đỏ trên tường
+10615	Cục thạch anh hồng
+10616	Chất liệu thạch anh hồng
+11380	Rừng hoa tuyết
+11382	Lá hoa tuyết
+11383	Chồi cây hoa tuyết
+11533	Trứng nhện vỡ
+12018	Thân cây thiên giới đã cạo vỏ
+12030	Gỗ thiên giới đã cạo vỏ
+12222	Thân cây phong đã cạo vỏ
+12234	Gỗ phong đã cạo vỏ
+12292	Thân cây thông đã cạo vỏ
+12304	Gỗ thông đã cạo vỏ
+12552	Oải hương cao
+12553	Oải hương trắng cao
+12929	Calcit nóng
+12930	Lỗ phun calcit nóng
+13005	Xương rồng tí hon
+13223	Bụi cây lãnh nguyên
+13297	Tấm biển treo gỗ phù thủy
+13360	Tấm biển treo gỗ phù thủy trên tường
+13807	Thảo nguyên hoang mạc
+13815	Hoa súng
+13945	Oải hương trắng
+13955	Cánh hoa trắng
+14045	Tấm biển treo gỗ liễu
+14108	Tấm biển treo gỗ liễu trên tường
+14128	Thung lũng khởi nguyên giá rét
+14135	Sứa ma trơi
+14296	Đống lá phong vàng
+14297	Lá phong vàng
+14298	Chồi cây phong vàng
+14966	§kDỊ THỂ
+14973	§mĐá End
+14993	Xô ����
+899	Tháng Tư
+1019	Tháng Tám
+3485	Tháng Mười Hai
+4512	Tháng Hai
+4713	Trăng thượng huyền
+4800	Đã tìm thấy %d bảng chiến lợi phẩm bị thiếu của %s.
+4801	Đã tìm thấy %d bảng chiến lợi phẩm bị thiếu của mọi mod.
+4828	Thứ Sáu
+4866	Trăng tròn
+6127	Tháng Một
+6163	Tháng Bảy
+6168	Tháng Sáu
+6376	Trăng hạ huyền
+7387	Tháng Ba
+7440	Tháng Năm
+7550	Khác
+7615	Thứ Hai
+7876	Trăng non
+7996	Tháng Mười Một
+8148	Tháng Mười
+10721	Thứ Bảy
+10957	Tháng Chín
+12472	Chủ Nhật
+12879	Không rõ giá trị '%s'.
+12979	Thứ Năm
+12980	Tích: %s
+13220	Thứ Ba
+13679	Trăng khuyết cuối tháng
+13680	Trăng khuyết sau rằm
+13821	Trăng lưỡi liềm đầu tháng
+13822	Trăng khuyết trước rằm
+13858	Thứ Tư
+22	 §9Tấm giáp kim loại tối
+24	 §9Trang bị Netherit
+54	%1$s chết vì bị hút sinh lực
+107	%1$s bị %2$s phạt vì hư đốn bằng %3$s
+108	%1$s bị phạt vì hư đốn
+15002	%1$s bị phạt vì hư đốn khi cố trốn khỏi %2$s
+15032	Kích hoạt sự kiện Mùa xuân hỗn loạn bất kể thời điểm hay ngày tháng trong năm. Sự kiện sẽ còn diễn ra chừng nào luật chơi này còn đặt là Đúng
+15033	Kích hoạt sự kiện Kinh hoàng giá lạnh bất kể thời điểm hay ngày tháng trong năm. Sự kiện sẽ còn diễn ra chừng nào luật chơi này còn đặt là Đúng
+15034	Kích hoạt sự kiện Halloween bất kể thời điểm hay ngày tháng trong năm. Sự kiện sẽ còn diễn ra chừng nào luật chơi này còn đặt là Đúng
+688	Trọn bộ bùa
+15133	Cho phép tự động kích hoạt các sự kiện gắn với ngày và mùa cụ thể
+15145	Cho phép bật hoặc tắt việc sinh ra kim cương bị mối xâm chiếm
+849	Anluka: Doors
+850	Anluka: Sir Pumpkinhead
+908	Ác mộng của người sợ nhện
+944	Đèn đá sét
+960	Mũi tên say xỉn
+961	Mũi tên kén sống
+962	Mũi tên hút cạn ma lực
+964	Mũi tên kích thích
+1066	Bộ xương con
+1067	Sinh ra Bộ xương con
+1068	Trứng sinh ra Bộ xương con
+1069	Nhện con
+1070	Sinh ra Nhện con
+1071	Trứng sinh ra Nhện con
+15184	Việc xấu tích lũy điểm hư đốn, dẫn đến sự xuất hiện của Krampus
+1083	Linh cảm chẳng lành
+1196	Đòn gai móc
+1200	Thây ma thùng gỗ
+1201	Trứng sinh ra Thây ma thùng gỗ
+15188	Chịu cả hiệu ứng Say xỉn lẫn Kích thích cùng một lúc
+1291	Gã khổng lồ
+1428	Đá sét đen
+1429	Gạch đá sét đen
+1430	Phiến gạch đá sét đen
+1431	Cầu thang gạch đá sét đen
+1432	Tường gạch đá sét đen
+1433	Nút đá sét đen
+1434	Cột đá sét đen
+1435	Phiến cột đá sét đen
+1436	Tấm áp lực đá sét đen
+1437	Phiến đá sét đen
+1438	Cầu thang đá sét đen
+1439	Tường đá sét đen
+1555	Phá khối
+1626	Ruồi trâu khát máu
+1627	Mắt ruồi trâu khát máu
+1628	Sinh ra Ruồi trâu khát máu
+1629	Trứng sinh ra Ruồi trâu khát máu
+1696	Hàng rào xương
+1697	Lạnh thấu xương
+1699	Gãy xương
+1700	Cán xương
+1701	Trái tim xương
+1702	Quỷ con xương
+1703	Sinh ra Quỷ con xương
+1704	Trứng sinh ra Quỷ con xương
+1708	Kẻ gọi xương
+1709	Sinh ra Kẻ gọi xương
+1710	Trứng sinh ra Kẻ gọi xương
+1713	Bốp!
+1731	Born in Chaos
+1732	Khối của Born in Chaos
+1733	Tùy biến Born in Chaos
+1734	Gỡ lỗi Born in Chaos
+1735	Vật phẩm của Born in Chaos
+1736	Quái vật của Born in Chaos
+1737	Vũ khí của Born in Chaos
+1775	Đập vỡ bia mộ của người được bất tử hóa
+1894	Bó xương
+1907	Chôn hết chúng đi
+1908	Chôn hết chúng đi
+1929	Vượt qua hạn sử dụng
+15208	Có thể nhận được với một tỉ lệ nhất định nếu bạn cho Cua vỏ gai ăn thịt thối rữa hoặc cá thối
+2023	Ớt caramen
+2036	Đá sét đen chạm khắc
+2122	Biểu tượng hỗn loạn
+2123	Hiệp sĩ hỗn loạn
+2133	Kẻ sưu tầm bùa
+2317	Trái tim sô cô la
+2447	Lớp phủ mạng nhện
+2459	Kẹo cà phê
+2473	Thu thập 64 Linh hồn hư ảo vào túi đồ
+2474	Thu thập mọi loại mũ của Born in Chaos
+2475	Thu thập mọi loại kẹo của Born in Chaos
+2476	Thu thập mọi bia mộ của những người được bất tử hóa
+2477	Thu thập mọi loại Bùa vào túi đồ
+2519	Chiêu hồn thu gọn
+2582	Sự kiện Mùa xuân hỗn loạn thường trực
+2583	Sự kiện Kinh hoàng giá lạnh thường trực
+2584	Sự kiện Halloween thường trực
+2600	Bộ xương con bị điều khiển
+2601	Trứng sinh ra Bộ xương con bị điều khiển
+2707	Cá xác chết
+2708	Sinh ra Cá xác chết
+2709	Trứng sinh ra Cá xác chết
+2710	Ruồi xác chết
+2711	Sinh ra Ruồi xác chết
+2712	Trứng sinh ra Ruồi xác chết
+2713	Giòi xác chết
+2714	Trứng sinh ra Giòi xác chết
+2787	Gạch đá sét đen nứt
+2792	Chế tạo một Phôi kim loại tối
+2793	Chế tạo một Kiếm chiến kim loại tối
+2797	Chế tạo một Bom bóng ma
+2799	Chế tạo một Rìu kẹo hoặc Kiếm kẹo
+2804	Chế tạo bất kỳ vũ khí kim loại tối nào
+2807	Chế tạo Tiền sảnh bóng tối

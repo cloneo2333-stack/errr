@@ -1,0 +1,23 @@
+{
+  "parent": "cavemind:ban_suong/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:lantern"
+    },
+    "title": {
+      "text": "Thung Lũng Thở Ra"
+    },
+    "description": {
+      "text": "Đưa cả ba về nhà: đứa trẻ, người thợ săn và người thợ mỏ"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

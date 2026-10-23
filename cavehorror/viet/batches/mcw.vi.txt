@@ -1,0 +1,3609 @@
+390	Mái gác xép gỗ xiêm gai
+392	Cửa kính vỏ gỗ xiêm gai
+393	Cửa sập vỏ gỗ xiêm gai
+394	Cửa nhà kho gỗ xiêm gai
+395	Cửa nhà kho có kính gỗ xiêm gai
+396	Cửa sập nhà kho gỗ xiêm gai
+397	Cửa sập song sắt gỗ xiêm gai
+398	Cửa sập kiểu thùng gỗ xiêm gai
+401	Cửa nhà biển gỗ xiêm gai
+402	Cửa sập nhà biển gỗ xiêm gai
+404	Rèm sáo gỗ xiêm gai
+406	Cầu gỗ xiêm gai
+407	Bậc cầu gỗ xiêm gai
+408	Giá đỡ cầu gỗ xiêm gai
+410	Cửa cổ điển gỗ xiêm gai
+411	Cửa sập cổ điển gỗ xiêm gai
+413	Cửa nhà vườn gỗ xiêm gai
+414	Cửa sập nhà vườn gỗ xiêm gai
+416	Thanh treo rèm gỗ xiêm gai
+417	Cổng vòm gỗ xiêm gai
+422	Cửa sổ bốn ô gỗ xiêm gai
+423	Cửa bốn ô gỗ xiêm gai
+424	Cửa sập bốn ô gỗ xiêm gai
+425	Cửa kính gỗ xiêm gai
+426	Cửa sập kính gỗ xiêm gai
+428	Cổng Highley gỗ xiêm gai
+429	Hàng rào chuồng ngựa gỗ xiêm gai
+439	Cửa chớp lá sách gỗ xiêm gai
+440	Chân mái thấp gỗ xiêm gai
+441	Nóc mái thấp gỗ xiêm gai
+443	Cửa lưới gỗ xiêm gai
+444	Cửa sập lưới gỗ xiêm gai
+445	Cửa hiện đại gỗ xiêm gai
+446	Cửa huyền bí gỗ xiêm gai
+447	Cửa sập huyền bí gỗ xiêm gai
+448	Cửa Nether gỗ xiêm gai
+450	Ô cửa sổ gỗ xiêm gai
+451	Cửa giấy gỗ xiêm gai
+452	Cửa sập giấy gỗ xiêm gai
+453	Tường chắn gỗ xiêm gai
+454	Hàng rào cọc gỗ xiêm gai
+455	Mái gác xép ván gỗ xiêm gai
+456	Cửa sổ bốn ô ván gỗ xiêm gai
+457	Chân mái thấp ván gỗ xiêm gai
+458	Nóc mái thấp ván gỗ xiêm gai
+459	Ô cửa sổ ván gỗ xiêm gai
+460	Tường chắn ván gỗ xiêm gai
+461	Mái ván gỗ xiêm gai
+462	Chân mái dốc ván gỗ xiêm gai
+463	Nóc mái dốc ván gỗ xiêm gai
+464	Nóc mái ván gỗ xiêm gai
+465	Cổng chóp gỗ xiêm gai
+466	Cầu có lan can gỗ xiêm gai
+467	Cửa sập trang trại gỗ xiêm gai
+468	Mái gỗ xiêm gai
+471	Cửa giấy kiểu Nhật gỗ xiêm gai
+472	Cửa giấy kiểu Nhật liền tấm gỗ xiêm gai
+473	Cửa chớp gỗ xiêm gai
+474	Cửa chuồng gỗ xiêm gai
+475	Cửa chuồng ngựa gỗ xiêm gai
+476	Chân mái dốc gỗ xiêm gai
+477	Nóc mái dốc gỗ xiêm gai
+478	Hàng rào cọc nhọn gỗ xiêm gai
+482	Cửa đầm lầy gỗ xiêm gai
+483	Cửa sập đầm lầy gỗ xiêm gai
+486	Nóc mái gỗ xiêm gai
+487	Cửa sập nhiệt đới gỗ xiêm gai
+488	Cửa ô lưới gỗ xiêm gai
+489	Cửa sập ô lưới gỗ xiêm gai
+490	Cửa kiểu viễn Tây gỗ xiêm gai
+491	Cửa thì thầm gỗ xiêm gai
+492	Cửa sập thì thầm gỗ xiêm gai
+493	Hàng rào dây thép gỗ xiêm gai
+814	Mái gác xép đá andesit
+815	Cầu đá andesit
+816	Trụ cầu đá andesit
+817	Bậc cầu đá andesit
+818	Cửa sổ bốn ô đá andesit
+819	Tường phủ cỏ đá andesit
+820	Cửa chớp lá sách đá andesit
+821	Chân mái thấp đá andesit
+822	Nóc mái thấp đá andesit
+824	Ô cửa sổ đá andesit
+825	Tường chắn đá andesit
+826	Tường cột đá andesit
+828	Cổng lan can đá andesit
+829	Mái đá andesit
+830	Chân mái dốc đá andesit
+831	Nóc mái dốc đá andesit
+833	Nóc mái đá andesit
+1109	Mái gác xép tre
+1111	Cửa kính vỏ tre
+1112	Cửa sập vỏ tre
+1113	Cửa nhà kho tre
+1114	Cửa nhà kho có kính tre
+1115	Cửa sập nhà kho tre
+1116	Cửa sập song sắt tre
+1117	Cửa sập kiểu thùng tre
+1119	Cửa nhà biển tre
+1120	Cửa sập nhà biển tre
+1122	Cầu tre
+1123	Bậc cầu tre
+1124	Giá đỡ cầu tre
+1125	Cửa cổ điển tre
+1126	Cửa sập cổ điển tre
+1128	Cửa nhà vườn tre
+1129	Cửa sập nhà vườn tre
+1130	Cổng vòm tre
+1131	Hàng rào tre
+1132	Cửa bốn ô tre
+1133	Cửa sập bốn ô tre
+1134	Cửa kính tre
+1135	Cửa sập kính tre
+1136	Cổng Highley tre
+1137	Hàng rào chuồng ngựa tre
+1139	Chân mái thấp tre
+1140	Nóc mái thấp tre
+1141	Cửa hiện đại tre
+1142	Mái gác xép khảm tre
+1143	Chân mái thấp khảm tre
+1144	Nóc mái thấp khảm tre
+1145	Mái khảm tre
+1146	Chân mái dốc khảm tre
+1147	Nóc mái dốc khảm tre
+1148	Nóc mái khảm tre
+1149	Cửa huyền bí tre
+1150	Cửa sập huyền bí tre
+1151	Cửa Nether tre
+1153	Cửa giấy tre
+1154	Cửa sập giấy tre
+1155	Hàng rào cọc tre
+1156	Mái gác xép ván tre
+1157	Chân mái thấp ván tre
+1158	Nóc mái thấp ván tre
+1159	Mái ván tre
+1160	Chân mái dốc ván tre
+1161	Nóc mái dốc ván tre
+1162	Nóc mái ván tre
+1163	Cổng chóp tre
+1164	Mái tre
+1167	Cửa giấy kiểu Nhật tre
+1168	Cửa giấy kiểu Nhật liền tấm tre
+1169	Cửa chớp tre
+1170	Cửa chuồng tre
+1171	Cửa chuồng ngựa tre
+1172	Chân mái dốc tre
+1173	Nóc mái dốc tre
+1174	Hàng rào cọc nhọn tre
+1176	Cửa đầm lầy tre
+1177	Cửa sập đầm lầy tre
+1178	Nóc mái tre
+1179	Cửa sập tre
+1180	Cửa nhiệt đới tre
+1181	Cửa sập nhiệt đới tre
+1182	Cửa ô lưới tre
+1183	Cửa sập ô lưới tre
+1184	Cửa kiểu viễn Tây tre
+1185	Cửa thì thầm tre
+1186	Cửa sập thì thầm tre
+1187	Hàng rào dây thép tre
+1311	Mái gác xép gỗ bạch dương
+1313	Cửa kính vỏ gỗ bạch dương
+1314	Cửa sập vỏ gỗ bạch dương
+1315	Cửa nhà kho gỗ bạch dương
+1316	Cửa nhà kho có kính gỗ bạch dương
+1317	Cửa sập nhà kho gỗ bạch dương
+1318	Cửa sập song sắt gỗ bạch dương
+1319	Cửa sập kiểu thùng gỗ bạch dương
+1323	Cửa nhà biển gỗ bạch dương
+1324	Cửa sập nhà biển gỗ bạch dương
+1326	Rèm sáo gỗ bạch dương
+1327	Cầu gỗ bạch dương
+1328	Bậc cầu gỗ bạch dương
+1329	Giá đỡ cầu gỗ bạch dương
+1331	Cửa cổ điển gỗ bạch dương
+1332	Cửa sập cổ điển gỗ bạch dương
+1334	Cửa nhà vườn gỗ bạch dương
+1335	Cửa sập nhà vườn gỗ bạch dương
+1337	Thanh treo rèm gỗ bạch dương
+1338	Cổng vòm gỗ bạch dương
+1343	Cửa sổ bốn ô gỗ bạch dương
+1344	Cửa bốn ô gỗ bạch dương
+1345	Cửa sập bốn ô gỗ bạch dương
+1346	Cửa kính gỗ bạch dương
+1347	Cửa sập kính gỗ bạch dương
+1349	Cổng Highley gỗ bạch dương
+1350	Hàng rào chuồng ngựa gỗ bạch dương
+1360	Cửa chớp lá sách gỗ bạch dương
+1361	Chân mái thấp gỗ bạch dương
+1362	Nóc mái thấp gỗ bạch dương
+1364	Cửa lưới gỗ bạch dương
+1365	Cửa sập lưới gỗ bạch dương
+1366	Cửa hiện đại gỗ bạch dương
+1367	Cửa huyền bí gỗ bạch dương
+1368	Cửa sập huyền bí gỗ bạch dương
+1369	Cửa Nether gỗ bạch dương
+1371	Ô cửa sổ gỗ bạch dương
+1372	Cửa sập giấy gỗ bạch dương
+1373	Tường chắn gỗ bạch dương
+1374	Hàng rào cọc gỗ bạch dương
+1375	Mái gác xép ván gỗ bạch dương
+1376	Cửa sổ bốn ô ván gỗ bạch dương
+1377	Chân mái thấp ván gỗ bạch dương
+1378	Nóc mái thấp ván gỗ bạch dương
+1379	Ô cửa sổ ván gỗ bạch dương
+1380	Tường chắn ván gỗ bạch dương
+1381	Mái ván gỗ bạch dương
+1382	Chân mái dốc ván gỗ bạch dương
+1383	Nóc mái dốc ván gỗ bạch dương
+1384	Nóc mái ván gỗ bạch dương
+1385	Cổng chóp gỗ bạch dương
+1386	Cầu có lan can gỗ bạch dương
+1387	Cửa sập trang trại gỗ bạch dương
+1388	Mái gỗ bạch dương
+1391	Cửa giấy kiểu Nhật gỗ bạch dương
+1392	Cửa giấy kiểu Nhật liền tấm gỗ bạch dương
+1393	Cửa chớp gỗ bạch dương
+1394	Cửa chuồng gỗ bạch dương
+1395	Cửa chuồng ngựa gỗ bạch dương
+1396	Chân mái dốc gỗ bạch dương
+1397	Nóc mái dốc gỗ bạch dương
+1398	Hàng rào cọc nhọn gỗ bạch dương
+1402	Cửa đầm lầy gỗ bạch dương
+1403	Cửa sập đầm lầy gỗ bạch dương
+1406	Nóc mái gỗ bạch dương
+1407	Cửa nhiệt đới gỗ bạch dương
+1408	Cửa sập nhiệt đới gỗ bạch dương
+1409	Cửa ô lưới gỗ bạch dương
+1410	Cửa sập ô lưới gỗ bạch dương
+1411	Cửa kiểu viễn Tây gỗ bạch dương
+1412	Cửa thì thầm gỗ bạch dương
+1413	Cửa sập thì thầm gỗ bạch dương
+1414	Hàng rào dây thép gỗ bạch dương
+1440	Mái gác xép đen
+1448	Mái gác xép bê tông đen
+1449	Chân mái thấp bê tông đen
+1450	Nóc mái thấp bê tông đen
+1451	Mái bê tông đen
+1452	Chân mái dốc bê tông đen
+1453	Nóc mái dốc bê tông đen
+1454	Nóc mái bê tông đen
+1456	Rèm đen
+1462	Cửa nhà xe đen
+1475	Chân mái thấp đen
+1476	Nóc mái thấp đen
+1477	Kính ghép mảnh đen
+1478	Tấm kính ghép mảnh đen
+1482	Máng xối đen
+1483	Ống xối đen
+1484	Mái đen
+1485	Khối mái đen
+1486	Phiến mái đen
+1489	Chân mái dốc đen
+1490	Nóc mái dốc đen
+1492	Mái hiên sọc đen
+1496	Mái gác xép đất nung đen
+1497	Chân mái thấp đất nung đen
+1498	Nóc mái thấp đất nung đen
+1499	Mái đất nung đen
+1500	Chân mái dốc đất nung đen
+1501	Nóc mái dốc đất nung đen
+1502	Nóc mái đất nung đen
+1504	Nóc mái đen
+1513	Mái gác xép đá đen
+1515	Khe bắn tên gạch đá đen
+1516	Cổng lan can gạch đá đen
+1520	Cầu đá đen
+1521	Bậc cầu đá đen
+1522	Giá đỡ cầu đá đen
+1523	Cửa sổ bốn ô đá đen
+1525	Cửa sổ vòm nhọn đá đen
+1526	Tường phủ cỏ đá đen
+1528	Chân mái thấp đá đen
+1529	Nóc mái thấp đá đen
+1530	Ô cửa sổ đá đen
+1531	Tường chắn đá đen
+1532	Tường cột đá đen
+1534	Cổng lan can đá đen
+1535	Mái đá đen
+1536	Chân mái dốc đá đen
+1537	Nóc mái dốc đá đen
+1539	Nóc mái đá đen
+1641	Mái gác xép bê tông xanh nước biển
+1642	Chân mái thấp bê tông xanh nước biển
+1643	Nóc mái thấp bê tông xanh nước biển
+1644	Mái bê tông xanh nước biển
+1645	Chân mái dốc bê tông xanh nước biển
+1646	Nóc mái dốc bê tông xanh nước biển
+1647	Nóc mái bê tông xanh nước biển
+1649	Rèm xanh nước biển
+1669	Kính ghép mảnh xanh nước biển
+1670	Tấm kính ghép mảnh xanh nước biển
+1671	Máng xối xanh nước biển
+1672	Ống xối xanh nước biển
+1676	Mái hiên sọc xanh nước biển
+1677	Mái gác xép đất nung xanh nước biển
+1678	Chân mái thấp đất nung xanh nước biển
+1679	Nóc mái thấp đất nung xanh nước biển
+1680	Mái đất nung xanh nước biển
+1681	Chân mái dốc đất nung xanh nước biển
+1682	Nóc mái dốc đất nung xanh nước biển
+1683	Nóc mái đất nung xanh nước biển
+1791	Cầu gạch
+1792	Bậc cầu gạch
+1793	Giá đỡ cầu gạch
+1795	Mái gác xép gạch
+1796	Cửa sổ bốn khung gạch
+1798	Chân mái thấp gạch
+1799	Nóc mái thấp gạch
+1800	Ô cửa sổ gạch
+1801	Mái gạch
+1802	Chân mái dốc gạch
+1803	Nóc mái dốc gạch
+1804	Nóc mái gạch
+1835	Mái gác xép bê tông nâu
+1836	Chân mái thấp bê tông nâu
+1837	Nóc mái thấp bê tông nâu
+1838	Mái bê tông nâu
+1839	Chân mái dốc bê tông nâu
+1840	Nóc mái dốc bê tông nâu
+1841	Nóc mái bê tông nâu
+1843	Rèm nâu
+1858	Kính ghép mảnh nâu
+1859	Tấm kính ghép mảnh nâu
+1860	Máng xối nâu
+1861	Ống xối nâu
+1865	Mái hiên sọc nâu
+1866	Mái gác xép đất nung nâu
+1867	Chân mái thấp đất nung nâu
+1868	Nóc mái thấp đất nung nâu
+1869	Mái đất nung nâu
+1870	Chân mái dốc đất nung nâu
+1871	Nóc mái dốc đất nung nâu
+1872	Nóc mái đất nung nâu
+2160	Mái gác xép gỗ anh đào
+2162	Cửa kính vỏ gỗ anh đào
+2163	Cửa sập vỏ gỗ anh đào
+2164	Cửa nhà kho gỗ anh đào
+2165	Cửa nhà kho có kính gỗ anh đào
+2166	Cửa sập nhà kho gỗ anh đào
+2167	Cửa sập song sắt gỗ anh đào
+2168	Cửa sập kiểu thùng gỗ anh đào
+2171	Cửa nhà biển gỗ anh đào
+2172	Cửa sập nhà biển gỗ anh đào
+2174	Rèm sáo gỗ anh đào
+2175	Cầu gỗ anh đào
+2176	Bậc cầu gỗ anh đào
+2177	Giá đỡ cầu gỗ anh đào
+2179	Cửa cổ điển gỗ anh đào
+2180	Cửa sập cổ điển gỗ anh đào
+2182	Cửa nhà vườn gỗ anh đào
+2183	Cửa sập nhà vườn gỗ anh đào
+2185	Thanh treo rèm gỗ anh đào
+2186	Cổng vòm gỗ anh đào
+2191	Cửa sổ bốn ô gỗ anh đào
+2192	Cửa bốn ô gỗ anh đào
+2193	Cửa sập bốn ô gỗ anh đào
+2194	Cửa kính gỗ anh đào
+2195	Cửa sập kính gỗ anh đào
+2197	Cổng Highley gỗ anh đào
+2198	Hàng rào chuồng ngựa gỗ anh đào
+2208	Cửa chớp lá sách gỗ anh đào
+2209	Chân mái thấp gỗ anh đào
+2210	Nóc mái thấp gỗ anh đào
+2212	Cửa lưới gỗ anh đào
+2213	Cửa sập lưới gỗ anh đào
+2214	Cửa hiện đại gỗ anh đào
+2215	Cửa huyền bí gỗ anh đào
+2216	Cửa sập huyền bí gỗ anh đào
+2217	Cửa Nether gỗ anh đào
+2219	Ô cửa sổ gỗ anh đào
+2220	Cửa giấy gỗ anh đào
+2221	Cửa sập giấy gỗ anh đào
+2222	Tường chắn gỗ anh đào
+2223	Hàng rào cọc gỗ anh đào
+2224	Mái gác xép ván gỗ anh đào
+2225	Cửa sổ bốn ô ván gỗ anh đào
+2226	Chân mái thấp ván gỗ anh đào
+2227	Nóc mái thấp ván gỗ anh đào
+2228	Ô cửa sổ ván gỗ anh đào
+2229	Tường chắn ván gỗ anh đào
+2230	Mái ván gỗ anh đào
+2231	Chân mái dốc ván gỗ anh đào
+2232	Nóc mái dốc ván gỗ anh đào
+2233	Nóc mái ván gỗ anh đào
+2234	Cổng chóp gỗ anh đào
+2235	Cầu có lan can gỗ anh đào
+2236	Cửa sập trang trại gỗ anh đào
+2237	Mái gỗ anh đào
+2240	Cửa giấy kiểu Nhật gỗ anh đào
+2241	Cửa giấy kiểu Nhật liền tấm gỗ anh đào
+2242	Cửa chớp gỗ anh đào
+2243	Cửa chuồng gỗ anh đào
+2244	Cửa chuồng ngựa gỗ anh đào
+2245	Chân mái dốc gỗ anh đào
+2246	Nóc mái dốc gỗ anh đào
+2247	Hàng rào cọc nhọn gỗ anh đào
+2251	Cửa đầm lầy gỗ anh đào
+2252	Cửa sập đầm lầy gỗ anh đào
+2255	Nóc mái gỗ anh đào
+2256	Cửa nhiệt đới gỗ anh đào
+2257	Cửa sập nhiệt đới gỗ anh đào
+2258	Cửa kiểu viễn Tây gỗ anh đào
+2259	Cửa thì thầm gỗ anh đào
+2260	Cửa sập thì thầm gỗ anh đào
+2261	Hàng rào dây thép gỗ anh đào
+2434	Khe bắn tên đá cuội
+2435	Mái gác xép đá cuội
+2436	Cầu đá cuội
+2437	Trụ cầu đá cuội
+2438	Bậc cầu đá cuội
+2440	Chân mái thấp đá cuội
+2441	Nóc mái thấp đá cuội
+2443	Mái đá cuội
+2444	Chân mái dốc đá cuội
+2445	Nóc mái dốc đá cuội
+2446	Nóc mái đá cuội
+2883	Mái gác xép gỗ đỏ thẫm
+2886	Cửa sập vỏ gỗ đỏ thẫm
+2887	Cửa nhà kho gỗ đỏ thẫm
+2888	Cửa nhà kho có kính gỗ đỏ thẫm
+2889	Cửa sập nhà kho gỗ đỏ thẫm
+2890	Cửa sập song sắt gỗ đỏ thẫm
+2891	Cửa sập kiểu thùng gỗ đỏ thẫm
+2894	Cửa nhà biển gỗ đỏ thẫm
+2895	Cửa sập nhà biển gỗ đỏ thẫm
+2897	Rèm sáo gỗ đỏ thẫm
+2898	Cầu gỗ đỏ thẫm
+2899	Bậc cầu gỗ đỏ thẫm
+2900	Giá đỡ cầu gỗ đỏ thẫm
+2904	Cửa cổ điển gỗ đỏ thẫm
+2905	Cửa sập cổ điển gỗ đỏ thẫm
+2907	Cửa nhà vườn gỗ đỏ thẫm
+2908	Cửa sập nhà vườn gỗ đỏ thẫm
+2911	Thanh treo rèm gỗ đỏ thẫm
+2912	Cổng vòm gỗ đỏ thẫm
+2917	Cửa bốn ô gỗ đỏ thẫm
+2918	Cửa sập bốn ô gỗ đỏ thẫm
+2920	Cửa kính gỗ đỏ thẫm
+2921	Cửa sập kính gỗ đỏ thẫm
+2922	Cổng Highley gỗ đỏ thẫm
+2923	Hàng rào chuồng ngựa gỗ đỏ thẫm
+2933	Cửa chớp lá sách gỗ đỏ thẫm
+2934	Chân mái thấp gỗ đỏ thẫm
+2935	Nóc mái thấp gỗ đỏ thẫm
+2937	Cửa lưới gỗ đỏ thẫm
+2938	Cửa sập lưới gỗ đỏ thẫm
+2939	Cửa hiện đại gỗ đỏ thẫm
+2945	Cửa huyền bí gỗ đỏ thẫm
+2946	Cửa sập huyền bí gỗ đỏ thẫm
+2947	Cửa Nether gỗ đỏ thẫm
+2950	Ô cửa sổ gỗ đỏ thẫm
+2951	Cửa giấy gỗ đỏ thẫm
+2952	Cửa sập giấy gỗ đỏ thẫm
+2953	Hàng rào cọc gỗ đỏ thẫm
+2954	Mái gác xép ván gỗ đỏ thẫm
+2955	Cửa sổ bốn ô ván gỗ đỏ thẫm
+2956	Chân mái thấp ván gỗ đỏ thẫm
+2957	Nóc mái thấp ván gỗ đỏ thẫm
+2958	Ô cửa sổ ván gỗ đỏ thẫm
+2959	Tường chắn ván gỗ đỏ thẫm
+2960	Mái ván gỗ đỏ thẫm
+2961	Chân mái dốc ván gỗ đỏ thẫm
+2962	Nóc mái dốc ván gỗ đỏ thẫm
+2963	Nóc mái ván gỗ đỏ thẫm
+2964	Cổng chóp gỗ đỏ thẫm
+2965	Cầu có lan can gỗ đỏ thẫm
+2966	Cửa sập trang trại gỗ đỏ thẫm
+2968	Mái gỗ đỏ thẫm
+2970	Cửa giấy kiểu Nhật gỗ đỏ thẫm
+2971	Cửa giấy kiểu Nhật liền tấm gỗ đỏ thẫm
+2972	Cửa chớp gỗ đỏ thẫm
+2973	Cửa chuồng gỗ đỏ thẫm
+2974	Cửa chuồng ngựa gỗ đỏ thẫm
+2975	Chân mái dốc gỗ đỏ thẫm
+2976	Nóc mái dốc gỗ đỏ thẫm
+2977	Cửa sổ bốn ô cuống đỏ thẫm
+2978	Cửa kính cuống đỏ thẫm
+2979	Tường chắn cuống đỏ thẫm
+2981	Hàng rào cọc nhọn gỗ đỏ thẫm
+2985	Cửa đầm lầy gỗ đỏ thẫm
+2986	Cửa sập đầm lầy gỗ đỏ thẫm
+2989	Nóc mái gỗ đỏ thẫm
+2990	Cửa nhiệt đới gỗ đỏ thẫm
+2991	Cửa sập nhiệt đới gỗ đỏ thẫm
+2992	Cửa ô lưới gỗ đỏ thẫm
+2993	Cửa sập ô lưới gỗ đỏ thẫm
+2994	Cửa kiểu viễn Tây gỗ đỏ thẫm
+2995	Cửa thì thầm gỗ đỏ thẫm
+2996	Cửa sập thì thầm gỗ đỏ thẫm
+2997	Hàng rào dây thép gỗ đỏ thẫm
+3107	Mái gác xép bê tông xanh lơ
+3108	Chân mái thấp bê tông xanh lơ
+3109	Nóc mái thấp bê tông xanh lơ
+3110	Mái bê tông xanh lơ
+3111	Chân mái dốc bê tông xanh lơ
+3112	Nóc mái dốc bê tông xanh lơ
+3113	Nóc mái bê tông xanh lơ
+3115	Rèm xanh lơ
+3131	Kính ghép mảnh xanh lơ
+3132	Tấm kính ghép mảnh xanh lơ
+3134	Máng xối xanh lơ
+3135	Ống xối xanh lơ
+3138	Mái hiên sọc xanh lơ
+3139	Mái gác xép đất nung xanh lơ
+3140	Chân mái thấp đất nung xanh lơ
+3141	Nóc mái thấp đất nung xanh lơ
+3142	Mái đất nung xanh lơ
+3143	Chân mái dốc đất nung xanh lơ
+3144	Nóc mái dốc đất nung xanh lơ
+3145	Nóc mái đất nung xanh lơ
+3195	Mái gác xép gỗ sồi sẫm
+3197	Cửa kính vỏ gỗ sồi sẫm
+3198	Cửa sập vỏ gỗ sồi sẫm
+3199	Cửa nhà kho gỗ sồi sẫm
+3200	Cửa nhà kho có kính gỗ sồi sẫm
+3201	Cửa sập nhà kho gỗ sồi sẫm
+3202	Cửa sập song sắt gỗ sồi sẫm
+3203	Cửa sập kiểu thùng gỗ sồi sẫm
+3207	Cửa nhà biển gỗ sồi sẫm
+3208	Cửa sập nhà biển gỗ sồi sẫm
+3210	Rèm sáo gỗ sồi sẫm
+3211	Cầu gỗ sồi sẫm
+3212	Bậc cầu gỗ sồi sẫm
+3213	Giá đỡ cầu gỗ sồi sẫm
+3215	Cửa cổ điển gỗ sồi sẫm
+3216	Cửa sập cổ điển gỗ sồi sẫm
+3218	Cửa nhà vườn gỗ sồi sẫm
+3219	Cửa sập nhà vườn gỗ sồi sẫm
+3221	Thanh treo rèm gỗ sồi sẫm
+3222	Cổng vòm gỗ sồi sẫm
+3227	Cửa sổ bốn ô gỗ sồi sẫm
+3228	Cửa bốn ô gỗ sồi sẫm
+3229	Cửa sập bốn ô gỗ sồi sẫm
+3230	Cửa kính gỗ sồi sẫm
+3231	Cửa sập kính gỗ sồi sẫm
+3233	Cổng Highley gỗ sồi sẫm
+3234	Hàng rào chuồng ngựa gỗ sồi sẫm
+3244	Cửa chớp lá sách gỗ sồi sẫm
+3245	Chân mái thấp gỗ sồi sẫm
+3246	Nóc mái thấp gỗ sồi sẫm
+3248	Cửa lưới gỗ sồi sẫm
+3249	Cửa sập lưới gỗ sồi sẫm
+3250	Cửa huyền bí gỗ sồi sẫm
+3251	Cửa sập huyền bí gỗ sồi sẫm
+3252	Cửa Nether gỗ sồi sẫm
+3254	Ô cửa sổ gỗ sồi sẫm
+3255	Cửa giấy gỗ sồi sẫm
+3256	Cửa sập giấy gỗ sồi sẫm
+3257	Tường chắn gỗ sồi sẫm
+3258	Hàng rào cọc gỗ sồi sẫm
+3259	Mái gác xép ván gỗ sồi sẫm
+3260	Cửa sổ bốn ô ván gỗ sồi sẫm
+3261	Chân mái thấp ván gỗ sồi sẫm
+3262	Nóc mái thấp ván gỗ sồi sẫm
+3263	Tường chắn ván gỗ sồi sẫm
+3264	Mái ván gỗ sồi sẫm
+3265	Chân mái dốc ván gỗ sồi sẫm
+3266	Nóc mái dốc ván gỗ sồi sẫm
+3267	Nóc mái ván gỗ sồi sẫm
+3268	Cổng chóp gỗ sồi sẫm
+3269	Cầu có lan can gỗ sồi sẫm
+3270	Cửa sập trang trại gỗ sồi sẫm
+3271	Mái gỗ sồi sẫm
+3274	Cửa giấy kiểu Nhật gỗ sồi sẫm
+3275	Cửa giấy kiểu Nhật liền tấm gỗ sồi sẫm
+3276	Cửa chớp gỗ sồi sẫm
+3277	Cửa chuồng gỗ sồi sẫm
+3278	Cửa chuồng ngựa gỗ sồi sẫm
+3279	Chân mái dốc gỗ sồi sẫm
+3280	Nóc mái dốc gỗ sồi sẫm
+3281	Hàng rào cọc nhọn gỗ sồi sẫm
+3285	Cửa đầm lầy gỗ sồi sẫm
+3286	Cửa sập đầm lầy gỗ sồi sẫm
+3289	Nóc mái gỗ sồi sẫm
+3290	Cửa nhiệt đới gỗ sồi sẫm
+3291	Cửa sập nhiệt đới gỗ sồi sẫm
+3292	Cửa ô lưới gỗ sồi sẫm
+3293	Cửa sập ô lưới gỗ sồi sẫm
+3294	Cửa kiểu viễn Tây gỗ sồi sẫm
+3295	Cửa thì thầm gỗ sồi sẫm
+3296	Cửa sập thì thầm gỗ sồi sẫm
+3297	Hàng rào dây thép gỗ sồi sẫm
+3299	Mái gác xép Prismarin sẫm
+3300	Khe bắn tên gạch Prismarin sẫm
+3301	Cửa sổ bốn ô Prismarin sẫm
+3302	Cửa sổ vòm nhọn Prismarin sẫm
+3303	Chân mái thấp Prismarin sẫm
+3304	Nóc mái thấp Prismarin sẫm
+3305	Ô cửa sổ Prismarin sẫm
+3306	Tường chắn Prismarin sẫm
+3307	Mái Prismarin sẫm
+3308	Chân mái dốc Prismarin sẫm
+3309	Nóc mái dốc Prismarin sẫm
+3310	Nóc mái Prismarin sẫm
+3337	Mái gác xép gỗ chết
+3338	Ban công gỗ chết
+3339	Cửa sập kiểu tre gỗ chết
+3340	Cửa kính vỏ gỗ chết
+3341	Cửa sập vỏ gỗ chết
+3342	Cửa nhà kho gỗ chết
+3343	Cửa nhà kho có kính gỗ chết
+3344	Cửa sập nhà kho gỗ chết
+3345	Cửa sập song sắt gỗ chết
+3346	Cửa sập kiểu thùng gỗ chết
+3347	Cửa nhà biển gỗ chết
+3348	Cửa sập nhà biển gỗ chết
+3349	Rèm sáo gỗ chết
+3350	Cửa sập hoa gỗ chết
+3351	Kệ sách gỗ chết
+3352	Kệ sách ngăn kéo gỗ chết
+3353	Cầu gỗ chết
+3354	Bậc cầu gỗ chết
+3355	Giá đỡ cầu gỗ chết
+3356	Cầu thang đặc gỗ chết
+3357	Ghế gỗ chết
+3358	Cửa cổ điển gỗ chết
+3359	Cửa sập cổ điển gỗ chết
+3360	Bàn trà gỗ chết
+3361	Cầu thang gọn gỗ chết
+3362	Cửa nhà vườn gỗ chết
+3363	Cửa sập nhà vườn gỗ chết
+3364	Quầy bếp gỗ chết
+3365	Bàn học có tủ gỗ chết
+3367	Kệ sách có tủ gỗ chết
+3368	Quầy bếp có tủ gỗ chết
+3369	Thanh treo rèm gỗ chết
+3370	Cổng vòm gỗ chết
+3371	Bàn học gỗ chết
+3372	Tủ hai ngăn kéo gỗ chết
+3373	Quầy bếp hai ngăn kéo gỗ chết
+3374	Quầy bếp đôi gỗ chết
+3375	Tủ quần áo đôi gỗ chết
+3376	Tủ ngăn kéo gỗ chết
+3377	Quầy bếp ngăn kéo gỗ chết
+3378	Bàn đầu giường gỗ chết
+3380	Cửa sổ bốn ô gỗ chết
+3381	Cửa bốn ô gỗ chết
+3382	Cửa sập bốn ô gỗ chết
+3383	Cửa kính gỗ chết
+3384	Tủ bếp kính gỗ chết
+3385	Bàn kính gỗ chết
+3386	Cửa sập kính gỗ chết
+3389	Bờ rào lá chết
+3390	Cổng Highley gỗ chết
+3391	Hàng rào chuồng ngựa gỗ chết
+3392	Tủ bếp gỗ chết
+3393	Bồn rửa bát gỗ chết
+3394	Tủ ngăn kéo lớn gỗ chết
+3395	Cầu thang gác gỗ chết
+3396	Cửa chớp lá sách gỗ chết
+3397	Chân mái thấp gỗ chết
+3398	Kệ sách ngăn kéo thấp gỗ chết
+3399	Nóc mái thấp gỗ chết
+3400	Tủ ba ngăn kéo thấp gỗ chết
+3401	Cửa lưới gỗ chết
+3402	Ghế hiện đại gỗ chết
+3403	Bàn học hiện đại gỗ chết
+3404	Cửa hiện đại gỗ chết
+3405	Tủ quần áo hiện đại gỗ chết
+3406	Cửa huyền bí gỗ chết
+3407	Cửa sập huyền bí gỗ chết
+3408	Cửa Nether gỗ chết
+3409	Ô cửa sổ gỗ chết
+3410	Cửa giấy gỗ chết
+3411	Cửa sập giấy gỗ chết
+3412	Tường chắn gỗ chết
+3413	Hàng rào cọc gỗ chết
+3415	Mái gác xép ván gỗ chết
+3416	Cửa sổ bốn ô ván gỗ chết
+3417	Chân mái thấp ván gỗ chết
+3418	Nóc mái thấp ván gỗ chết
+3419	Ô cửa sổ ván gỗ chết
+3420	Tường chắn ván gỗ chết
+3421	Lối đi ván gỗ chết
+3422	Mái ván gỗ chết
+3423	Chân mái dốc ván gỗ chết
+3424	Nóc mái dốc ván gỗ chết
+3425	Nóc mái ván gỗ chết
+3426	Bục gỗ chết
+3427	Cổng chóp gỗ chết
+3428	Cầu có lan can gỗ chết
+3429	Lan can gỗ chết
+3430	Cửa sập trang trại gỗ chết
+3431	Mái gỗ chết
+3432	Cửa giấy kiểu Nhật gỗ chết
+3433	Cửa giấy kiểu Nhật liền tấm gỗ chết
+3434	Cửa chớp gỗ chết
+3435	Cầu thang trên không gỗ chết
+3436	Cửa chuồng gỗ chết
+3437	Cửa chuồng ngựa gỗ chết
+3438	Chân mái dốc gỗ chết
+3439	Nóc mái dốc gỗ chết
+3440	Hàng rào cọc nhọn gỗ chết
+3441	Ghế đẩu gỗ chết
+3442	Ghế sọc gỗ chết
+3443	Cửa đầm lầy gỗ chết
+3444	Cửa sập đầm lầy gỗ chết
+3445	Bàn gỗ chết
+3446	Cầu thang bậc thềm gỗ chết
+3447	Nóc mái gỗ chết
+3448	Tủ ba ngăn kéo gỗ chết
+3449	Cửa nhiệt đới gỗ chết
+3450	Cửa sập nhiệt đới gỗ chết
+3451	Cửa ô lưới gỗ chết
+3453	Tủ quần áo gỗ chết
+3454	Cửa kiểu viễn Tây gỗ chết
+3455	Cửa thì thầm gỗ chết
+3456	Cửa sập thì thầm gỗ chết
+3457	Hàng rào dây thép gỗ chết
+3512	Mái gác xép đá bảng sâu
+3513	Cầu gạch đá bảng sâu
+3514	Bậc cầu gạch đá bảng sâu
+3515	Giá đỡ cầu gạch đá bảng sâu
+3516	Tường phủ cỏ gạch đá bảng sâu
+3517	Tường cột gạch đá bảng sâu
+3518	Cổng lan can gạch đá bảng sâu
+3525	Cửa sổ bốn khung đá bảng sâu
+3527	Tường phủ cỏ đá bảng sâu
+3531	Chân mái thấp đá bảng sâu
+3532	Nóc mái thấp đá bảng sâu
+3535	Ô cửa sổ đá bảng sâu
+3536	Tường cột đá bảng sâu
+3537	Cổng lan can đá bảng sâu
+3539	Mái đá bảng sâu
+3540	Chân mái dốc đá bảng sâu
+3541	Nóc mái dốc đá bảng sâu
+3543	Cầu ngói đá bảng sâu
+3544	Bậc cầu ngói đá bảng sâu
+3545	Giá đỡ cầu ngói đá bảng sâu
+3546	Nóc mái đá bảng sâu
+3705	Mái gác xép đá diorit
+3706	Cầu đá diorit
+3707	Trụ cầu đá diorit
+3708	Bậc cầu đá diorit
+3709	Cửa sổ bốn ô đá diorit
+3710	Tường phủ cỏ đá diorit
+3711	Cửa chớp lá sách đá diorit
+3712	Chân mái thấp đá diorit
+3713	Nóc mái thấp đá diorit
+3715	Ô cửa sổ đá diorit
+3716	Tường chắn đá diorit
+3717	Tường cột đá diorit
+3719	Cổng lan can đá diorit
+3720	Mái đá diorit
+3721	Chân mái dốc đá diorit
+3722	Nóc mái dốc đá diorit
+3724	Nóc mái đá diorit
+4054	Mái gác xép gỗ thiên giới
+4055	Ban công gỗ thiên giới
+4056	Cửa sập kiểu tre gỗ thiên giới
+4057	Cửa kính vỏ gỗ thiên giới
+4058	Cửa sập vỏ gỗ thiên giới
+4059	Cửa nhà kho gỗ thiên giới
+4060	Cửa nhà kho có kính gỗ thiên giới
+4061	Cửa sập nhà kho gỗ thiên giới
+4062	Cửa sập song sắt gỗ thiên giới
+4063	Cửa sập kiểu thùng gỗ thiên giới
+4064	Cửa nhà biển gỗ thiên giới
+4065	Cửa sập nhà biển gỗ thiên giới
+4066	Rèm sáo gỗ thiên giới
+4067	Cửa sập hoa gỗ thiên giới
+4070	Kệ sách gỗ thiên giới
+4071	Kệ sách ngăn kéo gỗ thiên giới
+4072	Cầu gỗ thiên giới
+4073	Bậc cầu gỗ thiên giới
+4074	Giá đỡ cầu gỗ thiên giới
+4075	Cầu thang đặc gỗ thiên giới
+4077	Ghế gỗ thiên giới
+4078	Cửa cổ điển gỗ thiên giới
+4079	Cửa sập cổ điển gỗ thiên giới
+4080	Bàn trà gỗ thiên giới
+4081	Cầu thang gọn gỗ thiên giới
+4082	Cửa nhà vườn gỗ thiên giới
+4083	Cửa sập nhà vườn gỗ thiên giới
+4084	Quầy bếp gỗ thiên giới
+4085	Bàn học có tủ gỗ thiên giới
+4086	Kệ sách có tủ gỗ thiên giới
+4087	Quầy bếp có tủ gỗ thiên giới
+4088	Thanh treo rèm gỗ thiên giới
+4089	Cổng vòm gỗ thiên giới
+4090	Bàn học gỗ thiên giới
+4092	Tủ hai ngăn kéo gỗ thiên giới
+4093	Quầy bếp hai ngăn kéo gỗ thiên giới
+4094	Quầy bếp đôi gỗ thiên giới
+4095	Tủ quần áo đôi gỗ thiên giới
+4096	Tủ ngăn kéo gỗ thiên giới
+4097	Quầy bếp ngăn kéo gỗ thiên giới
+4098	Bàn đầu giường gỗ thiên giới
+4101	Cửa sổ bốn ô gỗ thiên giới
+4102	Cửa bốn ô gỗ thiên giới
+4103	Cửa sập bốn ô gỗ thiên giới
+4104	Cửa kính gỗ thiên giới
+4105	Tủ bếp kính gỗ thiên giới
+4106	Bàn kính gỗ thiên giới
+4107	Cửa sập kính gỗ thiên giới
+4109	Bờ rào lá thiên giới
+4110	Cổng Highley gỗ thiên giới
+4111	Hàng rào chuồng ngựa gỗ thiên giới
+4112	Tủ bếp gỗ thiên giới
+4113	Bồn rửa bát gỗ thiên giới
+4114	Tủ ngăn kéo lớn gỗ thiên giới
+4116	Cầu thang gác gỗ thiên giới
+4118	Cửa chớp lá sách gỗ thiên giới
+4119	Chân mái thấp gỗ thiên giới
+4120	Kệ sách ngăn kéo thấp gỗ thiên giới
+4121	Nóc mái thấp gỗ thiên giới
+4122	Tủ ba ngăn kéo thấp gỗ thiên giới
+4123	Cửa lưới gỗ thiên giới
+4124	Ghế hiện đại gỗ thiên giới
+4125	Bàn học hiện đại gỗ thiên giới
+4126	Cửa hiện đại gỗ thiên giới
+4127	Tủ quần áo hiện đại gỗ thiên giới
+4128	Cửa huyền bí gỗ thiên giới
+4129	Cửa sập huyền bí gỗ thiên giới
+4130	Cửa Nether gỗ thiên giới
+4131	Ô cửa sổ gỗ thiên giới
+4132	Cửa giấy gỗ thiên giới
+4133	Cửa sập giấy gỗ thiên giới
+4134	Tường chắn gỗ thiên giới
+4135	Hàng rào cọc gỗ thiên giới
+4137	Mái gác xép ván gỗ thiên giới
+4138	Cửa sổ bốn ô ván gỗ thiên giới
+4139	Chân mái thấp ván gỗ thiên giới
+4140	Nóc mái thấp ván gỗ thiên giới
+4141	Ô cửa sổ ván gỗ thiên giới
+4142	Tường chắn ván gỗ thiên giới
+4143	Lối đi ván gỗ thiên giới
+4144	Mái ván gỗ thiên giới
+4145	Chân mái dốc ván gỗ thiên giới
+4146	Nóc mái dốc ván gỗ thiên giới
+4147	Nóc mái ván gỗ thiên giới
+4148	Bục gỗ thiên giới
+4150	Cổng chóp gỗ thiên giới
+4151	Cầu có lan can gỗ thiên giới
+4152	Lan can gỗ thiên giới
+4153	Cửa sập trang trại gỗ thiên giới
+4154	Mái gỗ thiên giới
+4156	Cửa giấy kiểu Nhật gỗ thiên giới
+4157	Cửa giấy kiểu Nhật liền tấm gỗ thiên giới
+4158	Cửa chớp gỗ thiên giới
+4160	Cầu thang trên không gỗ thiên giới
+4162	Cửa chuồng gỗ thiên giới
+4163	Cửa chuồng ngựa gỗ thiên giới
+4165	Chân mái dốc gỗ thiên giới
+4166	Nóc mái dốc gỗ thiên giới
+4167	Hàng rào cọc nhọn gỗ thiên giới
+4168	Ghế đẩu gỗ thiên giới
+4169	Ghế sọc gỗ thiên giới
+4170	Cửa đầm lầy gỗ thiên giới
+4171	Cửa sập đầm lầy gỗ thiên giới
+4172	Bàn gỗ thiên giới
+4173	Cầu thang bậc thềm gỗ thiên giới
+4174	Nóc mái gỗ thiên giới
+4176	Tủ ba ngăn kéo gỗ thiên giới
+4177	Cửa nhiệt đới gỗ thiên giới
+4178	Cửa sập nhiệt đới gỗ thiên giới
+4179	Cửa ô lưới gỗ thiên giới
+4182	Tủ quần áo gỗ thiên giới
+4183	Cửa kiểu viễn Tây gỗ thiên giới
+4184	Cửa thì thầm gỗ thiên giới
+4185	Cửa sập thì thầm gỗ thiên giới
+4186	Hàng rào dây thép gỗ thiên giới
+4251	Cầu gạch đá End
+4252	Trụ cầu gạch đá End
+4253	Bậc cầu gạch đá End
+4583	Mái gác xép gỗ linh sam
+4584	Ban công gỗ linh sam
+4585	Cửa sập kiểu tre gỗ linh sam
+4586	Cửa kính vỏ gỗ linh sam
+4587	Cửa sập vỏ gỗ linh sam
+4588	Cửa nhà kho gỗ linh sam
+4589	Cửa nhà kho có kính gỗ linh sam
+4590	Cửa sập nhà kho gỗ linh sam
+4591	Cửa sập song sắt gỗ linh sam
+4592	Cửa sập kiểu thùng gỗ linh sam
+4593	Cửa nhà biển gỗ linh sam
+4594	Cửa sập nhà biển gỗ linh sam
+4595	Rèm sáo gỗ linh sam
+4596	Cửa sập hoa gỗ linh sam
+4597	Kệ sách gỗ linh sam
+4598	Kệ sách ngăn kéo gỗ linh sam
+4599	Cầu gỗ linh sam
+4600	Bậc cầu gỗ linh sam
+4601	Giá đỡ cầu gỗ linh sam
+4602	Cầu thang đặc gỗ linh sam
+4603	Ghế gỗ linh sam
+4604	Cửa cổ điển gỗ linh sam
+4605	Cửa sập cổ điển gỗ linh sam
+4606	Bàn trà gỗ linh sam
+4607	Cầu thang gọn gỗ linh sam
+4608	Cửa nhà vườn gỗ linh sam
+4609	Cửa sập nhà vườn gỗ linh sam
+4610	Quầy bếp gỗ linh sam
+4611	Bàn học có tủ gỗ linh sam
+4612	Kệ sách có tủ gỗ linh sam
+4613	Quầy bếp có tủ gỗ linh sam
+4614	Thanh treo rèm gỗ linh sam
+4615	Cổng vòm gỗ linh sam
+4616	Bàn học gỗ linh sam
+4617	Tủ hai ngăn kéo gỗ linh sam
+4618	Quầy bếp hai ngăn kéo gỗ linh sam
+4619	Quầy bếp đôi gỗ linh sam
+4620	Tủ quần áo đôi gỗ linh sam
+4621	Tủ ngăn kéo gỗ linh sam
+4622	Quầy bếp ngăn kéo gỗ linh sam
+4623	Bàn đầu giường gỗ linh sam
+4624	Cửa sổ bốn ô gỗ linh sam
+4625	Cửa bốn ô gỗ linh sam
+4626	Cửa sập bốn ô gỗ linh sam
+4627	Cửa kính gỗ linh sam
+4628	Tủ bếp kính gỗ linh sam
+4629	Bàn kính gỗ linh sam
+4630	Cửa sập kính gỗ linh sam
+4632	Bờ rào lá linh sam
+4633	Cổng Highley gỗ linh sam
+4634	Hàng rào chuồng ngựa gỗ linh sam
+4635	Tủ bếp gỗ linh sam
+4636	Bồn rửa bát gỗ linh sam
+4637	Tủ ngăn kéo lớn gỗ linh sam
+4638	Cầu thang gác gỗ linh sam
+4639	Cửa chớp lá sách gỗ linh sam
+4640	Chân mái thấp gỗ linh sam
+4641	Kệ sách ngăn kéo thấp gỗ linh sam
+4642	Nóc mái thấp gỗ linh sam
+4643	Tủ ba ngăn kéo thấp gỗ linh sam
+4644	Cửa lưới gỗ linh sam
+4645	Ghế hiện đại gỗ linh sam
+4646	Bàn học hiện đại gỗ linh sam
+4647	Cửa hiện đại gỗ linh sam
+4648	Tủ quần áo hiện đại gỗ linh sam
+4649	Cửa huyền bí gỗ linh sam
+4650	Cửa sập huyền bí gỗ linh sam
+4651	Cửa Nether gỗ linh sam
+4652	Ô cửa sổ gỗ linh sam
+4653	Cửa giấy gỗ linh sam
+4654	Cửa sập giấy gỗ linh sam
+4655	Tường chắn gỗ linh sam
+4656	Hàng rào cọc gỗ linh sam
+4657	Mái gác xép ván gỗ linh sam
+4658	Cửa sổ bốn ô ván gỗ linh sam
+4659	Chân mái thấp ván gỗ linh sam
+4660	Nóc mái thấp ván gỗ linh sam
+4661	Ô cửa sổ ván gỗ linh sam
+4662	Tường chắn ván gỗ linh sam
+4663	Lối đi ván gỗ linh sam
+4664	Mái ván gỗ linh sam
+4665	Chân mái dốc ván gỗ linh sam
+4666	Nóc mái dốc ván gỗ linh sam
+4667	Nóc mái ván gỗ linh sam
+4668	Bục gỗ linh sam
+4669	Cổng chóp gỗ linh sam
+4670	Cầu có lan can gỗ linh sam
+4671	Lan can gỗ linh sam
+4672	Cửa sập trang trại gỗ linh sam
+4673	Mái gỗ linh sam
+4674	Cửa giấy kiểu Nhật gỗ linh sam
+4675	Cửa giấy kiểu Nhật liền tấm gỗ linh sam
+4676	Cửa chớp gỗ linh sam
+4677	Cầu thang trên không gỗ linh sam
+4678	Cửa chuồng gỗ linh sam
+4679	Cửa chuồng ngựa gỗ linh sam
+4680	Chân mái dốc gỗ linh sam
+4681	Nóc mái dốc gỗ linh sam
+4682	Hàng rào cọc nhọn gỗ linh sam
+4683	Ghế đẩu gỗ linh sam
+4684	Ghế sọc gỗ linh sam
+4685	Cửa đầm lầy gỗ linh sam
+4686	Cửa sập đầm lầy gỗ linh sam
+4687	Bàn gỗ linh sam
+4688	Cầu thang bậc thềm gỗ linh sam
+4689	Nóc mái gỗ linh sam
+4690	Tủ ba ngăn kéo gỗ linh sam
+4691	Cửa nhiệt đới gỗ linh sam
+4692	Cửa sập nhiệt đới gỗ linh sam
+4693	Cửa ô lưới gỗ linh sam
+4695	Tủ quần áo gỗ linh sam
+4696	Cửa kiểu viễn Tây gỗ linh sam
+4697	Cửa thì thầm gỗ linh sam
+4698	Cửa sập thì thầm gỗ linh sam
+4699	Hàng rào dây thép gỗ linh sam
+4978	Cầu kính
+4979	Trụ cầu kính
+4980	Bậc cầu kính
+5075	Mái gác xép đá hoa cương
+5076	Cầu đá hoa cương
+5077	Trụ cầu đá hoa cương
+5078	Bậc cầu đá hoa cương
+5079	Cửa sổ bốn ô đá hoa cương
+5080	Tường phủ cỏ đá hoa cương
+5081	Cửa chớp lá sách đá hoa cương
+5082	Chân mái thấp đá hoa cương
+5083	Nóc mái thấp đá hoa cương
+5085	Ô cửa sổ đá hoa cương
+5086	Tường chắn đá hoa cương
+5087	Tường cột đá hoa cương
+5089	Cổng lan can đá hoa cương
+5090	Mái đá hoa cương
+5091	Chân mái dốc đá hoa cương
+5092	Nóc mái dốc đá hoa cương
+5094	Nóc mái đá hoa cương
+5118	Mái gác xép xám
+5124	Mái gác xép bê tông xám
+5125	Chân mái thấp bê tông xám
+5126	Nóc mái thấp bê tông xám
+5127	Mái bê tông xám
+5128	Chân mái dốc bê tông xám
+5129	Nóc mái dốc bê tông xám
+5130	Nóc mái bê tông xám
+5132	Rèm xám
+5137	Cửa nhà xe xám
+5148	Chân mái thấp xám
+5149	Nóc mái thấp xám
+5150	Kính ghép mảnh xám
+5151	Tấm kính ghép mảnh xám
+5152	Máng xối xám
+5153	Ống xối xám
+5154	Mái xám
+5155	Khối mái xám
+5156	Phiến mái xám
+5158	Chân mái dốc xám
+5159	Nóc mái dốc xám
+5161	Mái hiên sọc xám
+5162	Mái gác xép đất nung xám
+5163	Chân mái thấp đất nung xám
+5164	Nóc mái thấp đất nung xám
+5165	Mái đất nung xám
+5166	Chân mái dốc đất nung xám
+5167	Nóc mái dốc đất nung xám
+5168	Nóc mái đất nung xám
+5170	Nóc mái xám
+5182	Mái gác xép bê tông xanh lá
+5183	Chân mái thấp bê tông xanh lá
+5184	Nóc mái thấp bê tông xanh lá
+5185	Mái bê tông xanh lá
+5186	Chân mái dốc bê tông xanh lá
+5187	Nóc mái dốc bê tông xanh lá
+5188	Nóc mái bê tông xanh lá
+5190	Rèm xanh lá
+5208	Kính ghép mảnh xanh lá
+5209	Tấm kính ghép mảnh xanh lá
+5212	Máng xối xanh lá
+5213	Ống xối xanh lá
+5217	Mái hiên sọc xanh lá
+5222	Mái gác xép đất nung xanh lá
+5223	Chân mái thấp đất nung xanh lá
+5224	Nóc mái thấp đất nung xanh lá
+5225	Mái đất nung xanh lá
+5226	Chân mái dốc đất nung xanh lá
+5227	Nóc mái dốc đất nung xanh lá
+5228	Nóc mái đất nung xanh lá
+5340	Mái gác xép gỗ Hellbark
+5341	Ban công gỗ Hellbark
+5342	Cửa sập kiểu tre gỗ Hellbark
+5343	Cửa kính vỏ gỗ Hellbark
+5344	Cửa sập vỏ gỗ Hellbark
+5345	Cửa nhà kho gỗ Hellbark
+5346	Cửa nhà kho có kính gỗ Hellbark
+5347	Cửa sập nhà kho gỗ Hellbark
+5348	Cửa sập song sắt gỗ Hellbark
+5349	Cửa sập kiểu thùng gỗ Hellbark
+5350	Cửa nhà biển gỗ Hellbark
+5351	Cửa sập nhà biển gỗ Hellbark
+5352	Rèm sáo gỗ Hellbark
+5353	Cửa sập hoa gỗ Hellbark
+5354	Kệ sách gỗ Hellbark
+5355	Kệ sách ngăn kéo gỗ Hellbark
+5356	Cầu gỗ Hellbark
+5357	Bậc cầu gỗ Hellbark
+5358	Giá đỡ cầu gỗ Hellbark
+5359	Cầu thang đặc gỗ Hellbark
+5360	Ghế gỗ Hellbark
+5361	Cửa cổ điển gỗ Hellbark
+5362	Cửa sập cổ điển gỗ Hellbark
+5363	Bàn trà gỗ Hellbark
+5364	Cầu thang gọn gỗ Hellbark
+5365	Cửa nhà vườn gỗ Hellbark
+5366	Cửa sập nhà vườn gỗ Hellbark
+5367	Quầy bếp gỗ Hellbark
+5368	Bàn học có tủ gỗ Hellbark
+5369	Kệ sách có tủ gỗ Hellbark
+5370	Quầy bếp có tủ gỗ Hellbark
+5371	Thanh treo rèm gỗ Hellbark
+5372	Cổng vòm gỗ Hellbark
+5373	Bàn học gỗ Hellbark
+5374	Tủ hai ngăn kéo gỗ Hellbark
+5375	Quầy bếp hai ngăn kéo gỗ Hellbark
+5376	Quầy bếp đôi gỗ Hellbark
+5377	Tủ quần áo đôi gỗ Hellbark
+5378	Tủ ngăn kéo gỗ Hellbark
+5379	Quầy bếp ngăn kéo gỗ Hellbark
+5380	Bàn đầu giường gỗ Hellbark
+5381	Cửa sổ bốn ô gỗ Hellbark
+5382	Cửa bốn ô gỗ Hellbark
+5383	Cửa sập bốn ô gỗ Hellbark
+5384	Cửa kính gỗ Hellbark
+5385	Tủ bếp kính gỗ Hellbark
+5386	Bàn kính gỗ Hellbark
+5387	Cửa sập kính gỗ Hellbark
+5389	Bờ rào lá Hellbark
+5390	Cổng Highley gỗ Hellbark
+5391	Hàng rào chuồng ngựa gỗ Hellbark
+5392	Tủ bếp gỗ Hellbark
+5393	Bồn rửa bát gỗ Hellbark
+5394	Tủ ngăn kéo lớn gỗ Hellbark
+5395	Cầu thang gác gỗ Hellbark
+5396	Cửa chớp lá sách gỗ Hellbark
+5397	Chân mái thấp gỗ Hellbark
+5398	Kệ sách ngăn kéo thấp gỗ Hellbark
+5399	Nóc mái thấp gỗ Hellbark
+5400	Tủ ba ngăn kéo thấp gỗ Hellbark
+5401	Cửa lưới gỗ Hellbark
+5402	Ghế hiện đại gỗ Hellbark
+5403	Bàn học hiện đại gỗ Hellbark
+5404	Cửa hiện đại gỗ Hellbark
+5405	Tủ quần áo hiện đại gỗ Hellbark
+5406	Cửa huyền bí gỗ Hellbark
+5407	Cửa sập huyền bí gỗ Hellbark
+5408	Cửa Nether gỗ Hellbark
+5409	Ô cửa sổ gỗ Hellbark
+5410	Cửa giấy gỗ Hellbark
+5411	Cửa sập giấy gỗ Hellbark
+5412	Tường chắn gỗ Hellbark
+5413	Hàng rào cọc gỗ Hellbark
+5414	Mái gác xép ván gỗ Hellbark
+5415	Cửa sổ bốn ô ván gỗ Hellbark
+5416	Chân mái thấp ván gỗ Hellbark
+5417	Nóc mái thấp ván gỗ Hellbark
+5418	Ô cửa sổ ván gỗ Hellbark
+5419	Tường chắn ván gỗ Hellbark
+5420	Lối đi ván gỗ Hellbark
+5421	Mái ván gỗ Hellbark
+5422	Chân mái dốc ván gỗ Hellbark
+5423	Nóc mái dốc ván gỗ Hellbark
+5424	Nóc mái ván gỗ Hellbark
+5425	Bục gỗ Hellbark
+5426	Cổng chóp gỗ Hellbark
+5427	Cầu có lan can gỗ Hellbark
+5428	Lan can gỗ Hellbark
+5429	Cửa sập trang trại gỗ Hellbark
+5430	Mái gỗ Hellbark
+5431	Cửa giấy kiểu Nhật gỗ Hellbark
+5432	Cửa giấy kiểu Nhật liền tấm gỗ Hellbark
+5433	Cửa chớp gỗ Hellbark
+5434	Cầu thang trên không gỗ Hellbark
+5435	Cửa chuồng gỗ Hellbark
+5436	Cửa chuồng ngựa gỗ Hellbark
+5437	Chân mái dốc gỗ Hellbark
+5438	Nóc mái dốc gỗ Hellbark
+5439	Hàng rào cọc nhọn gỗ Hellbark
+5440	Ghế đẩu gỗ Hellbark
+5441	Ghế sọc gỗ Hellbark
+5442	Cửa đầm lầy gỗ Hellbark
+5443	Cửa sập đầm lầy gỗ Hellbark
+5444	Bàn gỗ Hellbark
+5445	Cầu thang bậc thềm gỗ Hellbark
+5446	Nóc mái gỗ Hellbark
+5447	Tủ ba ngăn kéo gỗ Hellbark
+5448	Cửa nhiệt đới gỗ Hellbark
+5449	Cửa sập nhiệt đới gỗ Hellbark
+5450	Cửa ô lưới gỗ Hellbark
+5452	Tủ quần áo gỗ Hellbark
+5453	Cửa kiểu viễn Tây gỗ Hellbark
+5454	Cửa thì thầm gỗ Hellbark
+5455	Cửa sập thì thầm gỗ Hellbark
+5456	Hàng rào dây thép gỗ Hellbark
+5916	Song sắt đóng mở
+5920	Cầu sắt
+5921	Bậc cầu sắt
+5922	Giá đỡ cầu sắt
+5924	Rào chông sắt
+5945	Cửa song chắn sắt
+5950	Cửa chớp sắt
+6001	Mái gác xép gỗ phượng tím
+6002	Ban công gỗ phượng tím
+6003	Cửa sập kiểu tre gỗ phượng tím
+6004	Cửa kính vỏ gỗ phượng tím
+6005	Cửa sập vỏ gỗ phượng tím
+6006	Cửa nhà kho gỗ phượng tím
+6007	Cửa nhà kho có kính gỗ phượng tím
+6008	Cửa sập nhà kho gỗ phượng tím
+6009	Cửa sập song sắt gỗ phượng tím
+6010	Cửa sập kiểu thùng gỗ phượng tím
+6011	Cửa nhà biển gỗ phượng tím
+6012	Cửa sập nhà biển gỗ phượng tím
+6013	Rèm sáo gỗ phượng tím
+6014	Cửa sập hoa gỗ phượng tím
+6015	Kệ sách gỗ phượng tím
+6016	Kệ sách ngăn kéo gỗ phượng tím
+6017	Cầu gỗ phượng tím
+6018	Bậc cầu gỗ phượng tím
+6019	Giá đỡ cầu gỗ phượng tím
+6020	Cầu thang đặc gỗ phượng tím
+6021	Ghế gỗ phượng tím
+6022	Cửa cổ điển gỗ phượng tím
+6023	Cửa sập cổ điển gỗ phượng tím
+6024	Bàn trà gỗ phượng tím
+6025	Cầu thang gọn gỗ phượng tím
+6026	Cửa nhà vườn gỗ phượng tím
+6027	Cửa sập nhà vườn gỗ phượng tím
+6028	Quầy bếp gỗ phượng tím
+6029	Bàn học có tủ gỗ phượng tím
+6030	Kệ sách có tủ gỗ phượng tím
+6031	Quầy bếp có tủ gỗ phượng tím
+6032	Thanh treo rèm gỗ phượng tím
+6033	Cổng vòm gỗ phượng tím
+6034	Bàn học gỗ phượng tím
+6035	Tủ hai ngăn kéo gỗ phượng tím
+6036	Quầy bếp hai ngăn kéo gỗ phượng tím
+6037	Quầy bếp đôi gỗ phượng tím
+6038	Tủ quần áo đôi gỗ phượng tím
+6039	Tủ ngăn kéo gỗ phượng tím
+6040	Quầy bếp ngăn kéo gỗ phượng tím
+6041	Bàn đầu giường gỗ phượng tím
+6042	Cửa sổ bốn ô gỗ phượng tím
+6043	Cửa bốn ô gỗ phượng tím
+6044	Cửa sập bốn ô gỗ phượng tím
+6046	Cửa kính gỗ phượng tím
+6047	Tủ bếp kính gỗ phượng tím
+6048	Bàn kính gỗ phượng tím
+6049	Cửa sập kính gỗ phượng tím
+6051	Bờ rào lá phượng tím
+6052	Cổng Highley gỗ phượng tím
+6053	Hàng rào chuồng ngựa gỗ phượng tím
+6054	Tủ bếp gỗ phượng tím
+6055	Bồn rửa bát gỗ phượng tím
+6056	Tủ ngăn kéo lớn gỗ phượng tím
+6057	Cầu thang gác gỗ phượng tím
+6058	Cửa chớp lá sách gỗ phượng tím
+6059	Chân mái thấp gỗ phượng tím
+6060	Kệ sách ngăn kéo thấp gỗ phượng tím
+6061	Nóc mái thấp gỗ phượng tím
+6062	Tủ ba ngăn kéo thấp gỗ phượng tím
+6063	Cửa lưới gỗ phượng tím
+6064	Ghế hiện đại gỗ phượng tím
+6065	Bàn học hiện đại gỗ phượng tím
+6066	Cửa hiện đại gỗ phượng tím
+6067	Tủ quần áo hiện đại gỗ phượng tím
+6068	Cửa huyền bí gỗ phượng tím
+6069	Cửa sập huyền bí gỗ phượng tím
+6070	Cửa Nether gỗ phượng tím
+6071	Ô cửa sổ gỗ phượng tím
+6072	Cửa giấy gỗ phượng tím
+6073	Cửa sập giấy gỗ phượng tím
+6074	Tường chắn gỗ phượng tím
+6075	Hàng rào cọc gỗ phượng tím
+6076	Mái gác xép ván gỗ phượng tím
+6077	Cửa sổ bốn ô ván gỗ phượng tím
+6078	Chân mái thấp ván gỗ phượng tím
+6079	Nóc mái thấp ván gỗ phượng tím
+6080	Ô cửa sổ ván gỗ phượng tím
+6081	Tường chắn ván gỗ phượng tím
+6082	Lối đi ván gỗ phượng tím
+6083	Mái ván gỗ phượng tím
+6084	Chân mái dốc ván gỗ phượng tím
+6085	Nóc mái dốc ván gỗ phượng tím
+6086	Nóc mái ván gỗ phượng tím
+6087	Bục gỗ phượng tím
+6088	Cổng chóp gỗ phượng tím
+6089	Cầu có lan can gỗ phượng tím
+6090	Lan can gỗ phượng tím
+6091	Cửa sập trang trại gỗ phượng tím
+6092	Mái gỗ phượng tím
+6093	Cửa giấy kiểu Nhật gỗ phượng tím
+6094	Cửa giấy kiểu Nhật liền tấm gỗ phượng tím
+6095	Cửa chớp gỗ phượng tím
+6096	Cầu thang trên không gỗ phượng tím
+6097	Cửa chuồng gỗ phượng tím
+6098	Cửa chuồng ngựa gỗ phượng tím
+6099	Chân mái dốc gỗ phượng tím
+6100	Nóc mái dốc gỗ phượng tím
+6101	Hàng rào cọc nhọn gỗ phượng tím
+6102	Ghế đẩu gỗ phượng tím
+6103	Ghế sọc gỗ phượng tím
+6104	Cửa đầm lầy gỗ phượng tím
+6105	Cửa sập đầm lầy gỗ phượng tím
+6106	Bàn gỗ phượng tím
+6107	Cầu thang bậc thềm gỗ phượng tím
+6108	Nóc mái gỗ phượng tím
+6109	Tủ ba ngăn kéo gỗ phượng tím
+6110	Cửa nhiệt đới gỗ phượng tím
+6111	Cửa sập nhiệt đới gỗ phượng tím
+6112	Cửa ô lưới gỗ phượng tím
+6114	Tủ quần áo gỗ phượng tím
+6115	Cửa kiểu viễn Tây gỗ phượng tím
+6116	Cửa thì thầm gỗ phượng tím
+6117	Cửa sập thì thầm gỗ phượng tím
+6118	Hàng rào dây thép gỗ phượng tím
+6170	Mái gác xép gỗ rừng
+6172	Cửa kính vỏ gỗ rừng
+6173	Cửa sập vỏ gỗ rừng
+6174	Cửa nhà kho gỗ rừng
+6175	Cửa nhà kho có kính gỗ rừng
+6176	Cửa sập nhà kho gỗ rừng
+6177	Cửa sập song sắt gỗ rừng
+6178	Cửa sập kiểu thùng gỗ rừng
+6181	Cửa sập nhà biển gỗ rừng
+6183	Rèm sáo gỗ rừng
+6184	Cầu gỗ rừng
+6185	Bậc cầu gỗ rừng
+6186	Giá đỡ cầu gỗ rừng
+6188	Cửa cổ điển gỗ rừng
+6189	Cửa sập cổ điển gỗ rừng
+6191	Cửa nhà vườn gỗ rừng
+6192	Cửa sập nhà vườn gỗ rừng
+6194	Thanh treo rèm gỗ rừng
+6195	Cổng vòm gỗ rừng
+6200	Cửa sổ bốn ô gỗ rừng
+6201	Cửa bốn ô gỗ rừng
+6202	Cửa sập bốn ô gỗ rừng
+6203	Cửa kính gỗ rừng
+6204	Cửa sập kính gỗ rừng
+6206	Cổng Highley gỗ rừng
+6207	Hàng rào chuồng ngựa gỗ rừng
+6217	Cửa chớp lá sách gỗ rừng
+6218	Chân mái thấp gỗ rừng
+6219	Nóc mái thấp gỗ rừng
+6221	Cửa lưới gỗ rừng
+6222	Cửa sập lưới gỗ rừng
+6223	Cửa hiện đại gỗ rừng
+6224	Cửa huyền bí gỗ rừng
+6225	Cửa sập huyền bí gỗ rừng
+6226	Cửa Nether gỗ rừng
+6228	Ô cửa sổ gỗ rừng
+6229	Cửa giấy gỗ rừng
+6230	Cửa sập giấy gỗ rừng
+6231	Tường chắn gỗ rừng
+6232	Hàng rào cọc gỗ rừng
+6233	Mái gác xép ván gỗ rừng
+6234	Cửa sổ bốn ô ván gỗ rừng
+6235	Chân mái thấp ván gỗ rừng
+6236	Nóc mái thấp ván gỗ rừng
+6237	Ô cửa sổ ván gỗ rừng
+6238	Tường chắn ván gỗ rừng
+6239	Mái ván gỗ rừng
+6240	Chân mái dốc ván gỗ rừng
+6241	Nóc mái dốc ván gỗ rừng
+6242	Nóc mái ván gỗ rừng
+6244	Cổng chóp gỗ rừng
+6245	Cầu có lan can gỗ rừng
+6246	Cửa sập trang trại gỗ rừng
+6247	Mái gỗ rừng
+6250	Cửa giấy kiểu Nhật gỗ rừng
+6251	Cửa giấy kiểu Nhật liền tấm gỗ rừng
+6252	Cửa chớp gỗ rừng
+6253	Cửa chuồng gỗ rừng
+6254	Cửa chuồng ngựa gỗ rừng
+6255	Chân mái dốc gỗ rừng
+6256	Nóc mái dốc gỗ rừng
+6257	Hàng rào cọc nhọn gỗ rừng
+6261	Cửa đầm lầy gỗ rừng
+6262	Cửa sập đầm lầy gỗ rừng
+6265	Nóc mái gỗ rừng
+6266	Cửa nhiệt đới gỗ rừng
+6267	Cửa sập nhiệt đới gỗ rừng
+6268	Cửa ô lưới gỗ rừng
+6269	Cửa sập ô lưới gỗ rừng
+6270	Cửa kiểu viễn Tây gỗ rừng
+6271	Cửa thì thầm gỗ rừng
+6272	Cửa sập thì thầm gỗ rừng
+6273	Hàng rào dây thép gỗ rừng
+6454	Mái gác xép bê tông xanh nước biển nhạt
+6455	Chân mái thấp bê tông xanh nước biển nhạt
+6456	Nóc mái thấp bê tông xanh nước biển nhạt
+6457	Mái bê tông xanh nước biển nhạt
+6458	Chân mái dốc bê tông xanh nước biển nhạt
+6459	Nóc mái dốc bê tông xanh nước biển nhạt
+6460	Nóc mái bê tông xanh nước biển nhạt
+6462	Rèm xanh nước biển nhạt
+6477	Kính ghép mảnh xanh nước biển nhạt
+6478	Tấm kính ghép mảnh xanh nước biển nhạt
+6479	Máng xối xanh nước biển nhạt
+6480	Ống xối xanh nước biển nhạt
+6483	Mái hiên sọc xanh nước biển nhạt
+6484	Mái gác xép đất nung xanh nước biển nhạt
+6485	Chân mái thấp đất nung xanh nước biển nhạt
+6486	Nóc mái thấp đất nung xanh nước biển nhạt
+6487	Mái đất nung xanh nước biển nhạt
+6488	Chân mái dốc đất nung xanh nước biển nhạt
+6489	Nóc mái dốc đất nung xanh nước biển nhạt
+6490	Nóc mái đất nung xanh nước biển nhạt
+6498	Mái gác xép xám nhạt
+6504	Mái gác xép bê tông xám nhạt
+6505	Chân mái thấp bê tông xám nhạt
+6506	Nóc mái thấp bê tông xám nhạt
+6507	Mái bê tông xám nhạt
+6508	Chân mái dốc bê tông xám nhạt
+6509	Nóc mái dốc bê tông xám nhạt
+6510	Nóc mái bê tông xám nhạt
+6512	Rèm xám nhạt
+6527	Chân mái thấp xám nhạt
+6528	Nóc mái thấp xám nhạt
+6529	Kính ghép mảnh xám nhạt
+6530	Tấm kính ghép mảnh xám nhạt
+6531	Máng xối xám nhạt
+6532	Ống xối xám nhạt
+6533	Mái xám nhạt
+6534	Khối mái xám nhạt
+6535	Phiến mái xám nhạt
+6537	Chân mái dốc xám nhạt
+6538	Nóc mái dốc xám nhạt
+6540	Mái hiên sọc xám nhạt
+6541	Mái gác xép đất nung xám nhạt
+6542	Chân mái thấp đất nung xám nhạt
+6543	Nóc mái thấp đất nung xám nhạt
+6544	Mái đất nung xám nhạt
+6545	Chân mái dốc đất nung xám nhạt
+6546	Nóc mái dốc đất nung xám nhạt
+6547	Nóc mái đất nung xám nhạt
+6549	Nóc mái xám nhạt
+6577	Mái gác xép bê tông xanh lá mạ
+6578	Chân mái thấp bê tông xanh lá mạ
+6579	Nóc mái thấp bê tông xanh lá mạ
+6580	Mái bê tông xanh lá mạ
+6581	Chân mái dốc bê tông xanh lá mạ
+6582	Nóc mái dốc bê tông xanh lá mạ
+6583	Nóc mái bê tông xanh lá mạ
+6585	Rèm xanh lá mạ
+6600	Kính ghép mảnh xanh lá mạ
+6601	Tấm kính ghép mảnh xanh lá mạ
+6602	Máng xối xanh lá mạ
+6603	Ống xối xanh lá mạ
+6606	Mái hiên sọc xanh lá mạ
+6607	Mái gác xép đất nung xanh lá mạ
+6608	Chân mái thấp đất nung xanh lá mạ
+6609	Nóc mái thấp đất nung xanh lá mạ
+6610	Mái đất nung xanh lá mạ
+6611	Chân mái dốc đất nung xanh lá mạ
+6612	Nóc mái dốc đất nung xanh lá mạ
+6613	Nóc mái đất nung xanh lá mạ
+6813	Mái gác xép bê tông đỏ tươi
+6814	Chân mái thấp bê tông đỏ tươi
+6815	Nóc mái thấp bê tông đỏ tươi
+6816	Mái bê tông đỏ tươi
+6817	Chân mái dốc bê tông đỏ tươi
+6818	Nóc mái dốc bê tông đỏ tươi
+6819	Nóc mái bê tông đỏ tươi
+6821	Rèm đỏ tươi
+6836	Kính ghép mảnh đỏ tươi
+6837	Tấm kính ghép mảnh đỏ tươi
+6839	Máng xối đỏ tươi
+6840	Ống xối đỏ tươi
+6843	Mái hiên sọc đỏ tươi
+6844	Mái gác xép đất nung đỏ tươi
+6845	Chân mái thấp đất nung đỏ tươi
+6846	Nóc mái thấp đất nung đỏ tươi
+6847	Mái đất nung đỏ tươi
+6848	Chân mái dốc đất nung đỏ tươi
+6849	Nóc mái dốc đất nung đỏ tươi
+6850	Nóc mái đất nung đỏ tươi
+6862	Mái gác xép gỗ ma thuật
+6863	Ban công gỗ ma thuật
+6864	Cửa sập kiểu tre gỗ ma thuật
+6865	Cửa kính vỏ gỗ ma thuật
+6866	Cửa sập vỏ gỗ ma thuật
+6867	Cửa nhà kho gỗ ma thuật
+6868	Cửa nhà kho có kính gỗ ma thuật
+6869	Cửa sập nhà kho gỗ ma thuật
+6870	Cửa sập song sắt gỗ ma thuật
+6871	Cửa sập kiểu thùng gỗ ma thuật
+6872	Cửa nhà biển gỗ ma thuật
+6873	Cửa sập nhà biển gỗ ma thuật
+6874	Rèm sáo gỗ ma thuật
+6875	Cửa sập hoa gỗ ma thuật
+6876	Kệ sách gỗ ma thuật
+6877	Kệ sách ngăn kéo gỗ ma thuật
+6878	Cầu gỗ ma thuật
+6879	Bậc cầu gỗ ma thuật
+6880	Giá đỡ cầu gỗ ma thuật
+6881	Cầu thang đặc gỗ ma thuật
+6882	Ghế gỗ ma thuật
+6883	Cửa cổ điển gỗ ma thuật
+6884	Cửa sập cổ điển gỗ ma thuật
+6885	Bàn trà gỗ ma thuật
+6886	Cầu thang gọn gỗ ma thuật
+6887	Cửa nhà vườn gỗ ma thuật
+6888	Cửa sập nhà vườn gỗ ma thuật
+6889	Quầy bếp gỗ ma thuật
+6890	Bàn học có tủ gỗ ma thuật
+6891	Kệ sách có tủ gỗ ma thuật
+6892	Quầy bếp có tủ gỗ ma thuật
+6893	Thanh treo rèm gỗ ma thuật
+6894	Cổng vòm gỗ ma thuật
+6897	Bàn học gỗ ma thuật
+6898	Tủ hai ngăn kéo gỗ ma thuật
+6899	Quầy bếp hai ngăn kéo gỗ ma thuật
+6900	Quầy bếp đôi gỗ ma thuật
+6901	Tủ quần áo đôi gỗ ma thuật
+6902	Tủ ngăn kéo gỗ ma thuật
+6903	Quầy bếp ngăn kéo gỗ ma thuật
+6904	Bàn đầu giường gỗ ma thuật
+6905	Cửa sổ bốn ô gỗ ma thuật
+6906	Cửa bốn ô gỗ ma thuật
+6907	Cửa sập bốn ô gỗ ma thuật
+6908	Cửa kính gỗ ma thuật
+6909	Tủ bếp kính gỗ ma thuật
+6910	Bàn kính gỗ ma thuật
+6911	Cửa sập kính gỗ ma thuật
+6913	Bờ rào lá ma thuật
+6914	Cổng Highley gỗ ma thuật
+6915	Hàng rào chuồng ngựa gỗ ma thuật
+6916	Tủ bếp gỗ ma thuật
+6917	Bồn rửa bát gỗ ma thuật
+6918	Tủ ngăn kéo lớn gỗ ma thuật
+6919	Cầu thang gác gỗ ma thuật
+6920	Cửa chớp lá sách gỗ ma thuật
+6921	Chân mái thấp gỗ ma thuật
+6922	Kệ sách ngăn kéo thấp gỗ ma thuật
+6923	Nóc mái thấp gỗ ma thuật
+6924	Tủ ba ngăn kéo thấp gỗ ma thuật
+6925	Cửa lưới gỗ ma thuật
+6926	Ghế hiện đại gỗ ma thuật
+6927	Bàn học hiện đại gỗ ma thuật
+6928	Cửa hiện đại gỗ ma thuật
+6929	Tủ quần áo hiện đại gỗ ma thuật
+6930	Cửa huyền bí gỗ ma thuật
+6931	Cửa sập huyền bí gỗ ma thuật
+6932	Cửa Nether gỗ ma thuật
+6933	Ô cửa sổ gỗ ma thuật
+6934	Cửa giấy gỗ ma thuật
+6935	Cửa sập giấy gỗ ma thuật
+6936	Tường chắn gỗ ma thuật
+6937	Hàng rào cọc gỗ ma thuật
+6938	Mái gác xép ván gỗ ma thuật
+6939	Cửa sổ bốn ô ván gỗ ma thuật
+6940	Chân mái thấp ván gỗ ma thuật
+6941	Nóc mái thấp ván gỗ ma thuật
+6942	Ô cửa sổ ván gỗ ma thuật
+6943	Tường chắn ván gỗ ma thuật
+6944	Lối đi ván gỗ ma thuật
+6945	Mái ván gỗ ma thuật
+6946	Chân mái dốc ván gỗ ma thuật
+6947	Nóc mái dốc ván gỗ ma thuật
+6948	Nóc mái ván gỗ ma thuật
+6949	Bục gỗ ma thuật
+6950	Cổng chóp gỗ ma thuật
+6951	Cầu có lan can gỗ ma thuật
+6952	Lan can gỗ ma thuật
+6953	Cửa sập trang trại gỗ ma thuật
+6955	Mái gỗ ma thuật
+6956	Cửa giấy kiểu Nhật gỗ ma thuật
+6957	Cửa giấy kiểu Nhật liền tấm gỗ ma thuật
+6958	Cửa chớp gỗ ma thuật
+6959	Cầu thang trên không gỗ ma thuật
+6960	Cửa chuồng gỗ ma thuật
+6961	Cửa chuồng ngựa gỗ ma thuật
+6962	Chân mái dốc gỗ ma thuật
+6963	Nóc mái dốc gỗ ma thuật
+6964	Hàng rào cọc nhọn gỗ ma thuật
+6965	Ghế đẩu gỗ ma thuật
+6966	Ghế sọc gỗ ma thuật
+6967	Cửa đầm lầy gỗ ma thuật
+6968	Cửa sập đầm lầy gỗ ma thuật
+6969	Bàn gỗ ma thuật
+6970	Cầu thang bậc thềm gỗ ma thuật
+6971	Nóc mái gỗ ma thuật
+6972	Tủ ba ngăn kéo gỗ ma thuật
+6973	Cửa nhiệt đới gỗ ma thuật
+6974	Cửa sập nhiệt đới gỗ ma thuật
+6975	Cửa ô lưới gỗ ma thuật
+6977	Tủ quần áo gỗ ma thuật
+6978	Cửa kiểu viễn Tây gỗ ma thuật
+6979	Cửa thì thầm gỗ ma thuật
+6980	Cửa sập thì thầm gỗ ma thuật
+6981	Hàng rào dây thép gỗ ma thuật
+6989	Mái gác xép gỗ dái ngựa
+6990	Ban công gỗ dái ngựa
+6991	Cửa sập kiểu tre gỗ dái ngựa
+6992	Cửa kính vỏ gỗ dái ngựa
+6993	Cửa sập vỏ gỗ dái ngựa
+6994	Cửa nhà kho gỗ dái ngựa
+6995	Cửa nhà kho có kính gỗ dái ngựa
+6996	Cửa sập nhà kho gỗ dái ngựa
+6997	Cửa sập song sắt gỗ dái ngựa
+6998	Cửa sập kiểu thùng gỗ dái ngựa
+6999	Cửa nhà biển gỗ dái ngựa
+7000	Cửa sập nhà biển gỗ dái ngựa
+7001	Rèm sáo gỗ dái ngựa
+7002	Cửa sập hoa gỗ dái ngựa
+7003	Kệ sách gỗ dái ngựa
+7004	Kệ sách ngăn kéo gỗ dái ngựa
+7005	Cầu gỗ dái ngựa
+7006	Bậc cầu gỗ dái ngựa
+7007	Giá đỡ cầu gỗ dái ngựa
+7008	Cầu thang đặc gỗ dái ngựa
+7009	Ghế gỗ dái ngựa
+7010	Cửa cổ điển gỗ dái ngựa
+7011	Cửa sập cổ điển gỗ dái ngựa
+7012	Bàn trà gỗ dái ngựa
+7013	Cầu thang gọn gỗ dái ngựa
+7014	Cửa nhà vườn gỗ dái ngựa
+7015	Cửa sập nhà vườn gỗ dái ngựa
+7016	Quầy bếp gỗ dái ngựa
+7017	Bàn học có tủ gỗ dái ngựa
+7018	Kệ sách có tủ gỗ dái ngựa
+7019	Quầy bếp có tủ gỗ dái ngựa
+7020	Thanh treo rèm gỗ dái ngựa
+7021	Cổng vòm gỗ dái ngựa
+7022	Bàn học gỗ dái ngựa
+7023	Tủ hai ngăn kéo gỗ dái ngựa
+7024	Quầy bếp hai ngăn kéo gỗ dái ngựa
+7025	Quầy bếp đôi gỗ dái ngựa
+7026	Tủ quần áo đôi gỗ dái ngựa
+7027	Tủ ngăn kéo gỗ dái ngựa
+7028	Quầy bếp ngăn kéo gỗ dái ngựa
+7029	Bàn đầu giường gỗ dái ngựa
+7030	Cửa sổ bốn ô gỗ dái ngựa
+7031	Cửa bốn ô gỗ dái ngựa
+7032	Cửa sập bốn ô gỗ dái ngựa
+7033	Cửa kính gỗ dái ngựa
+7034	Tủ bếp kính gỗ dái ngựa
+7035	Bàn kính gỗ dái ngựa
+7036	Cửa sập kính gỗ dái ngựa
+7038	Bờ rào lá dái ngựa
+7039	Cổng Highley gỗ dái ngựa
+7040	Hàng rào chuồng ngựa gỗ dái ngựa
+7041	Tủ bếp gỗ dái ngựa
+7042	Bồn rửa bát gỗ dái ngựa
+7043	Tủ ngăn kéo lớn gỗ dái ngựa
+7044	Cầu thang gác gỗ dái ngựa
+7045	Cửa chớp lá sách gỗ dái ngựa
+7046	Chân mái thấp gỗ dái ngựa
+7047	Kệ sách ngăn kéo thấp gỗ dái ngựa
+7048	Nóc mái thấp gỗ dái ngựa
+7049	Tủ ba ngăn kéo thấp gỗ dái ngựa
+7050	Cửa lưới gỗ dái ngựa
+7051	Ghế hiện đại gỗ dái ngựa
+7052	Bàn học hiện đại gỗ dái ngựa
+7053	Cửa hiện đại gỗ dái ngựa
+7054	Tủ quần áo hiện đại gỗ dái ngựa
+7055	Cửa huyền bí gỗ dái ngựa
+7056	Cửa sập huyền bí gỗ dái ngựa
+7057	Cửa Nether gỗ dái ngựa
+7058	Ô cửa sổ gỗ dái ngựa
+7059	Cửa giấy gỗ dái ngựa
+7060	Cửa sập giấy gỗ dái ngựa
+7061	Tường chắn gỗ dái ngựa
+7062	Hàng rào cọc gỗ dái ngựa
+7063	Mái gác xép ván gỗ dái ngựa
+7064	Cửa sổ bốn ô ván gỗ dái ngựa
+7065	Chân mái thấp ván gỗ dái ngựa
+7066	Nóc mái thấp ván gỗ dái ngựa
+7067	Ô cửa sổ ván gỗ dái ngựa
+7068	Tường chắn ván gỗ dái ngựa
+7069	Lối đi ván gỗ dái ngựa
+7070	Mái ván gỗ dái ngựa
+7071	Chân mái dốc ván gỗ dái ngựa
+7072	Nóc mái dốc ván gỗ dái ngựa
+7073	Nóc mái ván gỗ dái ngựa
+7074	Bục gỗ dái ngựa
+7075	Cổng chóp gỗ dái ngựa
+7076	Cầu có lan can gỗ dái ngựa
+7077	Lan can gỗ dái ngựa
+7078	Cửa sập trang trại gỗ dái ngựa
+7079	Mái gỗ dái ngựa
+7080	Cửa giấy kiểu Nhật gỗ dái ngựa
+7081	Cửa giấy kiểu Nhật liền tấm gỗ dái ngựa
+7082	Cửa chớp gỗ dái ngựa
+7083	Cầu thang trên không gỗ dái ngựa
+7084	Cửa chuồng gỗ dái ngựa
+7085	Cửa chuồng ngựa gỗ dái ngựa
+7086	Chân mái dốc gỗ dái ngựa
+7087	Nóc mái dốc gỗ dái ngựa
+7088	Hàng rào cọc nhọn gỗ dái ngựa
+7089	Ghế đẩu gỗ dái ngựa
+7090	Ghế sọc gỗ dái ngựa
+7091	Cửa đầm lầy gỗ dái ngựa
+7092	Cửa sập đầm lầy gỗ dái ngựa
+7093	Bàn gỗ dái ngựa
+7094	Cầu thang bậc thềm gỗ dái ngựa
+7095	Nóc mái gỗ dái ngựa
+7096	Tủ ba ngăn kéo gỗ dái ngựa
+7097	Cửa nhiệt đới gỗ dái ngựa
+7098	Cửa sập nhiệt đới gỗ dái ngựa
+7099	Cửa ô lưới gỗ dái ngựa
+7101	Tủ quần áo gỗ dái ngựa
+7102	Cửa kiểu viễn Tây gỗ dái ngựa
+7103	Cửa thì thầm gỗ dái ngựa
+7104	Cửa sập thì thầm gỗ dái ngựa
+7105	Hàng rào dây thép gỗ dái ngựa
+7137	Mái gác xép gỗ đước
+7139	Cửa kính vỏ gỗ đước
+7140	Cửa sập vỏ gỗ đước
+7141	Cửa nhà kho gỗ đước
+7142	Cửa nhà kho có kính gỗ đước
+7143	Cửa sập nhà kho gỗ đước
+7144	Cửa sập song sắt gỗ đước
+7145	Cửa sập kiểu thùng gỗ đước
+7148	Cửa nhà biển gỗ đước
+7149	Cửa sập nhà biển gỗ đước
+7151	Rèm sáo gỗ đước
+7152	Cầu gỗ đước
+7153	Bậc cầu gỗ đước
+7154	Giá đỡ cầu gỗ đước
+7156	Cửa cổ điển gỗ đước
+7157	Cửa sập cổ điển gỗ đước
+7159	Cửa nhà vườn gỗ đước
+7160	Cửa sập nhà vườn gỗ đước
+7162	Thanh treo rèm gỗ đước
+7163	Cổng vòm gỗ đước
+7168	Cửa sổ bốn ô gỗ đước
+7169	Cửa bốn ô gỗ đước
+7170	Cửa sập bốn ô gỗ đước
+7171	Cửa kính gỗ đước
+7172	Cửa sập kính gỗ đước
+7174	Cổng Highley gỗ đước
+7175	Hàng rào chuồng ngựa gỗ đước
+7185	Cửa chớp lá sách gỗ đước
+7186	Chân mái thấp gỗ đước
+7187	Nóc mái thấp gỗ đước
+7189	Cửa lưới gỗ đước
+7190	Cửa sập lưới gỗ đước
+7191	Cửa hiện đại gỗ đước
+7192	Cửa huyền bí gỗ đước
+7193	Cửa sập huyền bí gỗ đước
+7194	Cửa Nether gỗ đước
+7196	Ô cửa sổ gỗ đước
+7197	Cửa giấy gỗ đước
+7198	Cửa sập giấy gỗ đước
+7199	Tường chắn gỗ đước
+7200	Hàng rào cọc gỗ đước
+7201	Mái gác xép ván gỗ đước
+7202	Cửa sổ bốn ô ván gỗ đước
+7203	Chân mái thấp ván gỗ đước
+7204	Nóc mái thấp ván gỗ đước
+7205	Ô cửa sổ ván gỗ đước
+7206	Tường chắn ván gỗ đước
+7207	Mái ván gỗ đước
+7208	Chân mái dốc ván gỗ đước
+7209	Nóc mái dốc ván gỗ đước
+7210	Nóc mái ván gỗ đước
+7211	Cổng chóp gỗ đước
+7212	Cầu có lan can gỗ đước
+7213	Cửa sập trang trại gỗ đước
+7214	Mái gỗ đước
+7217	Cửa giấy kiểu Nhật gỗ đước
+7218	Cửa giấy kiểu Nhật liền tấm gỗ đước
+7219	Cửa chớp gỗ đước
+7220	Cửa chuồng gỗ đước
+7221	Cửa chuồng ngựa gỗ đước
+7222	Chân mái dốc gỗ đước
+7223	Nóc mái dốc gỗ đước
+7224	Hàng rào cọc nhọn gỗ đước
+7230	Nóc mái gỗ đước
+7231	Cửa nhiệt đới gỗ đước
+7232	Cửa sập nhiệt đới gỗ đước
+7233	Cửa ô lưới gỗ đước
+7234	Cửa sập ô lưới gỗ đước
+7235	Cửa kiểu viễn Tây gỗ đước
+7236	Cửa thì thầm gỗ đước
+7237	Cửa sập thì thầm gỗ đước
+7238	Hàng rào dây thép gỗ đước
+7256	Mái gác xép gỗ phong
+7257	Ban công gỗ phong
+7258	Cửa sập kiểu tre gỗ phong
+7259	Cửa kính vỏ gỗ phong
+7260	Cửa sập vỏ gỗ phong
+7261	Cửa nhà kho gỗ phong
+7262	Cửa nhà kho có kính gỗ phong
+7263	Cửa sập nhà kho gỗ phong
+7264	Cửa sập song sắt gỗ phong
+7265	Cửa sập kiểu thùng gỗ phong
+7266	Cửa nhà biển gỗ phong
+7267	Cửa sập nhà biển gỗ phong
+7268	Rèm sáo gỗ phong
+7269	Cửa sập hoa gỗ phong
+7272	Kệ sách gỗ phong
+7273	Kệ sách ngăn kéo gỗ phong
+7274	Cầu gỗ phong
+7275	Bậc cầu gỗ phong
+7276	Giá đỡ cầu gỗ phong
+7277	Cầu thang đặc gỗ phong
+7279	Ghế gỗ phong
+7280	Cửa cổ điển gỗ phong
+7281	Cửa sập cổ điển gỗ phong
+7282	Bàn trà gỗ phong
+7283	Cầu thang gọn gỗ phong
+7284	Cửa nhà vườn gỗ phong
+7285	Cửa sập nhà vườn gỗ phong
+7286	Quầy bếp gỗ phong
+7287	Bàn học có tủ gỗ phong
+7288	Kệ sách có tủ gỗ phong
+7289	Quầy bếp có tủ gỗ phong
+7290	Thanh treo rèm gỗ phong
+7291	Cổng vòm gỗ phong
+7292	Bàn học gỗ phong
+7294	Tủ hai ngăn kéo gỗ phong
+7295	Quầy bếp hai ngăn kéo gỗ phong
+7296	Quầy bếp đôi gỗ phong
+7297	Tủ quần áo đôi gỗ phong
+7298	Tủ ngăn kéo gỗ phong
+7299	Quầy bếp ngăn kéo gỗ phong
+7300	Bàn đầu giường gỗ phong
+7303	Cửa sổ bốn ô gỗ phong
+7304	Cửa bốn ô gỗ phong
+7305	Cửa sập bốn ô gỗ phong
+7306	Cửa kính gỗ phong
+7307	Tủ bếp kính gỗ phong
+7308	Bàn kính gỗ phong
+7309	Cửa sập kính gỗ phong
+7311	Cổng Highley gỗ phong
+7312	Hàng rào chuồng ngựa gỗ phong
+7313	Tủ bếp gỗ phong
+7314	Bồn rửa bát gỗ phong
+7315	Tủ ngăn kéo lớn gỗ phong
+7316	Cầu thang gác gỗ phong
+7318	Cửa chớp lá sách gỗ phong
+7319	Chân mái thấp gỗ phong
+7320	Kệ sách ngăn kéo thấp gỗ phong
+7321	Nóc mái thấp gỗ phong
+7322	Tủ ba ngăn kéo thấp gỗ phong
+7323	Cửa lưới gỗ phong
+7324	Ghế hiện đại gỗ phong
+7325	Bàn học hiện đại gỗ phong
+7326	Cửa hiện đại gỗ phong
+7327	Tủ quần áo hiện đại gỗ phong
+7328	Cửa huyền bí gỗ phong
+7329	Cửa sập huyền bí gỗ phong
+7330	Cửa Nether gỗ phong
+7331	Ô cửa sổ gỗ phong
+7332	Cửa giấy gỗ phong
+7333	Cửa sập giấy gỗ phong
+7334	Tường chắn gỗ phong
+7335	Hàng rào cọc gỗ phong
+7337	Mái gác xép ván gỗ phong
+7338	Cửa sổ bốn ô ván gỗ phong
+7339	Chân mái thấp ván gỗ phong
+7340	Nóc mái thấp ván gỗ phong
+7341	Ô cửa sổ ván gỗ phong
+7342	Tường chắn ván gỗ phong
+7343	Lối đi ván gỗ phong
+7344	Mái ván gỗ phong
+7345	Chân mái dốc ván gỗ phong
+7346	Nóc mái dốc ván gỗ phong
+7347	Nóc mái ván gỗ phong
+7348	Bục gỗ phong
+7350	Cổng chóp gỗ phong
+7351	Cầu có lan can gỗ phong
+7352	Lan can gỗ phong
+7353	Cửa sập trang trại gỗ phong
+7354	Mái gỗ phong
+7355	Cửa giấy kiểu Nhật gỗ phong
+7356	Cửa giấy kiểu Nhật liền tấm gỗ phong
+7357	Cửa chớp gỗ phong
+7359	Cầu thang trên không gỗ phong
+7361	Cửa chuồng gỗ phong
+7362	Cửa chuồng ngựa gỗ phong
+7364	Chân mái dốc gỗ phong
+7365	Nóc mái dốc gỗ phong
+7366	Hàng rào cọc nhọn gỗ phong
+7367	Ghế đẩu gỗ phong
+7368	Ghế sọc gỗ phong
+7369	Cửa đầm lầy gỗ phong
+7370	Cửa sập đầm lầy gỗ phong
+7371	Bàn gỗ phong
+7372	Cầu thang bậc thềm gỗ phong
+7373	Nóc mái gỗ phong
+7375	Tủ ba ngăn kéo gỗ phong
+7376	Cửa nhiệt đới gỗ phong
+7377	Cửa sập nhiệt đới gỗ phong
+7378	Cửa ô lưới gỗ phong
+7381	Tủ quần áo gỗ phong
+7382	Cửa kiểu viễn Tây gỗ phong
+7383	Cửa thì thầm gỗ phong
+7384	Cửa sập thì thầm gỗ phong
+7385	Hàng rào dây thép gỗ phong
+7468	Thanh treo rèm kim loại
+7469	Cửa kim loại
+7472	Cửa sổ bốn khung kim loại
+7473	Cửa sập kính kim loại
+7475	Cửa bệnh viện kim loại
+7476	Ô cửa sổ kim loại
+7478	Cửa gia cố kim loại
+7480	Cửa sập kim loại
+7481	Cửa cảnh báo kim loại
+7482	Cửa có ô kính kim loại
+7640	Cầu đá cuội phủ rêu
+7641	Trụ cầu đá cuội phủ rêu
+7642	Bậc cầu đá cuội phủ rêu
+7645	Cầu gạch đá phủ rêu
+7694	Khe bắn tên gạch bùn
+7695	Mái gác xép gạch bùn
+7696	Cầu gạch bùn
+7697	Bậc cầu gạch bùn
+7698	Giá đỡ cầu gạch bùn
+7699	Cửa sổ vòm nhọn gạch bùn
+7700	Tường phủ cỏ gạch bùn
+7701	Chân mái thấp gạch bùn
+7702	Nóc mái thấp gạch bùn
+7703	Tường cột gạch bùn
+7705	Cổng lan can gạch bùn
+7706	Mái gạch bùn
+7707	Chân mái dốc gạch bùn
+7708	Nóc mái dốc gạch bùn
+7709	Nóc mái gạch bùn
+7819	Mái gác xép gạch Nether
+7820	Cầu gạch Nether
+7821	Trụ cầu gạch Nether
+7822	Bậc cầu gạch Nether
+7823	Chân mái thấp gạch Nether
+7824	Nóc mái thấp gạch Nether
+7825	Mái gạch Nether
+7826	Chân mái dốc gạch Nether
+7827	Nóc mái dốc gạch Nether
+7828	Nóc mái gạch Nether
+8006	Mái gác xép gỗ sồi
+8008	Cửa kính vỏ gỗ sồi
+8009	Cửa sập vỏ gỗ sồi
+8010	Cửa nhà kho gỗ sồi
+8011	Cửa nhà kho có kính gỗ sồi
+8012	Cửa sập nhà kho gỗ sồi
+8013	Cửa sập song sắt gỗ sồi
+8014	Cửa sập kiểu thùng gỗ sồi
+8018	Cửa nhà biển gỗ sồi
+8019	Cửa sập nhà biển gỗ sồi
+8021	Rèm sáo gỗ sồi
+8022	Cầu gỗ sồi
+8023	Bậc cầu gỗ sồi
+8024	Giá đỡ cầu gỗ sồi
+8026	Cửa sập cổ điển gỗ sồi
+8028	Cửa nhà vườn gỗ sồi
+8029	Cửa sập nhà vườn gỗ sồi
+8031	Thanh treo rèm gỗ sồi
+8032	Cổng vòm gỗ sồi
+8037	Cửa sổ bốn ô gỗ sồi
+8038	Cửa bốn ô gỗ sồi
+8039	Cửa sập bốn ô gỗ sồi
+8040	Cửa kính gỗ sồi
+8041	Cửa sập kính gỗ sồi
+8043	Cổng Highley gỗ sồi
+8044	Hàng rào chuồng ngựa gỗ sồi
+8054	Cửa chớp lá sách gỗ sồi
+8055	Chân mái thấp gỗ sồi
+8056	Nóc mái thấp gỗ sồi
+8058	Cửa lưới gỗ sồi
+8059	Cửa sập lưới gỗ sồi
+8060	Cửa hiện đại gỗ sồi
+8061	Cửa huyền bí gỗ sồi
+8062	Cửa sập huyền bí gỗ sồi
+8063	Cửa Nether gỗ sồi
+8065	Ô cửa sổ gỗ sồi
+8066	Cửa giấy gỗ sồi
+8067	Cửa sập giấy gỗ sồi
+8068	Tường chắn gỗ sồi
+8069	Hàng rào cọc gỗ sồi
+8070	Mái gác xép ván gỗ sồi
+8071	Cửa sổ bốn ô ván gỗ sồi
+8072	Chân mái thấp ván gỗ sồi
+8073	Nóc mái thấp ván gỗ sồi
+8074	Ô cửa sổ ván gỗ sồi
+8075	Tường chắn ván gỗ sồi
+8076	Mái ván gỗ sồi
+8077	Chân mái dốc ván gỗ sồi
+8078	Nóc mái dốc ván gỗ sồi
+8079	Nóc mái ván gỗ sồi
+8080	Cổng chóp gỗ sồi
+8081	Cầu có lan can gỗ sồi
+8082	Cửa sập trang trại gỗ sồi
+8083	Mái gỗ sồi
+8086	Cửa giấy kiểu Nhật gỗ sồi
+8087	Cửa giấy kiểu Nhật liền tấm gỗ sồi
+8088	Cửa chớp gỗ sồi
+8089	Cửa chuồng gỗ sồi
+8090	Cửa chuồng ngựa gỗ sồi
+8091	Chân mái dốc gỗ sồi
+8092	Nóc mái dốc gỗ sồi
+8093	Hàng rào cọc nhọn gỗ sồi
+8097	Cửa đầm lầy gỗ sồi
+8098	Cửa sập đầm lầy gỗ sồi
+8101	Nóc mái gỗ sồi
+8102	Cửa nhiệt đới gỗ sồi
+8103	Cửa sập nhiệt đới gỗ sồi
+8104	Cửa ô lưới gỗ sồi
+8105	Cửa sập ô lưới gỗ sồi
+8106	Cửa kiểu viễn Tây gỗ sồi
+8107	Cửa thì thầm gỗ sồi
+8108	Cửa sập thì thầm gỗ sồi
+8109	Hàng rào dây thép gỗ sồi
+8250	Mái gác xép bê tông cam
+8251	Chân mái thấp bê tông cam
+8252	Nóc mái thấp bê tông cam
+8253	Mái bê tông cam
+8254	Chân mái dốc bê tông cam
+8255	Nóc mái dốc bê tông cam
+8256	Nóc mái bê tông cam
+8258	Rèm cam
+8273	Bờ rào lá phong cam
+8277	Kính ghép mảnh cam
+8278	Tấm kính ghép mảnh cam
+8281	Máng xối cam
+8282	Ống xối cam
+8285	Mái hiên sọc cam
+8286	Mái gác xép đất nung cam
+8287	Chân mái thấp đất nung cam
+8288	Nóc mái thấp đất nung cam
+8289	Mái đất nung cam
+8290	Chân mái dốc đất nung cam
+8291	Nóc mái dốc đất nung cam
+8292	Nóc mái đất nung cam
+8367	Cửa kính vỏ gỗ sồi nhạt
+8368	Cửa nhà kho gỗ sồi nhạt
+8369	Cửa nhà kho có kính gỗ sồi nhạt
+8370	Cửa nhà biển gỗ sồi nhạt
+8371	Cầu gỗ sồi nhạt
+8372	Bậc cầu gỗ sồi nhạt
+8373	Giá đỡ cầu gỗ sồi nhạt
+8374	Cửa cổ điển gỗ sồi nhạt
+8375	Cửa nhà vườn gỗ sồi nhạt
+8376	Cửa bốn ô gỗ sồi nhạt
+8377	Cửa kính gỗ sồi nhạt
+8378	Cửa lưới gỗ sồi nhạt
+8379	Cửa hiện đại gỗ sồi nhạt
+8380	Cửa huyền bí gỗ sồi nhạt
+8381	Cửa Nether gỗ sồi nhạt
+8382	Cửa giấy gỗ sồi nhạt
+8383	Cầu có lan can gỗ sồi nhạt
+8384	Cửa giấy kiểu Nhật gỗ sồi nhạt
+8385	Cửa giấy kiểu Nhật liền tấm gỗ sồi nhạt
+8386	Cửa chuồng gỗ sồi nhạt
+8387	Cửa chuồng ngựa gỗ sồi nhạt
+8388	Cửa đầm lầy gỗ sồi nhạt
+8389	Cửa nhiệt đới gỗ sồi nhạt
+8390	Cửa ô lưới gỗ sồi nhạt
+8391	Cửa kiểu viễn Tây gỗ sồi nhạt
+8393	Mái gác xép gỗ dừa
+8394	Ban công gỗ dừa
+8395	Cửa sập kiểu tre gỗ dừa
+8396	Cửa kính vỏ gỗ dừa
+8397	Cửa sập vỏ gỗ dừa
+8398	Cửa nhà kho gỗ dừa
+8399	Cửa nhà kho có kính gỗ dừa
+8400	Cửa sập nhà kho gỗ dừa
+8401	Cửa sập song sắt gỗ dừa
+8402	Cửa sập kiểu thùng gỗ dừa
+8403	Cửa nhà biển gỗ dừa
+8404	Cửa sập nhà biển gỗ dừa
+8405	Rèm sáo gỗ dừa
+8406	Cửa sập hoa gỗ dừa
+8407	Kệ sách gỗ dừa
+8408	Kệ sách ngăn kéo gỗ dừa
+8409	Cầu gỗ dừa
+8410	Bậc cầu gỗ dừa
+8411	Giá đỡ cầu gỗ dừa
+8412	Cầu thang đặc gỗ dừa
+8413	Ghế gỗ dừa
+8414	Cửa cổ điển gỗ dừa
+8415	Cửa sập cổ điển gỗ dừa
+8416	Bàn trà gỗ dừa
+8417	Cầu thang gọn gỗ dừa
+8418	Cửa nhà vườn gỗ dừa
+8419	Cửa sập nhà vườn gỗ dừa
+8420	Quầy bếp gỗ dừa
+8421	Bàn học có tủ gỗ dừa
+8422	Kệ sách có tủ gỗ dừa
+8423	Quầy bếp có tủ gỗ dừa
+8424	Thanh treo rèm gỗ dừa
+8425	Cổng vòm gỗ dừa
+8426	Bàn học gỗ dừa
+8427	Tủ hai ngăn kéo gỗ dừa
+8428	Quầy bếp hai ngăn kéo gỗ dừa
+8429	Quầy bếp đôi gỗ dừa
+8430	Tủ quần áo đôi gỗ dừa
+8431	Tủ ngăn kéo gỗ dừa
+8432	Quầy bếp ngăn kéo gỗ dừa
+8433	Bàn đầu giường gỗ dừa
+8434	Cửa sổ bốn ô gỗ dừa
+8435	Cửa bốn ô gỗ dừa
+8436	Cửa sập bốn ô gỗ dừa
+8437	Cửa kính gỗ dừa
+8438	Tủ bếp kính gỗ dừa
+8439	Bàn kính gỗ dừa
+8440	Cửa sập kính gỗ dừa
+8442	Bờ rào lá dừa
+8443	Cổng Highley gỗ dừa
+8444	Hàng rào chuồng ngựa gỗ dừa
+8445	Tủ bếp gỗ dừa
+8446	Bồn rửa bát gỗ dừa
+8447	Tủ ngăn kéo lớn gỗ dừa
+8448	Cầu thang gác gỗ dừa
+8449	Cửa chớp lá sách gỗ dừa
+8450	Chân mái thấp gỗ dừa
+8451	Kệ sách ngăn kéo thấp gỗ dừa
+8452	Nóc mái thấp gỗ dừa
+8453	Tủ ba ngăn kéo thấp gỗ dừa
+8454	Cửa lưới gỗ dừa
+8455	Ghế hiện đại gỗ dừa
+8456	Bàn học hiện đại gỗ dừa
+8457	Cửa hiện đại gỗ dừa
+8458	Tủ quần áo hiện đại gỗ dừa
+8459	Cửa huyền bí gỗ dừa
+8460	Cửa sập huyền bí gỗ dừa
+8461	Cửa Nether gỗ dừa
+8462	Ô cửa sổ gỗ dừa
+8463	Cửa giấy gỗ dừa
+8464	Cửa sập giấy gỗ dừa
+8465	Tường chắn gỗ dừa
+8466	Hàng rào cọc gỗ dừa
+8467	Mái gác xép ván gỗ dừa
+8468	Cửa sổ bốn ô ván gỗ dừa
+8469	Chân mái thấp ván gỗ dừa
+8470	Nóc mái thấp ván gỗ dừa
+8471	Ô cửa sổ ván gỗ dừa
+8472	Tường chắn ván gỗ dừa
+8473	Lối đi ván gỗ dừa
+8474	Mái ván gỗ dừa
+8475	Chân mái dốc ván gỗ dừa
+8476	Nóc mái dốc ván gỗ dừa
+8477	Nóc mái ván gỗ dừa
+8478	Bục gỗ dừa
+8479	Cổng chóp gỗ dừa
+8480	Cầu có lan can gỗ dừa
+8481	Lan can gỗ dừa
+8482	Cửa sập trang trại gỗ dừa
+8483	Mái gỗ dừa
+8484	Cửa giấy kiểu Nhật gỗ dừa
+8485	Cửa giấy kiểu Nhật liền tấm gỗ dừa
+8486	Cửa chớp gỗ dừa
+8487	Cầu thang trên không gỗ dừa
+8488	Cửa chuồng gỗ dừa
+8489	Cửa chuồng ngựa gỗ dừa
+8490	Chân mái dốc gỗ dừa
+8491	Nóc mái dốc gỗ dừa
+8492	Hàng rào cọc nhọn gỗ dừa
+8493	Ghế đẩu gỗ dừa
+8494	Ghế sọc gỗ dừa
+8495	Cửa đầm lầy gỗ dừa
+8496	Cửa sập đầm lầy gỗ dừa
+8497	Bàn gỗ dừa
+8498	Cầu thang bậc thềm gỗ dừa
+8499	Nóc mái gỗ dừa
+8500	Tủ ba ngăn kéo gỗ dừa
+8501	Cửa nhiệt đới gỗ dừa
+8502	Cửa sập nhiệt đới gỗ dừa
+8503	Cửa ô lưới gỗ dừa
+8505	Tủ quần áo gỗ dừa
+8506	Cửa kiểu viễn Tây gỗ dừa
+8507	Cửa thì thầm gỗ dừa
+8508	Cửa sập thì thầm gỗ dừa
+8509	Hàng rào dây thép gỗ dừa
+8630	Mái gác xép gỗ thông
+8631	Ban công gỗ thông
+8632	Cửa sập kiểu tre gỗ thông
+8633	Cửa kính vỏ gỗ thông
+8634	Cửa sập vỏ gỗ thông
+8635	Cửa nhà kho gỗ thông
+8636	Cửa nhà kho có kính gỗ thông
+8637	Cửa sập nhà kho gỗ thông
+8638	Cửa sập song sắt gỗ thông
+8639	Cửa sập kiểu thùng gỗ thông
+8640	Cửa nhà biển gỗ thông
+8641	Cửa sập nhà biển gỗ thông
+8642	Rèm sáo gỗ thông
+8643	Cửa sập hoa gỗ thông
+8646	Kệ sách gỗ thông
+8647	Kệ sách ngăn kéo gỗ thông
+8648	Cầu gỗ thông
+8649	Bậc cầu gỗ thông
+8650	Giá đỡ cầu gỗ thông
+8651	Cầu thang đặc gỗ thông
+8653	Ghế gỗ thông
+8654	Cửa cổ điển gỗ thông
+8655	Cửa sập cổ điển gỗ thông
+8656	Bàn trà gỗ thông
+8657	Cầu thang gọn gỗ thông
+8658	Cửa nhà vườn gỗ thông
+8659	Cửa sập nhà vườn gỗ thông
+8660	Quầy bếp gỗ thông
+8661	Bàn học có tủ gỗ thông
+8662	Kệ sách có tủ gỗ thông
+8663	Quầy bếp có tủ gỗ thông
+8664	Thanh treo rèm gỗ thông
+8665	Cổng vòm gỗ thông
+8666	Bàn học gỗ thông
+8668	Tủ hai ngăn kéo gỗ thông
+8669	Quầy bếp hai ngăn kéo gỗ thông
+8670	Quầy bếp đôi gỗ thông
+8671	Tủ quần áo đôi gỗ thông
+8672	Tủ ngăn kéo gỗ thông
+8673	Quầy bếp ngăn kéo gỗ thông
+8674	Bàn đầu giường gỗ thông
+8677	Cửa sổ bốn ô gỗ thông
+8678	Cửa bốn ô gỗ thông
+8679	Cửa sập bốn ô gỗ thông
+8680	Cửa kính gỗ thông
+8681	Tủ bếp kính gỗ thông
+8682	Bàn kính gỗ thông
+8683	Cửa sập kính gỗ thông
+8685	Bờ rào lá thông
+8686	Cổng Highley gỗ thông
+8687	Hàng rào chuồng ngựa gỗ thông
+8688	Tủ bếp gỗ thông
+8689	Bồn rửa bát gỗ thông
+8690	Tủ ngăn kéo lớn gỗ thông
+8692	Cầu thang gác gỗ thông
+8694	Cửa chớp lá sách gỗ thông
+8695	Chân mái thấp gỗ thông
+8696	Kệ sách ngăn kéo thấp gỗ thông
+8697	Nóc mái thấp gỗ thông
+8698	Tủ ba ngăn kéo thấp gỗ thông
+8699	Cửa lưới gỗ thông
+8700	Ghế hiện đại gỗ thông
+8701	Bàn học hiện đại gỗ thông
+8702	Cửa hiện đại gỗ thông
+8703	Tủ quần áo hiện đại gỗ thông
+8704	Cửa huyền bí gỗ thông
+8705	Cửa sập huyền bí gỗ thông
+8706	Cửa Nether gỗ thông
+8707	Ô cửa sổ gỗ thông
+8708	Cửa giấy gỗ thông
+8709	Cửa sập giấy gỗ thông
+8710	Tường chắn gỗ thông
+8711	Hàng rào cọc gỗ thông
+8713	Mái gác xép ván gỗ thông
+8714	Cửa sổ bốn ô ván gỗ thông
+8715	Chân mái thấp ván gỗ thông
+8716	Nóc mái thấp ván gỗ thông
+8717	Ô cửa sổ ván gỗ thông
+8718	Tường chắn ván gỗ thông
+8719	Lối đi ván gỗ thông
+8720	Mái ván gỗ thông
+8721	Chân mái dốc ván gỗ thông
+8722	Nóc mái dốc ván gỗ thông
+8723	Nóc mái ván gỗ thông
+8724	Bục gỗ thông
+8726	Cổng chóp gỗ thông
+8727	Cầu có lan can gỗ thông
+8728	Lan can gỗ thông
+8729	Cửa sập trang trại gỗ thông
+8730	Mái gỗ thông
+8732	Cửa giấy kiểu Nhật gỗ thông
+8733	Cửa giấy kiểu Nhật liền tấm gỗ thông
+8734	Cửa chớp gỗ thông
+8736	Cầu thang trên không gỗ thông
+8738	Cửa chuồng gỗ thông
+8739	Cửa chuồng ngựa gỗ thông
+8741	Chân mái dốc gỗ thông
+8742	Nóc mái dốc gỗ thông
+8743	Hàng rào cọc nhọn gỗ thông
+8744	Ghế đẩu gỗ thông
+8745	Ghế sọc gỗ thông
+8746	Cửa đầm lầy gỗ thông
+8747	Cửa sập đầm lầy gỗ thông
+8748	Bàn gỗ thông
+8749	Cầu thang bậc thềm gỗ thông
+8750	Nóc mái gỗ thông
+8752	Tủ ba ngăn kéo gỗ thông
+8753	Cửa nhiệt đới gỗ thông
+8754	Cửa sập nhiệt đới gỗ thông
+8755	Cửa ô lưới gỗ thông
+8758	Tủ quần áo gỗ thông
+8759	Cửa kiểu viễn Tây gỗ thông
+8760	Cửa thì thầm gỗ thông
+8761	Cửa sập thì thầm gỗ thông
+8762	Hàng rào dây thép gỗ thông
+8779	Mái gác xép bê tông hồng
+8780	Chân mái thấp bê tông hồng
+8781	Nóc mái thấp bê tông hồng
+8782	Mái bê tông hồng
+8783	Chân mái dốc bê tông hồng
+8784	Nóc mái dốc bê tông hồng
+8785	Nóc mái bê tông hồng
+8787	Rèm hồng
+8802	Kính ghép mảnh hồng
+8803	Tấm kính ghép mảnh hồng
+8805	Máng xối hồng
+8806	Ống xối hồng
+8809	Mái hiên sọc hồng
+8810	Mái gác xép đất nung hồng
+8811	Chân mái thấp đất nung hồng
+8812	Nóc mái thấp đất nung hồng
+8813	Mái đất nung hồng
+8814	Chân mái dốc đất nung hồng
+8815	Nóc mái dốc đất nung hồng
+8816	Nóc mái đất nung hồng
+9048	Khe bắn tên gạch Prismarin
+9049	Mái gác xép gạch Prismarin
+9050	Cửa sổ vòm nhọn gạch Prismarin
+9051	Chân mái thấp gạch Prismarin
+9052	Nóc mái thấp gạch Prismarin
+9053	Mái gạch Prismarin
+9054	Chân mái dốc gạch Prismarin
+9055	Nóc mái dốc gạch Prismarin
+9056	Nóc mái gạch Prismarin
+9057	Cầu gạch Prismarin
+9058	Trụ cầu gạch Prismarin
+9059	Bậc cầu gạch Prismarin
+9061	Cửa sổ bốn ô Prismarin
+9062	Tường phủ cỏ Prismarin
+9063	Ô cửa sổ Prismarin
+9064	Tường chắn Prismarin
+9065	Tường cột Prismarin
+9066	Cổng lan can Prismarin
+9151	Mái gác xép bê tông tím
+9152	Chân mái thấp bê tông tím
+9153	Nóc mái thấp bê tông tím
+9154	Mái bê tông tím
+9155	Chân mái dốc bê tông tím
+9156	Nóc mái dốc bê tông tím
+9157	Nóc mái bê tông tím
+9159	Rèm tím
+9174	Kính ghép mảnh tím
+9175	Tấm kính ghép mảnh tím
+9178	Máng xối tím
+9179	Ống xối tím
+9183	Mái hiên sọc tím
+9184	Mái gác xép đất nung tím
+9185	Chân mái thấp đất nung tím
+9186	Nóc mái thấp đất nung tím
+9187	Mái đất nung tím
+9188	Chân mái dốc đất nung tím
+9189	Nóc mái dốc đất nung tím
+9190	Nóc mái đất nung tím
+9211	Cửa sổ bốn khung thạch anh
+9212	Tường phủ cỏ thạch anh
+9214	Ô cửa sổ thạch anh
+9215	Tường cột thạch anh
+9216	Cổng lan can thạch anh
+9437	Cửa sổ chữ nhật ván gỗ xiêm gai
+9438	Cửa sổ chữ nhật gỗ xiêm gai
+9439	Cửa sổ chữ nhật đá andesit
+9440	Cửa sổ chữ nhật ván gỗ bạch dương
+9441	Cửa sổ chữ nhật gỗ bạch dương
+9442	Cửa sổ chữ nhật đá đen
+9443	Cửa sổ chữ nhật gạch
+9444	Cửa sổ chữ nhật ván gỗ anh đào
+9445	Cửa sổ chữ nhật gỗ anh đào
+9446	Cửa sổ chữ nhật ván gỗ đỏ thẫm
+9447	Cửa sổ chữ nhật cuống đỏ thẫm
+9448	Cửa sổ chữ nhật ván gỗ sồi sẫm
+9449	Cửa sổ chữ nhật gỗ sồi sẫm
+9450	Cửa sổ chữ nhật Prismarin sẫm
+9451	Cửa sổ chữ nhật ván gỗ chết
+9452	Cửa sổ chữ nhật gỗ chết
+9453	Cửa sổ chữ nhật đá bảng sâu
+9454	Cửa sổ chữ nhật đá diorit
+9455	Cửa sổ chữ nhật ván gỗ thiên giới
+9456	Cửa sổ chữ nhật gỗ thiên giới
+9457	Cửa sổ chữ nhật ván gỗ linh sam
+9458	Cửa sổ chữ nhật gỗ linh sam
+9459	Cửa sổ chữ nhật đá hoa cương
+9460	Cửa sổ chữ nhật ván gỗ Hellbark
+9461	Cửa sổ chữ nhật gỗ Hellbark
+9462	Cửa sổ chữ nhật ván gỗ phượng tím
+9463	Cửa sổ chữ nhật gỗ phượng tím
+9464	Cửa sổ chữ nhật ván gỗ rừng
+9465	Cửa sổ chữ nhật gỗ rừng
+9466	Cửa sổ chữ nhật ván gỗ ma thuật
+9467	Cửa sổ chữ nhật gỗ ma thuật
+9468	Cửa sổ chữ nhật ván gỗ dái ngựa
+9469	Cửa sổ chữ nhật gỗ dái ngựa
+9470	Cửa sổ chữ nhật ván gỗ đước
+9471	Cửa sổ chữ nhật gỗ đước
+9472	Cửa sổ chữ nhật ván gỗ phong
+9473	Cửa sổ chữ nhật gỗ phong
+9474	Cửa sổ chữ nhật kim loại
+9475	Cửa sổ chữ nhật ván gỗ sồi
+9476	Cửa sổ chữ nhật gỗ sồi
+9477	Cửa sổ chữ nhật ván gỗ dừa
+9478	Cửa sổ chữ nhật gỗ dừa
+9479	Cửa sổ chữ nhật ván gỗ thông
+9480	Cửa sổ chữ nhật gỗ thông
+9481	Cửa sổ chữ nhật Prismarin
+9482	Cửa sổ chữ nhật thạch anh
+9483	Cửa sổ chữ nhật cát kết đỏ
+9484	Cửa sổ chữ nhật ván gỗ đỏ
+9485	Cửa sổ chữ nhật gỗ đỏ
+9486	Cửa sổ chữ nhật cát kết
+9487	Cửa sổ chữ nhật ván gỗ vân sam
+9488	Cửa sổ chữ nhật gỗ vân sam
+9489	Cửa sổ chữ nhật đá
+9490	Cửa sổ chữ nhật gỗ xiêm gai đã cạo vỏ
+9491	Cửa sổ chữ nhật gỗ bạch dương đã cạo vỏ
+9492	Cửa sổ chữ nhật gỗ anh đào đã cạo vỏ
+9493	Cửa sổ chữ nhật gỗ đỏ thẫm đã cạo vỏ
+9494	Cửa sổ chữ nhật gỗ sồi sẫm đã cạo vỏ
+9495	Cửa sổ chữ nhật gỗ chết đã cạo vỏ
+9496	Cửa sổ chữ nhật gỗ thiên giới đã cạo vỏ
+9497	Cửa sổ chữ nhật gỗ linh sam đã cạo vỏ
+9498	Cửa sổ chữ nhật gỗ Hellbark đã cạo vỏ
+9499	Cửa sổ chữ nhật gỗ phượng tím đã cạo vỏ
+9500	Cửa sổ chữ nhật gỗ rừng đã cạo vỏ
+9501	Cửa sổ chữ nhật gỗ ma thuật đã cạo vỏ
+9502	Cửa sổ chữ nhật gỗ dái ngựa đã cạo vỏ
+9503	Cửa sổ chữ nhật gỗ đước đã cạo vỏ
+9504	Cửa sổ chữ nhật gỗ phong đã cạo vỏ
+9505	Cửa sổ chữ nhật gỗ sồi đã cạo vỏ
+9506	Cửa sổ chữ nhật gỗ dừa đã cạo vỏ
+9507	Cửa sổ chữ nhật gỗ thông đã cạo vỏ
+9508	Cửa sổ chữ nhật gỗ đỏ đã cạo vỏ
+9509	Cửa sổ chữ nhật gỗ vân sam đã cạo vỏ
+9510	Cửa sổ chữ nhật gỗ phù thủy đã cạo vỏ
+9511	Cửa sổ chữ nhật gỗ kì dị đã cạo vỏ
+9512	Cửa sổ chữ nhật gỗ liễu đã cạo vỏ
+9513	Cửa sổ chữ nhật ván gỗ phù thủy
+9514	Cửa sổ chữ nhật gỗ phù thủy
+9515	Cửa sổ chữ nhật ván gỗ kì dị
+9516	Cửa sổ chữ nhật cuống kì dị
+9517	Cửa sổ chữ nhật ván gỗ liễu
+9518	Cửa sổ chữ nhật gỗ liễu
+9529	Mái gác xép bê tông đỏ
+9530	Chân mái thấp bê tông đỏ
+9531	Nóc mái thấp bê tông đỏ
+9532	Mái bê tông đỏ
+9533	Chân mái dốc bê tông đỏ
+9534	Nóc mái dốc bê tông đỏ
+9535	Nóc mái bê tông đỏ
+9537	Rèm đỏ
+9557	Bờ rào lá phong đỏ
+9561	Kính ghép mảnh đỏ
+9562	Tấm kính ghép mảnh đỏ
+9566	Mái gác xép gạch Nether đỏ
+9567	Chân mái thấp gạch Nether đỏ
+9568	Nóc mái thấp gạch Nether đỏ
+9569	Mái gạch Nether đỏ
+9570	Chân mái dốc gạch Nether đỏ
+9571	Nóc mái dốc gạch Nether đỏ
+9572	Nóc mái gạch Nether đỏ
+9573	Máng xối đỏ
+9574	Ống xối đỏ
+9577	Mái gác xép cát kết đỏ
+9579	Cầu cát kết đỏ
+9580	Bậc cầu cát kết đỏ
+9581	Giá đỡ cầu cát kết đỏ
+9582	Cửa sổ bốn khung cát kết đỏ
+9583	Tường phủ cỏ cát kết đỏ
+9585	Chân mái thấp cát kết đỏ
+9586	Nóc mái thấp cát kết đỏ
+9587	Ô cửa sổ cát kết đỏ
+9588	Tường cột cát kết đỏ
+9590	Cổng lan can cát kết đỏ
+9591	Mái cát kết đỏ
+9594	Chân mái dốc cát kết đỏ
+9595	Nóc mái dốc cát kết đỏ
+9596	Nóc mái cát kết đỏ
+9599	Mái hiên sọc đỏ
+9600	Mái gác xép đất nung đỏ
+9601	Chân mái thấp đất nung đỏ
+9602	Nóc mái thấp đất nung đỏ
+9603	Mái đất nung đỏ
+9604	Chân mái dốc đất nung đỏ
+9605	Nóc mái dốc đất nung đỏ
+9606	Nóc mái đất nung đỏ
+9642	Mái gác xép gỗ đỏ
+9643	Ban công gỗ đỏ
+9644	Cửa sập kiểu tre gỗ đỏ
+9645	Cửa kính vỏ gỗ đỏ
+9646	Cửa sập vỏ gỗ đỏ
+9647	Cửa nhà kho gỗ đỏ
+9648	Cửa nhà kho có kính gỗ đỏ
+9649	Cửa sập nhà kho gỗ đỏ
+9650	Cửa sập song sắt gỗ đỏ
+9651	Cửa sập kiểu thùng gỗ đỏ
+9652	Cửa nhà biển gỗ đỏ
+9653	Cửa sập nhà biển gỗ đỏ
+9654	Rèm sáo gỗ đỏ
+9655	Cửa sập hoa gỗ đỏ
+9656	Kệ sách gỗ đỏ
+9657	Kệ sách ngăn kéo gỗ đỏ
+9658	Cầu gỗ đỏ
+9659	Bậc cầu gỗ đỏ
+9660	Giá đỡ cầu gỗ đỏ
+9661	Cầu thang đặc gỗ đỏ
+9662	Ghế gỗ đỏ
+9663	Cửa cổ điển gỗ đỏ
+9664	Cửa sập cổ điển gỗ đỏ
+9665	Bàn trà gỗ đỏ
+9666	Cầu thang gọn gỗ đỏ
+9667	Cửa nhà vườn gỗ đỏ
+9668	Cửa sập nhà vườn gỗ đỏ
+9669	Quầy bếp gỗ đỏ
+9670	Bàn học có tủ gỗ đỏ
+9671	Kệ sách có tủ gỗ đỏ
+9672	Quầy bếp có tủ gỗ đỏ
+9673	Thanh treo rèm gỗ đỏ
+9674	Cổng vòm gỗ đỏ
+9675	Bàn học gỗ đỏ
+9676	Tủ hai ngăn kéo gỗ đỏ
+9677	Quầy bếp hai ngăn kéo gỗ đỏ
+9678	Quầy bếp đôi gỗ đỏ
+9679	Tủ quần áo đôi gỗ đỏ
+9680	Tủ ngăn kéo gỗ đỏ
+9681	Quầy bếp ngăn kéo gỗ đỏ
+9682	Bàn đầu giường gỗ đỏ
+9683	Cửa sổ bốn ô gỗ đỏ
+9684	Cửa bốn ô gỗ đỏ
+9685	Cửa sập bốn ô gỗ đỏ
+9686	Cửa kính gỗ đỏ
+9687	Tủ bếp kính gỗ đỏ
+9688	Bàn kính gỗ đỏ
+9689	Cửa sập kính gỗ đỏ
+9691	Bờ rào lá đỏ
+9692	Cổng Highley gỗ đỏ
+9693	Hàng rào chuồng ngựa gỗ đỏ
+9694	Tủ bếp gỗ đỏ
+9695	Bồn rửa bát gỗ đỏ
+9696	Tủ ngăn kéo lớn gỗ đỏ
+9697	Cầu thang gác gỗ đỏ
+9698	Cửa chớp lá sách gỗ đỏ
+9699	Chân mái thấp gỗ đỏ
+9700	Kệ sách ngăn kéo thấp gỗ đỏ
+9701	Nóc mái thấp gỗ đỏ
+9702	Tủ ba ngăn kéo thấp gỗ đỏ
+9703	Cửa lưới gỗ đỏ
+9704	Ghế hiện đại gỗ đỏ
+9705	Bàn học hiện đại gỗ đỏ
+9706	Cửa hiện đại gỗ đỏ
+9707	Tủ quần áo hiện đại gỗ đỏ
+9708	Cửa huyền bí gỗ đỏ
+9709	Cửa sập huyền bí gỗ đỏ
+9710	Cửa Nether gỗ đỏ
+9711	Ô cửa sổ gỗ đỏ
+9712	Cửa giấy gỗ đỏ
+9713	Cửa sập giấy gỗ đỏ
+9714	Tường chắn gỗ đỏ
+9715	Hàng rào cọc gỗ đỏ
+9716	Mái gác xép ván gỗ đỏ
+9717	Cửa sổ bốn ô ván gỗ đỏ
+9718	Chân mái thấp ván gỗ đỏ
+9719	Nóc mái thấp ván gỗ đỏ
+9720	Ô cửa sổ ván gỗ đỏ
+9721	Tường chắn ván gỗ đỏ
+9722	Lối đi ván gỗ đỏ
+9723	Mái ván gỗ đỏ
+9724	Chân mái dốc ván gỗ đỏ
+9725	Nóc mái dốc ván gỗ đỏ
+9726	Nóc mái ván gỗ đỏ
+9727	Bục gỗ đỏ
+9728	Cổng chóp gỗ đỏ
+9729	Cầu có lan can gỗ đỏ
+9730	Lan can gỗ đỏ
+9731	Cửa sập trang trại gỗ đỏ
+9732	Mái gỗ đỏ
+9733	Cửa giấy kiểu Nhật gỗ đỏ
+9734	Cửa giấy kiểu Nhật liền tấm gỗ đỏ
+9735	Cửa chớp gỗ đỏ
+9736	Cầu thang trên không gỗ đỏ
+9737	Cửa chuồng gỗ đỏ
+9738	Cửa chuồng ngựa gỗ đỏ
+9739	Chân mái dốc gỗ đỏ
+9740	Nóc mái dốc gỗ đỏ
+9741	Hàng rào cọc nhọn gỗ đỏ
+9742	Ghế đẩu gỗ đỏ
+9743	Ghế sọc gỗ đỏ
+9744	Cửa đầm lầy gỗ đỏ
+9745	Cửa sập đầm lầy gỗ đỏ
+9746	Bàn gỗ đỏ
+9747	Cầu thang bậc thềm gỗ đỏ
+9748	Nóc mái gỗ đỏ
+9749	Tủ ba ngăn kéo gỗ đỏ
+9750	Cửa nhiệt đới gỗ đỏ
+9751	Cửa sập nhiệt đới gỗ đỏ
+9752	Cửa ô lưới gỗ đỏ
+9754	Tủ quần áo gỗ đỏ
+9755	Cửa kiểu viễn Tây gỗ đỏ
+9756	Cửa thì thầm gỗ đỏ
+9757	Cửa sập thì thầm gỗ đỏ
+9758	Hàng rào dây thép gỗ đỏ
+10374	Cửa sổ co giãn ván gỗ xiêm gai
+10375	Cửa sổ co giãn gỗ xiêm gai
+10376	Cửa sổ co giãn đá andesit
+10377	Cửa sổ co giãn ván gỗ bạch dương
+10378	Cửa sổ co giãn gỗ bạch dương
+10379	Cửa sổ co giãn đá đen
+10380	Cửa sổ co giãn gạch
+10381	Cửa sổ co giãn ván gỗ anh đào
+10382	Cửa sổ co giãn gỗ anh đào
+10383	Cửa sổ co giãn ván gỗ đỏ thẫm
+10384	Cửa sổ co giãn cuống đỏ thẫm
+10385	Cửa sổ co giãn ván gỗ sồi sẫm
+10386	Cửa sổ co giãn gỗ sồi sẫm
+10387	Cửa sổ co giãn Prismarin sẫm
+10388	Cửa sổ co giãn ván gỗ chết
+10389	Cửa sổ co giãn gỗ chết
+10390	Cửa sổ co giãn đá bảng sâu
+10391	Cửa sổ co giãn đá diorit
+10392	Cửa sổ co giãn ván gỗ thiên giới
+10393	Cửa sổ co giãn gỗ thiên giới
+10394	Cửa sổ co giãn ván gỗ linh sam
+10395	Cửa sổ co giãn gỗ linh sam
+10396	Cửa sổ co giãn đá hoa cương
+10397	Cửa sổ co giãn ván gỗ Hellbark
+10398	Cửa sổ co giãn gỗ Hellbark
+10399	Cửa sổ co giãn ván gỗ phượng tím
+10400	Cửa sổ co giãn gỗ phượng tím
+10401	Cửa sổ co giãn ván gỗ rừng
+10402	Cửa sổ co giãn gỗ rừng
+10403	Cửa sổ co giãn ván gỗ ma thuật
+10404	Cửa sổ co giãn gỗ ma thuật
+10405	Cửa sổ co giãn ván gỗ dái ngựa
+10406	Cửa sổ co giãn gỗ dái ngựa
+10407	Cửa sổ co giãn ván gỗ đước
+10408	Cửa sổ co giãn gỗ đước
+10409	Cửa sổ co giãn ván gỗ phong
+10410	Cửa sổ co giãn gỗ phong
+10411	Cửa sổ co giãn kim loại
+10412	Cửa sổ co giãn ván gỗ sồi
+10413	Cửa sổ co giãn gỗ sồi
+10414	Cửa sổ co giãn ván gỗ dừa
+10415	Cửa sổ co giãn gỗ dừa
+10416	Cửa sổ co giãn ván gỗ thông
+10417	Cửa sổ co giãn gỗ thông
+10418	Cửa sổ co giãn Prismarin
+10419	Cửa sổ co giãn thạch anh
+10420	Cửa sổ co giãn cát kết đỏ
+10421	Cửa sổ co giãn ván gỗ đỏ
+10422	Cửa sổ co giãn gỗ đỏ
+10423	Cửa sổ co giãn cát kết
+10424	Cửa sổ co giãn ván gỗ vân sam
+10425	Cửa sổ co giãn gỗ vân sam
+10426	Cửa sổ co giãn đá
+10427	Cửa sổ co giãn gỗ xiêm gai đã cạo vỏ
+10428	Cửa sổ co giãn gỗ bạch dương đã cạo vỏ
+10429	Cửa sổ co giãn gỗ anh đào đã cạo vỏ
+10430	Cửa sổ co giãn gỗ đỏ thẫm đã cạo vỏ
+10431	Cửa sổ co giãn gỗ sồi sẫm đã cạo vỏ
+10432	Cửa sổ co giãn gỗ chết đã cạo vỏ
+10433	Cửa sổ co giãn gỗ thiên giới đã cạo vỏ
+10434	Cửa sổ co giãn gỗ linh sam đã cạo vỏ
+10435	Cửa sổ co giãn gỗ Hellbark đã cạo vỏ
+10436	Cửa sổ co giãn gỗ phượng tím đã cạo vỏ
+10437	Cửa sổ co giãn gỗ rừng đã cạo vỏ
+10438	Cửa sổ co giãn gỗ ma thuật đã cạo vỏ
+10439	Cửa sổ co giãn gỗ dái ngựa đã cạo vỏ
+10440	Cửa sổ co giãn gỗ đước đã cạo vỏ
+10441	Cửa sổ co giãn gỗ phong đã cạo vỏ
+10442	Cửa sổ co giãn gỗ sồi đã cạo vỏ
+10443	Cửa sổ co giãn gỗ dừa đã cạo vỏ
+10444	Cửa sổ co giãn gỗ thông đã cạo vỏ
+10445	Cửa sổ co giãn gỗ đỏ đã cạo vỏ
+10446	Cửa sổ co giãn gỗ vân sam đã cạo vỏ
+10447	Cửa sổ co giãn gỗ phù thủy đã cạo vỏ
+10448	Cửa sổ co giãn gỗ kì dị đã cạo vỏ
+10449	Cửa sổ co giãn gỗ liễu đã cạo vỏ
+10450	Cửa sổ co giãn ván gỗ phù thủy
+10451	Cửa sổ co giãn gỗ phù thủy
+10452	Cửa sổ co giãn ván gỗ kì dị
+10453	Cửa sổ co giãn cuống kì dị
+10454	Cửa sổ co giãn ván gỗ liễu
+10455	Cửa sổ co giãn gỗ liễu
+10553	Cầu dây gỗ xiêm gai
+10554	Bậc cầu dây gỗ xiêm gai
+10555	Cầu dây gỗ bạch dương
+10556	Bậc cầu dây gỗ bạch dương
+10557	Cầu dây gỗ anh đào
+10558	Bậc cầu dây gỗ anh đào
+10560	Cầu dây gỗ đỏ thẫm
+10561	Bậc cầu dây gỗ đỏ thẫm
+10562	Cầu dây gỗ sồi sẫm
+10563	Bậc cầu dây gỗ sồi sẫm
+10564	Cầu dây gỗ chết
+10565	Bậc cầu dây gỗ chết
+10566	Cầu dây gỗ thiên giới
+10567	Bậc cầu dây gỗ thiên giới
+10572	Cầu dây gỗ linh sam
+10573	Bậc cầu dây gỗ linh sam
+10574	Cầu dây gỗ Hellbark
+10575	Bậc cầu dây gỗ Hellbark
+10576	Cầu dây gỗ phượng tím
+10577	Bậc cầu dây gỗ phượng tím
+10578	Cầu dây gỗ rừng
+10579	Bậc cầu dây gỗ rừng
+10580	Cầu dây gỗ ma thuật
+10581	Bậc cầu dây gỗ ma thuật
+10582	Cầu dây gỗ dái ngựa
+10583	Bậc cầu dây gỗ dái ngựa
+10584	Cầu dây gỗ đước
+10585	Bậc cầu dây gỗ đước
+10586	Cầu dây gỗ phong
+10587	Bậc cầu dây gỗ phong
+10588	Cầu dây gỗ sồi
+10589	Bậc cầu dây gỗ sồi
+10590	Cầu dây gỗ sồi nhạt
+10591	Bậc cầu dây gỗ sồi nhạt
+10592	Cầu dây gỗ dừa
+10593	Bậc cầu dây gỗ dừa
+10594	Cầu dây gỗ thông
+10595	Bậc cầu dây gỗ thông
+10596	Cầu dây gỗ đỏ
+10597	Bậc cầu dây gỗ đỏ
+10598	Cầu dây gỗ vân sam
+10599	Bậc cầu dây gỗ vân sam
+10600	Cầu dây gỗ phù thủy
+10601	Bậc cầu dây gỗ phù thủy
+10602	Cầu dây gỗ kì dị
+10603	Bậc cầu dây gỗ kì dị
+10604	Cầu dây gỗ liễu
+10605	Bậc cầu dây gỗ liễu
+10691	Mái gác xép cát kết
+10693	Cầu cát kết
+10694	Bậc cầu cát kết
+10695	Giá đỡ cầu cát kết
+10696	Cửa sổ bốn khung cát kết
+10697	Tường phủ cỏ cát kết
+10699	Chân mái thấp cát kết
+10700	Nóc mái thấp cát kết
+10701	Ô cửa sổ cát kết
+10702	Tường cột cát kết
+10704	Cổng lan can cát kết
+10705	Mái cát kết
+10708	Chân mái dốc cát kết
+10709	Nóc mái dốc cát kết
+10714	Nóc mái cát kết
+11643	Mái gác xép gỗ vân sam
+11645	Cửa kính vỏ gỗ vân sam
+11646	Cửa sập vỏ gỗ vân sam
+11647	Cửa nhà kho gỗ vân sam
+11648	Cửa nhà kho có kính gỗ vân sam
+11649	Cửa sập nhà kho gỗ vân sam
+11650	Cửa sập song sắt gỗ vân sam
+11651	Cửa sập kiểu thùng gỗ vân sam
+11655	Cửa nhà biển gỗ vân sam
+11656	Cửa sập nhà biển gỗ vân sam
+11658	Rèm sáo gỗ vân sam
+11659	Cầu gỗ vân sam
+11660	Bậc cầu gỗ vân sam
+11661	Giá đỡ cầu gỗ vân sam
+11663	Cửa cổ điển gỗ vân sam
+11664	Cửa sập cổ điển gỗ vân sam
+11666	Cửa sập nhà vườn gỗ vân sam
+11671	Thanh treo rèm gỗ vân sam
+11672	Cổng vòm gỗ vân sam
+11677	Cửa sổ bốn ô gỗ vân sam
+11678	Cửa bốn ô gỗ vân sam
+11679	Cửa sập bốn ô gỗ vân sam
+11680	Cửa kính gỗ vân sam
+11681	Cửa sập kính gỗ vân sam
+11683	Cổng Highley gỗ vân sam
+11684	Hàng rào chuồng ngựa gỗ vân sam
+11697	Cửa chớp lá sách gỗ vân sam
+11698	Chân mái thấp gỗ vân sam
+11699	Nóc mái thấp gỗ vân sam
+11701	Cửa lưới gỗ vân sam
+11702	Cửa sập lưới gỗ vân sam
+11703	Cửa hiện đại gỗ vân sam
+11704	Cửa huyền bí gỗ vân sam
+11705	Cửa sập huyền bí gỗ vân sam
+11706	Cửa Nether gỗ vân sam
+11708	Ô cửa sổ gỗ vân sam
+11709	Cửa giấy gỗ vân sam
+11710	Cửa sập giấy gỗ vân sam
+11711	Tường chắn gỗ vân sam
+11712	Hàng rào cọc gỗ vân sam
+11713	Mái gác xép ván gỗ vân sam
+11714	Cửa sổ bốn ô ván gỗ vân sam
+11715	Chân mái thấp ván gỗ vân sam
+11716	Nóc mái thấp ván gỗ vân sam
+11717	Ô cửa sổ ván gỗ vân sam
+11718	Tường chắn ván gỗ vân sam
+11719	Mái ván gỗ vân sam
+11720	Chân mái dốc ván gỗ vân sam
+11721	Nóc mái dốc ván gỗ vân sam
+11722	Nóc mái ván gỗ vân sam
+11723	Cổng chóp gỗ vân sam
+11724	Cầu có lan can gỗ vân sam
+11725	Cửa sập trang trại gỗ vân sam
+11726	Mái gỗ vân sam
+11729	Cửa giấy kiểu Nhật gỗ vân sam
+11730	Cửa giấy kiểu Nhật liền tấm gỗ vân sam
+11731	Cửa chớp gỗ vân sam
+11732	Cửa chuồng gỗ vân sam
+11733	Cửa chuồng ngựa gỗ vân sam
+11734	Chân mái dốc gỗ vân sam
+11735	Nóc mái dốc gỗ vân sam
+11736	Hàng rào cọc nhọn gỗ vân sam
+11740	Cửa đầm lầy gỗ vân sam
+11741	Cửa sập đầm lầy gỗ vân sam
+11744	Nóc mái gỗ vân sam
+11745	Cửa nhiệt đới gỗ vân sam
+11746	Cửa sập nhiệt đới gỗ vân sam
+11747	Cửa ô lưới gỗ vân sam
+11748	Cửa sập ô lưới gỗ vân sam
+11749	Cửa kiểu viễn Tây gỗ vân sam
+11750	Cửa thì thầm gỗ vân sam
+11751	Cửa sập thì thầm gỗ vân sam
+11752	Hàng rào dây thép gỗ vân sam
+11849	Mái gác xép đá
+11852	Khe bắn tên gạch đá
+11853	Cầu gạch đá
+11854	Bậc cầu gạch đá
+11855	Cửa sổ vòm nhọn gạch đá
+11857	Cổng lan can gạch đá
+11859	Mái gác xép gạch đá
+11861	Chân mái thấp gạch đá
+11862	Nóc mái thấp gạch đá
+11863	Mái gạch đá
+11864	Chân mái dốc gạch đá
+11865	Nóc mái dốc gạch đá
+11866	Nóc mái gạch đá
+11867	Giá đỡ cầu đá
+11874	Cửa sổ bốn ô đá
+11876	Tường phủ cỏ đá
+11884	Chân mái thấp đá
+11885	Nóc mái thấp đá
+11888	Ô cửa sổ đá
+11892	Tường cột đá
+11894	Mái đá
+11898	Chân mái dốc đá
+11899	Nóc mái dốc đá
+11904	Nóc mái đá
+11953	Cửa sổ bốn ô gỗ xiêm gai đã cạo vỏ
+11954	Ô cửa sổ gỗ xiêm gai đã cạo vỏ
+11955	Cửa sổ bốn ô gỗ bạch dương đã cạo vỏ
+11956	Ô cửa sổ gỗ bạch dương đã cạo vỏ
+11957	Cửa sổ bốn ô gỗ anh đào đã cạo vỏ
+11958	Ô cửa sổ gỗ anh đào đã cạo vỏ
+11959	Cửa sổ bốn ô gỗ đỏ thẫm đã cạo vỏ
+11960	Ô cửa sổ gỗ đỏ thẫm đã cạo vỏ
+11961	Cửa sổ bốn ô gỗ sồi sẫm đã cạo vỏ
+11962	Ô cửa sổ gỗ sồi sẫm đã cạo vỏ
+11963	Kệ sách gỗ chết đã cạo vỏ
+11964	Kệ sách ngăn kéo gỗ chết đã cạo vỏ
+11965	Ghế gỗ chết đã cạo vỏ
+11966	Bàn trà gỗ chết đã cạo vỏ
+11967	Quầy bếp gỗ chết đã cạo vỏ
+11968	Bàn học có tủ gỗ chết đã cạo vỏ
+11969	Kệ sách có tủ gỗ chết đã cạo vỏ
+11970	Quầy bếp có tủ gỗ chết đã cạo vỏ
+11971	Bàn học gỗ chết đã cạo vỏ
+11972	Tủ hai ngăn kéo gỗ chết đã cạo vỏ
+11973	Quầy bếp hai ngăn kéo gỗ chết đã cạo vỏ
+11974	Quầy bếp đôi gỗ chết đã cạo vỏ
+11975	Tủ quần áo đôi gỗ chết đã cạo vỏ
+11976	Tủ ngăn kéo gỗ chết đã cạo vỏ
+11977	Quầy bếp ngăn kéo gỗ chết đã cạo vỏ
+11978	Bàn đầu giường gỗ chết đã cạo vỏ
+11979	Cửa sổ bốn ô gỗ chết đã cạo vỏ
+11980	Tủ bếp kính gỗ chết đã cạo vỏ
+11981	Bàn kính gỗ chết đã cạo vỏ
+11982	Tủ bếp gỗ chết đã cạo vỏ
+11983	Bồn rửa bát gỗ chết đã cạo vỏ
+11984	Tủ ngăn kéo lớn gỗ chết đã cạo vỏ
+11985	Kệ sách ngăn kéo thấp gỗ chết đã cạo vỏ
+11986	Tủ ba ngăn kéo thấp gỗ chết đã cạo vỏ
+11987	Ghế hiện đại gỗ chết đã cạo vỏ
+11988	Bàn học hiện đại gỗ chết đã cạo vỏ
+11989	Tủ quần áo hiện đại gỗ chết đã cạo vỏ
+11990	Ô cửa sổ gỗ chết đã cạo vỏ
+11991	Ghế đẩu gỗ chết đã cạo vỏ
+11992	Ghế sọc gỗ chết đã cạo vỏ
+11993	Bàn gỗ chết đã cạo vỏ
+11994	Tủ ba ngăn kéo gỗ chết đã cạo vỏ
+11995	Tủ quần áo gỗ chết đã cạo vỏ
+11996	Kệ sách gỗ thiên giới đã cạo vỏ
+11997	Kệ sách ngăn kéo gỗ thiên giới đã cạo vỏ
+11998	Ghế gỗ thiên giới đã cạo vỏ
+11999	Bàn trà gỗ thiên giới đã cạo vỏ
+12000	Quầy bếp gỗ thiên giới đã cạo vỏ
+12001	Bàn học có tủ gỗ thiên giới đã cạo vỏ
+12002	Kệ sách có tủ gỗ thiên giới đã cạo vỏ
+12003	Quầy bếp có tủ gỗ thiên giới đã cạo vỏ
+12004	Bàn học gỗ thiên giới đã cạo vỏ
+12005	Tủ hai ngăn kéo gỗ thiên giới đã cạo vỏ
+12006	Quầy bếp hai ngăn kéo gỗ thiên giới đã cạo vỏ
+12007	Quầy bếp đôi gỗ thiên giới đã cạo vỏ
+12008	Tủ quần áo đôi gỗ thiên giới đã cạo vỏ
+12009	Tủ ngăn kéo gỗ thiên giới đã cạo vỏ
+12010	Quầy bếp ngăn kéo gỗ thiên giới đã cạo vỏ
+12011	Bàn đầu giường gỗ thiên giới đã cạo vỏ
+12012	Cửa sổ bốn ô gỗ thiên giới đã cạo vỏ
+12013	Tủ bếp kính gỗ thiên giới đã cạo vỏ
+12014	Bàn kính gỗ thiên giới đã cạo vỏ
+12015	Tủ bếp gỗ thiên giới đã cạo vỏ
+12016	Bồn rửa bát gỗ thiên giới đã cạo vỏ
+12017	Tủ ngăn kéo lớn gỗ thiên giới đã cạo vỏ
+12019	Kệ sách ngăn kéo thấp gỗ thiên giới đã cạo vỏ
+12020	Tủ ba ngăn kéo thấp gỗ thiên giới đã cạo vỏ
+12021	Ghế hiện đại gỗ thiên giới đã cạo vỏ
+12022	Bàn học hiện đại gỗ thiên giới đã cạo vỏ
+12023	Tủ quần áo hiện đại gỗ thiên giới đã cạo vỏ
+12024	Ô cửa sổ gỗ thiên giới đã cạo vỏ
+12025	Ghế đẩu gỗ thiên giới đã cạo vỏ
+12026	Ghế sọc gỗ thiên giới đã cạo vỏ
+12027	Bàn gỗ thiên giới đã cạo vỏ
+12028	Tủ ba ngăn kéo gỗ thiên giới đã cạo vỏ
+12029	Tủ quần áo gỗ thiên giới đã cạo vỏ
+12031	Kệ sách gỗ linh sam đã cạo vỏ
+12032	Kệ sách ngăn kéo gỗ linh sam đã cạo vỏ
+12033	Ghế gỗ linh sam đã cạo vỏ
+12034	Bàn trà gỗ linh sam đã cạo vỏ
+12035	Quầy bếp gỗ linh sam đã cạo vỏ
+12036	Bàn học có tủ gỗ linh sam đã cạo vỏ
+12037	Kệ sách có tủ gỗ linh sam đã cạo vỏ
+12038	Quầy bếp có tủ gỗ linh sam đã cạo vỏ
+12039	Bàn học gỗ linh sam đã cạo vỏ
+12040	Tủ hai ngăn kéo gỗ linh sam đã cạo vỏ
+12041	Quầy bếp hai ngăn kéo gỗ linh sam đã cạo vỏ
+12042	Quầy bếp đôi gỗ linh sam đã cạo vỏ
+12043	Tủ quần áo đôi gỗ linh sam đã cạo vỏ
+12044	Tủ ngăn kéo gỗ linh sam đã cạo vỏ
+12045	Quầy bếp ngăn kéo gỗ linh sam đã cạo vỏ
+12046	Bàn đầu giường gỗ linh sam đã cạo vỏ
+12047	Cửa sổ bốn ô gỗ linh sam đã cạo vỏ
+12048	Tủ bếp kính gỗ linh sam đã cạo vỏ
+12049	Bàn kính gỗ linh sam đã cạo vỏ
+12050	Tủ bếp gỗ linh sam đã cạo vỏ
+12051	Bồn rửa bát gỗ linh sam đã cạo vỏ
+12052	Tủ ngăn kéo lớn gỗ linh sam đã cạo vỏ
+12053	Kệ sách ngăn kéo thấp gỗ linh sam đã cạo vỏ
+12054	Tủ ba ngăn kéo thấp gỗ linh sam đã cạo vỏ
+12055	Ghế hiện đại gỗ linh sam đã cạo vỏ
+12056	Bàn học hiện đại gỗ linh sam đã cạo vỏ
+12057	Tủ quần áo hiện đại gỗ linh sam đã cạo vỏ
+12058	Ô cửa sổ gỗ linh sam đã cạo vỏ
+12059	Ghế đẩu gỗ linh sam đã cạo vỏ
+12060	Ghế sọc gỗ linh sam đã cạo vỏ
+12061	Bàn gỗ linh sam đã cạo vỏ
+12062	Tủ ba ngăn kéo gỗ linh sam đã cạo vỏ
+12063	Tủ quần áo gỗ linh sam đã cạo vỏ
+12064	Kệ sách gỗ Hellbark đã cạo vỏ
+12065	Kệ sách ngăn kéo gỗ Hellbark đã cạo vỏ
+12066	Ghế gỗ Hellbark đã cạo vỏ
+12067	Bàn trà gỗ Hellbark đã cạo vỏ
+12068	Quầy bếp gỗ Hellbark đã cạo vỏ
+12069	Bàn học có tủ gỗ Hellbark đã cạo vỏ
+12070	Kệ sách có tủ gỗ Hellbark đã cạo vỏ
+12071	Quầy bếp có tủ gỗ Hellbark đã cạo vỏ
+12072	Bàn học gỗ Hellbark đã cạo vỏ
+12073	Tủ hai ngăn kéo gỗ Hellbark đã cạo vỏ
+12074	Quầy bếp hai ngăn kéo gỗ Hellbark đã cạo vỏ
+12075	Quầy bếp đôi gỗ Hellbark đã cạo vỏ
+12076	Tủ quần áo đôi gỗ Hellbark đã cạo vỏ
+12077	Tủ ngăn kéo gỗ Hellbark đã cạo vỏ
+12078	Quầy bếp ngăn kéo gỗ Hellbark đã cạo vỏ
+12079	Bàn đầu giường gỗ Hellbark đã cạo vỏ
+12080	Cửa sổ bốn ô gỗ Hellbark đã cạo vỏ
+12081	Tủ bếp kính gỗ Hellbark đã cạo vỏ
+12082	Bàn kính gỗ Hellbark đã cạo vỏ
+12083	Tủ bếp gỗ Hellbark đã cạo vỏ
+12084	Bồn rửa bát gỗ Hellbark đã cạo vỏ
+12085	Tủ ngăn kéo lớn gỗ Hellbark đã cạo vỏ
+12086	Kệ sách ngăn kéo thấp gỗ Hellbark đã cạo vỏ
+12087	Tủ ba ngăn kéo thấp gỗ Hellbark đã cạo vỏ
+12088	Ghế hiện đại gỗ Hellbark đã cạo vỏ
+12089	Bàn học hiện đại gỗ Hellbark đã cạo vỏ
+12090	Tủ quần áo hiện đại gỗ Hellbark đã cạo vỏ
+12091	Ô cửa sổ gỗ Hellbark đã cạo vỏ
+12092	Ghế đẩu gỗ Hellbark đã cạo vỏ
+12093	Ghế sọc gỗ Hellbark đã cạo vỏ
+12094	Bàn gỗ Hellbark đã cạo vỏ
+12095	Tủ ba ngăn kéo gỗ Hellbark đã cạo vỏ
+12096	Tủ quần áo gỗ Hellbark đã cạo vỏ
+12097	Kệ sách gỗ phượng tím đã cạo vỏ
+12098	Kệ sách ngăn kéo gỗ phượng tím đã cạo vỏ
+12099	Ghế gỗ phượng tím đã cạo vỏ
+12100	Bàn trà gỗ phượng tím đã cạo vỏ
+12101	Quầy bếp gỗ phượng tím đã cạo vỏ
+12102	Bàn học có tủ gỗ phượng tím đã cạo vỏ
+12103	Kệ sách có tủ gỗ phượng tím đã cạo vỏ
+12104	Quầy bếp có tủ gỗ phượng tím đã cạo vỏ
+12105	Bàn học gỗ phượng tím đã cạo vỏ
+12106	Tủ hai ngăn kéo gỗ phượng tím đã cạo vỏ
+12107	Quầy bếp hai ngăn kéo gỗ phượng tím đã cạo vỏ
+12108	Quầy bếp đôi gỗ phượng tím đã cạo vỏ
+12109	Tủ quần áo đôi gỗ phượng tím đã cạo vỏ
+12110	Tủ ngăn kéo gỗ phượng tím đã cạo vỏ
+12111	Quầy bếp ngăn kéo gỗ phượng tím đã cạo vỏ
+12112	Bàn đầu giường gỗ phượng tím đã cạo vỏ
+12113	Cửa sổ bốn ô gỗ phượng tím đã cạo vỏ
+12114	Tủ bếp kính gỗ phượng tím đã cạo vỏ
+12115	Bàn kính gỗ phượng tím đã cạo vỏ
+12116	Tủ bếp gỗ phượng tím đã cạo vỏ
+12117	Bồn rửa bát gỗ phượng tím đã cạo vỏ
+12118	Tủ ngăn kéo lớn gỗ phượng tím đã cạo vỏ
+12119	Kệ sách ngăn kéo thấp gỗ phượng tím đã cạo vỏ
+12120	Tủ ba ngăn kéo thấp gỗ phượng tím đã cạo vỏ
+12121	Ghế hiện đại gỗ phượng tím đã cạo vỏ
+12122	Bàn học hiện đại gỗ phượng tím đã cạo vỏ
+12123	Tủ quần áo hiện đại gỗ phượng tím đã cạo vỏ
+12124	Ô cửa sổ gỗ phượng tím đã cạo vỏ
+12125	Ghế đẩu gỗ phượng tím đã cạo vỏ
+12126	Ghế sọc gỗ phượng tím đã cạo vỏ
+12127	Bàn gỗ phượng tím đã cạo vỏ
+12128	Tủ ba ngăn kéo gỗ phượng tím đã cạo vỏ
+12129	Tủ quần áo gỗ phượng tím đã cạo vỏ
+12130	Cửa sổ bốn ô gỗ rừng đã cạo vỏ
+12131	Ô cửa sổ gỗ rừng đã cạo vỏ
+12132	Kệ sách gỗ ma thuật đã cạo vỏ
+12133	Kệ sách ngăn kéo gỗ ma thuật đã cạo vỏ
+12134	Ghế gỗ ma thuật đã cạo vỏ
+12135	Bàn trà gỗ ma thuật đã cạo vỏ
+12136	Quầy bếp gỗ ma thuật đã cạo vỏ
+12137	Bàn học có tủ gỗ ma thuật đã cạo vỏ
+12138	Kệ sách có tủ gỗ ma thuật đã cạo vỏ
+12139	Quầy bếp có tủ gỗ ma thuật đã cạo vỏ
+12140	Bàn học gỗ ma thuật đã cạo vỏ
+12141	Tủ hai ngăn kéo gỗ ma thuật đã cạo vỏ
+12142	Quầy bếp hai ngăn kéo gỗ ma thuật đã cạo vỏ
+12143	Quầy bếp đôi gỗ ma thuật đã cạo vỏ
+12144	Tủ quần áo đôi gỗ ma thuật đã cạo vỏ
+12145	Tủ ngăn kéo gỗ ma thuật đã cạo vỏ
+12146	Quầy bếp ngăn kéo gỗ ma thuật đã cạo vỏ
+12147	Bàn đầu giường gỗ ma thuật đã cạo vỏ
+12148	Cửa sổ bốn ô gỗ ma thuật đã cạo vỏ
+12149	Tủ bếp kính gỗ ma thuật đã cạo vỏ
+12150	Bàn kính gỗ ma thuật đã cạo vỏ
+12151	Tủ bếp gỗ ma thuật đã cạo vỏ
+12152	Bồn rửa bát gỗ ma thuật đã cạo vỏ
+12153	Tủ ngăn kéo lớn gỗ ma thuật đã cạo vỏ
+12154	Kệ sách ngăn kéo thấp gỗ ma thuật đã cạo vỏ
+12155	Tủ ba ngăn kéo thấp gỗ ma thuật đã cạo vỏ
+12156	Ghế hiện đại gỗ ma thuật đã cạo vỏ
+12157	Bàn học hiện đại gỗ ma thuật đã cạo vỏ
+12158	Tủ quần áo hiện đại gỗ ma thuật đã cạo vỏ
+12159	Ô cửa sổ gỗ ma thuật đã cạo vỏ
+12160	Ghế đẩu gỗ ma thuật đã cạo vỏ
+12161	Ghế sọc gỗ ma thuật đã cạo vỏ
+12162	Bàn gỗ ma thuật đã cạo vỏ
+12163	Tủ ba ngăn kéo gỗ ma thuật đã cạo vỏ
+12164	Tủ quần áo gỗ ma thuật đã cạo vỏ
+12165	Kệ sách gỗ dái ngựa đã cạo vỏ
+12166	Kệ sách ngăn kéo gỗ dái ngựa đã cạo vỏ
+12167	Ghế gỗ dái ngựa đã cạo vỏ
+12168	Bàn trà gỗ dái ngựa đã cạo vỏ
+12169	Quầy bếp gỗ dái ngựa đã cạo vỏ
+12170	Bàn học có tủ gỗ dái ngựa đã cạo vỏ
+12171	Kệ sách có tủ gỗ dái ngựa đã cạo vỏ
+12172	Quầy bếp có tủ gỗ dái ngựa đã cạo vỏ
+12173	Bàn học gỗ dái ngựa đã cạo vỏ
+12174	Tủ hai ngăn kéo gỗ dái ngựa đã cạo vỏ
+12175	Quầy bếp hai ngăn kéo gỗ dái ngựa đã cạo vỏ
+12176	Quầy bếp đôi gỗ dái ngựa đã cạo vỏ
+12177	Tủ quần áo đôi gỗ dái ngựa đã cạo vỏ
+12178	Tủ ngăn kéo gỗ dái ngựa đã cạo vỏ
+12179	Quầy bếp ngăn kéo gỗ dái ngựa đã cạo vỏ
+12180	Bàn đầu giường gỗ dái ngựa đã cạo vỏ
+12181	Cửa sổ bốn ô gỗ dái ngựa đã cạo vỏ
+12182	Tủ bếp kính gỗ dái ngựa đã cạo vỏ
+12183	Bàn kính gỗ dái ngựa đã cạo vỏ
+12184	Tủ bếp gỗ dái ngựa đã cạo vỏ
+12185	Bồn rửa bát gỗ dái ngựa đã cạo vỏ
+12186	Tủ ngăn kéo lớn gỗ dái ngựa đã cạo vỏ
+12187	Kệ sách ngăn kéo thấp gỗ dái ngựa đã cạo vỏ
+12188	Tủ ba ngăn kéo thấp gỗ dái ngựa đã cạo vỏ
+12189	Ghế hiện đại gỗ dái ngựa đã cạo vỏ
+12190	Bàn học hiện đại gỗ dái ngựa đã cạo vỏ
+12191	Tủ quần áo hiện đại gỗ dái ngựa đã cạo vỏ
+12192	Ô cửa sổ gỗ dái ngựa đã cạo vỏ
+12193	Ghế đẩu gỗ dái ngựa đã cạo vỏ
+12194	Ghế sọc gỗ dái ngựa đã cạo vỏ
+12195	Bàn gỗ dái ngựa đã cạo vỏ
+12196	Tủ ba ngăn kéo gỗ dái ngựa đã cạo vỏ
+12197	Tủ quần áo gỗ dái ngựa đã cạo vỏ
+12198	Cửa sổ bốn ô gỗ đước đã cạo vỏ
+12199	Ô cửa sổ gỗ đước đã cạo vỏ
+12200	Kệ sách gỗ phong đã cạo vỏ
+12201	Kệ sách ngăn kéo gỗ phong đã cạo vỏ
+12202	Ghế gỗ phong đã cạo vỏ
+12203	Bàn trà gỗ phong đã cạo vỏ
+12204	Quầy bếp gỗ phong đã cạo vỏ
+12205	Bàn học có tủ gỗ phong đã cạo vỏ
+12206	Kệ sách có tủ gỗ phong đã cạo vỏ
+12207	Quầy bếp có tủ gỗ phong đã cạo vỏ
+12208	Bàn học gỗ phong đã cạo vỏ
+12209	Tủ hai ngăn kéo gỗ phong đã cạo vỏ
+12210	Quầy bếp hai ngăn kéo gỗ phong đã cạo vỏ
+12211	Quầy bếp đôi gỗ phong đã cạo vỏ
+12212	Tủ quần áo đôi gỗ phong đã cạo vỏ
+12213	Tủ ngăn kéo gỗ phong đã cạo vỏ
+12214	Quầy bếp ngăn kéo gỗ phong đã cạo vỏ
+12215	Bàn đầu giường gỗ phong đã cạo vỏ
+12216	Cửa sổ bốn ô gỗ phong đã cạo vỏ
+12217	Tủ bếp kính gỗ phong đã cạo vỏ
+12218	Bàn kính gỗ phong đã cạo vỏ
+12219	Tủ bếp gỗ phong đã cạo vỏ
+12220	Bồn rửa bát gỗ phong đã cạo vỏ
+12221	Tủ ngăn kéo lớn gỗ phong đã cạo vỏ
+12223	Kệ sách ngăn kéo thấp gỗ phong đã cạo vỏ
+12224	Tủ ba ngăn kéo thấp gỗ phong đã cạo vỏ
+12225	Ghế hiện đại gỗ phong đã cạo vỏ
+12226	Bàn học hiện đại gỗ phong đã cạo vỏ
+12227	Tủ quần áo hiện đại gỗ phong đã cạo vỏ
+12228	Ô cửa sổ gỗ phong đã cạo vỏ
+12229	Ghế đẩu gỗ phong đã cạo vỏ
+12230	Ghế sọc gỗ phong đã cạo vỏ
+12231	Bàn gỗ phong đã cạo vỏ
+12232	Tủ ba ngăn kéo gỗ phong đã cạo vỏ
+12233	Tủ quần áo gỗ phong đã cạo vỏ
+12235	Cửa sổ bốn ô gỗ sồi đã cạo vỏ
+12236	Ô cửa sổ gỗ sồi đã cạo vỏ
+12237	Kệ sách gỗ dừa đã cạo vỏ
+12238	Kệ sách ngăn kéo gỗ dừa đã cạo vỏ
+12239	Ghế gỗ dừa đã cạo vỏ
+12240	Bàn trà gỗ dừa đã cạo vỏ
+12241	Quầy bếp gỗ dừa đã cạo vỏ
+12242	Bàn học có tủ gỗ dừa đã cạo vỏ
+12243	Kệ sách có tủ gỗ dừa đã cạo vỏ
+12244	Quầy bếp có tủ gỗ dừa đã cạo vỏ
+12245	Bàn học gỗ dừa đã cạo vỏ
+12246	Tủ hai ngăn kéo gỗ dừa đã cạo vỏ
+12247	Quầy bếp hai ngăn kéo gỗ dừa đã cạo vỏ
+12248	Quầy bếp đôi gỗ dừa đã cạo vỏ
+12249	Tủ quần áo đôi gỗ dừa đã cạo vỏ
+12250	Tủ ngăn kéo gỗ dừa đã cạo vỏ
+12251	Quầy bếp ngăn kéo gỗ dừa đã cạo vỏ
+12252	Bàn đầu giường gỗ dừa đã cạo vỏ
+12253	Cửa sổ bốn ô gỗ dừa đã cạo vỏ
+12254	Tủ bếp kính gỗ dừa đã cạo vỏ
+12255	Bàn kính gỗ dừa đã cạo vỏ
+12256	Tủ bếp gỗ dừa đã cạo vỏ
+12257	Bồn rửa bát gỗ dừa đã cạo vỏ
+12258	Tủ ngăn kéo lớn gỗ dừa đã cạo vỏ
+12259	Kệ sách ngăn kéo thấp gỗ dừa đã cạo vỏ
+12260	Tủ ba ngăn kéo thấp gỗ dừa đã cạo vỏ
+12261	Ghế hiện đại gỗ dừa đã cạo vỏ
+12262	Bàn học hiện đại gỗ dừa đã cạo vỏ
+12263	Tủ quần áo hiện đại gỗ dừa đã cạo vỏ
+12264	Ô cửa sổ gỗ dừa đã cạo vỏ
+12265	Ghế đẩu gỗ dừa đã cạo vỏ
+12266	Ghế sọc gỗ dừa đã cạo vỏ
+12267	Bàn gỗ dừa đã cạo vỏ
+12268	Tủ ba ngăn kéo gỗ dừa đã cạo vỏ
+12269	Tủ quần áo gỗ dừa đã cạo vỏ
+12270	Kệ sách gỗ thông đã cạo vỏ
+12271	Kệ sách ngăn kéo gỗ thông đã cạo vỏ
+12272	Ghế gỗ thông đã cạo vỏ
+12273	Bàn trà gỗ thông đã cạo vỏ
+12274	Quầy bếp gỗ thông đã cạo vỏ
+12275	Bàn học có tủ gỗ thông đã cạo vỏ
+12276	Kệ sách có tủ gỗ thông đã cạo vỏ
+12277	Quầy bếp có tủ gỗ thông đã cạo vỏ
+12278	Bàn học gỗ thông đã cạo vỏ
+12279	Tủ hai ngăn kéo gỗ thông đã cạo vỏ
+12280	Quầy bếp hai ngăn kéo gỗ thông đã cạo vỏ
+12281	Quầy bếp đôi gỗ thông đã cạo vỏ
+12282	Tủ quần áo đôi gỗ thông đã cạo vỏ
+12283	Tủ ngăn kéo gỗ thông đã cạo vỏ
+12284	Quầy bếp ngăn kéo gỗ thông đã cạo vỏ
+12285	Bàn đầu giường gỗ thông đã cạo vỏ
+12286	Cửa sổ bốn ô gỗ thông đã cạo vỏ
+12287	Tủ bếp kính gỗ thông đã cạo vỏ
+12288	Bàn kính gỗ thông đã cạo vỏ
+12289	Tủ bếp gỗ thông đã cạo vỏ
+12290	Bồn rửa bát gỗ thông đã cạo vỏ
+12291	Tủ ngăn kéo lớn gỗ thông đã cạo vỏ
+12293	Kệ sách ngăn kéo thấp gỗ thông đã cạo vỏ
+12294	Tủ ba ngăn kéo thấp gỗ thông đã cạo vỏ
+12295	Ghế hiện đại gỗ thông đã cạo vỏ
+12296	Bàn học hiện đại gỗ thông đã cạo vỏ
+12297	Tủ quần áo hiện đại gỗ thông đã cạo vỏ
+12298	Ô cửa sổ gỗ thông đã cạo vỏ
+12299	Ghế đẩu gỗ thông đã cạo vỏ
+12300	Ghế sọc gỗ thông đã cạo vỏ
+12301	Bàn gỗ thông đã cạo vỏ
+12302	Tủ ba ngăn kéo gỗ thông đã cạo vỏ
+12303	Tủ quần áo gỗ thông đã cạo vỏ
+12305	Kệ sách gỗ đỏ đã cạo vỏ
+12306	Kệ sách ngăn kéo gỗ đỏ đã cạo vỏ
+12307	Ghế gỗ đỏ đã cạo vỏ
+12308	Bàn trà gỗ đỏ đã cạo vỏ
+12309	Quầy bếp gỗ đỏ đã cạo vỏ
+12310	Bàn học có tủ gỗ đỏ đã cạo vỏ
+12311	Kệ sách có tủ gỗ đỏ đã cạo vỏ
+12312	Quầy bếp có tủ gỗ đỏ đã cạo vỏ
+12313	Bàn học gỗ đỏ đã cạo vỏ
+12314	Tủ hai ngăn kéo gỗ đỏ đã cạo vỏ
+12315	Quầy bếp hai ngăn kéo gỗ đỏ đã cạo vỏ
+12316	Quầy bếp đôi gỗ đỏ đã cạo vỏ
+12317	Tủ quần áo đôi gỗ đỏ đã cạo vỏ
+12318	Tủ ngăn kéo gỗ đỏ đã cạo vỏ
+12319	Quầy bếp ngăn kéo gỗ đỏ đã cạo vỏ
+12320	Bàn đầu giường gỗ đỏ đã cạo vỏ
+12321	Cửa sổ bốn ô gỗ đỏ đã cạo vỏ
+12322	Tủ bếp kính gỗ đỏ đã cạo vỏ
+12323	Bàn kính gỗ đỏ đã cạo vỏ
+12324	Tủ bếp gỗ đỏ đã cạo vỏ
+12325	Bồn rửa bát gỗ đỏ đã cạo vỏ
+12326	Tủ ngăn kéo lớn gỗ đỏ đã cạo vỏ
+12327	Kệ sách ngăn kéo thấp gỗ đỏ đã cạo vỏ
+12328	Tủ ba ngăn kéo thấp gỗ đỏ đã cạo vỏ
+12329	Ghế hiện đại gỗ đỏ đã cạo vỏ
+12330	Bàn học hiện đại gỗ đỏ đã cạo vỏ
+12331	Tủ quần áo hiện đại gỗ đỏ đã cạo vỏ
+12332	Ô cửa sổ gỗ đỏ đã cạo vỏ
+12333	Ghế đẩu gỗ đỏ đã cạo vỏ
+12334	Ghế sọc gỗ đỏ đã cạo vỏ
+12335	Bàn gỗ đỏ đã cạo vỏ
+12336	Tủ ba ngăn kéo gỗ đỏ đã cạo vỏ
+12337	Tủ quần áo gỗ đỏ đã cạo vỏ
+12340	Cửa sổ bốn ô gỗ vân sam đã cạo vỏ
+12341	Ô cửa sổ gỗ vân sam đã cạo vỏ
+12342	Kệ sách gỗ phù thủy đã cạo vỏ
+12343	Kệ sách ngăn kéo gỗ phù thủy đã cạo vỏ
+12344	Ghế gỗ phù thủy đã cạo vỏ
+12345	Bàn trà gỗ phù thủy đã cạo vỏ
+12346	Quầy bếp gỗ phù thủy đã cạo vỏ
+12347	Bàn học có tủ gỗ phù thủy đã cạo vỏ
+12348	Kệ sách có tủ gỗ phù thủy đã cạo vỏ
+12349	Quầy bếp có tủ gỗ phù thủy đã cạo vỏ
+12350	Bàn học gỗ phù thủy đã cạo vỏ
+12351	Tủ hai ngăn kéo gỗ phù thủy đã cạo vỏ
+12352	Quầy bếp hai ngăn kéo gỗ phù thủy đã cạo vỏ
+12353	Quầy bếp đôi gỗ phù thủy đã cạo vỏ
+12354	Tủ quần áo đôi gỗ phù thủy đã cạo vỏ
+12355	Tủ ngăn kéo gỗ phù thủy đã cạo vỏ
+12356	Quầy bếp ngăn kéo gỗ phù thủy đã cạo vỏ
+12357	Bàn đầu giường gỗ phù thủy đã cạo vỏ
+12358	Cửa sổ bốn ô gỗ phù thủy đã cạo vỏ
+12359	Tủ bếp kính gỗ phù thủy đã cạo vỏ
+12360	Bàn kính gỗ phù thủy đã cạo vỏ
+12361	Tủ bếp gỗ phù thủy đã cạo vỏ
+12362	Bồn rửa bát gỗ phù thủy đã cạo vỏ
+12363	Tủ ngăn kéo lớn gỗ phù thủy đã cạo vỏ
+12364	Kệ sách ngăn kéo thấp gỗ phù thủy đã cạo vỏ
+12365	Tủ ba ngăn kéo thấp gỗ phù thủy đã cạo vỏ
+12366	Ghế hiện đại gỗ phù thủy đã cạo vỏ
+12367	Bàn học hiện đại gỗ phù thủy đã cạo vỏ
+12368	Tủ quần áo hiện đại gỗ phù thủy đã cạo vỏ
+12369	Ô cửa sổ gỗ phù thủy đã cạo vỏ
+12370	Ghế đẩu gỗ phù thủy đã cạo vỏ
+12371	Ghế sọc gỗ phù thủy đã cạo vỏ
+12372	Bàn gỗ phù thủy đã cạo vỏ
+12373	Tủ ba ngăn kéo gỗ phù thủy đã cạo vỏ
+12374	Tủ quần áo gỗ phù thủy đã cạo vỏ
+12375	Cửa sổ bốn ô gỗ kì dị đã cạo vỏ
+12376	Ô cửa sổ gỗ kì dị đã cạo vỏ
+12377	Kệ sách gỗ liễu đã cạo vỏ
+12378	Kệ sách ngăn kéo gỗ liễu đã cạo vỏ
+12379	Ghế gỗ liễu đã cạo vỏ
+12380	Bàn trà gỗ liễu đã cạo vỏ
+12381	Quầy bếp gỗ liễu đã cạo vỏ
+12382	Bàn học có tủ gỗ liễu đã cạo vỏ
+12383	Kệ sách có tủ gỗ liễu đã cạo vỏ
+12384	Quầy bếp có tủ gỗ liễu đã cạo vỏ
+12385	Bàn học gỗ liễu đã cạo vỏ
+12386	Tủ hai ngăn kéo gỗ liễu đã cạo vỏ
+12387	Quầy bếp hai ngăn kéo gỗ liễu đã cạo vỏ
+12388	Quầy bếp đôi gỗ liễu đã cạo vỏ
+12389	Tủ quần áo đôi gỗ liễu đã cạo vỏ
+12390	Tủ ngăn kéo gỗ liễu đã cạo vỏ
+12391	Quầy bếp ngăn kéo gỗ liễu đã cạo vỏ
+12392	Bàn đầu giường gỗ liễu đã cạo vỏ
+12393	Cửa sổ bốn ô gỗ liễu đã cạo vỏ
+12394	Tủ bếp kính gỗ liễu đã cạo vỏ
+12395	Bàn kính gỗ liễu đã cạo vỏ
+12396	Tủ bếp gỗ liễu đã cạo vỏ
+12397	Bồn rửa bát gỗ liễu đã cạo vỏ
+12398	Tủ ngăn kéo lớn gỗ liễu đã cạo vỏ
+12399	Kệ sách ngăn kéo thấp gỗ liễu đã cạo vỏ
+12400	Tủ ba ngăn kéo thấp gỗ liễu đã cạo vỏ
+12401	Ghế hiện đại gỗ liễu đã cạo vỏ
+12402	Bàn học hiện đại gỗ liễu đã cạo vỏ
+12403	Tủ quần áo hiện đại gỗ liễu đã cạo vỏ
+12404	Ô cửa sổ gỗ liễu đã cạo vỏ
+12405	Ghế đẩu gỗ liễu đã cạo vỏ
+12406	Ghế sọc gỗ liễu đã cạo vỏ
+12407	Bàn gỗ liễu đã cạo vỏ
+12408	Tủ ba ngăn kéo gỗ liễu đã cạo vỏ
+12409	Tủ quần áo gỗ liễu đã cạo vỏ
+12677	Mái gác xép rạ
+12678	Chân mái thấp rạ
+12679	Nóc mái thấp rạ
+12680	Mái rạ
+12681	Chân mái dốc rạ
+12682	Nóc mái dốc rạ
+12683	Nóc mái rạ
+13249	Mái gác xép gỗ phù thủy
+13250	Ban công gỗ phù thủy
+13251	Cửa sập kiểu tre gỗ phù thủy
+13252	Cửa kính vỏ gỗ phù thủy
+13253	Cửa sập vỏ gỗ phù thủy
+13254	Cửa nhà kho gỗ phù thủy
+13255	Cửa nhà kho có kính gỗ phù thủy
+13256	Cửa sập nhà kho gỗ phù thủy
+13257	Cửa sập song sắt gỗ phù thủy
+13258	Cửa sập kiểu thùng gỗ phù thủy
+13259	Cửa nhà biển gỗ phù thủy
+13260	Cửa sập nhà biển gỗ phù thủy
+13261	Rèm sáo gỗ phù thủy
+13262	Cửa sập hoa gỗ phù thủy
+13263	Kệ sách gỗ phù thủy
+13264	Kệ sách ngăn kéo gỗ phù thủy
+13265	Cầu gỗ phù thủy
+13266	Bậc cầu gỗ phù thủy
+13267	Giá đỡ cầu gỗ phù thủy
+13268	Cầu thang đặc gỗ phù thủy
+13269	Ghế gỗ phù thủy
+13270	Cửa cổ điển gỗ phù thủy
+13271	Cửa sập cổ điển gỗ phù thủy
+13272	Bàn trà gỗ phù thủy
+13273	Cầu thang gọn gỗ phù thủy
+13274	Cửa nhà vườn gỗ phù thủy
+13275	Cửa sập nhà vườn gỗ phù thủy
+13276	Quầy bếp gỗ phù thủy
+13277	Bàn học có tủ gỗ phù thủy
+13278	Kệ sách có tủ gỗ phù thủy
+13279	Quầy bếp có tủ gỗ phù thủy
+13280	Thanh treo rèm gỗ phù thủy
+13281	Cổng vòm gỗ phù thủy
+13282	Bàn học gỗ phù thủy
+13283	Tủ hai ngăn kéo gỗ phù thủy
+13284	Quầy bếp hai ngăn kéo gỗ phù thủy
+13285	Quầy bếp đôi gỗ phù thủy
+13286	Tủ quần áo đôi gỗ phù thủy
+13287	Tủ ngăn kéo gỗ phù thủy
+13288	Quầy bếp ngăn kéo gỗ phù thủy
+13289	Bàn đầu giường gỗ phù thủy
+13290	Cửa sổ bốn ô gỗ phù thủy
+13291	Cửa bốn ô gỗ phù thủy
+13292	Cửa sập bốn ô gỗ phù thủy
+13293	Cửa kính gỗ phù thủy
+13294	Tủ bếp kính gỗ phù thủy
+13295	Bàn kính gỗ phù thủy
+13296	Cửa sập kính gỗ phù thủy
+13298	Bờ rào lá phù thủy
+13299	Cổng Highley gỗ phù thủy
+13300	Hàng rào chuồng ngựa gỗ phù thủy
+13301	Tủ bếp gỗ phù thủy
+13302	Bồn rửa bát gỗ phù thủy
+13303	Tủ ngăn kéo lớn gỗ phù thủy
+13304	Cầu thang gác gỗ phù thủy
+13305	Cửa chớp lá sách gỗ phù thủy
+13306	Chân mái thấp gỗ phù thủy
+13307	Kệ sách ngăn kéo thấp gỗ phù thủy
+13308	Nóc mái thấp gỗ phù thủy
+13309	Tủ ba ngăn kéo thấp gỗ phù thủy
+13310	Cửa lưới gỗ phù thủy
+13311	Ghế hiện đại gỗ phù thủy
+13312	Bàn học hiện đại gỗ phù thủy
+13313	Cửa hiện đại gỗ phù thủy
+13314	Tủ quần áo hiện đại gỗ phù thủy
+13315	Cửa huyền bí gỗ phù thủy
+13316	Cửa sập huyền bí gỗ phù thủy
+13317	Cửa Nether gỗ phù thủy
+13318	Ô cửa sổ gỗ phù thủy
+13319	Cửa giấy gỗ phù thủy
+13320	Cửa sập giấy gỗ phù thủy
+13321	Tường chắn gỗ phù thủy
+13322	Hàng rào cọc gỗ phù thủy
+13323	Mái gác xép ván gỗ phù thủy
+13324	Cửa sổ bốn ô ván gỗ phù thủy
+13325	Chân mái thấp ván gỗ phù thủy
+13326	Nóc mái thấp ván gỗ phù thủy
+13327	Ô cửa sổ ván gỗ phù thủy
+13328	Tường chắn ván gỗ phù thủy
+13329	Lối đi ván gỗ phù thủy
+13330	Mái ván gỗ phù thủy
+13331	Chân mái dốc ván gỗ phù thủy
+13332	Nóc mái dốc ván gỗ phù thủy
+13333	Nóc mái ván gỗ phù thủy
+13334	Bục gỗ phù thủy
+13335	Cổng chóp gỗ phù thủy
+13336	Cầu có lan can gỗ phù thủy
+13337	Lan can gỗ phù thủy
+13338	Cửa sập trang trại gỗ phù thủy
+13339	Mái gỗ phù thủy
+13340	Cửa giấy kiểu Nhật gỗ phù thủy
+13341	Cửa giấy kiểu Nhật liền tấm gỗ phù thủy
+13342	Cửa chớp gỗ phù thủy
+13343	Cầu thang trên không gỗ phù thủy
+13344	Cửa chuồng gỗ phù thủy
+13345	Cửa chuồng ngựa gỗ phù thủy
+13346	Chân mái dốc gỗ phù thủy
+13347	Nóc mái dốc gỗ phù thủy
+13348	Hàng rào cọc nhọn gỗ phù thủy
+13349	Ghế đẩu gỗ phù thủy
+13350	Ghế sọc gỗ phù thủy
+13351	Cửa đầm lầy gỗ phù thủy
+13352	Cửa sập đầm lầy gỗ phù thủy
+13353	Bàn gỗ phù thủy
+13354	Cầu thang bậc thềm gỗ phù thủy
+13355	Nóc mái gỗ phù thủy
+13356	Tủ ba ngăn kéo gỗ phù thủy
+13357	Cửa nhiệt đới gỗ phù thủy
+13358	Cửa sập nhiệt đới gỗ phù thủy
+13359	Cửa ô lưới gỗ phù thủy
+13361	Tủ quần áo gỗ phù thủy
+13362	Cửa kiểu viễn Tây gỗ phù thủy
+13363	Cửa thì thầm gỗ phù thủy
+13364	Cửa sập thì thầm gỗ phù thủy
+13365	Hàng rào dây thép gỗ phù thủy
+13698	Mái gác xép gỗ kì dị
+13700	Cửa sập vỏ gỗ kì dị
+13701	Cửa nhà kho gỗ kì dị
+13702	Cửa nhà kho có kính gỗ kì dị
+13703	Cửa sập nhà kho gỗ kì dị
+13704	Cửa sập song sắt gỗ kì dị
+13705	Cửa sập kiểu thùng gỗ kì dị
+13708	Cửa nhà biển gỗ kì dị
+13709	Cửa sập nhà biển gỗ kì dị
+13711	Rèm sáo gỗ kì dị
+13712	Cầu gỗ kì dị
+13713	Bậc cầu gỗ kì dị
+13714	Giá đỡ cầu gỗ kì dị
+13716	Cửa cổ điển gỗ kì dị
+13717	Cửa sập cổ điển gỗ kì dị
+13719	Cửa nhà vườn gỗ kì dị
+13720	Cửa sập nhà vườn gỗ kì dị
+13722	Thanh treo rèm gỗ kì dị
+13723	Cổng vòm gỗ kì dị
+13728	Cửa bốn ô gỗ kì dị
+13729	Cửa sập bốn ô gỗ kì dị
+13731	Cửa kính gỗ kì dị
+13732	Cửa sập kính gỗ kì dị
+13733	Cổng Highley gỗ kì dị
+13734	Hàng rào chuồng ngựa gỗ kì dị
+13743	Cửa chớp lá sách gỗ kì dị
+13744	Chân mái thấp gỗ kì dị
+13745	Nóc mái thấp gỗ kì dị
+13747	Cửa lưới gỗ kì dị
+13748	Cửa sập lưới gỗ kì dị
+13749	Cửa hiện đại gỗ kì dị
+13751	Cửa huyền bí gỗ kì dị
+13752	Cửa sập huyền bí gỗ kì dị
+13753	Cửa Nether gỗ kì dị
+13755	Ô cửa sổ gỗ kì dị
+13756	Cửa giấy gỗ kì dị
+13757	Cửa sập giấy gỗ kì dị
+13758	Hàng rào cọc gỗ kì dị
+13759	Mái gác xép ván gỗ kì dị
+13760	Cửa sổ bốn ô ván gỗ kì dị
+13761	Chân mái thấp ván gỗ kì dị
+13762	Nóc mái thấp ván gỗ kì dị
+13763	Ô cửa sổ ván gỗ kì dị
+13764	Tường chắn ván gỗ kì dị
+13765	Mái ván gỗ kì dị
+13766	Chân mái dốc ván gỗ kì dị
+13767	Nóc mái dốc ván gỗ kì dị
+13768	Nóc mái ván gỗ kì dị
+13769	Cổng chóp gỗ kì dị
+13770	Cầu có lan can gỗ kì dị
+13771	Cửa sập trang trại gỗ kì dị
+13772	Mái gỗ kì dị
+13774	Cửa giấy kiểu Nhật gỗ kì dị
+13775	Cửa giấy kiểu Nhật liền tấm gỗ kì dị
+13776	Cửa chớp gỗ kì dị
+13777	Cửa chuồng gỗ kì dị
+13778	Cửa chuồng ngựa gỗ kì dị
+13779	Chân mái dốc gỗ kì dị
+13780	Nóc mái dốc gỗ kì dị
+13781	Cửa sổ bốn ô cuống kì dị
+13782	Cửa kính cuống kì dị
+13783	Tường chắn cuống kì dị
+13785	Hàng rào cọc nhọn gỗ kì dị
+13789	Cửa đầm lầy gỗ kì dị
+13790	Cửa sập đầm lầy gỗ kì dị
+13793	Nóc mái gỗ kì dị
+13794	Cửa nhiệt đới gỗ kì dị
+13795	Cửa sập nhiệt đới gỗ kì dị
+13796	Cửa ô lưới gỗ kì dị
+13797	Cửa sập ô lưới gỗ kì dị
+13798	Cửa kiểu viễn Tây gỗ kì dị
+13799	Cửa thì thầm gỗ kì dị
+13800	Cửa sập thì thầm gỗ kì dị
+13801	Hàng rào dây thép gỗ kì dị
+13910	Mái gác xép trắng
+13917	Mái gác xép bê tông trắng
+13918	Chân mái thấp bê tông trắng
+13919	Nóc mái thấp bê tông trắng
+13920	Mái bê tông trắng
+13921	Chân mái dốc bê tông trắng
+13922	Nóc mái dốc bê tông trắng
+13923	Nóc mái bê tông trắng
+13925	Rèm trắng
+13932	Cửa nhà xe trắng
+13946	Chân mái thấp trắng
+13947	Nóc mái thấp trắng
+13951	Kính ghép mảnh trắng
+13952	Tấm kính ghép mảnh trắng
+13957	Máng xối trắng
+13958	Ống xối trắng
+13959	Mái trắng
+13960	Khối mái trắng
+13961	Phiến mái trắng
+13964	Chân mái dốc trắng
+13965	Nóc mái dốc trắng
+13967	Mái gác xép đất nung trắng
+13968	Chân mái thấp đất nung trắng
+13969	Nóc mái thấp đất nung trắng
+13970	Mái đất nung trắng
+13971	Chân mái dốc đất nung trắng
+13972	Nóc mái dốc đất nung trắng
+13973	Nóc mái đất nung trắng
+13975	Nóc mái trắng
+13997	Mái gác xép gỗ liễu
+13998	Ban công gỗ liễu
+13999	Cửa sập kiểu tre gỗ liễu
+14000	Cửa kính vỏ gỗ liễu
+14001	Cửa sập vỏ gỗ liễu
+14002	Cửa nhà kho gỗ liễu
+14003	Cửa nhà kho có kính gỗ liễu
+14004	Cửa sập nhà kho gỗ liễu
+14005	Cửa sập song sắt gỗ liễu
+14006	Cửa sập kiểu thùng gỗ liễu
+14007	Cửa nhà biển gỗ liễu
+14008	Cửa sập nhà biển gỗ liễu
+14009	Rèm sáo gỗ liễu
+14010	Cửa sập hoa gỗ liễu
+14011	Kệ sách gỗ liễu
+14012	Kệ sách ngăn kéo gỗ liễu
+14013	Cầu gỗ liễu
+14014	Bậc cầu gỗ liễu
+14015	Giá đỡ cầu gỗ liễu
+14016	Cầu thang đặc gỗ liễu
+14017	Ghế gỗ liễu
+14018	Cửa cổ điển gỗ liễu
+14019	Cửa sập cổ điển gỗ liễu
+14020	Bàn trà gỗ liễu
+14021	Cầu thang gọn gỗ liễu
+14022	Cửa nhà vườn gỗ liễu
+14023	Cửa sập nhà vườn gỗ liễu
+14024	Quầy bếp gỗ liễu
+14025	Bàn học có tủ gỗ liễu
+14026	Kệ sách có tủ gỗ liễu
+14027	Quầy bếp có tủ gỗ liễu
+14028	Thanh treo rèm gỗ liễu
+14029	Cổng vòm gỗ liễu
+14030	Bàn học gỗ liễu
+14031	Tủ hai ngăn kéo gỗ liễu
+14032	Quầy bếp hai ngăn kéo gỗ liễu
+14033	Quầy bếp đôi gỗ liễu
+14034	Tủ quần áo đôi gỗ liễu
+14035	Tủ ngăn kéo gỗ liễu
+14036	Quầy bếp ngăn kéo gỗ liễu
+14037	Bàn đầu giường gỗ liễu
+14038	Cửa sổ bốn ô gỗ liễu
+14039	Cửa bốn ô gỗ liễu
+14040	Cửa sập bốn ô gỗ liễu
+14041	Cửa kính gỗ liễu
+14042	Tủ bếp kính gỗ liễu
+14043	Bàn kính gỗ liễu
+14044	Cửa sập kính gỗ liễu
+14046	Bờ rào lá liễu
+14047	Cổng Highley gỗ liễu
+14048	Hàng rào chuồng ngựa gỗ liễu
+14049	Tủ bếp gỗ liễu
+14050	Bồn rửa bát gỗ liễu
+14051	Tủ ngăn kéo lớn gỗ liễu
+14052	Cầu thang gác gỗ liễu
+14053	Cửa chớp lá sách gỗ liễu
+14054	Chân mái thấp gỗ liễu
+14055	Kệ sách ngăn kéo thấp gỗ liễu
+14056	Nóc mái thấp gỗ liễu
+14057	Tủ ba ngăn kéo thấp gỗ liễu
+14058	Cửa lưới gỗ liễu
+14059	Ghế hiện đại gỗ liễu
+14060	Bàn học hiện đại gỗ liễu
+14061	Cửa hiện đại gỗ liễu
+14062	Tủ quần áo hiện đại gỗ liễu
+14063	Cửa huyền bí gỗ liễu
+14064	Cửa sập huyền bí gỗ liễu
+14065	Cửa Nether gỗ liễu
+14066	Ô cửa sổ gỗ liễu
+14067	Cửa giấy gỗ liễu
+14068	Cửa sập giấy gỗ liễu
+14069	Tường chắn gỗ liễu
+14070	Hàng rào cọc gỗ liễu
+14071	Mái gác xép ván gỗ liễu
+14072	Cửa sổ bốn ô ván gỗ liễu
+14073	Chân mái thấp ván gỗ liễu
+14074	Nóc mái thấp ván gỗ liễu
+14075	Ô cửa sổ ván gỗ liễu
+14076	Tường chắn ván gỗ liễu
+14077	Lối đi ván gỗ liễu
+14078	Mái ván gỗ liễu
+14079	Chân mái dốc ván gỗ liễu
+14080	Nóc mái dốc ván gỗ liễu
+14081	Nóc mái ván gỗ liễu
+14082	Bục gỗ liễu
+14083	Cổng chóp gỗ liễu
+14084	Cầu có lan can gỗ liễu
+14085	Lan can gỗ liễu
+14086	Cửa sập trang trại gỗ liễu
+14087	Mái gỗ liễu
+14088	Cửa giấy kiểu Nhật gỗ liễu
+14089	Cửa giấy kiểu Nhật liền tấm gỗ liễu
+14090	Cửa chớp gỗ liễu
+14091	Cầu thang trên không gỗ liễu
+14092	Cửa chuồng gỗ liễu
+14093	Cửa chuồng ngựa gỗ liễu
+14094	Chân mái dốc gỗ liễu
+14095	Nóc mái dốc gỗ liễu
+14096	Hàng rào cọc nhọn gỗ liễu
+14097	Ghế đẩu gỗ liễu
+14098	Ghế sọc gỗ liễu
+14099	Cửa đầm lầy gỗ liễu
+14100	Cửa sập đầm lầy gỗ liễu
+14101	Bàn gỗ liễu
+14102	Cầu thang bậc thềm gỗ liễu
+14103	Nóc mái gỗ liễu
+14104	Tủ ba ngăn kéo gỗ liễu
+14105	Cửa nhiệt đới gỗ liễu
+14106	Cửa sập nhiệt đới gỗ liễu
+14107	Cửa ô lưới gỗ liễu
+14109	Tủ quần áo gỗ liễu
+14110	Cửa kiểu viễn Tây gỗ liễu
+14111	Cửa thì thầm gỗ liễu
+14112	Cửa sập thì thầm gỗ liễu
+14113	Hàng rào dây thép gỗ liễu
+14270	Mái gác xép bê tông vàng
+14271	Chân mái thấp bê tông vàng
+14272	Nóc mái thấp bê tông vàng
+14273	Mái bê tông vàng
+14274	Chân mái dốc bê tông vàng
+14275	Nóc mái dốc bê tông vàng
+14276	Nóc mái bê tông vàng
+14278	Rèm vàng
+14295	Bờ rào lá phong vàng
+14299	Kính ghép mảnh vàng
+14300	Tấm kính ghép mảnh vàng
+14302	Máng xối vàng
+14303	Ống xối vàng
+14306	Mái hiên sọc vàng
+14310	Mái gác xép đất nung vàng
+14311	Chân mái thấp đất nung vàng
+14312	Nóc mái thấp đất nung vàng
+14313	Mái đất nung vàng
+14314	Chân mái dốc đất nung vàng
+14315	Nóc mái dốc đất nung vàng
+14316	Nóc mái đất nung vàng

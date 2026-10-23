@@ -1,0 +1,49 @@
+﻿CAVE HORROR PROJECT 1.8 (bản Việt hóa) CHO TLAUNCHER
+=====================================================
+
+Gói này gồm 166 mod, bản Việt hóa toàn bộ, sổ nhiệm vụ tiếng Việt và mod Cave Mind 1.8.0
+(The Man From The Fog, The Damned, Herobrine được viết lại, có cốt truyện trong thế giới).
+
+CẦN CÓ
+• TLauncher bản mới.
+• Forge cho Minecraft 1.20.1, bản 47.4.0 trở lên (khuyên dùng 47.4.23).
+• Máy có từ 8 GB RAM trở lên, cấp cho game 6 GB.
+
+CÀI ĐẶT (5 bước)
+1. Mở TLauncher. Ở ô chọn phiên bản, chọn "Forge 1.20.1" rồi bấm "Vào game" một lần
+   để TLauncher tự tải Forge. Khi vào tới màn hình chính của Minecraft thì thoát game.
+   Nếu TLauncher chỉ có Forge cũ hơn 47.4.0: tải "Installer" của Forge 1.20.1 bản 47.4.x
+   ở trang files.minecraftforge.net, chạy nó, chọn "Install client", trỏ vào thư mục
+   .minecraft, bấm OK. Bản Forge đó sẽ hiện trong danh sách của TLauncher.
+2. Giải nén file zip này ra một chỗ bất kỳ (ví dụ Desktop).
+3. Chạy file CaiDat.bat. Nó tự tìm thư mục game mà TLauncher đang dùng (kể cả khi bạn đã
+   chuyển sang ổ khác), hỏi lại cho chắc, cất mods, config, gói tài nguyên cũ vào thư mục
+   sao_luu_truoc_CaveHorror_<ngày giờ> ngay trong thư mục game, rồi chép modpack vào.
+   Mod skin của TLauncher được giữ lại.
+   Không muốn chạy file .bat thì chép tay: mở thư mục "game", chép toàn bộ những gì bên
+   trong vào thư mục game của TLauncher (xem trong phần Cài đặt của TLauncher, mặc định
+   là %APPDATA%\.minecraft), đồng ý ghi đè.
+4. Trong TLauncher bấm biểu tượng bánh răng (Cài đặt), kéo "Bộ nhớ" lên 6144 MB
+   (máy 16 GB có thể để 8192 MB).
+5. Chọn Forge 1.20.1 và bấm "Vào game". Lần đầu mở mất khoảng 3 tới 6 phút, đừng tắt.
+
+SAU KHI VÀO GAME
+• Ngôn ngữ đã đặt sẵn tiếng Việt, gói "Cave Horror Tieng Viet" đã bật.
+• Muốn bật shader: Tùy chọn > Tùy chọn hình ảnh > Gói shader, chọn Complementary
+  (máy yếu thì để tắt).
+• Độ dày đặc của các sinh vật chỉnh trong config\cavemind-common.toml:
+  intensity = 1.0 (0,5 là thưa hơn, 2 là dày gấp đôi), mercy = true (giảm ức chế:
+  không hù khi bạn đang mở túi đồ, đang đánh nhau, vừa chết, treo máy...).
+
+MẸO SỐNG SÓT (không tiết lộ hết)
+• Đọc kỹ những gì bạn tìm thấy trong thế giới. Sổ ghi chép và tấm biển không nói dối.
+• Có những thứ sợ tiếng chuông. Nhưng chúng học rất nhanh.
+• Khi bị tìm, hãy ngồi thụp xuống ở chỗ tối và đừng nhìn.
+
+GỠ CÀI ĐẶT
+Xóa các thư mục mods, config, kubejs, defaultconfigs, resourcepacks, shaderpacks,
+fancymenu_data trong .minecraft, rồi chép lại đồ cũ từ thư mục sao_luu_truoc_CaveHorror_...
+
+CHƠI CÙNG BẠN
+Mở thế giới cho mạng LAN (hoặc dùng phần mềm tạo LAN ảo như Radmin VPN). Mọi người
+đều phải cài đúng gói này.

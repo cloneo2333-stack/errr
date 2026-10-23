@@ -1,0 +1,7 @@
+{
+ "_comment": "Cài đặt Forge trong trò chơi",
+ "bettertitlescreen.config.category.general.title": "Chung",
+ "bettertitlescreen.config.category.general.tooltip": "Chọn những thương hiệu bạn muốn hiện trên màn hình chính (nếu có).",
+ "bettertitlescreen.config.category.listCustomText.title": "Chữ tùy chỉnh",
+ "bettertitlescreen.config.category.listCustomText.tooltip": "Nhập chữ bạn muốn vào đây (có thể nhiều dòng)."
+}

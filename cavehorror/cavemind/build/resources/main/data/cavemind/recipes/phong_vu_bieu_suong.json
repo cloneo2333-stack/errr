@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CGC",
+    "GKG",
+    "CXC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "K": {
+      "item": "minecraft:compass"
+    },
+    "X": {
+      "item": "cavemind:manh_xuong_suong"
+    }
+  },
+  "result": {
+    "item": "cavemind:phong_vu_bieu_suong"
+  }
+}

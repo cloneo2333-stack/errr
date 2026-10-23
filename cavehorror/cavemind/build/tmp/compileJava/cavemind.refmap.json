@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "vn/cavemind/mixin/EntityVisibilityMixin": {
+      "broadcastToPlayer": "Lnet/minecraft/world/entity/Entity;m_6459_(Lnet/minecraft/server/level/ServerPlayer;)Z"
+    }
+  },
+  "data": {
+    "searge": {
+      "vn/cavemind/mixin/EntityVisibilityMixin": {
+        "broadcastToPlayer": "Lnet/minecraft/world/entity/Entity;m_6459_(Lnet/minecraft/server/level/ServerPlayer;)Z"
+      }
+    }
+  }
+}

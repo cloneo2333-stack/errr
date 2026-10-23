@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "group": "sustenance",
+  "category": "misc",
+  "experience": 0,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "minecraft:rotten_flesh"
+  },
+  "result": "apollyon:sustenance"
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "translate": "advancements.condemned_to_die.title"
+    },
+    "description": {
+      "translate": "advancements.condemned_to_die.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "condemned_to_die_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "apollyon:apollyon"
+}

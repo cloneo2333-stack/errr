@@ -1,0 +1,203 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.8/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Configure project :
+MixinGradle did not locate the diffplug APT plugin, skipping eclipse task configuration
+
+> Task :downloadMcpConfig
+> Task :extractSrg UP-TO-DATE
+> Task :createMcpToSrg UP-TO-DATE
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :createSrgToMcp UP-TO-DATE
+> Task :downloadMCMeta UP-TO-DATE
+> Task :downloadAssets UP-TO-DATE
+> Task :extractNatives UP-TO-DATE
+> Task :makeSrcDirs
+> Task :prepareRuns
+> Task :prepareRunServer
+> Task :prepareRunServerCompile UP-TO-DATE
+
+> Task :runServer
+2026-10-22 02:44:59,283 main WARN Advanced terminal features are not available in this environment
+[02:44:59] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserveruserdev, --gameDir, ., --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --nogui, --mixin.config, cavemind.mixins.json]
+[02:44:59] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.20.1 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[02:44:59] [main/INFO] [ne.mi.fm.lo.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserveruserdev
+[02:44:59] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/ACER/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=SERVER
+[02:44:59] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[02:44:59] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[02:44:59] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[02:44:59] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[02:44:59] [main/INFO] [ne.mi.fm.lo.mo.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[02:45:03] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[02:45:03] [main/INFO] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserveruserdev' with arguments [--gameDir, ., --nogui]
+[02:45:04] [main/WARN] [mixin/]: Reference map 'cavemind.refmap.json' for cavemind.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:45:04] [main/WARN] [mixin/]: Error loading class: apollyon/procedures/TheDamnedCollidesProcedure (java.lang.ClassNotFoundException: apollyon.procedures.TheDamnedCollidesProcedure)
+[02:45:04] [main/WARN] [mixin/]: Error loading class: apollyon/procedures/TheDamnedKillsProcedure (java.lang.ClassNotFoundException: apollyon.procedures.TheDamnedKillsProcedure)
+[02:45:04] [main/WARN] [mixin/]: Error loading class: apollyon/procedures/TheDamnedSpawnsProcedure (java.lang.ClassNotFoundException: apollyon.procedures.TheDamnedSpawnsProcedure)
+[02:45:04] [main/WARN] [mixin/]: Error loading class: apollyon/procedures/TheDamnedTicksProcedure (java.lang.ClassNotFoundException: apollyon.procedures.TheDamnedTicksProcedure)
+[02:45:04] [main/WARN] [mixin/]: Error loading class: net/mcreator/man/procedures/ManaggresiveOnEntityTickUpdateProcedure (java.lang.ClassNotFoundException: net.mcreator.man.procedures.ManaggresiveOnEntityTickUpdateProcedure)
+[02:45:04] [main/WARN] [mixin/]: Error loading class: net/mcreator/man/procedures/ManfromthefogOnEntityTickUpdate2Procedure (java.lang.ClassNotFoundException: net.mcreator.man.procedures.ManfromthefogOnEntityTickUpdate2Procedure)
+[02:45:16] [modloading-worker-0/INFO] [ne.mi.co.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[02:45:16] [modloading-worker-0/INFO] [ne.mi.co.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[02:45:16] [Forge Version Check/INFO] [ne.mi.fm.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[02:45:17] [Forge Version Check/INFO] [ne.mi.fm.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.0 Target: 47.4.28
+[02:45:17] [main/INFO] [mojang/YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02:45:17] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/C:/Users/ACER/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[02:45:17] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/C:/Users/ACER/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[02:45:19] [main/INFO] [minecraft/RecipeManager]: Loaded 7 recipes
+[02:45:19] [main/INFO] [minecraft/AdvancementList]: Loaded 1303 advancements
+[02:45:20] [Server thread/INFO] [minecraft/DedicatedServer]: Starting minecraft server version 1.20.1
+[02:45:20] [Server thread/INFO] [minecraft/DedicatedServer]: Loading properties
+[02:45:20] [Server thread/INFO] [minecraft/DedicatedServer]: Default game type: CREATIVE
+[02:45:20] [Server thread/INFO] [minecraft/MinecraftServer]: Generating keypair
+[02:45:20] [Server thread/INFO] [minecraft/DedicatedServer]: Starting Minecraft server on *:25598
+[02:45:20] [Server thread/INFO] [minecraft/ServerConnectionListener]: Using default channel type
+[02:45:20] [Server thread/WARN] [minecraft/DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:45:20] [Server thread/WARN] [minecraft/DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[02:45:20] [Server thread/WARN] [minecraft/DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:45:20] [Server thread/WARN] [minecraft/DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:45:20] [Server thread/INFO] [minecraft/DedicatedServer]: Preparing level "world"
+[02:45:20] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[02:45:22] [Worker-Main-11/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[02:45:22] [Worker-Main-11/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[02:45:22] [Worker-Main-11/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[02:45:22] [Worker-Main-4/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[02:45:22] [Worker-Main-9/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[02:45:23] [Worker-Main-3/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 53%
+[02:45:23] [Server thread/INFO] [minecraft/LoggerChunkProgressListener]: Time elapsed: 2811 ms
+[02:45:23] [Server thread/INFO] [minecraft/DedicatedServer]: Done (3.041s)! For help, type "help"
+[02:45:23] [Server thread/INFO] [minecraft/DedicatedServer]: Starting remote control listener
+[02:45:23] [Server thread/INFO] [minecraft/GenericThread]: Thread RCON Listener started
+[02:45:23] [Server thread/INFO] [minecraft/RconThread]: RCON running on 0.0.0.0:25599
+[02:45:23] [Server thread/INFO] [ne.mi.ga.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
+[02:45:23] [Server thread/INFO] [ne.mi.se.pe.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[02:45:26] [RCON Listener #1/INFO] [minecraft/GenericThread]: Thread RCON Client /127.0.0.1 started
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS v5 home set after first night
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS v5 one night elsewhere keeps the home
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS v5 two nights elsewhere still keeps a lived-in home
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS v5 moving for good switches the home
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] v5 nhà 400, 64, 100 | 100, 64, 100 10.0? 1 ?êm | 400, 64, 100 24.0? 6 ?êm
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS v5 book builds
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] v5 book bytes 917
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS v5 pages texts
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] v5 grids: closets/maze 14.675 nooks/maze 11.725
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS v5 40 mazes: toys reachable, nooks open to a floor
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [CaveMind] play mode set to together by server
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS v5 together mode stored
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [CaveMind] play mode set to single by server
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS v6 torch fakes to air
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS v6 campfire fakes unlit
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS v6 glowstone left alone
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS v6 enchanting table left alone
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS v6 blackout catches nearby lights (2)
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS v6 blackout ends
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS v6 server lights untouched
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS v6 shadow kid is small, hidden and owner-only
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS v6 radio relay without radios is quiet
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] v6 no playground here, well test skipped
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS v7 moon can be forced
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS v7 no Lunar in dev means no moon
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS v7 barometer bands
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS v7 gear recipes load
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS v7 chime remembered when placed
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS v7 chime guards twice and still hangs
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS v7 chime snaps on the third
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS v7 far from any chime is unguarded
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS v7 decoys unlimited outside the maze
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS v7 book knows the moon
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS v8 firefly finds the page
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS v8 firefly auto mode never crashes
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS v8 a firefly jar is handed out once
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS v8 the jar is not handed out twice
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS tiers loaded
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS invite 3 refused at chapter 1
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS invite 2 accepted
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS point g2 assigned
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS waypoint w2 assigned
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS compass given
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] g2 target BlockPos{x=-73, y=71, z=329} dist 344 w2 BlockPos{x=-8, y=71, z=148}
+[02:45:26] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS g2 distance in range
+[02:45:26] [RCON Client /127.0.0.1 #2/INFO] [minecraft/RconClient]: Thread RCON Client /127.0.0.1 shutting down
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS g2 built by tick
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] g2 built at BlockPos{x=-73, y=70, z=329} post BlockPos{x=-76, y=71, z=334} lectern BlockPos{x=-75, y=71, z=322} candles [BlockPos{x=-73, y=71, z=322}, BlockPos{x=-74, y=66, z=322}, BlockPos{x=-69, y=64, z=330}, BlockPos{x=-81, y=72, z=337}]
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS g2 has 4 candles
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS candle block at BlockPos{x=-73, y=71, z=322}
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS candle block at BlockPos{x=-74, y=66, z=322}
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS candle block at BlockPos{x=-69, y=64, z=330}
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS candle block at BlockPos{x=-81, y=72, z=337}
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS post is a log
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS lectern has book
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS post guarded
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS arrived
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS no key before reading
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS read
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS refill click handled
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS lectern refilled
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS not lit with 3 of 4
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS lit
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS key dropped at post
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS day refusal handled
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS night start handled (damned off in dev)
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS chapter 2 unlocked
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS key consumed
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS rare gift given
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS invite 3 accepted
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS altar book given
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS lost altar book given again
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] missing with 5 candles: [c?n 6 ng?n n?n ?ang cháy quanh g?c trong 4 kh?i (m?i có 5)]
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS altar with 5 candles incomplete
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS click with 5 candles handled
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] missing by day: []
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS altar underground playable by day
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] missing at night: []
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS altar at night complete
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS deep rule for chapter 5
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS chapter 3 unlocked after altar win
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS altar registered as post
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS altar not guarded
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS bare log column refused for free play
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS self built counting tree accepted for free play
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS invite 2 again is a no-op
+[02:45:36] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] describe: ch??ng 3 (N?i b?u tr?i v? ra), c?ng 4:, ván ch? ??ng 16/0, quà hi?m 16
+[02:45:38] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS w2 built by tick
+[02:45:38] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] w2 at BlockPos{x=-8, y=70, z=148} post BlockPos{x=-8, y=71, z=148}
+[02:45:38] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] maze: origin 1024 64 1024 lamps 29 frames 19 batteries 27 toys 21 signs 47 growth 171 blood 26
+[02:45:38] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS bar empty no stage due
+[02:45:38] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS bar capped at first mark
+[02:45:38] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS bar waits while stage 1 pending
+[02:45:38] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS stage 1 done
+[02:45:38] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS out of order completion ignored
+[02:45:38] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS bell never drops below the mark
+[02:45:38] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS stage 2 due at 50
+[02:45:38] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS visit wanted
+[02:45:38] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS hunt night due at 100
+[02:45:38] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS hunt due blocks sleep
+[02:45:38] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] PASS after the hunt the bar restarts
+[02:45:38] [Server thread/INFO] [vn.ca.CaveMind/]: [SELFTEST] DONE
+[02:45:39] [RCON Listener #1/INFO] [minecraft/GenericThread]: Thread RCON Client /127.0.0.1 started
+[02:45:39] [Server thread/INFO] [minecraft/MinecraftServer]: [Rcon: Stopping the server]
+[02:45:39] [RCON Client /127.0.0.1 #3/INFO] [minecraft/RconClient]: Thread RCON Client /127.0.0.1 shutting down
+[02:45:39] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[02:45:39] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
+[02:45:39] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[02:45:40] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:45:40] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[02:45:40] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/cavemind:gio_48
+[02:45:40] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[02:45:40] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:45:40] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:45:40] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (gio_48): All chunks are saved
+[02:45:40] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:45:40] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02:45:40] [Server thread/INFO] [minecraft/GenericThread]: Thread RCON Listener stopped
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.8/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 54s
+11 actionable tasks: 3 executed, 8 up-to-date

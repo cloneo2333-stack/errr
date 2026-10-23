@@ -1,0 +1,11 @@
+{
+ "block.ls_spooky_music.block_trader_spooky_music": "Khối nhạc rùng rợn",
+ "entity.minecraft.villager.ls_spooky_music.spooky_music_trader": "Thương nhân nhạc rùng rợn",
+ "gui.ls_spooky_music.screen_album_kurzel_covenant.label_jed_kurzel_alien_covenant": "Jed Kurzel: Alien Covenant",
+ "item.ls_spooky_music.album_kurzel_covenant": "Jed Kurzel: Alien Covenant",
+ "item.ls_spooky_music.disc_eleven_fixed": "Đĩa nhạc",
+ "item.ls_spooky_music.disc_eleven_fixed.desc": "Jed Kurzel: Alien Covenant (đã sửa)",
+ "painting.ls_spooky_music.painting_alien.author": "Taknax",
+ "painting.ls_spooky_music.painting_alien.title": "Người ngoài hành tinh",
+ "subtitles.eleven_fixed": "Jed Kuzel: Alien Covenant"
+}

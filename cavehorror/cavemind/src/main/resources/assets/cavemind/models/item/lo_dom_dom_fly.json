@@ -1,0 +1,43 @@
+{
+ "textures": {
+  "glass": "cavemind:item/m/jar_glass",
+  "cork": "cavemind:item/m/cork",
+  "fly": "cavemind:item/m/firefly",
+  "moss": "minecraft:block/moss_block",
+  "particle": "cavemind:item/m/jar_glass"
+ },
+ "elements": [
+  {
+   "from": [
+    7.3,
+    7.3,
+    7.3
+   ],
+   "to": [
+    8.7,
+    8.7,
+    8.7
+   ],
+   "faces": {
+    "north": {
+     "texture": "#fly"
+    },
+    "south": {
+     "texture": "#fly"
+    },
+    "east": {
+     "texture": "#fly"
+    },
+    "west": {
+     "texture": "#fly"
+    },
+    "up": {
+     "texture": "#fly"
+    },
+    "down": {
+     "texture": "#fly"
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,472 @@
+
+[General]
+	#Enables all configured ArPhEx modded biome spawns for the Overworld.
+	"Enable Integration" = true
+
+["Mob Specific Spawns"]
+
+	#THE OVERWORLD
+	#
+	# You can use basically any modded world generation with this config, just add new lines with biomes from the mod you're using.
+	# Has to look like this -> modId:biomeId -> so for example biomesoplenty:wasteland
+	# You can easily find the modId and biomeId using the in-game /locate command
+	#
+	# Some info for each config section:
+	# Enabled: Whether biome-specific spawning is enabled for this mob.
+	# Allowed Biomes: Biome IDs where this mob may spawn. Biome IDs from other mods may also be used.
+	# Spawn Weight: The mob's spawn weight. Higher values make the mob more common relative to other mobs.
+	# Min Count: Minimum group size.
+	# Max Count: Maximum group size.
+	#
+	# Lastly, I recommend using CTRL+F to find the mob you want as this config file is quite long.
+	#
+	["Mob Specific Spawns".ant_arsonist]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:wasteland", "biomesoplenty:wasteland_steppe", "biomesoplenty:dryland", "biomesoplenty:dune_beach", "biomesoplenty:rainforest", "biomesoplenty:tropics", "biomesoplenty:woodland", "biomesoplenty:forested_field"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 8
+		#Range: 1 ~ 100
+		"Min Count" = 2
+		#Range: 1 ~ 100
+		"Max Count" = 25
+
+	["Mob Specific Spawns".beetle_bulwark]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:glowing_grotto", "biomesoplenty:fungal_jungle", "biomesoplenty:ominous_woods", "biomesoplenty:fir_clearing", "biomesoplenty:snowblossom_grove", "biomesoplenty:highland", "biomesoplenty:rainforest"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 128
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 2
+
+	["Mob Specific Spawns".beetle_tick_mite]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:glowing_grotto", "biomesoplenty:fungal_jungle", "biomesoplenty:ominous_woods", "biomesoplenty:fir_clearing", "biomesoplenty:snowblossom_grove", "biomesoplenty:highland", "biomesoplenty:rainforest"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 16
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 20
+
+	["Mob Specific Spawns".blood_worm]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:bog", "biomesoplenty:marsh", "biomesoplenty:muskeg", "biomesoplenty:wetland", "biomesoplenty:visceral_heap"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 24
+		#Range: 1 ~ 100
+		"Min Count" = 2
+		#Range: 1 ~ 100
+		"Max Count" = 6
+
+	["Mob Specific Spawns".butterfly_bewitcher]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:rainforest", "biomesoplenty:tropics", "biomesoplenty:woodland", "biomesoplenty:forested_field", "biomesoplenty:seasonal_forest", "biomesoplenty:ominous_woods", "biomesoplenty:old_growth_dead_forest", "biomesoplenty:spider_nest"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 16
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 10
+
+	["Mob Specific Spawns".butterfly_bewitcher_giant]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:auroral_garden", "biomesoplenty:lavender_forest", "biomesoplenty:mystic_grove", "biomesoplenty:rainforest"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 4
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 1
+
+	["Mob Specific Spawns".centipede_evictor]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:fungal_jungle", "biomesoplenty:glowing_grotto", "biomesoplenty:wetland"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 8
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 1
+
+	["Mob Specific Spawns".centipede_evictor_larvae]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:dune_beach", "biomesoplenty:woodland", "biomesoplenty:forested_field", "biomesoplenty:seasonal_forest", "biomesoplenty:volcanic_plains", "biomesoplenty:ominous_woods"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 32
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 1
+
+	["Mob Specific Spawns".centipede_stalker]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:wasteland", "biomesoplenty:wasteland_steppe", "biomesoplenty:dryland", "biomesoplenty:rainforest", "biomesoplenty:tropics", "biomesoplenty:volcano", "biomesoplenty:volcanic_plains"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 16
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 1
+
+	["Mob Specific Spawns".dragonfly_dreadnought]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:bayou", "biomesoplenty:floodplain", "biomesoplenty:marsh", "biomesoplenty:rainforest", "biomesoplenty:wetland"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 8
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 2
+
+	["Mob Specific Spawns".fly_festerer]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:rainforest", "biomesoplenty:tropics", "biomesoplenty:volcano", "biomesoplenty:volcanic_plains", "biomesoplenty:dune_beach", "biomesoplenty:woodland", "biomesoplenty:forested_field"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 48
+		#Range: 1 ~ 100
+		"Min Count" = 4
+		#Range: 1 ~ 100
+		"Max Count" = 7
+
+	["Mob Specific Spawns".hornet_harbinger]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:wasteland", "biomesoplenty:wasteland_steppe", "biomesoplenty:dryland", "biomesoplenty:rainforest", "biomesoplenty:tropics", "biomesoplenty:dune_beach", "biomesoplenty:woodland", "biomesoplenty:forested_field"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 8
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 4
+
+	["Mob Specific Spawns".hornet_harbinger_giant]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:wasteland", "biomesoplenty:wasteland_steppe", "biomesoplenty:dryland", "biomesoplenty:rainforest", "biomesoplenty:tropics", "biomesoplenty:dune_beach", "biomesoplenty:cold_desert", "biomesoplenty:lush_desert"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 16
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 1
+
+	["Mob Specific Spawns".invisible_stalker]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:wasteland", "biomesoplenty:wasteland_steppe", "biomesoplenty:dryland", "biomesoplenty:rainforest", "biomesoplenty:tropics", "biomesoplenty:dune_beach", "biomesoplenty:woodland", "biomesoplenty:forested_field"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 2
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 1
+
+	["Mob Specific Spawns".locust_landscourge]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:dryland", "biomesoplenty:grassland", "biomesoplenty:lush_savanna", "biomesoplenty:prairie", "biomesoplenty:wasteland_steppe"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 16
+		#Range: 1 ~ 100
+		"Min Count" = 5
+		#Range: 1 ~ 100
+		"Max Count" = 40
+
+	["Mob Specific Spawns".long_legs]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:glowing_grotto", "biomesoplenty:fungal_jungle", "biomesoplenty:ominous_woods", "biomesoplenty:fir_clearing", "biomesoplenty:snowblossom_grove", "biomesoplenty:highland", "biomesoplenty:rainforest"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 48
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 20
+
+	["Mob Specific Spawns".long_legs_fly]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:dune_beach", "biomesoplenty:woodland", "biomesoplenty:forested_field", "biomesoplenty:seasonal_forest", "biomesoplenty:ominous_woods", "biomesoplenty:old_growth_dead_forest", "biomesoplenty:spider_nest"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 32
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 1
+
+	["Mob Specific Spawns".maggot_larvae]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:ominous_woods", "biomesoplenty:rainforest", "biomesoplenty:rocky_rainforest", "biomesoplenty:tropics", "biomesoplenty:lush_savanna", "biomesoplenty:scrubland", "biomesoplenty:glowing_grotto", "biomesoplenty:fungal_jungle"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 16
+		#Range: 1 ~ 100
+		"Min Count" = 4
+		#Range: 1 ~ 100
+		"Max Count" = 40
+
+	["Mob Specific Spawns".mantis_mutilator]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:rainforest", "biomesoplenty:rocky_rainforest", "biomesoplenty:tropics"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 8
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 2
+
+	["Mob Specific Spawns".millipede_marauder]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:wasteland", "biomesoplenty:wasteland_steppe", "biomesoplenty:dryland", "biomesoplenty:rainforest", "biomesoplenty:tropics", "biomesoplenty:woodland", "biomesoplenty:forested_field", "biomesoplenty:seasonal_forest"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 32
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 1
+
+	["Mob Specific Spawns".mosquito_morbidity]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:wasteland", "biomesoplenty:wasteland_steppe", "biomesoplenty:dryland", "biomesoplenty:rainforest", "biomesoplenty:tropics", "biomesoplenty:volcano", "biomesoplenty:volcanic_plains"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 32
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 1
+
+	["Mob Specific Spawns".moth_moontracker]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:rainforest", "biomesoplenty:tropics", "biomesoplenty:volcano", "biomesoplenty:volcanic_plains", "biomesoplenty:dune_beach", "biomesoplenty:woodland", "biomesoplenty:forested_field"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 8
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 4
+
+	["Mob Specific Spawns".roach_riverspawn]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:glowing_grotto", "biomesoplenty:fungal_jungle", "biomesoplenty:ominous_woods", "biomesoplenty:fir_clearing", "biomesoplenty:snowblossom_grove", "biomesoplenty:highland", "biomesoplenty:rainforest"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 16
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 10
+
+	["Mob Specific Spawns".scorpion_striker]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:cold_desert", "biomesoplenty:lush_desert", "biomesoplenty:dryland", "biomesoplenty:volcano", "biomesoplenty:volcanic_plains", "biomesoplenty:wasteland", "biomesoplenty:wasteland_steppe", "biomesoplenty:dune_beach"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 16
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 2
+
+	["Mob Specific Spawns".silverfish_spectre]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:wasteland", "biomesoplenty:wasteland_steppe", "biomesoplenty:dryland", "biomesoplenty:dune_beach", "biomesoplenty:rainforest", "biomesoplenty:tropics", "biomesoplenty:volcano", "biomesoplenty:volcanic_plains"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 32
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 4
+
+	["Mob Specific Spawns".sky_stalker]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:field", "biomesoplenty:grassland", "biomesoplenty:pasture", "biomesoplenty:prairie", "biomesoplenty:lush_savanna", "biomesoplenty:dryland", "biomesoplenty:cold_desert", "biomesoplenty:lush_desert", "biomesoplenty:dune_beach"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 4
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 1
+
+	["Mob Specific Spawns".solifuge_skulker]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:cold_desert", "biomesoplenty:dryland", "biomesoplenty:lush_desert", "biomesoplenty:wasteland", "biomesoplenty:wasteland_steppe"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 32
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 1
+
+	["Mob Specific Spawns".spider_ambusher]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:spider_nest", "biomesoplenty:ominous_woods", "biomesoplenty:rainforest"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 10
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 1
+
+	["Mob Specific Spawns".spider_brood]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:wasteland", "biomesoplenty:wasteland_steppe", "biomesoplenty:dryland", "biomesoplenty:rainforest", "biomesoplenty:tropics", "biomesoplenty:dune_beach", "biomesoplenty:woodland", "biomesoplenty:forested_field"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 16
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 2
+
+	["Mob Specific Spawns".spider_flat]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:lush_savanna", "biomesoplenty:dryland", "biomesoplenty:grassland", "biomesoplenty:highland", "biomesoplenty:rocky_shrubland", "biomesoplenty:ominous_woods"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 8
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 1
+
+	["Mob Specific Spawns".spider_funnel]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:spider_nest", "biomesoplenty:dryland", "biomesoplenty:scrubland", "biomesoplenty:wasteland_steppe"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 16
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 2
+
+	["Mob Specific Spawns".spider_goliath]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:spider_nest", "biomesoplenty:rainforest", "biomesoplenty:rocky_rainforest", "biomesoplenty:tropics", "biomesoplenty:lush_savanna", "biomesoplenty:scrubland", "biomesoplenty:glowing_grotto", "biomesoplenty:fungal_jungle"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 16
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 1
+
+	["Mob Specific Spawns".spider_infestor]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:spider_nest", "biomesoplenty:ominous_woods", "biomesoplenty:old_growth_dead_forest"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 4
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 1
+
+	["Mob Specific Spawns".spider_jump]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:rainforest", "biomesoplenty:rocky_rainforest", "biomesoplenty:tropics", "biomesoplenty:lush_savanna", "biomesoplenty:coniferous_forest"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 8
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 1
+
+	["Mob Specific Spawns".spider_larvae]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:wasteland", "biomesoplenty:wasteland_steppe", "biomesoplenty:dryland", "biomesoplenty:rainforest", "biomesoplenty:tropics", "biomesoplenty:volcano", "biomesoplenty:volcanic_plains"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 32
+		#Range: 1 ~ 100
+		"Min Count" = 2
+		#Range: 1 ~ 100
+		"Max Count" = 7
+
+	["Mob Specific Spawns".spider_lunger]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:wasteland", "biomesoplenty:wasteland_steppe", "biomesoplenty:dryland", "biomesoplenty:rainforest", "biomesoplenty:tropics", "biomesoplenty:dune_beach", "biomesoplenty:woodland", "biomesoplenty:forested_field"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 24
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 4
+
+	["Mob Specific Spawns".spider_lurker]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:spider_nest", "biomesoplenty:ominous_woods", "biomesoplenty:glowing_grotto"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 12
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 1
+
+	["Mob Specific Spawns".spider_obstructer]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:rainforest", "biomesoplenty:tropics", "biomesoplenty:woodland", "biomesoplenty:forested_field", "biomesoplenty:seasonal_forest", "biomesoplenty:ominous_woods", "biomesoplenty:old_growth_dead_forest", "biomesoplenty:spider_nest"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 24
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 1
+
+	["Mob Specific Spawns".spider_prowler]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:spider_nest", "biomesoplenty:rainforest", "biomesoplenty:rocky_rainforest", "biomesoplenty:tropics", "biomesoplenty:lush_savanna", "biomesoplenty:scrubland", "biomesoplenty:glowing_grotto", "biomesoplenty:fungal_jungle"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 16
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 1
+
+	["Mob Specific Spawns".spider_reaper]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:spider_nest", "biomesoplenty:woodland", "biomesoplenty:seasonal_forest", "biomesoplenty:maple_woods", "biomesoplenty:forested_field"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 16
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 1
+
+	["Mob Specific Spawns".spider_recluse]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:wasteland", "biomesoplenty:wasteland_steppe", "biomesoplenty:dryland", "biomesoplenty:rainforest", "biomesoplenty:tropics", "biomesoplenty:dune_beach", "biomesoplenty:woodland", "biomesoplenty:forested_field"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 64
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 4
+
+	["Mob Specific Spawns".spider_sinker]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:dune_beach", "biomesoplenty:woodland", "biomesoplenty:forested_field", "biomesoplenty:seasonal_forest", "biomesoplenty:ominous_woods", "biomesoplenty:old_growth_dead_forest", "biomesoplenty:spider_nest", "biomesoplenty:lavender_forest", "biomesoplenty:mystic_grove"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 24
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 4
+
+	["Mob Specific Spawns".spider_snatcher]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:ominous_woods", "biomesoplenty:old_growth_dead_forest", "biomesoplenty:spider_nest"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 32
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 1
+
+	["Mob Specific Spawns".termite_tunneler_worker]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:dryland", "biomesoplenty:scrubland", "biomesoplenty:wasteland_steppe", "biomesoplenty:woodland"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 24
+		#Range: 1 ~ 100
+		"Min Count" = 3
+		#Range: 1 ~ 100
+		"Max Count" = 10
+
+	["Mob Specific Spawns".venus_flytrap]
+		Enabled = true
+		"Allowed Biomes" = ["biomesoplenty:bayou", "biomesoplenty:bog", "biomesoplenty:fungal_jungle", "biomesoplenty:rainforest", "biomesoplenty:wetland"]
+		#Range: 1 ~ 1000
+		"Spawn Weight" = 12
+		#Range: 1 ~ 100
+		"Min Count" = 1
+		#Range: 1 ~ 100
+		"Max Count" = 3
+

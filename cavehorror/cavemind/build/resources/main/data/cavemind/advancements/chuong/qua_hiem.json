@@ -1,0 +1,23 @@
+{
+  "parent": "cavemind:chuong/tro_tim",
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_sword"
+    },
+    "title": {
+      "text": "Quà Của Đứa Trẻ Thứ Tám"
+    },
+    "description": {
+      "text": "Nhận một món vũ khí hiếm sau ván trốn tìm"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

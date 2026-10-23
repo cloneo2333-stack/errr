@@ -1,0 +1,300 @@
+15456	Nếu bật, khối thực thể sẽ bị ẩn theo giới hạn khoảng cách đã đặt
+5693	Nếu bật, các đoạn sẽ hiện dần khi tải.
+5694	Nếu bật, bóng tối sẽ thay đổi theo pha trăng
+15458	Nếu bật, tắt ánh sáng của trời, sương mù và trăng, chỉ còn khối là nguồn sáng
+15460	Nếu bật, thực thể sẽ bị ẩn theo giới hạn khoảng cách đã đặt
+15463	Nếu bật, quái vật (sinh vật thù địch) sẽ bị ẩn theo giới hạn khoảng cách đã đặt
+5698	Nếu bật, bóng tối thật sẽ áp dụng ở End.
+5699	Nếu bật, bóng tối thật sẽ áp dụng ở Nether.
+5700	Nếu bật, bóng tối thật sẽ áp dụng ở Thế giới thực.
+15479	Nếu bật, bóng tối thật sẽ áp dụng ở chiều không gian không có ánh trời
+5861	Giao diện
+6278	Phát hiện JustZoom hoặc Zume, tính năng phóng to của chloride đã tắt
+15519	Giữ bầu trời không bị cắt khi khoảng cách hiển thị rất thấp.\nÉp mặt phẳng xa của trời như bản gốc ở 32 đoạn
+15532	Khi đổi ngôn ngữ chỉ tải lại ngôn ngữ thay vì mọi tài nguyên, nhanh hơn 99,9%
+6397	Lược bớt lá
+6402	Trái
+6422	Ít hơn
+6760	Nhiều
+15558	Làm bóng tối tối hơn nữa, khiến ánh sáng suy giảm mạnh hơn.
+7412	Khoảng cách tối đa của khối thực thể
+7415	Khoảng cách tối đa của thực thể
+7422	Khoảng cách tối đa của quái vật
+7434	Phóng to tối đa
+7451	BỘ NHỚ
+7499	THẤP NHẤT
+7626	Khoảng cách tối đa của quái vật (ngang)
+7627	Khoảng cách tối đa của quái vật (dọc)
+7763	Nhãn tên trên thực thể
+7764	Nhãn tên trên khung vật phẩm
+7765	Nhãn tên trên người chơi
+7830	Độ sáng sương mù Nether
+7836	Sương mù bầu trời Nether
+7877	Độ sáng trăng non (tối thiểu)
+8154	TẮT
+15617	Mở danh sách bật tắt từng loại hạt. Tắt riêng từng loại hạt ở đây.
+8338	Sương mù bầu trời Thế giới thực
+8528	Danh sách hạt
+8531	Hạt do mod này cung cấp: §6§l%s
+8534	Hạt
+9294	Hạt giọt mưa
+9298	Hạt mưa
+15659	NÂNG MÂY LÊN TẬN CHÍN TẦNG TRỜI
+15660	Nâng độ cao của mây.\nChỉnh độ cao của mây, không ảnh hưởng tới ghast vui vẻ
+9301	Chỉ bộ nhớ
+15673	Giảm số mặt lá nhìn thấy được của cùng một loại, điều chỉnh độ sâu của việc lược bớt
+10333	Thay thế
+15682	Thay mô hình giường bằng mô hình khối đặc. Có thể làm hỏng giường của mod khác
+15683	Thay mô hình rương bằng mô hình khối đặc, không có chuyển động.\n\nTùy chọn này không có tác dụng khi đã cài EBE và Flywheel vì chúng có cách tối ưu riêng.
+10520	Phải
+10835	Tìm hạt...
+10841	Tìm kiếm để hiện vật phẩm
+15714	Đặt giới hạn số thực thể được vẽ (thực thể được xếp theo khoảng cách tới bạn)
+11008	Đặt mức phóng to tối đa khi dùng con lăn chuột
+11100	Hiện FPS
+11131	Hiện thông số hệ thống
+11157	Hiện mức dùng RAM và GPU cạnh bộ đếm FPS
+15741	Hiện bảng FPS. Chế độ nâng cao hiện FPS thấp nhất và FPS trung bình trong 30 giây, hữu ích để đánh giá hiệu năng.
+11220	Đơn giản
+11260	Dải xanh da trời
+11519	Hình cầu
+16079	Bóng tối thật sẽ áp dụng ở các chiều không gian khác\n\n[CẢNH BÁO] Tùy chọn này sắp bị bỏ để thay bằng danh sách chặn
+13230	Bật tính năng phóng to, kích hoạt bằng cách nhấn
+13433	Không rõ
+13514	Dùng pha trăng
+13547	Bản gốc
+13577	Độ lệch dọc của bảng FPS
+13579	Vị trí dọc của bảng FPS
+13640	Độ cao chân trời hư không
+16107	Phát hiện VSEureka hoặc Sable, khoảng cách dọc (thô) bị bỏ qua và dùng khoảng cách ngang (bình phương)
+14212	Thế giới
+16149	Mức Y nơi mặt phẳng hư không tối bắt đầu được vẽ.\n63 giữ như bản gốc; đặt thành âm 64 để bỏ nửa bầu trời tối khi ở dưới mực nước biển (như thế giới siêu phẳng)
+14468	Phóng to
+356	Một viên pha lê cô đặc kết tinh từ sương mù.
+362	Một mảnh sương mù kỳ dị còn vương lại.
+366	Một mảnh da rách xé từ một Cave Dweller.
+630	Rương phiêu lưu: biểu tượng phần thưởng
+1219	Rương cơ bản: biểu tượng phần thưởng
+1281	Rương tốt nhất: biểu tượng phần thưởng
+1284	Rương tốt hơn: biểu tượng phần thưởng
+2307	Rương vỏ cứng: biểu tượng phần thưởng
+2327	CHP: Core
+2513	Thường rơi ra từ Cave Dweller.
+2514	Thường rơi ra từ The Man From The Fog.
+15289	Chế tạo từ Giọt lệ của The Man đặt giữa 4 Pha lê sương mù.
+2817	Chế tạo từ Da rách.
+3945	Ủng Dweller
+3946	Vuốt Dweller
+3949	Bản năng Dweller
+4317	Rương hỗn mang: biểu tượng phần thưởng
+4759	Pha lê sương mù
+4760	Mảnh sương mù
+4768	Rương thức ăn: biểu tượng phần thưởng
+15398	Ban hiệu ứng Bản năng Dweller: đi và rón rén nhanh hơn khi ở dưới lòng đất.
+6322	Giết Cave Dweller
+6378	Rương trận cuối: biểu tượng phần thưởng
+6414	Rương huyền thoại: biểu tượng phần thưởng
+9326	Hiếm khi rơi ra từ Cave Dweller.
+11949	Đòn đánh gây hiệu ứng Khô héo trong chốc lát.
+12955	Vật phẩm này đang được làm dở và chưa có công dụng.
+13148	Da rách
+13535	Rương tiện ích: biểu tượng phần thưởng
+13876	Thứ ẩn mình trong hang động
+2346	Sách Citadel
+2347	Sách Citadel!!!
+2348	Trình gỡ lỗi Citadel
+4308	Liên kết thực thể là những nút nhỏ xinh!
+4487	Vật phẩm lộng lẫy
+5666	Vật phẩm biểu tượng
+6655	Liên kết mẫu
+8966	Hiệu ứng thuốc
+10358	Đặt lại
+11470	Trạm vũ trụ
+11471	Trạm vũ trụ (xám)
+11472	Trạm vũ trụ (đỏ)
+4343	Lỗi!
+2	  Có lẽ bạn nên nhìn kỹ hơn bằng ống nhòm?
+7	 > Bạn nhận được một Bộ phát tín hiệu quỹ đạo
+10	 ở x=%1$s, y=%2$s, z=%3$s
+11	 Mong là bạn đã chọn đúng.
+14994	 ~ Đã từ chối lời đề nghị, bạn vẫn phải tìm ra trạm radar và vô hiệu hóa nó! ~
+14995	 ~ Bạn có thể tấn công, hoặc nhấp chuột phải vào Bộ đàm quỹ đạo trên người Thủ lĩnh Voidborn. Quyền lựa chọn là của bạn. ~
+28	! Điều khiển radar
+62	%1$s có công thức %2$s.
+63	%1$s đã được nhận bộ khởi đầu '%2$s'!
+64	%1$s đã chọn bộ '%2$s'!
+65	%1$s đã chết%2$s bởi %3$s.
+85	%1$s giờ đã hoàn thành %2$s nhiệm vụ!
+132	%1$sở x=%2$s, y=%3$s, z=%4$s. (%5$s khối)
+134	%1$sx %2$s
+157	Cách dùng lệnh quản trị %s:
+185	Đã khôi phục %s khối cỏ.
+188	%s đã được quyền chọn lại bộ khởi đầu mới!
+191	%s đã chứng kiến một vụ nổ trên bầu trời!
+198	Đã đổi tên %s piglin đang được tải.
+199	Đã đặt tên cho %s piglin chưa có tên đang được tải.
+200	Đã đổi tên %s dân làng đang được tải.
+201	Đã đặt tên cho %s dân làng chưa có tên đang được tải.
+217	Nhiệm vụ %s
+219	%s gia cố %s
+230	Chỉ số %s
+15007	Đã đặt lại dữ liệu theo dõi %s. Mọi người chơi sẽ lại nhận một bộ khi vào máy chủ.
+239	Cách dùng %s:
+240	Cách dùng cho người chơi %s:
+261	Đã đặt lại lượt đổi của %s.
+262	%s, bạn làm được rồi.
+265	%s? Bạn làm gì ở đây?
+296	【 Cách dùng lệnh %s 】
+297	【 Danh sách %s 】
+298	【 Cách dùng %s 】
+302	... không, không thể nào ...
+304	...và ta có thể loại bỏ chúng.
+305	...ta đang mất %s sao...
+306	...SAU LƯNG...
+307	...KHÔNG THỂ NÀO... ...VỀ VỊ TRÍ PHÒNG THỦ...
+332	> Kinh nghiệm nhận được: %s
+15021	> Nếu thêm 1 bộ nữa. Hiện tại mọi người chơi sẽ nhận bộ '%s' mà không có màn hình chọn.
+333	> Nếu thêm 2 bộ nữa.
+334	> Vật phẩm nhận được: %s
+335	> Nhiệm vụ đã hoàn thành: %s
+336	> Lượt đổi còn lại: %s
+353	Một đèn hiệu khóa vào Trạm Vanguard.
+357	Một ánh sáng mờ nhạt bên trong lọ.
+360	Một chiếc bộ đàm công nghệ cao khẽ ù ù.
+15022	Một con thỏ sát thủ vừa ra đời! Bạn đã đứng đủ xa chưa, hay có cà rốt vàng để chia sẻ?
+367	Một tiếng than khóc khe khẽ vọng lại
+369	vị vừa bị nguyền vừa dịu hiền.
+575	Đã thêm loại nhiệm vụ %1$s vào danh sách nhiệm vụ của %2$s.
+585	Thêm túi đồ hiện tại của bạn vào các bộ đang dùng.
+642	ÁÁ. Ngươi đã chọn bạo lực.
+684	Đã tải lại mọi bộ đang dùng.
+685	Đã thay mọi nhiệm vụ đang làm của người chơi.
+707	Ngươi chỉ cần đưa ta chiếc bộ đàm đó.
+15134	Cho phép người chơi chọn bộ khởi đầu bằng lệnh. Chỉ cần khi máy khách chưa cài %s và máy chủ đã bật lựa chọn bộ.
+765	Cho phép bạn lấy đầu của một người chơi.
+771	Đã đạt bậc tối đa
+801	Vị đất mộc mạc,
+803	Một quả trứng rồng nữa đã rơi tại vị trí của bạn!
+812	và cơn thèm khát không dứt.
+934	Bạn có an toàn không?
+942	Vị trí biển khu vực quanh bạn:
+943	Khu vực
+15161	Khi bước vào cánh cổng, bạn cảm thấy sự tồn tại của mình bị bẻ cong qua không gian và thời gian.
+15162	Khi bạn rời mắt khỏi con tàu trời, những chi tiết đã biến mất.
+15163	Khi nhặt mảnh giấy lên, bạn thấy tọa độ một trại tù được viết trên đó. Bạn thấy áy náy vì đã thả Pumpkillager trở lại thế giới. Biết đâu một tù nhân có thể giúp bạn ngăn hắn?
+15164	Khi bạn nhặt chiếc bộ đàm lên, nó bắt đầu rung. Bạn không chắc có nên trả lời hay không.
+975	Khi bạn nhìn chằm chằm vào chiếc lọ,
+993	mọi lúc !
+1047	Các bộ có sẵn: %s
+1050	Các nâng cấp có sẵn:
+1211	Phiến vượt chướng ngại cơ bản
+1240	Cẩn thận. Ta sẽ gặp lại ngươi khi nhiệm vụ hoàn tất.
+1248	Máy chủ trò chuyện đẹp mắt
+1546	Que Blaze
+1596	Khối đã phá:
+1599	Khối đã đi qua:
+1691	Thuyền còn nguyên vẹn
+1692	Thuyền đã được gia cố bằng %s.
+1693	Đã sửa thuyền.
+1766	Ngày mới tinh khôi
+1787	Thỏ sát thủ sinh sản được
+1909	Nhưng có lẽ nên giới thiệu đôi chút.
+15203	Dùng chuỗi đại diện '%1$s', %2$s sự kiện âm thanh sau đã bị tắt tiếng với thời gian lọc %3$s:
+15204	Dùng chuỗi đại diện '%1$s', %2$s sự kiện âm thanh sau đã bị tắt tiếng:
+15205	Dùng chuỗi đại diện '%1$s', %2$s sự kiện âm thanh sau đã được bật tiếng:
+1938	Súp xương rồng
+1969	Hồi sinh ở lửa trại và tinh chỉnh
+1970	Thiếu điểm hồi sinh ở lửa trại.
+1971	Điểm hồi sinh ở lửa trại vẫn giữ nguyên.
+1972	Đã xóa điểm hồi sinh ở lửa trại.
+1973	Đã thay điểm hồi sinh ở lửa trại.
+1974	Đã đặt điểm hồi sinh ở lửa trại.
+1975	Đã bỏ điểm hồi sinh ở lửa trại.
+1993	Không tìm thấy máy chủ của thế giới, không thể tải bản sao lưu khi chết.
+2269	Dai dai và nảy nảy,
+2318	Sữa sô cô la
+2377	Xóa danh sách người theo đuôi giao diện
+2484	Collective
+2509	Chỉ huy %s ngắt liên lạc.
+2518	Lệnh trợ giúp gọn gàng
+2675	Đồng
+2766	Không tìm thấy người chơi '%s'.
+2770	Có thể dùng thứ này để liên lạc với Vanguard chăng?
+2859	Công cụ thay khối sáng tạo
+2868	Mứt khoái khẩu của Creeper
+15291	Rón rén và nhấp chuột phải lần nữa để nhặt thuyền lên. Đồ trong rương sẽ rơi ra.
+3011	Rón rén và nhấp chuột phải để đổi chế độ.
+15292	Rón rén và nhấp chuột phải bằng tay không để nhặt thuyền lên.
+3068	Danh đề tùy chỉnh
+3160	Nhiệm vụ hằng ngày
+3327	Ngày %s
+3461	Sao lưu khi chết
+3464	Số lần chết:
+3664	Kim cương
+3836	Gõ '/track help' để biết thêm.
+3901	Rồng rơi ra cánh cứng
+4235	Lệnh phù phép
+4249	Công thức cổng End
+4263	Mứt tinh chất Enderman
+4273	Chúc vui vẻ với tiểu hành tinh.
+4285	Bước vào cánh cổng. Phá hủy radar ở rìa căn cứ.
+4306	Thông tin thực thể
+15345	Mọi thứ đã trở lại bình thường. Vật thể ấy hẳn đã rời quỹ đạo.
+4496	Phiến vượt chướng ngại tốc độ
+4773	Đọc trang 2 để làm quen với việc truy vết.
+4774	Đọc trang 5 để hiểu về '/track [tên người chơi]'.
+4775	Đọc trang 4 để hiểu về '/track all'.
+4776	Đọc trang 3 để biết cách xây máy truy vết.
+4777	Đã buộc hoàn thành nhiệm vụ %1$s cho %2$s.
+4862	Bật tắt sáng tối đa
+4906	Đã tạo cổng vũ trụ.
+4931	Mứt lời thì thầm của Ghast
+4961	Cho một người chơi một bộ khởi đầu ngẫu nhiên (hoặc chỉ định).
+4964	Cho ta chút thời gian để dò vị trí của chúng.
+4965	Đặt tên ngẫu nhiên mới cho mọi piglin đang được tải.
+4966	Đặt tên ngẫu nhiên mới cho mọi dân làng đang được tải.
+4967	Đặt tên cho mọi piglin chưa có tên đang được tải.
+4968	Đặt tên cho mọi dân làng chưa có tên đang được tải.
+4984	Lọ thủy tinh
+4992	Mứt u tối lấp lánh
+5058	Tan biến trước khi kịp nhận ra.
+5062	Chúc may mắn trên những chặng đường sắp tới.
+5063	Chúc may mắn. Hết.
+5242	Đá mài làm sắc công cụ
+5251	Mứt nước mặn của Hộ vệ
+5252	Người theo đuôi giao diện
+5267	Giao nộp vật phẩm của ngươi
+5293	Radar của Voidborn đã bị phá hủy chưa?
+5317	Súp hồi máu
+5459	Chào Lyra.
+5478	Sách công thức ẩn
+5544	Cầm một nguyên liệu
+5619	Làm sao... ngươi tới được đây?
+15444	Tuy nhiên, nếu ta đạt được một thỏa thuận, cả hai đều có lợi trong tình cảnh này.
+5633	Ta cảm nhận được dấu vết của một Bộ đàm quỹ đạo trên người ngươi.
+15446	Ta không thể liều dịch chuyển lần nữa cho tới khi căn cứ đó bị vô hiệu.
+5638	Ta muốn nhờ ngươi một việc.
+5647	Ta sẽ sớm bắt đầu dịch chuyển.
+5651	Ta muốn trao cho ngươi thứ này:
+5653	Ta mừng vì đã đưa được ngươi rời khỏi trạm.
+5654	Ta mừng vì ngươi không mắc bẫy những lời hứa hão của chúng.
+15490	Nếu đủ may mắn để thấy một người chơi trên 2 nhánh khác nhau, đã đến lúc thu ngắn các nhánh lại. Tiếp tục dời khối Vàng lên xuống dọc nhánh để xác định vị trí người chơi bạn muốn truy vết. Nếu sau khi dời khối Vàng mà họ không còn hiện ra, hãy đặt khối cao lên cho tới khi chỉ cách 1 khối. Giờ chỉ cần cộng độ dài nhánh vào tọa độ tương ứng của khối Kim cương là bạn đã tìm ra vị trí kẻ địch trong vòng 25 khối!
+5706	Nếu muốn chỉ định tên bộ, hãy dùng:
+5726	Phiến vượt chướng ngại ảo ảnh
+15499	Để tải nhanh, bạn cần cài mod trên máy chủ hoặc có quyền gian lận.
+15500	Trong hình dưới bạn thấy nhiều chữ cái và gạch ngang. Gạch ngang là khối Hắc diện thạch, D là khối Kim cương, còn G là các khối Vàng.
+5809	thấm đẫm chút năng lượng ma quái.
+5810	Thỏi
+5817	Nguyên liệu:
+5914	Sắt
+15514	Như ngươi thấy, nó không thành công, nhưng %s sẽ không dừng lại cho tới khi ta không còn tồn tại.
+5965	Nó lấp đầy bạn bằng sức mạnh,
+15515	Nó cho ngươi khả năng dịch chuyển giữa hành tinh này và Trạm Vanguard tùy ý.
+5966	Thật vinh hạnh khi được làm đối thủ của ngươi.
+15516	Có vẻ Rồng Ender bị hạ đã rơi ra một đôi cánh cứng! Có lẽ nó từng thuộc về một nhà thám hiểm khác?
+5972	Còn quá sớm để ngủ.
+5996	Vật phẩm đã chế tạo:
+6000	Vị đắng mạnh mẽ của nó bỏng rát,
+6151	Phiến vượt chướng ngại thạch
+6165	Phiến vượt chướng ngại bật nhảy
+6276	Just Mob Heads

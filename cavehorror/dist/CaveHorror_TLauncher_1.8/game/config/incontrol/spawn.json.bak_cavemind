@@ -1,0 +1,19 @@
+[
+    {
+        "mob": "anomaly:anomaly_base",
+        "random": 0.50,
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob": "anomaly:sound_entity",
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob": "apollyon:the_damned",
+        "random": 0.25,
+        "when": "onjoin",
+        "result": "deny"
+    }
+]

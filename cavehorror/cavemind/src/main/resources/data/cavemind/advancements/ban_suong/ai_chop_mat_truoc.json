@@ -1,0 +1,23 @@
+{
+  "parent": "cavemind:ban_suong/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:ender_eye"
+    },
+    "title": {
+      "text": "Ai Chớp Mắt Trước"
+    },
+    "description": {
+      "text": "Đứng đối mặt với bản sao của chính mình trong hầm cuối của mỏ lúc nửa đêm"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "apollyon:sustenance"
+    },
+    "title": {
+      "translate": "advancements.working_with_what_weve_got.title"
+    },
+    "description": {
+      "translate": "advancements.working_with_what_weve_got.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "working_with_what_weve_got_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "apollyon:apollyon"
+}

@@ -1,0 +1,11 @@
+{
+ "gui.exposure_catalog.catalog.delete": "Xóa",
+ "gui.exposure_catalog.catalog.export": "Xuất",
+ "gui.exposure_catalog.catalog.loading3": "Đang tải...",
+ "gui.exposure_catalog.catalog.mode": "Chế độ",
+ "gui.exposure_catalog.catalog.search_bar_placeholder_text": "Tìm kiếm",
+ "gui.exposure_catalog.catalog.sorting": "Sắp xếp",
+ "gui.exposure_catalog.catalog.tooltip.palette": "Bảng màu: %s",
+ "gui.exposure_catalog.export.exporting_count": "Đang xuất %s ảnh...",
+ "gui.exposure_catalog.searchbar": "Tìm kiếm"
+}

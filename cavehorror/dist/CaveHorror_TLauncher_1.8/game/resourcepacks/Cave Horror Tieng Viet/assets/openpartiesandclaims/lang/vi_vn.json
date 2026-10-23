@@ -1,0 +1,12 @@
+{
+ "gui.xaero_pac_back": "Quay lại",
+ "gui.xaero_pac_cancel": "Hủy",
+ "gui.xaero_pac_confirm": "Xác nhận",
+ "gui.xaero_pac_player_config_playerConfig.parties.name": "Tên nhóm",
+ "gui.xaero_pac_player_config_playerConfig.playerGroups.allies": "Đồng minh",
+ "gui.xaero_pac_player_config_player_groups_unknown_player": "Người chơi không rõ",
+ "gui.xaero_pac_ui_main_menu": "Trình đơn chính",
+ "gui.xaero_pac_ui_off": "TẮT",
+ "gui.xaero_pac_ui_other_player_config_waiting_cancel": "Hủy",
+ "gui.xaero_parties_join_party_already_in_one": "Bạn đã ở trong một nhóm rồi!"
+}

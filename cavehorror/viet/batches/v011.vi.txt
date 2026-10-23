@@ -1,0 +1,300 @@
+5909	Đã mời %s
+6308	Đuổi %s
+6309	Đã đuổi %s khỏi %s!
+6395	Rời nhóm
+6734	Mã đội dài: %s
+7120	Đưa %s làm chủ nhóm
+7132	Quản lý đồng minh
+7452	Thành viên
+7454	Thành viên:
+7463	Số tin nhắn lưu tối đa
+7738	Đội của tôi
+7924	Không có thành viên
+7931	Không có người chơi nào
+8158	Cán bộ
+8230	Mở giao diện đội
+8340	Chủ nhóm
+8543	Tên nhóm
+8544	Nhóm
+8871	Người chơi %s không còn là đồng minh của đội bạn!
+8872	Người chơi %s giờ là đồng minh của đội bạn!
+8873	Người chơi %s đã rời nhóm của bạn!
+8874	Người chơi '%s' đã ở trong một nhóm rồi!
+8900	Đội người chơi
+9067	Riêng tư
+9083	Thăng cấp %s
+9084	Đã thăng %s lên cán bộ!
+9092	Không tìm thấy mã thuộc tính!
+9107	Công khai
+10974	Quyền hạn máy chủ không cho bạn làm việc đó.
+10976	Đội máy chủ
+11065	Mã đội ngắn: %s
+12607	Không tìm thấy đội '%s'!
+15800	Chưa nhận được dữ liệu đội từ máy chủ!\nFTB Teams sẽ không hoạt động đúng.\nHãy xem nhật ký máy chủ để tìm lỗi, và chắc chắn máy chủ đang ở chế độ trực tuyến.
+12609	Tên đội quá ngắn! (phải từ 3 ký tự trở lên)
+12611	Thuộc tính đội
+13179	Đã chuyển quyền chủ nhóm cho %s!
+13366	Hủy đồng minh với %s
+14328	Bạn đã ở trong một nhóm rồi!
+14329	Bạn không còn là đồng minh của '%s'!
+14337	Bạn không được mời vào %s!
+14340	Bạn giờ là đồng minh của '%s'!
+14352	Bạn không thể sửa %s!
+14388	Bạn đã từ chối lời mời
+14398	Bạn chưa lập hoặc vào nhóm nào!
+16190	Bạn phải chuyển quyền chủ đội trước khi rời đi!
+281	(Làm cho phiên bản Fusion mới hơn)
+1233	Dơi
+1234	Trứng sinh ra Dơi
+1300	Xe đạp
+1301	Trứng sinh ra Xe đạp
+2664	Cậu nhóc ngầu
+2665	Trứng sinh ra Cậu nhóc ngầu
+4464	Kính giả
+4465	Trứng sinh ra Kính giả
+4892	Đã trao %1$s cho thực thể
+4897	Ủng giáp tắc kè
+4898	Giáp ngực tắc kè
+4899	Mũ giáp tắc kè
+4900	Quần giáp tắc kè
+4901	Môi trường sống của tắc kè
+5235	Yêu tinh Gremlin
+5236	Trứng sinh ra Yêu tinh Gremlin
+6120	Hộp hề lò xo
+7734	Thây ma đột biến
+7735	Trứng sinh ra Thây ma đột biến
+8235	Đang mở Hộp hề lò xo!
+8522	Ký sinh trùng
+8523	Trứng sinh ra Ký sinh trùng
+9270	Xe đua
+9271	Trứng sinh ra Xe đua
+13227	Bật mưa để xem mô hình phân bón!
+14155	Ủng giáp sói
+14156	Giáp ngực sói
+14157	Mũ giáp sói
+14158	Quần giáp sói
+1745	Botarium
+4524	Phân bón
+4902	Ví dụ Geckolib
+6119	Hộp hề lò xo
+8824	Súng lục
+8958	Ủng giáp khoai tây
+8959	Giáp ngực khoai tây
+8960	Mũ giáp khoai tây
+8961	Quần giáp khoai tây
+34	"Incarnated Evil" của Rotch Gwylt
+35	"Incarnated Evil" đang phát
+500	Nhận lời mời tới ngôi nhà trong rừng.
+516	Tông đồ
+517	Tông đồ thở
+518	Tông đồ chết
+519	Tông đồ bị thương
+520	Trứng sinh ra Tông đồ
+776	Bàn thờ
+777	Bàn thờ ù ù
+809	Rạn san hô chết cổ đại
+813	Đá andesit
+1013	Có được Quyền trượng Azrata'gul.
+1014	Có được Quyền trượng Mynakta'gul.
+1015	Có được Quyền trượng Nortoq'gul.
+1016	Có được Quyền trượng Xaphnok'gul.
+1017	Có được Quyền trượng Zatraq'gul.
+1527	Bia mộ đá đen
+1601	"Hiến" máu
+1698	Dao găm xương
+1705	Gậy xương vang vọng
+1706	Gậy xương thì thầm
+1797	Bia mộ gạch
+1824	Mảnh vỡ I
+1825	Mảnh vỡ II
+1826	Mảnh vỡ III
+1986	Giá nến
+2092	Đồ gốm
+2431	Đất thô
+2439	Bia mộ đá cuội
+2463	Quan tài
+2464	Quan tài đóng lại
+2465	Quan tài kẽo kẹt mở ra
+15260	Lấy máu từ dân làng bằng một chai thủy tinh rỗng và một dao găm xương.
+2479	Thu thập phần dưới của gậy xương.
+2480	Thu thập phần giữa của gậy xương.
+2481	Thu thập phần trên của gậy xương.
+2730	Nhà vô địch bị tha hóa
+2731	Nhà vô địch bị tha hóa tấn công
+2732	Nhà vô địch bị tha hóa gục ngã
+2733	Nhà vô địch bị tha hóa niệm phép
+2734	Nhà vô địch bị tha hóa chuyển sang dạng thứ hai
+2735	Nhà vô địch bị tha hóa thoát khỏi ngục
+2736	Nhà vô địch bị tha hóa tìm thấy con mồi
+2737	Nhà vô địch bị tha hóa súc họng
+2738	Nhà vô địch bị tha hóa đi săn
+2739	Nhà vô địch bị tha hóa bị thương
+2740	Nhà vô địch bị tha hóa lẩm bẩm phép hồi máu
+2741	Trứng sinh ra Nhà vô địch bị tha hóa
+2742	Nhà vô địch bị tha hóa triệu hồi xác chết
+2743	Nhà vô địch bị tha hóa triệu hồi đầu lâu
+2744	Nhà vô địch bị tha hóa hóa dạng cuối cùng
+2745	Nhà vô địch bị tha hóa thì thầm
+2746	Đá bảng sâu tha hóa ở giữa
+2747	Đá bảng sâu tha hóa ở góc
+2748	Đá bảng sâu tha hóa ở cạnh
+2749	Dân làng ác bị tha hóa thở
+2750	Dân làng ác bị tha hóa chết lần thứ hai
+2751	Dân làng ác bị tha hóa bị thương
+2752	Dân làng ác bị tha hóa bước đi
+2753	Pillager bị tha hóa
+2754	Trứng sinh ra Pillager bị tha hóa
+2755	Vindicator bị tha hóa
+2756	Trứng sinh ra Vindicator bị tha hóa
+2757	Tha hóa thiên đường
+2758	Tha hóa
+2789	Bia mộ đá đen mài nhẵn bị nứt
+2867	Bộ xương Creeper
+3057	Hòn đảo bị nguyền
+3179	Song sắt tối
+3180	Khối sắt tối
+3181	Cửa sắt tối
+3182	Thỏi sắt tối
+3183	Cửa sập sắt tối
+3463	Cái chết... chỉ là chút phiền toái.
+3486	Tiêu diệt một bầy ở nghĩa địa, chúng xuất hiện vào ban đêm.
+3511	Đá bảng sâu
+3528	Bia mộ đá bảng sâu
+3580	Bộ xương bại trận
+3581	Bộ xương Wither bại trận
+3704	Đá diorit
+3731	Đất
+3770	Khám phá sự thật về cái cây chết.
+3824	Quấy rầy người chết I
+3825	Quấy rầy người chết II
+3911	Dreamcatcher
+3939	Bụi, cát và xương
+3980	Sửa bia mộ
+4276	Bước vào một nghĩa địa lớn.
+4277	Bước vào một nghĩa địa vừa.
+4333	Trang bị quan tài hoặc quách cho một Ghouling.
+4336	Rừng ma ám bị xói mòn
+4562	Tìm một nghĩa địa sa mạc.
+4570	Tìm một cây nấm đột biến trên đảo nấm.
+4573	Tìm một ngôi mộ nhỏ.
+4576	Tìm một hầm mộ dưới lòng đất.
+4578	Tìm bàn thờ của Lich.
+4702	Lò lửa
+4936	Ghoul
+4937	Ghoul chết
+4938	Ghoul rên rỉ
+4939	Ghoul bị thương
+4940	Ghoul gầm lên
+4941	Trứng sinh ra Ghoul
+4942	Ghoul bước đi
+4943	Ghouling
+4944	Ghouling tấn công
+4945	Ghouling chết
+4946	Ghouling trồi lên
+4947	Ghouling rên rỉ
+4948	Ghouling bị thương
+4949	Ghouling bước đi
+4958	Bia mộ đá đen mạ vàng
+5074	Đá hoa cương
+5098	Khối cỏ
+5111	Người đào mộ
+5271	Bộ xương bị treo cổ
+5272	Bộ xương Wither bị treo cổ
+5287	Cây treo cổ
+5299	Rừng ma ám
+5300	Hồ ma ám
+5635	Ta không nghe lệnh ngươi, ngươi chẳng phải chủ của ta!
+5637	Ta đi theo.
+5640	Ta nghe và tuân lệnh...
+5648	Ta sẽ ở lại đây.
+5869	Vào bóng tối
+5904	Lời mời dự tiệc trà
+5961	Sắt, nhưng tối
+6311	Giết một quái vật nghĩa địa.
+6313	Giết một Ác mộng khi đang bị hiệu ứng mù.
+6314	Giết một tông đồ bằng dao găm xương.
+6380	Bộ xương nằm nghiêng
+6381	Bộ xương Wither nằm nghiêng
+6391	Bộ xương dựa tường
+6392	Bộ xương Wither dựa tường
+6782	Bộ xương nằm
+6783	Bộ xương Wither nằm
+7443	Ta làm nó hết động đậy!
+7636	Khối rêu
+7643	Bia mộ đá cuội phủ rêu
+7646	Bia mộ gạch đá phủ rêu
+7757	Kẻ treo cổ vô danh
+7758	Kẻ treo cổ vô danh nhìn thấu bạn...
+7759	Trứng sinh ra Kẻ treo cổ vô danh
+7760	Kẻ treo cổ vô danh vùng vẫy tìm hơi thở
+7892	Ác mộng
+7894	Ác mộng chết
+7895	Ác mộng bị thương
+7898	Trứng sinh ra Ác mộng
+7903	Ác mộng vút qua
+8128	Có được một quan tài.
+8129	Có được một thỏi sắt tối.
+8130	Có được một bộ xương trang trí.
+8131	Có được sự tha hóa từ mộ hoặc quái vật nghĩa địa.
+8173	Mảnh gậy xương điềm gở
+8310	Hộp hài cốt
+8311	Hộp hài cốt mở ra
+8566	Ú òa, ta (vẫn) thấy ngươi!
+8925	Đất podzol
+8930	Bia mộ bazan mài nhẵn
+9105	Nhà khảo cổ giả mạo
+9210	Bia mộ gạch thạch anh
+9399	Thần chết
+9400	Thần chết lao tới
+9401	Thần chết chết
+9402	Thần chết bị thương
+9404	Thần chết cười
+9405	Trứng sinh ra Thần chết
+9584	Bia mộ cát kết đỏ
+10493	Vong hồn trở lại rã ra từng mảnh
+10497	Vong hồn trở lại lạch cạch
+10499	Vong hồn trở lại bước đi
+10551	Đất rễ
+10559	Dây thừng kẽo kẹt
+10698	Bia mộ cát kết
+10719	Quách
+10720	Nắp quách bị kéo lê
+11242	Creeper bộ xương
+11243	Trứng sinh ra Creeper bộ xương
+11246	Bàn tay xương
+11256	Sọ và lồng ngực
+11257	Sọ cắm trên cọc
+11258	Đống sọ
+11270	Ngủ trên nghĩa địa.
+11298	Bình tro nhỏ đen
+11299	Bình tro nhỏ xanh nước biển
+11301	Bình tro nhỏ nâu
+11302	Bình tro nhỏ lục lam
+11305	Bình tro nhỏ xám
+11306	Bình tro nhỏ xanh lá cây
+11307	Bình tro nhỏ xanh nhạt
+11308	Bình tro nhỏ xám nhạt
+11309	Bình tro nhỏ xanh lá mạ
+11310	Bình tro nhỏ đỏ sậm
+11313	Bình tro nhỏ cam
+11314	Cột nhỏ
+11315	Bình tro nhỏ hồng
+11317	Bình tro nhỏ tím
+11318	Bình tro nhỏ đỏ
+11325	Bình tro nhỏ trắng
+11326	Bình tro nhỏ vàng
+11449	Lò lửa linh hồn
+11466	Nguồn cơn của cái ác
+11798	Quyền trượng Azrata'gul
+11801	Quyền trượng Mynakta'gul
+11802	Quyền trượng Nortoq'gul
+11803	Quyền trượng Xaphnok'gul
+11804	Quyền trượng Zatraq'gul
+11836	Nằm yên trong cõi chết
+11848	Đá
+11860	Bia mộ gạch đá
+12463	Triệu hồi một bóng ma bằng cách xúc phạm quan tài của nó.
+15788	Triệu hồi Lich tại bàn thờ vào ban đêm với một lọ máu đầy và cả ba mảnh gậy xương.
+12548	Lấy đồ của người chết
+12720	Người chết sẽ phục tùng
+12756	The Graveyard

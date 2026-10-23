@@ -1,0 +1,513 @@
+2684	Mìn quặng đồng
+3519	Mìn quặng than đá bảng sâu
+3521	Mìn quặng đồng đá bảng sâu
+3522	Mìn quặng kim cương đá bảng sâu
+3524	Mìn quặng ngọc lục bảo đá bảng sâu
+3526	Mìn quặng vàng đá bảng sâu
+3529	Mìn quặng sắt đá bảng sâu
+3530	Mìn quặng ngọc lưu ly đá bảng sâu
+3533	Mìn đá bảng sâu
+3538	Mìn quặng Redstone đá bảng sâu
+3680	Mìn quặng kim cương
+3732	Mìn đất
+4026	Mìn quặng ngọc lục bảo
+4254	Mìn đá End
+4878	Mìn lò nung
+4959	Mìn đá đen mạ vàng
+5027	Mìn quặng vàng
+5115	Mìn sỏi
+5941	Mìn quặng sắt
+6365	Mìn quặng ngọc lưu ly
+7832	Mìn quặng vàng Nether
+7834	Mìn quặng thạch anh Nether
+7872	Mìn Netherrack
+9277	Mìn đường ray
+9629	Mìn quặng Redstone
+9771	Nút gỗ xiêm gai gia cố
+9772	Hàng rào gỗ xiêm gai gia cố
+9773	Cổng rào gỗ xiêm gai gia cố
+9774	Thân cây xiêm gai gia cố
+9775	Ván gỗ xiêm gai gia cố
+9776	Tấm áp lực gỗ xiêm gai gia cố
+9777	Phiến gỗ xiêm gai gia cố
+9778	Cầu thang gỗ xiêm gai gia cố
+9779	Gỗ xiêm gai gia cố
+9780	Đá andesit gia cố
+9781	Phiến đá andesit gia cố
+9782	Cầu thang đá andesit gia cố
+9783	Tường đá andesit gia cố
+9784	Nút gỗ tre gia cố
+9785	Hàng rào gỗ tre gia cố
+9786	Cổng rào gỗ tre gia cố
+9787	Khảm tre gia cố
+9788	Phiến khảm tre gia cố
+9789	Cầu thang khảm tre gia cố
+9790	Ván gỗ tre gia cố
+9791	Tấm áp lực gỗ tre gia cố
+9792	Phiến gỗ tre gia cố
+9793	Cầu thang gỗ tre gia cố
+9794	Đá bazan gia cố
+9795	Nút gỗ bạch dương gia cố
+9796	Hàng rào gỗ bạch dương gia cố
+9797	Cổng rào gỗ bạch dương gia cố
+9798	Thân cây bạch dương gia cố
+9799	Ván gỗ bạch dương gia cố
+9800	Tấm áp lực gỗ bạch dương gia cố
+9801	Phiến gỗ bạch dương gia cố
+9802	Cầu thang gỗ bạch dương gia cố
+9803	Gỗ bạch dương gia cố
+9804	Thảm đen gia cố
+9805	Bê tông đen gia cố
+9806	Đất nung tráng men đen gia cố
+9807	Thủy tinh được nhuộm đen gia cố
+9808	Tấm thủy tinh được nhuộm đen gia cố
+9809	Đất nung đen gia cố
+9810	Len đen gia cố
+9811	Đá đen gia cố
+9812	Phiến đá đen gia cố
+9813	Cầu thang đá đen gia cố
+9814	Tường đá đen gia cố
+9815	Khối thạch anh tím gia cố
+9816	Khối tre gia cố
+9817	Khối than gia cố
+9818	Khối đồng gia cố
+9820	Khối kim cương gia cố
+9821	Khối ngọc lục bảo gia cố
+9822	Khối vàng gia cố
+9823	Khối sắt gia cố
+9824	Khối ngọc lưu ly gia cố
+9825	Khối Netherit gia cố
+9826	Khối thạch anh gia cố
+9827	Khối đồng thô gia cố
+9828	Khối vàng thô gia cố
+9829	Khối sắt thô gia cố
+9830	Khối Redstone gia cố
+9832	Thảm xanh nước biển gia cố
+9833	Bê tông xanh nước biển gia cố
+9834	Đất nung tráng men xanh nước biển gia cố
+9835	Băng xanh gia cố
+9836	Thủy tinh được nhuộm xanh nước biển gia cố
+9837	Tấm thủy tinh được nhuộm xanh nước biển gia cố
+9838	Đất nung xanh nước biển gia cố
+9839	Len xanh nước biển gia cố
+9840	Khối xương gia cố
+9841	Kệ sách gia cố
+9842	Phiến gạch gia cố
+9843	Cầu thang gạch gia cố
+9844	Tường gạch gia cố
+9845	Gạch gia cố
+9846	Thảm nâu gia cố
+9847	Bê tông nâu gia cố
+9848	Đất nung tráng men nâu gia cố
+9849	Thủy tinh được nhuộm nâu gia cố
+9850	Tấm thủy tinh được nhuộm nâu gia cố
+9851	Đất nung nâu gia cố
+9852	Len nâu gia cố
+9854	Calcit gia cố
+9855	Vạc gia cố
+9856	Dây xích gia cố
+9857	Nút gỗ anh đào gia cố
+9858	Hàng rào gỗ anh đào gia cố
+9859	Cổng rào gỗ anh đào gia cố
+9860	Thân cây anh đào gia cố
+9861	Ván gỗ anh đào gia cố
+9862	Tấm áp lực gỗ anh đào gia cố
+9863	Phiến gỗ anh đào gia cố
+9864	Cầu thang gỗ anh đào gia cố
+9865	Gỗ anh đào gia cố
+9866	Kệ sách được đục gia cố
+9868	Đá bảng sâu được đục gia cố
+9869	Gạch Nether được đục gia cố
+9870	Đá đen được đánh bóng được đục gia cố
+9871	Khối thạch anh được đục gia cố
+9872	Cát kết đỏ được đục gia cố
+9873	Cát kết được đục gia cố
+9874	Gạch đá được đục gia cố
+9875	Đất sét gia cố
+9876	Đất thô gia cố
+9877	Đá cuội bảng sâu gia cố
+9878	Phiến đá cuội bảng sâu gia cố
+9879	Cầu thang đá cuội bảng sâu gia cố
+9880	Tường đá cuội bảng sâu gia cố
+9881	Đá cuội gia cố
+9882	Phiến đá cuội gia cố
+9883	Cầu thang đá cuội gia cố
+9884	Tường đá cuội gia cố
+9885	Mạng nhện gia cố
+9886	Gạch đá bảng sâu nứt gia cố
+9887	Đá lát bảng sâu nứt gia cố
+9888	Gạch Nether nứt gia cố
+9889	Gạch đá đen được đánh bóng nứt gia cố
+9890	Gạch đá nứt gia cố
+9891	Nút đỏ thẫm gia cố
+9892	Hàng rào đỏ thẫm gia cố
+9893	Cổng rào đỏ thẫm gia cố
+9894	Sợi nấm đỏ thẫm gia cố
+9895	Khuẩn dị thể đỏ thẫm gia cố
+9896	Ván đỏ thẫm gia cố
+9897	Tấm áp lực đỏ thẫm gia cố
+9898	Phiến đỏ thẫm gia cố
+9899	Cầu thang đỏ thẫm gia cố
+9900	Cuống đỏ thẫm gia cố
+9901	Hắc diện thạch khóc gia cố
+9906	Khối đồng được cắt gia cố
+9907	Phiến đồng được cắt gia cố
+9908	Cầu thang đồng được cắt gia cố
+9909	Cát kết đỏ được cắt gia cố
+9910	Phiến cát kết đỏ được cắt gia cố
+9911	Cát kết được cắt gia cố
+9912	Phiến cát kết được cắt gia cố
+9913	Thảm lục lam gia cố
+9914	Bê tông lục lam gia cố
+9915	Đất nung tráng men lục lam gia cố
+9916	Thủy tinh được nhuộm lục lam gia cố
+9917	Tấm thủy tinh được nhuộm lục lam gia cố
+9918	Đất nung lục lam gia cố
+9919	Len lục lam gia cố
+9920	Nút gỗ sồi sẫm gia cố
+9921	Hàng rào gỗ sồi sẫm gia cố
+9922	Cổng rào gỗ sồi sẫm gia cố
+9923	Thân cây sồi sẫm gia cố
+9924	Ván gỗ sồi sẫm gia cố
+9925	Tấm áp lực gỗ sồi sẫm gia cố
+9926	Phiến gỗ sồi sẫm gia cố
+9927	Cầu thang gỗ sồi sẫm gia cố
+9928	Gỗ sồi sẫm gia cố
+9929	Prismarin sẫm màu gia cố
+9930	Phiến Prismarin sẫm màu gia cố
+9931	Cầu thang Prismarin sẫm màu gia cố
+9932	Đá bảng sâu gia cố
+9933	Phiến gạch đá bảng sâu gia cố
+9934	Cầu thang gạch đá bảng sâu gia cố
+9935	Tường gạch đá bảng sâu gia cố
+9936	Gạch đá bảng sâu gia cố
+9937	Phiến đá lát bảng sâu gia cố
+9938	Cầu thang đá lát bảng sâu gia cố
+9939	Tường đá lát bảng sâu gia cố
+9940	Đá lát bảng sâu gia cố
+9941	Đá diorit gia cố
+9942	Phiến đá diorit gia cố
+9943	Cầu thang đá diorit gia cố
+9944	Tường đá diorit gia cố
+9945	Đất gia cố
+9946	Đường đất gia cố
+9947	Máy phân phát gia cố
+9949	Khối thạch nhũ gia cố
+9950	Máy thả gia cố
+9951	Thanh gậy End gia cố
+9952	Đá End gia cố
+9953	Phiến gạch đá End gia cố
+9954	Cầu thang gạch đá End gia cố
+9955	Tường gạch đá End gia cố
+9956	Gạch đá End gia cố
+9957	Khối đồng bị phơi ra gia cố
+9958	Khối đồng được cắt bị phơi ra gia cố
+9959	Phiến đồng được cắt bị phơi ra gia cố
+9960	Cầu thang đồng được cắt bị phơi ra gia cố
+9962	Thủy tinh gia cố
+9963	Tấm thủy tinh gia cố
+9964	Đá phát sáng gia cố
+9965	Đá hoa cương gia cố
+9966	Phiến đá hoa cương gia cố
+9967	Cầu thang đá hoa cương gia cố
+9968	Tường đá hoa cương gia cố
+9969	Khối cỏ gia cố
+9970	Sỏi gia cố
+9971	Thảm xám gia cố
+9972	Bê tông xám gia cố
+9973	Đất nung tráng men xám gia cố
+9974	Thủy tinh được nhuộm xám gia cố
+9975	Tấm thủy tinh được nhuộm xám gia cố
+9976	Đất nung xám gia cố
+9977	Len xám gia cố
+9978	Thảm xanh lá cây gia cố
+9979	Bê tông xanh lá cây gia cố
+9980	Đất nung tráng men xanh lá cây gia cố
+9981	Thủy tinh được nhuộm xanh lá cây gia cố
+9982	Tấm thủy tinh được nhuộm xanh lá cây gia cố
+9983	Đất nung xanh lá cây gia cố
+9984	Len xanh lá cây gia cố
+9985	Cái phễu gia cố
+9986	Băng gia cố
+9987	Hàng rào sắt gia cố
+9988	Cửa sắt gia cố
+9989	Cửa sập sắt gia cố
+9990	Nút gỗ rừng gia cố
+9991	Hàng rào gỗ rừng gia cố
+9992	Cổng rào gỗ rừng gia cố
+9993	Thân cây rừng gia cố
+9994	Ván gỗ rừng gia cố
+9995	Tấm áp lực gỗ rừng gia cố
+9996	Phiến gỗ rừng gia cố
+9997	Cầu thang gỗ rừng gia cố
+9998	Gỗ rừng gia cố
+9999	Thang gia cố
+10000	Đèn lồng gia cố
+10001	Vạc dung nham gia cố
+10002	Bục để sách gia cố
+10003	Cần gạt gia cố
+10004	Thảm xanh nước biển nhạt gia cố
+10005	Bê tông xanh nước biển nhạt gia cố
+10006	Đất nung tráng men xanh nước biển nhạt gia cố
+10007	Thủy tinh được nhuộm xanh nước biển nhạt gia cố
+10008	Tấm thủy tinh được nhuộm xanh nước biển nhạt gia cố
+10009	Đất nung xanh nước biển nhạt gia cố
+10010	Len xanh nhạt gia cố
+10011	Thảm xám nhạt gia cố
+10012	Bê tông xám nhạt gia cố
+10013	Đất nung tráng men xám nhạt gia cố
+10014	Thủy tinh được nhuộm xám nhạt gia cố
+10015	Tấm thủy tinh được nhuộm xám nhạt gia cố
+10016	Đất nung xám nhạt gia cố
+10017	Len xám nhạt gia cố
+10018	Thảm xanh lá mạ gia cố
+10019	Bê tông xanh lá mạ gia cố
+10020	Đất nung tráng men xanh lá mạ gia cố
+10021	Thủy tinh được nhuộm xanh lá mạ gia cố
+10022	Tấm thủy tinh được nhuộm xanh lá mạ gia cố
+10023	Đất nung xanh lá mạ gia cố
+10024	Len xanh lá mạ gia cố
+10025	Thảm đỏ sậm gia cố
+10026	Bê tông đỏ sậm gia cố
+10027	Đất nung tráng men đỏ sậm gia cố
+10028	Thủy tinh được nhuộm đỏ sậm gia cố
+10029	Tấm thủy tinh được nhuộm đỏ sậm gia cố
+10030	Đất nung đỏ sậm gia cố
+10031	Len đỏ sậm gia cố
+10032	Khối dung nham gia cố
+10033	Nút gỗ đước gia cố
+10034	Hàng rào gỗ đước gia cố
+10035	Cổng rào gỗ đước gia cố
+10036	Thân cây đước gia cố
+10037	Ván gỗ đước gia cố
+10038	Tấm áp lực gỗ đước gia cố
+10039	Phiến gỗ đước gia cố
+10040	Cầu thang gỗ đước gia cố
+10041	Gỗ đước gia cố
+10042	Khối rêu gia cố
+10043	Thảm rêu gia cố
+10044	Đá cuội phủ rêu gia cố
+10045	Phiến đá cuội phủ rêu gia cố
+10046	Cầu thang đá cuội phủ rêu gia cố
+10047	Tường đá cuội phủ rêu gia cố
+10048	Phiến gạch đá phủ rêu gia cố
+10049	Cầu thang gạch đá phủ rêu gia cố
+10050	Tường gạch đá phủ rêu gia cố
+10051	Gạch đá phủ rêu gia cố
+10052	Piston di chuyển gia cố
+10053	Bùn gia cố
+10054	Phiến gạch bùn gia cố
+10055	Cầu thang gạch bùn gia cố
+10056	Tường gạch bùn gia cố
+10057	Gạch bùn gia cố
+10058	Khuẩn ty thể gia cố
+10059	Hàng rào gạch Nether gia cố
+10060	Phiến gạch Nether gia cố
+10061	Cầu thang gạch Nether gia cố
+10062	Tường gạch Nether gia cố
+10063	Gạch Nether gia cố
+10064	Khối bướu Nether gia cố
+10065	Netherrack gia cố
+10066	Nút gỗ sồi gia cố
+10067	Hàng rào gỗ sồi gia cố
+10068	Cổng rào gỗ sồi gia cố
+10069	Thân cây sồi gia cố
+10070	Ván gỗ sồi gia cố
+10071	Tấm áp lực gỗ sồi gia cố
+10072	Phiến gỗ sồi gia cố
+10073	Cầu thang gỗ sồi gia cố
+10074	Gỗ sồi gia cố
+10075	Khối theo dõi gia cố
+10076	Hắc diện thạch gia cố
+10077	Đèn ếch nâu hoàng thổ gia cố
+10078	Thảm cam gia cố
+10079	Bê tông cam gia cố
+10080	Đất nung tráng men cam gia cố
+10081	Thủy tinh được nhuộm cam gia cố
+10082	Tấm thủy tinh được nhuộm cam gia cố
+10083	Đất nung cam gia cố
+10084	Len cam gia cố
+10085	Khối đồng bị oxi hóa gia cố
+10086	Khối đồng được cắt bị oxi hóa gia cố
+10087	Phiến đồng được cắt bị oxi hoá gia cố
+10088	Cầu thang đồng được cắt bị oxi hóa gia cố
+10089	Băng nén gia cố
+10090	Bùn nén gia cố
+10091	Đèn ếch tím ngọc trai gia cố
+10092	Thảm hồng gia cố
+10093	Bê tông hồng gia cố
+10094	Đất nung tráng men hồng gia cố
+10095	Thủy tinh được nhuộm hồng gia cố
+10096	Tấm thủy tinh được nhuộm hồng gia cố
+10097	Đất nung hồng gia cố
+10098	Len hồng gia cố
+10099	Piston gia cố
+10100	Đầu Piston gia cố
+10101	Đất podzol gia cố
+10102	Đá andesit được đánh bóng gia cố
+10103	Phiến đá andesit được đánh bóng gia cố
+10104	Cầu thang đá andesit được đánh bóng gia cố
+10105	Đá bazan được đánh bóng gia cố
+10106	Đá đen được đánh bóng gia cố
+10107	Phiến gạch đá đen được đánh bóng gia cố
+10108	Cầu thang gạch đá đen được đánh bóng gia cố
+10109	Tường gạch đá đen được đánh bóng gia cố
+10110	Gạch đá đen được đánh bóng gia cố
+10111	Nút đá đen được đánh bóng gia cố
+10112	Tấm áp lực đá đen được đánh bóng gia cố
+10113	Phiến đá đen được đánh bóng gia cố
+10114	Cầu thang đá đen được đánh bóng gia cố
+10115	Tường đá đen được đánh bóng gia cố
+10116	Đá bảng sâu được đánh bóng gia cố
+10117	Phiến đá bảng sâu được đánh bóng gia cố
+10118	Cầu thang đá bảng sâu được đánh bóng gia cố
+10119	Tường đá bảng sâu được đánh bóng gia cố
+10120	Đá diorit được đánh bóng gia cố
+10121	Phiến đá diorit được đánh bóng gia cố
+10122	Cầu thang đá diorit được đánh bóng gia cố
+10123	Đá hoa cương được đánh bóng gia cố
+10124	Phiến đá hoa cương được đánh bóng gia cố
+10125	Cầu thang đá hoa cương được đánh bóng gia cố
+10126	Vạc bột tuyết gia cố
+10128	Prismarin gia cố
+10129	Phiến gạch Prismarin gia cố
+10130	Cầu thang gạch Prismarin gia cố
+10131	Gạch Prismarin gia cố
+10132	Phiến Prismarin gia cố
+10133	Cầu thang Prismarin gia cố
+10134	Tường Prismarin gia cố
+10135	Thảm tím gia cố
+10136	Bê tông tím gia cố
+10137	Đất nung tráng men tím gia cố
+10138	Thủy tinh được nhuộm tím gia cố
+10139	Tấm thủy tinh được nhuộm tím gia cố
+10140	Đất nung tím gia cố
+10141	Len tím gia cố
+10142	Khối purpur gia cố
+10143	Cột trụ purpur gia cố
+10144	Phiến purpur gia cố
+10145	Cầu thang purpur gia cố
+10146	Gạch thạch anh gia cố
+10147	Cột trụ thạch anh gia cố
+10148	Phiến thạch anh gia cố
+10149	Cầu thang thạch anh gia cố
+10150	Thảm đỏ gia cố
+10151	Bê tông đỏ gia cố
+10152	Đất nung tráng men đỏ gia cố
+10153	Phiến gạch Nether đỏ gia cố
+10154	Cầu thang gạch Nether đỏ gia cố
+10155	Tường gạch Nether đỏ gia cố
+10156	Gạch Nether đỏ gia cố
+10157	Cát đỏ gia cố
+10158	Cát kết đỏ gia cố
+10159	Phiến cát kết đỏ gia cố
+10160	Cầu thang cát kết đỏ gia cố
+10161	Tường cát kết đỏ gia cố
+10162	Thủy tinh được nhuộm đỏ gia cố
+10163	Tấm thủy tinh được nhuộm đỏ gia cố
+10164	Đất nung đỏ gia cố
+10165	Len đỏ gia cố
+10166	Đèn Redstone gia cố
+10167	Đất đã bén rễ gia cố
+10168	Cát gia cố
+10169	Cát kết gia cố
+10170	Phiến cát kết gia cố
+10171	Cầu thang cát kết gia cố
+10172	Tường cát kết gia cố
+10173	Giàn giáo gia cố
+10174	Đèn biển gia cố
+10175	Đèn nấm gia cố
+10177	Đá bazan mịn gia cố
+10181	Khối thạch anh mịn gia cố
+10182	Phiến thạch anh mịn gia cố
+10183	Cầu thang thạch anh mịn gia cố
+10184	Cát kết đỏ mịn gia cố
+10185	Phiến cát kết đỏ mịn gia cố
+10186	Cầu thang cát kết đỏ mịn gia cố
+10187	Cát kết mịn gia cố
+10188	Phiến cát kết mịn gia cố
+10189	Cầu thang cát kết mịn gia cố
+10190	Đá mịn gia cố
+10191	Phiến đá mịn gia cố
+10192	Khối tuyết gia cố
+10193	Đèn lồng linh hồn gia cố
+10194	Cát linh hồn gia cố
+10195	Đất linh hồn gia cố
+10196	Nút gỗ vân sam gia cố
+10197	Hàng rào gỗ vân sam gia cố
+10198	Cổng rào gỗ vân sam gia cố
+10199	Thân cây vân sam gia cố
+10200	Ván gỗ vân sam gia cố
+10201	Tấm áp lực gỗ vân sam gia cố
+10202	Phiến gỗ vân sam gia cố
+10203	Cầu thang gỗ vân sam gia cố
+10204	Gỗ vân sam gia cố
+10205	Piston dính gia cố
+10206	Đá gia cố
+10207	Phiến gạch đá gia cố
+10208	Cầu thang gạch đá gia cố
+10209	Tường gạch đá gia cố
+10210	Gạch đá gia cố
+10211	Nút đá gia cố
+10212	Tấm áp lực đá gia cố
+10213	Phiến đá gia cố
+10214	Cầu thang đá gia cố
+10215	Thân cây xiêm gai đã cạo vỏ gia cố
+10216	Gỗ xiêm gai đã cạo vỏ gia cố
+10217	Thân cây bạch dương đã cạo vỏ gia cố
+10218	Gỗ bạch dương đã cạo vỏ gia cố
+10220	Thân cây anh đào đã cạo vỏ gia cố
+10221	Gỗ anh đào đã cạo vỏ gia cố
+10222	Sợi nấm đỏ thẫm đã cạo vỏ gia cố
+10223	Cuống đỏ thẫm đã cạo vỏ gia cố
+10224	Thân cây sồi sẫm đã cạo vỏ gia cố
+10225	Gỗ sồi sẫm đã cạo vỏ gia cố
+10226	Thân cây rừng đã cạo vỏ gia cố
+10227	Gỗ rừng đã cạo vỏ gia cố
+10228	Thân cây đước đã cạo vỏ gia cố
+10229	Gỗ đước đã cạo vỏ gia cố
+10230	Thân cây sồi đã cạo vỏ gia cố
+10231	Gỗ sồi đã cạo vỏ gia cố
+10232	Thân cây vân sam đã cạo vỏ gia cố
+10233	Gỗ vân sam đã cạo vỏ gia cố
+10234	Sợi nấm kì dị đã cạo vỏ gia cố
+10235	Cuống kì dị đã cạo vỏ gia cố
+10236	Đất nung gia cố
+10237	Thủy tinh mờ gia cố
+10238	Đá túp gia cố
+10239	Đèn ếch xanh cỏ tươi gia cố
+10240	Nút kì dị gia cố
+10241	Hàng rào kì dị gia cố
+10242	Cổng rào kì dị gia cố
+10243	Sợi nấm kì dị gia cố
+10244	Khuẩn dị thể kì dị gia cố
+10245	Ván kì dị gia cố
+10246	Tấm áp lực kì dị gia cố
+10247	Phiến kì dị gia cố
+10248	Cầu thang kì dị gia cố
+10249	Cuống kì dị gia cố
+10250	Khối bướu kì dị gia cố
+10251	Vạc nước gia cố
+10252	Khối đồng bị phong hoá gia cố
+10253	Khối đồng được cắt bị phong hóa gia cố
+10254	Phiến đồng được cắt bị phong hoá gia cố
+10255	Cầu thang đồng được cắt bị phong hóa gia cố
+10256	Thảm trắng gia cố
+10257	Bê tông trắng gia cố
+10258	Đất nung tráng men trắng gia cố
+10259	Thủy tinh được nhuộm trắng gia cố
+10260	Tấm thủy tinh được nhuộm trắng gia cố
+10261	Đất nung trắng gia cố
+10262	Len trắng gia cố
+10263	Thảm vàng gia cố
+10264	Bê tông vàng gia cố
+10265	Đất nung tráng men vàng gia cố
+10266	Thủy tinh được nhuộm vàng gia cố
+10267	Tấm thủy tinh được nhuộm vàng gia cố
+10268	Đất nung vàng gia cố
+10269	Len vàng gia cố
+10688	Mìn cát
+11347	Mìn lò hun khói
+11886	Mìn đá
+12505	Mìn sỏi đáng ngờ
+12506	Mìn cát đáng ngờ

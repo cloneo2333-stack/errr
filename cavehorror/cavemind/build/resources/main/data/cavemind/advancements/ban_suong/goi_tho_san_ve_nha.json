@@ -1,0 +1,23 @@
+{
+  "parent": "cavemind:ban_suong/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:bell"
+    },
+    "title": {
+      "text": "Gọi Thợ Săn Về Nhà"
+    },
+    "description": {
+      "text": "Rung chuông sương ở trạm đo sương cuối cùng khi hắn đang ở gần"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

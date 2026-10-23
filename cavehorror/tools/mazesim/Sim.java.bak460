@@ -1,0 +1,481 @@
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Random;
+import vn.cavemind.maze.core.Brain;
+import vn.cavemind.maze.core.Grid;
+import vn.cavemind.maze.core.Round;
+
+public class Sim {
+    static final double WALK = 0.216, SPRINT = 0.28, CROUCH = 0.065;
+
+    static final class Bot {
+        final Round rd;
+        final Grid g;
+        final Round.Runner rn;
+        final String kind;
+        final Random r;
+        final ArrayDeque<double[]> path = new ArrayDeque<>();
+        double stepAcc;
+        long fleeUntil, hideUntil, cueAt = -1000;
+        int goalToy = -1;
+        boolean delivered, settled;
+        double lastDx, lastDz;
+        int closetGoal = -1;
+
+        Bot(Round rd, Round.Runner rn, String kind, long seed) {
+            this.rd = rd;
+            this.g = rd.g;
+            this.rn = rn;
+            this.kind = kind;
+            this.r = new Random(seed);
+        }
+
+        double chkX, chkZ;
+        long chkT;
+
+        void tick() {
+            if (rn.caught || rn.out) return;
+            if (rd.t - chkT >= 40) {
+                boolean stuck = Math.hypot(rn.x - chkX, rn.z - chkZ) < 0.5 && !path.isEmpty() && rn.closet < 0 && !settled;
+                if (stuck) {
+                    path.clear();
+                    goalToy = -1;
+                    int c = Grid.cellAt(rn.x, rn.z);
+                    if (!g.walkable(rn.x, rn.z) || Math.hypot(Grid.cx(c) - rn.x, Grid.cz(c) - rn.z) > 0.2) path.addLast(new double[]{Grid.cx(c), Grid.cz(c)});
+                }
+                chkX = rn.x;
+                chkZ = rn.z;
+                chkT = rd.t;
+            }
+            if (rn.speed < 0.01 && rn.closet < 0 && rd.t - cueAt > 100) rn.yaw += 2.2;
+            boolean sees = seesDamned();
+            boolean hears = hearsDamned();
+            if (sees || hears) cueAt = rd.t;
+            if (sees && (kind.equals("smart") || kind.equals("sneak") || kind.equals("corner"))) rn.yaw = yaw(rd.brain.x, rd.brain.z, rn.x, rn.z);
+            switch (kind) {
+                case "corner" -> corner();
+                case "closet" -> closet();
+                case "runner" -> collector(SPRINT, sees, hears, true, false);
+                case "sneak" -> collector(CROUCH, sees, hears, false, true);
+                case "greedy" -> collector(WALK, sees, hears, true, false);
+                case "smart" -> smart(sees, hears);
+                default -> {}
+            }
+            pickup();
+        }
+
+        boolean seesDamned() {
+            Brain b = rd.brain;
+            if (b.y < -0.5) return false;
+            double d = Math.hypot(b.x - rn.x, b.z - rn.z);
+            double range = g.lightAt(b.x, b.z) >= 4 ? 16 : 10;
+            if (rn.closet >= 0 && rn.doorClosed) return false;
+            if (d > range) return false;
+            double dot = ((b.x - rn.x) * rn.fx() + (b.z - rn.z) * rn.fz()) / Math.max(0.01, d);
+            if (dot < Math.cos(Math.toRadians(70))) return false;
+            return g.clear(rn.x, rn.z, b.x, b.z, rd.closetOpen);
+        }
+
+        boolean hearsDamned() {
+            Brain b = rd.brain;
+            double d = Math.hypot(b.x - rn.x, b.z - rn.z);
+            double r = b.mode == Brain.Mode.CHASE ? 12 : b.mode == Brain.Mode.OPEN ? 18 : 6;
+            return d < r && b.mode != Brain.Mode.COUNT && b.mode != Brain.Mode.AMBUSH;
+        }
+
+        void corner() {
+            if (!settled) {
+                if (path.isEmpty() && !settled) {
+                    int best = -1, bd = Integer.MAX_VALUE;
+                    int at = Grid.cellAt(rn.x, rn.z);
+                    for (int c = 0; c < Grid.N * Grid.N; c++) {
+                        if (g.room[c] >= 0 || g.edges(c).size() != 1) continue;
+                        int d = g.pathCells(at, c);
+                        if (d >= 3 && d < bd) {
+                            bd = d;
+                            best = c;
+                        }
+                    }
+                    if (best < 0) best = at;
+                    route(best);
+                    double[] cn = darkCorner(best);
+                    path.addLast(cn);
+                }
+                if (follow(WALK)) {
+                    settled = true;
+                    int c = Grid.cellAt(rn.x, rn.z);
+                    for (int[] e : g.edges(c)) rn.yaw = yaw(rn.x, rn.z, Grid.cx(e[0]), Grid.cz(e[0]));
+                }
+                return;
+            }
+            rn.crouch = true;
+            rn.speed = 0;
+        }
+
+        double[] darkCorner(int c) {
+            int i = Grid.ci(c), j = Grid.cj(c);
+            double[] best = {Grid.cx(c), Grid.cz(c)};
+            int bl = 99;
+            for (int x = i * Grid.P + 1; x <= i * Grid.P + 3; x++) {
+                for (int z = j * Grid.P + 1; z <= j * Grid.P + 3; z++) {
+                    if (!g.passable(x, z)) continue;
+                    int l = g.light[x][z];
+                    boolean edge = x != i * Grid.P + 2 || z != j * Grid.P + 2;
+                    if (edge && l < bl) {
+                        bl = l;
+                        best = new double[]{x + 0.5, z + 0.5};
+                    }
+                }
+            }
+            return best;
+        }
+
+        void closet() {
+            if (settled) {
+                rn.crouch = true;
+                rn.speed = 0;
+                return;
+            }
+            if (closetGoal < 0) {
+                int at = Grid.cellAt(rn.x, rn.z), bd = Integer.MAX_VALUE;
+                for (int i = 0; i < g.closets.size(); i++) {
+                    int d = g.pathCells(at, g.closets.get(i).cell);
+                    if (d < bd) {
+                        bd = d;
+                        closetGoal = i;
+                    }
+                }
+                if (closetGoal < 0) {
+                    settled = true;
+                    return;
+                }
+                Grid.Closet c = g.closets.get(closetGoal);
+                route(c.cell);
+                path.addLast(new double[]{c.x + 0.5 + dx(c.face), c.z + 0.5 + dz(c.face)});
+                path.addLast(new double[]{c.x + 0.5, c.z + 0.5});
+            }
+            if (follow(WALK)) enterCloset(closetGoal);
+        }
+
+        void enterCloset(int idx) {
+            Grid.Closet c = g.closets.get(idx);
+            rd.noise(c.x + 0.5, c.z + 0.5, 18, Round.N_DOOR, rn.id);
+            rn.closet = idx;
+            rn.doorClosed = true;
+            rn.yaw = yaw(c.x + 0.5, c.z + 0.5, c.x + 0.5 + dx(c.face), c.z + 0.5 + dz(c.face));
+            settled = true;
+        }
+
+        void leaveCloset() {
+            if (rn.closet < 0) return;
+            Grid.Closet c = g.closets.get(rn.closet);
+            rd.noise(c.x + 0.5, c.z + 0.5, 18, Round.N_DOOR, rn.id);
+            rn.closet = -1;
+            settled = false;
+            rn.x = c.x + 0.5 + dx(c.face);
+            rn.z = c.z + 0.5 + dz(c.face);
+        }
+
+        void collector(double pace, boolean sees, boolean hears, boolean flee, boolean freeze) {
+            if (flee && (sees || rd.t < fleeUntil)) {
+                if (sees) {
+                    if (path.isEmpty() || rd.t >= fleeUntil - 60) fleePlan();
+                    fleeUntil = rd.t + 80;
+                }
+                rn.crouch = false;
+                if (follow(SPRINT)) fleeUntil = 0;
+                return;
+            }
+            if (freeze && (sees || hears || rd.t < hideUntil)) {
+                if ((sees || hears) && rd.t >= hideUntil - 60) {
+                    fleePlan();
+                    hideUntil = rd.t + 140;
+                }
+                if (sees || hears) hideUntil = Math.max(hideUntil, rd.t + 120);
+                rn.crouch = true;
+                if (!path.isEmpty() && rd.t < hideUntil - 60) {
+                    follow(CROUCH);
+                    return;
+                }
+                rn.speed = 0;
+                rn.yaw = yaw(rd.brain.x, rd.brain.z, rn.x, rn.z);
+                return;
+            }
+            rn.crouch = pace == CROUCH;
+            work(pace);
+        }
+
+        void fleePlan() {
+            int at = Grid.cellAt(rn.x, rn.z), dc = Grid.cellAt(rd.brain.x, rd.brain.z);
+            int best = -1;
+            double bs = -1e9;
+            for (int c = 0; c < Grid.N * Grid.N; c++) {
+                int md = g.pathCells(at, c), dd = g.pathCells(dc, c);
+                if (md > 4 || md == 0 || dd == Integer.MAX_VALUE) continue;
+                if (g.pathCells(dc, c) <= g.pathCells(dc, at) && md > 1) continue;
+                double s = dd - md * 0.4 + (g.edges(c).size() >= 2 ? 0.6 : -1.5) + r.nextDouble() * 0.3;
+                if (s > bs) {
+                    bs = s;
+                    best = c;
+                }
+            }
+            path.clear();
+            if (best >= 0) route(best);
+        }
+
+        long backUntil;
+
+        void smart(boolean sees, boolean hears) {
+            if (rn.closet >= 0) {
+                if (rd.t - cueAt > 200) leaveCloset();
+                else return;
+            }
+            double d = Math.hypot(rd.brain.x - rn.x, rd.brain.z - rn.z);
+            if (sees && d < 8 || hears && rd.brain.mode == Brain.Mode.CHASE) {
+                collector(SPRINT, true, false, true, false);
+                backUntil = rd.t + 100;
+                return;
+            }
+            if (sees || hears) {
+                if (rd.t >= backUntil - 40) {
+                    fleePlan();
+                    backUntil = rd.t + 100;
+                }
+            }
+            if (rd.t < backUntil) {
+                rn.crouch = d < 10;
+                if (path.isEmpty() || follow(d < 10 ? CROUCH : WALK)) {
+                    rn.speed = 0;
+                    rn.crouch = true;
+                }
+                return;
+            }
+            rn.crouch = false;
+            work(WALK);
+        }
+
+        void work(double pace) {
+            if (rn.toys >= 7 || rd.remainingToys() == 0 && rn.toys > 0) {
+                if (!delivered) {
+                    if (path.isEmpty()) {
+                        route(Grid.cellAt(g.chest[0], g.chest[1]));
+                        path.addLast(new double[]{g.chest[0], g.chest[1] + 1});
+                    }
+                    if (follow(pace == CROUCH ? WALK : pace)) {
+                        delivered = true;
+                        rd.deliver(7);
+                        path.clear();
+                    }
+                    return;
+                }
+                if (path.isEmpty()) path.addLast(new double[]{g.bell[0] - 1, g.bell[1]});
+                if (follow(WALK)) rd.bell(rn);
+                return;
+            }
+            if (goalToy < 0 || rd.toyTaken[goalToy]) {
+                goalToy = -1;
+                path.clear();
+                int at = Grid.cellAt(rn.x, rn.z), bd = Integer.MAX_VALUE;
+                for (int i = 0; i < 7; i++) {
+                    if (rd.toyTaken[i]) continue;
+                    int d = g.pathCells(at, Grid.cellAt(g.toys[i][0], g.toys[i][1]));
+                    if (d < bd) {
+                        bd = d;
+                        goalToy = i;
+                    }
+                }
+                if (goalToy < 0) return;
+                int tc = Grid.cellAt(g.toys[goalToy][0], g.toys[goalToy][1]);
+                route(tc);
+                if (g.toyCloset[goalToy] >= 0) {
+                    Grid.Closet c = g.closets.get(g.toyCloset[goalToy]);
+                    path.addLast(new double[]{c.x + 0.5 + dx(c.face), c.z + 0.5 + dz(c.face)});
+                }
+                path.addLast(new double[]{g.toys[goalToy][0], g.toys[goalToy][1]});
+            }
+            boolean done = follow(pace);
+            if (done && goalToy >= 0 && !rd.toyTaken[goalToy]) {
+                if (g.toyCloset[goalToy] >= 0) rd.noise(rn.x, rn.z, 18, Round.N_DOOR, rn.id);
+                if (Math.hypot(g.toys[goalToy][0] - rn.x, g.toys[goalToy][1] - rn.z) < 1.6) rd.takeToy(rn, goalToy);
+                goalToy = -1;
+            }
+        }
+
+        void pickup() {
+            for (int i = 0; i < 7; i++) {
+                if (rd.toyTaken[i]) continue;
+                if (Math.hypot(g.toys[i][0] - rn.x, g.toys[i][1] - rn.z) < 0.9) rd.takeToy(rn, i);
+            }
+        }
+
+        void route(int to) {
+            int at = Grid.cellAt(rn.x, rn.z);
+            int[] prev = new int[Grid.N * Grid.N];
+            Arrays.fill(prev, -2);
+            prev[at] = -1;
+            ArrayDeque<Integer> q = new ArrayDeque<>();
+            q.add(at);
+            while (!q.isEmpty()) {
+                int c = q.poll();
+                if (c == to) break;
+                for (int[] e : g.edges(c)) {
+                    if (e[1] >= 0 || prev[e[0]] != -2) continue;
+                    prev[e[0]] = c;
+                    q.add(e[0]);
+                }
+            }
+            ArrayDeque<double[]> pts = new ArrayDeque<>();
+            for (int c = to; c >= 0 && prev[c] != -2; c = prev[c]) {
+                pts.addFirst(new double[]{Grid.cx(c), Grid.cz(c)});
+                if (prev[c] == -1) break;
+            }
+            if (DEBUG && pts.isEmpty() && to != at) System.out.println("route empty from " + at + " to " + to + " prev[to]=" + prev[to]);
+            while (!pts.isEmpty() && Math.hypot(pts.peek()[0] - rn.x, pts.peek()[1] - rn.z) < 0.3) pts.poll();
+            path.clear();
+            double[] first = pts.peek();
+            if (first == null || !g.walkClear(rn.x, rn.z, first[0], first[1])) path.addLast(new double[]{Grid.cx(at), Grid.cz(at)});
+            path.addAll(pts);
+        }
+
+        boolean follow(double speed) {
+            while (!path.isEmpty() && Math.hypot(path.peek()[0] - rn.x, path.peek()[1] - rn.z) < 1e-4) path.poll();
+            double[] tgt = path.peek();
+            if (tgt == null) return true;
+            double dx = tgt[0] - rn.x, dz = tgt[1] - rn.z, d = Math.hypot(dx, dz);
+            rn.sprint = speed == SPRINT;
+            if (d < 1e-6) {
+                path.poll();
+                return path.isEmpty();
+            }
+            double mv = Math.min(d, speed);
+            double nx = rn.x + dx / d * mv, nz = rn.z + dz / d * mv;
+            if (g.walkable(nx, nz)) {
+                rn.x = nx;
+                rn.z = nz;
+            } else if (g.walkable(nx, rn.z)) {
+                rn.x = nx;
+            } else if (g.walkable(rn.x, nz)) {
+                rn.z = nz;
+            } else {
+                int c = Grid.cellAt(rn.x, rn.z);
+                rn.x += (Grid.cx(c) - rn.x) * 0.3;
+                rn.z += (Grid.cz(c) - rn.z) * 0.3;
+            }
+            rn.speed = mv;
+            rn.yaw = yaw(rn.x, rn.z, tgt[0], tgt[1]);
+            stepAcc += mv;
+            double stride = speed == SPRINT ? 2.1 : 1.65;
+            if (stepAcc > stride) {
+                stepAcc = 0;
+                rd.noise(rn.x, rn.z, speed == SPRINT ? 24 : speed == CROUCH ? 3 : 12, speed == SPRINT ? Round.N_SPRINT : Round.N_STEP, rn.id);
+            }
+            if (mv >= d - 1e-9) {
+                path.poll();
+                return path.isEmpty();
+            }
+            return false;
+        }
+
+        static double dx(int face) {
+            return new int[]{1, 0, -1, 0}[face];
+        }
+
+        static double dz(int face) {
+            return new int[]{0, 1, 0, -1}[face];
+        }
+
+        static double yaw(double x0, double z0, double x1, double z1) {
+            return Math.toDegrees(Math.atan2(z1 - z0, x1 - x0)) - 90;
+        }
+    }
+
+    public static void main(String[] a) {
+        int games = a.length > 0 ? Integer.parseInt(a[0]) : 400;
+        String only = a.length > 1 ? a[1] : null;
+        if (a.length > 2) applyParams(a[2]);
+        String[] kinds = {"corner", "closet", "runner", "sneak", "greedy", "smart"};
+        Map<String, int[]> res = new LinkedHashMap<>();
+        long worstIdle = 0;
+        double sumOpen = 0, sumChase = 0, sumVent = 0, sumSweep = 0, sumCut = 0;
+        int n = 0;
+        for (String k : kinds) {
+            if (only != null && !only.equals("all") && !only.equals(k)) continue;
+            int[] s = new int[6];
+            long caughtT = 0;
+            for (int i = 0; i < games; i++) {
+                long seed = 1000L * i + k.hashCode();
+                Round rd = new Round(seed, Round.Mode.PLAY);
+                Round.Runner rn = rd.add(1);
+                Bot b = new Bot(rd, rn, k, seed + 5);
+                long idleMax = 0;
+                Brain.Mode pm = null;
+                boolean inChase = false;
+                while (rd.end == Round.End.NONE) {
+                    b.tick();
+                    rd.tick();
+                    idleMax = Math.max(idleMax, rd.t - rd.brain.idleSince);
+                    if (rd.brain.mode == Brain.Mode.CHASE && pm != Brain.Mode.CHASE) {
+                        CH[0]++;
+                        inChase = true;
+                    }
+                    if (inChase && rd.brain.mode != Brain.Mode.CHASE && rd.brain.mode != Brain.Mode.LAST && rd.brain.mode != Brain.Mode.STUN) {
+                        CH[1]++;
+                        inChase = false;
+                    }
+                    pm = rd.brain.mode;
+                }
+                if (inChase && rd.end == Round.End.CAUGHT) CH[2]++;
+                worstIdle = Math.max(worstIdle, idleMax);
+                sumOpen += rd.brain.opens;
+                sumChase += rd.brain.chases;
+                sumVent += rd.brain.vents;
+                sumSweep += rd.brain.sweeps;
+                sumCut += rd.brain.cuts;
+                n++;
+                switch (rd.end) {
+                    case CAUGHT -> {
+                        s[0]++;
+                        caughtT += rd.t;
+                    }
+                    case WIN_TOYS -> s[1]++;
+                    case WIN_TIME -> s[2]++;
+                    default -> s[3]++;
+                }
+                s[4] += rd.delivered >= 7 ? 1 : 0;
+                s[5] += 7 - rd.remainingToys();
+            }
+            res.put(k, s);
+            System.out.printf("%-7s win %5.1f%% (toys %4.1f%%, time %4.1f%%) caught %5.1f%% at %4.0fs  toys/game %.1f%n", k,
+                100.0 * (s[1] + s[2]) / games, 100.0 * s[1] / games, 100.0 * s[2] / games, 100.0 * s[0] / games,
+                s[0] == 0 ? 0 : caughtT / (double) s[0] / 20.0, s[5] / (double) games);
+        }
+        System.out.printf("chases %d, escaped %d (%.0f%%), caught in chase %d%n", CH[0], CH[1], 100.0 * CH[1] / Math.max(1, CH[0]), CH[2]);
+        System.out.printf("worst idle %ds, opens/game %.1f, sweeps/game %.1f, chases/game %.1f, cuts/game %.1f, vents/game %.1f%n", worstIdle / 20, sumOpen / n, sumSweep / n, sumChase / n, sumCut / n, sumVent / n);
+    }
+
+    static final long[] CH = new long[3];
+    static boolean DEBUG = false;
+
+    static void applyParams(String spec) {
+        for (String kv : spec.split(",")) {
+            String[] p = kv.split("=");
+            double v = Double.parseDouble(p[1]);
+            switch (p[0]) {
+                case "search" -> Brain.SEARCH_SPEED = v;
+                case "chase" -> Brain.CHASE_SPEED = v;
+                case "last" -> Brain.LAST_SPEED = v;
+                case "diffuse" -> Brain.DIFFUSE = v;
+                case "openb" -> Brain.OPEN_BASE = v;
+                case "openk" -> Brain.OPEN_K = v;
+                case "spot" -> Brain.SPOT_TICKS = (int) v;
+                case "cprior" -> Brain.CLOSET_PRIOR = v;
+                case "lose" -> Brain.LOSE_TICKS = v;
+                default -> System.out.println("unknown " + p[0]);
+            }
+        }
+    }
+}

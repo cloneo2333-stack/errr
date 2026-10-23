@@ -1,0 +1,99 @@
+PASS v5 home set after first night
+PASS v5 one night elsewhere keeps the home
+PASS v5 two nights elsewhere still keeps a lived-in home
+PASS v5 moving for good switches the home
+v5 nhà 400, 64, 100 | 100, 64, 100 10.0? 1 ?êm | 400, 64, 100 24.0? 6 ?êm
+PASS v5 book builds
+v5 book bytes 917
+PASS v5 pages texts
+v5 grids: closets/maze 14.675 nooks/maze 11.725
+PASS v5 40 mazes: toys reachable, nooks open to a floor
+PASS v5 together mode stored
+PASS v6 torch fakes to air
+PASS v6 campfire fakes unlit
+PASS v6 glowstone left alone
+PASS v6 enchanting table left alone
+PASS v6 blackout catches nearby lights (2)
+PASS v6 blackout ends
+PASS v6 server lights untouched
+PASS v6 shadow kid is small, hidden and owner-only
+PASS v6 radio relay without radios is quiet
+v6 no playground here, well test skipped
+PASS v7 moon can be forced
+PASS v7 no Lunar in dev means no moon
+PASS v7 barometer bands
+PASS v7 gear recipes load
+PASS v7 chime remembered when placed
+PASS v7 chime guards twice and still hangs
+PASS v7 chime snaps on the third
+PASS v7 far from any chime is unguarded
+PASS v7 decoys unlimited outside the maze
+PASS v7 book knows the moon
+PASS v8 firefly finds the page
+PASS v8 firefly auto mode never crashes
+PASS v8 a firefly jar is handed out once
+PASS v8 the jar is not handed out twice
+PASS tiers loaded
+PASS invite 3 refused at chapter 1
+PASS invite 2 accepted
+PASS point g2 assigned
+PASS waypoint w2 assigned
+PASS compass given
+g2 target BlockPos{x=-73, y=71, z=329} dist 344 w2 BlockPos{x=-8, y=71, z=148}
+PASS g2 distance in range
+PASS g2 built by tick
+g2 built at BlockPos{x=-73, y=70, z=329} post BlockPos{x=-76, y=71, z=334} lectern BlockPos{x=-75, y=71, z=322} candles [BlockPos{x=-73, y=71, z=322}, BlockPos{x=-74, y=66, z=322}, BlockPos{x=-69, y=64, z=330}, BlockPos{x=-81, y=72, z=337}]
+PASS g2 has 4 candles
+PASS candle block at BlockPos{x=-73, y=71, z=322}
+PASS candle block at BlockPos{x=-74, y=66, z=322}
+PASS candle block at BlockPos{x=-69, y=64, z=330}
+PASS candle block at BlockPos{x=-81, y=72, z=337}
+PASS post is a log
+PASS lectern has book
+PASS post guarded
+PASS arrived
+PASS no key before reading
+PASS read
+PASS refill click handled
+PASS lectern refilled
+PASS not lit with 3 of 4
+PASS lit
+PASS key dropped at post
+PASS day refusal handled
+PASS night start handled (damned off in dev)
+PASS chapter 2 unlocked
+PASS key consumed
+PASS rare gift given
+PASS invite 3 accepted
+PASS altar book given
+PASS lost altar book given again
+missing with 5 candles: [c?n 6 ng?n n?n ?ang cháy quanh g?c trong 4 kh?i (m?i có 5)]
+PASS altar with 5 candles incomplete
+PASS click with 5 candles handled
+missing by day: []
+PASS altar underground playable by day
+missing at night: []
+PASS altar at night complete
+PASS deep rule for chapter 5
+PASS chapter 3 unlocked after altar win
+PASS altar registered as post
+PASS altar not guarded
+PASS bare log column refused for free play
+PASS self built counting tree accepted for free play
+PASS invite 2 again is a no-op
+describe: ch??ng 3 (N?i b?u tr?i v? ra), c?ng 4:, ván ch? ??ng 16/0, quà hi?m 16
+PASS w2 built by tick
+w2 at BlockPos{x=-8, y=70, z=148} post BlockPos{x=-8, y=71, z=148}
+maze: origin 1024 64 1024 lamps 29 frames 19 batteries 27 toys 21 signs 47 growth 171 blood 26
+PASS bar empty no stage due
+PASS bar capped at first mark
+PASS bar waits while stage 1 pending
+PASS stage 1 done
+PASS out of order completion ignored
+PASS bell never drops below the mark
+PASS stage 2 due at 50
+PASS visit wanted
+PASS hunt night due at 100
+PASS hunt due blocks sleep
+PASS after the hunt the bar restarts
+DONE

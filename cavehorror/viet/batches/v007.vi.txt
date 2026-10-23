@@ -1,0 +1,300 @@
+506	Kẻ bị nguyền
+507	Sọ hươu bị nguyền
+508	Quả cầu lửa bị nguyền
+509	Trứng sinh ra Quả cầu lửa bị nguyền
+15030	Quả cầu lửa bị nguyền bị hút về phía bạn trong suốt thời gian hiệu ứng
+510	Kẻ bị nguyền rên rỉ
+511	Kẻ bị nguyền đau đớn
+512	Kẻ bị nguyền chết
+513	Trứng sinh ra Kẻ bị nguyền
+522	Lấy một Bàn tay hôi thối từ dạ dày của một sinh vật phẫn nộ
+523	Có được trọn bộ giáp đỏ thẫm
+524	Có được một Dao găm nghi lễ
+525	Có được cả bốn cổ vật của Người lưu trữ
+632	Aethway
+633	Tia Aethway
+634	Trứng sinh ra Tia Aethway
+635	Bệ Aethway
+15129	Bị ảnh hưởng bởi thưởng trọn bộ của mũ Sứ giả. Tăng sát thương phải nhận
+650	Nhát chém gió
+651	Trứng sinh ra Nhát chém gió
+700	Tro bụi rồi sẽ về với tro bụi. Giải cứu Jacob
+778	Sát thương luân phiên
+779	Quả cầu lửa luân phiên
+780	Trứng sinh ra Quả cầu lửa luân phiên
+781	Ngọn lửa luân phiên
+782	Đã thi triển luân phiên
+793	Hỗn hống
+794	Biểu tượng dùng Hỗn hống
+15150	Nằm yên đấy! Hạ một Đao phủ bằng Đĩa luân phiên
+875	Mong đợi
+884	Điểm cực đỉnh
+15154	Mỗi cấp thêm 0,2 kháng đẩy lùi và 2 độ bền giáp, cùng 20% sát thương thêm với mọi loại
+898	Áp dụng lõi nâng cấp
+909	Biểu tượng Phán quan và Đao phủ
+910	Phán quan trỗi dậy
+911	Đòn của Phán quan
+912	Trứng sinh ra Đòn của Phán quan
+913	Phán quan ra đòn
+914	Phán quan vung vũ khí
+915	Tổng giám mục thi triển vụ nổ
+916	Tổng giám mục chúc mừng bạn
+917	Biểu tượng Tổng giám mục
+918	Tổng giám mục gào thét
+919	Tổng giám mục tự thiêu
+920	Tổng giám mục dịch chuyển
+921	Bánh xe của Tổng giám mục quay
+922	Kiến trúc sư của những đóa hồng héo
+923	Người lưu trữ
+924	Người lưu trữ: Thi sĩ
+925	Người lưu trữ: Hiện thân
+926	Người lưu trữ: Pháp sư huyền bí
+927	Người lưu trữ: Người chép sử
+928	Người lưu trữ: Người chép sử và Hiện thân
+929	Người lưu trữ: Nhà điêu khắc
+930	Biểu tượng có được 3 Người lưu trữ
+931	Ghế Người lưu trữ
+932	Biểu tượng gặp Người lưu trữ
+933	Trứng sinh ra Người lưu trữ
+980	Phiến gạch lát tro
+981	Tường gạch lát tro
+982	Gạch lát tro
+983	Tro
+984	Tro tàn, tro tàn
+988	Kẻ tìm khía cạnh
+989	Bộ phận lưỡi Kẻ tìm khía cạnh
+15167	Kẻ tấn công hồi 30% sát thương gây lên người bị TBG. Mỗi lần bạn bị thương, rơi ra 1 tới 2 hạt vàng
+1056	Thạch kỳ quặc
+1089	Khúc ca của hư vô
+1206	Xương bazan
+1239	Trận chiến với một cỗ máy cực kỳ nguy hiểm: Azali
+1282	Kẻ bị phản bội
+1283	Trứng sinh ra Kẻ bị phản bội
+1417	Giám mục
+1418	Giám mục thi triển Đẩy trận
+1419	Trứng sinh ra Giám mục
+1420	Giám mục triệu hồi Trận dao găm
+1421	Giám mục triệu hồi Bộ xương Wither
+1541	THỔI BAY TẤT CẢ
+1614	Pháp sư máu: Azali
+1618	Quả cầu máu
+1619	Trứng sinh ra Quả cầu máu
+1666	Vải lanh xanh
+1667	Biểu tượng Vải lanh xanh
+1668	Biểu tượng Vải lanh xanh hủy diệt
+1689	Sai lầm ngớ ngẩn
+1690	Đòn đánh cùn
+1716	Sách
+1750	Chân cột đá giũa thần thánh
+1768	Móng vuốt đồng thau
+1776	Kẻ phá hủy
+15201	Gây sát thương nhanh và ngắn, làm suy giảm tốc độ di chuyển.
+1810	Đôi mắt sáng
+1811	BrikNex
+1884	Mầm non trỗi dậy
+1886	Chi côn trùng
+1892	Thành lũy
+1893	Tượng thành lũy
+1910	Hợp chất của đồ tể
+1915	Tầm với cánh bướm
+1939	Caeruleus Ex Nihilo
+1942	Triệu gọi: Hiệp sĩ sa ngã
+15219	Khiến Aethway luôn gây 2 sát thương bất kể mức nạp đòn, đổi lại mất sát thương theo thời gian
+2049	Sinh vật hang
+2050	Trứng sinh ra Sinh vật hang
+2297	Gạch Nether đỏ chạm khắc
+2332	Đại đao hóa nhộng
+2333	Giáo hóa nhộng
+2342	Ghế nhà thờ
+2370	Kiếm thuật cổ điển. Hạ Kẻ say tình trong trận chiến
+2505	Bùng cháy
+2529	Miễn nhiễm hoàn toàn với sát thương
+2534	Tắt hoàn toàn khả năng đào mà không ảnh hưởng tốc độ đánh
+15265	Dừng hẳn vận tốc theo phương dọc và lao tới theo hướng đang nhìn
+2776	Bò
+2779	Bò rống
+2780	Trứng sinh ra Bò
+2814	Chế tạo Sứ thần, có thể tung nhát chém diện rộng không giới hạn
+2815	Chế tạo Quyền trượng ác ý
+2880	Pha đỉnh sóng
+2882	Tro đỏ thẫm
+2885	Cờ đỏ thẫm
+2902	Rương đỏ thẫm
+2903	Trứng sinh ra Rương đỏ thẫm
+2931	Lá đỏ thẫm
+2940	Bia Redstone thẫm
+2941	Trứng sinh ra Bia Redstone thẫm
+2948	Hạt đỏ thẫm
+2998	Khối thép đỏ thẫm
+2999	Ủng thép đỏ thẫm
+3000	Giáp ngực thép đỏ thẫm
+3001	Mũ thép đỏ thẫm
+3002	Phôi thép đỏ thẫm
+3003	Quần giáp thép đỏ thẫm
+3013	Hộ vệ đội vương miện
+3020	Tia nghiền nát
+3021	Trứng sinh ra Tia nghiền nát
+3023	Hầm pha lê
+3034	Kẻ sùng đạo
+3035	Trứng sinh ra Kẻ sùng đạo
+3157	Dao găm tan biến
+3158	Dao găm trầm ngâm
+3159	Dao găm vụt qua
+3323	Lướt nhanh
+3334	Bia đá đã tắt
+3387	Phán quan của vị thần đã chết
+3458	Âm nhạc của người điếc
+3459	Biểu tượng Âm nhạc của người điếc
+15297	Gây hơn 100 sát thương bằng kỹ năng tích dồn của Vải lanh xanh
+15299	Giảm sát thương phải nhận tùy theo lượng máu đã mất. Luôn giảm 10% sát thương bất kể máu
+3578	Biểu tượng hạ Sứ giả
+3579	Hạ Kẻ tận hiến và hoàn thành hầm chìm.
+3598	Quỷ dữ
+3599	Sự hiện diện của quỷ dữ lắng xuống
+3642	Tan nát
+3650	Kẻ tận hiến rên rỉ
+3651	Sóng chấn động của Kẻ tận hiến
+3652	Trứng sinh ra Sóng chấn động của Kẻ tận hiến
+3653	Quả cầu máu của Kẻ tận hiến
+3654	Trứng sinh ra Quả cầu máu của Kẻ tận hiến
+15306	Sự báng bổ kinh tởm vinh quang và luân phiên. Hạ Tổng giám mục
+3777	Đĩa luân phiên
+3778	Tháo dỡ một Cỗ máy tìm thấy trong Myriad
+3829	Gạch đá chạm khắc thần thánh
+3830	Con mắt thần thánh
+3831	Cột đá giũa thần thánh
+3833	Ân sủng thần thánh
+3834	Bia đá thần thánh
+3835	Cờ thần tính
+15316	Thần tính sẽ lại soi sáng chúng ta, bạn già. Hạ Kẻ vô diện khi nó đang ở dạng thú
+3848	Có nhớ ta không
+3849	Biểu tượng Có nhớ ta không
+3850	Còn nhớ ta chứ?
+3869	Chuyển đổi quyền lực
+3870	Đừng sợ thần chết
+3886	Đinh ba đơn hai lưỡi
+3888	Chim bồ câu than khóc
+3930	Cổ vật đáng ngờ
+3969	Nhật thực
+4022	Thuốc tiên căm hận
+4024	Hiện thân
+4038	Sứ thần kích hoạt và vung lưỡi
+4046	Đĩa trống
+4052	Lõi nâng cấp trống
+15340	Bước vào giai đoạn 1 bằng cách hạ Tổng giám mục. Ngươi đã làm gì vậy?
+15341	Bước vào giai đoạn 2 bằng cách hạ Hồng y. Nhân tiện thì xử luôn anh trai cô ta...
+4312	Thực thể tan biến
+4316	Hỗn mang
+4323	Biểu tượng lối vào
+4355	Kẻ thấu thị
+15342	Mỗi đòn nạp đầy gây Chảy máu (00:10). Cấp hiệu ứng tùy theo cấp thấm phép
+15343	Mỗi đòn nạp đầy gây Hồng thủy (00:08) và thêm 10% sát thương. Cấp hiệu ứng tùy theo cấp thấm phép.
+15344	Mỗi đòn nạp đầy gây Ác tính (00:08) và dội lại 30% sát thương đòn đánh lên chính bạn. Cấp hiệu ứng tùy theo cấp thấm phép
+4370	Đao phủ
+4371	Trứng sinh ra Đao phủ
+4372	Kiệt sức
+4390	Ngôi sao nổ
+4391	Trứng sinh ra Ngôi sao nổ
+4435	Mắt đối mắt
+4439	Nhìn ta đây
+4441	Biểu tượng Đối mặt ta
+4442	Kẻ vô diện
+4443	Trứng sinh ra Kẻ vô diện
+4461	Đức tin
+4462	Biểu tượng Đức tin
+4481	Kẻ xâm lăng giả
+4482	Trứng sinh ra Kẻ xâm lăng giả
+4483	Bảo hộ lung lay
+4500	Fathomless Crimson
+4501	Khối Fathomless Crimson
+4502	Bàn nâng cấp Fathomless
+4503	Thần tính giả
+4527	Bàn tay hôi thối
+4579	Tìm Thư viện lưu trữ
+4721	Biểu tượng Trán dô
+4725	Hiệu ứng lóe sáng
+4737	Lá đỏ thẫm trổ hoa
+4813	Mảnh thần tính
+4818	Quái dị và u ám
+4845	Tinh chất đông lạnh
+4874	Máy đo sự thật thú vị
+4883	Thuốc thử dung hợp
+4890	Đệm cổng
+15394	Bị một ảo ảnh lao tới tấn công. Cái này hơi nhảm thật...
+4982	Bình thủy tinh
+5019	Thần đỏ thẫm
+5072	Biểu tượng Ân sủng
+5260	Tượng thành lũy dang dở
+5262	Bùa hộ mệnh thánh
+5263	Ảo ảnh
+5264	Trứng sinh ra Ảo ảnh
+15401	Ngăn ảo ảnh của Kẻ bất khuất xuất hiện và quấy nhiễu
+5270	Xử lý hệ thống sát thương luân phiên của thực thể
+15406	Để một golem sắt bị Kẻ bất khuất giết, nhận lại 4 khối sắt.
+15407	Hồi máu bị dừng hẳn. Mỗi lần bạn định hồi máu, sẽ nhận sát thương liên tục
+5338	Tia địa ngục
+5339	Trứng sinh ra Tia địa ngục
+5466	Sứ giả
+5467	Trứng sinh ra Sứ giả
+5468	Mũ của Sứ giả
+5520	Biểu tượng Nữ tư tế tối cao
+15420	Đánh trúng bất cứ thứ gì đang ở trên không khi dùng Thiên đường sẽ gây Bùng cháy cho chúng
+5545	Giữ cổng
+5557	Trao đổi trống rỗng
+5558	TRỜI ĐẤT ƠI, DELTARUNE KÌA
+5559	TRỜI ĐẤT ƠI, ĐỠ ĐÒN Y NHƯ ULTRAKILL
+5576	Biểu tượng Kẻ chém bầy
+5627	Thứ đói khát rỉ máu
+5628	Biểu tượng Thứ đói khát rỉ máu
+5641	Ta nghe thấy vực thẳm
+5642	Biểu tượng Ta nghe thấy vực thẳm
+5643	Ta đã lữ hành, đi bộ rất lâu. Hạ một Kẻ bị nguyền.
+5645	Ta chỉ muốn thứ của ta, của hắn, của ngươi và của họ
+5652	Tôi gọi Miguel đây
+5658	Khung bất khả xâm phạm
+5660	Thuốc giảm đau: Đá cuội
+5662	Icarus
+5708	Bắt lửa
+5723	Chìa khóa Illagium
+5724	Cúp Illagium
+5725	Tài năng Illagium
+5731	Thấm phép: Hồng thủy
+5732	Thấm phép: Xuất huyết
+5733	Thấm phép: Ác tính
+5734	Thấm phép: Rạng rỡ
+5735	Hình nộm bất tử
+5771	Hỗn hợp không tương thích
+15503	Tăng 25% sát thương phải nhận, và định kỳ nhận sát thương từng đợt nhanh
+15504	Mỗi cấp tăng tầm với thực thể thêm 1. Khi trao cho Thi sĩ, tăng sát thương gây ra. Khi dùng cùng Nàng thơ, mở khóa phản ứng "Xiên thủng"
+15505	Do Kẻ say tình gây ra. Mỗi đòn của Kẻ say tình trúng đích cho nó 2 Linh hồn và gây sát thương Hút hồn tùy theo số Linh hồn hiện có
+5820	Bắt đầu cuộc rượt đuổi với Kẻ bất khuất
+5822	Mã não đen đẫm mực
+5824	Động vật hoang dã vô hại
+5827	Đặt vào 1 [Chất dung hợp]
+5831	Đặt vật phẩm trao đổi vào đây!
+5832	Đặt lõi nâng cấp của bạn vào
+5833	Đặt vật nhận lõi nâng cấp vào
+5835	CHI TIẾT LẤY TỪ INSCRYPTION!!!
+5845	Xem xét một bức bích họa để hiểu thêm cốt truyện.
+5856	Tương tác với một NPC.
+5862	Lửa địa ngục bên trong
+15517	Lâu lắm rồi ta mới lại chạm vào lớp lông mềm của một tấm da thú... Dùng Máy đo sự thật thú vị
+6152	Jesse
+6280	Kính vạn hoa thu lại
+6292	Phù phép của Người canh giữ
+6333	Đổi để giết?
+6389	Hợp chất Lazurit: CHIẾN TRANH
+6401	Dấu hút máu
+6413	Huyền thoại
+6429	Cấp 3: 100% cơ hội có vật phẩm hiếm
+6435	Biểu tượng tìm thấy thư viện
+6436	Cổng thư viện
+6437	Địa y um tùm
+6438	Trứng sinh ra Địa y um tùm
+6668	Aether lỏng
+6748	Rương chiến lợi phẩm mở
+15553	Mỗi cấp giảm 5% sát thương gây ra và tăng 10% sát thương phải nhận
+6772	Đồ ăn may
+6775	Tiếng bước chân nặng nề
+6777	Quả mọng phát quang
+6796	Cỗ máy

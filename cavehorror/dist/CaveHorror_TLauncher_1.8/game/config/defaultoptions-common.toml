@@ -1,0 +1,8 @@
+#The default difficulty selected for newly created worlds.
+#Allowed Values: PEACEFUL, EASY, NORMAL, HARD
+defaultDifficulty = "NORMAL"
+#Set to true if the difficulty for new world's should be locked to the specific default. This cannot be unlocked by players without external tools! Probably a bad idea. I don't recommend. Why am I adding this option?
+lockDifficulty = false
+#Resource pack IDs to have enabled by default on the first run.
+defaultResourcePacks = ["vanilla", "mod_resources", "file/cassette music discs 1.20 v1.2.zip", "file/The Mangled Knocker.zip", "file/TaxSkelettonTotem.M.1.20.1+ResP.1.0.0.zip", "file/TaxFantasticCelestial+M.1.20.1+ResP.1.1.0.zip", "file/TaxCreepyVillager+M.1.20.1+ResP.1.1.0.zip", "file/TaxCreepySpeaker+M.1.20.1+ResP.1.1.0.zip", "file/TaxCreepyArtist+M.1.20.1+ResP.1.0.1.zip", "file/TaxCaveSky+M.1.20.1+ResP.1.0.0.zip", "file/TaxCreepyMob+M.1.20.1+ResP.1.0.0.zip", "file/TaxCreepyIllager+M.1.20.1+ResP.1.0.0.zip", "file/Enhanced Audio r7.zip", "black_icons"]
+

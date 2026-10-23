@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "cavemind:con_quay_linh"
+    },
+    "title": {
+      "text": "Những Ván Trốn Tìm"
+    },
+    "description": {
+      "text": "Mỗi chương mới chỉ mở sau một ván trốn tìm do bạn tự rủ, với món đồ chơi của một đứa trẻ mất tích."
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/block/dark_oak_planks.png"
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

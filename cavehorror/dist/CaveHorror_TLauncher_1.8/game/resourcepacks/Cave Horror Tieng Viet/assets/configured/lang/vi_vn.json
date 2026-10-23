@@ -1,0 +1,12 @@
+{
+ "configured.gui.apply": "Áp dụng",
+ "configured.gui.change": "Đổi",
+ "configured.gui.close": "Đóng",
+ "configured.gui.edit": "Sửa",
+ "configured.gui.remove": "Xóa",
+ "configured.gui.reset": "Đặt lại",
+ "configured.gui.restore": "Khôi phục",
+ "configured.gui.save": "Lưu",
+ "configured.gui.search": "Tìm kiếm...",
+ "configured.gui.select": "Chọn"
+}

@@ -1,0 +1,4 @@
+{
+ "commands.terrablender.biomeparams.failed": "Không xác định được tham số",
+ "commands.terrablender.biomeparams.success": "Tham số tại vị trí %s %s %s: %s"
+}

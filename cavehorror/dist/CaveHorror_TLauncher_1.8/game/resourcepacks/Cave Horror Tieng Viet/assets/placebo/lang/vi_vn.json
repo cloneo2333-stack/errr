@@ -1,0 +1,8 @@
+{
+ "key.categories.placebo": "Placebo",
+ "placebo.cmd.not_found": "Không tìm thấy %s.",
+ "placebo.cmd.serialize_failure": "Đã xảy ra lỗi trong quá trình tuần tự hóa.",
+ "placebo.cmd.serialize_success": "Đã lưu %s vào %s.",
+ "placebo.toggleTrails": "Bật tắt vệt sáng người ủng hộ",
+ "placebo.toggleWings": "Bật tắt đôi cánh người ủng hộ"
+}

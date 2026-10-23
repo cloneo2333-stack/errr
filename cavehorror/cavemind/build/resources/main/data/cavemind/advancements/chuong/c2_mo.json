@@ -1,0 +1,23 @@
+{
+  "parent": "cavemind:chuong/c2_nen",
+  "display": {
+    "icon": {
+      "item": "cavemind:con_quay_linh"
+    },
+    "title": {
+      "text": "Chương 2: Tiếng Gõ Bên Dưới"
+    },
+    "description": {
+      "text": "Thắng ván trốn tìm của Linh"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

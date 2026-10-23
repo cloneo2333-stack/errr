@@ -1,0 +1,16 @@
+{
+ "sodium.console.broken_nvidia_driver": "Trình điều khiển đồ họa NVIDIA của bạn đã cũ!\n  * Việc này sẽ gây lỗi hiệu năng nghiêm trọng và sập trò chơi khi cài Embeddium.\n  * Hãy cập nhật trình điều khiển đồ họa lên bản mới nhất (bản 536.23 trở lên.)",
+ "sodium.console.core_shaders_error": "Các gói tài nguyên sau không tương thích với Embeddium:",
+ "sodium.console.core_shaders_info": "Xem nhật ký trò chơi để biết thông tin chi tiết.",
+ "sodium.console.core_shaders_warn": "Các gói tài nguyên sau có thể không tương thích với Embeddium:",
+ "sodium.console.game_restart": "Phải khởi động lại trò chơi để áp dụng một hoặc nhiều cài đặt hình ảnh!",
+ "sodium.console.pojav_launcher": "PojavLauncher không được hỗ trợ khi dùng Embeddium.\n  * Bạn rất dễ gặp lỗi hiệu năng nghiêm trọng, lỗi hình ảnh và sập trò chơi.\n  * Bạn sẽ phải tự xoay xở nếu quyết định tiếp tục: chúng tôi sẽ không giúp với bất kỳ lỗi hay sự cố sập nào!",
+ "sodium.option_impact.high": "Cao",
+ "sodium.option_impact.low": "Thấp",
+ "sodium.option_impact.medium": "Vừa",
+ "sodium.options.buttons.apply": "Áp dụng",
+ "sodium.options.buttons.undo": "Hoàn tác",
+ "sodium.options.leaves_quality.name": "Lá",
+ "sodium.options.pages.advanced": "Nâng cao",
+ "sodium.options.pages.performance": "Hiệu năng"
+}

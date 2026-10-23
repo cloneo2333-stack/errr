@@ -1,0 +1,23 @@
+{
+  "parent": "cavemind:ban_suong/co_nguoi_choi_cung",
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_trapdoor"
+    },
+    "title": {
+      "text": "Trốn Đúng Luật"
+    },
+    "description": {
+      "text": "Thắng một ván ở Giờ Thứ Bốn Mươi Tám"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

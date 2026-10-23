@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "vn.cavemind.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "cavemind.refmap.json",
+  "mixins": [
+    "DamnedCollideMixin",
+    "DamnedSpawnMixin",
+    "DamnedTickMixin",
+    "EntityVisibilityMixin",
+    "ManCrawlerTickMixin",
+    "ManStalkerTickMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

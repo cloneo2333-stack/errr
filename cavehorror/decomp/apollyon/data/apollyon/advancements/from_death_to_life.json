@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "apollyon:rose_of_life"
+    },
+    "title": {
+      "translate": "advancements.from_death_to_life.title"
+    },
+    "description": {
+      "translate": "advancements.from_death_to_life.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "from_death_to_life_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "apollyon:working_with_what_weve_got"
+}

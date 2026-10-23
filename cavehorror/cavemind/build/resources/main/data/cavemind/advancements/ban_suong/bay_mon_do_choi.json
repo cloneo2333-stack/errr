@@ -1,0 +1,23 @@
+{
+  "parent": "cavemind:ban_suong/tron_dung_luat",
+  "display": {
+    "icon": {
+      "item": "minecraft:red_dye"
+    },
+    "title": {
+      "text": "Bảy Món Đồ Chơi"
+    },
+    "description": {
+      "text": "Trả đủ bảy món đồ chơi cho đứa trẻ thứ tám"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

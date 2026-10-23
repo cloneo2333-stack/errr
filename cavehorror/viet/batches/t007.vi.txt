@@ -1,0 +1,220 @@
+2808	Chế tạo Kẹo vĩnh cửu
+2812	Chế tạo Vết cắn nhện
+2813	Chế tạo Gậy Kẻ gọi xương
+2846	Tạo một quả Bom say xỉn hoặc Bom kích thích
+2851	Tạo Thuốc tiên biến đổi
+2852	Tạo Linh hồn bí ngô của riêng bạn
+2872	Bánh quy rợn người với sữa
+2874	Món quà rợn người
+2875	Kẹp hạt dẻ rợn người
+2876	Đầu người tuyết rợn người
+3036	Bí ngô trồng
+3037	Nét văn hóa
+3056	Lời nguyền con thuyền
+3058	Dấu ấn nguyền rủa
+3169	Thợ rèn bóng tối
+3172	Luồng bóng tối
+3173	Kẻ sáng tạo bóng tối
+3175	Rèn bóng tối
+3177	Lưới bóng tối
+3178	Băng bóng tối
+3185	Tấm giáp kim loại tối
+3186	Khối kim loại tối
+3187	Mỏ kim loại tối
+3188	Phôi kim loại tối
+3189	Hạt kim loại tối
+3190	Luyện kim bóng tối
+3312	Que bóng tối
+3313	Vũng bóng tối
+3316	Lốc xoáy bóng tối
+3317	Sinh ra Lốc xoáy bóng tối
+3318	Trứng sinh ra Lốc xoáy bóng tối
+3319	Bùa hộ mệnh bóng tối
+3480	Thây ma thối rữa
+3481	Sinh ra Thây ma thối rữa
+3482	Trứng sinh ra Thây ma thối rữa
+3483	Hy vọng bị lừa dối
+3484	Biểu tượng Hy vọng bị lừa dối
+3505	Bộ xương mục nát
+3506	Sinh ra Bộ xương mục nát
+3507	Trứng sinh ra Bộ xương mục nát
+3639	Kích nổ
+3690	Mối kim cương
+3691	Mảnh mối kim cương
+3692	Trứng sinh ra Mối kim cương
+3725	Chó dữ đầu đàn
+3726	Trứng sinh ra Chó dữ đầu đàn
+3757	Linh hồn tan biến dưới ánh mặt trời
+3776	Hộp chiến lợi phẩm ghê tởm
+3837	Quậy phá đủ để Krampus tìm đến bạn
+3868	Hưu chiến với chó
+3873	Hiệp sĩ cánh cửa
+3874	Sinh ra Hiệp sĩ cánh cửa
+3875	Trứng sinh ra Hiệp sĩ cánh cửa
+3882	Nổ kép
+3884	Rắc rối nhân đôi
+3885	Biểu tượng Rắc rối nhân đôi
+3907	Chó săn kinh hoàng
+3908	Sinh ra Chó săn kinh hoàng
+3909	Trứng sinh ra Chó săn kinh hoàng
+3968	Ăn đồ hun khói
+4047	Đèn ma trơi rỗng
+4278	Bước vào một thế giới đầy hiểm nguy
+4330	Mặc trọn bộ Giáp kim loại tối
+4331	Mặc trọn bộ Giáp ác mộng
+4332	Mặc trọn bộ Giáp vỏ gai
+4350	Linh hồn hư ảo
+4358	Bí ngô khắc mặt quỷ
+4359	Máy đo độ ác
+4364	Biểu tượng Đập ruồi quá tay
+4365	Đập ruồi quá tay
+4375	Trừ tà
+4376	Biểu tượng Trừ tà
+4383	Bình chứa kinh nghiệm
+4392	Tính khí bùng nổ
+4475	Hiệp sĩ hỗn loạn sa ngã
+4476	Sinh ra Hiệp sĩ hỗn loạn sa ngã
+4477	Trứng sinh ra Hiệp sĩ hỗn loạn sa ngã
+4488	Nanh chó đầu đàn
+4513	Cho Cua vỏ gai ăn thịt thối rữa hoặc cá thối
+4519	Ngựa ma
+4520	Trứng sinh ra Ngựa ma
+4528	Chiến đấu với ác mộng
+4703	Bụi ánh lửa
+4708	Đá sét đen nung
+4709	Ánh lửa
+4710	Sinh ra Ánh lửa
+4711	Trứng sinh ra Ánh lửa
+4715	Hơi thở mùi cá
+4724	Bí ngô quỷ rực lửa
+4769	Đại chiến đồ ăn
+4812	Ván cháy sém dễ vỡ
+4827	Làm thơm hơi thở
+4832	Giòi chiên
+4876	Cơn cuồng nộ điên loạn
+4882	Xương hợp nhất
+4895	Ánh mắt kinh hoàng
+4909	Sinh kim cương bị nhiễm
+15393	Giết liền năm mạng bằng Rìu đại tử thần trong thời gian ngắn
+4914	Có được một mẩu kim loại tối
+4915	Có được mọi đĩa nhạc của Born in Chaos
+4916	Có được Thuốc tiên chống côn trùng
+4917	Có được Thuốc tiên ma cà rồng
+4920	Có được Mũ của Lord Pumpkinhead
+4926	Có được Mũ của Nhà truyền giáo
+4927	Có được Mũ rộng vành của Linh hồn dẫn đường
+5009	Cá tham ăn
+5010	Mắt cá tham ăn
+5011	Sinh ra Cá tham ăn
+5012	Trứng sinh ra Cá tham ăn
+5013	Dạ dày cá tham ăn
+5014	Xương bị gặm
+5060	Lính đặt mìn tốt bụng
+5061	Biểu tượng Lính đặt mìn tốt bụng
+5110	Kẻ phá mộ
+5117	Biểu tượng bia mộ
+5210	Kính hoa văn xanh lá
+5211	Tấm kính hoa văn xanh lá
+5256	Răng ma cà rồng dẻo
+5296	Mũ cho những phi vụ đen tối
+5297	Gã đội mũ
+5298	Mũ
+5304	Có đủ mọi loại vũ khí kim loại tối trong túi đồ
+5325	Kẻ trộm tim
+5529	Ném trúng ai đó bằng thịt quái vật
+5554	Kẹo ngày lễ
+5593	Nỗi kinh hoàng dưới vực sâu
+5594	Nỗi kinh hoàng dưới lớp áo
+5663	Hàng rào băng
+5793	Bí ngô quỷ địa ngục
+5797	Thuốc địa ngục
+5798	Biểu tượng Thuốc địa ngục
+5799	Lính ngự lâm địa ngục
+5802	Linh hồn địa ngục
+5803	Trứng sinh ra Linh hồn địa ngục
+5804	Nạn dịch ruồi
+5836	Chống côn trùng
+5837	Thuốc đuổi côn trùng
+5871	Nước sắc say xỉn
+5872	Say xỉn
+6129	đòn cắn hàm
+6274	Thầy triệu hồi tập sự
+15521	Giết một Ruồi xác chết bằng Kiếm chiến kim loại tối khi đang trong cơn cuồng nộ cấp 5.
+6312	Giết một quái vật bị linh hồn hỗn loạn nhập
+6316	Giết Cá tham ăn
+6317	Giết Kẻ hút sinh lực
+6318	Giết Lord Pumpkinhead
+6319	Giết Sir Pumpkinhead
+6320	Giết Nhện mẹ
+6321	Giết Kẻ gọi xương
+6323	Giết Lốc xoáy bóng tối
+6324	Giết Chó dữ đầu đàn
+6325	Giết Krampus
+6327	Giết Nhà truyền giáo
+6328	Giết Kẻ rình ác mộng
+6329	Giết Bộ xương đặt mìn
+6330	Giết Linh hồn dẫn đường
+6331	Giết Kẻ gọi xương tối cao
+6332	Giết Thây ma chú hề
+6353	Krampus
+6354	Tay sai của Krampus
+6355	Trứng sinh ra Tay sai của Krampus
+6356	Sừng Krampus
+6357	Sinh ra Krampus
+6358	Trứng sinh ra Krampus
+6359	Bao tải của Krampus
+6374	Đêm cuối
+6441	Đời hóa ra là một vở hài kịch
+6442	Kẻ hút sinh lực
+6443	Xương Kẻ hút sinh lực
+6444	Sọ Kẻ hút sinh lực
+6445	Sinh ra Kẻ hút sinh lực
+6446	Trứng sinh ra Kẻ hút sinh lực
+6447	Biểu tượng Đời hóa ra là một vở hài kịch
+6557	Cuồng nộ nhẹ
+6648	Thuốc say xỉn kéo dài
+6649	Thuốc kén sống kéo dài
+6650	Thuốc hút cạn ma lực kéo dài
+6651	Thuốc kích thích kéo dài
+6686	Kén sống
+6756	Biểu tượng Lord Pumpkinhead
+6757	Đèn rỗng của Lord Pumpkinhead
+6759	Đồ thất lạc
+6861	Giòi xuất hiện
+6896	Hút cạn ma lực
+6982	Sọ phép thuật
+7121	Tấn công Creeper bóng ma để nó tách ra
+7390	Cúc vạn thọ
+7448	Cuồng nộ vừa
+7457	Cửa lưới
+7513	Đào Quặng kim cương bị xâm chiếm
+7539	Triệu hồi tay sai
+7540	Kẹo bạc hà
+7541	Kem bạc hà
+7557	Nhà truyền giáo
+7558	Biểu tượng Nhà truyền giáo
+7559	Sinh ra Nhà truyền giáo
+7560	Trứng sinh ra Nhà truyền giáo
+7623	Thịt quái vật
+7624	Da quái vật
+7628	Trứng Phục Sinh quái dị
+7637	Gạch đá sét đen phủ rêu
+7664	Sinh ra Nhện mẹ
+7686	Ông Nước Sắc
+7687	Ông Bí Ngô
+7688	Trứng sinh ra Ông Bí Ngô
+7690	Bà Bí Ngô
+7691	Trứng sinh ra Bà Bí Ngô
+7737	Vừa cỡ tôi!
+7739	Bệnh giòi
+7769	Cơ chế hư đốn
+7770	Đứa trẻ hư
+7893	Vuốt ác mộng
+7899	Kẻ rình ác mộng
+7900	Sọ Kẻ rình ác mộng
+7901	Sinh ra Kẻ rình ác mộng
+7902	Trứng sinh ra Kẻ rình ác mộng
+8124	Ám ảnh
+8279	Kính hoa văn cam
+8280	Tấm kính hoa văn cam
+8307	Kính hoa văn

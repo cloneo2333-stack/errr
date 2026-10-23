@@ -1,0 +1,23 @@
+{
+  "parent": "cavemind:ban_suong/bay_mon_do_choi",
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_sign"
+    },
+    "title": {
+      "text": "Đếm Tới Một Trăm"
+    },
+    "description": {
+      "text": "Úp mặt vào cây đếm và đếm hộ nó tới một trăm"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

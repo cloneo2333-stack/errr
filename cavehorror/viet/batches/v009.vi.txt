@@ -1,0 +1,300 @@
+14682	§7thứ gì đó bằng nó?
+14689	§7công trình.
+14690	§7nâng đỡ một sinh vật nặng nề và mạnh mẽ hơn.
+14691	§7Mảnh vải rách mang màu hoa hồng.
+14692	§7chiếc lọ, hiện ra rồi biến vào
+14693	§7Chân của một sinh vật hang yếu ớt.
+14696	§7để mang lại chiến thắng trong chiến đấu. Rơi ra từ
+14699	§7Dùng để áp dụng lõi nâng cấp
+14702	§7Khi có lỗi xảy ra trong lúc phát triển, bạn
+14830	§9Thấm phép: Ác tính (08:00)
+14848	§9Thịnh nộ II (06:00)
+4455	Không xử lý được cấu hình từ máy chủ: %s
+142	%d mB %s
+631	Kho không gian AE2
+692	Mọi chất lỏng
+695	Mọi hình ảnh
+697	Mọi vật phẩm
+1688	Sắc xanh nước biển
+1751	Dưới bên trái
+1753	Dưới bên phải
+2142	Màu trò chuyện
+2487	Màu
+3098	Cắt
+3762	Bỏ các thay đổi chưa lưu?
+3851	Bạn có muốn xóa %s không?
+3950	Màu thuốc nhuộm
+3977	Sửa khả năng
+15324	Sửa NBT\n§7Nhấp chuột trái: trình sửa chuỗi nhanh\n§7Nhấp chuột phải: trình sửa NBT tương tác
+4742	Bình chứa chất lỏng
+4851	FTB Library: Gian lận
+4852	FTB Library: Thông tin
+4853	FTB Library: Tiện ích
+5234	Sắc xanh lá
+5630	Hyperbox
+6150	JEI
+6569	Thích mod này? Nhấp để ủng hộ các dự án của tôi!
+6676	Chế độ danh sách
+7668	Di chuyển
+7962	Giao diện Nord
+8160	Ngoại tuyến
+8188	Trực tuyến
+9413	Màu gần đây
+9623	Sắc đỏ
+9770	REI
+10356	Quét lại hình ảnh
+10536	Nhấp chuột phải vào bồn chứa để đổ bình chứa
+10739	Đang quét hình ảnh: việc này có thể mất vài giây...
+10920	Chọn chất lỏng
+10987	Đặt tên hiển thị
+10995	Đặt kích thước
+11000	Chỉnh thời gian sang ban ngày
+11001	Chỉnh thời gian sang ban đêm
+12810	Nether
+13045	Đổi chế độ chơi
+13052	Bật tắt mưa
+13093	Trên bên trái
+13095	Trên bên phải
+13541	Giá trị
+136	%d E
+137	%d EU
+138	%d FE
+139	%d bị ẩn
+141	%d Mana
+143	%d MJ
+144	%d đối tượng
+145	Cần %d
+146	%d phần thưởng bị chặn cho đội '%s'
+303	...và %d cái nữa
+308	/ftbquests export_rewards_to_chest <reward_table>
+15019	/ftbquests import_rewards_from_chest <reward_table> [weight] [replace]
+309	0 nghĩa là dùng mặc định của chương
+349	[Dùng ngôn ngữ mặc định]
+551	Thêm làm điều kiện cho mục đã chọn
+553	Thêm hình ảnh
+557	Thêm ngắt trang
+560	Thêm phần thưởng cho tất cả...
+561	Thêm các mục đã chọn làm điều kiện
+563	Thêm dòng chữ
+587	Chỉnh chiều cao theo tỉ lệ khung
+589	Chỉnh chiều rộng theo tỉ lệ khung
+628	Tiến trình
+680	Căn chỉnh
+687	Đã hoàn thành mọi chương!
+689	Hoàn thành tất cả
+703	Bắt đầu tất cả
+704	Phần thưởng toàn bảng
+741	Cho phép lấy khối nhiệm vụ từ giao diện nhiệm vụ.
+742	Cho phép bắt đầu nhiệm vụ mà không cần hoàn thành điều kiện
+743	Cho phép lấy khối nhiệm vụ
+791	Luôn ẩn
+799	Số lượng
+1030	Tự nhận
+1032	Tự ghim: Tắt
+1033	Tự ghim: Bật
+1040	Tự chuyển mọi vật phẩm
+1041	Mã nhiệm vụ tự chọn
+1081	Phím Backspace để xem lịch sử
+1205	Rào chắn
+1254	Đã đọc
+1563	Lớp khối thực thể
+1564	Mã khối thực thể
+1567	Mã khối
+1738	Trùm
+1742	Mana Botania
+1820	Khối hỏng hoặc thiếu dữ liệu!
+1890	Năng lượng BuildCraft
+2102	Tỉ lệ: %s
+2105	Đổi nhóm
+2106	Đổi tiến độ
+2107	Đổi kích thước cho tất cả...
+2109	Đã đổi cài đặt tiêu hao của %d nhiệm vụ vật phẩm thành %s
+2110	Đã đổi cài đặt đội của %d phần thưởng thành %s
+2111	Đã đổi trọng số phần thưởng vật phẩm theo EMC trong %s
+2126	Chương
+2127	Đã hoàn thành chương!
+2128	Nhóm chương
+2129	Nhóm chương
+2130	phụ đề chương
+2131	Chương
+2153	Kiểm tra nhiệm vụ có đang hoạt động không
+2156	Dấu tích
+2319	Phần thưởng tự chọn
+2344	Hình tròn
+2352	Nhận mọi phần thưởng
+2375	Xóa nhiệm vụ tự chọn
+2376	Xóa định dạng
+2380	Xóa phần thưởng khỏi tất cả
+2386	Nhấp
+2389	Nhấp vào đây để đọc thêm...
+2390	Nhấp để nhận mọi phần thưởng!
+2398	Nhấp để nộp
+2399	Nhấp để nộp mọi vật phẩm
+2402	Nhấp để xem công thức
+2403	Nhấp để xem vật phẩm hợp lệ
+2506	Lệnh
+2527	Hoàn thành
+2528	Hoàn thành (kèm điều kiện)
+2530	Hoàn thành ngay
+2531	Hoàn thành nhiệm vụ này ngay?
+2532	Đã hoàn thành %s lần
+2533	Đã hoàn thành %s lần
+2535	Hoàn thành mục này sẽ khóa các nhánh khác
+2536	Lệnh khi hoàn thành
+2569	Bộ cấu hình đã gắn: %s
+2588	Tiêu hao vật phẩm
+2589	Tiêu hao vật phẩm
+15281	Điều khiển việc hiện đường nối điều kiện từ các nhiệm vụ mở khóa nhiệm vụ này
+15282	Điều khiển việc hiện đường nối điều kiện tới các nhiệm vụ được nhiệm vụ này mở khóa
+2610	Chuyển dòng sang Json
+2612	Chuyển thành bộ lọc thẻ '%s'
+2666	Thời gian hồi để vật phẩm khẩn cấp xuất hiện lại.
+2674	Đã sao chép đối tượng:
+2696	Sao chép mã
+2701	Không hỗ trợ sao chép nhiều đối tượng!
+2772	Số lượng
+3004	Tiêu chí
+3066	Tùy chỉnh
+3075	Biểu tượng tùy chỉnh
+3076	Biểu tượng tùy chỉnh
+3089	Tiêu đề tùy chỉnh
+3092	Hội thoại CustomNPCs
+3093	Phe CustomNPCs
+3094	Thư CustomNPCs
+3095	Nhiệm vụ CustomNPCs
+3096	Mã nhiệm vụ CustomNPCs
+3097	Tiêu đề nhiệm vụ CustomNPCs
+3550	Mặc định 'Ẩn đường nối điều kiện'
+3551	Mặc định 'Chế độ tiến triển'
+3552	Mặc định 'Nhiệm vụ lặp lại'
+3563	Mặc định 'Tiêu hao vật phẩm' cho nhiệm vụ vật phẩm
+3565	Chiều rộng tối thiểu mặc định của cửa sổ nhiệm vụ đang mở
+3569	Hình dạng nhiệm vụ mặc định
+3570	Kích thước nhiệm vụ mặc định
+15300	Mặc định: vật phẩm phải có thẻ 'itemfilters:check_nbt'\nSai: không bao giờ kiểm tra NBT\nĐúng: luôn kiểm tra NBT
+3577	Mặc định
+3593	Đã xóa %s bảng phần thưởng trống
+3605	Điều kiện
+3606	Điều kiện
+3607	Yêu cầu điều kiện
+3663	Mã hội thoại
+3736	Tắt thông báo hoàn thành
+3738	Tắt giao diện
+3741	Tắt công thức JEI
+3742	Tắt thùng chiến lợi phẩm
+3763	Bỏ các thay đổi chưa lưu?
+3863	Không áp dụng cho trò chơi nhiều người
+3867	Không tiêu hao vật phẩm
+3892	Tải tệp nhiệm vụ
+3905	Vẽ bóng chữ
+3920	Rơi Sách FTB Quests khi chết
+3923	Rơi ra từ:
+3961	E
+3979	Sửa tệp
+3981	Sửa nhiệm vụ liên kết
+3984	Sửa bảng phần thưởng
+3985	Sửa các bảng phần thưởng
+3990	Sửa chữ
+3992	Đã tắt chế độ chỉnh sửa cho '%s'
+3993	Đã bật chế độ chỉnh sửa cho '%s'
+15325	Chế độ chỉnh sửa\nCtrl + chuột trái;Bật tắt chọn\nAlt trái + chuột trái;Thuộc tính nhiệm vụ\nAlt phải + chuột trái;Sao chép nhiệm vụ\nChuột giữa;Di chuyển nhiệm vụ đã chọn\nChuột phải;Trình đơn ngữ cảnh\nKéo chuột giữa;Chọn nhiệm vụ trong vùng kéo\nCtrl + kéo chuột giữa;Bật tắt chọn trong vùng\nCtrl + A;Chọn tất cả\nCtrl + D;Bỏ chọn tất cả\nCtrl + Lên/Xuống/Trái/Phải;Di chuyển nhiệm vụ đã chọn\nCtrl + R;Bật tắt đường gióng\nCtrl + C;Sao chép đối tượng đang chọn hoặc đang rê chuột\nCtrl + V;Dán phần đã chọn\nCtrl + Shift + V;Dán nhiệm vụ (không kèm điều kiện)\nCtrl + Alt + V;Dán làm liên kết nhiệm vụ\n\nBảng xem nhiệm vụ\nT;Sửa tiêu đề nhiệm vụ\nS;Sửa phụ đề nhiệm vụ\nD;Sửa mô tả nhiệm vụ
+4025	EMC
+4030	Vật phẩm khẩn cấp
+4031	Vật phẩm khẩn cấp
+4032	Thời gian hồi vật phẩm khẩn cấp
+4053	Trọng số rỗng
+4198	Bật thùng chiến lợi phẩm
+4210	Bật, ẩn
+4211	Bật, không thông báo
+4288	Thực thể rơi thùng chiến lợi phẩm
+4298	Lớp thực thể
+4299	Đồ rơi từ thực thể
+4303	Mã thực thể
+4309	Trọng số rỗng khi thực thể rơi thùng chiến lợi phẩm
+4310	Tên thực thể
+4315	Thực thể: %s
+4328	Sử thi
+4344	LỖI: không rõ thùng chiến lợi phẩm '%s'!
+4351	EU
+4366	Không tính vào Nhận tất cả
+4369	Nhánh nhiệm vụ độc quyền
+4403	Xuất bảng tính
+4410	Đã xuất %s / %s vật phẩm từ '%s'
+4445	Mã phe
+4479	Chuyển về dùng '%s'
+15357	Sai: cần khớp NBT chính xác\nĐúng: các trường NBT có ở vật phẩm được kiểm tra nhưng không có ở vật phẩm lọc sẽ không làm hỏng việc khớp
+4506	FE / RF
+4577	Tìm công trình
+4720	Vừa với chiều rộng bảng?
+4729	Linh hoạt
+4740	Chất lỏng
+4743	NBT chất lỏng
+4791	Năng lượng Forge
+4854	FTB Quests
+4855	Tiến độ FTB Quests
+4871	Xem nhiệm vụ toàn màn hình
+4894	Đã cho vật phẩm nhiệm vụ: %s
+4896	Bánh răng
+15392	Điều khiển chung\n-;Thu nhỏ\n+;Phóng to\n0;Đặt lại thu phóng\nTab;Chương tiếp\nShift + Tab;Chương trước\n1 tới 9;Tới chương\nPhím cách;Đưa khung nhìn về giữa\nCtrl + F;Tìm kiếm\nF1;Khi rê chuột lên nhiệm vụ, hiện thông tin mở rộng\nChuột trái;Xem chi tiết nhiệm vụ\nCon lăn chuột;Cuộn lên xuống\nShift + con lăn chuột;Cuộn trái phải\nCtrl + con lăn chuột;Phóng to thu nhỏ
+4918	Lấy vật phẩm
+5000	Phát sáng
+5017	Tới nhiệm vụ liên kết (trong chương: %s)
+5069	Lấy bản sao vật phẩm
+5237	Tỉ lệ lưới
+5253	Giao diện vẫn đang làm dở
+5254	Trang hướng dẫn
+5324	Trái tim
+5334	Chiều cao
+5475	Lục giác
+5483	Ẩn đường nối điều kiện
+5484	Ẩn đường nối phụ thuộc
+5485	Ẩn chi tiết cho tới khi bắt đầu được
+5490	Ẩn biểu tượng
+5495	Ẩn biểu tượng khóa
+5497	Ẩn chi tiết nhiệm vụ cho tới khi bắt đầu được
+5498	Ẩn nhiệm vụ cho tới khi hoàn thành điều kiện
+5499	Ẩn nhiệm vụ cho tới khi điều kiện hiện ra
+5500	Ẩn nhiệm vụ trong các tuyến nhiệm vụ bị loại
+5501	Ẩn nhiệm vụ cho tới khi hoàn thành điều kiện
+5502	Ẩn nhiệm vụ cho tới khi điều kiện hiện ra
+5507	Ẩn chữ cho tới khi hoàn thành nhiệm vụ
+15409	Ẩn biểu tượng khóa thường hiện khi nhiệm vụ bị khóa vì điều kiện
+5511	Ẩn vật phẩm hợp lệ
+5527	Đánh dấu phần chưa dịch
+5550	Giữ Shift: chuyển mọi dòng
+5612	Chữ khi rê chuột
+5661	Năng lượng IC2
+5665	Biểu tượng
+5668	Tỉ lệ biểu tượng
+5671	Mã
+15447	Nếu lớn hơn 0, chỉ được hoàn thành tối đa số nhiệm vụ phụ thuộc này, các nhiệm vụ phụ thuộc chưa hoàn thành sẽ bị khóa\nHữu ích để tạo các nhánh độc quyền trong tuyến nhiệm vụ
+5702	Nếu sai, các nhiệm vụ bị loại vẫn hiện nhưng bị làm xám
+5703	Nếu túi đồ đã có vật phẩm đó thì không cho. Bỏ qua NBT.
+15482	Nếu không trống, phải là mã Nhiệm vụ hoặc Liên kết nhiệm vụ (dùng Sao chép mã nhiệm vụ để lấy).\nKhi mở chương, bảng sẽ tự đưa khung nhìn về nhiệm vụ này
+15488	Nếu đúng, chữ nhiệm vụ chưa có bản dịch cho ngôn ngữ hiện tại sẽ được đánh dấu khi ở chế độ chỉnh sửa và ngôn ngữ chỉnh sửa khác 'en_us'
+15489	Nếu đúng, chi tiết nhiệm vụ (chữ và yêu cầu) không xem được cho tới khi nhiệm vụ bắt đầu được
+15492	Nếu đặt lớn hơn 0, đây sẽ thành nhiệm vụ HOẶC, chỉ cần một số điều kiện nhất định là mở khóa
+5710	Bỏ qua hư hại
+5711	Bỏ qua chiều không gian
+5719	Bỏ qua việc chặn phần thưởng
+15493	Bỏ qua phần thưởng này khi nhấn nút "Nhận tất cả"\nKhông đổi được cài đặt này cho loại phần thưởng Chiến lợi phẩm, Ngẫu nhiên\n và Tự chọn
+5722	Bị bỏ qua nếu Số điều kiện tối thiểu lớn hơn 0
+5727	Hình ảnh
+5728	Độ trong của hình ảnh
+5729	Thứ tự hình ảnh
+5730	Màu phủ hình ảnh
+5745	Đã nhập %d vật phẩm vào %s
+5786	Không phụ thuộc kích thước nút chung
+5787	Không thể phá hủy
+5828	Biểu tượng chế độ đầu vào
+5829	Chỉ đầu vào
+5830	Ô đầu vào
+5842	Chèn liên kết
+15507	Thụt vào phía giữa màn hình.\nBị bỏ qua nếu vị trí X ở giữa.
+15508	Thụt vào phía giữa màn hình.\nBị bỏ qua nếu vị trí Y ở giữa.
+5859	Tương tác
+5873	Loại changeProgress không hợp lệ: %s!
+5874	Mã chương không hợp lệ!
+5879	Mã đối tượng không hợp lệ: %s!
+5883	Loại tiến độ không hợp lệ: %s
+5885	Mã bảng phần thưởng không hợp lệ!

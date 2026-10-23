@@ -1,0 +1,854 @@
+[22Oct2026 02:46:34.741] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\ACER\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --quickPlaySingleplayer, cmtest, --username, Tester, --mixin.config, cavemind.mixins.json]
+[22Oct2026 02:46:34.745] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.20.1 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[22Oct2026 02:46:34.780] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
+[22Oct2026 02:46:34.794] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[22Oct2026 02:46:34.809] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
+[22Oct2026 02:46:34.824] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[22Oct2026 02:46:34.831] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is E:\Document\New project 5\Claude\1\cavehorror\cavemind\runc
+[22Oct2026 02:46:34.831] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is E:\Document\New project 5\Claude\1\cavehorror\cavemind\runc\mods
+[22Oct2026 02:46:34.831] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is E:\Document\New project 5\Claude\1\cavehorror\cavemind\runc\config
+[22Oct2026 02:46:34.831] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is E:\Document\New project 5\Claude\1\cavehorror\cavemind\runc\config\fml.toml
+[22Oct2026 02:46:34.876] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: 
+[22Oct2026 02:46:34.883] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[22Oct2026 02:46:34.964] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[22Oct2026 02:46:35.261] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[22Oct2026 02:46:35.345] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
+[22Oct2026 02:46:35.346] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[22Oct2026 02:46:35.347] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[22Oct2026 02:46:35.347] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[22Oct2026 02:46:35.347] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[22Oct2026 02:46:35.349] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 1.0
+[22Oct2026 02:46:35.350] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 1.0 loading
+[22Oct2026 02:46:35.350] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 10.0.9+10.0.9+main.dcd20f30
+[22Oct2026 02:46:35.351] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
+[22Oct2026 02:46:35.353] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 6.0.5+6.0.5+master.eb8e549b
+[22Oct2026 02:46:35.353] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[22Oct2026 02:46:35.355] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.1.6
+[22Oct2026 02:46:35.356] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 7.0.1+7.0.1+master.d2b38bf6
+[22Oct2026 02:46:35.356] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 5
+[22Oct2026 02:46:35.357] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[22Oct2026 02:46:35.358] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[22Oct2026 02:46:35.366] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[22Oct2026 02:46:35.366] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[22Oct2026 02:46:35.384] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@3e2e18f2
+[22Oct2026 02:46:35.400] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/ACER/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[22Oct2026 02:46:35.404] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[22Oct2026 02:46:35.405] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[22Oct2026 02:46:35.405] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[22Oct2026 02:46:35.406] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[22Oct2026 02:46:35.406] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[22Oct2026 02:46:35.407] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[22Oct2026 02:46:35.409] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[22Oct2026 02:46:35.409] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[22Oct2026 02:46:35.410] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[22Oct2026 02:46:35.410] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is E:\Document\New project 5\Claude\1\cavehorror\cavemind\runc
+[22Oct2026 02:46:35.410] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is E:\Document\New project 5\Claude\1\cavehorror\cavemind\runc\mods
+[22Oct2026 02:46:35.410] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is E:\Document\New project 5\Claude\1\cavehorror\cavemind\runc\config
+[22Oct2026 02:46:35.410] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is E:\Document\New project 5\Claude\1\cavehorror\cavemind\runc\config\fml.toml
+[22Oct2026 02:46:35.410] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[22Oct2026 02:46:35.413] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[22Oct2026 02:46:35.416] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[22Oct2026 02:46:35.416] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forgeclientuserdev as launch service
+[22Oct2026 02:46:35.416] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) UHD Graphics GL version 4.6.0 - Build 31.0.101.4032, Intel
+[22Oct2026 02:46:35.429] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[forgeVersion=47.3.0, mcVersion=1.20.1, mcpVersion=20230612.114412, forgeGroup=net.minecraftforge]
+[22Oct2026 02:46:35.430] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[22Oct2026 02:46:35.430] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'mcp'
+[22Oct2026 02:46:35.431] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {srg=srgtomcp:1234}
+[22Oct2026 02:46:35.431] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[22Oct2026 02:46:35.432] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[22Oct2026 02:46:35.432] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[22Oct2026 02:46:35.432] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[22Oct2026 02:46:35.432] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[22Oct2026 02:46:35.444] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[22Oct2026 02:46:35.448] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null)
+[22Oct2026 02:46:35.448] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Dependency Locators : (JarInJar:null)
+[22Oct2026 02:46:35.456] [main/DEBUG] [net.minecraftforge.fml.loading.targets.CommonLaunchHandler/CORE]: Got mod coordinates cavemind%%E:\Document\New project 5\Claude\1\cavehorror\cavemind\build\resources\main;cavemind%%E:\Document\New project 5\Claude\1\cavehorror\cavemind\build\classes\java\main from env
+[22Oct2026 02:46:35.457] [main/DEBUG] [net.minecraftforge.fml.loading.targets.CommonLaunchHandler/CORE]: Found supplied mod coordinates [{cavemind=[E:\Document\New project 5\Claude\1\cavehorror\cavemind\build\resources\main, E:\Document\New project 5\Claude\1\cavehorror\cavemind\build\classes\java\main]}]
+[22Oct2026 02:46:35.747] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.20.1-47.3.0_mapped_official_1.20.1.jar with {minecraft} mods - versions {1.20.1}
+[22Oct2026 02:46:35.753] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar
+[22Oct2026 02:46:35.754] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[22Oct2026 02:46:35.759] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar
+[22Oct2026 02:46:35.759] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[22Oct2026 02:46:35.764] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar
+[22Oct2026 02:46:35.764] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[22Oct2026 02:46:35.769] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar
+[22Oct2026 02:46:35.769] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[22Oct2026 02:46:35.774] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate E:\Document\New project 5\Claude\1\cavehorror\cavemind\build\resources\main
+[22Oct2026 02:46:35.782] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {cavemind} mods - versions {5.3.0}
+[22Oct2026 02:46:35.786] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
+[22Oct2026 02:46:35.789] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {forge} mods - versions {47.3.0}
+[22Oct2026 02:46:35.814] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from main, it does not contain dependency information.
+[22Oct2026 02:46:35.815] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from forge-1.20.1-47.3.0_mapped_official_1.20.1.jar, it does not contain dependency information.
+[22Oct2026 02:46:35.815] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from , it does not contain dependency information.
+[22Oct2026 02:46:35.815] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from mclanguage-1.20.1-47.3.0.jar, it does not contain dependency information.
+[22Oct2026 02:46:35.815] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from javafmllanguage-1.20.1-47.3.0.jar, it does not contain dependency information.
+[22Oct2026 02:46:35.815] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from fmlcore-1.20.1-47.3.0.jar, it does not contain dependency information.
+[22Oct2026 02:46:35.815] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from lowcodelanguage-1.20.1-47.3.0.jar, it does not contain dependency information.
+[22Oct2026 02:46:35.848] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[22Oct2026 02:46:35.850] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.20.1-47.3.0_mapped_official_1.20.1.jar with {minecraft} mods - versions {1.20.1}
+[22Oct2026 02:46:35.853] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\ACER\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.0_mapped_official_1.20.1\forge-1.20.1-47.3.0_mapped_official_1.20.1.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[22Oct2026 02:46:35.854] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate E:\Document\New project 5\Claude\1\cavehorror\cavemind\build\resources\main
+[22Oct2026 02:46:35.857] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {cavemind} mods - versions {5.3.0}
+[22Oct2026 02:46:35.857] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file E:\Document\New project 5\Claude\1\cavehorror\cavemind\build\resources\main with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[22Oct2026 02:46:35.857] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
+[22Oct2026 02:46:35.858] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {forge} mods - versions {47.3.0}
+[22Oct2026 02:46:35.858] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file / with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
+[22Oct2026 02:46:35.913] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+[22Oct2026 02:46:35.914] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+[22Oct2026 02:46:35.914] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+[22Oct2026 02:46:35.914] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod method_redirector with Javascript path coremods/method_redirector.js
+[22Oct2026 02:46:35.914] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_method.js
+[22Oct2026 02:46:35.914] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_instanceof.js
+[22Oct2026 02:46:35.915] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/add_bouncer_method.js
+[22Oct2026 02:46:35.915] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/method_redirector.js
+[22Oct2026 02:46:35.915] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[22Oct2026 02:46:35.927] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 3 language providers
+[22Oct2026 02:46:35.928] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1.0
+[22Oct2026 02:46:35.928] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider lowcodefml, version 47
+[22Oct2026 02:46:35.928] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 47
+[22Oct2026 02:46:35.933] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Configured system mods: [minecraft, forge]
+[22Oct2026 02:46:35.934] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: minecraft
+[22Oct2026 02:46:35.934] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: forge
+[22Oct2026 02:46:35.936] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 4 mod requirements (2 mandatory, 2 optional)
+[22Oct2026 02:46:35.938] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[22Oct2026 02:46:36.302] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 33222 method mappings from methods.csv
+[22Oct2026 02:46:36.324] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 31003 field mappings from fields.csv
+[22Oct2026 02:46:36.366] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[22Oct2026 02:46:36.367] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[22Oct2026 02:46:36.368] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[22Oct2026 02:46:36.368] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[22Oct2026 02:46:36.368] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[22Oct2026 02:46:36.368] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_method.js
+[22Oct2026 02:46:36.542] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[22Oct2026 02:46:36.542] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
+[22Oct2026 02:46:36.599] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[22Oct2026 02:46:36.600] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
+[22Oct2026 02:46:36.645] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[22Oct2026 02:46:36.645] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/method_redirector.js
+[22Oct2026 02:46:36.703] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[22Oct2026 02:46:36.717] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@46f902e0 to Target : CLASS {Lnet/minecraft/world/level/biome/Biome;} {} {V}
+[22Oct2026 02:46:36.720] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5562c2c9 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/Structure;} {} {V}
+[22Oct2026 02:46:36.720] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@673c4f6e to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
+[22Oct2026 02:46:36.720] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@15c487a8 to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+[22Oct2026 02:46:36.720] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@3f36e8d1 to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
+[22Oct2026 02:46:36.720] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7c011174 to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
+[22Oct2026 02:46:36.721] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@794366a5 to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[22Oct2026 02:46:36.721] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@480b57e2 to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
+[22Oct2026 02:46:36.721] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@40f35e52 to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+[22Oct2026 02:46:36.721] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@340d6d89 to Target : CLASS {Lnet/minecraft/world/entity/EntityType;} {} {V}
+[22Oct2026 02:46:36.721] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@340d6d89 to Target : CLASS {Lnet/minecraft/world/entity/raid/Raid;} {} {V}
+[22Oct2026 02:46:36.721] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@340d6d89 to Target : CLASS {Lnet/minecraft/world/level/NaturalSpawner;} {} {V}
+[22Oct2026 02:46:36.721] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@340d6d89 to Target : CLASS {Lnet/minecraft/world/level/levelgen/PatrolSpawner;} {} {V}
+[22Oct2026 02:46:36.721] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@340d6d89 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;} {} {V}
+[22Oct2026 02:46:36.721] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@340d6d89 to Target : CLASS {Lnet/minecraft/world/entity/monster/Strider;} {} {V}
+[22Oct2026 02:46:36.721] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@340d6d89 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/SwampHutPiece;} {} {V}
+[22Oct2026 02:46:36.721] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@340d6d89 to Target : CLASS {Lnet/minecraft/world/entity/monster/Spider;} {} {V}
+[22Oct2026 02:46:36.721] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@340d6d89 to Target : CLASS {Lnet/minecraft/world/level/levelgen/PhantomSpawner;} {} {V}
+[22Oct2026 02:46:36.721] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@340d6d89 to Target : CLASS {Lnet/minecraft/world/entity/ai/village/VillageSiege;} {} {V}
+[22Oct2026 02:46:36.721] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@340d6d89 to Target : CLASS {Lnet/minecraft/world/entity/animal/frog/Tadpole;} {} {V}
+[22Oct2026 02:46:36.722] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@340d6d89 to Target : CLASS {Lnet/minecraft/server/commands/SummonCommand;} {} {V}
+[22Oct2026 02:46:36.722] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@340d6d89 to Target : CLASS {Lnet/minecraft/world/entity/monster/Zombie;} {} {V}
+[22Oct2026 02:46:36.722] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@340d6d89 to Target : CLASS {Lnet/minecraft/world/entity/npc/CatSpawner;} {} {V}
+[22Oct2026 02:46:36.722] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@340d6d89 to Target : CLASS {Lnet/minecraft/world/entity/npc/Villager;} {} {V}
+[22Oct2026 02:46:36.722] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@340d6d89 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece;} {} {V}
+[22Oct2026 02:46:36.722] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@340d6d89 to Target : CLASS {Lnet/minecraft/world/entity/monster/ZombieVillager;} {} {V}
+[22Oct2026 02:46:36.722] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@340d6d89 to Target : CLASS {Lnet/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal;} {} {V}
+[22Oct2026 02:46:36.722] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@340d6d89 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece;} {} {V}
+[22Oct2026 02:46:36.722] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@340d6d89 to Target : CLASS {Lnet/minecraft/server/commands/RaidCommand;} {} {V}
+[22Oct2026 02:46:36.722] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@340d6d89 to Target : CLASS {Lnet/minecraft/world/entity/animal/horse/SkeletonTrapGoal;} {} {V}
+[22Oct2026 02:46:36.722] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@340d6d89 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece;} {} {V}
+[22Oct2026 02:46:36.722] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[22Oct2026 02:46:37.037] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[22Oct2026 02:46:37.037] [main/DEBUG] [mixin/]: Registering mixin config: cavemind.mixins.json
+[22Oct2026 02:46:37.058] [main/DEBUG] [mixin/]: Compatibility level JAVA_17 specified by cavemind.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[22Oct2026 02:46:37.062] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[22Oct2026 02:46:37.062] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[22Oct2026 02:46:37.062] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(cavemind)
+[22Oct2026 02:46:37.063] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(cavemind)
+[22Oct2026 02:46:37.063] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(cavemind)
+[22Oct2026 02:46:37.063] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(cavemind)
+[22Oct2026 02:46:37.063] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(cavemind)
+[22Oct2026 02:46:37.063] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(cavemind)]
+[22Oct2026 02:46:37.063] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[22Oct2026 02:46:37.063] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[22Oct2026 02:46:37.063] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[22Oct2026 02:46:37.063] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[22Oct2026 02:46:37.063] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[22Oct2026 02:46:37.063] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[22Oct2026 02:46:37.063] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(forge)
+[22Oct2026 02:46:37.063] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
+[22Oct2026 02:46:37.063] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
+[22Oct2026 02:46:37.063] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
+[22Oct2026 02:46:37.063] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(forge)
+[22Oct2026 02:46:37.063] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[22Oct2026 02:46:37.063] [main/DEBUG] [mixin/]: inject() running with 4 agents
+[22Oct2026 02:46:37.063] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[22Oct2026 02:46:37.064] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(cavemind)]
+[22Oct2026 02:46:37.064] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[22Oct2026 02:46:37.064] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[22Oct2026 02:46:37.064] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\ACER\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --quickPlaySingleplayer, cmtest, --username, Tester]
+[22Oct2026 02:46:37.225] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
+[22Oct2026 02:46:37.226] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[22Oct2026 02:46:37.226] [main/DEBUG] [mixin/]: Selecting config cavemind.mixins.json
+[22Oct2026 02:46:37.229] [main/WARN] [mixin/]: Reference map 'cavemind.refmap.json' for cavemind.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Oct2026 02:46:37.230] [main/DEBUG] [mixin/]: Preparing cavemind.mixins.json (6)
+[22Oct2026 02:46:37.265] [main/WARN] [mixin/]: Error loading class: apollyon/procedures/TheDamnedCollidesProcedure (java.lang.ClassNotFoundException: apollyon.procedures.TheDamnedCollidesProcedure)
+[22Oct2026 02:46:37.266] [main/DEBUG] [mixin/]: Skipping virtual target apollyon.procedures.TheDamnedCollidesProcedure for cavemind.mixins.json:DamnedCollideMixin
+[22Oct2026 02:46:37.268] [main/WARN] [mixin/]: Error loading class: apollyon/procedures/TheDamnedKillsProcedure (java.lang.ClassNotFoundException: apollyon.procedures.TheDamnedKillsProcedure)
+[22Oct2026 02:46:37.268] [main/DEBUG] [mixin/]: Skipping virtual target apollyon.procedures.TheDamnedKillsProcedure for cavemind.mixins.json:DamnedCollideMixin
+[22Oct2026 02:46:37.272] [main/WARN] [mixin/]: Error loading class: apollyon/procedures/TheDamnedSpawnsProcedure (java.lang.ClassNotFoundException: apollyon.procedures.TheDamnedSpawnsProcedure)
+[22Oct2026 02:46:37.272] [main/DEBUG] [mixin/]: Skipping virtual target apollyon.procedures.TheDamnedSpawnsProcedure for cavemind.mixins.json:DamnedSpawnMixin
+[22Oct2026 02:46:37.273] [main/WARN] [mixin/]: Error loading class: apollyon/procedures/TheDamnedTicksProcedure (java.lang.ClassNotFoundException: apollyon.procedures.TheDamnedTicksProcedure)
+[22Oct2026 02:46:37.274] [main/DEBUG] [mixin/]: Skipping virtual target apollyon.procedures.TheDamnedTicksProcedure for cavemind.mixins.json:DamnedTickMixin
+[22Oct2026 02:46:37.313] [main/WARN] [mixin/]: Error loading class: net/mcreator/man/procedures/ManaggresiveOnEntityTickUpdateProcedure (java.lang.ClassNotFoundException: net.mcreator.man.procedures.ManaggresiveOnEntityTickUpdateProcedure)
+[22Oct2026 02:46:37.313] [main/DEBUG] [mixin/]: Skipping virtual target net.mcreator.man.procedures.ManaggresiveOnEntityTickUpdateProcedure for cavemind.mixins.json:ManCrawlerTickMixin
+[22Oct2026 02:46:37.314] [main/WARN] [mixin/]: Error loading class: net/mcreator/man/procedures/ManfromthefogOnEntityTickUpdate2Procedure (java.lang.ClassNotFoundException: net.mcreator.man.procedures.ManfromthefogOnEntityTickUpdate2Procedure)
+[22Oct2026 02:46:37.314] [main/DEBUG] [mixin/]: Skipping virtual target net.mcreator.man.procedures.ManfromthefogOnEntityTickUpdate2Procedure for cavemind.mixins.json:ManStalkerTickMixin
+[22Oct2026 02:46:37.331] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[22Oct2026 02:46:37.336] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[22Oct2026 02:46:37.336] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[22Oct2026 02:46:37.339] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[22Oct2026 02:46:37.341] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[22Oct2026 02:46:37.343] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[22Oct2026 02:46:37.628] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[22Oct2026 02:46:37.631] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[22Oct2026 02:46:37.632] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[22Oct2026 02:46:37.760] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@56382bc9
+[22Oct2026 02:46:38.063] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@56382bc9
+[22Oct2026 02:46:38.459] [pool-4-thread-1/DEBUG] [mixin/]: Mixing EntityVisibilityMixin from cavemind.mixins.json into net.minecraft.world.entity.Entity
+[22Oct2026 02:46:39.374] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/EntityType
+[22Oct2026 02:46:40.994] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/LiquidBlock
+[22Oct2026 02:46:41.060] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/StairBlock
+[22Oct2026 02:46:41.149] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/FlowerPotBlock
+[22Oct2026 02:46:41.738] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/ItemStack
+[22Oct2026 02:46:42.111] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/animal/frog/Tadpole
+[22Oct2026 02:46:42.140] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/BucketItem
+[22Oct2026 02:46:42.714] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Spider
+[22Oct2026 02:46:42.768] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 133 milliseconds
+[22Oct2026 02:46:42.770] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Zombie
+[22Oct2026 02:46:42.797] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/ZombieVillager
+[22Oct2026 02:46:42.841] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal
+[22Oct2026 02:46:42.953] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/animal/horse/SkeletonTrapGoal
+[22Oct2026 02:46:42.969] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Strider
+[22Oct2026 02:46:43.047] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/Villager
+[22Oct2026 02:46:43.118] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/effect/MobEffectInstance
+[22Oct2026 02:46:43.477] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/Structure
+[22Oct2026 02:46:43.506] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece
+[22Oct2026 02:46:43.521] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/SwampHutPiece
+[22Oct2026 02:46:43.528] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece
+[22Oct2026 02:46:43.545] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece
+[22Oct2026 02:46:43.607] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/biome/Biome
+[22Oct2026 02:46:43.914] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/ACER/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[22Oct2026 02:46:43.914] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/ACER/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[22Oct2026 02:46:43.927] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22Oct2026 02:46:43.932] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Tester
+[22Oct2026 02:46:44.018] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[22Oct2026 02:46:44.134] [Render thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 6430
+[22Oct2026 02:46:44.154] [Render thread/DEBUG] [net.minecraftforge.fml.ModWorkManager/LOADING]: Using 12 threads for parallel mod-loading
+[22Oct2026 02:46:44.162] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@56382bc9 - got cpw.mods.cl.ModuleClassLoader@4fe875be
+[22Oct2026 02:46:44.163] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for vn.cavemind.CaveMind
+[22Oct2026 02:46:44.170] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@56382bc9 - got cpw.mods.cl.ModuleClassLoader@4fe875be
+[22Oct2026 02:46:44.171] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
+[22Oct2026 02:46:44.198] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 47.3 from cpw.mods.modlauncher.TransformingClassLoader@56382bc9
+[22Oct2026 02:46:44.198] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 47.3.0
+[22Oct2026 02:46:44.198] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 47.3
+[22Oct2026 02:46:44.198] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
+[22Oct2026 02:46:44.199] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: MCP Version package package net.minecraftforge.versions.mcp, Minecraft, version 1.20.1 from cpw.mods.modlauncher.TransformingClassLoader@56382bc9
+[22Oct2026 02:46:44.199] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.20.1
+[22Oct2026 02:46:44.199] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20230612.114412
+[22Oct2026 02:46:44.199] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[22Oct2026 02:46:44.201] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file cavemind-common.toml for cavemind tracking
+[22Oct2026 02:46:44.201] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[22Oct2026 02:46:44.286] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[22Oct2026 02:46:44.286] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 17
+[22Oct2026 02:46:44.286] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[22Oct2026 02:46:44.287] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.copyMemory: available
+[22Oct2026 02:46:44.287] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
+[22Oct2026 02:46:44.287] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[22Oct2026 02:46:44.287] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.82.Final.jar%23151!/:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:288) ~[netty-common-4.1.82.Final.jar%23151!/:4.1.82.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:282) ~[netty-common-4.1.82.Final.jar%23151!/:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) ~[netty-common-4.1.82.Final.jar%23151!/:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.82.Final.jar%23151!/:4.1.82.Final]
+	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.82.Final.jar%23151!/:4.1.82.Final]
+	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar%23151!/:4.1.82.Final]
+	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar%23151!/:4.1.82.Final]
+	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:34) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1.jar%23190%23197!/:?]
+	at net.minecraftforge.common.ForgeMod.<init>(ForgeMod.java:429) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1.jar%23190%23197!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.0.jar%23192!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.0.jar%23195!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[22Oct2026 02:46:44.289] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[22Oct2026 02:46:44.290] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 (in module io.netty.common) cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to module io.netty.common
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:561) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:410) ~[netty-common-4.1.82.Final.jar%23151!/:4.1.82.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:401) ~[netty-common-4.1.82.Final.jar%23151!/:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) ~[netty-common-4.1.82.Final.jar%23151!/:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.82.Final.jar%23151!/:4.1.82.Final]
+	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.82.Final.jar%23151!/:4.1.82.Final]
+	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar%23151!/:4.1.82.Final]
+	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar%23151!/:4.1.82.Final]
+	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:34) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1.jar%23190%23197!/:?]
+	at net.minecraftforge.common.ForgeMod.<init>(ForgeMod.java:429) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1.jar%23190%23197!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.0.jar%23192!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.0.jar%23195!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[22Oct2026 02:46:44.291] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[22Oct2026 02:46:44.291] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[22Oct2026 02:46:44.291] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: maxDirectMemory: 4217372672 bytes (maybe)
+[22Oct2026 02:46:44.292] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: C:\Users\ACER\AppData\Local\Temp (java.io.tmpdir)
+[22Oct2026 02:46:44.292] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[22Oct2026 02:46:44.292] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: Platform: Windows
+[22Oct2026 02:46:44.292] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[22Oct2026 02:46:44.292] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[22Oct2026 02:46:44.293] [modloading-worker-0/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[22Oct2026 02:46:44.293] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[22Oct2026 02:46:44.306] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for cavemind
+[22Oct2026 02:46:44.308] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing vn.cavemind.client.BookClient to FORGE
+[22Oct2026 02:46:44.314] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Loading Network data for FML net version: FML3
+[22Oct2026 02:46:44.314] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing vn.cavemind.client.ClientFx to FORGE
+[22Oct2026 02:46:44.332] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
+[22Oct2026 02:46:44.332] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
+[22Oct2026 02:46:44.332] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.ModLoadingContext/]: Attempted to register an empty config for type COMMON on mod forge
+[22Oct2026 02:46:44.342] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing vn.cavemind.client.ClientTest to FORGE
+[22Oct2026 02:46:44.346] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing vn.cavemind.client.GearRenderer$Models to MOD
+[22Oct2026 02:46:44.350] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing vn.cavemind.client.GearSounds to FORGE
+[22Oct2026 02:46:44.353] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing vn.cavemind.client.HeroClient$Layers to MOD
+[22Oct2026 02:46:44.358] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+[22Oct2026 02:46:44.358] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing vn.cavemind.client.HeroClient to FORGE
+[22Oct2026 02:46:44.358] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD
+[22Oct2026 02:46:44.361] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$ColorRegisterHandler to MOD
+[22Oct2026 02:46:44.365] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.model.data.ModelDataManager to FORGE
+[22Oct2026 02:46:44.367] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.ForgeHooksClient$ClientEvents to MOD
+[22Oct2026 02:46:44.370] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing vn.cavemind.client.MazeHud$Setup to MOD
+[22Oct2026 02:46:44.376] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.ClientForgeMod to MOD
+[22Oct2026 02:46:44.377] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing vn.cavemind.client.MazeHud to FORGE
+[22Oct2026 02:46:44.386] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing vn.cavemind.client.MazeMove to FORGE
+[22Oct2026 02:46:44.393] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing vn.cavemind.client.SeekFx to FORGE
+[22Oct2026 02:46:44.435] [Render thread/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/energy/IEnergyStorage;
+[22Oct2026 02:46:44.436] [Render thread/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandler;
+[22Oct2026 02:46:44.436] [Render thread/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandlerItem;
+[22Oct2026 02:46:44.436] [Render thread/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/items/IItemHandler;
+[22Oct2026 02:46:44.584] [Render thread/DEBUG] [net.minecraftforge.client.loading.ClientModLoader/CORE]: Generating PackInfo named mod:cavemind for mod file E:\Document\New project 5\Claude\1\cavehorror\cavemind\build\resources\main
+[22Oct2026 02:46:44.584] [Render thread/DEBUG] [net.minecraftforge.client.loading.ClientModLoader/CORE]: Generating PackInfo named mod:forge for mod file /
+[22Oct2026 02:46:44.968] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
+[22Oct2026 02:46:45.107] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, cavemind_overrides
+[22Oct2026 02:46:45.123] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type CLIENT
+[22Oct2026 02:46:45.126] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for E:\Document\New project 5\Claude\1\cavehorror\cavemind\runc\config\forge-client.toml
+[22Oct2026 02:46:45.129] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file E:\Document\New project 5\Claude\1\cavehorror\cavemind\runc\config\forge-client.toml
+[22Oct2026 02:46:45.134] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file E:\Document\New project 5\Claude\1\cavehorror\cavemind\runc\config\forge-client.toml for changes
+[22Oct2026 02:46:45.136] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-client.toml
+[22Oct2026 02:46:45.136] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[22Oct2026 02:46:45.136] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for E:\Document\New project 5\Claude\1\cavehorror\cavemind\runc\config\cavemind-common.toml
+[22Oct2026 02:46:45.139] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file E:\Document\New project 5\Claude\1\cavehorror\cavemind\runc\config\cavemind-common.toml
+[22Oct2026 02:46:45.139] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file E:\Document\New project 5\Claude\1\cavehorror\cavemind\runc\config\cavemind-common.toml for changes
+[22Oct2026 02:46:45.141] [Thread-3/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file cavemind-common.toml changed, sending notifies
+[22Oct2026 02:46:45.142] [Thread-3/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file cavemind-common.toml changed, sending notifies
+[22Oct2026 02:46:45.160] [Thread-3/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file cavemind-common.toml changed, sending notifies
+[22Oct2026 02:46:45.232] [Worker-Main-1/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[22Oct2026 02:46:45.241] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[22Oct2026 02:46:45.393] [Render thread/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue COMMON_SETUP: 1 jobs
+[22Oct2026 02:46:45.395] [Render thread/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 1.252 ms
+[22Oct2026 02:46:45.443] [Render thread/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue SIDED_SETUP: 2 jobs
+[22Oct2026 02:46:45.460] [Render thread/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 16.89 ms
+[22Oct2026 02:46:46.110] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
+{
+  "homepage": "https://files.minecraftforge.net/net/minecraftforge/forge/",
+  "promos": {
+    "1.1-latest": "1.3.4.29",
+    "1.2.3-latest": "1.4.1.64",
+    "1.2.4-latest": "2.0.0.68",
+    "1.2.5-latest": "3.4.9.171",
+    "1.3.2-latest": "4.3.5.318",
+    "1.4.0-latest": "5.0.0.326",
+    "1.4.1-latest": "6.0.0.329",
+    "1.4.2-latest": "6.0.1.355",
+    "1.4.3-latest": "6.2.1.358",
+    "1.4.4-latest": "6.3.0.378",
+    "1.4.5-latest": "6.4.2.448",
+    "1.4.6-latest": "6.5.0.489",
+    "1.4.7-latest": "6.6.2.534",
+    "1.5-latest": "7.7.0.598",
+    "1.5.1-latest": "7.7.2.682",
+    "1.5.2-latest": "7.8.1.738",
+    "1.5.2-recommended": "7.8.1.738",
+    "1.6.1-latest": "8.9.0.775",
+    "1.6.2-latest": "9.10.1.871",
+    "1.6.2-recommended": "9.10.1.871",
+    "1.6.3-latest": "9.11.0.878",
+    "1.6.4-latest": "9.11.1.1345",
+    "1.6.4-recommended": "9.11.1.1345",
+    "1.7.2-latest": "10.12.2.1161",
+    "1.7.2-recommended": "10.12.2.1161",
+    "1.7.10-latest": "10.13.4.1614",
+    "1.7.10-recommended": "10.13.4.1614",
+    "1.8-latest": "11.14.4.1577",
+    "1.8-recommended": "11.14.4.1563",
+    "1.8.8-latest": "11.15.0.1655",
+    "1.8.9-latest": "11.15.1.2318",
+    "1.8.9-recommended": "11.15.1.2318",
+    "1.9-latest": "12.16.1.1938",
+    "1.9-recommended": "12.16.1.1887",
+    "1.9.4-latest": "12.17.0.2317",
+    "1.9.4-recommended": "12.17.0.2317",
+    "1.10-latest": "12.18.0.2000",
+    "1.10.2-latest": "12.18.3.2511",
+    "1.10.2-recommended": "12.18.3.2511",
+    "1.11-latest": "13.19.1.2199",
+    "1.11-recommended": "13.19.1.2189",
+    "1.11.2-latest": "13.20.1.2588",
+    "1.11.2-recommended": "13.20.1.2588",
+    "1.12-latest": "14.21.1.2443",
+    "1.12-recommended": "14.21.1.2387",
+    "1.12.1-latest": "14.22.1.2485",
+    "1.12.1-recommended": "14.22.1.2478",
+    "1.12.2-latest": "14.23.5.2864",
+    "1.12.2-recommended": "14.23.5.2859",
+    "1.13.2-latest": "25.0.223",
+    "1.14.2-latest": "26.0.63",
+    "1.14.3-latest": "27.0.60",
+    "1.14.4-latest": "28.2.30",
+    "1.14.4-recommended": "28.2.26",
+    "1.15-latest": "29.0.4",
+    "1.15.1-latest": "30.0.51",
+    "1.15.2-latest": "31.2.62",
+    "1.15.2-recommended": "31.2.57",
+    "1.16.1-latest": "32.0.108",
+    "1.16.2-latest": "33.0.61",
+    "1.16.3-latest": "34.1.42",
+    "1.16.3-recommended": "34.1.0",
+    "1.16.4-latest": "35.1.37",
+    "1.16.4-recommended": "35.1.4",
+    "1.16.5-latest": "36.2.42",
+    "1.16.5-recommended": "36.2.34",
+    "1.17.1-latest": "37.1.1",
+    "1.17.1-recommended": "37.1.1",
+    "1.18-latest": "38.0.17",
+    "1.18.1-latest": "39.1.2",
+    "1.18.1-recommended": "39.1.0",
+    "1.18.2-recommended": "40.3.0",
+    "1.18.2-latest": "40.3.12",
+    "1.19-latest": "41.1.0",
+    "1.19-recommended": "41.1.0",
+    "1.19.1-latest": "42.0.9",
+    "1.19.2-recommended": "43.5.0",
+    "1.19.2-latest": "43.5.2",
+    "1.19.3-latest": "44.1.23",
+    "1.19.3-recommended": "44.1.0",
+    "1.19.4-recommended": "45.4.0",
+    "1.19.4-latest": "45.4.5",
+    "1.20-latest": "46.0.14",
+    "1.20.1-recommended": "47.4.28",
+    "1.20.1-latest": "47.4.28",
+    "1.20.2-latest": "48.1.0",
+    "1.20.2-recommended": "48.1.0",
+    "1.20.3-latest": "49.0.2",
+    "1.20.4-latest": "49.2.13",
+    "1.20.4-recommended": "49.2.13",
+    "1.20.6-latest": "50.2.14",
+    "1.20.6-recommended": "50.2.14",
+    "1.21-latest": "51.0.33",
+    "1.21.1-latest": "52.1.20",
+    "1.21.1-recommended": "52.1.20",
+    "1.21.3-latest": "53.1.16",
+    "1.21.3-recommended": "53.1.16",
+    "1.21.4-latest": "54.1.22",
+    "1.21.4-recommended": "54.1.22",
+    "1.21.5-latest": "55.1.18",
+    "1.21.5-recommended": "55.1.18",
+    "1.21.6-latest": "56.0.9",
+    "1.21.7-latest": "57.0.3",
+    "1.21.8-latest": "58.1.26",
+    "1.21.8-recommended": "58.1.26",
+    "1.21.9-latest": "59.0.5",
+    "1.21.10-latest": "60.1.18",
+    "1.21.10-recommended": "60.1.18",
+    "1.21.11-latest": "61.2.4",
+    "1.21.11-recommended": "61.2.4",
+    "26.1-latest": "62.0.9",
+    "26.1.1-latest": "63.0.2",
+    "26.1.2-latest": "64.1.5",
+    "26.1.2-recommended": "64.1.5",
+    "26.2-latest": "65.1.5",
+    "26.2-recommended": "65.1.5",
+    "26.3-latest": "66.1.0",
+    "26.3-recommended": "66.1.0"
+  }
+}
+[22Oct2026 02:46:46.112] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.0 Target: 47.4.28
+[22Oct2026 02:46:47.733] [Render thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 6698
+[22Oct2026 02:46:47.764] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[22Oct2026 02:46:47.764] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[22Oct2026 02:46:47.920] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (AB13X USB Audio)
+[22Oct2026 02:46:47.920] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[22Oct2026 02:46:48.027] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[22Oct2026 02:46:48.090] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[22Oct2026 02:46:48.091] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[22Oct2026 02:46:48.094] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[22Oct2026 02:46:48.097] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[22Oct2026 02:46:48.121] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[22Oct2026 02:46:48.122] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[22Oct2026 02:46:48.124] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[22Oct2026 02:46:48.125] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[22Oct2026 02:46:48.564] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[22Oct2026 02:46:48.845] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[22Oct2026 02:46:48.854] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[22Oct2026 02:46:48.855] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[22Oct2026 02:46:49.358] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:cavemind for mod file E:\Document\New project 5\Claude\1\cavehorror\cavemind\build\resources\main
+[22Oct2026 02:46:49.358] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:forge for mod file /
+[22Oct2026 02:46:49.996] [Render thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/server/commands/SummonCommand
+[22Oct2026 02:46:50.252] [Worker-Main-5/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/raid/Raid
+[22Oct2026 02:46:50.509] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[22Oct2026 02:46:50.621] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1303 advancements
+[22Oct2026 02:46:50.952] [Render thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[22Oct2026 02:46:50.969] [Render thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[22Oct2026 02:46:51.037] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[22Oct2026 02:46:51.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[22Oct2026 02:46:51.124] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[22Oct2026 02:46:51.124] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for .\saves\cmtest\serverconfig\forge-server.toml
+[22Oct2026 02:46:51.125] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file .\saves\cmtest\serverconfig\forge-server.toml
+[22Oct2026 02:46:51.126] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file .\saves\cmtest\serverconfig\forge-server.toml for changes
+[22Oct2026 02:46:51.126] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\cmtest\serverconfig\forge-server.toml is not correct. Correcting
+[22Oct2026 02:46:51.128] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22Oct2026 02:46:51.128] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[22Oct2026 02:46:51.129] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.removeErroringBlockEntities does not match the spec. This may create a backup.
+[22Oct2026 02:46:51.129] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[22Oct2026 02:46:51.129] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.removeErroringEntities does not match the spec. This may create a backup.
+[22Oct2026 02:46:51.129] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[22Oct2026 02:46:51.129] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.fullBoundingBoxLadders does not match the spec. This may create a backup.
+[22Oct2026 02:46:51.129] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[22Oct2026 02:46:51.129] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.zombieBaseSummonChance does not match the spec. This may create a backup.
+[22Oct2026 02:46:51.129] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[22Oct2026 02:46:51.129] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.zombieBabyChance does not match the spec. This may create a backup.
+[22Oct2026 02:46:51.129] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[22Oct2026 02:46:51.129] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.permissionHandler does not match the spec. This may create a backup.
+[22Oct2026 02:46:51.129] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
+[22Oct2026 02:46:51.129] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.advertiseDedicatedServerToLan does not match the spec. This may create a backup.
+[22Oct2026 02:46:51.129] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server does not match the spec. This may create a backup.
+[22Oct2026 02:46:51.130] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-server.toml
+[22Oct2026 02:46:51.169] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/PhantomSpawner
+[22Oct2026 02:46:51.176] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/PatrolSpawner
+[22Oct2026 02:46:51.179] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/CatSpawner
+[22Oct2026 02:46:51.181] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/ai/village/VillageSiege
+[22Oct2026 02:46:51.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[22Oct2026 02:46:53.422] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Oct2026 02:46:53.422] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Oct2026 02:46:53.422] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Oct2026 02:46:53.423] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Oct2026 02:46:53.423] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Oct2026 02:46:53.893] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 29%
+[22Oct2026 02:46:54.313] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[22Oct2026 02:46:54.326] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2950 ms
+[22Oct2026 02:46:54.396] [Server thread/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
+[22Oct2026 02:46:54.396] [Server thread/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
+[22Oct2026 02:46:54.398] [Server thread/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@759fb454
+[22Oct2026 02:46:54.542] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/NaturalSpawner
+[22Oct2026 02:46:54.596] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[22Oct2026 02:46:54.599] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[22Oct2026 02:46:54.676] [Render thread/DEBUG] [io.netty.channel.MultithreadEventLoopGroup/]: -Dio.netty.eventLoopThreads: 24
+[22Oct2026 02:46:54.693] [Render thread/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[22Oct2026 02:46:54.693] [Render thread/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[22Oct2026 02:46:54.699] [Render thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.noKeySetOptimization: false
+[22Oct2026 02:46:54.699] [Render thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.selectorAutoRebuildThreshold: 512
+[22Oct2026 02:46:54.708] [Render thread/DEBUG] [io.netty.util.internal.PlatformDependent/]: org.jctools-core.MpscChunkedArrayQueue: available
+[22Oct2026 02:46:54.752] [Render thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.processId: 29356 (auto-detected)
+[22Oct2026 02:46:54.754] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[22Oct2026 02:46:54.754] [Render thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv4Stack: false
+[22Oct2026 02:46:54.754] [Render thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv6Addresses: false
+[22Oct2026 02:46:54.774] [Render thread/DEBUG] [io.netty.util.NetUtilInitializations/]: Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[22Oct2026 02:46:54.776] [Render thread/DEBUG] [io.netty.util.NetUtil/]: Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[22Oct2026 02:46:54.826] [Render thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+[22Oct2026 02:46:54.841] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 24
+[22Oct2026 02:46:54.841] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 24
+[22Oct2026 02:46:54.841] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
+[22Oct2026 02:46:54.841] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
+[22Oct2026 02:46:54.841] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
+[22Oct2026 02:46:54.841] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
+[22Oct2026 02:46:54.841] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
+[22Oct2026 02:46:54.841] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[22Oct2026 02:46:54.842] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
+[22Oct2026 02:46:54.842] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[22Oct2026 02:46:54.842] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
+[22Oct2026 02:46:54.842] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[22Oct2026 02:46:54.851] [Render thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
+[22Oct2026 02:46:54.851] [Render thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
+[22Oct2026 02:46:54.851] [Render thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[22Oct2026 02:46:54.887] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting local connection.
+[22Oct2026 02:46:55.077] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.maxCapacityPerThread: 4096
+[22Oct2026 02:46:55.077] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.ratio: 8
+[22Oct2026 02:46:55.077] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.chunkSize: 32
+[22Oct2026 02:46:55.077] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.blocking: false
+[22Oct2026 02:46:55.093] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting local connection.
+[22Oct2026 02:46:55.130] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModData' to 'fml:handshake' sequence 0
+[22Oct2026 02:46:55.141] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 0
+[22Oct2026 02:46:55.176] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModList' to 'fml:handshake' sequence 1
+[22Oct2026 02:46:55.176] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 1
+[22Oct2026 02:46:55.177] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Logging into server with mod list [cavemind, minecraft, forge]
+[22Oct2026 02:46:55.178] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML3' from server : ACCEPTED
+[22Oct2026 02:46:55.178] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:tier_sorting' : Version test of '1.0' from server : ACCEPTED
+[22Oct2026 02:46:55.178] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML3' from server : ACCEPTED
+[22Oct2026 02:46:55.178] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML3' from server : ACCEPTED
+[22Oct2026 02:46:55.180] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML3' from server : ACCEPTED
+[22Oct2026 02:46:55.180] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML3' from server : ACCEPTED
+[22Oct2026 02:46:55.180] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Version test of '1.1' from server : ACCEPTED
+[22Oct2026 02:46:55.180] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'cavemind:main' : Version test of '5' from server : ACCEPTED
+[22Oct2026 02:46:55.180] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from server
+[22Oct2026 02:46:55.181] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Dispatching wrapped packet reply for channel fml:handshake with index 1
+[22Oct2026 02:46:55.181] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Accepted server connection
+[22Oct2026 02:46:55.182] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 1
+[22Oct2026 02:46:55.182] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 1 of type net.minecraftforge.network.HandshakeMessages$C2SModListReply
+[22Oct2026 02:46:55.182] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client connection with modlist [cavemind, minecraft, forge]
+[22Oct2026 02:46:55.183] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML3' from client : ACCEPTED
+[22Oct2026 02:46:55.183] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:tier_sorting' : Version test of '1.0' from client : ACCEPTED
+[22Oct2026 02:46:55.183] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML3' from client : ACCEPTED
+[22Oct2026 02:46:55.183] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML3' from client : ACCEPTED
+[22Oct2026 02:46:55.183] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML3' from client : ACCEPTED
+[22Oct2026 02:46:55.183] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML3' from client : ACCEPTED
+[22Oct2026 02:46:55.183] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Version test of '1.1' from client : ACCEPTED
+[22Oct2026 02:46:55.183] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'cavemind:main' : Version test of '5' from client : ACCEPTED
+[22Oct2026 02:46:55.183] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from client
+[22Oct2026 02:46:55.183] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Accepted client connection mod list
+[22Oct2026 02:46:55.211] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config forge-server.toml' to 'fml:handshake' sequence 2
+[22Oct2026 02:46:55.212] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 2
+[22Oct2026 02:46:55.212] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received config sync from server
+[22Oct2026 02:46:55.212] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Dispatching wrapped packet reply for channel fml:handshake with index 2
+[22Oct2026 02:46:55.212] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 2
+[22Oct2026 02:46:55.212] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 2 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[22Oct2026 02:46:55.212] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[22Oct2026 02:46:55.251] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Handshake complete!
+[22Oct2026 02:46:55.294] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[22Oct2026 02:46:55.346] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Tester[local:E:d32aedae] logged in with entity id 61 at (1057.7063094861674, 65.0, 1061.0529423944365)
+[22Oct2026 02:46:55.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tester joined the game
+[22Oct2026 02:46:56.143] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Trong túi b?n có m?t l? ?om ?óm. B?m chu?t ph?i ?? th? nó ra: nó bay v? phía n?i b?n c?n t?i.
+[22Oct2026 02:46:56.412] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 13 advancements
+[22Oct2026 02:46:57.608] [Server thread/INFO] [vn.cavemind.CaveMind/]: [CaveMind] play mode set to together by Tester
+[22Oct2026 02:46:57.630] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Cách ch?i: CH?I CHUNG. Ch??ng m? khóa ??ng b? cho c? nhóm, tr?n tìm chung m?t ván.
+[22Oct2026 02:46:58.620] [Render thread/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] scenario items
+[22Oct2026 02:46:59.627] [IO-Worker-14/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_000.png
+[22Oct2026 02:46:59.751] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_001.png
+[22Oct2026 02:46:59.822] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_002.png
+[22Oct2026 02:46:59.877] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_003.png
+[22Oct2026 02:46:59.919] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_004.png
+[22Oct2026 02:47:00.008] [IO-Worker-14/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_005.png
+[22Oct2026 02:47:00.081] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_006.png
+[22Oct2026 02:47:00.127] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_007.png
+[22Oct2026 02:47:00.217] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_008.png
+[22Oct2026 02:47:00.277] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_009.png
+[22Oct2026 02:47:00.347] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_010.png
+[22Oct2026 02:47:00.412] [IO-Worker-14/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_011.png
+[22Oct2026 02:47:00.487] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_012.png
+[22Oct2026 02:47:00.537] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_013.png
+[22Oct2026 02:47:00.629] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_014.png
+[22Oct2026 02:47:00.698] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_015.png
+[22Oct2026 02:47:00.738] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_016.png
+[22Oct2026 02:47:00.806] [IO-Worker-14/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_017.png
+[22Oct2026 02:47:00.903] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_018.png
+[22Oct2026 02:47:00.945] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_019.png
+[22Oct2026 02:47:01.008] [IO-Worker-18/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_020.png
+[22Oct2026 02:47:01.067] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_021.png
+[22Oct2026 02:47:01.145] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_022.png
+[22Oct2026 02:47:01.179] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_023.png
+[22Oct2026 02:47:01.251] [IO-Worker-14/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_024.png
+[22Oct2026 02:47:01.292] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_025.png
+[22Oct2026 02:47:01.360] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_026.png
+[22Oct2026 02:47:01.417] [IO-Worker-18/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_027.png
+[22Oct2026 02:47:01.486] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_028.png
+[22Oct2026 02:47:01.546] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_029.png
+[22Oct2026 02:47:01.612] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_030.png
+[22Oct2026 02:47:01.692] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_031.png
+[22Oct2026 02:47:01.725] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_032.png
+[22Oct2026 02:47:01.807] [IO-Worker-18/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_033.png
+[22Oct2026 02:47:01.858] [IO-Worker-14/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_034.png
+[22Oct2026 02:47:01.943] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_035.png
+[22Oct2026 02:47:01.980] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_036.png
+[22Oct2026 02:47:02.049] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_037.png
+[22Oct2026 02:47:02.104] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_038.png
+[22Oct2026 02:47:02.152] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_039.png
+[22Oct2026 02:47:02.228] [IO-Worker-18/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_040.png
+[22Oct2026 02:47:02.268] [IO-Worker-14/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_041.png
+[22Oct2026 02:47:02.350] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_042.png
+[22Oct2026 02:47:02.392] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_043.png
+[22Oct2026 02:47:02.436] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_044.png
+[22Oct2026 02:47:02.503] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_045.png
+[22Oct2026 02:47:02.561] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_046.png
+[22Oct2026 02:47:02.632] [IO-Worker-14/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_047.png
+[22Oct2026 02:47:02.695] [IO-Worker-18/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_048.png
+[22Oct2026 02:47:02.727] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_049.png
+[22Oct2026 02:47:02.781] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_050.png
+[22Oct2026 02:47:02.836] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_051.png
+[22Oct2026 02:47:02.895] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_052.png
+[22Oct2026 02:47:02.964] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_053.png
+[22Oct2026 02:47:03.047] [IO-Worker-14/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_054.png
+[22Oct2026 02:47:03.081] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_055.png
+[22Oct2026 02:47:03.151] [IO-Worker-18/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_056.png
+[22Oct2026 02:47:03.178] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_057.png
+[22Oct2026 02:47:03.217] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_058.png
+[22Oct2026 02:47:03.269] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_baro_059.png
+[22Oct2026 02:47:03.804] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_000.png
+[22Oct2026 02:47:03.871] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_001.png
+[22Oct2026 02:47:03.971] [Server thread/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] firefly from (0.989650809764862, 72.53651640117168, 0.8365599036216735) to (208.5, 70.5, 67.5) ends (31.791275298535858, 72.66915922529485, 10.88853621338008) look (0.8160846829414368, -0.1391393393278122, 0.5609331727027893) yaw -55.499756
+[22Oct2026 02:47:03.973] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_002.png
+[22Oct2026 02:47:04.072] [IO-Worker-18/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_003.png
+[22Oct2026 02:47:04.134] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_004.png
+[22Oct2026 02:47:04.187] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_005.png
+[22Oct2026 02:47:04.222] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_006.png
+[22Oct2026 02:47:04.284] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_007.png
+[22Oct2026 02:47:04.342] [IO-Worker-14/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_008.png
+[22Oct2026 02:47:04.385] [IO-Worker-18/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_009.png
+[22Oct2026 02:47:04.429] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_010.png
+[22Oct2026 02:47:04.459] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_011.png
+[22Oct2026 02:47:04.527] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_012.png
+[22Oct2026 02:47:04.601] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_013.png
+[22Oct2026 02:47:04.658] [IO-Worker-14/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_014.png
+[22Oct2026 02:47:04.706] [IO-Worker-18/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_015.png
+[22Oct2026 02:47:04.770] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_016.png
+[22Oct2026 02:47:04.838] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_017.png
+[22Oct2026 02:47:04.873] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_018.png
+[22Oct2026 02:47:04.946] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_019.png
+[22Oct2026 02:47:04.984] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_020.png
+[22Oct2026 02:47:05.050] [IO-Worker-18/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_021.png
+[22Oct2026 02:47:05.105] [IO-Worker-14/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_022.png
+[22Oct2026 02:47:05.136] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_023.png
+[22Oct2026 02:47:05.193] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_024.png
+[22Oct2026 02:47:05.239] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_025.png
+[22Oct2026 02:47:05.276] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_026.png
+[22Oct2026 02:47:05.359] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_027.png
+[22Oct2026 02:47:05.389] [IO-Worker-18/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_028.png
+[22Oct2026 02:47:05.463] [IO-Worker-14/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_029.png
+[22Oct2026 02:47:05.495] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_030.png
+[22Oct2026 02:47:05.531] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_031.png
+[22Oct2026 02:47:05.556] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_032.png
+[22Oct2026 02:47:05.647] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_033.png
+[22Oct2026 02:47:05.685] [IO-Worker-19/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_034.png
+[22Oct2026 02:47:05.754] [IO-Worker-18/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_035.png
+[22Oct2026 02:47:05.820] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_036.png
+[22Oct2026 02:47:05.864] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_037.png
+[22Oct2026 02:47:05.888] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_038.png
+[22Oct2026 02:47:05.967] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_039.png
+[22Oct2026 02:47:05.999] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_040.png
+[22Oct2026 02:47:06.054] [IO-Worker-19/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_041.png
+[22Oct2026 02:47:06.133] [IO-Worker-18/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_042.png
+[22Oct2026 02:47:06.191] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_043.png
+[22Oct2026 02:47:06.239] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_044.png
+[22Oct2026 02:47:06.249] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_045.png
+[22Oct2026 02:47:06.331] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_046.png
+[22Oct2026 02:47:06.381] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_047.png
+[22Oct2026 02:47:06.409] [IO-Worker-19/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_048.png
+[22Oct2026 02:47:06.460] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_049.png
+[22Oct2026 02:47:06.482] [IO-Worker-18/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_050.png
+[22Oct2026 02:47:06.549] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_051.png
+[22Oct2026 02:47:06.616] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_052.png
+[22Oct2026 02:47:06.639] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_053.png
+[22Oct2026 02:47:06.695] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_054.png
+[22Oct2026 02:47:06.752] [IO-Worker-19/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_055.png
+[22Oct2026 02:47:06.770] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_056.png
+[22Oct2026 02:47:06.859] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_057.png
+[22Oct2026 02:47:06.888] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_058.png
+[22Oct2026 02:47:06.945] [IO-Worker-17/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_059.png
+[22Oct2026 02:47:06.957] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_060.png
+[22Oct2026 02:47:07.026] [IO-Worker-12/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_061.png
+[22Oct2026 02:47:07.084] [IO-Worker-19/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_062.png
+[22Oct2026 02:47:07.121] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_063.png
+[22Oct2026 02:47:07.141] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_064.png
+[22Oct2026 02:47:07.201] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_065.png
+[22Oct2026 02:47:07.227] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_jar_066.png
+[22Oct2026 02:47:07.826] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_000.png
+[22Oct2026 02:47:07.886] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_001.png
+[22Oct2026 02:47:07.911] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_002.png
+[22Oct2026 02:47:07.981] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_003.png
+[22Oct2026 02:47:08.028] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_004.png
+[22Oct2026 02:47:08.093] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_005.png
+[22Oct2026 02:47:08.145] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_006.png
+[22Oct2026 02:47:08.183] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_007.png
+[22Oct2026 02:47:08.247] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_008.png
+[22Oct2026 02:47:08.308] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_009.png
+[22Oct2026 02:47:08.351] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_010.png
+[22Oct2026 02:47:08.422] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_011.png
+[22Oct2026 02:47:08.456] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_012.png
+[22Oct2026 02:47:08.546] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_013.png
+[22Oct2026 02:47:08.608] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_014.png
+[22Oct2026 02:47:08.655] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_015.png
+[22Oct2026 02:47:08.709] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_016.png
+[22Oct2026 02:47:08.759] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_017.png
+[22Oct2026 02:47:08.814] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_018.png
+[22Oct2026 02:47:08.857] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_019.png
+[22Oct2026 02:47:08.911] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_020.png
+[22Oct2026 02:47:08.967] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_021.png
+[22Oct2026 02:47:09.015] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_022.png
+[22Oct2026 02:47:09.052] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_023.png
+[22Oct2026 02:47:09.121] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_024.png
+[22Oct2026 02:47:09.171] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_025.png
+[22Oct2026 02:47:09.239] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_026.png
+[22Oct2026 02:47:09.264] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_027.png
+[22Oct2026 02:47:09.314] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_028.png
+[22Oct2026 02:47:09.374] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_029.png
+[22Oct2026 02:47:09.433] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_030.png
+[22Oct2026 02:47:09.458] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_031.png
+[22Oct2026 02:47:09.517] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_032.png
+[22Oct2026 02:47:09.561] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_033.png
+[22Oct2026 02:47:09.616] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_034.png
+[22Oct2026 02:47:09.674] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_035.png
+[22Oct2026 02:47:09.725] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_036.png
+[22Oct2026 02:47:09.784] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_037.png
+[22Oct2026 02:47:09.837] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_038.png
+[22Oct2026 02:47:09.866] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_039.png
+[22Oct2026 02:47:09.921] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_040.png
+[22Oct2026 02:47:10.021] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_041.png
+[22Oct2026 02:47:10.043] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_042.png
+[22Oct2026 02:47:10.074] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_043.png
+[22Oct2026 02:47:10.145] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_044.png
+[22Oct2026 02:47:10.221] [IO-Worker-19/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_045.png
+[22Oct2026 02:47:10.254] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_046.png
+[22Oct2026 02:47:10.323] [IO-Worker-13/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_047.png
+[22Oct2026 02:47:10.335] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[22Oct2026 02:47:10.374] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Tester lost connection: Disconnected
+[22Oct2026 02:47:10.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tester left the game
+[22Oct2026 02:47:10.379] [IO-Worker-16/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_048.png
+[22Oct2026 02:47:10.397] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[22Oct2026 02:47:10.402] [IO-Worker-15/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_049.png
+[22Oct2026 02:47:10.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[22Oct2026 02:47:10.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[22Oct2026 02:47:10.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[22Oct2026 02:47:10.504] [IO-Worker-20/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_051.png
+[22Oct2026 02:47:10.512] [IO-Worker-19/INFO] [vn.cavemind.CaveMind/]: [CLIENTTEST] Saved screenshot as cm_f_listen_050.png
+[22Oct2026 02:47:11.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22Oct2026 02:47:11.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/cavemind:gio_48
+[22Oct2026 02:47:11.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22Oct2026 02:47:11.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22Oct2026 02:47:11.444] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[22Oct2026 02:47:11.455] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[22Oct2026 02:47:11.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (cmtest): All chunks are saved
+[22Oct2026 02:47:11.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (gio_48): All chunks are saved
+[22Oct2026 02:47:11.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22Oct2026 02:47:11.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22Oct2026 02:47:11.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22Oct2026 02:47:11.776] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER

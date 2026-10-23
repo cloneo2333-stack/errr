@@ -1,0 +1,198 @@
+14542	§6Quần kim loại tối
+14543	§6Dao găm nghi lễ bóng tối
+14544	§6Kiếm chiến kim loại tối
+14545	§6Vật tổ tử thần
+14548	§6Lưỡi kiếm băng giá
+14549	§6Rìu đại tử thần
+14550	§6Bẫy chó săn
+14551	§6Ngọt ngào băng giá
+14552	§6Dao găm say xỉn
+14556	§6Mũ của Lord Pumpkinhead
+14557	§6Mũ của Nhà truyền giáo
+14558	§6Đĩa nhạc
+14559	§6Ủng ác mộng
+14560	§6Mặt nạ ác mộng
+14561	§6Quần ác mộng
+14562	§6Áo choàng ác mộng
+14563	§6Lưỡi hái ác mộng
+14564	§6Búa hạt dẻ
+14565	§6Chĩa ba
+14566	§6Đạn bí ngô
+14567	§6Súng lục bí ngô
+14568	§6Gậy bí ngô
+14572	§6Kiếm kim loại tối đã mài
+14573	§6Chùy vỏ cứng
+14575	§6Búa phá sọ
+14577	§6Kiếm linh hồn
+14578	§6Khắc tinh linh hồn
+14579	§6Vết cắn nhện
+14580	§6Áo vỏ gai
+14581	§6Mũ vỏ gai
+14582	§6Bẫy vỏ gai
+14583	§6Lưỡi chia hồn
+14584	§6Mũ rộng vành của Linh hồn dẫn đường
+14585	§6Gậy tên phép
+14586	§6Bom kích thích
+14587	§6Tù và gọi bão
+14589	§6Rìu kẹo
+14590	§6Kiếm kẹo
+14593	§6Bia mộ: Memesus
+14594	§6Bia mộ: Orion
+14595	§6Bia mộ: Petasi
+14596	§6Bia mộ: TEM187
+14602	§6Rìu bổ củi
+16214	§7• Đòn đánh gây phân tầng linh hồn và bao kẻ địch trong lửa địa ngục, làm mục tiêu chậm lại và khi hiệu ứng kết thúc thì gây sát thương dựa trên sinh lực hiện tại của mục tiêu
+16215	§7• Đòn đánh gây phân tầng linh hồn, làm mục tiêu chậm lại và khi hiệu ứng kết thúc thì gây sát thương dựa trên sinh lực hiện tại của mục tiêu
+16216	§7• Đòn đánh làm kẻ địch đóng băng, chậm dần, mỗi đòn lặp lại lên mục tiêu làm hiệu ứng mạnh thêm
+16217	§7• Đòn đánh hồi máu cho bạn, làm mục tiêu khô héo và ngăn nó dùng một số khả năng phép thuật
+16218	§7• Đòn đánh làm mục tiêu nhiễm bệnh. Khi kẻ địch nhiễm bệnh chết, một con nhện con có thể xuất hiện
+14605	§7• Gây sát thương trả đòn lên kẻ tấn công bạn
+16219	§7• Nhấp chuột phải để tạo vũng băng đóng băng mọi kẻ địch quanh bạn
+16220	§7• Nhấp chuột phải vào động vật hoặc tay sai để hiến tế nó, hồi máu và ban cho bạn hiệu ứng sức mạnh
+14606	§7• Đòn đánh có sức tàn phá khủng khiếp
+14607	§7• Khi dùng, gọi một cơn bão tuyết nhỏ quanh bạn
+14608	§7• Bạn di chuyển nhanh hơn trong bóng tối
+14643	§7Nâng cấp kim loại tối
+14651	§7Thưởng trọn bộ:
+14653	§7Ban §9Tàng hình III (1:50) §7khi dùng
+14654	§7Ban §9Cuồng nộ (1:50) §7khi dùng
+14655	§7Ban §9Kháng cự II (1:50) §7khi dùng
+14656	§7Ban §9Tốc độ III (1:50) §7khi dùng
+14657	§7Ban §9Sức mạnh III (1:50) §7khi dùng
+14675	§7Cần Linh hồn hư ảo để dùng
+14697	§7Bia mộ: Euthymia_
+14698	§7Bia mộ: Somfunambulist
+14703	§7Khi mặc trọn bộ Giáp ác mộng:
+14704	§7Khi đội mũ của Lord Pumpkinhead:
+14705	§7Khi cầm trên tay:
+14706	§7Khi ở trong túi đồ:
+14713	§8+5 sức mạnh phù phép cho Bàn phù phép
+14714	§8• Khi ở mức cao nguy kịch, ban hiệu ứng Sức mạnh
+16225	§8• Đòn đánh có cơ hội hất văng mũ của mục tiêu
+14715	§8• Đòn đánh làm kẻ địch say xỉn
+14716	§8• Gây thêm sát thương lên kẻ địch đang ở dưới nước hoặc dưới mưa
+14717	§8• Gây thêm sát thương lên người chơi hư đốn
+14718	§8• Gây thêm sát thương lên linh hồn
+14719	§8• Gây thêm sát thương lên xác sống
+16226	§8• Nhân đôi sát thương trả đòn. Bạn không còn bị vỏ gai làm bị thương
+14720	§8• Cường hóa bộ xương con được gậy Kẻ gọi xương triệu hồi
+14721	§8• Cường hóa vũ khí bí ngô
+14722	§8• Bao kẻ tấn công bạn trong lửa địa ngục
+14723	§8• Kéo dài và tăng cường hiệu ứng nhận được từ hiến tế
+14724	§8• Tăng hút máu và sát thương khô héo của lưỡi hái
+16227	§8• Kéo dài bão tuyết và giảm thời gian hồi của tù và
+16228	§8• Tăng hiệu quả của vũ khí và vật phẩm ma thuật bóng tối
+14725	§8• Tăng sức mạnh của vũng băng
+14726	§8• Đòn nhảy làm kẻ địch choáng
+14727	§8• Mọi nhện con bạn triệu hồi đều tự thuần hóa
+14728	§8• Giúp bạn miễn nhiễm lửa và phân tầng linh hồn
+14729	§8• Không còn lấy đi toàn bộ thanh đói khi kích hoạt
+14730	§8• Rút ngắn thời gian kích hoạt hiệu ứng
+16229	§8• Nhấp chuột phải để cắn một miếng, hồi một chút độ no
+16230	§8• Cứu bạn khỏi đòn chí mạng và tạm ban hiệu ứng sức mạnh, đổi lại là độ no của bạn
+16231	§8• Triệu hồi một bộ xương con bị điều khiển khi bạn bị quái vật tấn công. Khi kích hoạt, nó làm bạn bị hút cạn ma lực
+14731	§8• Khi dùng, hiện số điểm hư đốn của bạn
+16232	§8• Khi giết một kẻ địch, bạn rơi vào cơn cuồng nộ, mỗi lần giết liên tiếp làm cơn cuồng nộ mạnh thêm, tối đa năm lần
+14732	§8• Kháng khô héo
+14733	§8• Bạn rơi vào cơn cuồng nộ khi sắp hết máu
+14734	§8..trong cơn điên của hắn là cơn đại hồng thủy thối rữa và hiến tế
+14757	§8Mọi ánh sáng chìm vào đen tối.
+14758	§8và Kẻ trộm mộ, ngươi sẽ biết sợ...
+14761	§8Trỗi dậy từ bóng tối... Cái chết chỉ là khởi đầu.
+14762	§8Chỉ có trong chế độ sáng tạo
+16236	§8Máu chảy qua mạch khu vườn của ta, mùa màng chín tới. Gân cơ dịch chuyển nặn hình hài, con tim đột biến
+14766	§8Có thể cất giữ linh hồn của ngựa ma
+14772	§8Đừng nói với ta... Ngươi thấy được ta sao?
+14774	§8Hiệu ứng cộng dồn
+14775	§8Hãy đón nhận Bảy lời nguyền và để cái ác nuốt chửng ngươi.
+14776	§8Dập lửa trên người bạn khi ăn
+14777	§8Bàn tay lạnh của số phận khép lại, không ai thấy
+14779	§8Hồi đầy dưỡng khí khi ăn
+14781	§8Nơi đây an nghỉ đôi tình nhân
+14787	§8Sao ngươi dám đánh thức ta! Kẻ phản bội
+14788	§8Tôi đã cố hết sức, tôi đã làm những gì có thể. Đừng bao giờ ngừng cố gắng
+16242	§8Tăng sức mạnh của những phát bắn từ Gậy tên phép
+14790	§8không phải là thời gian lãng phí
+14791	§8Có thể ban ngẫu nhiên một nhóm hiệu ứng khi ăn
+14792	§8Ký ức đôi khi xóa đi một cách nhân từ
+16245	§8Không phải vấn đề nào cũng có lời giải, đôi khi bạn chỉ cần buông bỏ
+16246	§8Ghi chú: Khi người bạn Midas bảo bạn đừng chạm vào cậu ấy, hãy nghe theo...
+14794	§8Giờ ngươi sẽ bất tử
+14797	§8Nhấn Shift để xem chú thích
+14798	§8Hiệu ứng ngẫu nhiên:
+14799	§8Xóa Hút cạn ma lực
+14800	§8Xóa mùi thối và cơn đói khi ăn
+14801	§8Nhấp chuột phải vào khối để triệu hồi ngựa ma
+14802	§8Nhấp chuột phải để mở
+14803	§8Nhấp chuột phải để xé
+16248	§8Nhấp chuột phải vào một số sinh vật hoặc khối sẽ biến chúng thành thứ khác
+14805	§8Một kẻ bị HƯ KHÔNG và niềm đam mê với nó nuốt chửng
+14807	§8Hội phù thủy ngày càng mất kiên nhẫn với sự báng bổ của ngươi...
+14808	§8Mặt trăng rỗng ruột,
+14809	§8Đạo trời nằm trên lòng bàn tay
+14810	§8Thời gian bạn thích lãng phí,
+16249	§8Khi ném, ngẫu nhiên cường hóa mọi quái vật trong vùng va chạm nhưng tăng kinh nghiệm nhận được khi giết chúng
+16250	§8Khi dùng, ban §9Hàng rào xương (50:00) §8có thể chặn một đòn
+16251	§8Khi dùng, ban hiệu ứng §9Bùa hộ mệnh bóng tối (60:00) §8có thể cứu bạn khỏi cái chết
+14816	§8Nó bắt đầu từ đâu và bao giờ thì kết thúc
+14817	§8Bạn muốn ăn bao nhiêu cũng được
+14825	§9+3 điểm hư đốn
+14826	§9-3 điểm hư đốn
+14827	§9K§bẹ§ao §ev§6ĩ§cnh cửu
+14828	§9Kháng lửa (0:15)
+14829	§9Hàng rào băng (6:00)
+14831	§9Chống côn trùng (12:00)
+14832	§9Say xỉn (0:05)
+14834	§9Khao khát của kẻ săn mồi (10:00 đến 30:00)
+14835	§9Nhanh nhẹn như thỏ (10:00 đến 30:00)
+14836	§9Cuồng nộ (1:50)
+14837	§9Xóa mọi hiệu ứng
+14838	§9Xóa hút cạn ma lực
+14840	§9Hồi 2 máu
+14841	§9Tốc độ II (0:15)
+14842	§9Kích thích (0:10)
+14843	§9Bền bỉ như đá (10:00 đến 30:00)
+14845	§9Chạm hút máu (0:15)
+14846	§9Chạm hút máu (6:00)
+14847	§9Kháng khô héo (8:00)
+14850	§aĐèn ma trơi
+14851	§aĐất ma trơi
+14852	§aBí ngô quỷ địa ngục
+14853	§aLửa địa ngục
+14854	§aBom sống
+14855	§aLord Pumpkinhead
+14856	§aTrứng sinh ra Lord Pumpkinhead
+14857	§aĐèn của Lord Pumpkinhead
+14858	§aChúa tể không đầu
+14859	§aTrứng sinh ra Chúa tể không đầu
+14860	§aNgựa ma của chúa tể
+14861	§aTrứng sinh ra Ngựa ma của chúa tể
+14862	§aThan hồng địa ngục âm ỉ
+14863	§aBia mộ: The Gentleman Frog
+14867	§bBùa kháng cự
+14869	§bThuốc tiên hàng rào băng
+14870	§bKẹo ngày lễ phép thuật
+14873	§bBia mộ: 2003wise
+14874	§bBia mộ: 2D_ling
+14875	§bBia mộ: Feral
+14876	§bBia mộ: Fubuki Banzai
+14877	§bBia mộ: Mike & Rory
+14878	§bBia mộ: Nino4416
+14879	§bBia mộ: Rotborne
+14880	§bBánh Phục Sinh biến đổi
+14881	§bThuốc tiên biến đổi
+14886	§c• Không thể tháo mũ ra
+16252	§c• Vũ khí này nặng quá mức, khó dùng nếu không có hiệu ứng sức mạnh
+14887	§c• Bạn phát nổ khi sắp hết máu
+14889	§cChai năng lượng phép thuật
+14890	§cThành phần hỗn loạn
+14891	§cBùa sức mạnh
+14892	§cTiền sảnh bóng tối
+14895	§cThuốc tiên chống côn trùng
+14896	§cThuốc tiên cuồng nộ
+14897	§cThuốc tiên ma cà rồng
+14898	§cThuốc tiên kháng khô héo
+14900	§cHút sinh lực
+14901	§cĐĩa nhạc
+14905	§cMột thứ gì đó hùng mạnh đang xâm chiếm thế giới này...
+14906	§cSiết cổ

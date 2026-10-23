@@ -1,0 +1,391 @@
+0	Lần gia cố đầu tiên
+1	Mảnh kitin
+2	Giết 1 Kiến phóng hỏa
+3	Kiến giữa tro tàn
+4	Tàn tích cháy dở
+5	Thấy mạnh hơn rồi
+6	Cảm giác bị theo dõi
+7	Bóng hình trong sương mù
+8	Liên kết bộ xương ngoài
+9	Giết 1 Rết rình mồi
+10	Cú cắn của hàm kìm
+11	Lời cảnh báo bằng tơ
+12	Săn tuyến tơ
+13	Giết 1 Nhện chộp mồi
+14	Kẻ săn mồi của tơ
+15	Tuyến tơ khổng lồ
+16	Món quà của góa phụ đen
+17	Mai cứng
+18	Kho vũ khí kitin
+19	Tuyến cháy
+20	Nghi lễ âm ỉ
+21	Mang theo nỗi sợ
+22	Tìm Thánh điện của Herobrine
+23	Dấu ấn của Herobrine
+24	Phù phép một vật phẩm
+25	Bậc thầy phù phép
+26	Nghi lễ của tơ và lửa
+27	Lặng gió trước khi cánh đập
+28	Giết trùm Bướm đêm nhện
+29	Đôi cánh tai ương
+30	Triệu hồi trùm Bướm đêm nhện
+31	Bầu trời co giật
+32	Gia cố toàn diện
+33	Nọc độc đã bị đụng vào
+34	Mở khóa con đường tiến triển chương 2
+35	Tiếng vọng của bướm đêm
+36	Bằng chứng nó có thật
+37	Đặt kẻ canh chừng
+38	Ký ức trắng đen
+39	Thịt không rõ nguồn gốc
+40	Mảnh lạnh lẽo của thứ gì đó cổ xưa hơn
+41	Gia cố ngôi nhà của bạn
+42	Giấc ngủ cuối cùng
+43	Thịt hóa đồ ăn được
+44	Đôi mắt ngoài tầm với
+45	Kim loại hóa thịt
+46	Chào mừng tới Cave Horror Project!
+47	Mảnh vỡ của sự tha hóa
+48	Thường xuất hiện ở Thế giới thực vào ban đêm.
+49	Giết 1 Chó săn kinh hoàng
+50	Tiếng hú của chó săn
+51	Có thể xuất hiện ở bất cứ đâu trong Thế giới thực vào ban đêm.
+52	Giết 1 Lốc xoáy bóng tối
+53	Vết rách trong bóng tối
+54	Kênh dẫn bóng tối
+55	Chiến lợi phẩm cuộc săn
+56	Bước qua ác mộng
+57	Bờ vực tha hóa
+58	Lễ phục của ác mộng
+59	Những bộ rễ dõi theo
+60	Quần xã gốc nên tìm Kiến phóng hỏa là &4Châu thổ đá bazan&r và &4Rừng đỏ thẫm&r.
+61	Danh sách quần xã BOP mới nơi Kiến phóng hỏa có thể xuất hiện:
+62	• Vùng đất khô
+63	• Bãi biển Cồn cát
+64	• Cánh đồng rừng
+65	• Rừng mưa
+66	• Vùng nhiệt đới
+67	• &4Tầng cây thấp&r
+68	• Hoang mạc
+69	• Thảo nguyên hoang mạc
+70	• Rừng
+71	Quần xã gốc nên tìm Rết rình mồi là &4Châu thổ đá bazan&r và &4Rừng đỏ thẫm&r.
+72	Danh sách quần xã BOP mới nơi Rết rình mồi có thể xuất hiện:
+73	• &4Vực thẳm pha lê&r
+74	• Đồng bằng núi lửa
+75	• Núi lửa
+76	Quần xã gốc nên tìm Nhện chộp mồi là Bóng tối sâu thẳm.
+77	Danh sách quần xã BOP mới nơi Nhện chộp mồi có thể xuất hiện:
+78	• Rừng nguyên sinh chết
+79	• Rừng bất ổn
+80	• Tổ nhện
+81	• &4Vực thẳm khô héo&r
+82	Có thể tìm thấy ở Thế giới thực, chủ yếu ở quần xã rừng hoặc đồng bằng.
+83	{image:cavehorrorproject:textures/herobrine_sanctrum.png width:225 height:200 align:center fit:true}
+84	Nhiệm vụ này hoàn thành khi nhặt được Pha lê vực thẳm rơi ra từ trùm Bướm đêm nhện.
+85	Bạn có thể triệu hồi trùm Bướm đêm nhện bằng cách đặt một khối Cát linh hồn lên trên một khối Thịt nhện nát rồi châm lửa. Bạn cần có Khắc tinh của bóng tối trong túi đồ.
+86	Vũ khí nên dùng: Cung
+87	Giáp nên dùng: Kitin bậc 2
+88	Cánh cửa trong lòng đất
+89	Mở cổng tới cõi Trườn
+90	Mục rữa bên dưới thế giới
+91	Tìm quần xã Mê cung bí ẩn
+92	Có gì đó bí ẩn
+93	Gã khổng lồ bên dưới
+94	Nguyên liệu tốt hơn
+95	Giáp của vực sâu
+96	Quan sát The Fallen ở cự ly gần
+97	Đó đâu phải Người Ender
+98	Quan sát The Damned ở cự ly gần
+99	The Damned lại bước đi
+100	Méo mó trong thời gian
+101	Thịt nấu bằng tiếng vọng
+102	Giết bất kỳ quái vật nghĩa địa nào
+103	Có thứ không chịu nằm yên dưới mộ
+104	Ấn tượng đầu tiên
+105	Nó đã để ý tới bạn
+106	Khâu bằng sự điên loạn
+107	Giết 2 Bọ cạp tấn công
+108	Nọc độc trong đá
+109	Chi nhiễm độc
+110	Sự trỗi dậy của Bọ cạp khát máu
+111	Giết trùm Bọ cạp khát máu
+112	Tàn phá nóng chảy
+113	Lõi đá mắt mèo lửa
+114	Thiêu rụi bầy đàn
+115	Mở khóa con đường tiến triển chương 3
+116	Sự sống trong tay bạn
+117	Mảnh vỡ cơn thịnh nộ nóng chảy
+118	Di vật nóng chảy
+119	Hơi nóng không cần lửa
+120	Giết 2 Linh hồn không yên
+121	Một linh hồn được yên nghỉ
+122	Những khúc xương lẽ ra không nên dính làm một
+123	Cơ hội thứ hai
+124	Giết một Thây ma chú hề
+125	Chẳng ai cười nổi
+126	Bầy đàn bắt đầu
+127	Triệu hồi trùm Bọ cạp khát máu
+128	Bầu trời từ từ hé mở
+129	Lá bạc hà
+130	Đồ ngọt nho nhỏ
+131	Giết 1 Gấu Xám
+132	Móng vuốt hoang dã
+133	Gỗ lạ
+134	Giết 3 Cá Bay
+135	Đôi cánh trên mặt nước
+136	Bạn có thể mua vật phẩm này từ một dân làng trong công trình bên dưới.
+137	Tiếng vọng trên băng
+138	Gói ghém lên đường
+139	Giết 1 Rết trục xuất
+140	Rết trục xuất gục ngã
+141	Rèn trong bóng tối
+142	Giết 1 Linh hồn hỗn loạn
+143	Tiếng vọng của hỗn loạn
+144	Hạt giống tàn lụi
+145	Giết 1 Hiệp sĩ hỗn loạn sa ngã
+146	Nhà vô địch sa ngã
+147	Bản thiết kế của sự tha hóa
+148	Tấm giáp vực thẳm
+149	Khoác lên bóng tối
+150	Tha hóa cô đặc
+151	Chiến đao tàn phá
+152	Diệt côn trùng
+153	Tiếng gõ bên dưới
+154	Dùng La bàn cõi Trườn để tìm Lâu đài cõi Trườn! Khi đã vào trong, bạn có thể kích hoạt cổng để vào cõi Trườn.
+155	Để kích hoạt cổng, hãy vào khối cầu ở giữa làm từ các khối Rào chắn cõi Trườn. Đốt cả bốn khối Cột cõi Trườn bằng Đạn thiêu đốt rồi nhấp chuột phải vào khối Bàn thờ cõi Trườn ở giữa bằng một Pha lê vực thẳm
+156	Quần xã Mê cung bí ẩn nằm ở tầng thứ hai của cõi Trườn
+157	{image:cavehorrorproject:textures/cryptic_complex.png width:200 height:100 align:center}
+158	Rơi ra từ trùm nhỏ Quái vật cuốn chiếu khổng lồ, chỉ xuất hiện ở quần xã Mê cung bí ẩn trong cõi Trườn.
+159	{image:cavehorrorproject:textures/the_fallen.png width:100 height:100 align:center fit:true}
+160	Quần xã gốc nên tìm Bọ cạp tấn công là &4Châu thổ đá bazan&r, &4Thung lũng cát linh hồn&r, &4Vùng Nether hoang vu&r và &4Rừng đỏ thẫm&r.
+161	Danh sách quần xã BOP mới nơi Bọ cạp tấn công có thể xuất hiện:
+162	• Sa mạc lạnh
+163	• Sa mạc tươi tốt
+164	Bạn có thể triệu hồi trùm Bọ cạp khát máu bằng cách đặt một khối Cát linh hồn lên trên một khối Thịt bọ cạp nát rồi châm lửa. Bạn cần có Khắc tinh của bóng tối trong túi đồ.
+165	Vũ khí nên dùng: Cung hoặc Lưỡi kiếm vực thẳm
+166	Giáp nên dùng: Kitin bậc 3 hoặc Chiến binh khổng lồ
+167	Mọc gần sông hoặc vũng nước nhỏ. Cũng có thể lấy được từ Thây ma ngư dân, xuất hiện gần sông.
+168	{image:cavehorrorproject:textures/cassette_house.png width:200 height:200 align:center}
+169	Xuất hiện khi bạn giết một biến thể sẫm màu hiếm của Ấu trùng rết trục xuất, có thể xuất hiện ở các quần xã gốc sau: Rừng, Sa mạc, Hang động, Rừng nhiệt đới, Đầm lầy và &4Rừng đỏ thẫm&r, &4Thung lũng cát linh hồn&r, &4Vùng Nether hoang vu&r.
+170	Danh sách quần xã BOP mới nơi Rết trục xuất có thể xuất hiện:
+171	• Rừng nấm
+172	• Hang động phát sáng
+173	• Đất ngập nước
+174	Có thể xuất hiện ở Thế giới thực vào ban đêm.
+175	Hiếm khi xuất hiện ở Thế giới thực vào ban đêm.
+176	Con búp bê dõi theo
+177	Kho dự trữ địa ngục
+178	Vương miện hỏa ngục
+179	Mai lửa
+180	Quần giáp vực thẳm
+181	Bước qua lửa
+182	Thép trong bếp
+183	Nồi đầy ắp
+184	Hơi ấm sinh tồn
+185	Nước sốt mùa gặt
+186	Bữa ăn trước cơn bão
+187	Luộc chín bóng tối
+188	Rượu táo vườn cây
+189	Quả trứng của End
+190	Lễ vật nát bấy
+191	Triệu hồi trùm Rồng quất hư không
+192	Bầu trời vỡ toang
+193	Trái tim hư không
+194	Mở khóa chương 4
+195	Giết trùm Rồng quất hư không
+196	Rồng của hư không
+197	KẺ HÀNH HẠ ĐANG TỚI
+198	Phong ấn thứ ba đã vỡ
+199	Ngọn lửa thôi miên
+200	Mở khóa con đường tiến triển chương 4
+201	Phán xét bùng cháy
+202	Dụng cụ của đồ tể
+203	Lưỡi dao trưng bày
+204	Vũ khí hủy diệt
+205	Nhện ẩn dật rình rập
+206	Gã khổng lồ Goliath gục ngã
+207	Đẩy lùi bầy đàn
+208	Hỗn loạn trong tay bạn
+209	Linh hồn từ cõi bên kia
+210	Trục xuất kẻ trục xuất
+211	Trứng chiên
+212	Phao cứu sinh
+213	Mảnh vỡ linh hồn
+214	Hương vị bên kia sự sống
+215	Cả thế giới trong tay bạn
+216	Tàn tích dưới vực sâu
+217	Lừa cái chết
+218	Chiến lợi phẩm của con đầu đàn
+219	Nhử quái thú
+220	Nơi bầu trời vỡ ra
+221	Bạn có thể triệu hồi trùm Rồng quất hư không bằng cách đặt một khối Cát linh hồn lên trên một khối Thịt ruồi nát rồi châm lửa. Bạn cần có Khắc tinh của bóng tối trong túi đồ.
+222	Vũ khí nên dùng: Súng phán xét hoặc Súng lửa địa ngục thôi miên
+223	Giáp nên dùng: Địa ngục
+224	Nhện ẩn dật có thể xuất hiện ở bất cứ đâu dưới lòng đất trong các quần xã gốc.
+225	Danh sách quần xã BOP mới nơi Nhện ẩn dật có thể xuất hiện:
+226	Quần xã gốc nên tìm Nhện khổng lồ Goliath là Rừng nhiệt đới và Hang động tươi tốt.
+227	Danh sách quần xã BOP mới nơi Nhện khổng lồ Goliath có thể xuất hiện:
+228	• Xavan tươi tốt
+229	• Rừng mưa nhiều đá
+230	• Vùng cây bụi
+231	Rơi ra từ các linh hồn sau của Born in Chaos:
+232	• Nhà truyền giáo
+233	• Linh hồn bí ngô
+234	• Linh hồn hỗn loạn
+235	Rết trục xuất sinh ra từ Ấu trùng rết trục xuất
+236	Quần xã gốc nên tìm Ấu trùng rết trục xuất là &4Thung lũng cát linh hồn&r, &4Vùng Nether hoang vu&r và &4Rừng đỏ thẫm&r.
+237	Cặn ma quái
+238	Bom của thứ vô hình
+239	Quả mọng đắng của Nether
+240	Thức tỉnh rang khô
+241	Chiếc bánh cho kẻ bị đày đọa
+242	Tấm thớt của đồ tể
+243	Lưỡi dao cho nhà bếp
+244	Cắt bánh
+245	Dung hợp vực thẳm và hư không
+246	U linh tinh luyện
+247	Vương miện u linh
+248	Mai u linh
+249	Quần giáp u linh
+250	Bước chân u linh
+251	Kẻ hút sinh lực đi săn
+252	Hạt giống hỗn loạn
+253	Chiến lợi phẩm của thợ săn
+254	Xương của kẻ nuốt chửng
+255	Trái tim thách thức
+256	Cát của thế giới bị thiêu rụi
+257	Công trình mai cứng
+258	Triệu hồi và giết trùm Nhện ba lưỡi
+259	Nỗi kinh hoàng ba trí óc
+260	Lõi thời gian vỡ nát
+261	Những kẻ giữ thời gian bị nhiễm
+262	Mảnh thời gian
+263	Kẻ tìm hư không báo thù
+264	Mở khóa con đường tiến triển chương 5
+265	Bậc thầy Pháo thời gian
+266	Bàn tay từ bên dưới
+267	Mùa gặt hỏng
+268	Mùa gặt gai góc
+269	Trà hồi sức
+270	Tàn phá vòng xoáy
+271	Bánh ngọt
+272	Đỏ rùng rợn
+273	Cái chạm hòa tan
+274	Lưỡi dao quay về
+275	Lưỡi dao xương
+276	Đồ ngọt làm từ lửa
+277	Sợi chỉ của thời gian vỡ nát
+278	Quả cà phê mọc trên những cây nhỏ sẫm màu ở Nether
+279	Bạn có thể triệu hồi trùm Nhện ba lưỡi bằng cách đặt một khối Cát cháy sém lên trên một khối Kitin rồi châm lửa bằng Đạn thiêu đốt. Bạn cần có Khắc tinh của bóng tối trong túi đồ.
+280	Vũ khí nên dùng: Abyss Ascendant
+281	Giáp nên dùng: U linh hoặc Chiến binh khổng lồ
+282	Quần xã nên tìm Nhện gieo bệnh là Sa mạc suy tàn ở tầng 3 và 4 của cõi Trườn.
+283	Danh sách quần xã BOP mới nơi Nhện gieo bệnh có thể xuất hiện:
+284	Áo choàng sự sống
+285	Mũ sinh lực
+286	Áo sinh lực
+287	Quần giáp sinh lực
+288	Bước chân sinh lực
+289	Thực tại va chạm
+290	Nung chảy điều không thể
+291	Đứng vững
+292	Lõi của thợ thủ công
+293	Cấp điện cho xưởng
+294	Đồ nghề của thợ mày mò
+295	Ánh sáng trong bóng tối
+296	Mặt bàn của đồ tể
+297	Chảo bên bếp lửa
+298	Một chút dễ chịu
+299	Bạn đồng hành của đầu bếp
+300	Mẹ của cõi Trườn
+301	Mảnh hỗn mang
+302	Trái tim hỗn mang
+303	Bàn thờ kitin
+304	Cát của kẻ bị đày đọa
+305	Đạn hủy diệt
+306	Chất xúc tác thăng thiên
+307	Lối đi siêu thực
+308	Triệu hồi và giết trùm Diabolos Kẻ tàn sát
+309	Quỷ tàn phá
+310	Đức tin cũ
+311	Đóa hoa không tên
+312	Mùa gặt ngọt ngào
+313	Đôi mắt sinh lực
+314	Chớp mắt xuyên thực tại
+315	Ngọc trai từ Nether
+316	Dung nham ăn được
+317	Mở rộng sức chứa
+318	Mở khóa con đường tiến triển chương 6
+319	Giao thức hủy diệt
+320	Hỗn mang bung xích
+321	Nhện mẹ có thể xuất hiện ở bất cứ đâu dưới lòng đất hoặc ở quần xã Hoang mạc mạng nhện tầng 3 và 4 của cõi Trườn
+322	Bạn có thể triệu hồi trùm Diabolos Kẻ tàn sát bằng cách đặt một khối Cát cháy sém lên trên một khối Kitin nặng rồi châm lửa bằng Đạn thiêu đốt. Bạn cần có Khắc tinh của bóng tối trong túi đồ.
+323	Vũ khí nên dùng: Abyss Ascendant và Pháo thời gian
+324	Mở khóa sau khi hoàn thành con đường tiến triển của chương 1 tới 5
+325	Đạn vực thẳm
+326	Vũ khí khởi nguyên
+327	Vương miện vượt thời gian
+328	Trái tim vượt thực tại
+329	Quần giáp vượt không gian
+330	Bước chân vượt thời gian
+331	Kẻ hủy diệt: Giết KẺ HÀNH HẠ
+332	TẬN CÙNG CỦA VẠN VẬT
+333	CƠN THỊNH NỘ CỦA KẺ BỊ HÀNH HẠ
+334	Thần chết của điểm kỳ dị
+335	Vực thẳm cô đặc
+336	Của cải nóng chảy
+337	Hư không hóa rắn
+338	Thời gian hóa rắn
+339	Hỗn mang cô đặc
+340	Trái tim của khổ đau vĩnh hằng
+341	Biến chúng thành hư vô
+342	Vượt ngoài ba chiều
+343	Uống cạn lý trí
+344	Bạn sẽ phải giết KẺ HÀNH HẠ nhiều lần để hoàn thành các nhiệm vụ sau.
+345	Khoái lạc từ khổ đau
+346	Hành hạ theo lệnh bạn
+347	Vương miện vĩnh hằng
+348	Trái tim vĩnh hằng
+349	Quần giáp vĩnh hằng
+350	Bước chân vĩnh hằng
+351	Đừng chớp mắt
+352	Cả thế giới trong túi bạn
+353	Vật phẩm này rơi ra khi The Obsessed chết.
+354	Yêu hóa ghê tởm
+355	Nghiền hay bị nghiền
+356	Càng của kẻ nghiền nát
+357	Bàn thờ Kẻ hành hạ: Triệu hồi KẺ HÀNH HẠ
+358	TẬN CÙNG ĐÃ TỚI
+359	Hỗn mang trong huyết quản
+360	BẠN ĐÃ THĂNG THIÊN
+361	Một phút yên bình
+362	Linh hồn của Nether
+363	Cắt đứt liên kết
+364	Mỏ neo xuyên không gian
+365	Cát trong túi bạn
+366	Tinh chất của vùng nước sâu
+367	Tận cùng của vạn vật
+368	Để giết KẺ HÀNH HẠ lần đầu, bạn cần dùng những vũ khí mạnh nhất của mod mà bạn đã có: Súng trường khởi nguyên và Pháo thời gian cùng bộ Giáp không thời gian.
+369	Cơ chế của KẺ HÀNH HẠ khá phức tạp, mình rất khuyên bạn đọc trang hướng dẫn ArPhEx về cách hạ con trùm này nếu bạn chưa từng làm.
+370	Danh sách quần xã BOP mới nơi Cua siết cổ có thể xuất hiện:
+371	• Bayou
+372	• Đồng bằng ngập nước
+373	• Đầm lầy
+374	Bạn có thể triệu hồi KẺ HÀNH HẠ từ một bàn thờ thạch anh, hiếm khi gặp ở tầng dưới cùng của cõi Trườn, bằng cách ném một Pha lê vực thẳm xuống hư không.
+375	Nếu KẺ HÀNH HẠ đã xuất hiện hoặc bạn thấy mình chưa sẵn sàng hạ nó, bạn có thể tạm phong ấn nó bằng cách tới một Cổng cõi Trườn ở Thế giới thực và thả một Khắc tinh của bóng tối vào cổng.
+376	Kho hỗn mang
+377	Sức mạnh IV
+378	Kho trận cuối
+379	Gói cơ bản
+380	Bảo vệ I
+381	Sắc bén I
+382	Gói chiến đấu
+383	Gói kitin
+384	Gói thám hiểm
+385	Gói thức ăn
+386	Cướp bóc I
+387	Gói tiện ích
+388	Gói hiếm
+389	Hiệu suất III
+390	Gói may mắn

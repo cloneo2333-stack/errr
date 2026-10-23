@@ -1,0 +1,23 @@
+{
+  "parent": "cavemind:chuong/c3_mo",
+  "display": {
+    "icon": {
+      "item": "minecraft:compass"
+    },
+    "title": {
+      "text": "Lời Mời Của Mai"
+    },
+    "description": {
+      "text": "Nhận lời mời của chương 4 và chiếc la bàn sương"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

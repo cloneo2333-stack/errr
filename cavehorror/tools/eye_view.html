@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mắt Thần Cave Mind</title>
+<style>
+:root{--bg:#0e0f12;--panel:#16181d;--line:#2a2e36;--text:#d9dce3;--dim:#8a909c;--high:#ff5d5d;--med:#f0a43a;--low:#7fb3ff;--info:#7c8594;--man:#ff4d4d;--damned:#e8f0ff;--day:#7fd8ff;--hero:#b77bff;--me:#3ddc84}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:13px/1.45 system-ui,Segoe UI,Roboto,sans-serif}
+header{display:flex;gap:16px;align-items:baseline;padding:10px 16px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+header h1{font-size:16px;margin:0}
+header .meta{color:var(--dim)}
+nav{display:flex;gap:4px;padding:8px 16px}
+nav button{background:var(--panel);color:var(--text);border:1px solid var(--line);padding:6px 12px;border-radius:6px;cursor:pointer}
+nav button.on{border-color:var(--me);color:var(--me)}
+.tab{display:none;padding:0 16px 16px}
+.tab.on{display:block}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0 12px}
+.chip{border:1px solid var(--line);border-radius:999px;padding:3px 10px;cursor:pointer;background:var(--panel);user-select:none}
+.chip.off{opacity:.35}
+.sev{display:inline-block;min-width:44px;text-align:center;border-radius:4px;padding:1px 6px;font-weight:600;font-size:11px;color:#111}
+.sev.high{background:var(--high)}.sev.med{background:var(--med)}.sev.low{background:var(--low)}.sev.info{background:var(--info)}
+.item{display:grid;grid-template-columns:1fr auto;gap:10px;border:1px solid var(--line);background:var(--panel);border-radius:8px;padding:10px;margin-bottom:8px}
+.item .head{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.item .kind{color:var(--dim);font-family:ui-monospace,Consolas,monospace}
+.item .forced{color:var(--dim);font-style:italic}
+.item details{margin-top:6px;color:var(--dim)}
+.item details div{font-family:ui-monospace,Consolas,monospace;font-size:11.5px;white-space:pre-wrap}
+.item img{width:220px;border-radius:6px;cursor:zoom-in}
+.item button{margin-top:6px;background:none;border:1px solid var(--line);color:var(--me);border-radius:5px;padding:3px 8px;cursor:pointer}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px;margin-bottom:14px}
+.card{border:1px solid var(--line);background:var(--panel);border-radius:8px;padding:10px}
+.card h3{margin:0 0 6px;font-size:13px}
+.card table{width:100%;border-collapse:collapse;font-size:12px}
+.card td{padding:1px 4px;border-bottom:1px solid var(--line)}
+.card td:last-child{text-align:right;font-variant-numeric:tabular-nums}
+#replay{display:grid;grid-template-columns:minmax(0,1fr) 380px;gap:12px}
+#mapwrap{position:relative;background:#000;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+#map{width:100%;display:block;aspect-ratio:1/1;cursor:grab}
+#pov{width:100%;display:block;aspect-ratio:16/9;background:#050608;border:1px solid var(--line);border-radius:8px}
+.side{display:flex;flex-direction:column;gap:8px;min-width:0}
+.box{border:1px solid var(--line);background:var(--panel);border-radius:8px;padding:8px;overflow:auto}
+.box h4{margin:0 0 4px;font-size:12px;color:var(--dim);font-weight:600}
+pre{margin:0;font:11.5px/1.4 ui-monospace,Consolas,monospace;white-space:pre-wrap;word-break:break-word}
+#ents td{padding:1px 4px;font:11.5px ui-monospace,Consolas,monospace;white-space:nowrap}
+#evlog{max-height:220px}
+#evlog div{font:11.5px ui-monospace,Consolas,monospace;padding:1px 0;border-bottom:1px solid #1d2026}
+#evlog div.now{color:var(--me)}
+#bar{display:flex;gap:8px;align-items:center;margin-top:8px;flex-wrap:wrap}
+#bar button,#bar select{background:var(--panel);color:var(--text);border:1px solid var(--line);border-radius:5px;padding:4px 10px}
+#clock{font:600 14px ui-monospace,Consolas,monospace;min-width:150px}
+#strip{width:100%;height:34px;display:block;margin-top:6px;border:1px solid var(--line);border-radius:6px;background:var(--panel);cursor:pointer}
+#shot img{width:100%;border-radius:6px}
+.legend{display:flex;gap:10px;flex-wrap:wrap;color:var(--dim);font-size:12px;margin-top:6px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:4px;vertical-align:-1px}
+#zoomimg{position:fixed;inset:0;background:#000c;display:none;align-items:center;justify-content:center;z-index:9}
+#zoomimg img{max-width:96vw;max-height:94vh}
+@media (max-width:900px){#replay{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><h1>Mắt Thần</h1><span class="meta" id="meta"></span></header>
+<nav><button data-tab="find" class="on">Lỗi tìm thấy</button><button data-tab="rep">Phát lại</button><button data-tab="sum">Thống kê</button></nav>
+<section class="tab on" id="find">
+  <div class="chips" id="sevchips"></div>
+  <div class="chips" id="kindchips"></div>
+  <div id="items"></div>
+</section>
+<section class="tab" id="rep">
+  <div class="chips" id="pchips"></div>
+  <div id="replay">
+    <div>
+      <div id="mapwrap"><canvas id="map" width="900" height="900"></canvas></div>
+      <div class="legend"><span><i style="background:var(--me)"></i>bạn + nón tầm nhìn</span><span><i style="background:var(--man)"></i>Man</span><span><i style="background:var(--damned)"></i>The Damned</span><span><i style="background:var(--day)"></i>cảnh ban ngày</span><span><i style="background:var(--hero)"></i>Herobrine</span><span>viền dày = đang lộ trên màn hình · ✗ = server tưởng thấy nhưng màn hình không vẽ</span><label><input type="checkbox" id="cave"> lớp hang (lát cắt ngang chân bạn)</label></div>
+      <div id="bar"><button id="play">▶</button><select id="speed"><option value="1">1×</option><option value="4" selected>4×</option><option value="16">16×</option><option value="64">64×</option></select><span id="clock"></span><button id="prevI">◀ lỗi</button><button id="nextI">lỗi ▶</button></div>
+      <canvas id="strip" width="1200" height="34"></canvas>
+    </div>
+    <div class="side">
+      <div class="box"><h4>Những gì bạn thấy (dựng lại từ góc nhìn)</h4><canvas id="pov" width="640" height="360"></canvas></div>
+      <div class="box"><h4>Trạng thái</h4><pre id="state"></pre></div>
+      <div class="box"><h4>Thực thể</h4><table id="ents"></table></div>
+      <div class="box" id="evlog"></div>
+      <div class="box" id="shot"><h4>Ảnh chụp gần nhất</h4></div>
+    </div>
+  </div>
+</section>
+<section class="tab" id="sum"><div class="stats" id="stats"></div></section>
+<div id="zoomimg"><img alt=""></div>
+<script>
+const D = /*DATA*/null;
+const $ = s => document.querySelector(s);
+const clock = t => { const s = Math.max(0, Math.floor((t - D.t0) / 20)); return Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0'); };
+const tod = v => { if (v == null) return ''; const h = (Math.floor(v / 1000) + 6) % 24, m = Math.floor((v % 1000) * 60 / 1000); return String(h).padStart(2, '0') + ':' + String(m).padStart(2, '0'); };
+const esc = s => String(s).replace(/[&<>]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c]));
+$('#meta').textContent = `${D.dir} · ${D.start.mod || ''} · ${D.start.world || ''} · ${D.items.length} lỗi`;
+document.querySelectorAll('nav button').forEach(b => b.onclick = () => {
+  document.querySelectorAll('nav button').forEach(x => x.classList.toggle('on', x === b));
+  document.querySelectorAll('.tab').forEach(x => x.classList.toggle('on', x.id === b.dataset.tab));
+  if (b.dataset.tab === 'rep') draw();
+});
+const SEVS = ['high', 'med', 'low', 'info'];
+const SEVVI = {high: 'nặng', med: 'vừa', low: 'nhẹ', info: 'tin'};
+const KINDVI = {pop_in: 'hiện ra trước mắt', pop_out: 'biến mất trước mắt', teleport: 'nhảy cóc', moved_seen: 'cử động khi bị nhìn', embedded: 'kẹt trong khối', bad_footing: 'chỗ đứng sai', floating: 'lơ lửng', stuck_nav: 'kẹt đường', too_close: 'dính sát người', idle_act: 'giữ cảnh không diễn', blind: 'AI mù', hero_unrendered: 'Herobrine không hiện', unrendered: 'không được vẽ', hero_footing: 'Herobrine sai chỗ đứng', overlap: 'chồng cảnh', repeat: 'lặp chiêu', setup_fail: 'dựng hỏng', gave_up: 'bỏ cuộc', exception: 'lỗi chạy', edit_in_view: 'sửa trong tầm mắt'};
+const fSev = new Set(['high', 'med', 'low']), fKind = new Set();
+let showForced = true;
+function chips() {
+  const counts = {};
+  D.items.forEach(i => counts[i.kind] = (counts[i.kind] || 0) + i.count);
+  $('#sevchips').innerHTML = SEVS.map(s => `<span class="chip ${fSev.has(s) ? '' : 'off'}" data-s="${s}"><span class="sev ${s}">${SEVVI[s]}</span> ${D.items.filter(i => i.sev === s).length}</span>`).join('') +
+    `<span class="chip ${showForced ? '' : 'off'}" id="forced">gồm cả lúc gõ lệnh thử</span>`;
+  $('#kindchips').innerHTML = Object.keys(counts).sort((a, b) => counts[b] - counts[a]).map(k => `<span class="chip ${fKind.size && !fKind.has(k) ? 'off' : ''}" data-k="${k}">${KINDVI[k] || k} ×${counts[k]}</span>`).join('');
+  document.querySelectorAll('#sevchips .chip[data-s]').forEach(c => c.onclick = () => { const s = c.dataset.s; fSev.has(s) ? fSev.delete(s) : fSev.add(s); render(); });
+  $('#forced').onclick = () => { showForced = !showForced; render(); };
+  document.querySelectorAll('#kindchips .chip').forEach(c => c.onclick = () => { const k = c.dataset.k; fKind.has(k) ? fKind.delete(k) : fKind.add(k); render(); });
+}
+function render() {
+  chips();
+  const list = D.items.filter(i => fSev.has(i.sev) && (!fKind.size || fKind.has(i.kind)) && (showForced || !i.forced));
+  $('#items').innerHTML = list.slice(0, 400).map((i, n) => `<div class="item"><div><div class="head"><span class="sev ${i.sev}">${SEVVI[i.sev]}</span><b>${i.clock}</b><span class="kind">${KINDVI[i.kind] || i.kind}</span>${i.count > 1 ? `<span>×${i.count}</span>` : ''}${i.forced ? '<span class="forced">lúc gõ lệnh thử</span>' : ''}</div><div>${esc(i.msg)}</div>
+    <details><summary>log quanh lúc đó</summary><div>${i.near.map(esc).join('\n')}</div></details><button data-t="${i.t}" data-p="${esc(i.p)}">xem lại khoảnh khắc này</button></div>${i.shot ? `<img loading="lazy" src="screenshots/${i.shot}" alt="ảnh chụp">` : '<span></span>'}</div>`).join('') || '<p>Không có gì theo bộ lọc này.</p>';
+  document.querySelectorAll('#items button').forEach(b => b.onclick = () => { if (b.dataset.p) setPlayer(b.dataset.p); seek(+b.dataset.t - 40); document.querySelector('nav button[data-tab=rep]').click(); });
+  document.querySelectorAll('#items img').forEach(im => im.onclick = () => { $('#zoomimg img').src = im.src; $('#zoomimg').style.display = 'flex'; });
+}
+$('#zoomimg').onclick = () => $('#zoomimg').style.display = 'none';
+function stats() {
+  const st = D.stats, cards = [];
+  const tbl = (title, rows) => `<div class="card"><h3>${title}</h3><table>${rows.map(r => `<tr><td>${esc(r[0])}</td><td>${esc(r[1])}</td></tr>`).join('')}</table></div>`;
+  if (st.tries) cards.push(tbl('Dựng cảnh thành công', Object.entries(st.tries).sort().map(([k, v]) => [k, `${v[1]}/${v[0]}`])));
+  if (st.unseen) cards.push(tbl('Kết thúc mà bạn không thấy', Object.entries(st.unseen).sort().map(([k, v]) => [k, `${v[1]}/${v[0]}`])));
+  if (st.act_frames) cards.push(tbl('Thời gian Đạo diễn giữ cảnh (khung hình)', Object.entries(st.act_frames).sort((a, b) => b[1] - a[1])));
+  if (st.blocked) cards.push(tbl('Lý do Đạo diễn chặn', Object.entries(st.blocked).sort((a, b) => b[1] - a[1]).slice(0, 12)));
+  $('#stats').innerHTML = cards.join('') || '<p>Chưa có số liệu.</p>';
+}
+const players = Object.keys(D.players);
+let P = players[0], F = [], idx = 0, playing = false, speed = 4, zoom = 3, pan = [0, 0], follow = true;
+const mapCache = new Map();
+function setPlayer(p) {
+  P = p; F = D.players[p] ? D.players[p].frames : []; idx = 0;
+  $('#pchips').innerHTML = players.length > 1 ? players.map(x => `<span class="chip ${x === P ? '' : 'off'}" data-p="${esc(x)}">${esc(x)}</span>`).join('') : '';
+  document.querySelectorAll('#pchips .chip').forEach(c => c.onclick = () => { setPlayer(c.dataset.p); draw(); });
+  strip();
+}
+function seek(t) { if (!F.length) return; let lo = 0, hi = F.length - 1; while (lo < hi) { const m = (lo + hi) >> 1; if (F[m].t < t) lo = m + 1; else hi = m; } idx = lo; draw(); }
+function b64(s) { const bin = atob(s), a = new Uint8Array(bin.length); for (let i = 0; i < bin.length; i++) a[i] = bin.charCodeAt(i); return a; }
+function mapFor(t) {
+  const ms = D.players[P].maps; let best = null;
+  for (const m of ms) { if (m.t <= t) best = m; else break; }
+  if (!best) best = ms[0];
+  if (!best) return null;
+  const key = P + best.t + ($('#cave').checked ? 'c' : '');
+  if (mapCache.has(key)) return mapCache.get(key);
+  const N = best.r * 2 + 1, col = b64(best.col), hgt = b64(best.hgt), cave = b64(best.cave);
+  const cv = document.createElement('canvas'); cv.width = cv.height = N;
+  const cx = cv.getContext('2d'), img = cx.createImageData(N, N), useCave = $('#cave').checked;
+  for (let i = 0; i < N * N; i++) {
+    let r = col[i * 3], g = col[i * 3 + 1], b = col[i * 3 + 2];
+    const hi = (hgt[i * 2] << 8 | hgt[i * 2 + 1]) << 16 >> 16;
+    if (hgt[i * 2] === 0x80 && hgt[i * 2 + 1] === 0) { r = g = b = 8; }
+    else {
+      const left = i % N ? ((hgt[(i - 1) * 2] << 8 | hgt[(i - 1) * 2 + 1]) << 16 >> 16) : hi;
+      const k = Math.max(0.55, Math.min(1.3, 1 + (hi - left) * 0.12));
+      r *= k; g *= k; b *= k;
+      if (useCave) { const c = cave[i]; const open = (c & 3) === 3; r = open ? 120 : r * 0.18; g = open ? 110 : g * 0.18; b = open ? 90 : b * 0.18; if (open && (c & 4)) { r = 170; g = 150; b = 110; } }
+    }
+    img.data[i * 4] = r; img.data[i * 4 + 1] = g; img.data[i * 4 + 2] = b; img.data[i * 4 + 3] = 255;
+  }
+  cx.putImageData(img, 0, 0);
+  const out = {m: best, cv}; mapCache.set(key, out); return out;
+}
+const roleColor = r => r.startsWith('man') ? '#ff4d4d' : r === 'damned_day' ? '#7fd8ff' : r.startsWith('damned') ? '#e8f0ff' : r.startsWith('hero') ? '#b77bff' : '#9aa3b2';
+function hh(f) { return Math.atan(Math.tan((f.fov || 70) * Math.PI / 360) * (f.asp || 1.78)); }
+function draw() {
+  if (!F.length) return;
+  const f = F[Math.min(idx, F.length - 1)], cv = $('#map'), c = cv.getContext('2d'), W = cv.width;
+  c.fillStyle = '#000'; c.fillRect(0, 0, W, W);
+  const cx = follow ? f.pos[0] : pan[0], cz = follow ? f.pos[2] : pan[1];
+  const S = zoom, X = x => W / 2 + (x - cx) * S, Z = z => W / 2 + (z - cz) * S;
+  const mp = mapFor(f.t);
+  if (mp) { c.imageSmoothingEnabled = false; const N = mp.m.r * 2 + 1; c.globalAlpha = 0.85; c.drawImage(mp.cv, X(mp.m.cx - mp.m.r), Z(mp.m.cz - mp.m.r), N * S, N * S); c.globalAlpha = 1; }
+  const a = Math.atan2(-Math.sin(f.yr * Math.PI / 180), Math.cos(f.yr * Math.PI / 180)), h = hh(f);
+  const px = X(f.pos[0]), pz = Z(f.pos[2]);
+  c.fillStyle = 'rgba(61,220,132,.24)'; c.beginPath(); c.moveTo(px, pz);
+  const yr = f.yr * Math.PI / 180, L = 90 * S;
+  const dir = ang => [-Math.sin(ang), Math.cos(ang)];
+  const l = dir(yr + h), r = dir(yr - h);
+  c.lineTo(px + l[0] * L, pz + l[1] * L); c.lineTo(px + r[0] * L, pz + r[1] * L); c.closePath(); c.fill();
+  c.strokeStyle = 'rgba(61,220,132,.45)'; c.stroke();
+  const trail = (pts, col) => { c.strokeStyle = col; c.lineWidth = 1.5; c.beginPath(); pts.forEach((p, i) => i ? c.lineTo(X(p[0]), Z(p[2])) : c.moveTo(X(p[0]), Z(p[2]))); c.stroke(); };
+  const back = F.slice(Math.max(0, idx - 150), idx + 1);
+  trail(back.map(x => x.pos), 'rgba(61,220,132,.6)');
+  const tr = {};
+  back.forEach(x => (x.ents || []).forEach(e => (tr[e.id] = tr[e.id] || []).push(e.pos)));
+  const cl = (D.players[P].client || {})[f.t];
+  const rendered = new Set(cl ? cl.r : []);
+  Object.entries(tr).forEach(([id, pts]) => { const e = (f.ents || []).find(x => x.id === id); trail(pts, (e ? roleColor(e.r) : '#666') + '88'); });
+  const ent = (e, col, label, miss) => {
+    const x = X(e.pos[0]), z = Z(e.pos[2]), on = e.on && e.vis >= 0.3;
+    c.fillStyle = col; c.strokeStyle = on ? '#fff' : '#000'; c.lineWidth = on ? 3 : 1;
+    c.beginPath(); c.arc(x, z, Math.max(4, S * 0.9), 0, 7); c.fill(); c.stroke();
+    if (e.yr != null) { const d = dir((e.hy ?? e.yr) * Math.PI / 180); c.strokeStyle = col; c.lineWidth = 2; c.beginPath(); c.moveTo(x, z); c.lineTo(x + d[0] * 14, z + d[1] * 14); c.stroke(); }
+    c.fillStyle = '#fff'; c.font = '12px ui-monospace,Consolas,monospace'; c.fillText(label + (miss ? ' ✗' : ''), x + 8, z - 8);
+  };
+  (f.ents || []).forEach(e => ent(e, roleColor(e.r), `${e.r}${e.an ? ' ' + e.an : ''} ${e.d}m`, cl && e.on && e.vis >= 0.5 && !rendered.has(e.id)));
+  if (f.hero && f.hero.pos) ent(f.hero, '#b77bff', `hero ${f.hero.kind}${f.hero.seen ? ' (đã thấy)' : ''} ${f.hero.d}m`, cl && f.hero.on && f.hero.vis >= 0.5 && !cl.h);
+  c.fillStyle = '#3ddc84'; c.save(); c.translate(px, pz); c.rotate(-a + Math.PI); c.beginPath(); c.moveTo(0, -10); c.lineTo(7, 8); c.lineTo(-7, 8); c.closePath(); c.fill(); c.restore();
+  pov(f, cl);
+  side(f, cl);
+  $('#clock').textContent = `${clock(f.t)} · ${tod(f.tod)} · ${idx + 1}/${F.length}`;
+  stripCursor();
+}
+function pov(f, cl) {
+  const cv = $('#pov'), c = cv.getContext('2d'), W = cv.width, H = cv.height;
+  const night = f.tod != null && f.tod > 13000 && f.tod < 23000;
+  const tv = Math.tan((f.fov || 70) * Math.PI / 360), hz = Math.max(0, Math.min(H, H / 2 - Math.tan((f.xr || 0) * Math.PI / 180) / tv * H / 2));
+  c.fillStyle = night ? '#05070c' : '#1b2a3a'; c.fillRect(0, 0, W, hz);
+  c.fillStyle = night ? '#0b0d10' : '#22301f'; c.fillRect(0, hz, W, H - hz);
+  const rendered = new Set(cl ? cl.r : []);
+  const drawE = (e, col, name, ok) => {
+    if (e.sx == null || Math.abs(e.sx) > 1.3 || Math.abs(e.sy) > 1.3) return;
+    const x = W / 2 + e.sx * W / 2, y = H / 2 - e.sy * H / 2, hgt = Math.min(H * 1.5, Math.max(5, (e.h || 1.8) / Math.max(1, e.d) / tv * H / 2));
+    c.globalAlpha = Math.max(0.25, e.vis || 0.25); c.fillStyle = col; c.fillRect(x - hgt * 0.15, y - hgt / 2, hgt * 0.3, hgt); c.globalAlpha = 1;
+    c.strokeStyle = ok ? '#3ddc84' : '#ff5d5d'; c.lineWidth = 2; c.strokeRect(x - hgt * 0.15 - 3, y - hgt / 2 - 3, hgt * 0.3 + 6, hgt + 6);
+    c.fillStyle = '#fff'; c.font = '12px ui-monospace,Consolas,monospace'; c.fillText(`${name} ${Math.round((e.vis || 0) * 100)}%`, x + hgt * 0.15 + 5, y);
+  };
+  (f.ents || []).forEach(e => drawE(e, roleColor(e.r), e.r, !cl || rendered.has(e.id)));
+  if (f.hero && f.hero.pos) drawE(f.hero, '#b77bff', 'hero', !cl || cl.h);
+  c.strokeStyle = '#fff4'; c.strokeRect(0.5, 0.5, W - 1, H - 1);
+  c.fillStyle = '#fff8'; c.fillRect(W / 2 - 1, H / 2 - 6, 2, 12); c.fillRect(W / 2 - 6, H / 2 - 1, 12, 2);
+  c.fillStyle = '#8a909c'; c.font = '11px system-ui'; c.fillText('khung = mép màn hình · viền xanh: màn hình có vẽ · viền đỏ: không vẽ' + (cl && cl.third ? ' · đang góc nhìn thứ 3' : '') + (cl && cl.scr ? ' · đang mở ' + cl.scr : ''), 8, H - 8);
+}
+function side(f, cl) {
+  const st = {thời_gian: tod(f.tod), vị_trí: f.pos.map(v => Math.round(v)).join(' '), hướng: `${f.yr} / ${f.xr}`, môi_trường: f.env, ánh_sáng: f.li, đạo_diễn: f.dir};
+  ['man', 'dmn', 'hero', 'day'].forEach(k => { if (f[k]) st[k] = f[k]; });
+  if (f.ex) st.miễn = true; if (f.sl) st.ngủ = true; if (f.menu) st.mở_giao_diện = true;
+  $('#state').textContent = JSON.stringify(st, null, 1).replace(/[{}"]/g, '').replace(/\n\s*\n/g, '\n').trim();
+  const rendered = new Set(cl ? cl.r : []);
+  $('#ents').innerHTML = '<tr><td>vai</td><td>loại</td><td>m</td><td>lộ</td><td>pose</td><td>vẽ</td><td>cờ</td></tr>' + (f.ents || []).map(e => `<tr style="color:${roleColor(e.r)}"><td>${esc(e.r)}</td><td>${esc(e.ty)}</td><td>${e.d}</td><td>${e.on ? Math.round(e.vis * 100) + '%' : '—'}</td><td>${esc(e.an || '')}</td><td>${cl ? (rendered.has(e.id) ? '✓' : '·') : '?'}</td><td>${['wall', 'bad', 'nav', 'wat', 'lava', 'other'].filter(k => e[k]).join(' ')}${e.gnd ? '' : ' bay'}</td></tr>`).join('');
+  const ev = D.events.filter(e => e[0] >= f.t - 200 && e[0] <= f.t + 60);
+  $('#evlog').innerHTML = '<h4>Quyết định & lời DEV (±10s)</h4>' + ev.map(e => `<div class="${Math.abs(e[0] - f.t) <= 10 ? 'now' : ''}">${clock(e[0])} ${esc(e[1])}</div>`).join('');
+  let best = null; for (const s of D.shots) if (Math.abs(s[0] - f.t) <= 200 && (!best || Math.abs(s[0] - f.t) < Math.abs(best[0] - f.t))) best = s;
+  $('#shot').innerHTML = '<h4>Ảnh chụp gần nhất</h4>' + (best ? `<img src="screenshots/${best[1]}" alt=""><div>${clock(best[0])} · ${esc(best[2])}</div>` : '<div style="color:var(--dim)">không có</div>');
+  const im = $('#shot img'); if (im) im.onclick = () => { $('#zoomimg img').src = im.src; $('#zoomimg').style.display = 'flex'; };
+}
+function strip() {
+  const cv = $('#strip'), c = cv.getContext('2d'), W = cv.width, H = cv.height;
+  c.clearRect(0, 0, W, H);
+  if (!F.length) return;
+  const t0 = F[0].t, t1 = F[F.length - 1].t || t0 + 1, X = t => (t - t0) / Math.max(1, t1 - t0) * W;
+  F.forEach((f, i) => { if (i % 3) return; const act = f.dir && f.dir.act; if (act) { c.fillStyle = act === 'man' ? '#ff4d4d55' : act === 'hero' ? '#b77bff55' : act === 'day' ? '#7fd8ff55' : '#e8f0ff44'; c.fillRect(X(f.t), 0, 2, H); } });
+  D.items.forEach(i => { if (i.p && i.p !== P) return; c.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--' + i.sev); c.fillRect(X(i.t) - 1, i.sev === 'high' ? 0 : i.sev === 'med' ? 8 : 16, 3, 10); });
+  strip.X = X; strip.t0 = t0; strip.t1 = t1;
+}
+function stripCursor() { const cv = $('#strip'), c = cv.getContext('2d'); strip(); if (!F.length) return; const x = strip.X(F[idx].t); c.fillStyle = '#3ddc84'; c.fillRect(x - 1, 0, 2, cv.height); }
+$('#strip').onclick = e => { const r = e.target.getBoundingClientRect(); const t = strip.t0 + (e.clientX - r.left) / r.width * (strip.t1 - strip.t0); seek(t); };
+$('#play').onclick = () => { playing = !playing; $('#play').textContent = playing ? '❚❚' : '▶'; };
+$('#speed').onchange = e => speed = +e.target.value;
+$('#cave').onchange = () => draw();
+const jumpI = d => { const t = F[idx].t, list = D.items.filter(i => !i.p || i.p === P).map(i => i.t).sort((a, b) => a - b); const n = d > 0 ? list.find(x => x > t + 20) : list.reverse().find(x => x < t - 60); if (n != null) seek(n - 40); };
+$('#prevI').onclick = () => jumpI(-1); $('#nextI').onclick = () => jumpI(1);
+const map = $('#map');
+map.addEventListener('wheel', e => { e.preventDefault(); zoom = Math.max(0.5, Math.min(16, zoom * (e.deltaY < 0 ? 1.2 : 1 / 1.2))); draw(); }, {passive: false});
+let drag = null;
+map.onmousedown = e => { const f = F[idx]; drag = [e.clientX, e.clientY, follow ? f.pos[0] : pan[0], follow ? f.pos[2] : pan[1]]; };
+window.onmouseup = () => drag = null;
+window.onmousemove = e => { if (!drag) return; const k = map.width / map.getBoundingClientRect().width / zoom; pan = [drag[2] - (e.clientX - drag[0]) * k, drag[3] - (e.clientY - drag[1]) * k]; follow = false; draw(); };
+map.ondblclick = () => { follow = true; draw(); };
+window.onkeydown = e => {
+  if (!$('#rep').classList.contains('on')) return;
+  if (e.key === ' ') { e.preventDefault(); $('#play').click(); }
+  if (e.key === 'ArrowRight') { idx = Math.min(F.length - 1, idx + (e.shiftKey ? 50 : 5)); draw(); }
+  if (e.key === 'ArrowLeft') { idx = Math.max(0, idx - (e.shiftKey ? 50 : 5)); draw(); }
+};
+let last = performance.now(), acc = 0;
+function loop(now) {
+  const dt = now - last; last = now;
+  if (playing && F.length) {
+    acc += dt / 50 * speed;
+    const target = F[idx].t + acc;
+    let moved = false;
+    while (idx < F.length - 1 && F[idx + 1].t <= target) { idx++; moved = true; }
+    if (moved) { acc = target - F[idx].t; draw(); }
+    if (idx >= F.length - 1) { playing = false; $('#play').textContent = '▶'; }
+  }
+  requestAnimationFrame(loop);
+}
+setPlayer(P); render(); stats(); requestAnimationFrame(loop);
+</script>
+</body>
+</html>

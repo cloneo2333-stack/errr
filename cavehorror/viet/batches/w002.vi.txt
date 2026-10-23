@@ -1,0 +1,180 @@
+10898	Thuyền biển an ninh
+10899	SecurityCraft
+10900	SecurityCraft không đăng ký gì với "%s".
+10901	Sổ tay SecurityCraft
+10902	SecurityCraft: Trang trí
+10903	SecurityCraft: Chất nổ
+10904	SecurityCraft: Kỹ thuật
+10928	Chọn máy quay để xem:
+10942	Gửi đúng tín hiệu
+10943	Máy gửi
+10951	Súng canh
+10952	Súng canh %s
+10953	Súng canh tại #location
+10954	Đạn súng canh
+10955	Súng canh ngoài tầm, đã bị gỡ, hoặc thuộc về người chơi khác
+10956	Công cụ điều khiển súng canh từ xa
+10986	Đặt hướng nhìn mặc định
+10997	Đã đặt chủ tại %s, %s, %s
+11015	thiết lập
+11068	Mọi người chơi có được tương tác với khối này không?
+15720	Người chơi khác chủ có bị cấm lật trang sách không?
+11070	Có xoay không: %s
+11071	Máy quay có xoay không?
+15721	Có đặt lại thời gian chờ giữa các lần báo động khi chuông được cấp điện không, tức là âm thanh luôn phát ngay?
+15722	Vùng quét do máy quét này tạo có nằm ngang không?
+15723	Vùng quét có hóa rắn khi phát hiện vật phẩm bị cấm không?
+15724	Radar có nhắc lại tin nhắn chừng nào còn người trong tầm không?
+15725	Chữ mặt sau của biển bí mật có chỉ hiện với chủ và người chơi trong danh sách cho phép không?
+15726	Chữ mặt trước của biển bí mật có chỉ hiện với chủ và người chơi trong danh sách cho phép không?
+15727	Có tắt khối này không, khiến nó ngừng hoạt động cho tới khi bật lại?
+15728	Khối này có bỏ qua chủ không, tức là mọi chức năng của nó sẽ không tác dụng với chủ?
+15729	Khối này có bỏ qua người chơi và thực thể đang tàng hình không?
+15730	Bẫy lồng này bắt cả quái thù địch và người chơi, hay chỉ người chơi?
+15731	Bẫy này có biến mất ngay không nếu có mô đun thông minh và một bẫy cạnh nó biến mất?
+11078	Hiện mọi mục
+11114	Hiện mô đun?
+11116	Hiện khối có tên?
+11121	Hiện đường viền
+11123	Hiện mật mã
+11130	Hiện thông tin SecurityCraft?
+11185	Độ dài tín hiệu: %s
+11186	Chữ ký:
+11187	Chữ ký: %s
+11237	Cỡ: %sx%sx%s
+11329	Mô đun thông minh
+11330	Cần Mô đun thông minh
+11353	Khối thạch anh pha lê nhẵn
+11354	Phiến thạch anh pha lê nhẵn
+11355	Bậc thạch anh pha lê nhẵn
+11400	Hóa rắn vùng quét: %s
+11424	Hệ thống an ninh âm thanh
+11425	Hệ thống an ninh âm thanh kêu bíp
+11429	Xin lỗi, bạn không thể làm vậy. Thứ này thuộc về %s.
+11430	Xin lỗi, bạn không thể lên thuyền này. Nó thuộc về %s.
+11431	Xin lỗi, bạn không thể dùng máy quét này. Nó thuộc về %s.
+11460	Độ dài âm thanh:
+11463	Âm thanh:
+11469	Bật mặt nam
+11517	Mô đun tốc độ
+11728	Thuyền biển an ninh gỗ vân sam
+11825	Bắt đầu ghi
+11914	Dừng ghi
+11915	Thôi xem hình ảnh máy quay hiện tại
+11918	Kho chứa
+11929	Mô đun lưu trữ
+11936	Cất vật phẩm tìm được: %s
+12431	Đã chuyển đổi thành công %s khối
+12455	Đã đặt chủ thành công cho %s khối
+15794	Đồng bộ với Khối laser tại %s thất bại vì "%s" không khớp. Hãy gỡ mô đun khỏi một trong hai khối rồi thử lại.
+12567	Mục tiêu:
+12568	Vật phóng nhắm được:
+12569	Chế độ nhắm: %s
+12571	Súng điện
+12572	Súng điện bắn
+12668	Cảm ơn bạn đã dùng SecurityCraft %1$s! %2$s %3$s
+12686	%s chưa được cài.
+12688	Công cụ quản trị đã bị tắt trong tệp cấu hình.
+15803	Công cụ quản trị chỉ có trong túi đồ sáng tạo, nếu được bật trong tệp cấu hình.
+15804	Công dụng chính của công cụ quản trị là hiện thông tin về một khối SecurityCraft. Nó sẽ cho thấy UUID và tên chủ, cùng thông tin khác như các mô đun đã lắp.
+15805	Chuông báo động sẽ phát tiếng còi và nháy đỏ mỗi khi được cấp điện Redstone, và lặp lại mỗi 2 giây sau đó. Có thể chỉnh khoảng lặp trong tùy chọn của Chuông báo động.
+15806	Mô đun danh sách cho phép thường loại người chơi khỏi tác dụng của khối hoặc khỏi việc kiểm tra mật mã.
+15817	Máy dò thay đổi khối phát hiện người chơi phá hoặc đặt khối ở gần (mặc định 5 khối, có thể đổi bằng Máy chỉnh khối đa năng). Nhấp chuột phải vào khối sẽ mở giao diện, nơi xem được danh sách thay đổi đã phát hiện, và việc nó chỉ phát hiện phá, chỉ đặt, hay cả hai.
+12699	Túi khối đã được lắp ráp rồi!
+15818	Bộ quản lý Túi khối dùng để quản lý Túi khối, một căn phòng chỉ chủ và người chơi trong danh sách cho phép mới vào được. Khi mở giao diện, bạn sẽ thấy các cỡ để chọn. Chọn một cỡ, rồi xây Túi khối quanh bộ quản lý. Nhớ đặt bộ quản lý ở mặt ngoài của lớp dưới cùng. Túi khối là một hình lập phương theo cỡ bạn chọn. Các góc xây bằng Thạch anh pha lê chạm khắc gia cố, các khối giữa các góc xây bằng Cột thạch anh pha lê gia cố đặt đúng hướng, còn sàn, tường và trần xây bằng Tường Túi khối. Xem hình này để biết nó trông thế nào: https://i.imgur.com/opc7dqO.png. Nhấn "Kích hoạt" sau khi xây xong sẽ kích hoạt các mô đun đã thêm. Xem giao diện tùy biến để biết thêm (nhấp chuột phải bằng Máy chỉnh khối đa năng).
+15819	Chủ của khối đã thay đổi nên cần chủ mới xác nhận thì nó mới hoạt động lại. Để xác nhận, chủ mới phải nhấp chuột phải vào khối.
+15820	Mìn nhảy sẽ bật vọt lên không trung và phát nổ khi bị chạm vào.
+15821	Cặp tài liệu là kho cầm tay khóa bằng bàn phím, có 12 ô. Sau khi chế tạo, nhấp chuột phải để đặt mật mã 4 chữ số dùng từ đó về sau. Nhấp chuột phải lần nữa và nhập mã để lấy đồ. Để xóa mã hoặc đổi chủ của Cặp tài liệu, cầm nó ở tay phụ và nhấp chuột phải khi tay chính cầm Máy đổi khóa đa năng hoặc Máy đổi chủ đa năng.
+15823	Bẫy lồng sẽ tạo một 'cái lồng' quanh bất kỳ người chơi nào chạm vào, trừ chủ.
+15824	Máy quay ở vị trí %s không khả dụng. Có thể nó chưa được tải, ở chiều không gian khác, hoặc không còn tồn tại.
+15825	Màn hình máy quay là vật phẩm cầm tay để xem hình ảnh trực tiếp của tối đa 30 máy quay an ninh đã gắn. Nhấp chuột phải vào máy quay an ninh bằng màn hình để gắn, rồi nhấp chuột phải vào không khí và chọn máy quay trong giao diện khi đoạn của máy quay đang được tải để xem hình. Gỡ máy quay bằng cách nhấp chuột phải vào nó lần nữa bằng màn hình hoặc mở giao diện màn hình và nhấn nút "X" tương ứng.
+15832	Máy bẻ mã có thể bẻ mã của bất kỳ đầu đọc thẻ từ, bàn phím, rương có mật mã, thùng có mật mã, hay lò nung có mật mã nào bằng cách nhấp chuột phải vào nó. (5 lần dùng, mỗi lần 1/3 cơ hội thành công)
+12706	Máy bẻ mã đã bị tắt trong tệp cấu hình.
+15843	Mô đun danh sách chặn thường đưa người chơi vào tác dụng của khối hoặc chặn họ dùng một chức năng nào đó của khối.
+15844	Mô đun ngụy trang ngụy trang một số khối khi được lắp vào.
+15845	Tủ trưng bày có thể trưng một vật phẩm, giống khung vật phẩm gốc, nhưng không xoay được. Mở tủ cần nhập mật mã, như Bàn phím và các khối tương tự. Khi đã mở, có thể đặt vật phẩm vào bằng cách cầm nó và nhấp chuột phải vào tủ. Để lấy ra, rón rén và nhấp chuột phải vào tủ. Để đóng tủ, nhấp chuột phải bằng tay không. Khi tủ đang mở, ai cũng tương tác được. Bản phát sáng sẽ sáng trong bóng tối, giống khung vật phẩm phát sáng gốc.
+15846	Hàng rào sắt nhiễm điện giống hàng rào gốc, chỉ khác là không thể phá và sẽ làm bị thương bất kỳ ai ngoài chủ khi chạm vào.
+15847	Cổng rào sắt nhiễm điện giống cổng rào gốc, chỉ khác là không thể phá và chỉ mở được bằng Bàn phím, Máy quét túi đồ, v.v. Nó cũng làm bị thương bất kỳ ai ngoài chủ khi chạm vào.
+15855	Dung nham giả giống dung nham, chỉ khác là nó hồi máu ngay cho bạn thay vì gây thương tích.
+15856	Xô dung nham giả được tạo ở giá pha chế, bằng cách đặt bất kỳ thuốc hồi máu nào vào ô trên và tối đa ba xô dung nham vào các ô dưới.
+15857	Nước giả giống nước, chỉ khác là nó làm bạn bị thương, còn hơn cả dung nham, khi chạm vào.
+15858	Xô nước giả được tạo ở giá pha chế, bằng cách đặt bất kỳ thuốc gây hại nào vào ô trên và tối đa ba xô nước vào các ô dưới.
+15859	Tính năng xem hình ảnh máy quay trong khung đã bị tắt trong tệp cấu hình của máy chủ.
+15860	Bẫy sàn là khối sẽ biến mất trong chốc lát khi người chơi hoặc sinh vật bước lên. Nhiều cài đặt như thời gian để biến mất, hay ai có thể kích hoạt bẫy, đều chỉnh được bằng Máy chỉnh khối đa năng.
+15863	Đã đạt giới hạn ép tải đoạn cho hình ảnh khung ở chiều không gian này, nên hình ảnh khung này không thể tải thêm đoạn xung quanh. Việc này có thể gây lỗi hiển thị nếu các đoạn đó chưa được tải sẵn.
+15864	Khung dùng để hiện hình ảnh trực tiếp của các máy quay đã kết nối. Để thêm vị trí máy quay từ màn hình máy quay vào khung, nhấp chuột phải vào khung bằng màn hình. Sau đó, bạn có thể chọn máy quay để hiện hình bằng cách tương tác với khung.
+12758	Mô đun gây hại thêm thuộc tính gây sát thương cho khối.
+12760	Chiều cao của hình chiếu.
+12765	Độ lệch ngang của hình chiếu.
+15872	I.M.S., hay Hệ thống đạn dược thông minh, là loại mìn nạp lại được chứa tối đa 4 Mìn nhảy, sẽ nhắm vào người chơi hoặc quái thù địch đi vào bán kính bắn. Khi một quả mìn được phóng ra, nó sẽ đuổi theo thực thể và phát nổ. Nếu I.M.S. thiếu mìn, nhấp chuột phải vào nó bằng thêm Mìn nhảy để nạp lại.
+15876	Mặt nạ ẩn danh là vật phẩm dùng để thử cơ chế quyền sở hữu của khối SecurityCraft. Nếu một người chơi đeo mặt nạ này, các khối thuộc về người đó sẽ không còn nhận ra họ là chủ. Tức là mọi khối đó sẽ hoạt động như thể người không phải chủ đang tương tác, và Mô đun danh sách cho phép hay chặn có tên người đó sẽ phớt lờ họ. Nếu mặt nạ được đổi tên ở đe, mọi khối và mô đun danh sách của người đeo sẽ hoạt động như thể người chơi có tên trên mặt nạ đang dùng khối.
+15879	Máy quét túi đồ được dùng bằng cách đặt hai máy cách nhau một khối, quay mặt vào nhau. Khi đặt đúng, một vùng laser sẽ xuất hiện giữa chúng. Sau khi đặt, nhấp chuột phải vào một trong hai máy để thêm vật phẩm bị cấm cần phát hiện. Khi người chơi mang vật phẩm bị cấm đi giữa hai máy, các hành động khác nhau sẽ xảy ra tùy theo mô đun đã lắp trong máy.
+15880	Bảng phím có thể đặt xuống làm phiên bản nhỏ của bàn phím, có thể ngập nước. Nó cũng dùng trong công thức chế tạo bàn phím, rương có mật mã, thùng có mật mã và lò nung có mật mã.
+15881	Hộp đựng thẻ từ chứa được tối đa 5 thẻ từ, đặt vào bằng cách cầm nó và nhấp chuột phải. Khi nhấp chuột phải vào đầu đọc thẻ từ, nó tự đưa từng thẻ vào cho tới khi một thẻ mở được đầu đọc.
+15882	Khóa thẻ từ đã được đặt lại. Nhấp chuột phải vào nó bằng một thẻ từ đã liên kết để thiết lập lại.
+15883	Khóa thẻ từ là đầu đọc thẻ từ thu nhỏ. Nó chỉ đọc được thẻ, không thể liên kết thẻ hay đổi chữ ký. Để thiết lập, nhấp chuột phải vào nó bằng một thẻ từ đã liên kết. Khóa sẽ chấp nhận mọi thẻ có cùng chữ ký và cấp đó. Để đặt lại cấp và chữ ký mà khóa chấp nhận, nhấp chuột phải vào nó bằng Máy đổi khóa đa năng. Để cho phép các cấp cao hơn cấp đã đặt, đổi tùy chọn tương ứng bằng Máy chỉnh khối đa năng.
+15884	Đầu đọc thẻ từ phát tín hiệu Redstone 15 khối nếu bạn đưa vào một thẻ khớp với cài đặt của đầu đọc. Bạn có thể thiết lập Đầu đọc thẻ từ bằng cách nhấp chuột phải vào nó bằng bất cứ thứ gì ngoài thẻ từ đã liên kết. Chữ ký là một con số nối đầu đọc với các thẻ. Chỉ thẻ có cùng chữ ký với đầu đọc đã liên kết mới mở được đầu đọc đó. Thẻ liên kết với đầu đọc của người chơi khác sẽ không dùng được với Đầu đọc thẻ từ của bạn. Bạn có thể có nhiều Đầu đọc thẻ từ cùng chữ ký, và mọi thẻ của bạn có chữ ký đó cũng dùng được với chúng. Các nút cấp thẻ bên phải giao diện là riêng cho từng Đầu đọc thẻ từ, quyết định cấp thẻ nào kích hoạt được Đầu đọc thẻ từ này.
+15885	Đầu đọc thẻ từ mà thẻ này đã liên kết thuộc về người chơi khác với cái bạn đang định dùng!
+15886	Cửa bàn phím hoạt động như Bàn phím kết hợp với Cửa sắt gia cố, phải nhập mã mới mở được cửa.
+15887	Bàn phím được dùng bằng cách đặt nó xuống, nhấp chuột phải và đặt mật mã bằng số. Khi đã đặt mã, nhấp chuột phải vào bàn phím sẽ cho bạn nhập mã. Nếu đúng, bàn phím sẽ phát năng lượng Redstone trong ba giây.
+15888	Cửa sập bàn phím hoạt động như Bàn phím kết hợp với Cửa sập sắt gia cố, phải nhập mã mới mở được cửa sập.
+15890	Khối laser được dùng bằng cách đặt hai khối cách nhau trong vòng năm khối. Khi đặt đúng, một tia laser sẽ hình thành giữa chúng.
+15891	Thấu kính dùng để tô màu hình ảnh của nhiều khối SecurityCraft. Để tô màu thấu kính, chế tạo nó cùng bất kỳ thuốc nhuộm nào: giống hệt cách nhuộm giáp da. Thấu kính có thể tô màu tia laser của khối laser, vùng quét của máy quét túi đồ, tia nhắm của hệ thống đánh chặn, và tia laser của mìn Claymore. Để đổi màu một trong số đó, chỉ cần nhấp chuột phải vào khối và đặt thấu kính vào ô tương ứng.
+15892	Cấp của thẻ từ này chưa được bật trên đầu đọc thẻ từ này!
+15902	Mìn phát nổ khi bị bất kỳ thực thể nào giẫm lên, trừ Creeper, mèo và mèo rừng. Nhấp chuột phải vào mìn khi cầm kìm cắt dây sẽ tháo ngòi và cho phép phá nó. Nhấp chuột phải khi cầm đá lửa và thép sẽ bật lại.
+15903	Công cụ điều khiển mìn từ xa cho phép bạn điều khiển mìn từ xa. Nhấp chuột phải vào mìn để 'gắn' nó vào công cụ. Nhấp chuột phải vào không khí (khi cầm công cụ) để mở giao diện, nơi bạn có thể kích hoạt, tắt, kích nổ, hoặc gỡ gắn bất kỳ quả mìn nào đã gắn.
+12803	Mô đun bạn đang cầm đã có người chơi #.
+15908	Đèn cảm biến chuyển động sẽ phát sáng, giống đèn Redstone, khi có người chơi trong một tầm nhất định của khối (chỉnh được).
+15916	Tên người chơi được phép dùng thẻ từ này. Để trống để mọi người đều dùng được.
+15920	Máy chủ Minecraft chính thức của SecurityCraft đã trở lại! Vào bằng IP này: securitycraft.nodecraft.gg
+12816	Độ đục màu của thấu kính.
+12817	Đã xác nhận thành công chủ của khối này.
+15924	Nút báo động khẩn trông như nút bấm, nhưng hoạt động giống cần gạt.
+12820	Đã đổi mật mã.
+12821	Đã đặt lại mật mã của cặp tài liệu này.
+15928	Thùng có mật mã được trang bị hệ thống khóa mật mã. Mỗi khi nhập đúng mật mã, kho của thùng sẽ mở ra.
+15929	Lò luyện có mật mã sẽ yêu cầu bạn đặt mật mã khi mới đặt xuống. Sau đó, nhập đúng mã vào giao diện sẽ cho bạn truy cập kho của lò luyện.
+15930	Rương có mật mã được trang bị hệ thống khóa mật mã. Mỗi khi nhập đúng mật mã, kho của rương sẽ mở ra.
+15931	Lò nung có mật mã sẽ yêu cầu bạn đặt mật mã khi mới đặt xuống. Sau đó, nhập đúng mã vào giao diện sẽ cho bạn truy cập kho của lò nung.
+15932	Lò hun khói có mật mã sẽ yêu cầu bạn đặt mật mã khi mới đặt xuống. Sau đó, nhập đúng mã vào giao diện sẽ cho bạn truy cập kho của lò hun khói.
+15934	Cột %1$s Bộ quản lý Túi khối bị xoay sai hướng!
+15936	Radar cầm tay sẽ gửi tin nhắn cho chủ mỗi khi có người chơi trong bán kính phát hiện (chỉnh được trong tệp cấu hình).
+15937	Máy phát giai điệu cầm tay có thể phát giai điệu đã lưu vào nó. Để lưu giai điệu, nhấp chuột phải vào một Hệ thống an ninh âm thanh đã ghi giai điệu. Để phát, nhấp chuột phải vào máy phát giai điệu cầm tay. Để dừng, chỉ cần nhấp chuột phải lần nữa hoặc thôi cầm nó.
+15938	Máy chiếu chiếu bản ảnh ba chiều của một khối bạn chọn vào thế giới, có thể dùng để giấu công trình và những nơi quan trọng khỏi người chơi khác. Có thể đổi tầm và độ rộng hình chiếu trong giao diện Máy chiếu.
+15939	Protecto, lấy cảm hứng từ kẻ địch trong trò "Megaman: Battle Network 2" của Capcom, sẽ tấn công mọi sinh vật trong bán kính 10 khối bằng sét mỗi 10 giây khi trời mưa hoặc tuyết và nó nhìn thẳng được lên trời.
+12831	Bán kính radar tìm kiếm.
+15940	Tầm (tính bằng khối) mà Máy ghi tên người dùng tìm người chơi.
+12835	Tần suất radar tìm kiếm.
+12837	Mô đun Redstone thêm thuộc tính năng lượng cho khối.
+15943	Tín hiệu Redstone phát ra ngược hẳn với tín hiệu máy nhận nhận được (ví dụ không nhận tín hiệu thì phát tín hiệu Redstone mạnh nhất).
+15944	Tín hiệu Redstone phát ra giống tín hiệu máy nhận nhận được.
+15946	Nút gia cố chỉ chủ hoặc người chơi trong danh sách cho phép mới kích hoạt được.
+15947	Kệ sách được đục gia cố có tính năng như bản gốc, nhưng chỉ chủ và người chơi trong danh sách cho phép mới thêm và lấy sách được.
+15948	Cổng rào gia cố chỉ chủ hoặc người chơi trong danh sách cho phép mới mở được.
+15949	Tấm kính gia cố giống kính gốc, chỉ khác là chỉ người đặt mới phá được.
+15950	Phễu gia cố là khối duy nhất lấy được vật phẩm ra khỏi rương hoặc thùng có mật mã nếu cả hai cùng một chủ. Ngoài ra nó hoạt động như phễu gốc.
+15951	Song sắt gia cố giống song sắt gốc, chỉ khác là chỉ người đặt mới phá được.
+15952	Cửa sắt gia cố giống cửa sắt gốc, chỉ khác là không thể phá. Nó chỉ mở được bằng Bàn phím, Máy quét túi đồ, v.v.
+15953	Cửa sập sắt gia cố giống cửa sập gốc, chỉ khác là chỉ mở được bằng Bàn phím, Máy quét túi đồ, v.v., và chỉ người đặt mới phá được.
+15954	Cần gạt gia cố chỉ chủ hoặc người chơi trong danh sách cho phép mới kích hoạt được.
+15955	Tấm áp lực gia cố chỉ chủ hoặc người chơi trong danh sách cho phép mới kích hoạt được.
+15960	Máy quét võng mạc phát tín hiệu Redstone 15 khối khi chủ đưa con trỏ lên nó từ bất kỳ góc nào nhìn thấy được trong tầm phá khối.
+15961	Bộ ổn định khe nứt phát hiện và ngăn thực thể dịch chuyển ở gần (mặc định 5 khối, có thể đổi bằng Máy chỉnh khối đa năng). Việc dịch chuyển sẽ bị cấm nếu điểm đi hoặc điểm đến nằm trong tầm của khối. Nhấp chuột phải vào khối sẽ cho bạn xem danh sách mọi loại dịch chuyển phát hiện được.
+15962	Cửa quét hoạt động như Máy quét võng mạc kết hợp với Cửa sắt gia cố, chủ nhìn vào phần trên để mở.
+15963	Cửa sập quét hoạt động như Máy quét võng mạc kết hợp với Cửa sập gia cố, chủ nhìn vào cửa sập để mở.
+15964	Biển bí mật giống biển gốc, chỉ khác là chỉ chủ và người chơi trong danh sách cho phép mới tương tác và đọc được chữ trên đó. Nhớ đảm bảo không ai phá được khối mà nó được đặt lên!
+15965	Giao diện Redstone bảo mật cho phép truyền tín hiệu Redstone không dây xa tới 64 khối. Giao diện có thể ở chế độ gửi hoặc nhận. Máy gửi sẽ gửi tín hiệu Redstone mạnh nhất nó tìm thấy tới mọi máy nhận trong tầm. Máy nhận sẽ phát tín hiệu mạnh nhất nhận được từ mọi máy gửi. Máy gửi và máy nhận khác tần số hoặc khác chủ không thể liên lạc với nhau. Nếu muốn truyền tín hiệu xa hơn 64 khối, có thể đặt một máy gửi khác tần số cạnh máy nhận.
+15966	Máy quay an ninh cho phép bạn xem khu vực gần đó từ vị trí của nó. Chỉ cần đặt máy quay xuống, rồi nhấp chuột phải vào nó bằng màn hình máy quay để gắn mà dùng.
+15967	Thuyền biển an ninh là thuyền có rương kèm Rương có mật mã. Ai có mã đúng cũng mở được rương, nhưng chỉ chủ mới phá được thuyền. Thuyền miễn nhiễm mọi sát thương, kể cả dung nham. Dù có thể bơi trên dung nham, nó đi rất chậm và người ngồi sẽ bị thương.
+15968	Sổ tay SecurityCraft chỉ có trong túi đồ sáng tạo hoặc bằng cách gõ "/sc help" (không có dấu ngoặc kép).
+15969	Sổ tay SecurityCraft cho thấy thông tin cơ bản về mọi khối và vật phẩm SecurityCraft thêm vào. Muốn mô tả chi tiết hơn, xem trang hướng dẫn trên GitHub tại https://github.com/Geforce132/SecurityCraft/wiki.
+12844	Máy gửi phát ra tín hiệu mạnh nhất nó tìm thấy.
+15970	Súng canh tấn công kẻ xâm nhập với lượng đạn vô hạn. Ngoài ra, có thể dùng vật phóng khác bằng cách đặt chúng vào rương hoặc thùng có mật mã bên dưới Súng canh. Nó có ba chế độ và ba loại mục tiêu, đổi bằng cách nhấp chuột phải. Các chế độ là "Nghỉ" (không bao giờ tấn công), "Ngụy trang" (chỉ kích hoạt khi mục tiêu vào tầm) và "Hung hăng" (luôn hoạt động), hai chế độ sau dùng được với các loại mục tiêu "Chỉ quái thù địch", "Quái thù địch và người chơi" và "Chỉ người chơi". Mô đun ngụy trang khiến Súng canh ngụy trang thành khối lắp trong mô đun, mô đun tốc độ tăng tốc độ tấn công, còn mô đun danh sách cho phép ngăn nó bắn người chơi trong danh sách. Có thể lắp hoặc đổi mô đun bằng cách nhấp chuột phải vào Súng canh, và lấy ra bằng Máy chỉnh khối đa năng. Để gỡ Súng canh, rón rén và nhấp chuột phải vào nó.
+15971	Công cụ điều khiển súng canh từ xa cho phép bạn điều khiển súng canh từ xa. Nhấp chuột phải vào súng canh để 'gắn' nó vào công cụ. Nhấp chuột phải vào không khí (khi cầm công cụ) để mở giao diện, nơi bạn có thể đổi chế độ của từng súng canh đã gắn, hoặc tất cả cùng lúc.
+15977	Chữ ký lưu trên thẻ này không khớp với chữ ký của Đầu đọc thẻ từ!
+12848	Mô đun thông minh nâng tầm hoặc chức năng của khối.
+15980	Hệ thống an ninh âm thanh, lấy cảm hứng từ thiết bị cùng tên trong trò "Metroid Prime 2: Echoes", có thể khóa một số khối SecurityCraft, ngăn chúng bị dùng hay tương tác. Nhấp chuột phải vào một khối được hỗ trợ sẽ gắn nó với Hệ thống an ninh âm thanh. Khi đã đặt xuống, nhấp chuột phải vào hệ thống sẽ mở giao diện để bật, tắt hoặc đặt lại. Các khối được mở khóa bằng cách chơi một giai điệu gần đó, qua Máy phát giai điệu cầm tay hoặc khối nốt nhạc. Để đặt giai điệu, bật ghi nốt trong giao diện rồi chơi giai điệu bạn muốn bằng khối nốt nhạc gần đó. Tắt ghi khi xong. Mỗi khi giai điệu đó được chơi gần hệ thống, các khối bị khóa sẽ truy cập được trong chốc lát.
+12855	Tốc độ xoay của máy quay.
+15983	Mô đun tốc độ cho phép một số khối SecurityCraft hoạt động nhanh hơn bình thường.
+15985	Mô đun lưu trữ thêm hoặc nâng cỡ kho chứa của khối.
+15994	Súng điện là súng gây choáng tự sạc. Nhấp chuột phải để bắn. Thực thể trúng đạn sẽ bị Buồn nôn II, Chậm chạp II và Suy yếu II trong 10 giây. Nếu rón rén và nhấp chuột phải (khi có Redstone trong túi đồ), phát bắn kế tiếp sẽ mạnh gấp đôi.

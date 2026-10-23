@@ -1,0 +1,220 @@
+405	Súp hoa xiêm gai
+1422	Bánh mì kẹp bò rừng
+1423	Thịt bò rừng băm
+1424	Miếng thịt bò rừng
+1895	Bánh mì kẹp nấm thỏ
+2623	Thịt bò rừng chín
+2624	Nấm thỏ chín
+2625	Đùi nấm thỏ chín
+2628	Lát cá trê chín
+2629	Chân rết chín
+2642	Đùi chuột túi chín
+2644	Sườn nai sừng tấm chín
+3038	Món ngon muôn nơi
+5059	Bánh mì nướng sợi nấm
+6281	Mì ý chuột túi
+6282	Đùi chuột túi
+6283	Chuột túi hầm
+6701	Mì ý tôm hùm
+6747	Sườn nai sừng tấm
+6859	Gỏi giòi
+9337	Thịt bò rừng sống
+9339	Nấm thỏ sống
+9340	Đùi nấm thỏ sống
+9343	Lát cá trê sống
+4188	Đà điểu Úc
+4238	Gặp một con đà điểu Úc. Hãy cẩn thận.
+5970	Đà điểu Úc kìa!!!
+852	Dị thể
+853	Máy dò dị thể
+854	Trứng sinh ra Dị thể
+5243	rên rỉ
+5294	Phải cầm trên tay
+5973	Nó đang nhìn...
+10648	CHẠY ĐI
+11459	Thực thể âm thanh
+12691	Dị thể
+12692	Trứng sinh ra Dị thể
+16034	Công cụ gỡ lỗi này báo tin nếu tìm thấy dị thể trong bán kính 100 ô
+885	Apollyon
+1074	Trở về địa ngục
+2546	Bị kết án tử
+2615	Nấu thịt thối rữa để làm Lương thực
+2798	Nấu một bát Súp sự sống
+4241	Gặp một trong vô số chướng ngại mới của cái chết
+5650	Chắc tôi nấu được thứ này
+5967	Nó đã bắt đầu
+6735	Nhìn thấy The Fallen lần đầu tiên
+10611	Hoa hồng sự sống
+10612	Hoa hồng sự sống bị phá
+10613	Hoa hồng sự sống được đặt
+10614	Hoa hồng sự sống được dùng
+11840	Súp sự sống
+12437	Tiêu diệt thành công The Damned
+12507	Lương thực
+12675	Đó không phải người Ender
+12697	Lời vẫy gọi của tận thế
+12713	The Damned
+12714	The Damned chết
+12715	The Damned bị thương
+12716	The Damned trỗi dậy
+12717	The Damned thét gào
+12718	Trứng sinh ra The Damned
+12746	The Fallen
+12747	Trứng sinh ra The Fallen
+12748	The Fallen dọa người
+12767	The Infector
+12768	The Infector cười
+12769	The Infector gầm
+12770	Trứng sinh ra The Infector
+12841	Hoa hồng tử thần
+13442	Thả dịch bệnh vào thế giới của bạn
+13499	Dùng Hoa hồng sự sống để tiêu diệt The Damned
+14208	Xoay xở với những gì đang có
+51	%1$s đã chết
+55	%1$s đã chết khi cố trốn khỏi %2$s
+99	%1$s đã bị giết bởi %2$s dùng %3$s
+379	Phán xét tuyệt đối
+381	Lưỡi kiếm vực thẳm
+382	Pha lê vực thẳm
+383	Mảnh pha lê vực thẳm
+384	Dao găm vực thẳm
+385	Lướt vực thẳm
+386	Cuốc chim vực thẳm
+387	Mảnh vực thẳm
+388	Súp vực thẳm
+644	Bộ điều khiển trí khôn
+645	Trứng sinh ra Bộ điều khiển trí khôn
+646	Trí khôn để cưỡi
+857	Kiến phóng hỏa
+858	Kiến phóng hỏa có cánh
+859	Kiến chúa phóng hỏa có cánh
+860	Trứng sinh ra Kiến phóng hỏa có cánh
+861	Kiến đực phóng hỏa
+862	Trứng sinh ra Kiến đực phóng hỏa
+863	Kiến lính phóng hỏa
+864	Trứng sinh ra Kiến lính phóng hỏa
+865	Trứng sinh ra Kiến phóng hỏa
+866	Kiến thợ phóng hỏa
+867	Trứng sinh ra Kiến thợ phóng hỏa
+868	Kiến chỉ huy
+869	Kiến khổng lồ
+870	Trứng sinh ra Kiến khổng lồ
+871	Tổ kiến
+872	Khiên kiến tạm thời
+873	Râu côn trùng
+876	Phản trọng lực
+877	Phản vật lý
+902	Bóng nhân bản của nhện
+903	Trứng sinh ra Bóng nhân bản của nhện
+904	Nhện ba lưỡi
+905	Trứng sinh ra Nhện ba lưỡi
+906	Bản sao thời gian của Nhện ba lưỡi
+907	Trứng sinh ra Bản sao thời gian của Nhện ba lưỡi
+954	ArPhEx
+955	Cấu hình ArPhEx
+956	Ô ghép ArPhEx
+957	Chúa tể ArPhEx
+958	Phím sức mạnh ArPhEx
+963	Mũi tên hoại tử
+969	Quái vật cuốn chiếu khổng lồ
+970	Thân quái vật cuốn chiếu khổng lồ
+971	Trứng sinh ra Thân quái vật cuốn chiếu khổng lồ
+972	Trứng sinh ra Quái vật cuốn chiếu khổng lồ
+973	Râu chân đốt
+974	Con chân đốt bay sát bên
+976	Khối lập phương thăng thiên
+977	Hình cầu thăng thiên
+1189	Hoa tai ương
+1190	Khắc tinh của bóng tối
+1191	Khắc tinh của bóng tối
+1203	Khe hở rào chắn
+1259	Bọ cánh cứng hộ thành
+1260	Trứng sinh ra Bọ cánh cứng hộ thành
+1261	Bọ hung tê giác
+1262	Trứng sinh ra Bọ hung tê giác
+1263	Bọ ve mạt
+1264	Trứng sinh ra Bọ ve mạt
+1265	Bọ cánh cứng, ve và mạt
+1304	Tiếng kẽo kẹt sinh học
+1508	Cung góa phụ đen
+1540	Giá trưng lưỡi kiếm
+1572	Khối pha lê vực thẳm
+1574	Khối ma trận hỗn mang
+1575	Khối ngọc mắt mèo lửa
+1576	Khối lăng kính thời gian
+1577	Khối hốc đá hư không
+1591	Khối thử
+1593	Hiệu ứng chặn
+1620	Giun máu
+1621	Ấu trùng giun máu
+1622	Trứng sinh ra Giun máu
+1786	Nghẹt thở
+1829	Nâu
+1862	Bọ hung nâu
+1879	Xô châu chấu
+1880	Xô giòi
+1881	Xô gián
+1882	Xô giun
+1887	Thuốc đuổi côn trùng
+1888	Bình xịt côn trùng
+1906	Tuyến lửa
+1911	Bướm mê hoặc
+1912	Bướm mê hoặc khổng lồ
+1913	Trứng sinh ra Bướm mê hoặc khổng lồ
+1914	Trứng sinh ra Bướm mê hoặc
+1916	Kẻ cưỡi bướm
+2076	Mạng nhện hang
+2077	Trứng sinh ra Mạng nhện hang
+2078	Gương thiên thể
+15221	Sức mạnh Gương thiên thể gọi ra một tấm gương vàng trong 20 giây theo hướng bạn đang nhìn, phản lại gần như mọi đạn bắn và sinh vật cố đi xuyên qua
+2085	Rết trục xuất
+2086	Ấu trùng rết trục xuất
+2087	Trứng sinh ra Ấu trùng rết trục xuất
+2088	Trứng sinh ra Rết trục xuất
+2089	Rết rình mồi
+2090	Trứng sinh ra Rết rình mồi
+2118	Điều khiển hỗn loạn
+2119	Bị điều khiển hỗn loạn
+2120	Kẻ điều khiển hỗn loạn
+2121	Găng tay hỗn loạn
+2124	Mục tiêu hỗn loạn
+2125	Bị nhắm hỗn loạn
+2134	Ảo giác bọ cạp truy đuổi
+2135	Trứng sinh ra Ảo giác bọ cạp truy đuổi
+2136	Ảo giác nhện truy đuổi
+2137	Ảo giác nhện truy đuổi 2
+2138	Trứng sinh ra Ảo giác nhện truy đuổi 2
+2139	Ảo giác nhện truy đuổi 3
+2140	Trứng sinh ra Ảo giác nhện truy đuổi 3
+2141	Trứng sinh ra Ảo giác nhện truy đuổi
+2302	Kitin
+2303	Khối kitin
+2304	Ủng kitin §7(Cấp 1)
+2305	Ủng kitin §9(Cấp 2)
+2306	Ủng kitin §d(Cấp 3)
+2308	Áo kitin §7(Cấp 1)
+2309	Áo kitin §9(Cấp 2)
+2310	Áo kitin §d(Cấp 3)
+2311	Mũ kitin §7(Cấp 1)
+2312	Mũ kitin §9(Cấp 2)
+2313	Mũ kitin §d(Cấp 3)
+2314	Quần kitin §7(Cấp 1)
+2315	Quần kitin §9(Cấp 2)
+2316	Quần kitin §d(Cấp 3)
+2448	Đi xuyên mạng nhện
+2585	Bị siết chặt
+2639	Huyết dịch côn trùng chín
+2759	Lưỡi kiếm vũ trụ
+2760	Kẻ hủy diệt vũ trụ
+2783	Cua siết cổ
+2784	Ấu trùng cua siết cổ
+2785	Trứng sinh ra Ấu trùng cua siết cổ
+2786	Trứng sinh ra Cua siết cổ
+15288	Đã chế tạo một món Giáp bất tử, ban cho bạn sức mạnh của một vị thần thực thụ
+15290	Đã chế tạo lưỡi kiếm tối thượng Abyss Ascendant. Một vũ khí tối hậu ban cho khả năng bay mỗi khi giết một Kẻ hành hạ
+2829	Cõi Trườn
+2830	Bàn thờ cõi Trườn
+2831	Rào chắn cõi Trườn
+2832	Bánh cõi Trườn
+2833	Tán cây cõi Trườn

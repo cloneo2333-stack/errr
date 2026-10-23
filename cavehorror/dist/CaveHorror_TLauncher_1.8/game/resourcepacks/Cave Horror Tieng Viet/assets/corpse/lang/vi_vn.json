@@ -1,0 +1,22 @@
+{
+ "button.corpse.additional_items": "Vật phẩm thêm",
+ "button.corpse.next": "Tiếp",
+ "button.corpse.previous": "Trước",
+ "button.corpse.show_items": "Vật phẩm",
+ "button.corpse.transfer_items": "Chuyển vật phẩm",
+ "chat.corpse.teleport_death_location": "Dịch chuyển tới nơi chết %s",
+ "config.jade.plugin_corpse.corpse": "Thi thể",
+ "entity.corpse.corpse": "Thi thể",
+ "entity.corpse.corpse_of": "Thi thể của %s",
+ "gui.corpse.death_history.date_format": "dd/MM/yyyy HH:mm:ss",
+ "gui.corpse.death_history.dimension": "Chiều không gian",
+ "gui.corpse.death_history.location": "Vị trí",
+ "gui.corpse.death_history.name": "Tên",
+ "gui.corpse.death_history.title": "Lịch sử chết của người chơi",
+ "gui.corpse.page": "%s trên %s",
+ "key.corpse.death_history": "Mở lịch sử chết của người chơi",
+ "message.corpse.no_death_history": "Không có lịch sử chết của người chơi",
+ "tooltip.corpse.death_date": "Chết lúc %s",
+ "tooltip.corpse.item_count": "Chứa %s chồng",
+ "tooltip.corpse.teleport": "Dịch chuyển"
+}

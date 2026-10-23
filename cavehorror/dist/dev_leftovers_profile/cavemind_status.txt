@@ -1,0 +1,89 @@
+[CaveMind] dqrcel
+ director: tension=70 target=72 phase=RELAX act=null others=0 blocked=nghỉ sau cao trào scared_today=106
+ sense: fov=80 modded=true light=4 underground=false indoors=false confined=false turns=88
+ man: level=6 sessions=7 sightings=17 next_in=0s react[stare=3 flee=0 approach=2 attack=0 ignore=1] | anger=0 bold=17 schemes=0 clues_open=9 nest=null trail=- peep=null chests=0 | absent
+ damned: stage=2 nights=5 shrine=BlockPos{x=-307, y=63, z=-180} found=false stolen=0 visits=0 quiet_until_day=-1 | idle
+ daylight: theme=INTRUSION done=1 running=ritual
+ herobrine: shows=15 seen=8 next_in=6s tape=4274 placed=1 broken=40 diary=114 | idle
+
+recent:
+  22:29:33 daylight twin ends for dqrcel
+  22:29:35 herobrine left a sign (saw) at BlockPos{x=-308, y=67, z=-120} for dqrcel
+  22:29:40 command: eye mark
+  22:29:40 man SHADOW at BlockPos{x=-336, y=64, z=-172} for dqrcel (dist 26)
+  22:29:40 command: man: shadow
+  22:30:01 command: eye mark
+  22:30:01 man PERIPHERAL at BlockPos{x=-350, y=69, z=-128} for dqrcel (dist 21)
+  22:30:01 command: man: peripheral
+  22:30:15 command: eye mark
+  22:30:15 man BEHIND at BlockPos{x=-342, y=67, z=-152} for dqrcel (dist 8)
+  22:30:15 command: man: behind
+  22:30:17 dqrcel sees the Man (BEHIND at 8m)
+  22:30:29 command: eye mark
+  22:30:29 command: man: track
+  22:30:45 spot search failed: tries=50 ground=47 onscreen=14 bright=47 avgvis=49 cave=false ring=27-70
+  22:30:45 no spot for PEEK near dqrcel
+  22:30:45 man WATCH at BlockPos{x=-362, y=64, z=-197} for dqrcel (dist 57)
+  22:30:48 dqrcel sees the Man (WATCH at 57m)
+  22:30:50 command: eye mark
+  22:30:50 man WITNESS at BlockPos{x=-365, y=67, z=-130} for dqrcel (dist 31)
+  22:30:50 command: man: witness
+  22:30:52 dqrcel sees the Man (WITNESS at 31m)
+  22:30:56 dqrcel releases man peak=false
+  22:30:56 the Man leaves dqrcel (seen 4, level 6, back in 1 min)
+  22:31:11 command: eye mark
+  22:31:11 dqrcel claims damned
+  22:31:11 haunting MIRROR begins for dqrcel
+  22:31:11 command: MIRROR: true
+  22:31:16 haunting of dqrcel reaches stage 2
+  22:31:16 dqrcel releases damned peak=false
+  22:31:17 the Damned built a shrine for dqrcel at BlockPos{x=-307, y=63, z=-180}
+  22:31:32 command: eye mark
+  22:31:32 dqrcel claims damned
+  22:31:32 haunting PRESENCE begins for dqrcel
+  22:31:32 command: PRESENCE: true
+  22:31:47 command: eye mark
+  22:31:47 dqrcel claims day
+  22:31:47 command: day seek: true (field seek ritual village house inside echo twin noon quiet)
+  22:32:46 command: eye mark
+  22:32:46 dqrcel releases day peak=false
+  22:32:46 daylight seek ends for dqrcel
+  22:32:46 dqrcel claims day
+  22:32:46 command: day twin: true (field seek ritual village house inside echo twin noon quiet)
+  22:32:54 dqrcel releases day peak=false
+  22:32:54 daylight twin ends for dqrcel
+  22:32:55 herobrine left a sign (saw) at BlockPos{x=-387, y=64, z=-178} for dqrcel
+  22:33:07 command: eye mark
+  22:33:07 dqrcel claims day
+  22:33:07 command: day field: true (field seek ritual village house inside echo twin noon quiet)
+  22:33:34 command: eye mark
+  22:33:34 dqrcel releases day peak=false
+  22:33:34 daylight field ends for dqrcel
+  22:33:34 dqrcel claims day
+  22:33:34 command: day ritual: true (field seek ritual village house inside echo twin noon quiet)
+  22:33:55 command: eye mark
+  22:33:55 dqrcel claims hero
+  22:33:55 herobrine HORIZON begins for dqrcel
+  22:33:55 command: hero horizon: true (horizon walker miner builder replay bed shoulder sign tunnel leafless status)
+  22:34:01 dqrcel releases hero peak=true
+  22:34:01 herobrine HORIZON ends for dqrcel (seen=true)
+  22:34:17 command: eye mark
+  22:34:17 dqrcel claims hero
+  22:34:17 herobrine WALKER begins for dqrcel
+  22:34:17 command: hero walker: true (horizon walker miner builder replay bed shoulder sign tunnel leafless status)
+  22:34:24 dqrcel releases hero peak=false
+  22:34:24 herobrine WALKER ends for dqrcel (seen=false)
+  22:34:31 command: eye mark
+  22:34:31 dqrcel claims hero
+  22:34:31 dqrcel aborts hero (never started)
+  22:34:31 herobrine REPLAY could not start for dqrcel
+  22:34:31 command: hero replay: false (horizon walker miner builder replay bed shoulder sign tunnel leafless status)
+  22:34:52 command: eye mark
+  22:34:52 dqrcel claims hero
+  22:34:52 herobrine BUILDER begins for dqrcel
+  22:34:52 command: hero builder: true (horizon walker miner builder replay bed shoulder sign tunnel leafless status)
+  22:35:13 command: eye mark
+  22:35:26 command: eye mark
+  22:36:59 dqrcel discovered Herobrine's hero_build at BlockPos{x=-401, y=64, z=-152}
+  22:37:04 dqrcel releases hero peak=true
+  22:37:04 herobrine BUILDER ends for dqrcel (seen=true)

@@ -1,0 +1,139 @@
+{
+ "textures": {
+  "glass": "cavemind:item/m/jar_glass",
+  "cork": "cavemind:item/m/cork",
+  "fly": "cavemind:item/m/firefly",
+  "moss": "minecraft:block/moss_block",
+  "particle": "cavemind:item/m/jar_glass"
+ },
+ "elements": [
+  {
+   "from": [
+    4,
+    0,
+    4
+   ],
+   "to": [
+    12,
+    10,
+    12
+   ],
+   "faces": {
+    "north": {
+     "texture": "#glass"
+    },
+    "south": {
+     "texture": "#glass"
+    },
+    "east": {
+     "texture": "#glass"
+    },
+    "west": {
+     "texture": "#glass"
+    },
+    "up": {
+     "texture": "#glass"
+    },
+    "down": {
+     "texture": "#glass"
+    }
+   }
+  },
+  {
+   "from": [
+    5,
+    10,
+    5
+   ],
+   "to": [
+    11,
+    11,
+    11
+   ],
+   "faces": {
+    "north": {
+     "texture": "#glass"
+    },
+    "south": {
+     "texture": "#glass"
+    },
+    "east": {
+     "texture": "#glass"
+    },
+    "west": {
+     "texture": "#glass"
+    },
+    "up": {
+     "texture": "#glass"
+    },
+    "down": {
+     "texture": "#glass"
+    }
+   }
+  },
+  {
+   "from": [
+    5.5,
+    11,
+    5.5
+   ],
+   "to": [
+    10.5,
+    13.5,
+    10.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#cork"
+    },
+    "south": {
+     "texture": "#cork"
+    },
+    "east": {
+     "texture": "#cork"
+    },
+    "west": {
+     "texture": "#cork"
+    },
+    "up": {
+     "texture": "#cork"
+    },
+    "down": {
+     "texture": "#cork"
+    }
+   }
+  },
+  {
+   "from": [
+    4.5,
+    0,
+    4.5
+   ],
+   "to": [
+    11.5,
+    1,
+    11.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#moss"
+    },
+    "south": {
+     "texture": "#moss"
+    },
+    "east": {
+     "texture": "#moss"
+    },
+    "west": {
+     "texture": "#moss"
+    },
+    "up": {
+     "texture": "#moss"
+    },
+    "down": {
+     "texture": "#moss"
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,220 @@
+12648	Mối thợ đào hầm
+12649	Trứng sinh ra Mối thợ đào hầm
+12655	Kinh hoàng
+12880	Kính ngắm
+16060	Đã ném một viên Pha lê vực thẳm vào bàn thờ Kẻ hành hạ, triệu hồi con quái vật kinh hoàng
+12986	Sóng bóp méo thời gian
+12987	Đóng băng thời gian
+12994	Lăng kính thời gian
+12995	Mảnh lăng kính thời gian
+12996	Siro thời gian
+13004	Con chân đốt tí hon
+13006	Rết phá rào tí hon
+13007	Trứng sinh ra Rết phá rào tí hon
+13100	Hành hạ
+13101	Quả cầu hành hạ
+13102	Trứng sinh ra Quả cầu hành hạ
+13103	Vòng xoắn hành hạ
+13104	Kẻ thuần phục hành hạ
+13105	Bị hành hạ
+13106	Sâu bướm bị hành hạ
+13107	Trứng sinh ra Sâu bướm bị hành hạ
+13108	Rồng quất hư không bị hành hạ
+13109	Trứng sinh ra Rồng quất hư không bị hành hạ
+13110	Bọ cạp khát máu bị hành hạ
+13111	Trứng sinh ra Bọ cạp khát máu bị hành hạ
+13112	Bướm đêm nhện bị hành hạ
+13113	Trứng sinh ra Bướm đêm nhện bị hành hạ
+13114	KẺ HÀNH HẠ
+13115	Bàn thờ Kẻ hành hạ
+13116	Bộ dựng chuyển động Kẻ hành hạ
+13117	Trứng sinh ra Bộ dựng chuyển động Kẻ hành hạ
+13118	Bộ dựng chuyển động Kẻ hành hạ cấp 2
+13119	Trứng sinh ra Bộ dựng chuyển động Kẻ hành hạ cấp 2
+13120	Bộ dựng chuyển động Kẻ hành hạ cấp 3
+13121	Trứng sinh ra Bộ dựng chuyển động Kẻ hành hạ cấp 3
+13122	Bộ dựng chuyển động Kẻ hành hạ cấp 4
+13123	Trứng sinh ra Bộ dựng chuyển động Kẻ hành hạ cấp 4
+13124	Bộ dựng chuyển động Kẻ hành hạ cấp 5
+13125	Trứng sinh ra Bộ dựng chuyển động Kẻ hành hạ cấp 5
+13126	Bộ dựng chớp sáng Kẻ hành hạ
+13127	Trứng sinh ra Bộ dựng chớp sáng Kẻ hành hạ
+13128	Vùng va chạm Kẻ hành hạ
+13129	Ấu trùng Kẻ hành hạ
+13130	Trứng sinh ra Ấu trùng Kẻ hành hạ
+13131	Tia sáng Kẻ hành hạ
+13132	Trứng sinh ra Tia sáng Kẻ hành hạ
+13133	Bộ dựng chuyển động Kẻ hành hạ khi yếu máu
+13134	Trứng sinh ra Bộ dựng chuyển động Kẻ hành hạ khi yếu máu
+13135	Bộ dựng Kẻ hành hạ khi yếu máu
+13136	Trứng sinh ra Bộ dựng Kẻ hành hạ khi yếu máu
+13137	Mục tiêu chính của Kẻ hành hạ
+13138	Kẻ xóa sổ hành hạ
+13139	Khiên Kẻ hành hạ
+13140	Trứng sinh ra Khiên Kẻ hành hạ
+13141	Trứng sinh ra KẺ HÀNH HẠ
+13142	Quả cầu Kẻ hành hạ
+13143	Trứng sinh ra Quả cầu Kẻ hành hạ
+13144	Kẻ hành hạ rình rập
+13145	Triệu hồi Kẻ hành hạ
+13146	Trứng sinh ra Triệu hồi Kẻ hành hạ
+13192	Cỏ cửa sập
+13210	Chiến lợi phẩm
+13218	Sức mạnh thật sự
+13226	Bậc thầy đào hầm
+13241	Công cụ tối thượng
+13242	Ủng bóng tối
+13243	Áo bóng tối
+13244	Mũ bóng tối
+13245	Phôi bóng tối
+13246	Quần bóng tối
+13247	Sức mạnh bóng tối
+13248	Mảnh bóng tối
+13415	Tiếng kẽo kẹt sinh học không thuộc thế gian này
+13416	Tiếng kẽo kẹt không thuộc thế gian này
+13521	Dùng niệm lực
+13564	Kẻ truy hư báo thù
+13565	Bão nọc độc
+13566	Chi tẩm độc
+13567	Cây bắt ruồi
+13568	Nhánh cây bắt ruồi
+13569	Trứng sinh ra Nhánh cây bắt ruồi
+13570	Trứng sinh ra Cây bắt ruồi
+13626	Tăng sinh lực
+13627	Ủng sinh lực
+13628	Áo sinh lực
+13629	Mũ sinh lực
+13630	Quần sinh lực
+13631	Kính ngắm sinh lực
+13637	Hồi chiêu hư không
+13638	Hốc đá hư không
+13639	Mảnh hốc đá hư không
+13641	Bảo vệ hư không
+13642	Đẩy lùi hư không
+13644	Kem đá hư không
+13646	Giáo hư không
+13657	Bóng nhân bản Rồng quất hư không
+13658	Trứng sinh ra Bóng nhân bản Rồng quất hư không
+13659	Triệu hồi Rồng quất hư không
+13663	Hồi chiêu lốc xoáy
+13675	Mạng nhện trên tường
+13681	Đã đẩy lùi Bướm đêm nhện... nhưng được bao lâu?
+13693	Bộ nối dịch chuyển
+13694	Bộ phân nhánh dịch chuyển
+13695	Hướng của gậy dịch chuyển
+13696	Bộ dẫn đường dịch chuyển
+13804	Ong bắp cày báo thù
+13805	Trứng sinh ra Ong bắp cày báo thù
+13812	Gián nước
+13813	Trứng sinh ra Gián nước
+13824	Đổi tên điểm mốc 1
+13848	Đã cảm nhận thời tiết
+13849	Phễu mạng nhện
+13850	Trứng sinh ra Phễu mạng nhện
+13851	Dây đai tơ nhện
+13852	Dây đai tơ nhện thả xuống
+13853	Bị mắc lưới
+13855	Hoang mạc giăng tơ
+14480	Đang phóng to
+14492	§2§lMáy phát không thời gian
+14535	§6Gương thiên thểⓘ
+14574	§6Túi điểm kỳ dị
+14591	§6Máy dịch chuyển siêu khối
+14603	§6§lSúng trường khởi nguyên
+14604	§6§lTia lãng quên
+14849	§aSắp ra mắtⓘ
+14865	§a§lPháo thời gian
+14866	§a§lGiáo tiên tri
+14868	§bSắp ra mắtⓘ
+14871	§bDao rựa bọ ngựa
+14872	§bKẻ đào kiến tạo
+14904	§cXung chấn địa chấnⓘ
+14910	§cKẺ HÀNH HẠ
+14911	§cTrứng sinh ra KẺ HÀNH HẠ
+14916	§c§lAbyss Ascendant
+14917	§c§lMáy phân rã vực thẳm
+14918	§c§lKHỐI LẬP PHƯƠNG THĂNG THIÊN
+14919	§c§lHành hạ thăng thiên (đang làm)
+14920	§c§lLõi khổ đau vĩnh cửu
+14921	§c§lThuốc tiên tâm trí rạn vỡ
+14922	§c§lỦng §6§lbất §e§ltử §a§lthần §b§lthánh
+14923	§c§lÁo §6§lbất §e§ltử §a§lthần §b§lthánh §d§lcấp
+14924	§c§lMũ §6§lbất §e§ltử §a§lthần §b§lthánh
+14925	§c§lQuần §6§lbất §e§ltử §a§lthần §b§lthánh §d§lcấp
+14926	§c§lCơn thịnh nộ hành hạ
+14927	§c§lTiên phong lốc xoáy (đang làm)
+14928	§dKẻ hủy diệt vực thẳm
+14929	§dRìu vực thẳm
+14930	§dLưỡi kiếm vực thẳm
+14931	§dDao găm vực thẳm
+14932	§dCuốc chim vực thẳm
+14933	§dGậy thăng thiên
+14935	§dSắp ra mắtⓘ
+14936	§dGậy hư ảo
+14940	§dLuồng thiêu đốt
+14941	§dGậy sinh lực
+14943	§dLốc xoáy tàn phá
+14944	§dGậy dịch chuyển
+14948	§e§lNgọc khoái lạc
+14949	§e§lHình bóng bất tử ⓘ
+14950	§e§lLưỡi hái điểm kỳ dị
+14951	§e§lVật triệu hồi Kẻ hành hạ
+14967	§lHộp chứa cõi Trườn
+14968	§lỦng vĩnh hằng
+14969	§lÁo vĩnh hằng
+14970	§lMũ vĩnh hằng
+14971	§lQuần vĩnh hằng
+14972	§l§cK§6ẻ §eh§aà§bn§3h §9h§5ạ §dv§cô §6t§eậ§an
+215	%s Nhấn %s để mở hoặc %s để quản lý
+1078	Đã đeo ba lô!
+7926	Hết ô trống
+1090	Balm
+1460	Bột nhuộm đen
+1653	Bột nhuộm xanh nước biển
+1847	Bột nhuộm nâu
+2662	Dầu ăn
+3119	Bột nhuộm xanh lơ
+3697	Kim cương
+3953	Bột nhuộm
+4029	Ngọc lục bảo
+4903	Đá quý
+5026	Hạt vàng
+5136	Bột nhuộm xám
+5194	Bột nhuộm xanh lá
+5811	Phôi
+5935	Phôi sắt
+5940	Hạt sắt
+6466	Bột nhuộm xanh nước biển nhạt
+6516	Bột nhuộm xám nhạt
+6589	Bột nhuộm xanh lá mạ
+6825	Bột nhuộm đỏ tươi
+8000	Hạt kim loại
+8262	Bột nhuộm cam
+8791	Bột nhuộm hồng
+9163	Bột nhuộm tím
+9541	Bột nhuộm đỏ
+11911	Đá
+15972	Máy chủ chưa cài %s. Hãy gỡ mod khỏi trò chơi của bạn hoặc cài nó lên cả máy chủ.
+16100	Phiên bản %s không khớp. Máy chủ cần phiên bản %s, nhưng bạn đang cài %s. Hãy cài đúng phiên bản.
+13929	Bột nhuộm trắng
+14172	Rương gỗ
+14193	Que gỗ
+14282	Bột nhuộm vàng
+16179	Bạn chưa cài %s. Hãy cài %s phiên bản %s để chơi trên máy chủ này.
+530	lưu lượng thực
+549	thêm
+662	Thuật toán
+1052	trung bình
+1188	Bandwidth Optimizer
+15186	Lệnh của BandwidthOptimizer:\n/bandwidthoptimizer hud: Bật tắt bảng thống kê cục bộ\n/bandwidthoptimizer stats: Tải lên thống kê băng thông và tạo báo cáo trên mạng\n/bandwidthoptimizer debug: Công cụ gỡ lỗi và chẩn đoán cho quản trị viên
+1235	Lô
+1926	Bỏ qua
+1927	Luồng bỏ qua
+1928	Gói tin bỏ qua
+1930	byte
+1937	Nguồn đệm
+2334	đoạn
+2340	Đệm đoạn
+2341	Đã tắt đệm đoạn | tắt truyền điểm nóng
+2408	máy khách
+2411	Máy khách cục bộ

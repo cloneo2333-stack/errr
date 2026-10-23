@@ -1,0 +1,89 @@
+﻿
+Welcome to Gradle 8.8!
+
+Here are the highlights of this release:
+ - Running Gradle on Java 22
+ - Configurable Gradle daemon JVM
+ - Improved IDE performance for large projects
+
+For more details see https://docs.gradle.org/8.8/release-notes.html
+
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.8/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Configure project :
+MixinGradle did not locate the diffplug APT plugin, skipping eclipse task configuration
+
+> Task :downloadMcpConfig
+> Task :extractSrg
+> Task :createMcpToSrg
+
+> Task :compileJava
+Setting up MCP environment
+Initializing steps
+Executing steps
+ > Running 'downloadManifest'
+ > Running 'downloadJson'
+ > Running 'downloadClient'
+ > Running 'downloadServer'
+ > Running 'extractServer'
+ > Running 'downloadClientMappings'
+ > Running 'mergeMappings'
+ > Running 'stripClient'
+ > Running 'stripServer'
+ > Running 'merge'
+ > Running 'listLibraries'
+ > Running 'rename'
+Stopping at requested step: C:\Users\ACER\.gradle\caches\forge_gradle\mcp_repo\de\oceanlabs\mcp\mcp_config\1.20.1-20230612.114412\joined\rename\output.jar
+gradle.bat : [23:08:41] [main/INFO]: Writing debug log file accesstransform.log
+At line:1 char:429
++ ... \cavemind"; & "C:\Users\ACER\.gradle\wrapper\dists\gradle-8.8-bin\dl7 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([23:08:41] [mai...sstransform.log:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[23:08:41] [main/INFO]: Access Transformer processor running version 8.2.14
+[23:08:41] [main/INFO]: Command line arguments [--inJar, C:\Users\ACER\.gradle\caches\forge_gradle\minecraft_user_repo\
+net\minecraftforge\forge\1.20.1-47.3.0\forge-1.20.1-47.3.0-injected.jar, --outJar, C:\Users\ACER\.gradle\caches\forge_g
+radle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.0_mapped_official_1.20.1\forge-1.20.1-47.3.0_mapped_offi
+cial_1.20.1.jar, --logFile, accesstransform.log, --atFile, E:\Document\New project 
+5\Claude\1\cavehorror\cavemind\build\_atJar_4\parent_at.cfg]
+[23:08:41] [main/INFO]: Reading from C:\Users\ACER\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\f
+orge\1.20.1-47.3.0\forge-1.20.1-47.3.0-injected.jar
+[23:08:41] [main/INFO]: Writing to C:\Users\ACER\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\for
+ge\1.20.1-47.3.0_mapped_official_1.20.1\forge-1.20.1-47.3.0_mapped_official_1.20.1.jar
+[23:08:41] [main/INFO]: Transformer file E:\Document\New project 
+5\Claude\1\cavehorror\cavemind\build\_atJar_4\parent_at.cfg
+[23:08:41] [main/WARN]: Found existing output jar C:\Users\ACER\.gradle\caches\forge_gradle\minecraft_user_repo\net\min
+ecraftforge\forge\1.20.1-47.3.0_mapped_official_1.20.1\forge-1.20.1-47.3.0_mapped_official_1.20.1.jar, overwriting
+[23:08:49] [main/INFO]: JAR transformation complete C:\Users\ACER\.gradle\caches\forge_gradle\minecraft_user_repo\net\m
+inecraftforge\forge\1.20.1-47.3.0_mapped_official_1.20.1\forge-1.20.1-47.3.0_mapped_official_1.20.1.jar
+Creating SRG -> MCP TSRG
+Note: SpongePowered MIXIN Annotation Processor Version=0.8.5 (MixinGradle Version=0.7.38)
+Note: Supported obfuscation types: ObfuscationServiceMCP supports [notch] ObfuscationServiceFG3 supports [searge]
+E:\Document\New project 5\Claude\1\cavehorror\cavemind\src\main\java\vn\cavemind\net\Net.java:15: error: package 
+vn.cavemind.sense does not exist
+import vn.cavemind.sense.Watch;
+                        ^
+1 error
+
+> Task :compileJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --info option to get more log output.
+> Run with --scan to get full insights.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.8/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 14m 5s
+4 actionable tasks: 4 executed

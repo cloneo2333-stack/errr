@@ -1,0 +1,4 @@
+{
+ "commands.polymorph.conflicts.starting": "Đang tìm xung đột công thức...",
+ "commands.polymorph.conflicts.success": "Tìm thấy %d xung đột tiềm ẩn. Xem logs/conflicts.log để biết chi tiết."
+}

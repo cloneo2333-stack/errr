@@ -1,0 +1,300 @@
+2697	Sao chép danh sách
+3024	Thạch anh pha lê
+15293	Khối thạch anh pha lê là khối xây dựng có thể gia cố theo cách thông thường và được chế tạo giống như khối thạch anh gốc.
+3025	Gạch thạch anh pha lê
+3026	Thạch anh pha lê dùng để chế tạo khối thạch anh pha lê.
+3027	Cột thạch anh pha lê
+3028	Phiến thạch anh pha lê
+3029	Bậc thạch anh pha lê
+3042	Chế độ hiện tại: Hung hăng
+3043	Chế độ hiện tại: Ngụy trang
+3044	Chế độ hiện tại: Nghỉ
+15294	Hiện cho phép truy cập khối sau khi chơi đúng giai điệu.
+15295	Hiện chặn truy cập khối sau khi chơi đúng giai điệu.
+3050	Âm thanh đang chọn:
+3054	Hiện tại: %s
+3077	Tên tùy chỉnh: %s
+3091	Góc cố định tùy chỉnh
+15296	Tùy biến được: bạn có thể dùng Máy chỉnh khối đa năng và các mô đun của SecurityCraft để tùy biến chức năng của thứ này.
+3273	Thuyền biển an ninh gỗ sồi sẫm
+3325	Đã lưu dữ liệu.
+3326	Ngày: %s
+3330	Tắt
+3333	Bẫy lồng đã tắt
+3576	Đã đặt hướng nhìn mặc định
+3584	Tháo ngòi
+3603	Thông báo danh sách chặn: %s
+3604	Mô đun danh sách chặn
+3616	Thiết kế bởi: %s
+3636	Các loại dịch chuyển phát hiện được:
+15302	Phát hiện thực thể máy quay bị đặt lại %sms sau khi gắn máy quay. Nếu khoảng thời gian này rất ngắn, có thể do mod không tương thích. Xem thêm thông tin trong nhật ký trò chơi.
+3637	Bán kính phát hiện: %s
+3638	Kích nổ
+3752	Đã tắt. Dùng công cụ gốc để phá khối gia cố.
+3753	Đã tắt: %s
+3755	Độ trễ biến mất: %s
+3756	Biến mất ngay: %s
+3775	Mô đun ngụy trang
+3784	Tủ trưng bày
+3785	Tủ trưng bày đóng
+3786	Tủ trưng bày mở
+3787	Tủ trưng bày
+3803	Hiện chủ?
+15319	Có gửi thông báo khi kích hoạt lúc người chơi được thêm vào danh sách cho phép không?
+15320	Có gửi thông báo khi kích hoạt lúc người chơi được thêm vào danh sách chặn không?
+15321	Khóa thẻ từ này chỉ nhận đúng cấp thẻ, hay nhận cả mọi cấp cao hơn?
+3864	Cửa quét này có gửi thông báo khi kích hoạt không?
+3865	Máy quét này có gửi thông báo khi kích hoạt không?
+3866	Cửa sập quét này có gửi thông báo khi kích hoạt không?
+3890	Bật mặt dưới
+3967	Bật mặt đông
+3983	Sửa mô đun
+3989	Sửa đội
+4001	Hàng rào sắt nhiễm điện
+4002	Cổng rào sắt nhiễm điện
+4040	Phát tín hiệu Redstone khi tìm thấy vật phẩm: %s
+4282	Nhập mật mã mới:
+4301	Thực thể bị điện giật
+4334	Mô đun đã lắp:
+4335	Đã lắp:
+4339	Lỗi khi lấy danh sách người ủng hộ!
+4357	Mọi người chơi
+4361	Đúng cấp: %s
+15349	Gây nổ: khối này có thể kích nổ từ xa, và có thể bật tắt, bằng Công cụ điều khiển mìn từ xa.
+4466	Dung nham giả
+4467	Xô dung nham giả
+4468	Dung nham giả biến thành nguồn
+4469	Nước giả
+4470	Xô nước giả
+4471	Nước giả biến thành nguồn
+4735	Bẫy sàn
+4814	Khung
+4825	Tần số:
+15388	Có thể kích hoạt khối này từ tối đa bao nhiêu khối?
+4835	Mìn Claymore có thể bị kích hoạt từ bao nhiêu khối?
+4838	Chữ mặt trước:
+15389	Mìn lò nung hoạt động giống mìn thường, chỉ khác là chúng chỉ nổ khi bị người khác ngoài chủ nhấp chuột phải hoặc phá.
+4930	Bắt đầu với SecurityCraft
+5003	Tủ trưng bày phát sáng
+15400	Xanh lá: Máy gửi có thể gửi tới máy nhận.\n\nVàng/Trắng: Máy nhận có thể nhận mọi tín hiệu từ máy gửi; màu trắng nghĩa là hiện không có tín hiệu.\n\nĐỏ/Đen: Máy nhận có thể nhận tín hiệu được bảo vệ từ máy gửi; màu đen nghĩa là hiện không có tín hiệu.
+5289	Mô đun gây hại
+15405	Có góp ý cho SecurityCraft hay tìm thấy lỗi? Hãy vào máy chủ Discord chính thức của SecurityCraft (chỉ tiếng Anh)! Bạn cũng sẽ nhận được các cập nhật và thông báo quan trọng về SecurityCraft ở đó.
+5336	Chiều cao: %s
+5457	Chào %s.
+5496	Ẩn đường viền
+5523	Đánh dấu kết nối
+5526	Đánh dấu các khối trong danh sách ngoài thế giới
+5582	Chiếu ngang
+5583	Ngang: %s
+5602	Quái thù địch và người chơi
+5603	Chỉ quái thù địch
+15425	Máy dò nên phát hiện được thay đổi khối của người chơi trong phạm vi bao xa?
+15426	Bộ ổn định khe nứt nên ngăn được dịch chuyển trong phạm vi bao xa?
+15427	Khoảng cách Máy chiếu chiếu khối ra xa khỏi chính nó.
+5613	Đèn phát hiện thực thể xa tới đâu?
+5614	Tốc độ di chuyển khi đang xem máy quay.
+15428	Người chơi không được nhập mật mã trong bao lâu sau khi nhập sai? (Tính bằng tick, 20 tick = 1 giây; cần Mô đun thông minh)
+15429	Cửa nên mở trong bao lâu? (Tính bằng tick, 20 tick = 1 giây. Đặt 0 để cửa luôn mở)
+15430	Cửa nên mở trong bao lâu? (Tính bằng tick, 20 tick = 1 giây. Đặt 0 để cửa luôn mở)
+15431	Tín hiệu Redstone sau khi phát hiện thay đổi khối nên kéo dài bao lâu? (Tính bằng tick, 20 tick = 1 giây. Đặt 0 để bật tắt tín hiệu)
+15432	Tín hiệu Redstone sau khi phát hiện dịch chuyển nên kéo dài bao lâu? (Tính bằng tick, 20 tick = 1 giây. Đặt 0 để bật tắt tín hiệu)
+15433	Tín hiệu Redstone khi kích hoạt thành công nên kéo dài bao lâu? (Tính bằng tick, 20 tick = 1 giây. Đặt 0 để bật tắt tín hiệu)
+15434	Hệ thống an ninh âm thanh nên mở khóa khối hoặc phát tín hiệu Redstone trong bao lâu sau khi nghe đúng giai điệu? (Tính bằng tick, 20 tick = 1 giây)
+15435	Cửa sập nên mở trong bao lâu? (Tính bằng tick, 20 tick = 1 giây. Đặt 0 để cửa sập luôn mở)
+15436	Cửa sập nên mở trong bao lâu? (Tính bằng tick, 20 tick = 1 giây. Đặt 0 để cửa sập luôn mở)
+5615	Tiếng chuông báo động nghe được từ bao nhiêu khối?
+15437	I.M.S. phát hiện mục tiêu tiềm năng từ bao nhiêu khối?
+15438	Số giây phải qua trước khi cùng một người chơi có thể bị ghi lại lần nữa.
+15439	Số tick trước khi khối biến mất (20 tick = 1 giây)
+15440	Số tick trước khi khối hiện lại (20 tick = 1 giây)
+5659	Bom I.M.S.
+5687	Chế độ nghỉ
+15477	Nếu bật, Máy gỡ khối đa năng sẽ phá khối gia cố khi nhấp chuột phải. Chỉ người đặt khối mới phá được.
+15491	Nếu thích SecurityCraft, hãy cân nhắc ủng hộ chúng tôi trên Patreon! Là người ủng hộ, bạn có thể cùng chúng tôi đưa một tính năng bạn chọn vào mod.
+5717	Bỏ qua chủ: %s
+15502	Các đoạn mà máy quay của khung đang xem nên được tải trong bán kính bao nhiêu? Nếu giá trị này vượt quá thuộc tính "view-distance" của máy chủ hoặc tùy chọn "Khoảng cách hiển thị" của bạn, các giá trị đó sẽ được dùng thay.
+5770	Mặt nạ ẩn danh
+5790	Đang bật điều khiển riêng từng cấp thẻ từ!
+5841	Đặt khối vào để chiếu
+5853	Hệ thống đạn dược thông minh
+15511	Khối không hợp lệ "%2$s" %1$s Bộ quản lý Túi khối! (Cần: "%3$s")
+5876	Mã không hợp lệ!
+5892	Máy quét túi đồ
+5893	Vùng quét túi đồ
+5895	Đảo ngược chức năng
+15513	Trò chuyện IRC không còn được hỗ trợ từ bản v1.8.3 của SecurityCraft. Nếu cần trợ giúp, hãy vào kênh #help trên Discord của SecurityCraft!
+5982	Đã có vật phẩm!
+6249	Thuyền biển an ninh gỗ rừng
+6297	Bảng phím
+6300	Hộp đựng thẻ từ
+6301	Cấp thẻ từ:
+6302	Khóa thẻ từ
+6303	Đầu đọc thẻ từ
+6304	Thẻ từ
+15520	Thẻ từ có thể gắn với Đầu đọc thẻ từ để mở chúng. Để đặt lại cài đặt của thẻ, đặt nó vào bàn chế tạo. Xem trang hướng dẫn của Đầu đọc thẻ từ để biết thêm.
+6305	Bàn phím
+6306	Cửa bàn phím
+6307	Cửa sập bàn phím
+6370	Rương lớn có mật mã
+6371	Laser
+6372	Khối laser
+6418	Thấu kính
+6419	Độ đục thấu kính: %s
+6426	Thẻ từ cấp 1
+6427	Thẻ từ cấp 2
+6428	Thẻ từ cấp 3
+6430	Thẻ từ cấp 4
+6431	Thẻ từ cấp 5
+6642	Thẻ từ dùng giới hạn
+6652	Liên kết
+6662	Đã liên kết với %s khối.
+6665	Đã liên kết với %1$s tại %2$s.
+6679	Đang nghe...
+6700	Đang tải...
+6710	Khóa trang: %s
+15550	Khóa được: khối này có thể khóa bằng Hệ thống an ninh âm thanh.
+6720	Khoảng cách ghi: %s
+6724	Người chơi đã bị ghi:
+15554	Làm từ Khối thạch anh pha lê thường trong Máy gia cố khối đa năng.
+7216	Thuyền biển an ninh gỗ đước
+7436	Khoảng cách tối đa: %s
+7464	Nhắn đội: %s
+7465	Tin nhắn: %s
+7508	Mìn
+7509	Mìn %s: %s
+7512	Mìn tại %s
+7514	Mìn ngoài tầm, đã bị gỡ, hoặc thuộc về người chơi khác
+7515	Công cụ điều khiển mìn từ xa
+7583	Vật phóng của mod
+7584	Dịch chuyển của mod
+7585	Chế độ
+7609	Chỉnh mọi súng canh đã gắn
+7612	Mô đun chỉnh được!
+7613	Mô đun không chỉnh được!
+7614	Bộ quản lý mô đun
+7665	Đèn cảm biến chuyển động
+7682	Tốc độ di chuyển: %s
+7889	Âm thanh tiếp theo sau: %s
+7922	Không thẻ từ nào trong hộp được chấp nhận.
+7928	Không có quyền đặt hướng nhìn mặc định
+7946	Chưa có giai điệu.
+7966	Bật mặt bắc
+7979	Chưa gắn!
+15578	Chưa liên kết với khối nào. Hãy cầm vật phẩm này và nhấp chuột phải vào một khối SecurityCraft tương thích trước.
+7991	Số nốt đã ghi: %s
+7999	NPC kích hoạt: %s
+8085	Thuyền biển an ninh gỗ sồi
+8165	Độ lệch: %s
+8176	Đang hồi!
+8319	Những người ủng hộ chúng tôi:
+8324	Phát tín hiệu đảo ngược
+8327	Đầu ra:
+15623	Có chủ: chống được vụ nổ, và chỉ người đặt mới phá được.
+8341	UUID của chủ: %s
+8514	Nút báo động khẩn
+15626	Có mật mã: chỉ dùng được khi nhập đúng mật mã do chủ đặt.
+8546	Thùng có mật mã
+8547	Lò luyện có mật mã
+8548	Rương có mật mã
+8549	Lò nung có mật mã
+8550	Lò hun khói có mật mã
+8556	Dán danh sách
+8827	Cao độ: %s
+8831	Đặt
+8832	Đặt một Thùng xuống rồi nhấp chuột phải vào nó bằng Bảng phím.
+15628	Đặt một Lò luyện xuống rồi nhấp chuột phải vào nó bằng Bảng phím.
+8833	Đặt một Rương xuống rồi nhấp chuột phải vào nó bằng Bảng phím.
+8834	Đặt một Khung xuống rồi nhấp chuột phải vào nó bằng Bảng phím.
+8835	Đặt một Lò nung xuống rồi nhấp chuột phải vào nó bằng Bảng phím.
+15629	Đặt một Cửa sập sắt gia cố xuống rồi nhấp chuột phải vào nó bằng Bảng phím.
+8836	Đặt một Lò hun khói xuống rồi nhấp chuột phải vào nó bằng Bảng phím.
+8862	Phát bản ghi
+8906	Người chơi...
+8913	Chỉ người chơi
+15641	Hãy báo lỗi ở kênh #bugreport trên máy chủ Discord của chúng tôi. Làm ơn đọc nội quy trước
+8946	Radar cầm tay
+8947	Máy phát giai điệu cầm tay
+8997	Điện: tắt
+8998	Điện: bật
+8999	Súng điện đã nạp
+9076	Vật phẩm bị cấm
+9081	Máy chiếu
+9082	Chiếu các khối giả vào thế giới.
+9096	Lò nung được bảo vệ
+9097	Tín hiệu được bảo vệ
+9098	Protecto
+9111	Công khai: %s
+9202	Đặt thẻ này vào Đầu đọc thẻ từ để liên kết.
+9317	Chữ ký ngẫu nhiên
+9320	Tầm: %s
+9391	Nhập lại mật mã mới:
+9407	Độ trễ hiện lại: %s
+9411	Máy nhận
+9435	Đang ghi...
+9628	Mô đun Redstone
+9819	Khối thạch anh pha lê gia cố
+9831	Khối gia cố
+15675	Khối gia cố là khối xây dựng không thể phá, tương ứng với các khối gốc. Chỉ người đặt mới phá được.
+9853	Nút gia cố
+9867	Khối thạch anh pha lê chạm khắc gia cố
+15676	Khối thạch anh pha lê gia cố dùng để xây Túi khối. Xem thêm ở trang Bộ quản lý Túi khối.
+9902	Gạch thạch anh pha lê gia cố
+9903	Cột thạch anh pha lê gia cố
+9904	Phiến thạch anh pha lê gia cố
+9905	Bậc thạch anh pha lê gia cố
+9948	Cửa gia cố
+9961	Cổng rào gia cố
+10127	Tấm áp lực gia cố
+10176	Phiến gia cố
+10178	Khối thạch anh pha lê nhẵn gia cố
+10179	Phiến thạch anh pha lê nhẵn gia cố
+10180	Bậc thạch anh pha lê nhẵn gia cố
+10219	Khối tre đã tước vỏ gia cố
+10270	Gia cố khối khi chúng bị tấn công ngoài thế giới
+10288	Công cụ điều khiển mìn từ xa
+10289	Công cụ điều khiển súng canh từ xa
+10293	Xóa người chơi
+10301	Đã bỏ # khỏi mô đun đang cầm.
+10310	Gỡ gia cố
+10328	Nhắc lại tin nhắn: %s
+10366	Đặt lại thời gian chờ: %s
+10460	Tôn trọng tàng hình: %s
+10476	Máy quét võng mạc
+10519	Bộ ổn định khe nứt
+15691	Nhấp chuột phải vào bàn phím bằng Máy đổi khóa đa năng để đổi mật mã.
+10540	Nhấp chuột phải vào máy quay an ninh để xem.
+10625	Tốc độ xoay: %s
+10626	Góc xoay: %s
+10737	Cửa quét
+10738	Cửa sập quét
+10823	Độ trễ tìm: %s giây.
+10836	Bán kính tìm: %s
+10860	Biển treo bí mật gỗ xiêm gai
+10861	Biển bí mật gỗ xiêm gai
+10862	Mặt sau bí mật: %s
+10863	Biển treo bí mật tre
+10864	Biển bí mật tre
+10865	Biển treo bí mật gỗ bạch dương
+10866	Biển bí mật gỗ bạch dương
+10867	Biển treo bí mật gỗ anh đào
+10868	Biển bí mật gỗ anh đào
+10869	Biển treo bí mật đỏ thẫm
+10870	Biển bí mật đỏ thẫm
+10871	Biển treo bí mật gỗ sồi sẫm
+10872	Biển bí mật gỗ sồi sẫm
+10873	Mặt trước bí mật: %s
+10874	Biển treo bí mật
+10875	Biển treo bí mật gỗ rừng
+10876	Biển bí mật gỗ rừng
+10877	Biển treo bí mật gỗ đước
+10878	Biển bí mật gỗ đước
+10879	Biển treo bí mật gỗ sồi
+10880	Biển bí mật gỗ sồi
+10881	Biển bí mật
+10882	Biển treo bí mật gỗ vân sam
+10883	Biển bí mật gỗ vân sam
+10884	Biển treo bí mật kì dị
+10885	Biển bí mật kì dị
+10895	Giao diện Redstone bảo mật
+10896	Máy quay an ninh
+10897	Thuyền biển an ninh

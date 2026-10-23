@@ -1,0 +1,300 @@
+8929	Cán dài
+14482	§1+%s sát thương phép§r
+14519	§4Hất ngã I§r
+14526	§4Hai tay II§r
+14527	§4Hai tay I§r
+14528	§4Linh hoạt§r
+14529	§6Xuyên giáp§r
+14533	§6Phá thủ§r
+14546	§6Hất ngã I§r
+14569	§6Đánh nhanh§r
+14576	§6Đánh chậm§r
+14588	§6Quét§r
+14592	§6Ném được§r
+14597	§6Hai tay II§r
+14598	§6Hai tay I§r
+14599	§6Thưởng khi địch không giáp§r
+14600	§6Linh hoạt§r
+14735	§825% cơ hội hất kẻ địch khỏi thú cưỡi.§r
+14763	§8Dùng được như rìu lẫn vũ khí.§r
+14767	§8Thời gian nạp: %s giây§r
+14769	§8Sát thương: %s§r
+14770	§8Gây %s §8sát thương lên mọi thực thể trúng đòn quét.
+16237	§8Gây thêm %s §8sát thương khi tung đòn nạp đầy vào kẻ địch không mặc giáp.§r
+16238	§8Gây thêm %s §8sát thương khi tung đòn nạp đầy, không bị giáp của địch giảm bớt.§r
+14771	§8Vô hiệu khiên của đối thủ trong §7%s giây§8.§r
+16239	§8Vô hiệu khiên của đối thủ lâu gấp §7%s lần§8 thời gian hồi mặc định của khiên.§r
+14778	§8Lực: %s§r
+14780	§8Có bán kính quét gấp %s lần §8so với kiếm.
+16240	§8Có %s%s §8cơ hội gây thêm %s §8sát thương khi tung đòn nạp đầy, không bị giáp của địch giảm bớt.§r
+14789	§8Độ lệch: %s§r
+16241	§8Tăng thời gian bất khả xâm phạm của kẻ địch bị trúng đòn từ §70,5 giây §8lên %s giây§8.§r
+16243	§8Giảm mạnh sát thương và tốc độ đánh khi dùng cùng lúc với vật phẩm khác.§r
+16244	§8Giảm nhẹ sát thương và tốc độ đánh khi dùng cùng lúc với vật phẩm khác. Giảm mạnh sát thương và tốc độ đánh khi dùng cùng lúc với vũ khí nặng.§r
+16247	§8Giảm thời gian bất khả xâm phạm của kẻ địch bị trúng đòn từ §70,5 giây §8xuống %s giây§8.§r
+14812	§8Quán tính trong nước: %s§r
+14813	§8Trọng lượng: %s§r
+14913	§cHai tay I§r
+2616	Allay chín
+2617	Axolotl chín
+2619	Dơi chín
+2620	Thịt gấu chín
+2621	Ong chín
+2626	Thịt lạc đà chín
+2627	Thịt mèo chín
+2632	Thịt cá heo chín
+2635	Thịt cáo chín
+2636	Ếch chín
+2637	Thịt dê chín
+2638	Mẩu golem chín
+2640	Thịt ngựa chín
+2641	Golem sắt chín
+2643	Thịt lạc đà không bướu chín
+2646	Thịt quái vật chín
+2648	Thịt vẹt chín
+2649	Sườn heo piglin chín
+2651	Thịt đỏ chín
+2653	Thịt Sniffer chín
+2654	Mực chín
+2655	Thịt Strider chín
+2656	Thịt rùa chín
+2658	Thịt dân làng chín
+2659	Thịt trắng chín
+2660	Thịt sói chín
+3921	Drop The Meat
+4846	Mẩu golem đông lạnh
+8623	Sườn heo piglin
+9330	Allay sống
+9331	Axolotl sống
+9333	Dơi sống
+9334	Thịt gấu sống
+9335	Ong sống
+9341	Thịt lạc đà sống
+9342	Thịt mèo sống
+9350	Thịt cá heo sống
+9354	Thịt cáo sống
+9355	Ếch sống
+9357	Thịt dê sống
+9363	Thịt ngựa sống
+9367	Golem sắt sống
+9370	Thịt lạc đà không bướu sống
+9374	Thịt quái vật sống
+9377	Thịt vẹt sống
+9380	Thịt đỏ sống
+9382	Thịt Sniffer sống
+9383	Mực sống
+9384	Thịt Strider sống
+9386	Thịt rùa sống
+9388	Thịt dân làng sống
+9389	Thịt trắng sống
+9390	Thịt sói sống
+13611	Mũi dân làng
+643	Chào thuyền trưởng!
+795	Nhà thám hiểm đầy hoài bão
+808	Những nền văn minh cổ
+2039	Bản đồ thám hiểm lâu đài
+2276	Những sảnh lạnh giá
+3613	Bản đồ thám hiểm sa mạc
+3768	Khám phá mọi công trình
+3935	Dungeons Enhanced
+3998	Bản đồ thám hiểm cổ nhân
+4560	Tìm một Thành trì đen
+4561	Tìm một Lâu đài
+4563	Tìm một Đền sa mạc
+4565	Tìm một Người Hà Lan bay
+4566	Tìm một Đền đài rừng rậm
+4567	Tìm một Hầm ngục lớn
+4568	Tìm một Mê cung quái vật
+4569	Tìm một Ngôi nhà nấm
+4572	Tìm một Tàu cướp biển
+4574	Tìm một Đền cổ nhân
+4575	Tìm một Hố băng
+4580	Tìm bảy công trình vĩ đại nhất
+4752	Bay giữa không trung
+4793	Những cuộc chiến và vương quốc bị lãng quên
+5479	Ẩn dưới rễ cây
+7622	Bản đồ thám hiểm quái vật
+9327	Công trình hiếm nhất?
+11016	Bảy kỳ quan thế giới
+11634	Thành trì rùng rợn
+12476	Chìm sâu dưới đáy
+12550	Chuyện kể của nhà thám hiểm
+13197	Bẫy và lời nguyền
+13873	Hầm ngục ra trò!
+807	Mỏ neo
+823	Bích họa đá andesit
+827	Đá góc tường andesit
+878	Người buôn đồ cổ
+891	Thùng táo
+893	Giỏ mây đựng táo
+1242	Hãy như một chú vịt quý tộc nọ!
+1257	Đèn củ dền
+1258	Giỏ mây đựng củ dền
+1266	Thùng củ dền
+1267	Bù nhìn củ dền
+1293	Răng cá mập Megalodon lớn
+1297	Vỏ ốc anh vũ lớn
+1298	Hàm cá mập lớn
+1533	Đá góc tường đá đen
+1723	Sách
+1726	Chồng sách
+1761	Sọ bò
+1767	Bánh mì kẹp xúc xích Đức
+1877	Xô đầy tiền xu
+1897	Vải bố
+1898	Mái hiên vải bố
+1899	Khối vải bố
+1900	Thảm vải bố
+1901	Bao vải bố
+1902	Phiến vải bố
+1903	Bậc vải bố
+1944	Máy ảnh
+1977	Có thể bật và tắt
+1978	Có thể chứa 9 chồng vật phẩm bên trong
+1989	Sọ chó
+2030	Thùng cà rốt
+2031	Giỏ mây đựng cà rốt
+2035	Củ dền khắc mặt
+2091	Chậu gốm
+2093	Cửa sổ biển xanh thẳm
+2094	Tấm cửa sổ biển xanh thẳm
+2095	Kính biển xanh thẳm
+2096	Mảnh kính biển xanh thẳm
+2097	Đèn kính biển xanh thẳm
+2098	Tấm kính biển xanh thẳm
+2099	Ting ting!!
+2272	Đèn lồng giấy Gà cưỡi
+2300	Gạch đá biển chạm khắc
+2426	Kệ bừa bộn
+2449	Thùng cá tuyết
+2450	Giỏ mây đựng cá tuyết
+2466	Cuộn dây thừng
+2469	Gạch gốm kính biển lạnh
+2470	Phiến gạch gốm kính biển lạnh
+2471	Bậc gạch gốm kính biển lạnh
+2510	Chỉ dùng lệnh
+2663	Nồi nấu
+2678	Chảo đồng
+2680	Đèn đồng
+2681	Đèn đồng kêu rè rè
+2682	Vòng gõ cửa đầu sư tử bằng đồng
+2693	Giấy dán tường đồng
+2702	Gạch đá biển gắn san hô
+2703	Phiến đá biển gắn san hô
+2704	Bậc đá biển gắn san hô
+2717	Cửa tôn
+2718	Tôn
+2719	Mái hiên tôn
+2720	Nút tôn
+2721	Cửa tôn
+2722	Hàng rào tôn
+2723	Cổng rào tôn
+2724	Song chắn tôn
+2725	Tấm áp lực tôn
+2726	Mái tôn
+2727	Phiến tôn
+2728	Bậc tôn
+2729	Cửa sập tôn
+2781	Thảm da bò
+2866	Đèn lồng giấy Creeper
+3101	Thớt
+3496	Bát trang trí
+3523	Hóa thạch cá gắn trong đá bảng sâu
+3714	Bích họa đá diorit
+3718	Đá góc tường diorit
+3811	Mái chèo trưng bày
+3876	tiếng gõ cửa
+3925	Rơi ra nhiều hóa thạch và hàm khác nhau
+3926	Lan can tre khô
+3941	Dusty Decor
+3942	Dusty Decorations
+3943	Biểu trưng Dusty Decorations
+4023	Hóa thạch cá gắn trong đá
+4043	Thùng rỗng
+4329	Sọ ngựa
+4460	Dây đèn nháy
+4472	Vòng hoa mùa thu
+4525	Giấy dán tường rừng lễ hội
+4526	Giấy dán tường sọc lễ hội
+4537	Máy ảnh phim
+4542	Cuộn phim kết thúc
+4543	Cuộn phim đang chạy
+4547	Phim bắt đầu chạy
+4714	Xương cá
+4718	Mồi câu cá
+4731	Chập chờn bật tắt ngẫu nhiên
+4839	Cửa sổ biển mờ sương
+4840	Tấm cửa sổ biển mờ sương
+4841	Kính biển mờ sương
+4842	Mảnh kính biển mờ sương
+4843	Đèn kính biển mờ sương
+4844	Tấm kính biển mờ sương
+4850	Chảo rán
+4950	Mỏ neo khổng lồ
+4951	Xích khổng lồ
+4981	Phao thủy tinh
+4990	Chậu gốm tráng men
+4999	Quả địa cầu
+5005	Thùng quả mọng phát sáng
+5006	Giỏ mây đựng quả mọng phát sáng
+5023	Tiền vàng
+5066	Quả bầu
+5084	Bích họa đá hoa cương
+5088	Đá góc tường hoa cương
+5273	Chảo đồng treo
+5274	Chảo rán treo
+5276	Cá tuyết treo
+5279	Chùm bầu treo
+5280	Dao treo
+5281	Dây thòng lọng treo
+5282	Áp phích treo
+5283	Cờ thủy thủ treo
+5284	Cá hồi treo
+5285	Xúc xích treo
+5292	Có 9 kiểu
+5305	Cửa sổ biển nâu hạt dẻ
+5306	Tấm cửa sổ biển nâu hạt dẻ
+5307	Kính biển nâu hạt dẻ
+5308	Mảnh kính biển nâu hạt dẻ
+5309	Đèn kính biển nâu hạt dẻ
+5310	Tấm kính biển nâu hạt dẻ
+5555	Đồ trang trí ngày lễ
+5562	Hũ mật ong
+5563	Cửa sổ biển màu mật ong
+5564	Tấm cửa sổ biển màu mật ong
+5565	Kính biển màu mật ong
+5566	Mảnh kính biển màu mật ong
+5567	Đèn kính biển màu mật ong
+5568	Tấm kính biển màu mật ong
+5821	Mực và bút lông
+5926	Vòng gõ cửa sắt
+5929	Chảo rán sắt
+6128	Hũ
+6342	Dao và thớt
+6343	Dao và thớt
+6440	Phao cứu sinh
+6570	Giỏ mây đựng tử đinh hương
+6670	Cửa sổ biển màu cam thảo
+6671	Tấm cửa sổ biển màu cam thảo
+6672	Kính biển màu cam thảo
+6673	Mảnh kính biển màu cam thảo
+6674	Đèn kính biển màu cam thảo
+6675	Tấm kính biển màu cam thảo
+7470	Cửa kim loại đóng
+7471	Cửa kim loại mở
+7524	Người tuyết nhỏ
+7542	Cửa sổ biển xanh bạc hà
+7543	Tấm cửa sổ biển xanh bạc hà
+7544	Kính biển xanh bạc hà
+7545	Mảnh kính biển xanh bạc hà
+7546	Đèn kính biển xanh bạc hà
+7547	Tấm kính biển xanh bạc hà
+7572	Cửa sổ biển màu cà phê sữa
+7573	Tấm cửa sổ biển màu cà phê sữa
+7574	Kính biển màu cà phê sữa
+7575	Mảnh kính biển màu cà phê sữa
+7576	Đèn kính biển màu cà phê sữa
+7577	Tấm kính biển màu cà phê sữa
+7625	Giấy dán tường quái vật
+7632	Thảm da bò nấm
+7685	Máy quay phim

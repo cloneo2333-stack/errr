@@ -1,0 +1,249 @@
+12873	Mìn đường ray phát nổ khi có xe goòng chạy qua trên nó.
+16001	Hệ thống đánh chặn, lấy cảm hứng từ thiết bị xuất hiện lần đầu trong "Call of Duty: Modern Warfare 3" do Activision phát hành, nhắm vào mũi tên và cầu lửa của kẻ địch và phá hủy chúng từ xa sau nửa giây nạp.
+16002	Máy chỉnh khối đa năng dùng để tùy biến nhiều khối của SecurityCraft. Nhấp chuột phải vào một khối để mở giao diện tùy biến. Sau đó bạn có thể lắp "mô đun" để tùy biến cách khối đó hoạt động.
+16003	Máy gia cố khối đa năng gia cố rất nhiều khối gốc, biến chúng thành phiên bản SecurityCraft. Để làm vậy, nhấp chuột phải Máy gia cố khối đa năng và đặt khối gốc vào ô trên, rồi đóng giao diện. Hoặc phá bất kỳ khối nào (khi không ở chế độ sáng tạo) để gia cố nó. Để đổi khối gia cố về bản gốc, dùng ô dưới (chỉ có ở máy gia cố cấp 2). Máy cấp 1 dùng được 300 lần, cấp 2 dùng được 2700 lần, cấp 3 dùng không giới hạn.
+16004	Máy đổi khóa đa năng cho phép bạn đổi mật mã của các khối có mật mã mà bạn sở hữu. Nhấp chuột phải vào khối có mật mã để mở giao diện, rồi gõ mật mã mới bạn muốn.
+16005	Máy đổi chủ đa năng có thể đổi chủ của một khối. Để làm vậy, đổi tên vật phẩm ở đe thành tên chủ mới của khối. Rồi chỉ cần nhấp chuột phải vào một khối có chủ của bạn là nó sẽ đổi. Nếu được bật, khối chưa có chủ có thể nhận bằng cách nhấp chuột phải bằng Máy đổi chủ chưa đặt tên.
+16006	Máy ghi tên người dùng sẽ ghi tên mọi người chơi trong vòng 3 khối khi được cấp điện Redstone.
+12899	Độ rộng của hình chiếu.
+16008	Kìm cắt dây có thể dùng để tháo ngòi nhiều loại mìn và tắt bẫy lồng bằng cách nhấp chuột phải vào khối. Ngoài ra, rón rén và nhấp chuột phải vào khối có mật mã sẽ gỡ bỏ bảo vệ mật mã.
+12913	Không có khối chuyển đổi được nào trong vùng đã cho
+12914	Không còn ô trống để gắn mìn này!
+12915	Không còn ô trống để gắn súng canh này!
+16012	Không có khối có chủ được nào trong vùng đã cho hoặc chúng đã thuộc về người chơi đã cho
+16016	Có nhiều hơn một Bộ quản lý Túi khối trong công trình.
+12920	Không có khối chuyển đổi được ở vị trí đã cho
+12921	Không có dữ liệu mô đun nào được lưu.
+16017	Không có khối có chủ được ở vị trí đã cho hoặc nó đã thuộc về người chơi đã cho
+12922	Chưa đặt mật mã. Bạn không thể tương tác với thứ này.
+12933	%s này đang bị Hệ thống an ninh âm thanh khóa!
+16025	Khối này không thể có chủ. Hãy nhấp chuột phải vào một khối SecurityCraft phù hợp.
+12936	Khối này đã được đổi tên thành '%s'.
+12937	Khối này không có thông tin để hiện!
+12938	Tên khối này đã trùng với '%s'.
+16026	Chủ của khối này đã bị Máy đổi chủ đa năng thay đổi nên cần chủ mới xác nhận thì nó mới hoạt động lại. Để xác nhận, chủ mới phải nhấp chuột phải vào khối.
+12940	Cặp tài liệu này chưa có mật mã, không thể đặt lại.
+12949	Khối này chưa kết nối với máy quét túi đồ nào khác!
+12950	Đây không phải khối của bạn, bạn không thể đổi chủ của nó.
+12951	Đây không phải cặp tài liệu của bạn, bạn không thể đổi chủ của nó.
+12952	Đây không phải cặp tài liệu của bạn, bạn không thể đổi mật mã của nó.
+16041	Thẻ từ này thuộc về chủ khác với chủ của khóa thẻ từ.
+12957	Thẻ từ này đã hết lượt dùng!
+12958	Thẻ từ này chưa được liên kết với Đầu đọc thẻ từ nào.
+12959	Hộp đựng thẻ từ này không có thẻ nào đã liên kết.
+16042	Thẻ từ này là nguyên liệu chế tạo dùng để giới hạn số lần dùng của các thẻ từ cấp 1 tới 5.
+16043	Khóa thẻ từ này chưa được thiết lập. Nhấp chuột phải vào nó bằng một thẻ từ đã liên kết.
+16044	Khóa thẻ từ này giờ chấp nhận thẻ từ cấp %s trở lên.
+12960	Khóa thẻ từ này giờ chấp nhận thẻ từ cấp %s.
+12961	Đầu đọc thẻ từ này không cho phép thẻ từ cấp %s!
+16052	Máy chiếu này chỉ chiếu khối khi không có khối thật ở vị trí chiếu.
+16053	Máy chiếu này sẽ chiếu khối bất kể khối thật trong thế giới. Cảnh báo: việc này có thể gây chồng hình nhấp nháy!
+16056	Máy gửi này chỉ gửi được tín hiệu Redstone tìm thấy từ khối SecurityCraft (ví dụ Cần gạt gia cố, Bàn phím).
+12969	Máy gửi này có thể gửi mọi tín hiệu Redstone nó tìm thấy.
+12985	Thời gian hoạt động: %s
+12988	Còn lại: %s giây
+12997	Thời gian tới khi đóng: %s
+13011	Mẹo:
+13047	Bật tắt nhìn trong đêm
+13053	Bật tắt đầu ra Redstone
+13211	Hệ thống đánh chặn
+13224	Đã lưu giai điệu.
+13225	Đã lưu giai điệu có %s nốt.
+16081	Gõ "/sc help" sẽ cho bạn công thức Sổ tay SecurityCraft, chứa thông tin hữu ích về các khối và vật phẩm của SecurityCraft.
+13382	Gỡ gắn mìn
+13383	Gỡ gắn súng canh
+13384	Đã gỡ máy quay tại %s khỏi màn hình.
+13385	Đã gỡ mìn tại %s khỏi công cụ điều khiển từ xa.
+13386	Đã gỡ súng canh tại %s khỏi công cụ điều khiển từ xa.
+13424	Máy chỉnh khối đa năng
+13425	Máy gia cố khối đa năng
+13426	Máy gia cố khối đa năng (LvL1)
+13427	Máy gia cố khối đa năng (LvL2)
+13428	Máy gia cố khối đa năng (LvL3)
+13429	Máy gia cố khối đa năng
+13430	Máy gỡ khối đa năng
+13431	Máy đổi khóa đa năng
+13432	Máy đổi chủ đa năng
+13446	Đã hủy liên kết với %1$s tại %2$s.
+13455	Gỡ gia cố khối khi chúng bị tấn công ngoài thế giới
+13463	Bật mặt trên
+13487	Người dùng được: %s
+16089	Cách dùng: /sc connect HOẶC /sc disconnect HOẶC /sc contact HOẶC /sc resume
+13532	Máy ghi tên người dùng
+13533	Số lần dùng còn lại: %s
+13580	Chiếu dọc
+16103	Kích hoạt bằng ánh nhìn: khối này có thể kích hoạt bằng cách đưa con trỏ lên nó khi đang trong tầm phá khối.
+13591	Chế độ xem
+13871	Bật mặt tây
+16137	Gửi thông báo tới mọi thành viên đội hay chỉ chủ.
+13905	Thực thể nào kích hoạt được khối này?
+16141	Ôi, chậm lại nào! Bạn phải chờ một chút trước khi nhập mật mã mới.
+13989	Độ rộng: %s
+14131	Kìm cắt dây
+14210	Dùng được trên Đầu đọc thẻ từ của: %s
+14243	X: %1$s Y: %2$s Z: %3$s
+14326	Bạn đã được thêm vào danh sách cho phép.
+14327	Bạn đã bị thêm vào danh sách chặn.
+14338	Bạn không được phép dịch chuyển từ vị trí này!
+14339	Bạn không được phép dịch chuyển tới vị trí đó!
+16164	Bạn đang cố bẻ mã của thứ chính mình sở hữu. Nếu quên mật mã, hãy dùng Máy đổi khóa đa năng.
+14350	Bạn không thể gắn mìn không thuộc về mình.
+14351	Bạn không thể gắn súng canh không thuộc về mình.
+14357	Bạn không thể xem máy quay không thuộc về mình.
+14359	Bạn không thể nhận khối chưa có chủ.
+16176	Bạn không thể đổi khung đang hiện hình ảnh máy quay thành Bàn phím! Hãy thôi xem hình ảnh máy quay hiện tại để tiếp tục.
+16177	Bạn không thể liên kết thêm khối. Mỗi Hệ thống an ninh âm thanh chỉ liên kết được tối đa %s khối.
+14366	Bạn không thể dùng thẻ từ này.
+16181	Bạn không sở hữu khối "%2$s" %1$s Bộ quản lý Túi khối!
+16182	Bạn không có đủ vật phẩm để lắp ráp Túi khối cỡ này!
+14397	Bạn phải đặt Súng canh lên trên một khối!
+14403	Bạn phải cầm mô đun muốn chỉnh!
+14404	Bạn phải cầm mô đun muốn lưu dữ liệu.
+16188	Bạn phải là chủ của khối này mới biến nó thành phiến đôi được.
+14407	Bạn cần %s bảng phím để chuyển đổi khối này!
+16191	Bạn cần Mô đun thông minh để chọn mặt nào phát laser.
+16192	Bạn cần kích hoạt khung bằng tín hiệu Redstone mới xem được hình ảnh máy quay này.
+14412	Bạn cần ở chế độ sáng tạo để dùng công cụ quản trị.
+16194	Bạn cần đặt cho vật phẩm này tên của chủ khối mới. Dùng đe để đổi tên.
+16195	Bạn cần lắp Mô đun thông minh để máy dò chỉ phát hiện một loại khối cụ thể!
+16196	Bạn cần lắp Mô đun thông minh để chọn âm thanh Chuông báo động phát.
+16197	Bạn cần lắp Mô đun thông minh để điều khiển riêng từng cấp thẻ từ.
+16198	Bạn cần lắp Mô đun thông minh để bật tắt loại vật phóng mà Hệ thống đánh chặn này nhắm tới.
+16199	Bạn cần lắp Mô đun thông minh để bật tắt loại dịch chuyển mà Bộ ổn định khe nứt này phát hiện.
+16200	Bạn cần liên kết máy quay với màn hình để thêm chúng vào khung!
+14416	Bạn cần:
+16211	Phiên bản SecurityCraft của bạn đã cũ! Hãy cân nhắc cập nhật để có thêm tính năng và ít lỗi hơn.
+14470	Phóng to
+14476	Thu nhỏ
+749	Cho phép bật tắt trạng thái nghe
+792	AM
+874	CƯỜNG ĐỘ ĂNG TEN:
+1238	Pin
+1287	Âm thanh tốt hơn, tầm ngắn hơn
+2044	CHẤT XÚC TÁC
+2132	Sạc pin dưới ánh nắng
+2367	Độ rõ
+2694	Dây đồng
+3665	Mô đun %1$s kim cương
+3996	HIỆU SUẤT: %s%%
+4756	FM
+4824	Bộ chỉnh tần
+4826	Tần số: %s
+5021	Mô đun %1$s vàng
+5782	Tăng tầm
+5848	Sứ cách điện
+5849	Sứ cách điện quay
+5915	Mô đun %1$s sắt
+6379	Chốt
+6678	Mô đun nghe
+7484	Micrô
+7485	Micrô nghiêng
+7486	Micrô bật tắt
+7633	Tầm xa hơn, âm thanh kém hơn
+7843	Mô đun %1$s Netherit
+9099	Cho âm thanh rõ hơn
+9272	Đài
+9273	Đài bắt đầu phát sóng
+9274	Đài ngừng phát sóng
+9275	Bàn chế đài
+9319	Tầm
+9412	Mô đun nhận
+11222	Simple Radio
+11399	Năng lượng mặt trời
+11500	Loa
+11501	Mô đun loa
+11753	Bộ đàm khoai tây
+11938	Lưu nhiều điện hơn trong pin
+13173	Bộ thu phát
+13183	Máy phát
+13184	Mô đun phát
+13512	Dùng cầm tay
+13531	Người dùng: %s
+13672	Bộ đàm
+13891	Khi ở vật phẩm phát ra:
+13892	Khi ở vật phẩm nghe:
+13893	Khi ở vật phẩm cấp điện:
+13894	Khi ở vật phẩm nhận:
+13895	Khi ở vật phẩm phát sóng:
+14132	Dây chập điện
+2154	Xem nhật ký trò chơi để biết thông tin chi tiết.
+6396	Lá
+8573	Hiệu năng
+15643	PojavLauncher không được hỗ trợ khi dùng Embeddium.\n  * Bạn rất dễ gặp lỗi hiệu năng nghiêm trọng, lỗi hình ảnh và sập trò chơi.\n  * Bạn sẽ phải tự xoay xở nếu quyết định tiếp tục: chúng tôi sẽ không giúp với bất kỳ lỗi hay sự cố sập nào!
+15861	Các gói tài nguyên sau không tương thích với Embeddium:
+15862	Các gói tài nguyên sau có thể không tương thích với Embeddium:
+15865	Phải khởi động lại trò chơi để áp dụng một hoặc nhiều cài đặt hình ảnh!
+13413	Hoàn tác
+16210	Trình điều khiển đồ họa NVIDIA của bạn đã cũ!\n  * Việc này sẽ gây lỗi hiệu năng nghiêm trọng và sập trò chơi khi cài Embeddium.\n  * Hãy cập nhật trình điều khiển đồ họa lên bản mới nhất (bản 536.23 trở lên.)
+620	Nâng cấp bắt sinh vật nâng cao
+1080	Ba lô trống
+3591	Xóa mẫu
+4405	Xuất mẫu
+4414	Đã xuất mẫu vào %s
+4893	Đã đưa ba lô cho %s
+4962	Đưa ba lô
+7563	Nâng cấp bắt sinh vật
+7908	Không tìm thấy ba lô ở tay chính
+7978	Không thêm được hết vật phẩm: còn lại %d x %s
+11766	Chuyển đổi nâng cấp chồng: bậc khởi đầu lên bậc 1
+11767	Chuyển đổi nâng cấp chồng: bậc khởi đầu lên bậc 2
+11768	Chuyển đổi nâng cấp chồng: bậc khởi đầu lên bậc 3
+11769	Chuyển đổi nâng cấp chồng: bậc khởi đầu lên bậc 4
+11775	Chuyển đổi nâng cấp chồng: bậc 1 lên bậc 2
+11776	Chuyển đổi nâng cấp chồng: bậc 1 lên bậc 3
+11777	Chuyển đổi nâng cấp chồng: bậc 1 lên bậc 4
+11779	Chuyển đổi nâng cấp chồng: bậc 2 lên bậc 3
+11780	Chuyển đổi nâng cấp chồng: bậc 2 lên bậc 4
+11782	Chuyển đổi nâng cấp chồng: bậc 3 lên bậc 4
+12427	Đã thêm thành công vật phẩm '%2$s' vào '%1$s'
+12438	Đã kết thúc thành công mẫu động '%s'
+12456	Đã bắt đầu thành công mẫu động '%s'
+12631	Mẫu '%s' đã tồn tại
+12632	Đã tạo thành công mẫu '%s'
+12633	Đã xóa thành công mẫu '%s'
+12634	Tên mẫu có ký tự không hợp lệ: %s
+12635	Tên mẫu, Thao tác
+12731	Mẫu động '%s' hiện không được dùng
+12732	Tên mẫu động '%s' hiện đang được dùng
+12779	Vật phẩm '%2$s' được đánh dấu để thêm vào '%1$s' lúc kết thúc
+12869	Mẫu '%s' không tồn tại
+15995	Mẫu '%s' không lưu lâu dài nên không dùng được với lệnh 'template give'
+15996	Mẫu '%s' làm gốc cho mẫu động này không tồn tại
+1878	Xô kinh nghiệm
+4259	Bộ liên kết Ender
+4382	Kinh nghiệm
+4879	Nâng cấp lò nung
+6162	Nâng cấp máy hát
+6658	Đã liên kết
+7115	Liên kết chính
+11426	Sophisticated Mods
+11439	Sắp xếp kho hoặc ba lô
+11792	Nâng cấp chồng
+13177	Chuyển vào túi đồ
+13178	Chuyển vào kho
+125	%1$s%2$sBộ nối kho
+249	%s%sThùng
+250	%s%sRương
+251	%s%sThùng đồng
+252	%s%sRương đồng
+253	%s%sThùng kim cương
+254	%s%sRương kim cương
+255	%s%sThùng vàng
+256	%s%sRương vàng
+257	%s%sThùng sắt
+258	%s%sRương sắt
+259	%s%sThùng Netherit
+260	%s%sRương Netherit
+389	Gỗ xiêm gai
+606	Nâng cấp giả kim nâng cao
+608	Nâng cấp nén nâng cao
+610	Nâng cấp cho ăn nâng cao
+612	Nâng cấp bộ lọc nâng cao
+614	Nâng cấp phễu nâng cao
+616	Nâng cấp máy hát nâng cao
+618	Nâng cấp nam châm nâng cao
+622	Nâng cấp nhặt đồ nâng cao
+624	Nâng cấp bơm nâng cao
+627	Nâng cấp hủy đồ nâng cao
+658	Nâng cấp giả kim
+1029	Nâng cấp tự luyện

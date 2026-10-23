@@ -1,0 +1,36 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Creative Commons Attribution-NonCommercial 3.0"
+
+[[mods]]
+modId="apollyon"
+version="1.1.1"
+displayName="Apollyon"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/apollyon"
+logoFile="logo.png"
+credits="Modeled in Blockbench, Coded in MCreator"
+authors="GamerCraftZ (TheRealGCZ), M_Productions"
+description="The Beckoning Of The World's End."
+
+[[dependencies.apollyon]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.apollyon]]
+    modId="curios_api"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.apollyon]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

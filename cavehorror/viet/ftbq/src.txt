@@ -1,0 +1,391 @@
+0	First Reinforcement
+1	Chitin Fragments
+2	Kill 1 Ant Arsonist
+3	Ants in the Ashes
+4	Burning Remains
+5	Feeling Stronger
+6	Feeling Watched
+7	Shadows in the Fog
+8	Exoskeleton Binding
+9	Kill 1 Centipede Stalker
+10	Mandible Strike
+11	Webbed Warning
+12	Spinneret Hunt
+13	Kill 1 Spider Snatcher
+14	Predator of Silk
+15	The Giant Spinneret
+16	Widow's Gift
+17	Hardened Carapace
+18	Chitin Arsenal
+19	Glands of Combustion
+20	Smoldering Ritual
+21	Carry the Fear
+22	Find Herobrine's Sanctum
+23	Herobrine's Mark
+24	Enchant an item
+25	Master Enchanter
+26	Ritual of Silk and Flame
+27	Calm Before Wings
+28	Kill the Spider Moth boss
+29	Wings of Cataclysm
+30	Summon the Spider Moth boss
+31	The Sky Twitches
+32	Fully Reinforced
+33	Venom Tampered
+34	Unlocks Chapter 2 progression path
+35	Echo of the Moth
+36	Proof It's Real
+37	Set the Watcher
+38	Memory in Monochrome
+39	Meat of Questionable Origin
+40	Cold Fragment of Something Older
+41	Reinforcing Your Home
+42	The Final Rest
+43	Flesh Made Edible
+44	Eyes Beyond Reach
+45	Metal Made Meat
+46	Welcome to Cave Horror Project!
+47	Fragments of Corruption
+48	Commonly spawn in the Overworld at night.
+49	Kill 1 Dread Hound
+50	The Hound's Howl
+51	Can spawn anywhere in the Overworld at night.
+52	Kill 1 Dark Vortex
+53	Tear in the Shadows
+54	Conduit of Darkness
+55	Trophy of the Hunt
+56	Steps Through Nightmare
+57	Edge of Corruption
+58	Vestments of the Nightmare
+59	The Watching Roots
+60	Recommended vanilla biomes to find Ant Arsonists are &4Basalt Deltas&r and &4Crimson Forest&r.
+61	Here's a list of new BOP biomes where  Ant Arsonists can spawn:
+62	- Dryland
+63	- Dune Beach
+64	- Forested Field
+65	- Rainforest
+66	- Tropics
+67	- &4Undergrowth&r
+68	- Wasteland
+69	- Wasteland Steppe
+70	- Woodland
+71	Recommended vanilla biomes to find Centipede Stalkers are &4Basalt Deltas&r and &4Crimson Forest&r.
+72	Here's a list of new BOP biomes where Centipede Stalkers can spawn:
+73	- &4Crystalline Chasm&r
+74	- Volcanic Plains
+75	- Volcano
+76	Recommended vanilla biome to find Spider Snatchers is Deep Dark.
+77	Here's a list of new BOP biomes where  Spider Snatchers can spawn:
+78	- Old Growth Dead Forest
+79	- Ominous Woods
+80	- Spider Nest
+81	- &4Withered Abyss&r
+82	Can be found in the Overworld, mostly in forests or plains biomes.
+83	{image:cavehorrorproject:textures/herobrine_sanctrum.png width:225 height:200 align:center fit:true}
+84	This quest is completed after collecting the Abyssal Crystal drop from the Spider Moth boss.
+85	You can summon the Spider Moth boss by placing a Soul Sand block on top of a Mangled Spider Flesh block and lighting it on fire. You need to have the Bane Of The Darkness in your inventory.
+86	Recommended weapon: Bow
+87	Recommended armor: Tier 2 Chitin
+88	A Door in the Dirt
+89	Open the portal to the Crawling Dimension
+90	Rot Beneath The World
+91	Find a Cryptic Complex biome
+92	Something Cryptic
+93	Colossus Beneath
+94	Better Material
+95	Armor of the Deep
+96	Observe The Fallen from up close
+97	That's Not an Enderman
+98	Observe The Damned from up close
+99	The Damned Walks Again
+100	Distortions in Time
+101	Echo-Cooked Flesh
+102	Kill any Graveyard mob
+103	Something Won't Stay Buried
+104	First Impressions
+105	You Have Its Attention
+106	Stitched with Madness
+107	Kill 2 Scorpion Strikers
+108	Venom in the Rock
+109	Poisoned Limb
+110	Rise of the Scorpioid
+111	Kill the Scorpioid Bloodluster boss
+112	Molten Devastation
+113	Fire Opal Core
+114	Burn the Swarm
+115	Unlocks Chapter 3 progression path
+116	Life in Your Hands
+117	Shards of Molten Fury
+118	The Molten Relic
+119	Heat Without Flame
+120	Kill 2 Restless Spirits
+121	A Spirit Laid to Rest
+122	Bones That Shouldn't Be One
+123	A Second Chance
+124	Kill a Zombie Clown
+125	No One Is Laughing
+126	The Swarm Begins
+127	Summon the Scorpioid Bloodluster boss
+128	The Sky Slowly Opens
+129	Mint Leaves
+130	Little Sweets
+131	Kill 1 Grizzly Bear
+132	Claws of the Wild
+133	Timber of the Unfamiliar
+134	Kill 3 Flying Fish
+135	Wings Over Water
+136	You can buy this item from a villager from the building below.
+137	Echoes on Tape
+138	Wrapped for the Road
+139	Kill 1 Centipede Evictor
+140	The Evictor Falls
+141	Forged in Darkness
+142	Kill 1 Spirit of Chaos
+143	Echo of Disorder
+144	Seed of Ruin
+145	Kill 1 Fallen Chaos Knight
+146	The Fallen Champion
+147	Blueprint of Corruption
+148	Plate of the Abyss
+149	Clad in Darkness
+150	Condensed Corruption
+151	Warblade of Ruin
+152	Getting Rid of the Insects
+153	The Knocking Below
+154	Use the Crawling Compass to find the Crawling Castle! Once inside it, you can activate a portal to get into the Crawling Dimension.
+155	To activate the portal, get into the central sphere made out of Crawling Barrier Blocks. Light each of the four Crawling Pillar blocks on fire with Scorch Charge and then right-click the central Crawling Altar block with an Abyssal Crystal
+156	The Cryptic Complex biome can be found in the second layer of the Crawling Dimension
+157	{image:cavehorrorproject:textures/cryptic_complex.png width:200 height:100 align:center}
+158	Drops from Arthropleura Abomination miniboss which spawns exclusively in Cryptic Complex biome in the Crawling Dimension.
+159	{image:cavehorrorproject:textures/the_fallen.png width:100 height:100 align:center fit:true}
+160	Recommended vanilla biomes to find Scorpion Strikers are &4Basalt Deltas&r, &4Soul Sand Valley&r, &4Nether Wastes&r and &4Crimson Forest&r.
+161	Here's a list of new BOP biomes where Scorpion Strikers can spawn:
+162	- Cold Desert
+163	- Lush Desert
+164	You can summon the Scorpioid Bloodluster boss by placing a Soul Sand block on top of a Mangled Scorpion Flesh block and lighting it on fire. You need to have the Bane Of The Darkness in your inventory.
+165	Recommended weapon: Bow or Abyssal Blade
+166	Recommended armor: Tier 3 Chitin or Juggernaut
+167	Grows near rivers or small water bodies. Can also be obtained as a drop from a Zombie Fisherman which spawns near rivers.
+168	{image:cavehorrorproject:textures/cassette_house.png width:200 height:200 align:center}
+169	Spawns when you kill a rare darker variant of Centipede Evictor Larvae which can spawn in the following vanilla biomes: Forests, Desert, Caves, Jungles, Swamps and &4Crimson Forest&r, &4Soul Sand Valley&r, &4Nether Wastes&r.
+170	Here's a list of new BOP biomes where  Centipede Evictors can spawn:
+171	- Fungal Jungle
+172	- Glowing Grotto
+173	- Wetland
+174	Can spawn in the Overworld at night.
+175	Can spawn rarely in the Overworld at night.
+176	The Doll Watches
+177	Infernal Reserves
+178	Crown of the Inferno
+179	Carapace of Flame
+180	Leggings of the Abyss
+181	Steps Through Fire
+182	Steel in the Kitchen
+183	Pot of Plenty
+184	The Heat of Survival
+185	Sauce of the Harvest
+186	Meal Before the Storm
+187	Boil the Darkness
+188	Cider of the Orchard
+189	Egg of the End
+190	Mangled Offering
+191	Summon the Draconic Voidlasher boss
+192	The Sky Breaks Open
+193	Heart of the Void
+194	Unlocks Chapter 4
+195	Kill the Draconic Voidlasher boss
+196	Dragon of the Void
+197	THE TORMENTOR IS COMING
+198	The Third Seal Broken
+199	Hypnotic Flame
+200	Unlocks Chapter 4 progression path
+201	Judgement Ignited
+202	The Butcher's Tool
+203	Blades on Display
+204	Weapon of Annihilation
+205	The Recluse Lurks
+206	The Goliath Falls
+207	Repel the Swarm
+208	Chaos in Your Hands
+209	Spirit of the Beyond
+210	Evict the Evictors
+211	Fried Eggs
+212	Life Preserver
+213	Fragments of the Spirit
+214	A Taste Beyond Life
+215	A World in Your Hands
+216	Remains of the Deep
+217	Cheat Death
+218	Alpha's Trophy
+219	Baiting the Beast
+220	Where the Sky Breaks
+221	You can summon the Draconic Voidlasher boss by placing a Soul Sand block on top of a Mangled Fly Flesh block and lighting it on fire. You need to have the Bane Of The Darkness in your inventory.
+222	Recommended weapon: Judgement Blaster or Hypnotic Hellblaster
+223	Recommended armor: Infernal
+224	Spider Recluse can spawn anywhere underground in vanilla biomes.
+225	Here's a list of new BOP biomes where Spider Rescluse can spawn:
+226	Recommended vanilla biomes to find Spider Goliath are Jungles and Lush Caves.
+227	Here's a list of new BOP biomes where Spider Goliath can spawn:
+228	- Lush Savanna
+229	- Rocky Rainforest
+230	- Scrubland
+231	Drops from the following Born in Chaos spirits:
+232	- The Missionary
+233	- Pumpkin Spirit
+234	- Chaos Spirit
+235	Centipede Evictor spawns from Centipede Evictor Larvae
+236	Recommended vanilla biomes to find Centipede Evictor Larvaes are &4Soul Sand Valley&r, &4Nether Wastes&r and &4Crimson Forest&r.
+237	Ghostly Residue
+238	Bomb of the Unseen
+239	Bitter Berries of the Nether
+240	Roasted Awakening
+241	A Cake for the Damned
+242	The Butcher's Board
+243	Blade for the Kitchen
+244	Slice the Cake
+245	Fusion of Abyss and Void
+246	Refined Specter
+247	Spectral Crown
+248	Spectral Carapace
+249	Spectral Greaves
+250	Spectral Stride
+251	The Lifestealer Hunts
+252	Seeds of Chaos
+253	Trophy of the Hunter
+254	Bone of the Devourer
+255	Heart of Defiance
+256	Sand of the Burned World
+257	Carapace Construct
+258	Summon and kill the Arachnoid Trisector boss
+259	The Three-Minded Terror
+260	Core of Broken Time
+261	Infested Timekeepers
+262	Fragment of Time
+263	Vengeful Voidseeker
+264	Unlocks Chapter 5 progression path
+265	Master of the Chrono Cannon
+266	A Hand from Below
+267	Spoiled Harvest
+268	Thorned Harvest
+269	Tea of Renewal
+270	Vortex Devastation
+271	Sweet Pie
+272	Spooky Red
+273	Touch of Dissolution
+274	Edge That Returns
+275	Blade of Bone
+276	Sweets Made From Fire
+277	Threads of Broken Time
+278	Coffee Berries can be found in the Nether on small dark trees
+279	You can summon the Arachnoid Trisector boss by placing a Scorched Sand block on top of a Chitin block and lighting it on fire with a Scorch Charge. You need to have the Bane Of The Darkness in your inventory.
+280	Recommended weapon: Abyss Ascendant
+281	Recommended armor: Spectral or Juggernaut
+282	Recommended biome to find Spider Infestors is Decadent Desert in lower layers 3+4 in the Crawling Dimension.
+283	Here's a list of new BOP biomes where Spider Infestors can spawn:
+284	Mantle of Life
+285	Vitality Headgear
+286	Vitality Carapace
+287	Vitality Greaves
+288	Vitality Steps
+289	Reality Collides
+290	Smelt the Impossible
+291	Stand Your Ground
+292	The Craftsman's Core
+293	Power the Workshop
+294	Tools of the Tinkerer
+295	Light in the Darkness
+296	The Butcher's Surface
+297	Pan of the Hearth
+298	A Simple Comfort
+299	A Cook's Companion
+300	Mother of the Crawling
+301	Shards of Entropy
+302	Heart of Entropy
+303	The Chitin Altar
+304	Sand of the Damned
+305	Charge of Destruction
+306	Ascension Catalyst
+307	Ethereal Passage
+308	Summon and kill the Diabolos Decimator boss
+309	Demon of Ruin
+310	The Old Faith
+311	Bloom of the Unknown
+312	A Sweet Harvest
+313	Eyes of Vitality
+314	Blink Through Reality
+315	Pearls From the Nether
+316	Edible Magma
+317	Expanding Capacity
+318	Unlocks Chapter 6 progression path
+319	Annihilation Protocol
+320	Entropy Unleashed
+321	Spider Matriarch can spawn anywhere underground or the Webbed Wasteland biome on layers 3+4 in the Crawling Dimension
+322	You can summon the Diabolos Decimator boss by placing a Scorched Sand block on top of a Heavy Chitin block and lighting it on fire with a Scorch Charge. You need to have the Bane Of The Darkness in your inventory.
+323	Recommended weapon: Abyss Ascendant and Chrono Cannon
+324	Unlocked after completing the progression road for Chapter 1-5
+325	Charge of the Abyss
+326	Weapon of Genesis
+327	Crown Beyond Time
+328	Heart Beyond Reality
+329	Greaves Beyond Space
+330	Steps Beyond Time
+331	Destroyer: Kill the TORMENTOR
+332	THE END OF ALL THINGS
+333	WRATH OF THE TORMENTED
+334	Reaper of Singularity
+335	Condensed Abyss
+336	Molten Wealth
+337	Solidified Void
+338	Time Made Solid
+339	Entropy Condensed
+340	Heart of Eternal Suffering
+341	Reduce Them to Nothing
+342	Beyond Three Dimensions
+343	Drink Your Sanity Away
+344	You will need to kill the TORMENTOR multiple times to complete the following quests.
+345	Pleasure From Suffering
+346	Torment at Your Command
+347	Crown of Eternity
+348	Heart of Eternity
+349	Greaves of Eternity
+350	Steps of Eternity
+351	Don't Blink
+352	A World in Your Pocket
+353	This item is dropped by The Obsessed on death.
+354	Love Turns to Revulsion
+355	Crush or Be Crushed
+356	Claw of the Crusher
+357	Tormentor Altar: Summon the TORMENTOR
+358	THE END HAS COME
+359	Entropy in Your Veins
+360	YOU HAVE ASCENDED
+361	A Calm Moment
+362	Spirit of the Nether
+363	Cut the Connection
+364	Anchor Through Space
+365	Sand in Your Pocket
+366	Essence of the Deep Waters
+367	The End of All Things
+368	To kill the TORMENTOR for the first time, you need to use some of the most powerful weapon from the mod that are already available to you: Genesis Rifle and Chrono Cannon alongside the Spacetime Armor.
+369	Game mechanics for the TORMENTOR are pretty complex and I would highly suggest you to read the ArPhEx wiki on how to defeat this boss if you haven't done it before.
+370	Here's a list of new BOP biomes where Crab Constrictors can spawn:
+371	- Bayou
+372	- Floodplain
+373	- Marsh
+374	You can summon the TORMENTOR from a quartz altar, found rarely on the bottom layer of The Crawling Dimension, by throwing an Abyssal Crystal down into the void.
+375	If you the TORMENTOR has already spawned or you don't think you're ready yet to kill the TORMENTOR, you can seal him temporarily by travelling to an overworld Crawling Portal and deposit a Bane of the Darkness into the portal.
+376	Entropy Cache
+377	Power IV
+378	Last Stand Cache
+379	Basic Pack
+380	Protection I
+381	Sharpness I
+382	Combat Pack
+383	Chitin Pack
+384	Exploration Pack
+385	Food Pack
+386	Looting I
+387	Utility Pack
+388	Rare Pack
+389	Efficiency III
+390	Lucky Pack

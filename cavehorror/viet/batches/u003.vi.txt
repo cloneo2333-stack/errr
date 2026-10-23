@@ -1,0 +1,191 @@
+14378	Bạn cảm thấy vật phẩm rung lên và ù ù!
+16183	Bạn gạt cần, phớt lờ mọi quy trình an toàn. Radar xèo xèo khi bạn ép nó tắt hẳn.
+14380	Bạn đã được %3$s cho %1$s %2$s.
+14381	Bạn đã được cho %s.
+14382	Bạn đã được cho cuốn sách '%s'.
+14383	Bạn đã được nhận bộ khởi đầu '%s'.
+14384	Bạn đã được cho cuốn sách 'Ngăn chặn Pumpkillager'.
+14385	Bạn đã được cho Gậy thông tin!
+14386	Bạn đã được cho Gậy câm lặng! Hãy cẩn thận khi dùng.
+14389	Bạn đã cho %3$s %1$s %2$s.
+14391	Ngươi đã chứng minh mình đủ năng lực.
+16186	Bạn đã ngừng nghe các âm thanh đang phát. Để bật lại, dùng lại '/omegamute listen'.
+14400	Bạn rời trạm, và hiện hình trở lại trên hành tinh.
+14401	Bạn nhìn quanh. Bạn đã về lại chỗ cũ.
+14405	Ngươi phải phá hủy căn cứ nằm tại:
+16189	Bạn phải cầm một que gỗ ở tay chính để biến nó thành gậy câm lặng.
+14406	Bạn cần %s %s để gia cố con thuyền này.
+14408	Bạn cần %s tấm ván để sửa con thuyền này.
+14413	Bạn phải đứng trên máy truy vết vững chắc để dùng '/track all'
+14414	Bạn phải đứng trên khối truy vết để làm việc đó.
+14419	Bạn nhặt chiếc bộ đàm lên.
+16202	Bạn thoáng thấy thứ gì đó trên cao, có vẻ nó đang ở quỹ đạo ổn định quanh thế giới.
+14420	Bạn đã ngủ tới chạng vạng. Giờ bạn có thể ngủ.
+14421	Bạn đã được chuyển thành công lên Trạm Vanguard.
+16203	Bỗng nhiên bạn thấy một luồng năng lượng bùng nổ tỏa ra từ con tàu!
+14424	Bạn đã trở lại căn cứ tiểu hành tinh của Voidborn.
+14425	Ngươi đã giúp bọn ta và cả thế giới một việc lớn.
+14426	Ngươi đã chọn đúng.
+14433	Túi đồ của bạn đã được thay bằng bộ có sẵn tên '%s'.
+14436	Công cụ đã mài của bạn còn 10%% số lần dùng.
+14437	Công cụ đã mài của bạn còn 25%% số lần dùng.
+14438	Công cụ đã mài của bạn còn 50%% số lần dùng.
+14439	Công cụ đã mài của bạn còn 75%% số lần dùng.
+14440	Xẻng của bạn hư hại quá nặng để làm đường.
+14441	Công cụ của bạn đã được mài với %s lần dùng.
+14442	Công cụ của bạn không còn sắc nữa.
+14467	Mứt cơn đói của Thây ma
+11280	Ngủ qua ngày hôm nay
+12948	Đây chỉ để trang trí, bạn không thể ngủ ở đây
+16169	Bạn chỉ có thể ngủ vào ban ngày, ban đêm hoặc khi có giông bão
+3975	Sửa
+10290	Xóa
+10467	Khôi phục
+2580	Connected Glass
+371	A→Z
+1046	Phím có sẵn
+2046	Danh mục
+2577	Xác nhận?
+6295	Phím
+7960	Không có
+11077	Hiện tất cả
+11082	Hiện xung đột
+11141	Hiện phím chưa gán
+11432	Sắp xếp
+13043	Bật tắt tự do
+14451	Z→A
+209	%s trên %s
+578	Vật phẩm thêm
+2594	Chứa %s chồng
+2706	Thi thể
+2715	Thi thể của %s
+3699	Chết lúc %s
+5994	Vật phẩm
+6706	Vị trí
+7929	Không có lịch sử chết của người chơi
+8224	Mở lịch sử chết của người chơi
+8884	Lịch sử chết của người chơi
+9035	Trước
+12621	Dịch chuyển tới nơi chết %s
+13174	Chuyển vật phẩm
+14443	dd/MM/yyyy HH:mm:ss
+159	%s khối
+377	Hủy bỏ
+550	Thêm
+1553	Khối
+1594	Khối
+1600	Thẻ khối
+1983	Hủy
+2548	Cấu hình
+2576	Xác nhận
+2857	Sáng tạo
+3861	Bạn có muốn lưu thay đổi không?
+3889	Dưới
+3966	Đông
+4208	Đã bật
+4857	Nhiên liệu
+5889	Túi đồ
+5974	Vật phẩm
+5999	Thẻ vật phẩm
+7441	Có lẽ
+7906	Không
+7965	Bắc
+8167	Được
+10670	giây
+11468	Nam
+11761	Chồng
+13462	Trên
+13870	Tây
+14321	Có
+1821	Búp bê vỡ
+2273	Tuổi thơ bỏ lại phía sau
+2791	Chế tạo Búp bê vỡ
+2794	Chế tạo Bí ngô ma ám
+2795	Chế tạo Cùm chân
+2796	Chế tạo Bia mộ phủ rêu
+2802	Chế tạo Bàn tay trồi lên
+2803	Chế tạo Thập giá gỗ cũ
+2873	Creepy Decorations
+4033	Bàn tay trồi lên
+4463	Niềm tin trong mục rữa
+5301	Bí ngô ma ám
+6411	Cùm chân
+7644	Bia mộ phủ rêu
+7914	Không lối thoát
+8169	Thập giá gỗ cũ
+8331	Ký ức um tùm
+11843	Vẫn còn le lói
+12755	Nấm mồ chưa đủ sâu
+13458	Đồ trang trí rợn người cho những nơi rợn người.
+8356	Trang %d / %d
+13038	Bật tắt trang phục
+403	Xà gỗ xiêm gai
+449	Hàng rào cọc gỗ xiêm gai
+469	Ghế gỗ xiêm gai
+481	Giá đỡ gỗ xiêm gai
+1152	Hàng rào cọc tre
+1165	Ghế tre
+1175	Giá đỡ tre
+1195	Tấm song sắt
+1292	Xích lớn
+1325	Xà gỗ bạch dương
+1370	Hàng rào cọc gỗ bạch dương
+1389	Ghế gỗ bạch dương
+1401	Giá đỡ gỗ bạch dương
+1711	Đống lửa
+1712	Cấu hình vật nhóm đống lửa bị sai!
+1769	Lò than
+2103	Đèn chùm
+2173	Xà gỗ anh đào
+2218	Hàng rào cọc gỗ anh đào
+2238	Ghế gỗ anh đào
+2250	Giá đỡ gỗ anh đào
+2896	Xà gỗ đỏ thẫm
+2949	Hàng rào cọc gỗ đỏ thẫm
+2969	Ghế gỗ đỏ thẫm
+2984	Giá đỡ gỗ đỏ thẫm
+3099	Dùng kéo cắt mở một kiện cỏ khô.
+3209	Xà gỗ sồi sẫm
+3253	Hàng rào cọc gỗ sồi sẫm
+3272	Ghế gỗ sồi sẫm
+3284	Giá đỡ gỗ sồi sẫm
+3495	Decorative Blocks
+6182	Xà gỗ rừng
+6227	Hàng rào cọc gỗ rừng
+6248	Ghế gỗ rừng
+6260	Giá đỡ gỗ rừng
+6382	Lưới mắt cáo
+7150	Xà gỗ đước
+7195	Hàng rào cọc gỗ đước
+7215	Ghế gỗ đước
+7227	Giá đỡ gỗ đước
+8020	Xà gỗ sồi
+8064	Hàng rào cọc gỗ sồi
+8084	Ghế gỗ sồi
+8096	Giá đỡ gỗ sồi
+10548	Đất lẫn đá
+11443	Đống lửa linh hồn
+11444	Lò than linh hồn
+11445	Đèn chùm linh hồn
+11657	Xà gỗ vân sam
+11707	Hàng rào cọc gỗ vân sam
+11727	Ghế gỗ vân sam
+11739	Giá đỡ gỗ vân sam
+11891	Cột đá
+12525	Đổi trạng thái vật phẩm
+12676	Mái tranh
+13710	Xà gỗ kì dị
+13754	Hàng rào cọc gỗ kì dị
+13773	Ghế gỗ kì dị
+13788	Giá đỡ gỗ kì dị
+14493	§3Đã sao chép: %s
+14494	§3Dùng thường để dán, rón rén khi dùng để sao chép.
+14495	§3Lật ngược khối vật phẩm
+14496	§3Ẩn hoặc hiện một mặt
+14498	§3Rón rén dùng vào không khí để đổi trạng thái.
+14499	§3Đổi một mặt giữa to và nhỏ
+14676	§7Nhấp chuột phải bằng rìu:
+14680	§7Rón rén nhấp chuột phải vào không khí:
+14681	§7Rón rén nhấp chuột phải bằng rìu:
+243	%s bị %s đâm xuyên tới chết
+953	Kho vũ khí

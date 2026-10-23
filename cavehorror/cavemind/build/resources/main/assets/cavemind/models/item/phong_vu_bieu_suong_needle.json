@@ -1,0 +1,33 @@
+{
+ "textures": {
+  "brass": "cavemind:item/m/brass",
+  "brass_dark": "cavemind:item/m/brass_dark",
+  "face": "cavemind:item/m/gauge_face",
+  "needle": "cavemind:item/m/needle",
+  "glass": "cavemind:item/m/glass",
+  "glass2": "cavemind:item/m/frost",
+  "particle": "cavemind:item/m/brass"
+ },
+ "elements": [
+  {
+   "from": [
+    7.6,
+    7.6,
+    9.1
+   ],
+   "to": [
+    8.4,
+    12.5,
+    9.25
+   ],
+   "faces": {
+    "south": {
+     "texture": "#needle"
+    },
+    "north": {
+     "texture": "#needle"
+    }
+   }
+  }
+ ]
+}

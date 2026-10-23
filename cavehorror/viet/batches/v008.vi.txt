@@ -1,0 +1,300 @@
+6797	Bản thiết kế Cỗ máy
+6798	Thân Cỗ máy
+6799	Cỗ máy bò trườn
+6800	Bánh răng Cỗ máy
+6801	Đầu Cỗ máy
+6802	Trứng sinh ra Cỗ máy
+6803	Cỗ máy lăn lóc
+6804	Bánh xe Cỗ máy
+6806	Biểu tượng Đấu phép
+7125	Thạch ác tính
+7388	Tiến bước. Hạ một Đao phủ
+7483	Meum, Tuum, Eorum
+7511	Của ta và của ngươi
+7616	Đệm bia đá
+7617	Trứng sinh ra Đệm bia đá
+7618	Hàng bia đá
+7619	Trứng sinh ra Hàng bia đá
+7620	Vật đặt bia đá
+7720	Bích họa: Đội vương miện
+7721	Bích họa: Bị khóa
+7722	Bích họa: Đôi mắt mở
+7723	Bích họa: Chìm sâu
+7740	Người lưu trữ huyền bí
+7801	Kiếm kim
+7810	Cổng rào gạch Nether
+7961	Biểu tượng KHÔNGGG!! BOBBY!!
+7985	Cũng chẳng bất khuất lắm
+7986	Biểu tượng Cũng chẳng bất khuất lắm
+7998	Biểu tượng Trò chuyện với NPC
+8112	Xóa sổ một giám mục bằng Quyền trượng ác ý
+8113	Xóa sổ
+8132	Biểu tượng có được Ân sủng thần thánh
+15582	Có được Ân sủng thần thánh để chấm dứt hẳn mọi ảo ảnh
+15583	Có được Giáp Sievert bằng cách trao đổi với Người lưu trữ Hiện thân ở cấp trao đổi 2
+8171	Biểu tượng Chiêu cũ nhất
+8318	Ui da
+8339	Cú đang hát?
+8518	Thiên đường
+8564	CHÚ Ý TỚI TA ĐI
+8565	Để ý cách chúng di chuyển. Hạ Sứ giả
+8616	Heo
+8618	Heo ụt ịt
+8619	Trứng sinh ra Heo
+8923	Bản thảo bị cướp
+8951	Dao găm bị ám
+8952	Trứng sinh ra Dao găm bị ám
+8953	Lá thư bị ám
+9004	Bộ tiền pha
+9028	Áp lực
+9029	Bệ áp lực
+9030	Tượng chỉ điểm áp lực
+9031	Trứng sinh ra Tượng chỉ điểm áp lực
+9032	Tượng áp lực
+9039	Thầy tu
+9040	Trứng sinh ra Thầy tu
+15651	Do Tro tàn kích hoạt. Liên tục nhận sát thương hất bạn lên theo hướng ngẫu nhiên
+9100	Miễn nhiễm loại sát thương sóng âm
+9106	Tâm linh
+9142	Tuyết tinh khiết
+15661	Liên tục nhận 1 sát thương lửa, nhưng gây thêm hơn 100% sát thương tùy theo máu thấp tới đâu, và đốt cháy mục tiêu từ mọi nguồn sát thương
+9364	Hạt Illagium thô
+9394	Tầm với tăng thêm 2
+9403	Biểu tượng Thần chết
+9436	Lấy lại Vải lanh xanh từ Pháp sư huyền bí đã ngã xuống
+9523	Thiên thần đỏ
+9555	Đèn lồng đỏ
+9564	Cổng rào gạch Nether đỏ
+9613	Cứu rỗi
+9614	Biểu tượng Cứu rỗi
+15674	Mỗi cấp giảm 10% tổng giáp. Bị gây ra bởi Hư vinh của Sứ thần
+9761	Illagium tinh luyện
+10271	Thắp lại ngọn lửa của họ. Cứu chuộc Jacob
+10355	Cần: Tro đỏ thẫm
+10357	Giải cứu Aethway khỏi nanh vuốt của giáo phái
+10457	Cộng hưởng
+10458	Linh hồn cộng hưởng
+10462	Được nghỉ ngơi
+10491	Hồi sinh
+10492	Vong hồn trở lại
+10494	Vong hồn trở lại bị hạ
+10495	Vong hồn trở lại bị thương
+10496	Đèn lồng Vong hồn trở lại
+10498	Trứng sinh ra Vong hồn trở lại
+10500	Vong hồn trở lại dịch chuyển
+10505	Vang dội
+10543	Dao găm nghi lễ
+10643	Phôi tàn phá
+10644	Khiên tàn phá
+10645	Tia dịch chuyển tàn phá
+10646	Trứng sinh ra Tia dịch chuyển tàn phá
+10651	Cổ tự: Dẫn lối
+10652	Cổ tự: Sức mạnh
+10653	Cổ tự: Bảo hộ
+10715	Sangdrasil, Teo tàn: Thanh lịch
+10716	Dao găm máu
+10717	Hình nộm máu
+10745	Golem đỏ tươi
+10746	Trứng sinh ra Golem đỏ tươi
+10747	Golem đỏ tươi rè rè
+10748	Golem đỏ tươi vụt qua
+10753	Cừu đực đỏ tươi
+10908	Con mắt truy tìm
+11044	Khiên máu
+11064	Sao băng
+11072	Lẽ ra nên mang thuốc kháng lửa. Hạ Hồng y
+15742	Bao phủ trong sắc đỏ thẫm. Có được Vòng cổ máu do Kẻ sùng đạo làm rơi
+11174	Biểu tượng có được Sievert
+11175	Ủng của Sievert
+11176	Giáp ngực của Sievert
+11177	Mũ của Sievert
+11178	Quần giáp của Sievert
+15745	Giống sức mạnh (mỗi cấp thêm 20% sát thương), nhưng biến mất sau khi đánh trúng thứ gì đó một lần
+11221	Bộ máy đơn giản dành cho con người
+11239	Bộ xương
+11247	Trứng sinh ra Bộ xương
+11266	Hạ một Giám mục, gặp trong đợt đột kích hoặc trong công trình.
+11267	Hạ một Kẻ sùng đạo
+15749	Hạ một Kẻ sùng đạo chỉ với khiên và dao găm đỏ thẫm, không mặc giáp
+11268	Hạ một Thầy tu
+11269	Biểu tượng hạ Chiến binh sa ngã
+11339	Khuôn rèn
+11340	Kẻ say tình
+11341	Kẻ say tình trừng mắt
+11342	Trứng sinh ra Kẻ say tình
+11371	Hoa hồng của kẻ cướp
+11411	gì đó gì đó cốt truyện  vân vân
+11412	Có thứ gì đó triệu hồi Địa ngục xông tới
+11413	Có thứ gì đó dò tiếng vang
+11423	Miễn nhiễm sóng âm
+11428	Đê tiện
+11451	Hút linh hồn
+11505	Vải lốm đốm
+11667	Tấm che gỗ vân sam
+11693	Hàng rào thân gỗ vân sam
+11694	Phiến thân gỗ vân sam
+11695	Bậc thân gỗ vân sam
+11800	Quyền trượng ác ý
+11806	Giai đoạn 1
+11807	Biểu tượng Giai đoạn 1
+11808	Giai đoạn 2
+11809	Biểu tượng Giai đoạn 2
+11823	Bắt đầu lại. Chào mừng về nhà.
+15770	ĐỪNG CHẠY NỮA. Chế tạo Kẻ tìm khía cạnh bằng đồ rơi từ Tổng giám mục
+12466	Kẻ bị phản bội được triệu hồi
+12467	Trứng sinh ra Kẻ bị phản bội được triệu hồi
+12473	Bị xé toạc
+12477	Lá được nắng chạm
+12478	Dây leo được nắng chạm
+12497	Bất ngờ chưa!
+12539	Nhận ít hơn 25% sát thương.
+15802	Một sai lầm ngớ ngẩn thật sự, lẽ ra không nên bỏ mặc tượng giám mục như thế
+12694	Tổng giám mục
+12695	Trứng sinh ra Tổng giám mục
+12698	Giám mục
+12710	Người đưa tin hát
+12722	Kẻ tận hiến
+12723	Kẻ tận hiến tấn công
+12724	Kẻ tận hiến lao tới
+12725	Kẻ tận hiến càu nhàu
+12726	Kẻ tận hiến cười
+12727	Kẻ tận hiến hiến tế quả cầu máu
+12728	Trứng sinh ra Kẻ tận hiến
+12735	Sứ thần
+12750	Dự báo ghi rằng... ĐƯA TIỀN ĐÂY
+12754	Kẻ giết thần
+12762	Nữ tư tế tối cao
+12763	Bộ ba thánh
+12764	Biểu tượng Bộ ba thánh
+12785	Vật phẩm bạn đổi được sẽ nằm ở đây!
+12804	Nàng thơ
+12805	Myriad
+12836	Kẻ cướp đoạt
+12840	Đường về nhà
+12859	Kẻ lạc lối
+12919	Có kho báu đấy
+12928	Ở đây chẳng còn gì cho ngươi nữa
+12931	Biểu tượng Chúng không ngừng khóc
+16021	Ban đầu chúng định làm Cướp biển ma. Chế tạo Đĩa luân phiên
+12946	Biểu tượng Con hươu này làm ta bực mình
+12973	Con §eHươu§r này làm ta §eBực mình§r quá
+12978	Thiên thần ba cánh
+16062	MẸO: Đừng đỡ đòn nếu thấy ánh chớp tím hoặc đòn bổ từ trên xuống
+13018	Về hư vô
+13019	Biểu tượng Về hư vô
+13032	Cùng nhau hòa hợp. Hạ Kẻ bất khuất
+13090	Đỉnh cột đá giũa thần thánh
+13099	Bình hoàng ngọc
+13150	Tra tấn
+13168	Vật phẩm trao đổi (Thi sĩ)
+13169	Vật phẩm trao đổi (Hiện thân)
+13170	Vật phẩm trao đổi (Người chép sử)
+13171	Vật phẩm trao đổi (Nhà điêu khắc)
+16074	Trao đổi với Thi sĩ để lấy Nàng thơ, vũ khí nâng cấp được có thể đỡ gần như mọi đòn
+16075	Trao đổi với một Người lưu trữ, nhận vật phẩm tùy theo nghề của họ
+16076	Trao đổi với Người chép sử để lấy Mã não đen đẫm mực, công cụ nâng cấp được có thể triệu hồi Kẻ bị phản bội
+13172	Kẻ phản bội đào ngũ
+13215	Cậu bé lầm lỡ
+13216	Biểu tượng Cậu bé lầm lỡ
+13234	Hai lần
+13394	Tận hiến không vương miện
+13395	Kẻ bất khuất
+13396	Kẻ bất khuất bắt đầu truy đuổi
+13397	Kẻ bất khuất kêu be be
+13398	Kẻ bất khuất kêu ộp ộp
+13399	Kẻ bất khuất kêu thét
+13400	Kẻ bất khuất biến mất
+13401	Kẻ bất khuất phi nước đại
+13402	Kẻ bất khuất rít lên
+13403	Kẻ bất khuất chém
+13404	Biểu tượng Kẻ bất khuất phì phèo điếu to
+13405	Trứng sinh ra Kẻ bất khuất
+13406	Kẻ bất khuất bước
+13407	Kẻ bất khuất vụt qua
+13421	Độc nhất
+13461	Không dùng.
+13472	Nâng cấp
+13474	Lõi nâng cấp
+16088	Khi đạt 3 tầng, phát nổ và gây sát thương lớn. Mỗi cấp giảm 5% tốc độ di chuyển
+16095	Dùng Hỗn hợp không tương thích để tạm ngăn Ảo ảnh tấn công bạn
+13554	Vantria, Zure: Tàn phá
+13556	Bộ gán biến thể
+13562	Bình thực vật
+13572	Nhát chém gió dọc
+13573	Trứng sinh ra Nhát chém gió dọc
+13584	Di tích
+13615	Vima, Expolis: Thần tính
+13683	Tiền tuyến
+13684	Tiền tuyến kích hoạt
+13690	Cảnh báo
+13808	Đồng hồ Verona
+13817	Ngọn lửa chập chờn
+13818	Ân sủng chao đảo
+13823	Lối về nhà
+16109	Tất cả chúng ta đều gục ngã. Đánh trúng hơn 10 thực thể bằng Lưỡi hồn của Sứ thần
+13841	Ta sẽ gặp lại nhau
+13842	Biểu tượng Ta sẽ gặp lại nhau
+13843	Ta sẽ lại thấy mặt trời mọc. Có được Lưỡi máu
+13847	Kén vũ khí
+13874	Món hời quá!
+16132	Khi gây hơn 33% máu của mục tiêu trong một đòn, gây Độc II (00:07) và Bỏng nước (00:05). Luôn gây thêm 10% sát thương; nếu mục tiêu đang bị Độc, gây thêm 20% thay vào đó
+13983	Tiếng vụt
+14134	Những điều ước trật mục tiêu. Chế tạo Mũ của Sứ giả
+14227	Thịnh nộ
+14232	RẼ NHẦM ĐƯỜNG
+14263	Lải nhải lải nhải
+14324	biết rồi còn hỏi
+14430	Bạn thân nhất của bạn. Chạm trán Kẻ vô diện
+14431	Trái tim vàng của bạn
+14523	§4Tổng giám mục
+14524	§4Trứng sinh ra Tổng giám mục
+14553	§6Vật phẩm trao đổi Người lưu trữ cấp 1
+14554	§6Vật phẩm trao đổi Người lưu trữ cấp 2
+14555	§6Vật phẩm trao đổi Người lưu trữ cấp 3
+14571	§6Ngoáy ngoáy §8cái §6Zonk của bạn
+14615	§7Một lưỡi kiếm có lẽ được rèn làm quà tặng.
+14616	§7Một khúc xương to bằng bazan để
+14617	§7Một linh hồn bình lặng hòa nhịp với nhạc của Thi sĩ
+14618	§7Một ngọn lửa luôn chập chờn của một
+14619	§7Sự dung hợp giữa hai thứ; tưởng như không thể, nhưng không phải vậy
+14620	§7Một mùi hôi nồng nặc bốc ra từ
+14621	§7Một mảnh illagium bão hòa đã
+14622	§7Một thỏi illagium tinh khiết với neburium
+14623	§7Một thỏi illagium tinh luyện
+14624	§7Một móng vuốt đỏ thẫm và bazan đã được sửa lại.
+14625	§7Một bùa hộ mệnh hình ngôi sao dường như được làm
+14626	§7Một chiếc chìa khóa xanh mòng két kỳ lạ, có lẽ bạn mở được
+14627	§7Tất cả những gì còn lại của một người bạn cũ.
+14628	§7Một chiếc đĩa trống có thể gán lại.
+14629	§7Một thỏi có chút ái lực với Luân phiên
+14630	§7Một chất lỏng không tan của thần tính thuần khiết.
+14631	§7Áp dụng cho:
+14632	§7Người lưu trữ.
+14633	§7Tro bị lửa địa ngục thiêu đốt.
+14634	§7thành dải.
+14635	§7lưu hành từ rất, rất lâu rồi
+14637	§7có thể cứ thế đi dạo quanh.
+14638	§7Bắt được một sự thật thú vị vô giá trị từ những cơn gió thoảng
+14639	§7Bụi lạnh đông cứng trong thời gian.
+14640	§7Lõi: Trống
+14644	§7Rơi ra từ Thầy tu trong các công trình.
+14645	§7Rơi ra từ Tổng giám mục
+14647	§7Tuyết như tuôn mãi không ngừng từ bên trong
+14648	§7những nét khắc hình thành trên thỏi.
+14650	§7Tìm thấy trong một số công trình của giáo phái.
+14652	§7vị thần, khẽ bao phủ trong sương mù. Tìm thấy trong một số
+14658	§7bàn tay đang chộp lấy.
+14659	§7Sứ giả trong các công trình.
+14660	§7Nguyên liệu:
+14661	§7Nó rỉ máu dù đầu không có lỗ nào.
+14662	§7Nó vẫn còn giật giật vì mong đợi.
+14663	§7Những nét khắc đỏ thẫm của nó khẽ phát sáng.
+14667	§7Cần để áp dụng lõi nâng cấp
+14668	§7Không có hiệu ứng
+14669	§7chẳng có gì. Chạm vào thấy lạnh.
+16222	§7Có được khi hạ một Giám mục trong tháp giám mục hoặc trong đợt đột kích
+14670	§7Có được khi hạ một Giám mục trong tháp
+14671	§7Có được khi đánh bại một số kẻ sùng đạo.
+14672	§7Vĩnh viễn ban §9+10% kháng sát thương
+14674	§7đã chứng tỏ là loại tiền đáng tin cậy cho
+14677	§7Nâng cấp nghi lễ

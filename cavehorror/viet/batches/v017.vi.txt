@@ -1,0 +1,300 @@
+1771	Lát bánh mì
+1934	Cửa tủ đóng
+1935	Cửa tủ mở
+2025	Bìa các tông bị xé
+2157	Phô mai
+2158	Bánh mì kẹp phô mai
+2467	Máy đào tiền
+2504	Kết hợp
+2544	Máy tính
+2587	Lắp ráp
+2645	Pizza thịt chín
+2657	Pizza rau chín
+2669	Thùng giữ lạnh
+2670	Thùng giữ lạnh đóng
+2671	Thùng giữ lạnh mở
+2828	Thùng gỗ
+3019	Nghiền
+3039	Tủ chén, quầy bếp, đồ gia dụng và hơn thế
+3165	Nhịp nhảy
+3171	Đèn trần tối màu
+3174	Máy phát điện tối màu
+3176	Tủ lạnh tối màu
+3184	Công tắc đèn tối màu
+3191	Lò vi sóng tối màu
+3311	Máy hút mùi tối màu
+3314	Bếp tối màu
+3315	Máy nướng bánh mì tối màu
+3542	Đá lát lối đi đá bảng sâu
+3723	Đá lát lối đi diorit
+3877	Thảm chùi chân
+3878	Chuông cửa
+3879	Tiếng chuông cửa
+3880	Chuông cửa reo
+3906	Tủ ngăn kéo
+4000	Máy phát điện
+4003	Đồ điện tử
+15338	Hãy chắc chắn khối đang nhận điện từ %s. Có thể nối bằng %s.
+4281	Nhập tin nhắn...
+4459	Không cập nhật được tên hộp thư
+4485	Quạt quay
+4581	Đang tìm đối thủ...
+4730	Bật
+4746	Biến đổi chất lỏng
+4767	Thức ăn và nguyên liệu để nấu nướng
+4821	Tủ đông
+4822	Tủ đông đóng
+4823	Tủ đông mở
+4829	Tủ lạnh
+4830	Tủ lạnh đóng
+4831	Tủ lạnh mở
+4848	Chiên
+4849	Chảo rán
+4858	Hết nhiên liệu
+4910	Máy phát
+5001	Mứt quả mọng phát sáng
+5002	Bánh mì nướng phết mứt quả mọng phát sáng
+5093	Đá lát lối đi hoa cương
+5238	Phô mai nướng
+5240	Nướng
+5331	Làm nóng
+5519	Âm cao
+5540	Giữ %s để xem chi tiết
+15422	HomeControl cho phép bạn điều khiển nguồn điện của các thiết bị nối vào mạng điện. Thiết bị phải nối cùng mạng với máy tính mới được tìm thấy. Hãy đổi tên thiết bị ở đe trước khi đặt để dễ nhận ra trong ứng dụng.
+5610	Liên kết khi rê chuột
+5618	Cách dùng
+5716	Bỏ qua kho chứa kề bên
+5764	Gồm cả kho chứa kề bên
+5818	Kế thừa từ nấu bằng lửa trại
+5878	Nút không hợp lệ
+5976	Đã lắp ráp vật phẩm
+5986	Đã đặt vật phẩm
+5989	Xáo vật phẩm
+6338	Nhà bếp
+6339	Ngăn kéo bếp
+6340	Dao
+6341	Dao chặt
+6495	Đèn trần sáng màu
+6496	Máy phát điện sáng màu
+6497	Tủ lạnh sáng màu
+6555	Công tắc đèn sáng màu
+6556	Lò vi sóng sáng màu
+6558	Máy hút mùi sáng màu
+6559	Bếp sáng màu
+6560	Máy nướng bánh mì sáng màu
+6566	Đèn, máy tính, máy phát điện và hơn thế
+6567	Công tắc đèn
+6653	Đã nối liên kết
+6654	Liên kết vượt ra ngoài vùng có điện
+6656	Đã gỡ liên kết
+6657	Liên kết sẽ không có điện
+6719	Nhạc LoFi
+7106	Hộp thư
+7107	Hộp thư bị tắt vì không ở chiều không gian được phép
+7108	Hộp thư
+7109	Không thể đặt hộp thư ở chiều không gian này
+7110	Hộp thư, hàng rào cây, hàng rào và hơn thế
+7392	Chợ
+7446	Lát pizza thịt
+7466	Kim loại loảng xoảng
+7474	Đánh vào kim loại
+7477	Đặt kim loại
+7479	Bước trên kim loại
+7487	Lò vi sóng
+7488	Lò vi sóng đóng
+7489	Lò vi sóng xì xì
+7490	Lò vi sóng mở
+7556	Thiếu điện
+7689	MrCrayfish's Furniture Mod
+7733	Phải đang chơi trên máy chủ
+7880	Kênh tin tức
+7887	Kiểu có sẵn tiếp
+7955	Nút được đánh dấu
+8236	Đối thủ đã rời trò chơi
+8322	Ngoài trời
+8328	Lò nướng đóng
+8329	Lò nướng mở
+8333	Quá tải
+8349	Bưu kiện
+8350	Lời nhắn bưu kiện
+8351	Đã gửi bưu kiện!
+8354	Bóng bàn
+8605	Nhạc piano
+8852	Đĩa
+8863	Chơi với máy
+8864	Chơi với người
+8956	Hòm thư
+9038	Kiểu có sẵn trước
+9373	Pizza thịt sống
+9387	Pizza rau sống
+9519	Tái chế
+9520	Thùng tái chế
+9521	Đang tái chế
+10351	Cần điện từ %s
+10477	Nhạc máy chơi điện tử cổ
+10478	Tiếng bấm cổ điển
+10479	Tiếng thất bại cổ điển
+10480	Tiếng trúng cổ điển
+10481	Tiếng thua cổ điển
+10482	Tiếng thành công cổ điển
+10483	Tiếng thắng cổ điển
+10528	Nhấp chuột phải để mở
+10808	Muối biển
+10829	Tìm hộp thư
+15699	Chọn một công thức chế tạo trong danh sách và gom đủ nguyên liệu để chế tạo vật phẩm. Bàn làm việc sẽ tìm nguyên liệu trong túi đồ của bạn, kho của chính nó và các khối chứa đồ kề bên.
+15700	Chọn một hộp thư trong danh sách. Bạn có thể tìm hộp thư theo tên, hoặc tìm người chơi bằng cách thêm @ phía trước. Đặt vật phẩm vào ô bưu kiện và có thể kèm lời nhắn. Nhấn nút gửi để giao bưu kiện.
+10941	Gửi
+10950	Do %s gửi
+10988	Đặt tên chuông cửa
+10989	Đặt tên hộp thư
+11238	Xèo xèo
+11283	Cắt lát được
+11285	Cắt lát
+11286	Ngăn kéo trượt đóng
+11287	Ngăn kéo trượt mở
+11328	Nhà thông minh
+11401	Đông đặc
+11484	Xẻng lật
+11485	Xúc bằng xẻng lật
+11624	Bẹp
+11900	Đá lát lối đi bằng đá
+11920	Tủ chứa đồ
+11939	Bếp
+12479	Siêu nảy
+12517	Mứt quả mọng ngọt
+12518	Bánh mì nướng phết mứt quả mọng ngọt
+12626	Ti vi
+12627	Điều khiển ti vi
+12842	Hộp thư đã chọn đã đầy hàng chờ thư
+12843	Hộp thư đã chọn ở chiều không gian không giao được
+13028	Máy nướng bánh mì bật
+13029	Bánh mì bật lên
+13030	Máy nướng bánh mì lạch cạch
+13031	Đang nướng bánh mì
+13048	Tắt
+13049	Bật
+13071	Bồn cầu, chậu rửa và hơn thế
+13076	Quá xa
+13080	Quá nhiều liên kết
+13438	Hộp thư không rõ hoặc không hợp lệ
+13559	Lát pizza rau
+13814	Nước chảy
+13883	Bột mì
+13953	Tiếng ồn trắng
+14141	Rút kinh nghiệm
+14162	Gỗ trượt
+14176	Ngăn kéo gỗ đóng
+14177	Ngăn kéo gỗ mở
+14229	Cờ lê
+14323	Bạn
+14402	Bạn thua :(
+14423	Bạn thắng :)
+14427	Bạn đã đạt giới hạn số hộp thư
+2521	Compact World
+3934	Dungeon World
+5749	Ở Compact World
+5750	Ở Dungeon World
+5751	Ở chiều không gian khai thác
+5752	Ở Nether
+5753	Ở Otherside
+5754	Ở Thế giới thực
+5755	Ở Paradise Lost
+5756	Ở kho không gian
+5757	Ở End
+7116	Trình đơn chính
+7536	Chiều không gian khai thác
+7808	Nether
+8317	Otherside
+8337	Thế giới thực
+8348	Biểu trưng gói
+8519	Paradise Lost
+11483	Kho không gian
+12738	End
+30	"%2$s" đang chắn chỗ %1$s Bộ quản lý Túi khối!
+37	Số máy quay đã gắn: %s
+42	%1$s và %2$s
+56	%1$s nhập sai mã khi đang chiến đấu với %2$s
+57	%1$s rơi vào nước độc khi đang chiến đấu với %2$s...?
+59	%1$s đã bị bắt tại %2$s.
+74	%1$s đang ở gần radar cầm tay của bạn tại %2$s.
+75	%1$s đang ở gần radar cầm tay tên %2$s của bạn tại %3$s.
+88	%1$s ngạt thở trong tường gia cố khi đang chiến đấu với %2$s
+95	%1$s bị điện giật khi đang chiến đấu với %2$s
+113	%1$s bị tia laser xẻ tới chết khi đang chiến đấu với %2$s
+117	%1$s bị %2$s chích điện tới chết
+118	%1$s bị %2$s dùng %3$s chích điện tới chết
+124	%1$s%2$s%3$s%4$s: Nhìn quanh
+130	%1$s, %2$s và %3$s
+131	%1$s/%2$s: Phóng to/thu nhỏ
+150	%s (đội)
+152	%s: Bật nhìn trong đêm
+153	%s: Thoát máy quay
+154	%s: Đặt hướng nhìn mặc định
+155	%s: Bật tắt tín hiệu Redstone
+161	%s khối phía trên
+162	%s khối phía sau
+163	%s khối bên trái
+164	%s khối bên phải
+180	%s nhập sai mã
+183	%s rơi vào nước độc...?
+196	%s giờ là chủ mới.
+231	%s ngạt thở trong tường gia cố
+241	%s bị điện giật
+244	%s bị tia laser xẻ tới chết
+15015	(Kích hoạt khi quái thù địch tới gần, tấn công quái thù địch)
+15016	(Kích hoạt khi quái thù địch hoặc người chơi tới gần, tấn công quái thù địch và người chơi)
+272	(Kích hoạt khi người chơi tới gần, tấn công người chơi)
+273	(Luôn hoạt động, tấn công quái thù địch và người chơi)
+274	(Luôn hoạt động, tấn công quái thù địch)
+275	(Luôn hoạt động, tấn công người chơi)
+279	(Mặc định là %s)
+280	(Mặc định là %s, trong khoảng từ %s tới %s)
+282	(Không bao giờ hoạt động, không tấn công gì)
+283	(cần mô đun Redstone)
+284	(cần mô đun thông minh)
+291	+10 giây
+292	+1 phút
+293	+1 giây
+299	-10 giây
+300	-1 phút
+301	-1 giây
+15027	Cần một Mô đun lưu trữ để bật tự lắp ráp Túi khối.
+470	Thuyền biển an ninh gỗ xiêm gai
+526	Kích hoạt
+559	Thêm người chơi
+568	Đã thêm # vào mô đun đang cầm.
+571	Đã thêm vị trí máy quay từ màn hình vào khung
+572	Đã thêm người chơi: %s
+574	Đã thêm đội: %s
+576	Đã thêm: %s
+15038	Thêm mô đun danh sách chặn vào tủ trưng bày sẽ cấm người chơi trong danh sách tương tác với khối.
+15039	Thêm mô đun danh sách chặn vào bảng phím sẽ cấm người chơi trong danh sách tương tác với khối.
+15040	Thêm mô đun danh sách chặn vào khóa thẻ từ sẽ cấm người chơi trong danh sách tương tác với khóa.
+15041	Thêm mô đun danh sách chặn vào đầu đọc thẻ từ sẽ cấm người chơi trong danh sách tương tác với đầu đọc.
+15042	Thêm mô đun danh sách chặn vào cửa bàn phím sẽ cấm người chơi trong danh sách tương tác với khối.
+15043	Thêm mô đun danh sách chặn vào cửa sập bàn phím sẽ cấm người chơi trong danh sách tương tác với khối.
+15044	Thêm mô đun danh sách chặn vào bàn phím sẽ cấm người chơi trong danh sách tương tác với khối.
+15045	Thêm mô đun danh sách chặn vào Thùng có mật mã sẽ cấm người chơi trong danh sách tương tác với khối.
+15046	Thêm mô đun danh sách chặn vào Lò luyện có mật mã sẽ cấm người chơi trong danh sách tương tác với khối.
+15047	Thêm mô đun danh sách chặn vào Rương có mật mã sẽ cấm người chơi trong danh sách tương tác với khối.
+15048	Thêm mô đun danh sách chặn vào Lò nung có mật mã sẽ cấm người chơi trong danh sách tương tác với khối.
+15049	Thêm mô đun danh sách chặn vào Lò hun khói có mật mã sẽ cấm người chơi trong danh sách tương tác với khối.
+15050	Thêm mô đun danh sách chặn vào radar cầm tay sẽ khiến radar chỉ để ý người chơi trong danh sách.
+15051	Thêm mô đun danh sách chặn vào Thuyền biển an ninh sẽ cấm người chơi trong danh sách tương tác với thuyền.
+15052	Thêm mô đun ngụy trang vào Bộ quản lý Túi khối sẽ khiến các mặt của Túi khối không trong suốt.
+15053	Thêm mô đun ngụy trang vào một khối sẽ khiến kết cấu và mô hình của nó đổi thành kết cấu và mô hình của khối được thêm vào mô đun ngụy trang.
+15054	Thêm mô đun gây hại vào khối cần mật mã sẽ khiến người chơi bị thương nếu nhập sai mã.
+15055	Thêm mô đun gây hại vào khối laser sẽ khiến người chơi bị thương nếu bước qua tia laser.
+15056	Thêm mô đun gây hại vào Bộ ổn định khe nứt sẽ khiến người chơi cố dịch chuyển vào hoặc ra khỏi vùng lân cận bị thương.
+15057	Thêm mô đun gây hại vào Thuyền biển an ninh sẽ khiến người chơi bị thương nếu nhập sai mã.
+15058	Thêm mô đun Redstone vào máy dò thay đổi khối sẽ khiến nó phát tín hiệu Redstone mỗi lần phát hiện một khối bị người chơi thay đổi ở gần.
+15059	Thêm mô đun Redstone vào khung sẽ cho phép người chơi dùng tín hiệu Redstone để điều khiển việc hiện hình ảnh máy quay của khung.
+15060	Thêm mô đun Redstone vào khối laser sẽ khiến nó phát tín hiệu Redstone 15 khối khi có sinh vật hoặc người chơi đi qua tia laser.
+15061	Thêm mô đun Redstone vào Rương có mật mã sẽ khiến rương phát tín hiệu Redstone khi đang mở, cường độ tùy theo số người chơi cùng lúc đang nhìn vào rương.
+15062	Thêm mô đun Redstone vào radar cầm tay sẽ khiến radar phát tín hiệu Redstone mỗi khi có người chơi trong tầm.
+15063	Thêm mô đun Redstone vào Máy chiếu cho phép bạn tự bật tắt Máy chiếu bằng năng lượng Redstone.
+15064	Thêm mô đun Redstone vào Bộ ổn định khe nứt sẽ khiến nó phát tín hiệu Redstone mỗi lần phát hiện một lần cố dịch chuyển ở gần. Tín hiệu sẽ mạnh hơn nếu xảy ra gần khối, yếu hơn nếu xảy ra xa hơn. Ngoài ra, có thể dùng bộ so sánh để biết loại dịch chuyển phát hiện gần nhất.
+15065	Thêm mô đun Redstone vào hệ thống an ninh âm thanh cho phép hệ thống phát tín hiệu Redstone khi chơi đúng giai điệu.
+15066	Thêm mô đun Redstone vào máy quét túi đồ sẽ khiến nó phát tín hiệu Redstone mỗi khi tìm thấy vật phẩm trong danh sách lúc có thứ gì đi qua vùng quét.
+15067	Thêm mô đun thông minh vào máy dò thay đổi khối cho phép nó chỉ ghi lại thay đổi của một loại khối cụ thể. Có thể đặt khối đó trong giao diện.
+15068	Thêm mô đun thông minh vào khối cần mật mã sẽ áp thời gian chờ sau khi nhập sai mã. Trong thời gian đó, không thể nhập mã mới.

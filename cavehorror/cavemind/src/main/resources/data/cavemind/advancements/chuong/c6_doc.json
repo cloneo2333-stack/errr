@@ -1,0 +1,23 @@
+{
+  "parent": "cavemind:chuong/c6_den",
+  "display": {
+    "icon": {
+      "item": "minecraft:written_book"
+    },
+    "title": {
+      "text": "Sổ Liên Lạc Của Nam"
+    },
+    "description": {
+      "text": "Đọc cuốn sổ ở sảnh trường"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

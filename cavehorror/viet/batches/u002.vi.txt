@@ -1,0 +1,283 @@
+6277	Just Player Heads
+6337	Giết bọn ta cũng chẳng được gì đâu.
+6373	Bản sao lưu khi chết gần nhất: (<index>: <date>)
+6424	Đi thôi nhỉ?
+6425	Vượt chướng ngại nào
+6568	như vòng tay của đại dương sâu thẳm.
+15545	Đang nghe mọi âm thanh. Để mỗi âm thanh chỉ hiện một lần, dùng '/omegamute listen'
+15546	Đang nghe mỗi âm thanh một lần. Để thấy mọi lần âm thanh phát ra, dùng '/omegamute listen all'
+6680	Liệt kê mọi bộ đang dùng (hoặc không dùng).
+6692	Tải bản sao lưu bằng '/deathbackup load <index>'.
+7246	Phân bón
+7568	Quái vật đã giết:
+7680	Đã chuyển mọi bộ vào thư mục đang dùng.
+7681	Đã chuyển mọi bộ vào thư mục không dùng.
+7683	Chuyển kit_name hoặc mọi bộ từ đang dùng sang không dùng.
+7684	Chuyển kit_name hoặc mọi bộ từ không dùng sang đang dùng.
+7727	Súp nấm
+7732	phải được giữ trong
+7754	Tinh chỉnh bảng tên
+7842	Netherit
+7878	Đã tải thành công thay đổi bản đồ âm thanh mới.
+7909	Không có thuyền đang neo
+7930	Chưa có người chơi nào được gán cấp bậc.
+7934	Chưa có cấp bậc nào.
+15572	Không tìm thấy sự kiện âm thanh nào với chuỗi đại diện '%s', hãy thử cách tìm khác.
+7941	Không tìm thấy bản đồ âm thanh, đã tạo bản mới.
+7997	Giờ là lúc kết thúc chuyện này.
+15607	Ồ, vụ nổ đó à? Đừng lo, tất cả chúng ta đều thoát ra an toàn. Nhưng đó là một trong những lý do ngươi ở đây.
+8172	Omega Mute
+15610	Khi đã làm xong máy truy vết vững chắc của mình, đến lúc đi tìm căn cứ rồi! Đứng trên khối Kim cương ở giữa máy truy vết và gõ /track all. Nếu có người chơi trong tầm của máy, họ sẽ hiện ra. Bạn cần có người chơi trên ít nhất 2 nhánh mới sang được trang 5. Nếu chưa có, hãy thử kéo dài các nhánh hoặc chờ có thêm người chơi khác trực tuyến.
+8179	Mỗi người nhận ngẫu nhiên một bộ khi vào máy chủ.
+8244	Hoặc gõ '/track help' để biết thêm.
+8297	Bộ đàm quỹ đạo
+8298	Bộ phát tín hiệu quỹ đạo
+8306	Vị trí ban đầu không có trong dữ liệu lưu.
+8355	Trang %1$s / %2$s, /help <page>
+15627	Đã tạo con đường dài %s khối. Để hoàn tác, nhấp chuột phải lần nữa vào khối vừa nhấp.
+8561	Hoa văn:
+8585	Mứt màn che của Phantom
+8622	Tên piglin
+8839	Que Blaze đặt được
+8868	Đã thêm người chơi %1$s vào cấp bậc %2$s
+8869	Người chơi %1$s đã ở cấp bậc %2$s
+8870	Người chơi %1$s không ở cấp bậc %2$s.
+8885	Đuổi người chơi khi chết
+8902	Truy vết người chơi
+8903	La bàn truy vết người chơi
+8911	Người chơi có thể chọn một bộ khi vào máy chủ.
+8914	Người chơi có cấp bậc:
+9034	Đang xem trước màn hình ngày mới.
+9121	Nhiệm vụ của Pumpkillager
+9239	Tóm tắt nhiệm vụ
+9248	Làm đường nhanh
+9249	Nhấp chuột phải nhanh
+9259	Tải nhanh
+9260	Đã tải nhanh.
+9261	Lưu nhanh
+9262	Lưu nhanh và tải nhanh
+9263	Đã lưu nhanh.
+9264	Đang lưu nhanh
+9321	Cấp bậc %1$s đã có màu %2$s
+9322	Đã đặt cấp bậc %1$s thành màu %2$s
+9323	Cấp bậc %s không tồn tại.
+9324	Cấp bậc:
+9420	Lệnh công thức
+10283	Đang tải lại tệp cấu hình tỉ lệ rơi đầu.
+10284	Đang tải lại tệp bản đồ âm thanh Omega Mute.
+10285	Tải lại thay đổi bộ khởi đầu từ thư mục cấu hình.
+15680	Cứ sửa sang lại nếu muốn, nhưng phải giữ cho nó hoạt động. Có thể ta sẽ cần lại nó.
+10302	Đã xóa mọi thẻ %s.
+10303	Đã xóa người chơi %1$s khỏi cấp bậc %2$s
+10304	Đã xóa cấp bậc %s
+10307	Xóa tên của mọi piglin đang được tải.
+10308	Xóa tên của mọi dân làng đang được tải.
+10323	Chế độ sửa chữa
+10324	Sửa: %s tấm ván
+10337	Đã tắt chế độ thay khối.
+10338	Đã bật chế độ thay khối
+10372	Đặt lại mọi dữ liệu theo dõi. Người chơi sẽ nhận một bộ nữa khi vào máy chủ.
+15686	Đặt lại dữ liệu đầu người chơi mà Collective đã lưu tạm, ví dụ để cập nhật da.
+10459	Thời gian chờ hồi sinh
+10487	Đã trở về vị trí ban đầu.
+10683	Mằn mặn và mát lạnh,
+10725	Lưu và tải túi đồ
+10731	Túi đồ đã lưu: %s.
+10858	Thuyền đi biển
+10990	Đã đặt tên thành '%s'.
+11011	Đặt túi đồ hiện tại của bạn làm bộ duy nhất đang dùng.
+11030	Thú cưỡi bóng tối
+11031	Yên bóng tối
+11039	Dùng chung
+11057	Xưởng đóng thuyền
+11058	Đã chuyển xưởng đóng thuyền sang chế độ sửa chữa.
+11059	Đã chuyển xưởng đóng thuyền sang chế độ nâng cấp.
+11125	Hiện nút bật tắt sách công thức
+11140	Hiện tin nhắn này.
+11147	Đang hiện danh đề
+11149	Đang hiện màn hình ngày mới gần nhất.
+11158	Hiện mô tả và vật phẩm của kit_name.
+11191	Làm câm quái vật
+11261	Đã đặt lại khả năng nhìn thấy tàu trời.
+11273	Ngủ sớm hơn
+11290	Mứt nhũn nhẽo của Slime
+11293	Phiến vượt chướng ngại trơn trượt
+11295	Phiến vượt chướng ngại chậm
+11396	Vậy thì đành. Mong nơi này sẽ là mồ chôn ngươi.
+11398	Phiến vượt chướng ngại êm
+11407	Một thế lực ma thuật đang ngăn bạn phá khối.
+15757	Một thế lực ma thuật đang ngăn bạn bước vào cánh cổng.
+11408	Một thế lực ma thuật đang ngăn bạn đặt khối.
+11416	Đã xảy ra lỗi khi thêm bộ khởi đầu mới.
+11417	Đã xảy ra lỗi khi chọn bộ khởi đầu của bạn.
+15761	Đã xảy ra lỗi khi tạo nội dung tệp lưu cho túi đồ của bạn.
+11418	Đã xảy ra lỗi khi tải tệp cấu hình.
+11419	Đã xảy ra lỗi khi tải tệp bản đồ âm thanh.
+15764	Đã xảy ra lỗi khi lưu nội dung túi đồ của bạn thành '%s'.
+11603	Mứt tơ nhện
+11630	Mứt rùng rợn
+11636	Khoai mỡ rùng rợn
+11637	Cây khoai mỡ rùng rợn
+11638	Mứt khoai mỡ rùng rợn
+11639	Hạt khoai mỡ rùng rợn
+11827	Bộ khởi đầu
+11828	Đã đặt điểm xuất phát tại %1$s, %2$s, %3$s.
+11916	Dừng lại! Xin hãy dừng lại!
+12434	Đã xóa thành công %1$s thẻ pumpkillager của %2$s.
+12441	Đã tạo thành công %1$s đầu %2$s.
+12444	Đã tải thành công '%1$s' vào túi đồ của '%2$s'.
+12445	Đã tải thành công '%s' vào túi đồ của bạn.
+15783	Đã tải thành công bản sao lưu khi chết từ %s vào túi đồ của bạn.
+12449	Đã tải xong! Tỉ lệ rơi đồ đã được thay đổi.
+12450	Đã hồi sinh thành công %s người chơi.
+12454	Đã lưu túi đồ của bạn thành '%s'.
+15786	Bỗng nhiên, một chiếc bộ đàm lạ hiện ra giữa không trung trước mặt bạn!
+15787	Bỗng nhiên, một chiếc bộ đàm lạ hiện ra giữa không trung sau lưng bạn!
+12462	Tóm tắt:
+12514	Ngọt ngào và dễ bay hơi.
+12521	Ngọt ngào, mà chạm vào lạnh đến rợn người.
+12622	Đã dịch chuyển tới căn cứ Voidborn.
+12666	Cảm ơn lòng dũng cảm của ngươi, ta sẽ sớm liên lạc.
+12667	Cảm ơn, %s.
+12669	Cảm giác bị bẻ cong quen thuộc lại tràn ngập tâm trí bạn.
+12672	Người chơi đó không có nhiệm vụ nào đang làm.
+12673	Số nhiệm vụ đó không tồn tại.
+12674	Chiếc bộ đàm đó là một món đồ rất hữu ích.
+12684	%s đã bị làm câm.
+12685	%s đã hết bị làm câm.
+15831	Càng nhìn kỹ con tàu, càng nhiều chi tiết lộ ra.
+12707	La bàn đang chỉ về %s.
+12709	Thứ bên trong lung linh,
+12711	Các bộ khởi đầu đang dùng hiện tại:
+12712	Các bộ khởi đầu không dùng hiện tại:
+12734	Đôi cánh cứng đã rơi tại vị trí của bạn!
+15848	Đã thêm phù phép '%1$s' cấp %2$s vào vật phẩm.
+12736	Vật phẩm không có phù phép '%s'.
+12737	Đã gỡ phù phép '%s' khỏi vật phẩm.
+15849	Lũ Voidborn quanh cánh cổng đang ngăn bạn bước vào!
+15850	Vụ nổ ngươi chứng kiến là một phần trong nỗ lực không ngừng của kẻ thù nhằm tiêu diệt bọn ta.
+12749	Các sự kiện âm thanh đang bị tắt tiếng:
+15870	Đầu '%s' không tồn tại. Bạn có thể xem danh sách mọi loại đầu bằng:
+12766	Số thứ tự %s không hợp lệ.
+12777	Tên túi đồ '%s' không hợp lệ.
+12786	Con thỏ sát thủ đã được thuần hóa rồi.
+12787	Con thỏ sát thủ đã được thuần hóa!
+12788	Con thỏ sát thủ muốn một củ cà rốt vàng!
+12789	Đã chuyển bộ '%s' vào thư mục đang dùng.
+12790	Đã chuyển bộ '%s' vào thư mục không dùng.
+12791	chất lỏng khẽ gợn.
+12795	Cuốn sách phép cho bạn thoáng thấy nghi lễ.
+15906	Sinh vật '%s' không tồn tại. Bạn có thể xem danh sách mọi loại đầu bằng:
+12806	Đã xóa tên của %s piglin đang được tải.
+12807	Đã xóa tên của %s dân làng đang được tải.
+12828	Người chơi %s đã chết và bị đuổi khỏi máy chủ.
+12829	Đã đặt lại bộ nhớ tạm đầu người chơi.
+12830	Radar đã hỏng và cần gạt bị kẹt.
+12849	Đã cập nhật tệp bản đồ âm thanh.
+12856	Bộ khởi đầu '%s' không tồn tại.
+12857	Đã thêm bộ khởi đầu '%s'!
+12858	Đã đặt bộ khởi đầu '%s'!
+12867	Vị của bầu trời đêm,
+12901	Thế giới không ở xa, không thể tải bản sao lưu khi chết.
+12907	Có %s bộ khởi đầu.
+12910	Hiện không có sự kiện âm thanh nào bị tắt tiếng.
+12911	Không có biển khu vực nào quanh bạn.
+12917	Giờ có %s bộ khởi đầu.
+12918	Bọn ta... giờ ít đi rồi. Bọn ta đã chôn cất được người đã khuất.
+12924	Không có ngày mới nào trước đó để hiện.
+12935	Căn cứ này, tiểu hành tinh và mọi của cải trên đó sẽ là của ngươi.
+12939	Con thuyền này đã hỏng. Sửa bằng cách nhấp chuột phải vào xưởng đóng thuyền.
+12941	Lệnh này chỉ người chơi mới dùng được.
+16038	Đây là một bước cực kỳ quan trọng để chặn đứng bước tiến của bóng tối vĩnh hằng.
+12977	Những sợi ngọt ngào,
+16061	Thời gian trôi khác đi trong vũ trụ. Đã một tuần kể từ khi ta gặp nhau.
+13020	Để sang trang 5, gõ '/track help 5'
+13021	Để xem sơ đồ máy truy vết, gõ '/track help 3 layout'
+13022	Để xem chỉ số nhiệm vụ, dùng /dq info
+13023	Để xem nhiệm vụ của bạn, dùng /dq quests
+13024	Để chọn trang: '/track help [page]'
+16063	Để bắt đầu xây một máy truy vết vững chắc, bạn cần một 'Khối Kim cương' ở giữa, 4 'Khối Vàng' ở đầu mỗi 'nhánh', và càng nhiều 'Hắc diện thạch' càng tốt cho độ dài các nhánh. Mỗi khối hắc diện thạch tương ứng 25 khối ngoài thế giới. Hãy xây máy truy vết ở chỗ khôn ngoan. Đừng quá gần điểm hồi sinh, và đừng ở tọa độ dễ đoán. Bạn không phải người duy nhất sẽ thử làm một cái.
+13044	Bật tắt sáng tối đa
+13051	Thu gọn danh sách nhiệm vụ
+13160	La bàn truy vết
+13161	Dữ liệu truy vết:     (Dùng F3 để xem hướng)
+13162	Trang trợ giúp truy vết (1/5)
+13163	Trang trợ giúp truy vết (2/5): Giới thiệu
+13164	Trang trợ giúp truy vết (3/5): Xây dựng
+13165	Trang trợ giúp truy vết (3/5): SƠ ĐỒ xây dựng
+13166	Trang trợ giúp truy vết (4/5): /track all
+13167	Trang trợ giúp truy vết (5/5): /track [playerName]
+16073	Truy vết là tính năng khuyến khích đột kích trên máy chủ. Thiếu nó thì gần như không thể tìm căn cứ địch một cách chính đáng, và kẻ gian lận sẽ có lợi thế bất công. Truy vết là nghệ thuật tìm ra người chơi trước khi họ tìm ra bạn. Nó không rẻ, bạn sẽ cần nhiều nguyên liệu quý để bắt đầu. Đọc các trang tiếp theo để biết thêm.
+13193	Phiến vượt chướng ngại cửa sập
+13369	Không tìm thấy người chơi trực tuyến nào tên '%s'.
+13370	Không tìm thấy dữ liệu nhiệm vụ.
+13371	Không tìm thấy mã nhiệm vụ từ chuỗi: %s
+13372	Không tìm thấy loại nhiệm vụ từ chuỗi: %s
+13373	Không tìm thấy công thức.
+16083	Không thể tải nội dung túi đồ có tên '%s'.
+13374	Không thể chuyển bộ '%s' vào thư mục đang dùng.
+13375	Không thể chuyển bộ '%s' vào thư mục không dùng.
+13376	Không thể mở hộp shulker, vị trí bị chắn.
+13377	Không đọc được tệp sao lưu.
+16085	Không thể đổi hướng la bàn. Không có người chơi nào xung quanh hoặc họ ở quá gần.
+13378	Không thể đưa người chơi về vị trí ban đầu.
+13379	Không thể ngủ, vị trí bị chắn.
+13435	Màu không rõ: %s
+13475	Chế độ nâng cấp
+13477	Nâng cấp lên %s: %s %s
+13483	vị trí trên
+13489	Cách dùng: '/nametag <name>' khi đang cầm bảng tên.
+13490	Cách dùng: /%s head <name> <amount>:
+13491	Cách dùng: /%s head list
+13492	Cách dùng: /jmh head <name> <amount>:
+13493	Cách dùng: /jmh head list
+13494	Cách dùng: /jph playerName (amount)
+13496	Dùng '/track [playerName]'  hoặc '/track all'.
+13523	Dùng để kích hoạt dịch chuyển quỹ đạo.
+13543	Vanguard
+13544	Thủ lĩnh Vanguard
+13545	Tân binh Vanguard
+13546	Trạm Vanguard
+13550	Phóng to kiểu gốc
+13551	Phóng to kiểu gốc
+13607	Tin nhắn khi dân làng chết
+13610	Tên dân làng
+13649	Void Vanguards
+13650	Voidborn
+13651	Căn cứ Voidborn
+13652	Thủ lĩnh Voidborn
+13653	Tân binh Voidborn
+13654	Kho Voidborn
+13655	Voidborn! Tấn công!
+13677	Không gọi được thương nhân lang thang, hãy thử lại.
+13678	Đã gọi thương nhân lang thang thành công!
+13838	Bọn ta sinh ra từ hư không, và sẽ lại trỗi dậy.
+16110	Bọn ta là Vanguard. Những kẻ thám hiểm các cõi và hư không. Những người bảo vệ thời gian và không gian.
+16111	Bọn ta đã quan sát hoạt động của ngươi từ quỹ đạo và biết ngươi đã chú ý tới bọn ta.
+13840	Bọn ta bị tấn công. Thật là gian nan..
+16112	Bọn ta sẽ lo phần còn lại, ta đang đưa ngươi về cổng vũ trụ.
+13844	Bọn ta sẽ lo từ đây.
+16113	Bọn ta đã phát hiện một căn cứ tiền tiêu do những kẻ ủng hộ %s điều hành.
+13865	nhẹ bẫng và cảnh giác.
+13878	Điều bọn ta cần ở ngươi là...
+13899	khi nắp được mở ra.
+13903	Khi đã sẵn sàng, hãy tới tọa độ này:
+14138	Mứt bùa chú của Phù thủy
+14139	theo từng nhịp tim.
+14140	Có nó, ta có thể truy ra vị trí của Vanguard.
+16143	Mối đe dọa %s đã tạm được xử lý, bọn ta sẽ chuyển sang một vùng khác.
+16145	Radar đã bị phá, bọn ta đã xuyên thủng được hàng phòng thủ của %s.
+14152	Mứt mục rữa của Wither
+14221	dệt bằng nọc độc.
+14322	vậy mà lại tươi mát lạ thường.
+16152	Ngươi đang ở tổng hành dinh của bọn ta, cách nơi ngươi gọi là nhà vài phút ánh sáng.
+14334	Bạn không đủ điều kiện nhận bộ khởi đầu.
+14336	Bạn không ở trong chiều không gian vũ trụ.
+16163	Giờ bạn đang nghe các âm thanh đang phát. Để tắt, dùng lại '/omegamute listen'.
+14341	Bạn không bắt được tín hiệu.
+14343	Bạn có thể tạo các loại đầu sau:
+14344	Bạn có thể tạo các loại đầu quái vật sau:
+14345	Bạn có thể tải bằng lệnh '/loadinventory %s'.
+14365	Bạn không thể truy vết tất cả với loại máy truy vết này
+14367	Tay chính của bạn không cầm vật phẩm phù phép được.
+14368	Bạn không có quyền dùng lệnh đó.

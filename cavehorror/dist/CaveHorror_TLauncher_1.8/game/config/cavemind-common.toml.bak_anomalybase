@@ -1,0 +1,107 @@
+
+[general]
+	#Log every decision the minds make (latest.log, prefix [CaveMind])
+	debug = true
+	#Developer mode: announces every decision in chat, status bar, glowing outlines, fast timers, hunts deal no damage, creative counts as playing
+	dev_mode = true
+	#How often things happen. 0.5 = half as often and a smaller daily scare budget, 2 = twice as often
+	#Range: 0.25 ~ 3.0
+	intensity = 1.0
+	#Anti-frustration: quiet first minutes after joining, nothing while you are in a menu, fighting, riding, AFK or in a raid, a calm stretch after you die, a daily scare budget
+	mercy = true
+
+[director]
+	#Pace the horror per player: build-up, peak, relief
+	enabled = true
+	#Stop other mods' stalkers from piling on while a scene is running or during relief
+	headliner_gate = true
+	#How many stalker-class entities may hunt the same player at once
+	#Range: 1 ~ 4
+	max_headliners = 1
+	#Entity ids (or modid:*) that count as stalker-class headliners
+	headliners = ["cave_dweller:cave_dweller", "the_knocker:knocker", "the_knocker:knockerstalk", "the_knocker:knockerstalklooked", "anomaly:anomaly_chase", "anomaly:anomaly_base", "anomaly:anomaly_ghost", "anomaly:anomaly_diamond", "the_obsessed:idk_stalker_surprise", "the_obsessed:idk_stalker_saviour", "the_obsessed:idk_stalker_mimic", "the_obsessed:idk_stalker_unhappy", "the_obsessed:idk_stalker_opportunistic", "the_obsessed:idk_spider_jealous", "apollyon:the_fallen", "apollyon:the_infector"]
+	#Minutes of relief after a peak (min)
+	#Range: 0 ~ 60
+	relax_min = 3
+	#Minutes of relief after a peak (max)
+	#Range: 0 ~ 120
+	relax_max = 7
+	#Cave dread events: digging behind the walls, echo steps, breathing in the dark
+	cave_dread = true
+	#Torches the player placed far behind them can go missing
+	torch_theft = true
+	#Fog thickens when the Man is near (client)
+	fog = true
+	#Ambient sound and music cut out before something happens (client)
+	silence = true
+
+[man_from_the_fog]
+	#Replace the Man From The Fog's spawn/look/vanish logic with the Cave Mind stalker
+	enabled = true
+	#Minutes of play before the Man first arrives
+	#Range: 0 ~ 600
+	first_arrival_minutes = 9
+	#Minutes between visits (min)
+	#Range: 1 ~ 600
+	visit_gap_min = 10
+	#Minutes between visits (max)
+	#Range: 1 ~ 900
+	visit_gap_max = 26
+	#The Man may hunt (rare, telegraphed, escapable by hiding)
+	hunt = true
+	#Familiarity level (0-10) before he will hunt unprovoked
+	#Range: 0 ~ 10
+	hunt_level = 5
+	#Damage per hit while hunting
+	#Range: 1.0 ~ 100.0
+	hunt_damage = 8.0
+	#He may knock and open doors at night
+	doors = true
+	#He works on things you find later: a worn trail, his nest, a peephole, a sealed tunnel
+	schemes = true
+	#He may rot part of your food stores, reset a line of crops and take one farm animal (never named, tamed or the last few)
+	steal = true
+	#He may knock you awake (never two nights running, never while other players are asleep)
+	wake = true
+
+[the_damned]
+	#Replace The Damned with the non-lethal haunting
+	enabled = true
+	#In-game day the haunting may begin
+	#Range: 0 ~ 1000
+	start_day = 2
+	#Chance a night carries a haunting scene
+	#Range: 0.0 ~ 1.0
+	night_chance = 0.7
+	#It builds a shrine and writes about you
+	shrine = true
+	#It visits while you sleep
+	sleep_visits = true
+	#Candles go out, frames turn, torches go missing at night
+	traces = true
+
+[daylight]
+	#Daytime set-pieces: the figure in the field, the slow walker, animal rituals, a house that was touched, echoes of yourself. Never lethal, nothing thrown at the screen
+	enabled = true
+	#The Fallen sinks silently when looked at instead of flashing a full-screen jumpscare image (needs restart)
+	quiet_fallen = true
+
+[herobrine]
+	#Herobrine (From The Fog) as a rare, varied, player-like presence that remembers every move you make
+	enabled = true
+	#Silence From The Fog's own scheduled events (sightings, burning base, torch breaking, nightmares, fake crash) so only Cave Mind drives him (needs world reload)
+	replace_from_the_fog = true
+	#In-game day he may first appear
+	#Range: 0 ~ 1000
+	start_day = 3
+	#In-game days between his appearances (min)
+	#Range: 0.1 ~ 30.0
+	gap_days_min = 1.0
+	#In-game days between his appearances (max)
+	#Range: 0.1 ~ 60.0
+	gap_days_max = 2.5
+	#He may leave things in the world: signs that know your habits, tunnels continued past where you stopped, a leafless tree, copies of what you built
+	world_edits = true
+	#Skin texture for Herobrine (any From The Fog skin under watching:textures/item/herobrine/...)
+	skin = "watching:textures/item/herobrine/classic/classic.png"
+

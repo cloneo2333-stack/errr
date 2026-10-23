@@ -1,0 +1,300 @@
+7704	Đá góc tường gạch bùn
+7748	Lan can N64
+7749	Cửa kim loại N64
+7750	Cửa gỗ N64
+7771	Golem ốc anh vũ
+7772	Trứng sinh ra Golem ốc anh vũ
+7773	Chuông gió kính biển ốc anh vũ
+7774	Đèn vỏ ốc anh vũ
+7775	Chuông gió ốc anh vũ leng keng
+8004	Kẹp hạt dẻ
+8168	Máy ảnh cũ chụp hình
+8210	Sách mở
+8299	Đèn lồng giấy hoa lan
+8511	Đèn lồng giấy gấu trúc
+8516	Đèn lồng giấy
+8571	Giỏ mây đựng mẫu đơn
+8608	Giỏ mây đựng dưa chuột biển
+8628	Đèn lồng giấy Pillager
+8804	Giỏ mây đựng cánh hoa hồng
+8847	Đệm trơn
+8848	Phiến đệm trơn
+8849	Bậc đệm trơn
+8924	Thú bông
+8944	Máy ảnh cầm tay
+8962	Thùng khoai tây
+8963	Giỏ mây đựng khoai tây
+8979	Nồi và chảo
+8980	Nồi và chảo
+9130	Bù nhìn bí ngô
+9136	Giấy dán tường bí ngô
+9338	Xúc xích Đức sống
+9589	Đá góc tường cát kết đỏ
+9766	Giấy dán tường vương giả
+10552	Dây thừng
+10617	Giỏ mây đựng hoa hồng
+10658	Tôn gỉ sét
+10659	Nút tôn gỉ sét
+10660	Cửa tôn gỉ sét
+10661	Hàng rào tôn gỉ sét
+10662	Cổng rào tôn gỉ sét
+10663	Tấm áp lực tôn gỉ sét
+10664	Mái tôn gỉ sét
+10665	Phiến tôn gỉ sét
+10666	Bậc tôn gỉ sét
+10667	Cửa sập tôn gỉ sét
+10668	Mỏ neo gỉ sét
+10669	Song chắn tôn gỉ sét
+10675	Cờ thủy thủ
+10676	Giấy dán tường thủy thủ
+10677	Đèn lồng giấy hoa anh đào
+10681	Thùng cá hồi
+10682	Giỏ mây đựng cá hồi
+10703	Đá góc tường cát kết
+10710	Gạch lát cát kết
+10711	Gạch khảm cát kết
+10712	Phiến gạch lát cát kết
+10713	Bậc gạch lát cát kết
+10754	Cửa sổ biển đỏ tươi
+10755	Tấm cửa sổ biển đỏ tươi
+10756	Kính biển đỏ tươi
+10757	Mảnh kính biển đỏ tươi
+10758	Đèn kính biển đỏ tươi
+10759	Tấm kính biển đỏ tươi
+10760	Tiền vàng vương vãi
+10761	Giấy tờ vương vãi
+10762	Giấy tờ vương vãi
+10807	Thùng dưa chuột biển
+10809	Sỏi lẫn kính biển
+10810	Cát lẫn kính biển
+10849	Đá biển
+10850	Phiến gạch đá biển
+10851	Bậc gạch đá biển
+10852	Tường gạch đá biển
+10853	Gạch đá biển
+10854	Bích họa đá biển
+10855	Đá góc tường đá biển
+10856	Phiến đá biển
+10857	Bậc đá biển
+11061	Đèn đồng tồi tàn
+11062	Đèn tồi tàn cháy tắt
+11063	Đèn tồi tàn chập chờn sáng
+11300	Giá sách nhỏ
+11304	Phao thủy tinh nhỏ
+11311	Vỏ ốc anh vũ nhỏ
+11319	Hàm cá mập nhỏ
+11320	Kệ nhỏ
+11343	Xúc xích Đức hun khói
+11357	Đá biển nhẵn
+11358	Phiến đá biển nhẵn
+11359	Bậc đá biển nhẵn
+11360	Tường đá biển nhẵn
+11361	Gạch đá nhẵn
+11362	Phiến gạch đá nhẵn
+11363	Bậc gạch đá nhẵn
+11364	Tường gạch đá nhẵn
+11365	Bích họa đá nhẵn
+11366	Đá góc tường đá nhẵn
+11384	Giấy dán tường bông tuyết
+11385	Giấy dán tường người tuyết
+11386	Đá cuội phủ tuyết
+11387	Phiến đá cuội phủ tuyết
+11388	Bậc đá cuội phủ tuyết
+11389	Tường đá cuội phủ tuyết
+11390	Đá phủ tuyết đang vỡ
+11391	Đá phủ tuyết vỡ
+11392	Phiến gạch đá phủ tuyết
+11393	Bậc gạch đá phủ tuyết
+11394	Tường gạch đá phủ tuyết
+11395	Gạch đá phủ tuyết
+11454	Giấy dán tường linh hồn
+11793	Xếp chồng được
+11794	Chồng giấy
+11837	Giấy dán tường sao trời
+12474	Đồng hồ mặt trời
+12475	Giấy dán tường hoa hướng dương
+12516	Giỏ mây đựng quả mọng ngọt
+12519	Bánh quả mọng ngọt
+12522	Thùng quả mọng ngọt
+12524	Tiền xu bơi qua được
+12536	Đèn lồng giấy rừng taiga
+12590	Cửa sổ biển nâu xám
+12591	Tấm cửa sổ biển nâu xám
+12592	Kính biển nâu xám
+12593	Mảnh kính biển nâu xám
+12594	Đèn kính biển nâu xám
+12595	Tấm kính biển nâu xám
+12598	Ấm đun trà
+12600	Cửa sổ biển xanh mòng két
+12601	Tấm cửa sổ biển xanh mòng két
+12602	Kính biển xanh mòng két
+12603	Mảnh kính biển xanh mòng két
+12604	Đèn kính biển xanh mòng két
+12605	Tấm kính biển xanh mòng két
+13198	Bản đồ kho báu
+13222	Đá góc tường tuf
+13229	Bật công tắc đèn
+13410	Giấy dán tường đáy biển
+13460	Không dùng
+13612	Đèn lồng giấy dân làng
+13616	Giấy dán tường dây leo
+13617	Máy tính tiền cổ
+13618	Quả địa cầu cổ
+13620	Máy tính tiền cổ
+13682	Đèn lồng giấy Warden
+13686	Gạch gốm kính biển ấm
+13687	Phiến gạch gốm kính biển ấm
+13688	Bậc gạch gốm kính biển ấm
+13856	Dao chặt cắm
+13857	Dao cắm
+16114	Chào mừng tới Dusty Decorations! (Tiến trình này chỉ để mở khóa mọi công thức)
+13867	Chào mừng tới Dusty Decorations!
+13984	Mây đan
+13985	Giỏ mây
+13986	Phiến mây đan
+13987	Bậc mây đan
+14126	Vòng hoa mùa đông
+14127	Vòng nguyệt quế mùa đông
+14129	Đang làm dở
+14168	Phao gỗ
+14226	Thịt gói
+15327	Embeddium phát hiện các mod được biết là gây lỗi hiển thị hoặc sập trò chơi. Nên gỡ chúng đi. Xem danh sách bên dưới.
+10834	Tìm tùy chọn...
+151	%s đến %s XP
+156	%s đã nhận lời mời chơi cờ của bạn
+166	%s không thể chơi cờ
+167	%s đã hủy ván cờ
+169	Cấu hình %s
+171	Còn %s lần chế tạo
+173	%s ngày
+193	%s mời bạn chơi cờ
+197	%s L
+220	Còn %s
+226	%s giây
+246	%s XP
+264	Đã có %s/%s
+267	%smB
+375	Chế tạo được §atất cả %s§r mẻ
+376	Chế tạo được §dmột số§r mẻ
+438	Gỗ xiêm gai
+497	Nhận lời mời chơi cờ của %s
+502	Nhận:
+586	Cạnh dung nham
+679	Căn chỉnh
+774	Alt
+796	Bột thạch anh tím
+797	Khối chứa thạch anh tím
+798	Thạch anh tím
+879	Sửa bằng đe
+880	Đe
+889	Thêm mã mod của vật phẩm
+890	Thêm mã mod
+945	Thức ăn cho Armadillo
+946	Giáp
+965	Mũi tên
+1021	Phím của tác giả
+1058	Rìu
+1059	Thức ăn cho Axolotl
+1060	Thứ dụ được Axolotl
+1121	Khối tre
+1194	Cờ
+1202	Thùng
+15187	Cỡ mẻ: %s\nCuộn chuột để chỉnh\nGiữ §6[shift]§r để chỉnh mỗi lần 16
+1247	Vật phẩm cho đèn hiệu
+1250	Giường
+1252	Thức ăn cho ong
+1268	Hạt củ dền
+1279	Dưới dung nham
+1302	Phím gán
+1359	Gỗ bạch dương
+1443	Tượng đen
+1463	Kính đen
+1464	Tấm kính đen
+1468	Vua đen
+1473	Mã đen
+1479	Tốt đen
+1481	Hậu đen
+1487	Xe đen
+1543	Lò luyện
+1547	Que Blaze
+1656	Kính xanh nước biển
+1657	Tấm kính xanh nước biển
+1694	Thuyền
+1707	Xương
+1724	Sách cho giá sách
+1725	Giá sách
+1728	Ủng
+1754	Thanh bên dưới
+1763	Cung
+1781	Phá được bình trang trí
+1789	Pha chế
+1794	Gạch
+1848	Kính nâu
+1849	Tấm kính nâu
+1883	Khối nảy mầm
+1885	Mầm
+1904	Gỗ đốt được
+1918	Nút
+1943	Thức ăn cho lạc đà
+1967	Nấu bằng lửa trại
+1988	Nến
+1992	Không thể điền công thức khi máy chủ chưa cài EMI
+2028	Thảm
+2041	Thức ăn cho mèo
+2082	Thanh tìm kiếm ở giữa
+2145	Chế độ gian lận
+2146	Lấy một cái vào con trỏ
+2147	Lấy một cái vào túi đồ
+2148	Lấy một chồng vào con trỏ
+2149	Lấy một chồng vào túi đồ
+2151	Gian lận
+2207	Gỗ anh đào
+2262	Cờ vua
+2263	Giáp ngực
+2265	Thuyền có rương
+2267	Giáp ngực
+2268	Rương
+2271	Thức ăn cho gà
+2345	Mạch điện
+2381	Xóa tìm kiếm
+15250	Nhấp vào §6sản phẩm của công thức§r để gán cho cây công thức §dnày§r
+15257	Nhấp vào §6nút công thức mặc định§r để gán cho §amọi§r cây công thức
+2401	Nhấp để xem mọi công thức
+2404	Nhấp §6vào đây§r để §cxóa§r lựa chọn
+2425	Cụm
+2428	Quặng than
+2429	Khối chứa than
+2430	Than
+2433	Đá cuội
+2499	Kính không màu
+2500	Tấm kính không màu
+2501	Cát không màu
+2503	Cột
+2526	La bàn
+2541	Ủ phân
+2565	Bộ cấu hình có sẵn
+2590	Tỉ lệ tiêu hao: %s%%
+2676	Khối đồng
+2677	Bột đồng
+2679	Phôi đồng
+2683	Hạt đồng
+2685	Quặng đồng
+2686	Tấm đồng
+2688	Khối chứa đồng
+2700	Sao chép mã công thức
+2761	Chi phí mỗi mẻ:
+2778	Thức ăn cho bò
+2800	Chế tạo tất cả
+2801	Chế tạo tất cả vào túi đồ
+2809	Chế tạo một
+2810	Chế tạo một vào con trỏ
+2811	Chế tạo một vào túi đồ
+2816	Thứ chế tạo được
+2818	Chế tạo
+2819	Lưới chế tạo quá nhỏ để chứa nguyên liệu
+2820	Lịch sử chế tạo
+2826	Lần chế tạo
+2858	Sáng tạo và đã đăng ký
+2861	Chỉ sáng tạo
+2864	Đĩa nhạc Creeper làm rơi
+2865	Vật kích nổ Creeper

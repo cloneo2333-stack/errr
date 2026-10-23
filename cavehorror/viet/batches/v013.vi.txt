@@ -1,0 +1,300 @@
+7905	Kẻ ngốc
+7927	Không hoạt động
+7935	Không có kết quả :(
+7964	Số lượng thường
+7988	Khối nốt nhạc
+8174	Bật
+8181	Một mẫu dò
+8193	Chỉ để thử nghiệm:
+8199	Chỉ hiện thông tin năng lượng khi nhấn phím [Hiện chi tiết].
+8200	Chỉ hiện thông tin chất lỏng khi nhấn phím [Hiện chi tiết].
+8201	Chỉ hiện chất lỏng khi không có mục tiêu nào khác.
+8215	Mở cấu hình
+8332	Chuyển động lớp phủ
+8343	Chủ: %s
+8366	Tranh
+8620	Piglin
+8890	Đầu người chơi
+8922	Cài đặt phần bổ trợ
+8977	thuốc,trạng thái
+8996	Năng lượng: %d
+9008	Nhấn
+9009	Nhấn %s lần nữa để tắt
+9010	Nhấn %s lần nữa để mở lại
+9033	Xem trước
+9070	Nghề: %s
+9199	Đẩy chú thích xuống
+9627	Thông tin Redstone
+9769	Tên đăng ký
+10273	Tọa độ tương đối
+10349	Cần giữ Ctrl.
+10370	Đặt lại cài đặt
+10724	Lưu và thoát
+10843	Tìm kiếm...
+11075	Hiện "Không thể phá hủy"
+11090	Hiện chi tiết
+11091	Hiện chi tiết (phím thay thế)
+11101	Hiện phân số
+15736	Hiện thông tin thu hoạch cả ở chế độ sáng tạo hoặc khán giả
+11107	Hiện ở chế độ sáng tạo
+11115	Ngưỡng hiện tên
+11122	Hiện lớp phủ
+11129	Hiện công thức
+11134	Hiện khoảng cách giữa người chơi và mục tiêu.
+11135	Hiện sức mạnh phù phép của khối.
+11136	Hiện mặt khối mà người chơi chạm vào.
+11137	Hiện nốt và nhạc cụ của khối nốt nhạc.
+11138	Hiện vị trí của mục tiêu.
+11139	Hiện trạng thái phủ sáp của khối, như biển hiệu phủ sáp.
+11142	Hiện công dụng
+11145	Hiện vật phẩm thuộc mod nào trong chú thích.
+11156	Hiện thông tin về thứ bạn đang nhìn.
+11369	Trống lẫy
+11467	Chỉ nguồn
+11518	Tốc độ: %s
+11755	Viền vuông
+11756	Sóng vuông
+11824	Bắt đầu ở dòng mới
+11831	Trạng thái: %s
+11943	Cường độ: %s
+12426	Trừ
+12534	tab,danh sách người chơi
+12559	bồn chứa,chất lỏng
+12656	Thử số thực
+12657	Thử nhiên liệu
+12658	Thử chuỗi
+12659	Chế độ đọc chữ thành lời
+15808	Số vật phẩm hiện ra khi không nhấn phím [Hiện chi tiết].
+15809	Số vật phẩm hiện ra khi nhấn phím [Hiện chi tiết].
+15816	Cách chú thích hoạt động thường ngày và cách phím [Hiện chi tiết] hoạt động.
+15895	Số vật phẩm tối đa được hiện tên thay vì chỉ hiện biểu tượng.
+12906	Giao diện
+12947	Tính năng này cần máy chủ cài Jade
+12964	Tùy chọn này do máy chủ điều khiển
+12965	Tùy chọn này bị các mod sau tắt:
+13016	Độ ổn định TNT
+13033	Bật tắt
+13042	Bật tắt chất lỏng
+13067	bật tắt,giữ,gọn nhẹ
+13086	Trên
+13098	trên,dưới,giữa,tỉ lệ
+13153	Tổng sức mạnh phù phép
+13187	trong suốt,độ trong
+13219	đọc,thuật lại,đọc to,nhấn,bật tắt
+13387	Không thể phá hủy
+13417	Thất nghiệp
+13459	Không ổn định
+13575	Neo dọc
+13578	Vị trí dọc
+13587	Đàn rung
+13614	Nghề dân làng
+13689	Cảnh báo người chơi về TNT đặc biệt sẽ cháy khi bị đánh.
+13820	Trạng thái phủ sáp
+14145	Bộ xương Wither
+14242	X%s Y%s Z%s
+14255	Mộc cầm
+14465	Biến đổi dân làng thây ma
+14481	{0} giây
+14956	§fhiện thông tin§r về thứ §fbạn đang nhìn§r.
+149	%s (đang chảy)
+218	Đánh dấu công thức %s
+232	Thẻ %s
+235	%s tới %s XP
+236	%s để hiện mọi công thức.
+346	[Nhấn "%s" để chế tạo nhiều]
+347	[Nhấn "%s" để chế tạo một]
+348	[Nhấn "%s" để hiện chi tiết]
+15036	Thêm thông tin gỡ lỗi vào chú thích nguyên liệu khi bật chú thích nâng cao.
+15127	Thêm vào JEI những nguyên liệu cố tình gây sập, giúp gỡ lỗi JEI.
+15173	Tự xoay vòng các nguyên liệu trong ô công thức theo thời gian.
+1590	Thẻ khối
+1718	Danh sách đánh dấu
+1719	Đánh dấu sản phẩm thành công thức
+1720	Đánh dấu công thức này.
+1721	Đánh dấu
+1722	Tính năng chú thích đánh dấu
+2045	Bắt lỗi hiển thị
+15217	Bắt lỗi hiển thị từ nguyên liệu của mod và cố khôi phục thay vì sập.
+2144	Lấy vật phẩm vào thanh nóng bằng phím tắt
+2150	Gian lận
+15245	Chọn PAGED để có nút lật trang, SCROLLING để có thanh cuộn theo hàng, hoặc SMOOTH_SCROLLING để có thanh cuộn mượt.
+2387	NHẤP
+2494	Giá trị màu để tìm.
+2502	Màu
+15267	Tùy chọn cấu hình hiện lịch sử tra cứu nguyên liệu trong JEI
+15268	Tùy chọn cấu hình liên quan tới đánh dấu nguyên liệu và công thức.
+2558	Tùy chọn cấu hình liên quan tới gian lận.
+2559	Tùy chọn cấu hình liên quan tới hiện tên mod
+15269	Tùy chọn cấu hình liên quan tới cách JEI sắp xếp công thức và nguyên liệu.
+2560	Tùy chọn cấu hình liên quan tới đầu vào trong JEI.
+15270	Tùy chọn cấu hình liên quan tới tra cứu công dụng và công thức của nguyên liệu trong JEI.
+2561	Tùy chọn cấu hình liên quan tới tối ưu hiệu năng trong JEI.
+15271	Tùy chọn cấu hình liên quan tới tìm vật phẩm theo màu trong JEI
+15272	Tùy chọn cấu hình liên quan tới danh sách đánh dấu (danh sách nguyên liệu đã đánh dấu ở bên trái màn hình)
+15273	Tùy chọn cấu hình liên quan tới danh sách nguyên liệu (danh sách nguyên liệu ở bên phải màn hình)
+2562	Tùy chọn cấu hình liên quan tới chú thích trong JEI.
+2563	Tùy chọn cấu hình để đổi diện mạo của JEI.
+2564	Tùy chọn cấu hình giúp nhà phát triển gỡ lỗi JEI
+2805	Chế tạo công thức đã đánh dấu (nhiều)
+2806	Chế tạo công thức đã đánh dấu (một)
+3468	Giao diện gỡ lỗi
+3469	Chú thích thông tin gỡ lỗi
+3470	Nguyên liệu gỡ lỗi
+3471	Đầu vào gỡ lỗi
+3575	Giá trị mặc định: %s
+3612	Mô tả: %s
+3802	Hiện hoặc ẩn lớp phủ lịch sử tra cứu.
+3806	Bên hiển thị
+3898	Độ trễ kéo
+3899	Kéo để sắp xếp lại đánh dấu
+3904	Vẽ nền giao diện
+15329	Cho phép lấy vật phẩm vào thanh nóng bằng Shift và phím số.
+4191	Bật vật phẩm thử gây sập
+4192	Bật chế độ giao diện gỡ lỗi
+4193	Bật chế độ đầu vào gỡ lỗi
+4194	Cho phép kéo đánh dấu để sắp xếp lại trong danh sách.
+15331	Cho phép hiện nguyên liệu không có trong trình đơn sáng tạo.
+15332	Bật để vẽ ảnh nền phía sau danh sách đánh dấu.
+15333	Bật để vẽ ảnh nền phía sau danh sách nguyên liệu.
+4432	Tính năng thêm cho chú thích đánh dấu.
+4745	Thẻ chất lỏng
+5492	Ẩn đánh dấu JEI
+5493	Ẩn lịch sử tra cứu JEI
+5504	Ẩn nội dung thẻ chỉ có một nguyên liệu
+15408	Ẩn nội dung thẻ trong chú thích khi thẻ chỉ có một nguyên liệu.
+15421	Giữ %s để ghim chú thích này, rồi nhấp vào nguyên liệu để xem công thức.
+5551	Giữ phím đã đặt để hiện tính năng chú thích đánh dấu.
+5577	Căn ngang
+15423	Căn ngang danh sách đánh dấu trong vùng trống.
+15424	Căn ngang danh sách nguyên liệu trong vùng trống.
+5812	Bộ lọc nguyên liệu
+5813	Danh sách nguyên liệu
+5814	Giai đoạn sắp xếp nguyên liệu
+5816	Tóm tắt nguyên liệu:
+5825	Đầu vào
+5991	Thẻ vật phẩm
+15518	JEI đang thiếu công thức. Hãy cài JEI trên máy chủ để đồng bộ công thức về máy khách.
+6299	Phím tắt cho chú thích đánh dấu
+6388	Chế độ bố cục
+15551	Ghi nhật ký nguyên liệu được thêm và cập nhật trong bộ lọc nguyên liệu của JEI.
+15552	Ghi nhật ký thông tin về cây hậu tố dùng để tìm kiếm, giúp gỡ lỗi JEI.
+6722	Ghi nhật ký thống kê cây tìm kiếm
+6738	Tra cứu chất lỏng bên trong
+6740	Tra cứu thẻ khối của vật phẩm
+6741	Tra cứu
+6766	Tìm kiếm ít bộ nhớ
+7413	Số cột tối đa
+7419	Số nguyên liệu tối đa
+7424	Số cột tối đa được hiện.
+7425	Số nguyên liệu tối đa lưu trong lịch sử tra cứu.
+7426	Số hàng tối đa được hiện.
+7427	Số hàng tối đa hiện trong lớp phủ lịch sử tra cứu.
+7429	Số hàng tối đa
+7756	Tên: %s
+7776	Chế độ điều hướng
+7777	Hiển thị điều hướng
+7888	Công thức tiếp
+15581	Số mili giây trước khi một lần nhấp giữ lâu được tính là kéo chuột.
+8563	Dừng xoay vòng nguyên liệu công thức
+9247	Chuyển nhanh vật phẩm bóng
+9423	Tóm tắt nguyên liệu công thức
+9428	Xoay vòng ô công thức
+9429	Giai đoạn sắp xếp công thức
+9430	Cảnh báo đồng bộ công thức
+15670	RECTANGULAR giữ điều hướng trang thẳng hàng với lưới đánh dấu mà vẫn cho cắt bỏ các ô bị loại trừ. MAXIMIZE_AVAILABLE_SPACE có thể đổi cỡ và dời điều hướng trang quanh vùng bị loại trừ.
+15671	RECTANGULAR giữ điều hướng trang thẳng hàng với lưới nguyên liệu mà vẫn cho cắt bỏ các ô bị loại trừ. MAXIMIZE_AVAILABLE_SPACE có thể đổi cỡ và dời điều hướng trang quanh vùng bị loại trừ.
+10298	Bỏ đánh dấu công thức này.
+15685	Chừa chỗ cho thông báo để chúng không đè lên giao diện JEI.
+10532	NHẤP CHUỘT PHẢI
+15694	Tốc độ cuộn chuột trong hộp cuộn mượt. Tính bằng điểm ảnh.
+10819	Tên gọi khác khi tìm:
+10820	Tìm theo chữ cái đầu viết tắt của tên mod.
+10821	Tìm theo màu
+10827	Tìm trong chú thích nâng cao (hiện bằng F3 + H).
+10828	Tìm theo tên gọi khác của nguyên liệu
+15695	Tìm theo tên gọi khác của nguyên liệu do phần bổ trợ thêm vào, bên cạnh tên nguyên liệu.
+10830	Tìm theo tên gọi khác của mod
+15696	Tìm theo tên gọi khác của mod do phần bổ trợ thêm vào, bên cạnh tên mod.
+10831	Tìm theo mã mod
+10832	Tìm theo mã mod bên cạnh tên mod.
+10837	Tìm theo tên mod viết tắt
+15704	Đặt tìm kiếm sang chế độ ít bộ nhớ (tìm chậm hơn nhưng dùng ít RAM hơn).
+11034	Chia sẻ vật phẩm lên khung trò chuyện
+11047	SHIFT
+15732	Hiện cảnh báo trong khung trò chuyện khi máy chủ không đồng bộ công thức cho JEI (ví dụ máy chủ gốc, hoặc máy chủ chưa cài JEI).
+15734	Hiện tóm tắt nguyên liệu cần cho một công thức, trên chú thích của sản phẩm.
+11079	Hiện chi tiết đánh dấu
+11080	Hiện công thức đã đánh dấu trước (tắt).
+11081	Hiện công thức đã đánh dấu trước (bật).
+11085	Hiện công thức chế tạo được trước (tắt).
+11086	Hiện công thức chế tạo được trước (bật).
+11087	Hiện tên thẻ sáng tạo
+11088	Hiện tên thẻ sáng tạo trong chú thích nguyên liệu.
+11103	Hiện nguyên liệu ẩn
+11108	Hiện đánh dấu JEI
+11109	Hiện lịch sử tra cứu JEI
+15737	Hiện công thức cho thẻ nguyên liệu như thẻ vật phẩm và thẻ khối.
+15738	Hiện nội dung thẻ trong chú thích khi xem nguyên liệu công thức.
+11132	Hiện nội dung thẻ
+11133	Hiện công thức của thẻ
+15740	Hiện danh sách nguyên liệu vừa dùng để tra công thức.
+11172	Bên màn hình hiện lớp phủ lịch sử tra cứu.
+11356	Tốc độ cuộn mượt
+11441	Thứ tự sắp xếp công thức được hiện.
+11442	Thứ tự sắp xếp danh sách nguyên liệu.
+16022	Máy chủ %s này chưa cài JEI. JEI đang hiện công thức mặc định từ máy khách của bạn, có thể khác với trên máy chủ. Hãy cài JEI trên máy chủ để hiện đúng công thức của máy chủ.
+16023	Máy chủ %s này không cung cấp công thức cho JEI. JEI đang hiện công thức mặc định từ máy khách của bạn, có thể khác với trên máy chủ.
+16039	Nguyên liệu này bị sập khi đang vẽ. Hãy xem nhật ký máy khách để biết chi tiết.
+16040	Đây là máy chủ gốc. JEI đang hiện công thức mặc định từ máy khách của bạn, có thể khác nếu máy chủ dùng gói dữ liệu. Hãy cài Forge, NeoForge hoặc Fabric trên máy chủ cùng JEI để hiện đúng công thức của máy chủ.
+12968	Công thức này bị sập. Hãy xem nhật ký máy khách để biết chi tiết.
+16057	Máy chủ này đã gửi công thức cho JEI, nhưng không cái nào dùng được. JEI không thể hiện công thức của máy chủ. Hãy kiểm tra cách cài JEI, gói dữ liệu và các mod công thức trên máy chủ.
+13027	Dàn lại thông báo
+13085	Chú thích
+13540	Giá trị hợp lệ: %s
+13574	Căn dọc
+16101	Căn dọc danh sách đánh dấu trong vùng trống.
+16102	Căn dọc danh sách nguyên liệu trong vùng trống.
+16105	Hiển thị các nút điều hướng như nút trang và thanh cuộn. Dùng AUTO_HIDE để chỉ hiện khi danh sách tràn ra.
+16106	Hiển thị các nút trang phía trên. Dùng AUTO_HIDE để chỉ hiện khi có nhiều trang.
+16120	Khi tra công thức với vật phẩm chứa chất lỏng, tra luôn công thức của chất lỏng.
+16124	Khi tìm thẻ vật phẩm, tính luôn thẻ của các khối mặc định chứa trong vật phẩm.
+16128	Khi đúng, nhấn phím đánh dấu trên sản phẩm của công thức sẽ đánh dấu công thức thay vì nguyên liệu.
+2498	Đèn bí ngô nhiều màu
+3952	Đèn bí ngô nhuộm được
+12549	Taknax
+979	Táo tro
+2863	Bánh Creeper
+4258	Trứng Ender
+4707	Kẹo mút cầu lửa
+4847	Thịt thối đông lạnh
+6983	Bánh quy dung nham
+7693	Bánh mì bùn
+8583	Nước uống Ghast bóng ma
+10627	Táo thối
+10806	Bít tết sculk
+11241	Nước hầm xương bộ xương
+11291	Tổ ong nhớt nhát
+11534	Súp mắt nhện
+11627	Bát gà ôi thiu
+11628	Spooky Foods
+678	Người ngoài hành tinh
+6130	Jed Kurzel: Alien Covenant
+6131	Jed Kurzel: Alien Covenant (đã sửa)
+6133	Jed Kuzel: Alien Covenant
+7730	Đĩa nhạc
+11632	Khối nhạc rùng rợn
+11633	Thương nhân nhạc rùng rợn
+1630	Bàn tay đẫm máu
+2040	Mèo
+2042	Mèo trên bí ngô
+2043	Mèo trên bí ngô dưới trăng
+2048	Bầy mèo
+2056	Cave Horror
+3460	Cái chết
+4754	Phù thủy bay
+4934	Cánh đồng nấm ma
+4935	Mũ phù thủy ma
+6421	Leon
+7240	Trăng khổng lồ trên dinh thự
+7726	Cánh đồng nấm
+8142	Trăng trên biển

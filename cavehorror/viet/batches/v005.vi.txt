@@ -1,0 +1,300 @@
+9276	Bán kính
+9356	Phát sinh thô
+10636	Cổng dịch chuyển đổ nát
+10637	Cổng dịch chuyển đổ nát sa mạc
+10638	Cổng dịch chuyển đổ nát rừng
+10639	Cổng dịch chuyển đổ nát núi
+10640	Cổng dịch chuyển đổ nát Nether
+10641	Cổng dịch chuyển đổ nát đại dương
+10642	Cổng dịch chuyển đổ nát đầm lầy
+10685	Mẫu
+10818	Tìm kiếm
+10825	Tìm theo nhóm
+10826	Tìm cái tiếp theo
+10844	Đang tìm
+10926	Chọn công trình
+11055	Xác tàu đắm
+11056	Xác tàu mắc cạn
+11435	Sắp xếp theo
+11464	Nguồn
+11833	Trạng thái
+11952	CHUỖI: CÔNG TRÌNH
+12411	Thành trì
+12412	Thành trì
+12413	Công trình
+12496	Mặt đất
+12509	Túp lều đầm lầy
+13092	Lớp trên cùng
+13409	Dưới lòng đất
+13561	Thảm thực vật
+13601	Làng
+13602	Làng sa mạc
+13603	Làng đồng bằng
+13604	Làng xavan
+13605	Làng tuyết
+13606	Làng taiga
+1	\n§7Quái vật gần đó sẽ nhìn vào máy ảnh khi đồng hồ đang đếm
+268	%smm
+317	Cần 3 lớp để ghép thành một Tấm sắc màu
+318	Chậm gấp 3 lần do khúc xạ
+340	[Xác nhận?]
+364	Một khoảnh khắc trong thời gian
+365	Ánh nhìn xuyên thấu
+554	Thêm thông tin vào JEI
+558	Thêm ảnh
+579	Địa chỉ không đúng dạng.
+580	Địa chỉ không trỏ tới nguồn nào.
+581	Địa chỉ có giao thức không rõ.
+582	Địa chỉ chưa đủ cụ thể.
+583	Địa chỉ không phù hợp để chiếu.
+584	Địa chỉ quá rộng.
+639	Ảnh cũ
+654	Album
+836	Chọc giận một Enderman bằng cách chụp ảnh nó
+855	Đang có một lần xuất khác.
+997	Thông báo thông tin phụ kiện
+998	Thông báo trang hướng dẫn phụ kiện
+1001	Tấn công khi đang nhìn qua kính ngắm
+1062	B
+1063	Kinh nghiệm mỗi lần in đen trắng
+1064	Thời gian in đen trắng
+1076	Màu nền
+1426	Phim đen trắng
+1427	Cuộn phim đen trắng
+1480	Mực in đen
+1654	Kính lọc xanh nước biển
+1673	Màn hình xanh chết chóc xuất hiện
+1819	Hỏng
+1822	Máy chiếu xuyên cõi hỏng
+1920	bởi %1$s
+1945	Nút máy ảnh lách cách
+1946	Núm máy ảnh xoay
+1947	Đèn chớp máy ảnh lóe
+1948	Số lần đèn chớp máy ảnh
+1949	Máy ảnh đã được sửa
+1950	Máy ảnh đang được dùng
+15206	Máy ảnh phát ra tiếng lạ. Có vẻ lần chụp không thành công.
+15207	Máy ảnh trục trặc khi đang chụp,\nvà không có ai ở gần để sửa.
+1955	Nút nhả máy ảnh lách cách
+1957	Màn trập máy ảnh lạch cạch
+1958	Chân máy ảnh
+1959	Chân máy ảnh trống
+1960	Chân máy ảnh được lắp
+1961	Chú thích chân máy ảnh
+1962	Đồng hồ máy ảnh tích tắc
+1963	Kính ngắm máy ảnh đóng
+1964	Kính ngắm máy ảnh mở
+1984	Hủy hẹn giờ chụp
+1990	Không thể tháo máy ảnh khi đang chiếu.
+1991	Không thể xuất ảnh: không tìm thấy mã [%s].
+15213	Không lấy được mã ảnh. Chưa có ảnh nào được lưu hoặc đã có lỗi.
+1995	Không thể tải từ tệp: tệp không tồn tại.
+1996	Không thể tải từ tệp: đường dẫn không có phần mở rộng.
+1997	Không thể tải từ tệp: đường dẫn trống.
+1998	Không thể tải từ tệp: đường dẫn không hợp lệ.
+15214	Không thể tải từ tệp: đường dẫn trỏ tới thư mục thay vì một tệp cụ thể
+1999	Không thể tải từ tệp: định dạng ảnh không được hỗ trợ.
+2000	Không thể tải từ tệp: hết thời gian chờ.
+2001	Không thể tải từ tệp: không đọc được tệp.
+2002	Không thể tải từ đường dẫn: đường dẫn trống.
+2003	Không thể tải từ đường dẫn: đường dẫn không hợp lệ.
+2004	Không thể tải từ url: URL không hợp lệ.
+2005	Không thể tải từ url: thiếu tiền tố 'http://' hoặc 'https://'.
+2006	Không thể tải từ url: hết thời gian chờ.
+2007	Không thể tải từ url: không đọc được ảnh.
+2008	Không thể chiếu khi chưa có địa chỉ.
+2009	Không thể chỉnh lại máy ảnh khi màn trập đang mở.
+2014	Chụp
+2015	Số tick trễ khi chụp có đèn chớp
+2016	Đã hủy chụp vì mất quá nhiều thời gian.
+2019	Đã chụp ảnh kênh %s:
+2021	Chụp thất bại. Xem nhật ký để biết chi tiết.
+2022	Đang chụp các kênh RGB...
+2079	Che mọi ảnh của người khác
+2080	Che ảnh chiếu của người khác
+2108	Đổi da
+2328	Kinh nghiệm mỗi lần in sắc màu
+2329	Thời gian in sắc màu
+2330	Tấm sắc màu
+2373	Dọn dữ liệu tải lên đã hết hạn
+2391	Nhấp để xác nhận (hoặc chạy lại lệnh)
+2488	Cân bằng màu: %s
+2489	Kinh nghiệm mỗi lần in màu
+2490	Phim màu
+2491	Cuộn phim màu
+2492	Thời gian in màu
+2497	Thuốc tráng phim đủ màu
+2537	Hợp chất tổng hợp phức tạp
+2539	Đường gióng bố cục
+2599	Độ tương phản: %s
+2673	Sao chép bằng cách chế tạo với:
+2698	Bản sao của bản sao
+2699	Bản sao của bản gốc
+2768	Không lấy được ảnh kịp lúc.
+2769	Không lấy được ảnh: một hoặc nhiều yêu cầu thất bại.
+2847	Đổi nhanh phụ kiện bằng Deployer của Create
+2853	Đã tạo ảnh sắc màu:
+3010	Tâm ngắm
+3133	Mực in lục lam
+3466	Gỡ lỗi
+3561	Tiêu cự mặc định
+3562	Cỡ khung mặc định
+3644	Đã tráng %s
+3645	Phim đen trắng đã tráng
+3646	Tráng bằng cách chế tạo với:
+3647	Phim màu đã tráng
+3648	Cuộn phim đã tráng
+3649	Đang tráng: %s
+3727	Số tick trễ khi chụp trực tiếp
+3728	Mod chụp trực tiếp
+3751	Đã tắt đánh dấu thực thể trong khung.
+3954	Số mực mỗi lần in đen trắng
+3955	Số mực mỗi lần in kênh xanh nước biển
+3956	Số mực mỗi lần in kênh xanh lá
+3957	Số mực mỗi lần in kênh đỏ
+3958	Số mực mỗi lần in màu
+4204	Bật chế độ toàn cảnh khi chụp nền
+4205	Bật chiếu ảnh
+15334	Đã bật đánh dấu thực thể trong khung khi nhìn qua kính ngắm.
+4279	Nhập tên album:
+4338	Mã lỗi:
+4393	Xuất
+4397	Không có lần xuất nào đang chạy.
+4402	Hệ số nhân cỡ khi xuất
+4404	Đã dừng xuất.
+4408	Xuất các ảnh đã xem
+4409	Đã xuất
+4411	Đã xuất %s ảnh vào %s.
+4415	Đã xuất: [%s]
+4416	Đang xuất  '%s': [%s/%s]
+4417	Đang xuất %s ảnh...
+4418	Xuất '%s' thất bại: %s
+15355	Chụp một khung phim đen trắng với một kính lọc màu cơ bản
+4419	Tay săn ảnh bị lộ
+4420	Ảnh chụp
+4421	Không nhận được ảnh '%s'.
+4422	Không tìm thấy hoặc không tải được ảnh có mã '%s'.
+4424	Ảnh vẫn chưa vội có sẵn.
+4447	Không tạo được ảnh sắc màu: %s
+4474	Dùng người chơi khác nếu không có
+4484	Ảnh chân dung gia đình
+15361	Phim\n§7Lưu các phim âm bản đã chụp\n§8 • \n§8[§7Nhấp§8] để xem các cuộn phim có sẵn
+4538	Hết phim
+4539	Khung phim
+4540	Số khung phim đã chụp
+4541	Phim cần được tráng
+4544	Đặt tên cuộn phim
+4545	Cuộn phim
+4546	Phim cuộn sang khung tiếp theo
+15362	Kính lọc\n§7Nhuộm hoặc biến đổi hình ảnh\n§8 • \n§8[§7Nhấp§8] để xem các kính lọc có sẵn
+4558	Kính lọc
+4582	Đã xuất xong ảnh '%s'.
+15382	Đèn chớp\n§7Chiếu sáng một vùng nhỏ phía trước máy ảnh\n • Có thể chuyển §fBật§7/§fTắt§7/§fTự động§7\n • Ở chế độ §fTự động§7: chỉ lóe\n   khi độ sáng tại vị trí máy ảnh dưới 8
+4726	Chế độ đèn chớp
+4727	Đèn chớp
+4757	Tiêu cự
+4778	Buộc chụp trực tiếp
+15385	Quên tắt đèn chớp khi đang lén chụp một dân làng
+4815	Khung bị phơi sáng quá lâu nên ảnh bị hỏng.
+4816	Khung: %s
+4817	Khung: %s
+4886	G
+4905	Sinh ra đồ của Exposure trong rương
+4913	Có được một bức ảnh chụp một Bộ xương kỳ lạ
+4986	Khung ảnh kính
+5004	Khung ảnh phát sáng
+5195	Kính lọc xanh lá
+15404	Có ba cỡ: 1x1, 2x2 và 3x3. Đặt như tranh, nhưng cũng đặt được trên sàn và trần. Túi mực phát sáng sẽ làm nó phát sáng.
+5482	Ẩn tâm ngắm khi đang cầm ảnh
+5503	Ẩn phần còn lại của giao diện khi đang dùng
+5521	Phim đen trắng độ nhạy cao
+5522	Phim màu độ nhạy cao
+5546	Giữ trong túi đồ để ghép ba lớp thành một bức ảnh
+5611	Rê chuột lên các bộ phận
+5620	HSB: %s
+5644	Tôi cần ảnh của Người... Nhện?
+5674	Mã: %s
+5851	Tích hợp
+5860	Tương tác với Buồng tráng ảnh
+5863	Máy chiếu xuyên cõi
+5864	Máy chiếu xuyên cõi kích hoạt
+5865	Máy chiếu xuyên cõi tan rã vì
+5866	Tên dài hơn cho Máy chiếu xuyên cõi
+5867	Máy chiếu xuyên cõi gặp sự cố và đã hỏng.
+5969	Một bề mặt rực rỡ giữa hư không!
+6286	Giữ hiệu ứng hậu kỳ
+15533	Ống kính\n§7Đổi tiêu cự\n§8 • \n§8[§7Con lăn chuột§8] khi nhìn qua kính ngắm để phóng to, thu nhỏ\n§8 • \n§8[§7Nhấp§8] để xem các ống kính có sẵn
+6420	Ống kính
+6434	Mức: %s
+6563	Buồng tráng ảnh
+6564	Buồng tráng ảnh in một bức ảnh
+6565	Bật đèn lên!
+6838	Mực in đỏ sậm
+7112	Màu chữ chính
+7124	Trục trặc
+7491	Nhấp chuột giữa để điều khiển kính ngắm
+7588	Chế độ: Sắc màu
+7589	Chế độ: Thường
+7885	Khung tiếp
+7886	Trang tiếp
+7916	Chưa có ảnh nào được lưu trong phiên này.
+7918	Không có ảnh nào được xuất.
+7919	Không có phim
+7956	Nhiễu: %s
+7981	Chưa chụp đủ khung. Cần 3 khung.
+7983	Không đủ sáng
+7987	Ghi chú
+15579	Lưu ý! Khi bạn ký tên vào album, nó sẽ không sửa được nữa.
+8212	Mở bảng điều khiển máy ảnh
+8303	Sắp xếp ảnh đã xuất theo thế giới
+8305	Bản gốc
+8392	Bảng màu: %s
+8587	Thuốc làm cũ ảnh
+8588	Album ảnh
+8589	Giấy ảnh
+8590	Ảnh
+8591	Chụp ảnh một Nhện cưỡi
+8592	Ảnh bị hỏng
+8593	Chụp ảnh mọi loài động vật hoang dã
+8594	Khung ảnh
+8595	Khung ảnh bị hỏng
+8596	Khung ảnh lách cách
+8597	Khoảng cách lược bớt khung ảnh
+8598	Khung ảnh được tháo ra
+8599	Khung ảnh được lắp vào
+8600	Đã đặt khung ảnh
+8601	Đã đặt ảnh
+8602	Ảnh hiện trong khung vật phẩm
+8603	Ảnh sột soạt
+8604	Ảnh
+8828	Khung ảnh khớp từng điểm ảnh
+8898	Người chơi phải cầm máy ảnh trên tay.
+8899	Người chơi phải cầm cuộn phim trên tay.
+9023	Nhấn F1
+9036	Khung trước
+9037	Trang trước
+9042	In
+9043	In một bức ảnh
+15650	In ảnh bằng quy trình sắc màu bằng cách đặt Kính màu khói lên trên Buồng tráng ảnh
+9045	Đang in
+9046	In từng kênh riêng
+9080	Số tick chờ khi chiếu
+9206	Mặt tứ giác
+9267	R
+9397	Tương thích với Real Camera
+9543	Kính lọc đỏ
+10311	Đổi tên
+10314	Vẽ hình
+10341	Đang yêu cầu '%s': [%s/%s]
+10343	Độ sáng cần thiết
+10522	Nhấp chuột phải
+10535	Nhấp chuột phải để đổi nhanh phụ kiện
+10537	Nhấp chuột phải để mở phụ kiện
+10647	Quy tắc một phần ba
+10859	Màu chữ phụ
+10936	Hẹn giờ chụp
+10937	Hẹn giờ chụp\n§7Làm trễ lúc nhả màn trập
+10938	Chú ý khi hẹn giờ chụp
+10939	Bán kính chú ý khi hẹn giờ chụp
+10940	Khoảng cách máy ảnh khi tự chụp
+10948	Độ nhạy: %s

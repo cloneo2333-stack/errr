@@ -1,0 +1,18 @@
+{
+ "entity.anomaly.anomaly_base": "Dị thể",
+ "entity.anomaly.anomaly_chase": "Dị thể",
+ "entity.anomaly.anomaly_diamond": "Dị thể",
+ "entity.anomaly.anomaly_ghost": "Dị thể",
+ "entity.anomaly.sound_entity": "Thực thể âm thanh",
+ "item.anomaly.anomaly_base_spawn_egg": "Trứng sinh ra Dị thể",
+ "item.anomaly.anomaly_chase_spawn_egg": "Trứng sinh ra Dị thể",
+ "item.anomaly.anomaly_diamond_spawn_egg": "Trứng sinh ra Dị thể",
+ "item.anomaly.anomaly_finder": "Máy dò dị thể",
+ "item.anomaly.anomaly_finder.description_0": "Công cụ gỡ lỗi này báo tin nếu tìm thấy dị thể trong bán kính 100 ô",
+ "item.anomaly.anomaly_finder.description_1": "Phải cầm trên tay",
+ "item.anomaly.anomaly_ghost_spawn_egg": "Trứng sinh ra Dị thể",
+ "subtitles.anomalyambient": "rên rỉ",
+ "subtitles.heartbeat": "CHẠY ĐI",
+ "subtitles.horrorambient": "Nó đang nhìn...",
+ "subtitles.suspence": "CHẠY ĐI"
+}

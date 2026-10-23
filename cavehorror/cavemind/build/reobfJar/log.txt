@@ -1,0 +1,747 @@
+Java Launcher: C:\Users\ACER\.jdks\jdk-17.0.20.1+1\bin\java.exe
+Arguments: '--input, E:\Document\New project 5\Claude\1\cavehorror\cavemind\build\libs\cavemind-5.4.0.jar, --output, E:\Document\New project 5\Claude\1\cavehorror\cavemind\build\reobfJar\output.jar, --names, E:\Document\New project 5\Claude\1\cavehorror\cavemind\build\reobfJar\mappings.tsrg, --lib, E:\Document\New project 5\Claude\1\cavehorror\cavemind\libs\voicechat-api.jar, --lib, C:\Users\ACER\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.0_mapped_official_1.20.1\forge-1.20.1-47.3.0_mapped_official_1.20.1.jar, --lib, C:\Users\ACER\.gradle\caches\forge_gradle\minecraft_repo\versions\1.20.1\client-extra.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.20.1-47.3.0\547850469c8a336b4c60cb8619f6cd421e9e5f55\fmlloader-1.20.1-47.3.0.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarSelector\0.3.19\376cc9c8ea60720cf027c01fc033de915699801c\JarJarSelector-0.3.19.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarMetadata\0.3.19\83feaa9b770e6ac0e96ee4fc23fa89325c5fe2\JarJarMetadata-0.3.19.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\31.1-jre\60458f877d055d0c9114d9e1a2efb737b4bc282c\guava-31.1-jre.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.1\1227f9e0666314f9de41477e3ec277e542ed7f7b\java-objc-bridge-1.1.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\forgespi\7.0.1\3b4972a0cdb135853dba219be61a79b22cff1309\forgespi-7.0.1.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mergetool\1.1.5\f3da18e12c696d35a47c82cbb2cc8b5aa15e1154\mergetool-1.1.5-api.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\24.0.1\13c5c75c4206580aa4d683bffee658caae6c9f43\annotations-24.0.1.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\cpw.mods\securejarhandler\2.1.10\51e6a22c6c716beb11e244bf5b8be480f51dd6b5\securejarhandler-2.1.10.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\coremods\5.1.6\62fab3c3d59d37f8e15af311cb638c6f6123423\coremods-5.1.6.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\10.0.9\6d9443f56f50bb85cea383686ff9c867391458b\modlauncher-10.0.9.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.openjdk.nashorn\nashorn-core\15.3\43977e804697048fc8d81d333a36c17d07a5b3dd\nashorn-core-15.3.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\9.7\e86dda4696d3c185fcc95d8d311904e7ce38a53f\asm-commons-9.7.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\9.7\c0655519f24d92af2202cb681cd7c1569df6ead6\asm-util-9.7.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\9.7\e4a258b7eb96107106c0599f0061cfc1832fe07a\asm-analysis-9.7.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\9.7\e446a17b175bfb733b87c5c2560ccb4e57d69f1a\asm-tree-9.7.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\9.7\73d7b3086e14beb604ced229c302feff6449723\asm-9.7.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\accesstransformers\8.0.4\272d240aa73f42195b2a68e2ebd8b701ecf41f63\accesstransformers-8.0.4.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.antlr\antlr4\4.9.1\e92af8ab33e428461927b484e90bb155a4f3a052\antlr4-4.9.1.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.antlr\antlr4-runtime\4.9.1\428664f05d2b7f7b7610204b5aa7c1763f62011a\antlr4-runtime-4.9.1.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\eventbus\6.0.5\699143dd438431d06b57416944f7cedbe52e1475\eventbus-6.0.5.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\unsafe\0.2.0\54d7a0a5e8fdb71b973025caa46f341ae5904f39\unsafe-0.2.0.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\toml\3.6.4\51d6cefb2b55ee55ee26b16391212fb2c7dfb4f4\toml-3.6.4.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\core\3.6.4\510f174abbf1c947494db50ef2445683bd52c230\core-3.6.4.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.8.5\4433f50c07debefaed0553bd0068f4f48d449313\maven-artifact-3.8.5.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.jodah\typetools\0.6.3\a01aaa6ddaea9ec07ec4f209487b7a46a526283a\typetools-0.6.3.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecrell\terminalconsoleappender\1.2.0\96d02cd3b384ff015a8fef4223bcb4ccf1717c95\terminalconsoleappender-1.2.0.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.jline\jline-reader\3.12.1\4382ab1382c7b6f379377ed5f665dc2f6e1218bc\jline-reader-3.12.1.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.jline\jline-terminal\3.12.1\c777448314e050d980a6b697c140f3bfe9eb7416\jline-terminal-3.12.1.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.spongepowered\mixin\0.8.5\9d1c0c3a304ae6697ecd477218fa61b850bf57fc\mixin-0.8.5.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\cpw.mods\bootstraplauncher\1.1.2\c546e00443d8432cda6baa1c860346980742628\bootstraplauncher-1.1.2.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarFileSystems\0.3.19\2464eb7d6b9ddb9db36a82cf8a95193e5c6fe020\JarJarFileSystems-0.3.19.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlearlydisplay\1.20.1-47.3.0\91e33682894f35862e9ce29d633e3258120952f0\fmlearlydisplay-1.20.1-47.3.0.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.github.oshi\oshi-core\6.2.2\54f5efc19bca95d709d9a37d19ffcbba3d21c1a6\oshi-core-6.2.2.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.10\dd9b193aef96e973d5a11ab13cd17430c2e4306b\gson-2.10.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j\71.1\9e7d3304c23f9ba5cb71915f7cce23231a57a445\icu4j-71.1.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\4.0.43\2ff9d747a77570a07a60d32ac77eb6162ad2a2d9\authlib-4.0.43.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.mojang\blocklist\1.0.10\5c685c5ffa94c4cd39496c7184c1d122e515ecef\blocklist-1.0.10.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.mojang\brigadier\1.1.8\5244ce82c3337bba4a196a3ce858bfaecc74404a\brigadier-1.1.8.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\6.0.8\3ba4a30557a9b057760af4011f909ba619fc5125\datafixerupper-6.0.8.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.mojang\logging\1.1.1\832b8e6674a9b325a5175a3a6267dfaf34c85139\logging-1.1.1.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\2.2.10\da05971b07cbb379d002cf7eaec6a2048211fefc\patchy-2.2.10.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.17.9\3cad216e3a7f0c19b4b394388bc9ffc446f13b14\text2speech-1.17.9.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.5.13\e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada\httpclient-4.5.13.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.15\49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d\commons-codec-1.15.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.11.0\a2503f302b11ebde7ebc3df41daebe0e4eea3689\commons-io-2.11.0.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.2\4bfc12adfe4842bf07b657f0369c4cb522955686\commons-logging-1.2.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\io.netty\netty-handler\4.1.82.Final\644041d1fa96a5d3130a29e8978630d716d76e38\netty-handler-4.1.82.Final.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec\4.1.82.Final\b77200379acb345a9ffdece1c605e591ac3e4e0a\netty-codec-4.1.82.Final.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-classes-epoll\4.1.82.Final\e7c7dd18deac93105797f30057c912651ea76521\netty-transport-classes-epoll-4.1.82.Final.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-unix-common\4.1.82.Final\3e895b35ca1b8a0eca56cacff4c2dde5d2c6abce\netty-transport-native-unix-common-4.1.82.Final.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport\4.1.82.Final\e431a218d91acb6476ccad5f5aafde50aa3945ca\netty-transport-4.1.82.Final.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\io.netty\netty-buffer\4.1.82.Final\a544270cf1ae8b8077082f5036436a9a9971ea71\netty-buffer-4.1.82.Final.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\io.netty\netty-resolver\4.1.82.Final\38f665ae8dcd29032eea31245ba7806bed2e0fa8\netty-resolver-4.1.82.Final.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\io.netty\netty-common\4.1.82.Final\22d148e85c3f5ebdacc0ce1f5aabb1d420f73f3\netty-common-4.1.82.Final.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\8.5.9\bb7ea75ecdb216654237830b3a96d87ad91f8cc5\fastutil-8.5.9.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna-platform\5.12.1\97406a297c852f4a41e688a176ec675f72e8329\jna-platform-5.12.1.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\5.12.1\b1e93a735caea94f503e95e6fe79bf9cdc1e985d\jna-5.12.1.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.21\4ec95b60d4e86b5c95a0e919cb172a0af98011ef\commons-compress-1.21.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.12.0\c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e\commons-lang3-3.12.0.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.4.15\7f2e0c573eaa7a74bac2e89b359e1f73d92a0a1d\httpcore-4.4.15.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.19.0\3b6eeb4de4c49c0fe38a4ee27188ff5fee44d0bb\log4j-core-2.19.0.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-slf4j2-impl\2.19.0\5c04bfdd63ce9dceb2e284b81e96b6a70010ee10\log4j-slf4j2-impl-2.19.0.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.19.0\ea1b37f38c327596b216542bc636cfdc0b8036fa\log4j-api-2.19.0.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.joml\joml\1.10.5\22566d58af70ad3d72308bab63b8339906deb649\joml-1.10.5.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\cbac1b8d30cb4795149c1ef540f912671a8616d0\lwjgl-glfw-3.3.1.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\ed892f945cf7e79c8756796f32d00fa4ceaf573b\lwjgl-glfw-3.3.1-natives-windows.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\beda65ee503443e60aa196d58ed31f8d001dc22a\lwjgl-glfw-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\b997e3391d6ce8f05487e7335d95c606043884a1\lwjgl-glfw-3.3.1-natives-windows-x86.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\a817bcf213db49f710603677457567c37d53e103\lwjgl-jemalloc-3.3.1.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\948a89b76a16aa324b046ae9308891216ffce5f9\lwjgl-jemalloc-3.3.1-natives-windows.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\cae85c4edb219c88b6a0c26a87955ad98dc9519d\lwjgl-jemalloc-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\fb476c8ec110e1c137ad3ce8a7f7bfe6b11c6324\lwjgl-jemalloc-3.3.1-natives-windows-x86.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\2623a6b8ae1dfcd880738656a9f0243d2e6840bd\lwjgl-openal-3.3.1.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\30a474d0e57193d7bc128849a3ab66bc9316fdb1\lwjgl-openal-3.3.1-natives-windows.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\40d65f1a7368a2aa47336f9cb69f5a190cf9975a\lwjgl-openal-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\888349f7b1be6fbae58bf8edfb9ef12def04c4e3\lwjgl-openal-3.3.1-natives-windows-x86.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\831a5533a21a5f4f81bbc51bb13e9899319b5411\lwjgl-opengl-3.3.1.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\c1807e9bd571402787d7e37e3029776ae2513bb8\lwjgl-opengl-3.3.1-natives-windows.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\527d78f1e9056aff3ed02ce93019c73c5e8f1721\lwjgl-opengl-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\deef3eb9b178ff2ff3ce893cc72ae741c3a17974\lwjgl-opengl-3.3.1-natives-windows-x86.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\b119297cf8ed01f247abe8685857f8e7fcf5980f\lwjgl-stb-3.3.1.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\86315914ac119efdb02dc9e8e978ade84f1702af\lwjgl-stb-3.3.1-natives-windows.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\fde63cdd2605c00636721a6c8b961e41d1f6b247\lwjgl-stb-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\a8d41f419eecb430b7c91ea2ce2c5c451cae2091\lwjgl-stb-3.3.1-natives-windows-x86.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\ff1914111ef2e3e0110ef2dabc8d8cdaad82347\lwjgl-tinyfd-3.3.1.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\a5d830475ec0958d9fdba1559efa99aef211e6ff\lwjgl-tinyfd-3.3.1-natives-windows.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\83a5e780df610829ff3a737822b4f931cffecd91\lwjgl-tinyfd-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\842eedd876fae354abc308c98a263f6bbc9e8a4d\lwjgl-tinyfd-3.3.1-natives-windows-x86.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\ae58664f88e18a9bb2c77b063833ca7aaec484cb\lwjgl-3.3.1.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\36c37f16ab611b3aa11f3bcf80b1d509b4ce6b\lwjgl-3.3.1-natives-windows.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\f46cadcf95675908fd3a550d63d9d709cb68998\lwjgl-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\3b14f4beae9dd39791ec9e12190a9380cd8a3ce6\lwjgl-3.3.1-natives-windows-x86.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.machinezoo.noexception\noexception\1.7.1\b65330c98e38a1f915fa54a6e5eca496505e3f0a\noexception-1.7.1.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\2.0.1\f48d81adce2abf5ad3cfe463df517952749e03bc\slf4j-api-2.0.1.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.3.0\cf43b5391de623b36fe066a21127baef82c64022\plexus-utils-3.3.0.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\3.12.0\d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5\checker-qual-3.12.0.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.11.0\c5a0ace696d3f8b1c1d8cc036d8c03cc0cbe6b69\error_prone_annotations-2.11.0.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.3\ba035118bc8bac37d7eff77700720999acd9986d\j2objc-annotations-1.3.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.antlr\ST4\4.3\92f2c1ad8d84abcbeead6cf7f2c53a04166293c2\ST4-4.3.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.antlr\antlr-runtime\3.5.2\cd9cd41361c155f3af0f653009dcecb08d8b4afd\antlr-runtime-3.5.2.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.abego.treelayout\org.abego.treelayout.core\1.0.3\457216e8e6578099ae63667bb1e4439235892028\org.abego.treelayout.core-1.0.3.jar, --lib, C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.glassfish\javax.json\1.0.4\3178f73569fd7a1e5ffc464e680f7a8cc784b85a\javax.json-1.0.4.jar, --disable-abstract-param'
+Classpath:
+ - C:\Users\ACER\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\renamer\2.0.4\renamer-2.0.4-all.jar
+Working directory: E:\Document\New project 5\Claude\1\cavehorror\cavemind\build\reobfJar
+Main class: net.minecraftforge.renamer.Main
+====================================
+Forge Renamer v2.0.4
+lib: E:\Document\New project 5\Claude\1\cavehorror\cavemind\libs\voicechat-api.jar
+lib: C:\Users\ACER\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.0_mapped_official_1.20.1\forge-1.20.1-47.3.0_mapped_official_1.20.1.jar
+lib: C:\Users\ACER\.gradle\caches\forge_gradle\minecraft_repo\versions\1.20.1\client-extra.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.20.1-47.3.0\547850469c8a336b4c60cb8619f6cd421e9e5f55\fmlloader-1.20.1-47.3.0.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarSelector\0.3.19\376cc9c8ea60720cf027c01fc033de915699801c\JarJarSelector-0.3.19.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarMetadata\0.3.19\83feaa9b770e6ac0e96ee4fc23fa89325c5fe2\JarJarMetadata-0.3.19.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\31.1-jre\60458f877d055d0c9114d9e1a2efb737b4bc282c\guava-31.1-jre.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.1\1227f9e0666314f9de41477e3ec277e542ed7f7b\java-objc-bridge-1.1.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\forgespi\7.0.1\3b4972a0cdb135853dba219be61a79b22cff1309\forgespi-7.0.1.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mergetool\1.1.5\f3da18e12c696d35a47c82cbb2cc8b5aa15e1154\mergetool-1.1.5-api.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\24.0.1\13c5c75c4206580aa4d683bffee658caae6c9f43\annotations-24.0.1.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\cpw.mods\securejarhandler\2.1.10\51e6a22c6c716beb11e244bf5b8be480f51dd6b5\securejarhandler-2.1.10.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\coremods\5.1.6\62fab3c3d59d37f8e15af311cb638c6f6123423\coremods-5.1.6.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\10.0.9\6d9443f56f50bb85cea383686ff9c867391458b\modlauncher-10.0.9.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.openjdk.nashorn\nashorn-core\15.3\43977e804697048fc8d81d333a36c17d07a5b3dd\nashorn-core-15.3.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\9.7\e86dda4696d3c185fcc95d8d311904e7ce38a53f\asm-commons-9.7.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\9.7\c0655519f24d92af2202cb681cd7c1569df6ead6\asm-util-9.7.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\9.7\e4a258b7eb96107106c0599f0061cfc1832fe07a\asm-analysis-9.7.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\9.7\e446a17b175bfb733b87c5c2560ccb4e57d69f1a\asm-tree-9.7.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\9.7\73d7b3086e14beb604ced229c302feff6449723\asm-9.7.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\accesstransformers\8.0.4\272d240aa73f42195b2a68e2ebd8b701ecf41f63\accesstransformers-8.0.4.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.antlr\antlr4\4.9.1\e92af8ab33e428461927b484e90bb155a4f3a052\antlr4-4.9.1.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.antlr\antlr4-runtime\4.9.1\428664f05d2b7f7b7610204b5aa7c1763f62011a\antlr4-runtime-4.9.1.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\eventbus\6.0.5\699143dd438431d06b57416944f7cedbe52e1475\eventbus-6.0.5.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\unsafe\0.2.0\54d7a0a5e8fdb71b973025caa46f341ae5904f39\unsafe-0.2.0.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\toml\3.6.4\51d6cefb2b55ee55ee26b16391212fb2c7dfb4f4\toml-3.6.4.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\core\3.6.4\510f174abbf1c947494db50ef2445683bd52c230\core-3.6.4.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.8.5\4433f50c07debefaed0553bd0068f4f48d449313\maven-artifact-3.8.5.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.jodah\typetools\0.6.3\a01aaa6ddaea9ec07ec4f209487b7a46a526283a\typetools-0.6.3.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecrell\terminalconsoleappender\1.2.0\96d02cd3b384ff015a8fef4223bcb4ccf1717c95\terminalconsoleappender-1.2.0.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.jline\jline-reader\3.12.1\4382ab1382c7b6f379377ed5f665dc2f6e1218bc\jline-reader-3.12.1.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.jline\jline-terminal\3.12.1\c777448314e050d980a6b697c140f3bfe9eb7416\jline-terminal-3.12.1.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.spongepowered\mixin\0.8.5\9d1c0c3a304ae6697ecd477218fa61b850bf57fc\mixin-0.8.5.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\cpw.mods\bootstraplauncher\1.1.2\c546e00443d8432cda6baa1c860346980742628\bootstraplauncher-1.1.2.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarFileSystems\0.3.19\2464eb7d6b9ddb9db36a82cf8a95193e5c6fe020\JarJarFileSystems-0.3.19.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlearlydisplay\1.20.1-47.3.0\91e33682894f35862e9ce29d633e3258120952f0\fmlearlydisplay-1.20.1-47.3.0.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.github.oshi\oshi-core\6.2.2\54f5efc19bca95d709d9a37d19ffcbba3d21c1a6\oshi-core-6.2.2.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.10\dd9b193aef96e973d5a11ab13cd17430c2e4306b\gson-2.10.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j\71.1\9e7d3304c23f9ba5cb71915f7cce23231a57a445\icu4j-71.1.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\4.0.43\2ff9d747a77570a07a60d32ac77eb6162ad2a2d9\authlib-4.0.43.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.mojang\blocklist\1.0.10\5c685c5ffa94c4cd39496c7184c1d122e515ecef\blocklist-1.0.10.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.mojang\brigadier\1.1.8\5244ce82c3337bba4a196a3ce858bfaecc74404a\brigadier-1.1.8.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\6.0.8\3ba4a30557a9b057760af4011f909ba619fc5125\datafixerupper-6.0.8.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.mojang\logging\1.1.1\832b8e6674a9b325a5175a3a6267dfaf34c85139\logging-1.1.1.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\2.2.10\da05971b07cbb379d002cf7eaec6a2048211fefc\patchy-2.2.10.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.17.9\3cad216e3a7f0c19b4b394388bc9ffc446f13b14\text2speech-1.17.9.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.5.13\e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada\httpclient-4.5.13.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.15\49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d\commons-codec-1.15.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.11.0\a2503f302b11ebde7ebc3df41daebe0e4eea3689\commons-io-2.11.0.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.2\4bfc12adfe4842bf07b657f0369c4cb522955686\commons-logging-1.2.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\io.netty\netty-handler\4.1.82.Final\644041d1fa96a5d3130a29e8978630d716d76e38\netty-handler-4.1.82.Final.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec\4.1.82.Final\b77200379acb345a9ffdece1c605e591ac3e4e0a\netty-codec-4.1.82.Final.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-classes-epoll\4.1.82.Final\e7c7dd18deac93105797f30057c912651ea76521\netty-transport-classes-epoll-4.1.82.Final.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-unix-common\4.1.82.Final\3e895b35ca1b8a0eca56cacff4c2dde5d2c6abce\netty-transport-native-unix-common-4.1.82.Final.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport\4.1.82.Final\e431a218d91acb6476ccad5f5aafde50aa3945ca\netty-transport-4.1.82.Final.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\io.netty\netty-buffer\4.1.82.Final\a544270cf1ae8b8077082f5036436a9a9971ea71\netty-buffer-4.1.82.Final.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\io.netty\netty-resolver\4.1.82.Final\38f665ae8dcd29032eea31245ba7806bed2e0fa8\netty-resolver-4.1.82.Final.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\io.netty\netty-common\4.1.82.Final\22d148e85c3f5ebdacc0ce1f5aabb1d420f73f3\netty-common-4.1.82.Final.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\8.5.9\bb7ea75ecdb216654237830b3a96d87ad91f8cc5\fastutil-8.5.9.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna-platform\5.12.1\97406a297c852f4a41e688a176ec675f72e8329\jna-platform-5.12.1.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\5.12.1\b1e93a735caea94f503e95e6fe79bf9cdc1e985d\jna-5.12.1.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.21\4ec95b60d4e86b5c95a0e919cb172a0af98011ef\commons-compress-1.21.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.12.0\c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e\commons-lang3-3.12.0.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.4.15\7f2e0c573eaa7a74bac2e89b359e1f73d92a0a1d\httpcore-4.4.15.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.19.0\3b6eeb4de4c49c0fe38a4ee27188ff5fee44d0bb\log4j-core-2.19.0.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-slf4j2-impl\2.19.0\5c04bfdd63ce9dceb2e284b81e96b6a70010ee10\log4j-slf4j2-impl-2.19.0.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.19.0\ea1b37f38c327596b216542bc636cfdc0b8036fa\log4j-api-2.19.0.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.joml\joml\1.10.5\22566d58af70ad3d72308bab63b8339906deb649\joml-1.10.5.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\cbac1b8d30cb4795149c1ef540f912671a8616d0\lwjgl-glfw-3.3.1.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\ed892f945cf7e79c8756796f32d00fa4ceaf573b\lwjgl-glfw-3.3.1-natives-windows.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\beda65ee503443e60aa196d58ed31f8d001dc22a\lwjgl-glfw-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\b997e3391d6ce8f05487e7335d95c606043884a1\lwjgl-glfw-3.3.1-natives-windows-x86.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\a817bcf213db49f710603677457567c37d53e103\lwjgl-jemalloc-3.3.1.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\948a89b76a16aa324b046ae9308891216ffce5f9\lwjgl-jemalloc-3.3.1-natives-windows.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\cae85c4edb219c88b6a0c26a87955ad98dc9519d\lwjgl-jemalloc-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\fb476c8ec110e1c137ad3ce8a7f7bfe6b11c6324\lwjgl-jemalloc-3.3.1-natives-windows-x86.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\2623a6b8ae1dfcd880738656a9f0243d2e6840bd\lwjgl-openal-3.3.1.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\30a474d0e57193d7bc128849a3ab66bc9316fdb1\lwjgl-openal-3.3.1-natives-windows.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\40d65f1a7368a2aa47336f9cb69f5a190cf9975a\lwjgl-openal-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\888349f7b1be6fbae58bf8edfb9ef12def04c4e3\lwjgl-openal-3.3.1-natives-windows-x86.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\831a5533a21a5f4f81bbc51bb13e9899319b5411\lwjgl-opengl-3.3.1.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\c1807e9bd571402787d7e37e3029776ae2513bb8\lwjgl-opengl-3.3.1-natives-windows.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\527d78f1e9056aff3ed02ce93019c73c5e8f1721\lwjgl-opengl-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\deef3eb9b178ff2ff3ce893cc72ae741c3a17974\lwjgl-opengl-3.3.1-natives-windows-x86.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\b119297cf8ed01f247abe8685857f8e7fcf5980f\lwjgl-stb-3.3.1.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\86315914ac119efdb02dc9e8e978ade84f1702af\lwjgl-stb-3.3.1-natives-windows.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\fde63cdd2605c00636721a6c8b961e41d1f6b247\lwjgl-stb-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\a8d41f419eecb430b7c91ea2ce2c5c451cae2091\lwjgl-stb-3.3.1-natives-windows-x86.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\ff1914111ef2e3e0110ef2dabc8d8cdaad82347\lwjgl-tinyfd-3.3.1.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\a5d830475ec0958d9fdba1559efa99aef211e6ff\lwjgl-tinyfd-3.3.1-natives-windows.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\83a5e780df610829ff3a737822b4f931cffecd91\lwjgl-tinyfd-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\842eedd876fae354abc308c98a263f6bbc9e8a4d\lwjgl-tinyfd-3.3.1-natives-windows-x86.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\ae58664f88e18a9bb2c77b063833ca7aaec484cb\lwjgl-3.3.1.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\36c37f16ab611b3aa11f3bcf80b1d509b4ce6b\lwjgl-3.3.1-natives-windows.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\f46cadcf95675908fd3a550d63d9d709cb68998\lwjgl-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\3b14f4beae9dd39791ec9e12190a9380cd8a3ce6\lwjgl-3.3.1-natives-windows-x86.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.machinezoo.noexception\noexception\1.7.1\b65330c98e38a1f915fa54a6e5eca496505e3f0a\noexception-1.7.1.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\2.0.1\f48d81adce2abf5ad3cfe463df517952749e03bc\slf4j-api-2.0.1.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.3.0\cf43b5391de623b36fe066a21127baef82c64022\plexus-utils-3.3.0.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\3.12.0\d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5\checker-qual-3.12.0.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.11.0\c5a0ace696d3f8b1c1d8cc036d8c03cc0cbe6b69\error_prone_annotations-2.11.0.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.3\ba035118bc8bac37d7eff77700720999acd9986d\j2objc-annotations-1.3.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.antlr\ST4\4.3\92f2c1ad8d84abcbeead6cf7f2c53a04166293c2\ST4-4.3.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.antlr\antlr-runtime\3.5.2\cd9cd41361c155f3af0f653009dcecb08d8b4afd\antlr-runtime-3.5.2.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.abego.treelayout\org.abego.treelayout.core\1.0.3\457216e8e6578099ae63667bb1e4439235892028\org.abego.treelayout.core-1.0.3.jar
+lib: C:\Users\ACER\.gradle\caches\modules-2\files-2.1\org.glassfish\javax.json\1.0.4\3178f73569fd7a1e5ffc464e680f7a8cc784b85a\javax.json-1.0.4.jar
+log: null
+input: E:\Document\New project 5\Claude\1\cavehorror\cavemind\build\libs\cavemind-5.4.0.jar
+output: E:\Document\New project 5\Claude\1\cavehorror\cavemind\build\reobfJar\output.jar
+threads: 12
+Names: E:\Document\New project 5\Claude\1\cavehorror\cavemind\build\reobfJar\mappings.tsrg(reversed: false)
+Fix Annotations: false
+Fix Records: false
+Fix Identifiers: false
+Fix SourceFile: false
+Fix Line Numbers: false
+Strip codesigning signatures: false
+Adding Libraries to Inheritance
+Reading Input: E:\Document\New project 5\Claude\1\cavehorror\cavemind\build\libs\cavemind-5.4.0.jar
+Adding input to inheritance map
+Processing entries
+Conflicting propagated mapping for vn/cavemind/chapter/Book$BookItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for vn/cavemind/chapter/Keys$Toy/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for vn/cavemind/chapter/Book$BookItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for vn/cavemind/chapter/Book$BookItem/isFoil(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/Item/isFoil(Lnet/minecraft/world/item/ItemStack;)Z: isFoil -> m_5812_
+Conflicting propagated mapping for vn/cavemind/lore/Pages$PageItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for vn/cavemind/client/BookScreen/keyPressed(III)Z from net/minecraft/client/gui/screens/Screen/keyPressed(III)Z: keyPressed -> m_7933_
+Conflicting propagated mapping for vn/cavemind/client/BookScreen/isPauseScreen()Z from net/minecraft/client/gui/screens/Screen/isPauseScreen()Z: isPauseScreen -> m_7043_
+Conflicting propagated mapping for vn/cavemind/client/BookScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V from net/minecraft/client/gui/screens/Screen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V: render -> m_88315_
+Conflicting propagated mapping for vn/cavemind/client/BookScreen/mouseScrolled(DDD)Z from net/minecraft/client/gui/components/events/ContainerEventHandler/mouseScrolled(DDD)Z: mouseScrolled -> m_6050_
+Conflicting propagated mapping for vn/cavemind/client/BookScreen/onClose()V from net/minecraft/client/gui/screens/Screen/onClose()V: onClose -> m_7379_
+Conflicting propagated mapping for vn/cavemind/client/BookScreen/init()V from net/minecraft/client/gui/screens/Screen/init()V: init -> m_7856_
+Conflicting propagated mapping for vn/cavemind/client/BookScreen/mouseClicked(DDI)Z from net/minecraft/client/gui/components/events/ContainerEventHandler/mouseClicked(DDI)Z: mouseClicked -> m_6375_
+Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
+Conflicting propagated mapping for vn/cavemind/client/ModeScreen/isPauseScreen()Z from net/minecraft/client/gui/screens/Screen/isPauseScreen()Z: isPauseScreen -> m_7043_
+Conflicting propagated mapping for vn/cavemind/client/ModeScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V from net/minecraft/client/gui/screens/Screen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V: render -> m_88315_
+Conflicting propagated mapping for vn/cavemind/client/ModeScreen/init()V from net/minecraft/client/gui/screens/Screen/init()V: init -> m_7856_
+Conflicting propagated mapping for vn/cavemind/client/ModeScreen/mouseClicked(DDI)Z from net/minecraft/client/gui/components/events/ContainerEventHandler/mouseClicked(DDI)Z: mouseClicked -> m_6375_
+Conflicting propagated mapping for vn/cavemind/client/GearRenderer/renderByItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V from net/minecraft/client/renderer/BlockEntityWithoutLevelRenderer/renderByItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V: renderByItem -> m_108829_
+Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
+Conflicting propagated mapping for vn/cavemind/memory/MindData/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag; from net/minecraft/world/level/saveddata/SavedData/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;: save -> m_7176_
+Conflicting propagated mapping for vn/cavemind/client/HeroClient$Eyes/render(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;ILnet/minecraft/world/entity/Entity;FFFFFF)V from net/minecraft/client/renderer/entity/layers/RenderLayer/render(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;ILnet/minecraft/world/entity/Entity;FFFFFF)V: render -> m_6494_
+Conflicting propagated mapping for vn/cavemind/client/HeroEntity/isModelPartShown(Lnet/minecraft/world/entity/player/PlayerModelPart;)Z from net/minecraft/world/entity/player/Player/isModelPartShown(Lnet/minecraft/world/entity/player/PlayerModelPart;)Z: isModelPartShown -> m_36170_
+Conflicting propagated mapping for vn/cavemind/client/HeroEntity/pushEntities()V from net/minecraft/world/entity/LivingEntity/pushEntities()V: pushEntities -> m_6138_
+Conflicting propagated mapping for vn/cavemind/client/HeroEntity/getModelName()Ljava/lang/String; from net/minecraft/client/player/AbstractClientPlayer/getModelName()Ljava/lang/String;: getModelName -> m_108564_
+Conflicting propagated mapping for vn/cavemind/client/HeroEntity/getCloakTextureLocation()Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/player/AbstractClientPlayer/getCloakTextureLocation()Lnet/minecraft/resources/ResourceLocation;: getCloakTextureLocation -> m_108561_
+Conflicting propagated mapping for vn/cavemind/client/HeroEntity/isSpectator()Z from net/minecraft/client/player/AbstractClientPlayer/isSpectator()Z: isSpectator -> m_5833_
+Conflicting propagated mapping for vn/cavemind/client/HeroEntity/getTeam()Lnet/minecraft/world/scores/Team; from net/minecraft/world/entity/Entity/getTeam()Lnet/minecraft/world/scores/Team;: getTeam -> m_5647_
+Conflicting propagated mapping for vn/cavemind/client/HeroEntity/isCreative()Z from net/minecraft/client/player/AbstractClientPlayer/isCreative()Z: isCreative -> m_7500_
+Conflicting propagated mapping for vn/cavemind/client/HeroEntity/getSkinTextureLocation()Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/player/AbstractClientPlayer/getSkinTextureLocation()Lnet/minecraft/resources/ResourceLocation;: getSkinTextureLocation -> m_108560_
+Conflicting propagated mapping for vn/cavemind/client/HeroEntity/isPushable()Z from net/minecraft/world/entity/LivingEntity/isPushable()Z: isPushable -> m_6094_
+Conflicting propagated mapping for net/minecraftforge/client/gui/overlay/ForgeGui/clearCache()V from net/minecraft/client/gui/Gui/clearCache()V: clearCache -> m_93091_
+Conflicting propagated mapping for net/minecraftforge/client/gui/overlay/ForgeGui/render(Lnet/minecraft/client/gui/GuiGraphics;F)V from net/minecraft/client/gui/Gui/render(Lnet/minecraft/client/gui/GuiGraphics;F)V: render -> m_280421_
+Conflicting propagated mapping for net/minecraftforge/client/gui/overlay/ForgeGui/renderPortalOverlay(Lnet/minecraft/client/gui/GuiGraphics;F)V from net/minecraft/client/gui/Gui/renderPortalOverlay(Lnet/minecraft/client/gui/GuiGraphics;F)V: renderPortalOverlay -> m_280379_
+Conflicting propagated mapping for net/minecraftforge/client/gui/overlay/ForgeGui/renderJumpMeter(Lnet/minecraft/world/entity/PlayerRideableJumping;Lnet/minecraft/client/gui/GuiGraphics;I)V from net/minecraft/client/gui/Gui/renderJumpMeter(Lnet/minecraft/world/entity/PlayerRideableJumping;Lnet/minecraft/client/gui/GuiGraphics;I)V: renderJumpMeter -> m_280069_
+Conflicting propagated mapping for vn/cavemind/gear/Gear$Thing/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for vn/cavemind/gear/Finder/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/isInvulnerableTo(Lnet/minecraft/world/damagesource/DamageSource;)Z from net/minecraft/server/level/ServerPlayer/isInvulnerableTo(Lnet/minecraft/world/damagesource/DamageSource;)Z: isInvulnerableTo -> m_6673_
+Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/canHarmPlayer(Lnet/minecraft/world/entity/player/Player;)Z from net/minecraft/server/level/ServerPlayer/canHarmPlayer(Lnet/minecraft/world/entity/player/Player;)Z: canHarmPlayer -> m_7099_
+Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/updateOptions(Lnet/minecraft/network/protocol/game/ServerboundClientInformationPacket;)V from net/minecraft/server/level/ServerPlayer/updateOptions(Lnet/minecraft/network/protocol/game/ServerboundClientInformationPacket;)V: updateOptions -> m_9156_
+Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/displayClientMessage(Lnet/minecraft/network/chat/Component;Z)V from net/minecraft/server/level/ServerPlayer/displayClientMessage(Lnet/minecraft/network/chat/Component;Z)V: displayClientMessage -> m_5661_
+Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/die(Lnet/minecraft/world/damagesource/DamageSource;)V from net/minecraft/server/level/ServerPlayer/die(Lnet/minecraft/world/damagesource/DamageSource;)V: die -> m_6667_
+Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/tick()V from net/minecraft/server/level/ServerPlayer/tick()V: tick -> m_8119_
+Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/getServer()Lnet/minecraft/server/MinecraftServer; from net/minecraft/world/entity/Entity/getServer()Lnet/minecraft/server/MinecraftServer;: getServer -> m_20194_
+Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/awardStat(Lnet/minecraft/stats/Stat;I)V from net/minecraft/server/level/ServerPlayer/awardStat(Lnet/minecraft/stats/Stat;I)V: awardStat -> m_6278_
+Conflicting propagated mapping for vn/cavemind/gear/Barometer/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V from net/minecraft/world/item/Item/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V: inventoryTick -> m_6883_
+Conflicting propagated mapping for vn/cavemind/gear/Chime/onPlace(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V from net/minecraft/world/level/block/state/BlockBehaviour/onPlace(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V: onPlace -> m_6807_
+Conflicting propagated mapping for vn/cavemind/gear/Chime/onRemove(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V from net/minecraft/world/level/block/state/BlockBehaviour/onRemove(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V: onRemove -> m_6810_
+Conflicting propagated mapping for vn/cavemind/gear/Chime/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getShape -> m_5940_
+Conflicting propagated mapping for vn/cavemind/day/Ritual$RitualGoal/canUse()Z from net/minecraft/world/entity/ai/goal/Goal/canUse()Z: canUse -> m_8036_
+Conflicting propagated mapping for vn/cavemind/day/Ritual$RitualGoal/requiresUpdateEveryTick()Z from net/minecraft/world/entity/ai/goal/Goal/requiresUpdateEveryTick()Z: requiresUpdateEveryTick -> m_183429_
+Conflicting propagated mapping for vn/cavemind/day/Ritual$RitualGoal/tick()V from net/minecraft/world/entity/ai/goal/Goal/tick()V: tick -> m_8037_
+Conflicting propagated mapping for vn/cavemind/day/Ritual$RitualGoal/stop()V from net/minecraft/world/entity/ai/goal/Goal/stop()V: stop -> m_8041_
+Conflicting propagated mapping for vn/cavemind/day/Ritual$RitualGoal/canContinueToUse()Z from net/minecraft/world/entity/ai/goal/Goal/canContinueToUse()Z: canContinueToUse -> m_8045_
+Conflicting propagated mapping for vn/cavemind/gear/Chime$Data/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag; from net/minecraft/world/level/saveddata/SavedData/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;: save -> m_7176_
+Conflicting propagated mapping for vn/cavemind/gear/Decoy/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for vn/cavemind/gear/Gear$1/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/BlockItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for vn/cavemind/gear/Listener/getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim; from net/minecraft/world/item/Item/getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim;: getUseAnimation -> m_6164_
+Conflicting propagated mapping for vn/cavemind/gear/Listener/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for vn/cavemind/gear/Listener/getUseDuration(Lnet/minecraft/world/item/ItemStack;)I from net/minecraft/world/item/Item/getUseDuration(Lnet/minecraft/world/item/ItemStack;)I: getUseDuration -> m_8105_
+Conflicting propagated mapping for vn/cavemind/gear/Listener/onUseTick(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;I)V from net/minecraft/world/item/Item/onUseTick(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;I)V: onUseTick -> m_5929_
+Conflicting propagated mapping for vn/cavemind/gear/Listener/releaseUsing(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;I)V from net/minecraft/world/item/Item/releaseUsing(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;I)V: releaseUsing -> m_5551_
+Conflicting propagated mapping for vn/cavemind/gear/Scrawl/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getShape -> m_5940_
+Conflicting propagated mapping for vn/cavemind/gear/Scrawl/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for vn/cavemind/life/LifeData/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag; from net/minecraft/world/level/saveddata/SavedData/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;: save -> m_7176_
+Conflicting propagated mapping for vn/cavemind/lore/Lore$Data/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag; from net/minecraft/world/level/saveddata/SavedData/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;: save -> m_7176_
+Conflicting propagated mapping for vn/cavemind/lore/Points$Data/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag; from net/minecraft/world/level/saveddata/SavedData/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;: save -> m_7176_
+Conflicting propagated mapping for vn/cavemind/path/Stealth$Eval/prepare(Lnet/minecraft/world/level/PathNavigationRegion;Lnet/minecraft/world/entity/Mob;)V from net/minecraft/world/level/pathfinder/WalkNodeEvaluator/prepare(Lnet/minecraft/world/level/PathNavigationRegion;Lnet/minecraft/world/entity/Mob;)V: prepare -> m_6028_
+Conflicting propagated mapping for vn/cavemind/path/Stealth$Eval/findAcceptedNode(IIIIDLnet/minecraft/core/Direction;Lnet/minecraft/world/level/pathfinder/BlockPathTypes;)Lnet/minecraft/world/level/pathfinder/Node; from net/minecraft/world/level/pathfinder/WalkNodeEvaluator/findAcceptedNode(IIIIDLnet/minecraft/core/Direction;Lnet/minecraft/world/level/pathfinder/BlockPathTypes;)Lnet/minecraft/world/level/pathfinder/Node;: findAcceptedNode -> m_164725_
+Conflicting propagated mapping for vn/cavemind/world/StareGoal/canUse()Z from net/minecraft/world/entity/ai/goal/Goal/canUse()Z: canUse -> m_8036_
+Conflicting propagated mapping for vn/cavemind/world/StareGoal/start()V from net/minecraft/world/entity/ai/goal/Goal/start()V: start -> m_8056_
+Conflicting propagated mapping for vn/cavemind/world/StareGoal/requiresUpdateEveryTick()Z from net/minecraft/world/entity/ai/goal/Goal/requiresUpdateEveryTick()Z: requiresUpdateEveryTick -> m_183429_
+Conflicting propagated mapping for vn/cavemind/world/StareGoal/tick()V from net/minecraft/world/entity/ai/goal/Goal/tick()V: tick -> m_8037_
+Conflicting propagated mapping for vn/cavemind/world/StareGoal/canContinueToUse()Z from net/minecraft/world/entity/ai/goal/Goal/canContinueToUse()Z: canContinueToUse -> m_8045_
+Adding extras
+Sorting
+Writing Output: E:\Document\New project 5\Claude\1\cavehorror\cavemind\build\reobfJar\output.jar
+  META-INF/
+  META-INF/MANIFEST.MF
+  META-INF/mods.toml
+  assets/
+  assets/cavemind/
+  assets/cavemind/blockstates/
+  assets/cavemind/blockstates/chu_tuong.json
+  assets/cavemind/blockstates/chuong_gio_xuong.json
+  assets/cavemind/lang/
+  assets/cavemind/lang/en_us.json
+  assets/cavemind/lang/vi_vn.json
+  assets/cavemind/models/
+  assets/cavemind/models/block/
+  assets/cavemind/models/block/chu_tuong.json
+  assets/cavemind/models/block/chu_tuong_0.json
+  assets/cavemind/models/block/chu_tuong_1.json
+  assets/cavemind/models/block/chu_tuong_10.json
+  assets/cavemind/models/block/chu_tuong_11.json
+  assets/cavemind/models/block/chu_tuong_12.json
+  assets/cavemind/models/block/chu_tuong_13.json
+  assets/cavemind/models/block/chu_tuong_14.json
+  assets/cavemind/models/block/chu_tuong_15.json
+  assets/cavemind/models/block/chu_tuong_16.json
+  assets/cavemind/models/block/chu_tuong_17.json
+  assets/cavemind/models/block/chu_tuong_18.json
+  assets/cavemind/models/block/chu_tuong_19.json
+  assets/cavemind/models/block/chu_tuong_2.json
+  assets/cavemind/models/block/chu_tuong_20.json
+  assets/cavemind/models/block/chu_tuong_21.json
+  assets/cavemind/models/block/chu_tuong_22.json
+  assets/cavemind/models/block/chu_tuong_23.json
+  assets/cavemind/models/block/chu_tuong_24.json
+  assets/cavemind/models/block/chu_tuong_25.json
+  assets/cavemind/models/block/chu_tuong_26.json
+  assets/cavemind/models/block/chu_tuong_27.json
+  assets/cavemind/models/block/chu_tuong_28.json
+  assets/cavemind/models/block/chu_tuong_29.json
+  assets/cavemind/models/block/chu_tuong_3.json
+  assets/cavemind/models/block/chu_tuong_30.json
+  assets/cavemind/models/block/chu_tuong_31.json
+  assets/cavemind/models/block/chu_tuong_4.json
+  assets/cavemind/models/block/chu_tuong_5.json
+  assets/cavemind/models/block/chu_tuong_6.json
+  assets/cavemind/models/block/chu_tuong_7.json
+  assets/cavemind/models/block/chu_tuong_8.json
+  assets/cavemind/models/block/chu_tuong_9.json
+  assets/cavemind/models/block/chuong_gio_xuong.json
+  assets/cavemind/models/item/
+  assets/cavemind/models/item/bi_day_cot.json
+  assets/cavemind/models/item/bi_ve_tuan.json
+  assets/cavemind/models/item/chuong_gio_xuong.json
+  assets/cavemind/models/item/coi_go_nam.json
+  assets/cavemind/models/item/con_quay_linh.json
+  assets/cavemind/models/item/dieu_giay_bao.json
+  assets/cavemind/models/item/dong_ho_mai.json
+  assets/cavemind/models/item/lo_dom_dom.json
+  assets/cavemind/models/item/lo_dom_dom_base.json
+  assets/cavemind/models/item/lo_dom_dom_fly.json
+  assets/cavemind/models/item/manh_da_vong_am.json
+  assets/cavemind/models/item/manh_xuong_suong.json
+  assets/cavemind/models/item/may_thu_am.json
+  assets/cavemind/models/item/may_thu_am_hit.json
+  assets/cavemind/models/item/may_thu_am_listen.json
+  assets/cavemind/models/item/phong_vu_bieu_suong.json
+  assets/cavemind/models/item/phong_vu_bieu_suong_base.json
+  assets/cavemind/models/item/phong_vu_bieu_suong_frost.json
+  assets/cavemind/models/item/phong_vu_bieu_suong_glass.json
+  assets/cavemind/models/item/phong_vu_bieu_suong_needle.json
+  assets/cavemind/models/item/pin_may_quay.json
+  assets/cavemind/models/item/so_chuong.json
+  assets/cavemind/models/item/trang_nhat_ky.json
+  assets/cavemind/shaders/
+  assets/cavemind/shaders/post/
+  assets/cavemind/shaders/post/camcorder.json
+  assets/cavemind/shaders/program/
+  assets/cavemind/shaders/program/camcorder.fsh
+  assets/cavemind/shaders/program/camcorder.json
+  assets/cavemind/shaders/program/camcorder.vsh
+  assets/cavemind/textures/
+  assets/cavemind/textures/block/
+  assets/cavemind/textures/block/chu/
+  assets/cavemind/textures/block/chu/chu_0.png
+  assets/cavemind/textures/block/chu/chu_1.png
+  assets/cavemind/textures/block/chu/chu_10.png
+  assets/cavemind/textures/block/chu/chu_11.png
+  assets/cavemind/textures/block/chu/chu_12.png
+  assets/cavemind/textures/block/chu/chu_13.png
+  assets/cavemind/textures/block/chu/chu_14.png
+  assets/cavemind/textures/block/chu/chu_15.png
+  assets/cavemind/textures/block/chu/chu_16.png
+  assets/cavemind/textures/block/chu/chu_17.png
+  assets/cavemind/textures/block/chu/chu_18.png
+  assets/cavemind/textures/block/chu/chu_19.png
+  assets/cavemind/textures/block/chu/chu_2.png
+  assets/cavemind/textures/block/chu/chu_20.png
+  assets/cavemind/textures/block/chu/chu_21.png
+  assets/cavemind/textures/block/chu/chu_22.png
+  assets/cavemind/textures/block/chu/chu_23.png
+  assets/cavemind/textures/block/chu/chu_24.png
+  assets/cavemind/textures/block/chu/chu_25.png
+  assets/cavemind/textures/block/chu/chu_26.png
+  assets/cavemind/textures/block/chu/chu_27.png
+  assets/cavemind/textures/block/chu/chu_28.png
+  assets/cavemind/textures/block/chu/chu_29.png
+  assets/cavemind/textures/block/chu/chu_3.png
+  assets/cavemind/textures/block/chu/chu_30.png
+  assets/cavemind/textures/block/chu/chu_31.png
+  assets/cavemind/textures/block/chu/chu_4.png
+  assets/cavemind/textures/block/chu/chu_5.png
+  assets/cavemind/textures/block/chu/chu_6.png
+  assets/cavemind/textures/block/chu/chu_7.png
+  assets/cavemind/textures/block/chu/chu_8.png
+  assets/cavemind/textures/block/chu/chu_9.png
+  assets/cavemind/textures/block/chuong_gio_xuong.png
+  assets/cavemind/textures/entity/
+  assets/cavemind/textures/entity/hero_eyes.png
+  assets/cavemind/textures/gui/
+  assets/cavemind/textures/gui/book/
+  assets/cavemind/textures/gui/book/an.png
+  assets/cavemind/textures/gui/book/chuong.png
+  assets/cavemind/textures/gui/book/dem.png
+  assets/cavemind/textures/gui/book/gieng.png
+  assets/cavemind/textures/gui/book/man.png
+  assets/cavemind/textures/gui/book/me.png
+  assets/cavemind/textures/gui/book/so.png
+  assets/cavemind/textures/gui/book/trang.png
+  assets/cavemind/textures/gui/book/tron.png
+  assets/cavemind/textures/item/
+  assets/cavemind/textures/item/bi_day_cot.png
+  assets/cavemind/textures/item/bi_ve_tuan.png
+  assets/cavemind/textures/item/chuong_gio_xuong.png
+  assets/cavemind/textures/item/coi_go_nam.png
+  assets/cavemind/textures/item/con_quay_linh.png
+  assets/cavemind/textures/item/dieu_giay_bao.png
+  assets/cavemind/textures/item/dong_ho_mai.png
+  assets/cavemind/textures/item/lo_dom_dom.png
+  assets/cavemind/textures/item/m/
+  assets/cavemind/textures/item/m/bone.png
+  assets/cavemind/textures/item/m/brass.png
+  assets/cavemind/textures/item/m/brass_dark.png
+  assets/cavemind/textures/item/m/cork.png
+  assets/cavemind/textures/item/m/firefly.png
+  assets/cavemind/textures/item/m/frost.png
+  assets/cavemind/textures/item/m/gauge_face.png
+  assets/cavemind/textures/item/m/glass.png
+  assets/cavemind/textures/item/m/grill.png
+  assets/cavemind/textures/item/m/jar_glass.png
+  assets/cavemind/textures/item/m/led.png
+  assets/cavemind/textures/item/m/led.png.mcmeta
+  assets/cavemind/textures/item/m/metal_dark.png
+  assets/cavemind/textures/item/m/metal_light.png
+  assets/cavemind/textures/item/m/needle.png
+  assets/cavemind/textures/item/m/red.png
+  assets/cavemind/textures/item/m/screen.png
+  assets/cavemind/textures/item/m/screen_hit.png
+  assets/cavemind/textures/item/m/screen_hit.png.mcmeta
+  assets/cavemind/textures/item/m/screen_idle.png
+  assets/cavemind/textures/item/m/screen_idle.png.mcmeta
+  assets/cavemind/textures/item/m/screen_listen.png
+  assets/cavemind/textures/item/m/screen_listen.png.mcmeta
+  assets/cavemind/textures/item/m/string.png
+  assets/cavemind/textures/item/m/wood.png
+  assets/cavemind/textures/item/manh_da_vong_am.png
+  assets/cavemind/textures/item/manh_xuong_suong.png
+  assets/cavemind/textures/item/may_thu_am.png
+  assets/cavemind/textures/item/phong_vu_bieu_suong.png
+  assets/cavemind/textures/item/phong_vu_bieu_suong_1.png
+  assets/cavemind/textures/item/phong_vu_bieu_suong_2.png
+  assets/cavemind/textures/item/pin_may_quay.png
+  assets/cavemind/textures/item/so_chuong.png
+  assets/cavemind/textures/item/trang_nhat_ky.png
+  assets/cavemind/textures/misc/
+  assets/cavemind/textures/misc/white.png
+  cavemind.mixins.json
+  cavemind.refmap.json
+  cavemind_tiers.json
+  data/
+  data/cavemind/
+  data/cavemind/advancements/
+  data/cavemind/advancements/ban_suong/
+  data/cavemind/advancements/ban_suong/ai_chop_mat_truoc.json
+  data/cavemind/advancements/ban_suong/ban_suong.json
+  data/cavemind/advancements/ban_suong/bay_mon_do_choi.json
+  data/cavemind/advancements/ban_suong/co_nguoi_choi_cung.json
+  data/cavemind/advancements/ban_suong/dem_toi_mot_tram.json
+  data/cavemind/advancements/ban_suong/goi_tho_san_ve_nha.json
+  data/cavemind/advancements/ban_suong/root.json
+  data/cavemind/advancements/ban_suong/tron_dung_luat.json
+  data/cavemind/advancements/chuong/
+  data/cavemind/advancements/chuong/c2_den.json
+  data/cavemind/advancements/chuong/c2_doc.json
+  data/cavemind/advancements/chuong/c2_mo.json
+  data/cavemind/advancements/chuong/c2_moi.json
+  data/cavemind/advancements/chuong/c2_nen.json
+  data/cavemind/advancements/chuong/c3_dung.json
+  data/cavemind/advancements/chuong/c3_mo.json
+  data/cavemind/advancements/chuong/c3_moi.json
+  data/cavemind/advancements/chuong/c4_den.json
+  data/cavemind/advancements/chuong/c4_doc.json
+  data/cavemind/advancements/chuong/c4_mo.json
+  data/cavemind/advancements/chuong/c4_moi.json
+  data/cavemind/advancements/chuong/c4_nen.json
+  data/cavemind/advancements/chuong/c5_dung.json
+  data/cavemind/advancements/chuong/c5_mo.json
+  data/cavemind/advancements/chuong/c5_moi.json
+  data/cavemind/advancements/chuong/c6_den.json
+  data/cavemind/advancements/chuong/c6_doc.json
+  data/cavemind/advancements/chuong/c6_mo.json
+  data/cavemind/advancements/chuong/c6_moi.json
+  data/cavemind/advancements/chuong/c6_nen.json
+  data/cavemind/advancements/chuong/qua_hiem.json
+  data/cavemind/advancements/chuong/root.json
+  data/cavemind/advancements/chuong/tro_tim.json
+  data/cavemind/damage_type/
+  data/cavemind/damage_type/gio48.json
+  data/cavemind/dimension/
+  data/cavemind/dimension/gio_48.json
+  data/cavemind/dimension_type/
+  data/cavemind/dimension_type/gio_48.json
+  data/cavemind/loot_tables/
+  data/cavemind/loot_tables/blocks/
+  data/cavemind/loot_tables/blocks/chuong_gio_xuong.json
+  data/cavemind/recipes/
+  data/cavemind/recipes/bi_day_cot.json
+  data/cavemind/recipes/bi_day_cot_doi.json
+  data/cavemind/recipes/bi_ve_tuan.json
+  data/cavemind/recipes/chuong_gio_xuong.json
+  data/cavemind/recipes/dieu_giay_bao.json
+  data/cavemind/recipes/lo_dom_dom.json
+  data/cavemind/recipes/may_thu_am.json
+  data/cavemind/recipes/may_thu_am_doi.json
+  data/cavemind/recipes/phong_vu_bieu_suong.json
+  data/cavemind/worldgen/
+  data/cavemind/worldgen/biome/
+  data/cavemind/worldgen/biome/gio_48.json
+  data/minecraft/
+  data/minecraft/tags/
+  data/minecraft/tags/damage_type/
+  data/minecraft/tags/damage_type/bypasses_armor.json
+  data/minecraft/tags/damage_type/bypasses_effects.json
+  data/minecraft/tags/damage_type/bypasses_enchantments.json
+  data/minecraft/tags/damage_type/bypasses_resistance.json
+  data/minecraft/tags/damage_type/no_knockback.json
+  ftf_override/
+  ftf_override/data/
+  ftf_override/data/watching/
+  ftf_override/data/watching/functions/
+  ftf_override/data/watching/functions/events/
+  ftf_override/data/watching/functions/events/block_detection/
+  ftf_override/data/watching/functions/events/block_detection/placed_bed.mcfunction
+  ftf_override/data/watching/functions/events/block_detection/placed_candle.mcfunction
+  ftf_override/data/watching/functions/events/block_detection/placed_chest.mcfunction
+  ftf_override/data/watching/functions/events/block_detection/placed_door.mcfunction
+  ftf_override/data/watching/functions/events/block_detection/placed_lantern.mcfunction
+  ftf_override/data/watching/functions/events/block_detection/placed_torch.mcfunction
+  ftf_override/data/watching/functions/events/block_detection/technical/
+  ftf_override/data/watching/functions/events/block_detection/technical/placed_fire/
+  ftf_override/data/watching/functions/events/block_detection/technical/placed_fire/found_shrine.mcfunction
+  ftf_override/data/watching/functions/events/general/
+  ftf_override/data/watching/functions/events/general/slept.mcfunction
+  ftf_override/data/watching/functions/events/scheduled/
+  ftf_override/data/watching/functions/events/scheduled/auto_config_day_passed.mcfunction
+  ftf_override/data/watching/functions/events/scheduled/burning_base_day_passed.mcfunction
+  ftf_override/data/watching/functions/events/scheduled/chilled_candles_day_passed.mcfunction
+  ftf_override/data/watching/functions/events/scheduled/crimson_curse_day_passed.mcfunction
+  ftf_override/data/watching/functions/events/scheduled/herobrine_gift_day_passed.mcfunction
+  ftf_override/data/watching/functions/events/scheduled/torch_break_day_passed.mcfunction
+  ftf_override/data/watching/functions/main/
+  ftf_override/data/watching/functions/main/20tick.mcfunction
+  ftf_override/data/watching/functions/main/tick.mcfunction
+  ftf_override/data/watching/functions/main/ticks/
+  ftf_override/data/watching/functions/main/ticks/20ticks/
+  ftf_override/data/watching/functions/main/ticks/20ticks/everyone.mcfunction
+  ftf_override/pack.mcmeta
+  overrides/
+  overrides/assets/
+  overrides/assets/apollyon/
+  overrides/assets/apollyon/animations/
+  overrides/assets/apollyon/animations/thedamned.animation.json
+  overrides/assets/man/
+  overrides/assets/man/animations/
+  overrides/assets/man/animations/the_man_from_the_fog.animation.json
+  overrides/pack.mcmeta
+  pack.mcmeta
+  vn/
+  vn/cavemind/
+  vn/cavemind/CaveMind.class
+  vn/cavemind/Cfg.class
+  vn/cavemind/Events.class
+  vn/cavemind/chapter/
+  vn/cavemind/chapter/Book$BookItem.class
+  vn/cavemind/chapter/Book.class
+  vn/cavemind/chapter/Chapters.class
+  vn/cavemind/chapter/Gifts.class
+  vn/cavemind/chapter/Keys$Toy.class
+  vn/cavemind/chapter/Keys.class
+  vn/cavemind/chapter/Tiers$1.class
+  vn/cavemind/chapter/Tiers.class
+  vn/cavemind/client/
+  vn/cavemind/client/BookClient.class
+  vn/cavemind/client/BookScreen$Card.class
+  vn/cavemind/client/BookScreen$Entry.class
+  vn/cavemind/client/BookScreen$Line.class
+  vn/cavemind/client/BookScreen$Thing.class
+  vn/cavemind/client/BookScreen.class
+  vn/cavemind/client/ClientFx.class
+  vn/cavemind/client/ClientTest.class
+  vn/cavemind/client/GearRenderer$Models.class
+  vn/cavemind/client/GearRenderer.class
+  vn/cavemind/client/GearSounds.class
+  vn/cavemind/client/HeroClient$Eyes.class
+  vn/cavemind/client/HeroClient$Layers.class
+  vn/cavemind/client/HeroClient.class
+  vn/cavemind/client/HeroEntity.class
+  vn/cavemind/client/ManBar.class
+  vn/cavemind/client/MazeHud$Setup.class
+  vn/cavemind/client/MazeHud.class
+  vn/cavemind/client/MazeMove.class
+  vn/cavemind/client/ModeScreen.class
+  vn/cavemind/client/SeekFx.class
+  vn/cavemind/cmd/
+  vn/cavemind/cmd/Commands.class
+  vn/cavemind/cmd/SelfTest.class
+  vn/cavemind/compat/
+  vn/cavemind/compat/Compat.class
+  vn/cavemind/compat/Radio.class
+  vn/cavemind/compat/Voice.class
+  vn/cavemind/damned/
+  vn/cavemind/damned/Beckon.class
+  vn/cavemind/damned/Dark$Out.class
+  vn/cavemind/damned/Dark.class
+  vn/cavemind/damned/Effigy.class
+  vn/cavemind/damned/Game$1.class
+  vn/cavemind/damned/Game$HideSeekYaw.class
+  vn/cavemind/damned/Game$S.class
+  vn/cavemind/damned/Game.class
+  vn/cavemind/damned/Haunt$1.class
+  vn/cavemind/damned/Haunt$Plan.class
+  vn/cavemind/damned/Haunt$Run.class
+  vn/cavemind/damned/Haunt$Scene.class
+  vn/cavemind/damned/Haunt.class
+  vn/cavemind/damned/Hundred$Rite.class
+  vn/cavemind/damned/Hundred.class
+  vn/cavemind/damned/Indoors.class
+  vn/cavemind/damned/Journal.class
+  vn/cavemind/damned/Kids.class
+  vn/cavemind/damned/Mirror.class
+  vn/cavemind/damned/Shrine.class
+  vn/cavemind/damned/Traces.class
+  vn/cavemind/damned/Visit.class
+  vn/cavemind/day/
+  vn/cavemind/day/Daylight$1.class
+  vn/cavemind/day/Daylight$State.class
+  vn/cavemind/day/Daylight$Theme.class
+  vn/cavemind/day/Daylight.class
+  vn/cavemind/day/Echo$Rec.class
+  vn/cavemind/day/Echo.class
+  vn/cavemind/day/Field.class
+  vn/cavemind/day/HideSeek.class
+  vn/cavemind/day/House.class
+  vn/cavemind/day/Noon.class
+  vn/cavemind/day/Piece.class
+  vn/cavemind/day/QuietFallen.class
+  vn/cavemind/day/Ritual$RitualGoal.class
+  vn/cavemind/day/Ritual.class
+  vn/cavemind/day/Twin.class
+  vn/cavemind/day/Village.class
+  vn/cavemind/director/
+  vn/cavemind/director/Director$State.class
+  vn/cavemind/director/Director$Weight.class
+  vn/cavemind/director/Director.class
+  vn/cavemind/director/Dread$Run.class
+  vn/cavemind/director/Dread.class
+  vn/cavemind/director/PaceLog.class
+  vn/cavemind/director/Tension$1.class
+  vn/cavemind/director/Tension$Hint.class
+  vn/cavemind/director/Tension$Mind.class
+  vn/cavemind/director/Tension$Permit.class
+  vn/cavemind/director/Tension$Phase.class
+  vn/cavemind/director/Tension.class
+  vn/cavemind/gear/
+  vn/cavemind/gear/Barometer$1.class
+  vn/cavemind/gear/Barometer.class
+  vn/cavemind/gear/Chime$Data.class
+  vn/cavemind/gear/Chime.class
+  vn/cavemind/gear/Decoy.class
+  vn/cavemind/gear/Finder$1.class
+  vn/cavemind/gear/Finder$Target.class
+  vn/cavemind/gear/Finder.class
+  vn/cavemind/gear/Gear$1.class
+  vn/cavemind/gear/Gear$Thing.class
+  vn/cavemind/gear/Gear.class
+  vn/cavemind/gear/Listener.class
+  vn/cavemind/gear/Nights.class
+  vn/cavemind/gear/Scrawl.class
+  vn/cavemind/gear/Signal.class
+  vn/cavemind/hero/
+  vn/cavemind/hero/Echo$1.class
+  vn/cavemind/hero/Echo$Ch.class
+  vn/cavemind/hero/Echo$Run.class
+  vn/cavemind/hero/Echo.class
+  vn/cavemind/hero/Ghosts$Ghost.class
+  vn/cavemind/hero/Ghosts.class
+  vn/cavemind/hero/Herobrine$1.class
+  vn/cavemind/hero/Herobrine$Kind.class
+  vn/cavemind/hero/Herobrine$Show.class
+  vn/cavemind/hero/Herobrine.class
+  vn/cavemind/hero/Ledger$Frame.class
+  vn/cavemind/hero/Ledger$Tape.class
+  vn/cavemind/hero/Ledger.class
+  vn/cavemind/hero/Traces.class
+  vn/cavemind/life/
+  vn/cavemind/life/Bases.class
+  vn/cavemind/life/Child.class
+  vn/cavemind/life/Clock.class
+  vn/cavemind/life/Glimpse$1.class
+  vn/cavemind/life/Glimpse$Kind.class
+  vn/cavemind/life/Glimpse$Run.class
+  vn/cavemind/life/Glimpse.class
+  vn/cavemind/life/Homes.class
+  vn/cavemind/life/Life$1.class
+  vn/cavemind/life/Life.class
+  vn/cavemind/life/LifeData$Base.class
+  vn/cavemind/life/LifeData.class
+  vn/cavemind/lore/
+  vn/cavemind/lore/Endings.class
+  vn/cavemind/lore/Lore$1.class
+  vn/cavemind/lore/Lore$B.class
+  vn/cavemind/lore/Lore$Data.class
+  vn/cavemind/lore/Lore$Site.class
+  vn/cavemind/lore/Lore.class
+  vn/cavemind/lore/Pages$PageItem.class
+  vn/cavemind/lore/Pages.class
+  vn/cavemind/lore/Playground.class
+  vn/cavemind/lore/Points$Data.class
+  vn/cavemind/lore/Points$Point.class
+  vn/cavemind/lore/Points.class
+  vn/cavemind/man/
+  vn/cavemind/man/Hunt.class
+  vn/cavemind/man/Lure.class
+  vn/cavemind/man/ManMind$1.class
+  vn/cavemind/man/ManMind$Knock.class
+  vn/cavemind/man/ManMind$Mode.class
+  vn/cavemind/man/ManMind$Session.class
+  vn/cavemind/man/ManMind$Tac.class
+  vn/cavemind/man/ManMind.class
+  vn/cavemind/man/Meter.class
+  vn/cavemind/man/Pack.class
+  vn/cavemind/man/Scent$1.class
+  vn/cavemind/man/Scent$Cell.class
+  vn/cavemind/man/Scent$Kind.class
+  vn/cavemind/man/Scent.class
+  vn/cavemind/man/Schemes.class
+  vn/cavemind/man/Shadow.class
+  vn/cavemind/man/Window.class
+  vn/cavemind/maze/
+  vn/cavemind/maze/Cam$St.class
+  vn/cavemind/maze/Cam.class
+  vn/cavemind/maze/Decor.class
+  vn/cavemind/maze/Maze$1.class
+  vn/cavemind/maze/Maze$Mode.class
+  vn/cavemind/maze/Maze$Ret.class
+  vn/cavemind/maze/Maze$Run.class
+  vn/cavemind/maze/Maze.class
+  vn/cavemind/maze/core/
+  vn/cavemind/maze/core/Brain$1.class
+  vn/cavemind/maze/core/Brain$Mode.class
+  vn/cavemind/maze/core/Brain.class
+  vn/cavemind/maze/core/Grid$Closet.class
+  vn/cavemind/maze/core/Grid$Nook.class
+  vn/cavemind/maze/core/Grid$Vent.class
+  vn/cavemind/maze/core/Grid.class
+  vn/cavemind/maze/core/Round$End.class
+  vn/cavemind/maze/core/Round$Event.class
+  vn/cavemind/maze/core/Round$Mode.class
+  vn/cavemind/maze/core/Round$Noise.class
+  vn/cavemind/maze/core/Round$Runner.class
+  vn/cavemind/maze/core/Round.class
+  vn/cavemind/memory/
+  vn/cavemind/memory/MindData.class
+  vn/cavemind/memory/Moment.class
+  vn/cavemind/memory/Profile$Clue.class
+  vn/cavemind/memory/Profile$Home.class
+  vn/cavemind/memory/Profile.class
+  vn/cavemind/mixin/
+  vn/cavemind/mixin/DamnedCollideMixin.class
+  vn/cavemind/mixin/DamnedSpawnMixin.class
+  vn/cavemind/mixin/DamnedTickMixin.class
+  vn/cavemind/mixin/EntityVisibilityMixin.class
+  vn/cavemind/mixin/ManCrawlerTickMixin.class
+  vn/cavemind/mixin/ManStalkerTickMixin.class
+  vn/cavemind/net/
+  vn/cavemind/net/Net$Ask.class
+  vn/cavemind/net/Net$Bar.class
+  vn/cavemind/net/Net$Book.class
+  vn/cavemind/net/Net$Cam.class
+  vn/cavemind/net/Net$CamKey.class
+  vn/cavemind/net/Net$Fx.class
+  vn/cavemind/net/Net$Hero.class
+  vn/cavemind/net/Net$HeroAct.class
+  vn/cavemind/net/Net$Sense.class
+  vn/cavemind/net/Net$View.class
+  vn/cavemind/net/Net.class
+  vn/cavemind/path/
+  vn/cavemind/path/Leaving$L.class
+  vn/cavemind/path/Leaving.class
+  vn/cavemind/path/Stealth$Cost.class
+  vn/cavemind/path/Stealth$Eval.class
+  vn/cavemind/path/Stealth$Eyes.class
+  vn/cavemind/path/Stealth$Mode.class
+  vn/cavemind/path/Stealth$SneakCost.class
+  vn/cavemind/path/Stealth.class
+  vn/cavemind/path/Walker$Step.class
+  vn/cavemind/path/Walker.class
+  vn/cavemind/sense/
+  vn/cavemind/sense/Ears$Kind.class
+  vn/cavemind/sense/Ears$Noise.class
+  vn/cavemind/sense/Ears.class
+  vn/cavemind/sense/Group.class
+  vn/cavemind/sense/Range.class
+  vn/cavemind/sense/Sight.class
+  vn/cavemind/sense/Watch.class
+  vn/cavemind/world/
+  vn/cavemind/world/Assets.class
+  vn/cavemind/world/Fx$Delayed.class
+  vn/cavemind/world/Fx$Stare.class
+  vn/cavemind/world/Fx.class
+  vn/cavemind/world/Moon.class
+  vn/cavemind/world/Motion$S.class
+  vn/cavemind/world/Motion.class
+  vn/cavemind/world/Spots$Cand.class
+  vn/cavemind/world/Spots$Spec.class
+  vn/cavemind/world/Spots.class
+  vn/cavemind/world/StareGoal.class

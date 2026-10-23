@@ -1,0 +1,300 @@
+8965	Thuốc
+9122	Bí ngô
+11521	Nhện
+11629	Ma rùng rợn
+11631	Dinh thự rùng rợn
+11942	Mèo đường phố
+13200	Cho kẹo hay bị ghẹo
+14136	Phù thủy
+14137	Phép phù thủy
+352	Một %s đã xuất hiện!
+1084	Điềm xấu
+1085	Trăng điềm xấu
+1086	Ngủ khi trăng điềm xấu
+1087	Trọng số trăng điềm xấu
+1294	Trăng lớn
+1295	Ngủ khi trăng lớn
+1296	Trọng số trăng lớn
+1615	Trăng máu
+1616	Ngủ khi trăng máu
+1617	Trọng số trăng máu
+2881	Đỏ thẫm
+2942	Trăng đỏ thẫm
+2943	Ngủ khi trăng đỏ thẫm
+2944	Trọng số trăng đỏ thẫm
+2967	Thay thế đỏ thẫm
+3931	Do thời tiết xấu, hiệu ứng của %s đã bị gột sạch!
+3970	Trăng nhật thực
+3971	Ngủ khi trăng nhật thực
+3972	Trọng số trăng nhật thực
+4354	Sự kiện
+5469	Trăng anh hùng
+5470	Ngủ khi trăng anh hùng
+5471	Trọng số trăng anh hùng
+6779	Tỉ lệ sự kiện trăng
+7411	Điềm xấu tối đa
+7517	Trăng thợ mỏ
+7518	Ngủ khi trăng thợ mỏ
+7519	Trọng số trăng thợ mỏ
+7630	Trăng
+11275	Đang ngủ
+13008	Trăng nhỏ xíu
+13009	Ngủ khi trăng nhỏ xíu
+13010	Trọng số trăng nhỏ xíu
+13948	Trăng trắng
+13949	Ngủ khi trăng trắng
+13950	Trọng số trăng trắng
+14364	Bạn không thể ngủ trong %s!
+2037	Băng cát xét 1: Hướng dẫn an toàn
+2038	Máy ghi băng cát xét
+4518	Cảm giác bị theo dõi
+4762	Bảo hộ sương mù
+4763	Tốc độ sương mù
+15396	Có được phù phép Bảo hộ sương mù bằng cách bị The Man From The Fog giết khi đang cầm một cuốn sách và có Giọt lệ của The Man rơi cạnh bạn
+15397	Có được phù phép Tốc độ sương mù bằng cách bị The Man From The Fog giết khi đang có hiệu ứng tốc độ, cầm một cuốn sách và có Giọt lệ của The Man rơi cạnh bạn
+4928	Lấy giọt lệ
+5964	Đây là KẾT THÚC sao?
+6326	Giết The Man From The Fog
+7127	man
+7128	The Man From The Fog
+7129	Trứng sinh ra The Man From The Fog
+7130	The Man xuất hiện lần đầu
+8345	P
+8860	phát
+12613	Giọt lệ của The Man
+12868	Giọt lệ của The Man
+3151	Hàng rào cây bách
+4738	Hàng rào cây sồi trổ hoa
+6788	Macaw's Biomes O' Plenty
+8304	Hàng rào cây nguyên thủy
+9299	Hàng rào cây bạch dương cầu vồng
+11381	Hàng rào cây hoa tuyết
+985	Cầu đỏ phương Đông
+986	Trụ cầu đỏ phương Đông
+987	Bậc cầu đỏ phương Đông
+1091	Cầu lan can đá andesit
+1092	Cầu lan can đá đen
+1093	Cầu lan can gạch
+1094	Cầu lan can đá cuội
+1095	Cầu lan can gạch đá bảng sâu
+1096	Cầu lan can ngói đá bảng sâu
+1097	Cầu lan can đá diorit
+1098	Cầu lan can gạch đá End
+1099	Cầu lan can đá hoa cương
+1100	Cầu lan can đá cuội phủ rêu
+1101	Cầu lan can gạch đá phủ rêu
+1102	Cầu lan can gạch bùn
+1103	Cầu lan can gạch Nether
+1104	Cầu lan can gạch Prismarin
+1105	Cầu lan can cát kết đỏ
+1106	Cầu lan can cát kết
+1107	Cầu lan can gạch đá
+1806	Đèn lồng cầu
+1807	Đuốc cầu
+3927	Cầu tre khô
+3928	Bậc cầu tre khô
+3929	Trụ đỡ cầu tre khô
+6789	Macaw's Bridges
+7647	Bậc cầu đá phủ rêu
+7648	Trụ đỡ cầu đá phủ rêu
+8920	Kìm
+15688	Nhấp chuột phải vào cầu để làm lối vào, chỉ áp dụng cho cầu rộng từ 2 ô trở lên
+13516	Dùng trên tay vịn cầu hoặc cầu thang
+13518	Dùng kìm hoặc kéo để chỉnh lối vào
+1245	Mẫu in cửa bãi biển
+2369	Mẫu in cửa cổ điển
+2762	Mẫu in cửa nhà tranh
+2821	Nguyên liệu chế tạo
+3193	Cửa hiện đại tối màu
+4803	Mẫu in cửa bốn ô
+4889	Điều khiển cửa ga ra
+6126	Cửa nhà tù
+6790	Macaw's Doors
+7458	Mẫu in cửa lưới
+7741	Mẫu in cửa huyền bí
+7829	Mẫu in cửa Nether
+8219	Cửa ga ra mở
+8229	Cửa giấy Nhật mở
+8515	Mẫu in cửa giấy
+15630	Chỉ đặt một cái lên trần, khi mở nó sẽ cuộn xuống
+10352	Cần năng lượng Redstone để mở
+11202	Cửa ga ra bạc
+11288	Cửa kính trượt
+11935	Cửa hàng
+12508	Mẫu in cửa đầm lầy
+13212	Mẫu in cửa nhiệt đới
+13665	Mẫu in cửa ô vuông
+13907	Mẫu in cửa thì thầm
+14189	Cửa song sắt gỗ
+119	%1$s đã cố vượt qua hàng rào dây thép
+15003	%1$s đã cố vượt qua hàng rào dây thép khi đang cố thoát khỏi %2$s
+521	Hàng rào kim loại quả sồi
+1061	Hàng rào cây đỗ quyên
+1230	Hàng rào kim loại pháo đài
+1231	Cổng rào kim loại pháo đài
+1976	Có thể chồng lên cao hơn
+2047	Hàng rào kim loại thánh đường
+3064	Hàng rào kim loại cong
+3065	Cổng rào kim loại cong
+3883	Hàng rào kim loại cong đôi
+4244	Tường gạch End phủ cỏ
+4245	Tường cột gạch End
+4246	Cổng lan can gạch End
+4381	Hàng rào kim loại lưới giãn
+4736	Hàng rào cây đỗ quyên trổ hoa
+4797	Hàng rào kim loại thành trì
+5065	Hàng rào kim loại kiểu Gothic
+5250	Hàng rào kim loại hộ vệ
+6791	Macaw's Fences & Walls
+7119	Cổng rào kim loại uy nghi
+7459	Hàng rào kim loại lưới
+7460	Cổng rào kim loại lưới
+7593	Tường hiện đại đá andesit
+7594	Tường hiện đại đá đen
+7595	Tường hiện đại gạch đá bảng sâu
+7596	Tường hiện đại đá bảng sâu
+7597	Tường hiện đại đá diorit
+7598	Tường hiện đại gạch End
+7599	Tường hiện đại đá hoa cương
+7600	Tường hiện đại gạch bùn
+7601	Tường hiện đại gạch Nether
+7602	Tường hiện đại Prismarin
+7603	Tường hiện đại thạch anh
+7604	Tường hiện đại cát kết đỏ
+7605	Tường hiện đại cát kết
+7606	Tường hiện đại gạch đá
+7813	Tường gạch Nether phủ cỏ
+7814	Tường cột gạch Nether
+7815	Cổng lan can gạch Nether
+8309	Hàng rào kim loại chạm trổ
+8512	Hàng rào kim loại tấm
+8513	Cổng rào kim loại tấm
+9278	Tường lan can đá andesit
+9279	Tường lan can đá đen
+9280	Tường lan can gạch đá bảng sâu
+9281	Tường lan can đá bảng sâu
+9282	Tường lan can đá diorit
+9283	Tường lan can gạch End
+9284	Tường lan can đá hoa cương
+9285	Tường lan can gạch bùn
+9286	Tường lan can gạch Nether
+9287	Tường lan can Prismarin
+9288	Tường lan can thạch anh
+9289	Tường lan can cát kết đỏ
+9290	Tường lan can cát kết
+9291	Tường lan can gạch đá
+13233	Hàng rào kim loại chạng vạng
+13619	Hàng rào kim loại cổ điển
+14173	Hàng rào chông gỗ
+1207	Mái gác xép nền
+1209	Chân mái thấp nền
+1210	Nóc mái thấp nền
+1212	Máng xối nền
+1213	Mái nền
+1214	Khối mái nền
+1215	Phiến mái nền
+1216	Chân mái dốc nền
+1217	Nóc mái dốc nền
+1218	Nóc mái nền
+2822	Nguyên liệu chế tạo
+5097	Mái gác xép cỏ
+5100	Chân mái thấp cỏ
+5101	Nóc mái thấp cỏ
+5102	Mái cỏ
+5104	Chân mái dốc cỏ
+5105	Nóc mái dốc cỏ
+5106	Nóc mái cỏ
+6792	Macaw's Roofs
+9295	Máng xối
+9296	Ống thoát nước máng xối
+10525	Nhấp chuột phải vào nóc mái để đổi trạng thái
+10550	Búa lợp mái
+1199	Mẫu in cửa sập song sắt
+1246	Mẫu in cửa sập bãi biển
+2371	Mẫu in cửa sập cổ điển
+2763	Mẫu in cửa sập nhà tranh
+4804	Mẫu in cửa sập bốn ô
+6793	Macaw's Trapdoors
+7461	Mẫu in cửa sập lưới
+7742	Mẫu in cửa sập huyền bí
+8517	Mẫu in cửa sập giấy
+12510	Mẫu in cửa sập đầm lầy
+13214	Mẫu in cửa sập nhiệt đới
+13666	Mẫu in cửa sập ô vuông
+13691	Cửa sập cảnh báo
+13908	Mẫu in cửa sập thì thầm
+1550	Rèm sáo đóng
+1551	Rèm sáo mở
+3298	Cửa sổ ô kính gỗ sồi sẫm
+4242	Lỗ châu mai gạch End
+4243	Cửa sổ Gothic gạch End
+5037	Thanh treo rèm vàng
+6794	Macaw's Windows
+6795	Macaw's Windows Additions
+7809	Lỗ châu mai gạch Nether
+7812	Cửa sổ Gothic gạch Nether
+8183	Kính một chiều
+8184	Tấm kính một chiều
+10523	Nhấp chuột phải vào cửa sổ để đổi hình dạng
+10524	Nhấp chuột phải vào cửa sổ để khóa lại.
+14115	Khung cửa sổ
+14116	Cửa sổ đóng
+14117	Khung cửa sổ bốn ô
+14118	Khung cửa sổ nửa ô
+14119	Búa làm cửa sổ
+14120	Chìa khóa cửa sổ
+14121	Cửa sổ mở
+310	0,5 giây
+312	1 giây
+314	1,5 giây
+315	2 giây
+361	Một ánh sáng trong bóng tối...
+592	Chỉnh tỉ lệ Herobrine xuất hiện.
+629	Tiến trình
+659	Alex
+768	một mình.
+887	Bóng hiện hồn
+1241	Hãy là Bonzo hề hước.
+1244	Hãy là Thủ thư.
+1276	Sau lưng bạn...
+1461	Mắt đen
+1889	Xây một điện thờ Herobrine.
+1905	Nền đang cháy
+1987	đầu nến?
+15223	Đổi Herobrine về Hoebrine, nhắc tới lỗi gốc xảy ra khi người chơi thấy Herobrine mà chưa bật gói tài nguyên.
+2112	Đổi kết cấu da hoặc mô hình của Herobrine.
+15224	Đổi thời gian Herobrine biến mất sau khi bị bắt gặp đang rón rén tới gần người chơi.
+15225	Đổi thời gian Herobrine biến mất sau khi bị bắt gặp đang bám theo người chơi.
+15226	Đổi độ trễ trước khi Herobrine bắt đầu ám nặng (tính bằng ngày trong trò chơi).
+15227	Đổi ngôn ngữ Herobrine dùng để giao tiếp với người chơi.
+15230	Đổi việc có phát âm thanh hay không khi người chơi phát hiện Herobrine.
+2115	Đổi việc Herobrine có được sửa cấu hình hay không.
+2116	Đổi việc Herobrine có được mở cửa nhà bạn hay không.
+15231	Đổi việc Herobrine có bảng tên hay không và nó hiện ra thế nào.
+15232	Đổi việc Herobrine có xuất hiện trên đỉnh điện thờ khi được thắp hay không.
+15233	Đổi việc Herobrine có lớp phát sáng hay không. Hữu ích cho người muốn hắn giống bản gốc hơn, hoặc dùng ánh sáng động.
+15234	Đổi việc Herobrine có lảng vảng quanh người chơi, theo dõi từ rất xa hay không.
+15235	Đổi việc Herobrine có đào cạnh bạn trong đường hầm mỏ hay không.
+15236	Đổi việc Herobrine có thắp lại điện thờ bị dập tắt hay không.
+15237	Đổi việc Herobrine có chạy tới sau lưng người chơi tạo tiếng bước chân hay không.
+15238	Đổi việc Herobrine có xuất hiện khi đang nhảy điệu griddy hay không.
+15239	Đổi việc Herobrine có bám theo bạn từ xa hay không.
+15240	Đổi việc Herobrine có đứng sau lưng bạn chờ bạn quay lại hay không.
+15241	Đổi việc Herobrine có cố phá đuốc của bạn khi bạn rời khu vực hay không (kiểm tra mỗi ngày trong trò chơi một lần).
+15242	Đổi việc Herobrine có cố đốt nhà bạn khi bạn rời khu vực hay không (kiểm tra mỗi ngày trong trò chơi một lần).
+15243	Đổi việc thú cưng có phản ứng khi Herobrine ở gần hay không.
+15244	Đổi việc người chơi có được trao tiến trình của From The Fog hay không. (TIẾN TRÌNH ĐÃ NHẬN KHI BẬT SẼ MẤT NẾU TẮT!!!)
+2275	Nến lạnh giá
+2368	Cổ điển
+2508	Hướng dẫn lệnh
+2511	Phổ biến
+2549	Cấu hình [0/0]
+2550	Cấu hình [1/6]
+2551	Cấu hình [2/6]
+2552	Cấu hình [3/6]
+2553	Cấu hình [4/6]
+2554	Cấu hình [5/6]
+2555	Cấu hình [6/6]
+2556	Cấu hình [Thư viện da]
+2827	Cơ chế làm sập
+2869	Cơ chế rón rén

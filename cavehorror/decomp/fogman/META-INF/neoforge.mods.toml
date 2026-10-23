@@ -1,0 +1,42 @@
+modLoader="javafml"
+loaderVersion="[2,)"
+license="MIT License"
+
+[[mods]]
+modId="man"
+version="1.4"
+displayName="The Man From The Fog"
+displayURL="https://discord.gg/mproductions"
+logoFile="logo.png"
+credits="Ma_Do_, Crii, Beph, kira-kira, BluSpring, Rozarke"
+authors="M Productions"
+description="Adds an entity which stalks you"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.man]]
+    modId="neoforge"
+    type="required"
+    versionRange="[20.6.117,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.man]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.20.6]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+[[dependencies.man]]
+    modId="geckolib"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

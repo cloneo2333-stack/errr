@@ -1,0 +1,18 @@
+{
+ "message.voicechat.default_microphone": "Mặc định hệ thống",
+ "message.voicechat.default_speaker": "Mặc định hệ thống",
+ "message.voicechat.gain": "Độ khuếch đại: %s",
+ "message.voicechat.gain.auto": "Tự động",
+ "message.voicechat.gain.manual": "Thủ công",
+ "message.voicechat.gain.manual.warning": "Hãy giữ bật tự chỉnh độ khuếch đại micrô để mọi người nghe bạn với âm lượng ổn định.",
+ "message.voicechat.microphone_gain.warning": "Khuếch đại quá %s dB có thể gây méo tiếng và các lỗi khác!",
+ "message.voicechat.native_error": "Một số mô đun không tải được: có thể hệ điều hành của bạn không được hỗ trợ.",
+ "message.voicechat.onboarding.activation.voice": "%s tự bật micrô khi bạn nói.",
+ "message.voicechat.onboarding.voice.description": "Bật thử micrô và chắc chắn bạn nghe được giọng mình khi nói. Nếu không được, hãy dùng kích hoạt giọng nói thủ công và chỉnh ngưỡng kích hoạt.",
+ "message.voicechat.onboarding.voice.title": "Chỉnh kích hoạt bằng giọng nói",
+ "message.voicechat.ping_received_attempt": "Nhận được phản hồi sau %s ms qua %s lần thử",
+ "message.voicechat.test_speaker": "Nhấn để phát âm thanh thử.",
+ "message.voicechat.voice_activation_detection": "Kích hoạt bằng giọng nói: %s",
+ "message.voicechat.voice_activation_detection.auto": "Tự động",
+ "message.voicechat.voice_activation_detection.manual": "Thủ công"
+}

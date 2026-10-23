@@ -1,0 +1,154 @@
+{
+  "spawn_1": {
+    "sounds": [
+      {
+        "name": "man:spawn-version-1",
+        "stream": false
+      }
+    ]
+  },
+  "spawn_2": {
+    "sounds": [
+      {
+        "name": "man:spawn-version-2",
+        "stream": false
+      }
+    ]
+  },
+  "spawn_3": {
+    "sounds": [
+      {
+        "name": "man:spawn-version-3",
+        "stream": false
+      }
+    ]
+  },
+  "scream_loop": {
+    "sounds": [
+      {
+        "name": "man:screams-version-2",
+        "stream": false
+      }
+    ]
+  },
+  "vanish": {
+    "sounds": [
+      {
+        "name": "man:reversed-version-2",
+        "stream": false
+      }
+    ]
+  },
+  "look": {
+    "sounds": [
+      {
+        "name": "man:look-version-1",
+        "stream": false
+      }
+    ]
+  },
+  "jumpscare": {
+    "sounds": [
+      {
+        "name": "man:jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "loop": {
+    "sounds": [
+      {
+        "name": "man:chasedv2",
+        "stream": false
+      }
+    ]
+  },
+  "spawn_4": {
+    "sounds": [
+      {
+        "name": "man:spawn1",
+        "stream": false
+      }
+    ]
+  },
+  "spawn_5": {
+    "sounds": [
+      {
+        "name": "man:spotted",
+        "stream": false
+      }
+    ]
+  },
+  "forest_ambient": {
+    "sounds": [
+      {
+        "name": "man:loud-silence-75803",
+        "stream": false
+      }
+    ]
+  },
+  "white_noise_passby": {
+    "sounds": [
+      {
+        "name": "man:passby-eerie-with-white-noise-glitchedtones-1-1-00-05",
+        "stream": false
+      }
+    ]
+  },
+  "long_riser": {
+    "sounds": [
+      {
+        "name": "man:ghost-scream-riser-joshua-chivers-1-00-09_1",
+        "stream": false
+      }
+    ]
+  },
+  "ritual_enter": {
+    "sounds": [
+      {
+        "name": "man:ghostly-whisper-female-jam-fx-2-2-00-09_1",
+        "stream": false
+      }
+    ]
+  },
+  "long_whisper": {
+    "sounds": [
+      {
+        "name": "man:long_whisper",
+        "stream": false
+      }
+    ]
+  },
+  "short_whisper_1": {
+    "sounds": [
+      {
+        "name": "man:short_whisper_1",
+        "stream": false
+      }
+    ]
+  },
+  "short_whisper_2": {
+    "sounds": [
+      {
+        "name": "man:short_whisper_2",
+        "stream": false
+      }
+    ]
+  },
+  "safety_instructions": {
+    "sounds": [
+      {
+        "name": "man:safety_instructions_1",
+        "stream": false
+      }
+    ]
+  },
+  "ritual": {
+    "sounds": [
+      {
+        "name": "man:creepy-ambient-7539_1",
+        "stream": false
+      }
+    ]
+  }
+}
