@@ -66,7 +66,7 @@ public final class Playground {
         parts.put("tlo", corner(b, -2, 1, 3).asLong());
         parts.put("thi", corner(b, 2, 8, 5).asLong());
         parts.put("wlo", corner(b, -5, -16, -2).asLong());
-        parts.put("whi", corner(b, -3, 4, 0).asLong());
+        parts.put("whi", corner(b, -3, 5, 0).asLong());
     }
 
     static BlockPos corner(Lore.B b, int x, int y, int z) {
@@ -119,13 +119,13 @@ public final class Playground {
         b.set(-4, -16, -1, wall);
         b.set(-4, 1, -1, Blocks.IRON_TRAPDOOR.defaultBlockState().setValue(TrapDoorBlock.HALF, Half.TOP).setValue(TrapDoorBlock.OPEN, false));
         BlockState fence = Blocks.DARK_OAK_FENCE.defaultBlockState();
-        b.set(-5, 2, -1, fence);
-        b.set(-5, 3, -1, fence);
-        b.set(-3, 2, -1, fence);
-        b.set(-3, 3, -1, fence);
-        BlockState top = Blocks.DARK_OAK_SLAB.defaultBlockState().setValue(SlabBlock.TYPE, SlabType.TOP);
-        for (int x = -5; x <= -3; x++) b.set(x, 4, -1, top);
-        b.set(-4, 3, -1, Blocks.CHAIN.defaultBlockState());
+        for (int y = 2; y <= 4; y++) {
+            b.set(-5, y, -1, fence);
+            b.set(-3, y, -1, fence);
+        }
+        BlockState beam = Blocks.DARK_OAK_SLAB.defaultBlockState().setValue(SlabBlock.TYPE, SlabType.BOTTOM);
+        for (int x = -5; x <= -3; x++) b.set(x, 5, -1, beam);
+        b.set(-4, 4, -1, Blocks.CHAIN.defaultBlockState());
         b.wallSign(-4, 1, -3, Blocks.SPRUCE_WALL_SIGN, Direction.NORTH, Component.literal("GIẾNG"), Component.literal("THÔNG GIÓ"), Component.literal("SỐ 4"),
             Component.literal("cấm lại gần"));
     }

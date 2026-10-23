@@ -32,7 +32,7 @@ import vn.cavemind.world.Motion;
 import vn.cavemind.world.Spots;
 
 public final class Glimpse {
-    public enum Kind { MAN_FAR, MAN_TUNNEL, MAN_FRIEND, MAN_WINDOW, DAMNED_FAR, DAMNED_WINDOW, SIT_IN, LAIR }
+    public enum Kind { MAN_FAR, MAN_TUNNEL, MAN_FRIEND, MAN_WINDOW, DAMNED_FAR, DAMNED_WINDOW, SIT_IN, LAIR, CAUGHT }
 
     static final class Run {
         Kind kind;
@@ -42,6 +42,15 @@ public final class Glimpse {
         Vec3 spot;
         boolean man;
         boolean twitched;
+        java.util.function.Consumer<Boolean> done;
+        boolean reported;
+    }
+
+    // Tells whoever started the run how it ended: seen (caught in the act) or not. Only once.
+    static void end(Run r, boolean seen) {
+        if (r.done == null || r.reported) return;
+        r.reported = true;
+        r.done.accept(seen);
     }
 
     private static final Map<UUID, Run> RUNS = new HashMap<>();
@@ -50,7 +59,10 @@ public final class Glimpse {
 
     public static void forget(ServerPlayer p) {
         Run r = RUNS.remove(p.getUUID());
-        if (r != null) discard(p.serverLevel(), r.body);
+        if (r != null) {
+            discard(p.serverLevel(), r.body);
+            end(r, false);
+        }
         NEXT.remove(p.getUUID());
     }
 
@@ -77,6 +89,7 @@ public final class Glimpse {
             if (!keep) {
                 RUNS.remove(p.getUUID());
                 discard(p.serverLevel(), r.body);
+                end(r, false);
             }
             return;
         }
@@ -184,7 +197,33 @@ public final class Glimpse {
         return begin(p, Watch.of(p), now, null);
     }
 
-    private static BlockPos lairAt;
+    private static BlockPos lairAt, caughtAt;
+
+    // The Man is still at the player's home, busy next to what he just did. Seen before he hears you coming: caught in the act.
+    public static boolean caught(ServerPlayer p, BlockPos near, java.util.function.Consumer<Boolean> done) {
+        if (!Compat.manActive() || Compat.exempt(p) || busy(p) || near == null) return false;
+        caughtAt = near;
+        try {
+            if (!setup(p, Watch.of(p), Kind.CAUGHT, p.server.getTickCount(), null)) return false;
+        } finally {
+            caughtAt = null;
+        }
+        RUNS.get(p.getUUID()).done = done;
+        return true;
+    }
+
+    public static boolean caughtFor(ServerPlayer p) {
+        Run r = RUNS.get(p.getUUID());
+        return r != null && r.kind == Kind.CAUGHT;
+    }
+
+    // Arriving by respawn or teleport: he is simply gone, there was nobody to catch.
+    public static void cancel(ServerPlayer p) {
+        Run r = RUNS.remove(p.getUUID());
+        if (r == null) return;
+        for (ServerLevel lvl : p.server.getAllLevels()) discard(lvl, r.body);
+        end(r, false);
+    }
 
     public static boolean lair(ServerPlayer p, BlockPos lair) {
         if (!Compat.manActive() || Compat.exempt(p) || busy(p)) return false;
@@ -222,6 +261,7 @@ public final class Glimpse {
             case MAN_WINDOW, DAMNED_WINDOW -> c = vn.cavemind.man.Window.find(p, w);
             case SIT_IN -> c = sitSpot(p, w, b);
             case LAIR -> c = lairSpot(p, w, lairAt);
+            case CAUGHT -> c = caughtSpot(p, w, caughtAt);
         }
         if (c == null) return false;
         Entity e;
@@ -231,7 +271,7 @@ public final class Glimpse {
         String pose = switch (k) {
             case DAMNED_FAR -> c.trunk ? "cm_peek" : p.getRandom().nextBoolean() ? "cm_low" : "cm_still";
             case DAMNED_WINDOW -> "cm_still";
-            case MAN_TUNNEL, SIT_IN, LAIR -> "cm_hold";
+            case MAN_TUNNEL, SIT_IN, LAIR, CAUGHT -> "cm_hold";
             default -> "empty";
         };
         Compat.anim(e, pose);
@@ -295,6 +335,22 @@ public final class Glimpse {
         return best;
     }
 
+    private static Spots.Cand caughtSpot(ServerPlayer p, Watch w, BlockPos near) {
+        if (near == null) return null;
+        ServerLevel lvl = p.serverLevel();
+        RandomSource r = p.getRandom();
+        Spots.Cand best = null;
+        for (int i = 0; i < 60; i++) {
+            BlockPos feet = Spots.nearFloor(lvl, near.offset(r.nextInt(7) - 3, 0, r.nextInt(7) - 3), 3, 3);
+            if (feet == null) continue;
+            Spots.Cand c = Spots.eval(p, w, feet, 0.6, 3.0);
+            if (c.dist < 14) continue;
+            c.score = c.vis + (c.sight.on ? -0.4 : 0) + r.nextDouble() * 0.2;
+            if (best == null || c.score > best.score) best = c;
+        }
+        return best;
+    }
+
     private static Spots.Cand sitSpot(ServerPlayer p, Watch w, LifeData.Base b) {
         ServerLevel lvl = p.serverLevel();
         RandomSource r = p.getRandom();
@@ -332,19 +388,20 @@ public final class Glimpse {
             case MAN_FRIEND -> 6;
             case SIT_IN -> 4.5;
             case LAIR -> 7;
+            case CAUGHT -> 9;
             default -> 2.5;
         };
         if (r.phase == 0) {
             if (vis > 0.12 && si.edge() < 0.92) r.look++;
             else r.look = Math.max(0, r.look - 1);
-            if (r.look >= (r.kind == Kind.SIT_IN || r.kind == Kind.LAIR ? 8 : 14)) {
+            if (r.look >= (r.kind == Kind.SIT_IN || r.kind == Kind.LAIR || r.kind == Kind.CAUGHT ? 8 : 14)) {
                 r.phase = 1;
                 r.seenAt = now;
                 seen(p, r, e, dist);
                 return true;
             }
             if (dist < flee) return vanish(p, r, e, false);
-            if (age > 900) {
+            if (age > (r.kind == Kind.CAUGHT ? 1400 : 900)) {
                 missed(p, r, e);
                 return false;
             }
@@ -380,7 +437,7 @@ public final class Glimpse {
         ServerLevel lvl = p.serverLevel();
         Profile pr = MindData.profile(p);
         long day = Dread.day(lvl);
-        Director.scare(p, r.kind == Kind.SIT_IN ? 10 : 4);
+        Director.scare(p, r.kind == Kind.CAUGHT ? 12 : r.kind == Kind.SIT_IN ? 10 : 4);
         vn.cavemind.director.Tension.seen(p, dist, r.man ? "The Man" : "The Damned");
         vn.cavemind.director.PaceLog.encounter(p, r.man ? "man" : "damned", "glimpse " + r.kind, (int) dist + "m");
         if (r.man) {
@@ -399,6 +456,21 @@ public final class Glimpse {
                 }
             }
             if (r.kind == Kind.SIT_IN) Fx.sound(p, "man:long_whisper", SoundSource.HOSTILE, e.getEyePosition(), 0.3f, 0.7f);
+            if (r.kind == Kind.CAUGHT) {
+                // caught at it: he freezes, the house is his no longer, and sometimes he drops a shard of bone
+                Fx.sound(p, "man:long_whisper", SoundSource.HOSTILE, e.getEyePosition(), 0.35f, 0.6f);
+                LifeData d = LifeData.get(p.server);
+                d.caution = Math.min(100, d.caution + 25);
+                d.setDirty();
+                pr.bold(-10);
+                if (p.getRandom().nextFloat() < 0.5f) {
+                    net.minecraft.world.entity.item.ItemEntity bone = new net.minecraft.world.entity.item.ItemEntity(lvl, e.getX(), e.getY() + 0.3, e.getZ(),
+                        new net.minecraft.world.item.ItemStack(vn.cavemind.gear.Gear.BONE.get()));
+                    bone.setDefaultPickUpDelay();
+                    lvl.addFreshEntity(bone);
+                }
+                end(r, true);
+            }
         } else {
             if (r.kind == Kind.DAMNED_WINDOW) pr.moment(new Moment(Moment.WINDOW, day, Dread.time(lvl), p.blockPosition(), (int) dist, 0));
             vn.cavemind.damned.Haunt.glimpsed(p);

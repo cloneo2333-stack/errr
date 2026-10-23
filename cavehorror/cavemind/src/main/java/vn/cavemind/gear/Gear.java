@@ -21,6 +21,8 @@ public final class Gear {
 
     public static final RegistryObject<Block> CHIME_BLOCK = BLOCKS.register("chuong_gio_xuong", Chime::new);
     public static final RegistryObject<Block> SCRAWL = BLOCKS.register("chu_tuong", Scrawl::new);
+    public static final RegistryObject<Block> VET_SAN = BLOCKS.register("vet_san", Vet::new);
+    public static final RegistryObject<Block> VET_TUONG = BLOCKS.register("vet_tuong", Vet::new);
     public static final RegistryObject<Item> CHIME = Keys.ITEMS.register("chuong_gio_xuong", () -> new BlockItem(CHIME_BLOCK.get(), new Item.Properties().stacksTo(16).rarity(Rarity.UNCOMMON)) {
         @Override
         public void appendHoverText(ItemStack st, Level lvl, List<Component> lines, TooltipFlag flag) {

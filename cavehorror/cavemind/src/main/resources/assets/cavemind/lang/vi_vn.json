@@ -334,5 +334,16 @@
   "item.cavemind.lo_dom_dom": "Lọ Đom Đóm",
   "item.cavemind.lo_dom_dom.desc1": "Chuột phải: đom đóm bay về phía nơi bạn cần tới, để lại vệt sáng.",
   "item.cavemind.lo_dom_dom.desc2": "Shift + chuột phải: đổi thứ cần tìm (tự chọn, trang, sân chơi, điểm hẹn, nơi chưa tới).",
-  "item.cavemind.lo_dom_dom.desc3": "Bay chừng ba mươi khối. Nghỉ mười hai giây mới thả lại được."
+  "item.cavemind.lo_dom_dom.desc3": "Bay chừng ba mươi khối. Nghỉ mười hai giây mới thả lại được.",
+  "subtitles.cavemind.maze.hum": "Áp suất ù ù",
+  "subtitles.cavemind.maze.focus": "Ống kính lấy nét",
+  "subtitles.cavemind.maze.sob": "Trẻ con khóc thút thít",
+  "subtitles.cavemind.maze.cough": "Ai đó ho sặc",
+  "subtitles.cavemind.maze.scrape": "Móng tay cào tường",
+  "subtitles.cavemind.maze.tape": "Băng từ rè",
+  "subtitles.cavemind.maze.top": "Con quay rít lên",
+  "subtitles.cavemind.maze.harmonica": "Kèn harmonica",
+  "subtitles.cavemind.maze.twang": "Dây nỏ bật",
+  "block.cavemind.vet_san": "Vết trên sàn",
+  "block.cavemind.vet_tuong": "Vết trên tường"
 }

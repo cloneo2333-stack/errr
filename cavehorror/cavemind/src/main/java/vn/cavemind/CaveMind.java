@@ -35,6 +35,7 @@ public class CaveMind {
         vn.cavemind.gear.Gear.init();
         vn.cavemind.chapter.Keys.ITEMS.register(modBus);
         vn.cavemind.gear.Gear.BLOCKS.register(modBus);
+        vn.cavemind.world.Sounds.SOUNDS.register(modBus);
         MinecraftForge.EVENT_BUS.register(Events.class);
         if (Boolean.getBoolean("cavemind.selftest")) MinecraftForge.EVENT_BUS.register(vn.cavemind.cmd.SelfTest.class);
     }

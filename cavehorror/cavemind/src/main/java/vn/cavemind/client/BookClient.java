@@ -34,6 +34,14 @@ public final class BookClient {
                 if (mc.screen instanceof BookScreen bs) bs.refresh(o);
                 else mc.setScreen(new BookScreen(o, lastPage));
             }
+            case Net.Book.UPDATE -> {
+                if (!(mc.screen instanceof BookScreen bs)) return;
+                try {
+                    bs.refresh(JsonParser.parseString(b.json()).getAsJsonObject());
+                } catch (Exception ex) {
+                    CaveMind.LOG.warn("[CaveMind] bad book data", ex);
+                }
+            }
             case Net.Book.MODE -> {
                 if (mc.screen == null || mc.screen instanceof BookScreen) mc.setScreen(new ModeScreen());
                 else pendingMode = true;

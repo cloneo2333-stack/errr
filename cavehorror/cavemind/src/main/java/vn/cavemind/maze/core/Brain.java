@@ -52,6 +52,9 @@ public final class Brain {
     public static int SPOT_TICKS = 8;
     int cutCell = -1;
     public int cuts;
+    public int errand = -1, ripIdx = -1;
+    boolean ripping;
+    public int fetches, betrayals, rips;
 
     Brain(Round rd, Random r) {
         this.rd = rd;
@@ -212,6 +215,10 @@ public final class Brain {
                 if (rd.t - modeAt >= Round.COUNT) set(Mode.SEARCH, "đếm xong, đi tìm");
             }
             case SEARCH -> {
+                if (errand >= 0 || ripIdx >= 0) {
+                    errandTick();
+                    break;
+                }
                 if (route.isEmpty() && vent < 0) {
                     if (goal >= 0 && at == goal) {
                         sweeps++;
@@ -235,7 +242,14 @@ public final class Brain {
                     if (Math.hypot(openX - x, openZ - z) < 0.05) {
                         Grid.Closet c = g.closets.get(openIdx);
                         yaw = yawTo(x, z, c.x + 0.5, c.z + 0.5);
-                        if (!listening) {
+                        if (ripping) {
+                            ripping = false;
+                            opening = true;
+                            openAt = rd.t;
+                            rips++;
+                            rd.events.add(new Round.Event("rip", c.x + 0.5, c.z + 0.5, openIdx));
+                            rd.events.add(new Round.Event("open", c.x + 0.5, c.z + 0.5, openIdx));
+                        } else if (!listening) {
                             listening = true;
                             heardInside = false;
                             listens++;
@@ -362,6 +376,88 @@ public final class Brain {
         set(Mode.CUT, "bạn chạy nhanh hơn, nó đi đường tắt chặn đầu");
         planTo(best, true);
         return true;
+    }
+
+    int errandCell() {
+        if (ripIdx >= 0) return g.closets.get(ripIdx).cell;
+        return Grid.cellAt(g.toys[errand][0], g.toys[errand][1]);
+    }
+
+    // Sent to a crying toy: walk over, touch it, and let it point at the nearest runner's quarter of the maze.
+    boolean fetch(int toy) {
+        if (mode == Mode.COUNT || mode == Mode.CHASE || mode == Mode.CUT || mode == Mode.OPEN || mode == Mode.STUN || ripIdx >= 0) return false;
+        errand = toy;
+        fetches++;
+        set(Mode.SEARCH, "nghe đồ chơi khóc, đi tới đó");
+        eagerUntil = rd.t + 600;
+        route.clear();
+        goal = errandCell();
+        planTo(goal, false);
+        return true;
+    }
+
+    // A cough from inside a closet: go there and tear the door open without listening first.
+    void rip(int idx) {
+        if (mode == Mode.CHASE || mode == Mode.STUN || mode == Mode.COUNT || mode == Mode.OPEN && opening || idx < 0 || idx >= g.closets.size()) return;
+        ripIdx = idx;
+        errand = -1;
+        openIdx = -1;
+        listening = false;
+        set(Mode.SEARCH, "nghe tiếng ho trong tủ, tới giật cửa");
+        eagerUntil = rd.t + 600;
+        route.clear();
+        goal = errandCell();
+        planTo(goal, false);
+    }
+
+    void errandTick() {
+        if (ripIdx >= 0) {
+            Grid.Closet c = g.closets.get(ripIdx);
+            if (at == c.cell && route.isEmpty() && vent < 0) {
+                openIdx = ripIdx;
+                ripIdx = -1;
+                opening = false;
+                ripping = true;
+                set(Mode.OPEN, "giật tung cửa tủ");
+                openX = c.x + 0.5 + Grid.DX[c.face] * 1.0;
+                openZ = c.z + 0.5 + Grid.DZ[c.face] * 1.0;
+                return;
+            }
+        } else {
+            double tx = g.toys[errand][0], tz = g.toys[errand][1];
+            if (rd.toyTaken[errand]) {
+                errand = -1;
+                route.clear();
+                pickGoal();
+                return;
+            }
+            if (Math.hypot(tx - x, tz - z) < 0.8) {
+                int toy = errand;
+                errand = -1;
+                Round.Runner rn = rd.betray(toy);
+                if (rn != null) quadrant(rn);
+                route.clear();
+                pickGoal();
+                return;
+            }
+        }
+        int tc = errandCell();
+        if (vent < 0 && (goal != tc || route.isEmpty() && at != tc)) {
+            goal = tc;
+            planTo(tc, false);
+        }
+    }
+
+    void quadrant(Round.Runner rn) {
+        betrayals++;
+        int rc = Grid.cellAt(rn.x, rn.z), qi = Grid.ci(rc) * 2 / Grid.N, qj = Grid.cj(rc) * 2 / Grid.N;
+        for (int c = 0; c < belief.length; c++) {
+            boolean in = Grid.ci(c) * 2 / Grid.N == qi && Grid.cj(c) * 2 / Grid.N == qj;
+            belief[c] = in ? (hiding[c] ? 3.0 : 1.0) : 0.0005;
+        }
+        normalize();
+        eagerUntil = rd.t + 400;
+        why = "đồ chơi chỉ về phía bạn";
     }
 
     void afterSweep() {
@@ -550,6 +646,11 @@ public final class Brain {
 
     void pickGoal() {
         if (vent >= 0) return;
+        if (errand >= 0 || ripIdx >= 0) {
+            goal = errandCell();
+            planTo(goal, false);
+            return;
+        }
         double[] cost = dijkstra(at, false);
         int[] best = {-1, -1, -1};
         double[] bs = {-1, -1, -1};
@@ -688,7 +789,10 @@ public final class Brain {
             }
             case LAST -> step(LAST_SPEED);
             case CUT -> step(CHASE_SPEED);
-            default -> step(rd.t < eagerUntil ? LAST_SPEED : SEARCH_SPEED);
+            default -> {
+                if (errand >= 0 && route.isEmpty() && vent < 0 && at == errandCell()) approach(g.toys[errand][0], g.toys[errand][1], LAST_SPEED);
+                else step(rd.t < eagerUntil ? LAST_SPEED : SEARCH_SPEED);
+            }
         }
     }
 

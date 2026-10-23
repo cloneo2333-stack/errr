@@ -10,6 +10,7 @@ public final class Round {
     public enum End { NONE, CAUGHT, WIN_TOYS, WIN_TIME, AFK, LEFT }
 
     public static final int TIME = 12000, COUNT = 48 * 20;
+    public static int CRY_EVERY = 40 * 20, CRY_GRACE = 20 * 20, CRY_REPEAT = 5 * 20, CAMP_INK = 40 * 20, CAMP_COUGH = 50 * 20;
     public static final int N_STEP = 0, N_SPRINT = 1, N_CROUCH = 2, N_JUMP = 3, N_DOOR = 4, N_TOY = 5, N_VOICE = 6, N_BELL = 7, N_HIT = 8;
 
     public static final class Runner {
@@ -22,9 +23,12 @@ public final class Round {
         public int toys;
         public int still;
         public int stare;
-        public double stamina = 1;
+        public double stamina = 1, drain = 1;
         public boolean exhausted, holding;
         int breathAt;
+        public int camp, campStage;
+        int campKey = Integer.MIN_VALUE;
+        double campX, campZ;
 
         public Runner(int id) {
             this.id = id;
@@ -56,6 +60,11 @@ public final class Round {
     final List<Noise> fresh = new ArrayList<>();
     public final List<Event> events = new ArrayList<>();
     public int closetOpen = -1;
+    public int crying = -1;
+    public long cryAt;
+    long nextCry = COUNT + CRY_EVERY;
+    boolean cryCalled;
+    final long[] lastCry = new long[7];
 
     public Round(long seed, Mode mode) {
         this.g = new Grid(seed);
@@ -112,6 +121,8 @@ public final class Round {
         t++;
         gazeTick();
         for (Runner r : runners) if (!r.out && !r.caught) breath(r);
+        cries();
+        for (Runner r : runners) if (!r.out && !r.caught) camping(r);
         brain.tick();
         fresh.clear();
         for (Runner r : runners) {
@@ -170,7 +181,7 @@ public final class Round {
         boolean near = brain.y >= 0 && brain.mode != Brain.Mode.COUNT && Math.hypot(r.x - brain.x, r.z - brain.z) < 4.5;
         r.holding = false;
         if (r.sprint && r.speed > 0.1 && !r.exhausted) {
-            r.stamina -= 1.0 / 130;
+            r.stamina -= 1.0 / 130 * r.drain;
             if (r.stamina <= 0) {
                 r.stamina = 0;
                 r.exhausted = true;
@@ -182,7 +193,7 @@ public final class Round {
         if (tucked(r) && near) {
             if (r.crouch) {
                 r.holding = true;
-                r.stamina -= 1.0 / 80;
+                r.stamina -= 1.0 / 80 * r.drain;
                 if (r.stamina <= 0) {
                     r.stamina = 0.25;
                     r.exhausted = true;
@@ -223,6 +234,92 @@ public final class Round {
         if (dot < Math.cos(Math.toRadians(11))) return false;
         if (r.closet >= 0 && r.doorClosed) return false;
         return g.clear(r.x, r.z, brain.x, brain.z, closetOpen);
+    }
+
+    // A toy nobody picks up starts crying; left alone too long, it calls the Damned over and points at whoever ignored it.
+    void cries() {
+        if (brain.mode == Brain.Mode.COUNT) return;
+        if (crying >= 0) {
+            if (toyTaken[crying]) {
+                events.add(new Event("hush", g.toys[crying][0], g.toys[crying][1], crying));
+                stopCry();
+                return;
+            }
+            long age = t - cryAt;
+            if (age > 0 && age % CRY_REPEAT == 0) events.add(new Event("cry", g.toys[crying][0], g.toys[crying][1], crying));
+            if (!cryCalled && age >= CRY_GRACE && brain.fetch(crying)) {
+                cryCalled = true;
+                events.add(new Event("cry_call", g.toys[crying][0], g.toys[crying][1], crying));
+            }
+            return;
+        }
+        if (t < nextCry) return;
+        int pick = -1;
+        for (int i = 0; i < 7; i++) if (!toyTaken[i] && (pick < 0 || lastCry[i] < lastCry[pick])) pick = i;
+        if (pick < 0) return;
+        crying = pick;
+        cryAt = t;
+        cryCalled = false;
+        lastCry[pick] = t;
+        events.add(new Event("cry", g.toys[pick][0], g.toys[pick][1], pick));
+    }
+
+    void stopCry() {
+        crying = -1;
+        cryCalled = false;
+        nextCry = t + CRY_EVERY;
+    }
+
+    // Called by the brain when it touches the crying toy: the toy gives away the quarter of the maze the nearest runner is in.
+    Runner betray(int toy) {
+        Runner best = null;
+        double bd = 1e9;
+        for (Runner r : runners) {
+            if (r.out || r.caught) continue;
+            double d = Math.hypot(r.x - g.toys[toy][0], r.z - g.toys[toy][1]);
+            if (d < bd) {
+                bd = d;
+                best = r;
+            }
+        }
+        events.add(new Event("betray", g.toys[toy][0], g.toys[toy][1], best == null ? -1 : best.id));
+        if (crying == toy) stopCry();
+        return best;
+    }
+
+    static int campKey(Runner r) {
+        if (r.closet >= 0) return 100000 + r.closet;
+        if (r.nook >= 0) return 200000 + r.nook;
+        return -1;
+    }
+
+    // Staying put too long (the same closet or nook, or within a few steps out in the open):
+    // ink seeps from the walls, then a cough gives the hiding place away.
+    void camping(Runner r) {
+        if (brain.mode == Brain.Mode.COUNT || r.light) {
+            r.camp = 0;
+            return;
+        }
+        int key = campKey(r);
+        if (key != r.campKey || key < 0 && Math.hypot(r.x - r.campX, r.z - r.campZ) > 3.0) {
+            if (r.campStage > 0) events.add(new Event("ink_clear", r.x, r.z, r.id));
+            r.campKey = key;
+            r.campX = r.x;
+            r.campZ = r.z;
+            r.camp = 0;
+            r.campStage = 0;
+            return;
+        }
+        r.camp++;
+        if (r.campStage == 0 && r.camp >= CAMP_INK) {
+            r.campStage = 1;
+            events.add(new Event("ink", r.x, r.z, r.id));
+        } else if (r.campStage == 1 && r.camp >= CAMP_COUGH) {
+            r.camp = CAMP_INK;
+            noise(r.x, r.z, 26, N_VOICE, r.id);
+            events.add(new Event("cough", r.x, r.z, r.id));
+            if (r.closet >= 0) brain.rip(r.closet);
+        }
     }
 
     public boolean looksAtDamned(Runner r) {

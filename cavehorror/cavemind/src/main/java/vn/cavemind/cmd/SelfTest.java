@@ -369,7 +369,10 @@ public final class SelfTest {
         vn.cavemind.man.Meter.add(fp, 200, "test");
         check("stage 2 due at 50", vn.cavemind.man.Meter.due(pr) == 2 && Math.abs(pr.meter - 50) < 0.01);
         check("visit wanted", vn.cavemind.man.Meter.wantsVisit(fp));
-        vn.cavemind.man.Meter.complete(fp, 2);
+        vn.cavemind.man.Meter.visited(fp, 2, false);
+        check("a visit that never came close does not count", vn.cavemind.man.Meter.due(pr) == 2);
+        vn.cavemind.man.Meter.visited(fp, 2, true);
+        check("a real visit counts", pr.meterStage == 2);
         vn.cavemind.man.Meter.add(fp, 200, "test");
         vn.cavemind.man.Meter.complete(fp, 3);
         vn.cavemind.man.Meter.add(fp, 200, "test");

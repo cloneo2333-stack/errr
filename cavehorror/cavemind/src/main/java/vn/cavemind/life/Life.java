@@ -874,7 +874,73 @@ public final class Life {
         return did;
     }
 
+    // A visit to one player's home for the THE MAN bar, done where nobody is looking (anywhere, when 'freely': the owner is far away).
+    // Returns what he left behind, or null if he found nothing he could do.
+    public static String homeVisit(ServerPlayer p, BlockPos home, boolean freely) {
+        ServerLevel lvl = p.serverLevel();
+        LifeData d = LifeData.get(p.server);
+        LifeData.Base b = Bases.owned(d, p);
+        if (b == null || b.center.distSqr(home) > 40 * 40) {
+            b = new LifeData.Base();
+            b.center = home;
+            b.radius = 14;
+            b.owners.add(p.getUUID());
+        }
+        if (!loaded(lvl, b)) return null;
+        List<String> o = new ArrayList<>(List.of("door", "torch", "inside", "prints"));
+        java.util.Collections.shuffle(o, new java.util.Random(lvl.getRandom().nextLong()));
+        for (String k : o) {
+            boolean ok = switch (k) {
+                case "door" -> Cfg.MAN_DOORS.get() && door(lvl, b, freely);
+                case "torch" -> d.lair != null && torches(lvl, d, b, freely);
+                case "inside" -> Cfg.LIFE_INSIDE.get() && inside(lvl, b, freely);
+                default -> ring(lvl, b, 6, freely);
+            };
+            if (ok) return k;
+        }
+        return candle(lvl, b, freely) ? "candle" : null;
+    }
+
+    // The fallback that always fits somewhere: a lit candle on a floor near the home point, indoors if possible.
+    static boolean candle(ServerLevel lvl, LifeData.Base b, boolean freely) {
+        RandomSource r = lvl.getRandom();
+        for (int pass = 0; pass < 2; pass++) {
+            for (int i = 0; i < 60; i++) {
+                BlockPos q = b.center.offset(r.nextInt(11) - 5, r.nextInt(5) - 2, r.nextInt(11) - 5);
+                if (!lvl.getBlockState(q).isAir() || !lvl.getBlockState(q.below()).isFaceSturdy(lvl, q.below(), Direction.UP)) continue;
+                if (pass == 0 && lvl.canSeeSky(q) || !hidden(lvl, q, freely)) continue;
+                lvl.setBlock(q, Blocks.CANDLE.defaultBlockState().setValue(CandleBlock.CANDLES, 1 + r.nextInt(3)).setValue(CandleBlock.LIT, true), 3);
+                clue(lvl, b, "inside", q, 6);
+                return true;
+            }
+        }
+        return false;
+    }
+
+    // Someone with no home yet: he circles the spot they are standing on, out of sight.
+    public static boolean campVisit(ServerPlayer p) {
+        ServerLevel lvl = p.serverLevel();
+        RandomSource r = lvl.getRandom();
+        BlockPos c = p.blockPosition();
+        double start = r.nextDouble() * Math.PI * 2;
+        int done = 0;
+        BlockPos first = null;
+        for (int i = 0; i < 24 && done < 6; i++) {
+            double a = start + i * 0.26, rr = 14 + r.nextInt(4);
+            BlockPos q = BlockPos.containing(c.getX() + Math.cos(a) * rr, c.getY(), c.getZ() + Math.sin(a) * rr);
+            if (!lvl.isLoaded(q) || !print(lvl, q, null, false)) continue;
+            done++;
+            if (first == null) first = q;
+        }
+        if (done < 3) return false;
+        MindData.profile(p).clue(new Profile.Clue("prints", lvl.getHeightmapPos(Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, first), Dread.day(lvl), 9));
+        return true;
+    }
+
+    public static BlockPos lastSpot;
+
     private static void clue(ServerLevel lvl, LifeData.Base b, String kind, BlockPos at, int radius) {
+        lastSpot = at.immutable();
         for (UUID u : b.owners) {
             Profile pr = MindData.profile(u);
             if (pr != null) pr.clue(new Profile.Clue(kind, at.immutable(), Dread.day(lvl), radius));
