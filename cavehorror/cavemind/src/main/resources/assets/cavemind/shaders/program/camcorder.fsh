@@ -104,16 +104,17 @@ void main() {
     // breath on the lens: the two bottom corners go milky, then clear
     if (Mist > 0.001) {
         float edge = fbm(q * vec2(7.0, 5.0) + vec2(Time * 0.03, 0.0));
-        float m = max(1.0 - smoothstep(0.0, 0.62, length((q - vec2(0.0, 0.0)) * vec2(1.25, 1.0))),
-                      1.0 - smoothstep(0.0, 0.62, length((q - vec2(1.0, 0.0)) * vec2(1.25, 1.0))));
-        m = smoothstep(0.15, 0.75, m + (edge - 0.5) * 0.45) * Mist;
-        vec3 milk = blur(uv, 14.0) * vec3(0.8, 0.85, 0.8) + vec3(0.09, 0.1, 0.1);
-        if (Night > 0.5) milk = vec3(0.20, 1.0, 0.34) * (dot(milk, vec3(0.299, 0.587, 0.114)) * 1.1 + 0.06) * (1.0 - Dim);
-        col = mix(col, milk, m);
+        float m = max(1.0 - smoothstep(0.0, 0.7, length((q - vec2(0.0, 0.0)) * vec2(1.15, 1.0))),
+                      1.0 - smoothstep(0.0, 0.7, length((q - vec2(1.0, 0.0)) * vec2(1.15, 1.0))));
+        m = smoothstep(0.1, 0.65, m + (edge - 0.5) * 0.5) * Mist;
+        vec3 hazy = blur(uv, 18.0);
+        float hl = dot(hazy, vec3(0.299, 0.587, 0.114)) * 0.7 + 0.36;
+        vec3 milk = mix(vec3(hl) * vec3(0.78, 0.72, 0.68), mix(vec3(0.20, 1.0, 0.34) * hl, vec3(hl * 0.8), 0.3) * (1.0 - Dim), Night);
+        col = mix(col, milk, m * 0.9);
     }
 
     // the LCD's faint amber spill when night vision is off
-    col += vec3(0.045, 0.014, 0.0) * Lcd * (1.0 - smoothstep(0.0, 0.75, length((q - vec2(0.5, -0.15)) * vec2(1.0, 1.5))));
+    col += vec3(0.07, 0.022, 0.004) * Lcd * (1.0 - smoothstep(0.0, 0.8, length((q - vec2(0.5, -0.15)) * vec2(1.0, 1.5))));
 
     float n = hash(floor(q * InSize / 1.5) + vec2(Seed * 17.13, Seed * 5.71)) - 0.5;
     col += n * Grain * (mix(0.25, 0.6, Night) + 0.9 * lum);
@@ -141,7 +142,9 @@ void main() {
     if (Ink > 0.001) {
         float drip = fbm(vec2(q.x * 14.0, 2.0)) * 0.55 + 0.45 * noise(vec2(q.x * 60.0, 1.0));
         float len = Ink * (0.08 + 0.32 * drip * drip) * (0.8 + 0.2 * sin(Time * 0.7 + q.x * 9.0));
-        col *= 1.0 - (1.0 - smoothstep(len * 0.7, len, 1.0 - q.y)) * 0.95;
+        float ink = 1.0 - smoothstep(len * 0.7, len, 1.0 - q.y);
+        float rim = ink * (1.0 - smoothstep(len * 0.55, len * 0.7, 1.0 - q.y));
+        col = col * (1.0 - ink * 0.95) + vec3(0.16, 0.03, 0.035) * (ink - rim) * (0.35 + 0.65 * noise(vec2(q.x * 80.0, q.y * 30.0)));
     }
 
     col *= 1.0 - 0.05 * Night * step(0.5, fract(gl_FragCoord.y * 0.5));
