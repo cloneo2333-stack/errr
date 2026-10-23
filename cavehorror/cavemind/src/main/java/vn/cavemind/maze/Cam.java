@@ -67,6 +67,11 @@ public final class Cam {
         ST.remove(p.getUUID());
     }
 
+    static boolean nightVision(ServerPlayer p) {
+        St s = ST.get(p.getUUID());
+        return s != null && s.nv;
+    }
+
     public static boolean panting(ServerPlayer p) {
         St s = ST.get(p.getUUID());
         return s != null && (s.fear > 0.82f || s.exhausted);

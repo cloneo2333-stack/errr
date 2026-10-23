@@ -275,5 +275,7 @@
   "subtitles.cavemind.maze.tape": "Tape crackles",
   "subtitles.cavemind.maze.top": "A top whines",
   "subtitles.cavemind.maze.harmonica": "Harmonica",
-  "subtitles.cavemind.maze.twang": "Slingshot twangs"
+  "subtitles.cavemind.maze.twang": "Slingshot twangs",
+  "block.cavemind.vet_san": "Floor grime",
+  "block.cavemind.vet_tuong": "Wall grime"
 }

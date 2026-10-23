@@ -110,6 +110,10 @@ public final class Maze {
         final Map<Integer, Ink> ink = new HashMap<>();
         final Map<Integer, Long> tapped = new HashMap<>();
         long nextScrape;
+        final List<BlockPos> drips = new ArrayList<>();
+        final double[] toyY = new double[7];
+        final double[][] toyAt = new double[7][];
+        final Map<UUID, Set<Integer>> told = new HashMap<>();
 
         Run(int slot, Round core, Mode mode, ServerLevel lvl) {
             this.slot = slot;
@@ -118,6 +122,7 @@ public final class Maze {
             this.lvl = lvl;
             this.ox = 1024 + slot * SPACING;
             this.oz = 1024;
+            java.util.Arrays.fill(toyY, F + 1.1);
         }
 
         BlockPos at(int x, int y, int z) {
@@ -473,6 +478,36 @@ public final class Maze {
             rn.doorClosed = !(st.getBlock() instanceof DoorBlock) || !st.getValue(DoorBlock.OPEN);
         }
         if (w.idle > 2400) end(r, p, Round.End.AFK);
+        if (now % 5 == 0) story(r, p, rn);
+    }
+
+    static final String[] STORY = {
+        "Một chiếc ghế nhỏ quay vào tường. Linh bị phạt đứng ở đây, chiếc nơ vẫn buộc trên lưng ghế.",
+        "Bàn ô ăn quan vẽ phấn. Tuấn chơi một mình tới tối, chờ một người tới lượt.",
+        "Cái bàn gãy chân, giấy vương đầy sàn. Mai gấp hạc để ước, con thứ tám chưa kịp gấp xong.",
+        "Vòng phấn trắng. Con quay của Bảo vẫn nằm giữa vòng, như chưa ai chịu thua.",
+        "Trong tủ có mùi tóc ẩm. Hà đã trốn ở đây rất lâu, lâu lắm.",
+        "Tấm ván treo bằng xích. Nam giấu nỏ thun lên cao để không đứa nào lấy được.",
+        "Ghế đẩu, nến tắt, sáp đông thành lớp. Khoa thổi kèn cho tới khi không còn ai trả lời."
+    };
+
+    // The camera's light falling on a toy's little scene is enough for the scene to tell its story.
+    static void story(Run r, ServerPlayer p, Round.Runner rn) {
+        Set<Integer> seen = r.told.computeIfAbsent(p.getUUID(), k -> new HashSet<>());
+        if (seen.size() >= 7) return;
+        Vec3 eye = p.getEyePosition(), look = p.getLookAngle();
+        double range = Cam.nightVision(p) ? 14 : 2.6;
+        Grid g = r.core.g;
+        for (int i = 0; i < 7; i++) {
+            if (r.core.toyTaken[i] || seen.contains(i)) continue;
+            Vec3 d = r.world(g.toys[i][0], g.toys[i][1], r.toyY[i] - 0.3).subtract(eye);
+            double len = d.length();
+            if (len > range || len < 0.3 || d.scale(1 / len).dot(look) < 0.93) continue;
+            if (!g.clear(rn.x, rn.z, g.toys[i][0], g.toys[i][1], r.core.closetOpen)) continue;
+            seen.add(i);
+            say(p, STORY[i], ChatFormatting.GRAY);
+            return;
+        }
     }
 
     static boolean holdsLight(ServerPlayer p) {
@@ -1049,7 +1084,7 @@ public final class Maze {
         };
         Item[] items = {Items.RED_DYE, Items.AMETHYST_SHARD, Items.PAPER, Items.BOWL, Items.IRON_NUGGET, Items.TRIPWIRE_HOOK, Items.IRON_INGOT};
         for (int i = 0; i < 7; i++) {
-            double[] t = r.core.g.toys[i];
+            double[] t = r.toyAt[i] != null ? r.toyAt[i] : r.core.g.toys[i];
             ItemStack st = new ItemStack(items[i]);
             st.setHoverName(Component.literal(spec[i][0]).withStyle(s -> s.withItalic(false).withColor(0xd8c8a8)));
             CompoundTag disp = st.getOrCreateTagElement("display");
@@ -1059,7 +1094,7 @@ public final class Maze {
             disp.put("Lore", l);
             st.getOrCreateTag().putInt(TOY, i);
             st.getOrCreateTag().putInt(RUN, r.slot);
-            Vec3 at = r.world(t[0], t[1], F + 1.1);
+            Vec3 at = r.world(t[0], t[1], r.toyY[i]);
             ItemEntity ie = new ItemEntity(r.lvl, at.x, at.y, at.z, st, 0, 0, 0);
             ie.setUnlimitedLifetime();
             ie.setPickUpDelay(0);
@@ -1200,8 +1235,17 @@ public final class Maze {
         ServerLevel lvl = r.lvl;
         int wx = g.rooms[Grid.WELL][0] * Grid.P, wz = g.rooms[Grid.WELL][1] * Grid.P;
         lvl.setBlock(r.at((int) g.chest[0], F + 1, (int) g.chest[1]), Blocks.CHEST.defaultBlockState(), 2);
-        BlockPos bp = r.at((int) g.bell[0], F + 1, (int) g.bell[1]);
-        lvl.setBlock(bp, Blocks.BELL.defaultBlockState().setValue(BellBlock.FACING, Direction.NORTH).setValue(BellBlock.ATTACHMENT, BellAttachType.FLOOR), 2);
+        int bx0 = (int) g.bell[0], bz0 = (int) g.bell[1];
+        // the bronze bell hangs on a rusty chain from a rotten wooden frame
+        BlockState post = Blocks.DARK_OAK_FENCE.defaultBlockState();
+        for (int h = 1; h <= 3; h++) {
+            lvl.setBlock(r.at(bx0, F + h, bz0 - 1), post, 2);
+            lvl.setBlock(r.at(bx0, F + h, bz0 + 1), post, 2);
+        }
+        for (int dz = -1; dz <= 1; dz++) lvl.setBlock(r.at(bx0, F + 4, bz0 + dz), Blocks.STRIPPED_DARK_OAK_LOG.defaultBlockState().setValue(net.minecraft.world.level.block.RotatedPillarBlock.AXIS, Direction.Axis.Z), 2);
+        lvl.setBlock(r.at(bx0, F + 3, bz0), Blocks.CHAIN.defaultBlockState(), 2);
+        BlockPos bp = r.at(bx0, F + 2, bz0);
+        lvl.setBlock(bp, Blocks.BELL.defaultBlockState().setValue(BellBlock.FACING, Direction.EAST).setValue(BellBlock.ATTACHMENT, BellAttachType.CEILING), 2);
         String[] rules = {"Nó đếm 48 nhịp.|Đi trốn đi.", "Đừng chạy.|Nó nghe|tiếng chân.", "Đừng mang lửa.|Nó thấy|ánh sáng.", "Trong tủ thì|ngồi thụp|và nín thở.",
             "Đừng nhìn nó.|Nhìn là|bị thấy.", "Tìm đủ bảy món|đồ chơi thì|nó được về nhà."};
         int placed = 0;
@@ -1448,7 +1492,22 @@ public final class Maze {
         {"minecraft:block.ladder.step", "0.4", "0.7"}, {"man:short_whisper_2", "0.2", "0.9"}
     };
 
+    static void drips(Run r, List<ServerPlayer> ps, long now) {
+        if (r.drips.isEmpty() || now % 7 != 0) return;
+        net.minecraft.util.RandomSource rnd = r.lvl.getRandom();
+        BlockPos q = r.drips.get(rnd.nextInt(r.drips.size()));
+        boolean near = false;
+        for (ServerPlayer p : ps) if (p.blockPosition().distSqr(q) < 24 * 24) near = true;
+        if (!near) return;
+        r.lvl.sendParticles(net.minecraft.core.particles.ParticleTypes.DRIPPING_WATER, q.getX() + 0.5, q.getY() + 0.05, q.getZ() + 0.5, 1, 0.08, 0, 0.08, 0);
+        if (rnd.nextFloat() > 0.4f) return;
+        for (ServerPlayer p : ps) {
+            if (p.blockPosition().distSqr(q) < 16 * 16) Fx.sound(p, "minecraft:block.pointed_dripstone.drip_water", SoundSource.AMBIENT, Vec3.atCenterOf(q).add(0, -3, 0), 0.5f, 0.9f + rnd.nextFloat() * 0.2f);
+        }
+    }
+
     static void ambient(Run r, List<ServerPlayer> ps, long now) {
+        drips(r, ps, now);
         if (now < r.nextAmbient) return;
         net.minecraft.util.RandomSource rnd = r.lvl.getRandom();
         boolean first = r.nextAmbient == 0;

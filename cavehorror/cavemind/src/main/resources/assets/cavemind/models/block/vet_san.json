@@ -1,0 +1,33 @@
+{
+ "ambientocclusion": false,
+ "render_type": "minecraft:translucent",
+ "textures": {
+  "particle": "#vet"
+ },
+ "elements": [
+  {
+   "from": [
+    0,
+    0.04,
+    0
+   ],
+   "to": [
+    16,
+    0.08,
+    16
+   ],
+   "shade": false,
+   "faces": {
+    "up": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#vet"
+    }
+   }
+  }
+ ]
+}
