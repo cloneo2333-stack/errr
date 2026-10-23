@@ -233,7 +233,8 @@ public final class Meter {
                     pr.visitAway = false;
                     return;
                 }
-                String lead = now - pr.lastRespawn < 200 ? "Bạn tỉnh dậy ở nhà. Có người vừa ở đây, trước bạn một bước." : "Bạn về tới nhà ngay sau khi có người vừa rời đi.";
+                String lead = now > pr.visitEnd ? DONE[1]
+                    : now - pr.lastRespawn < 200 ? "Bạn tỉnh dậy ở nhà. Có người vừa ở đây, trước bạn một bước." : "Bạn về tới nhà ngay sau khi có người vừa rời đi.";
                 finish(p, 1, lead + " " + HINT.getOrDefault(did, ""));
                 return;
             }
