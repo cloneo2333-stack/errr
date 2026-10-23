@@ -180,7 +180,10 @@ public final class Schemes {
         return si.on && Sight.clear(p.level(), p.getEyePosition(), c, p) || vn.cavemind.sense.Group.seenByOthers(p, c, 96);
     }
 
+    public static BlockPos lastSpot;
+
     private static void clue(ServerPlayer p, Profile pr, String kind, BlockPos at, int radius) {
+        lastSpot = at.immutable();
         pr.clue(new Profile.Clue(kind, at.immutable(), Dread.day(p.serverLevel()), radius));
     }
 

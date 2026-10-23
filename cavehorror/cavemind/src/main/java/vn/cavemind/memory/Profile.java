@@ -77,6 +77,8 @@ public final class Profile {
     public long lastHuntCatch = -1;
     public ListTag mazeBag;
     public boolean visitAway;
+    public long visitT0 = -1, visitEnd = -1, lastJump = -100000, lastRespawn = -100000;
+    public double lastX = Double.NaN, lastZ;
     public long pasted, cleaned;
     public int stampGifts;
 

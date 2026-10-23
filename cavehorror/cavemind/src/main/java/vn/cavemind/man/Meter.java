@@ -154,6 +154,9 @@ public final class Meter {
 
     public static void tick(ServerPlayer p, Watch w, Profile pr, long now) {
         if (now % 20 != (p.getId() & 15) || p.level().dimension() != Level.OVERWORLD || p.isSpectator()) return;
+        if (!Double.isNaN(pr.lastX) && Math.hypot(p.getX() - pr.lastX, p.getZ() - pr.lastZ) > 100) jumped(p, false);
+        pr.lastX = p.getX();
+        pr.lastZ = p.getZ();
         if (!on()) {
             if (now % 100 == (p.getId() & 15)) Net.send(p, new Net.Bar(-1, 0, false, ""));
             return;
@@ -193,7 +196,11 @@ public final class Meter {
     }
 
     // Stage 1, "he will visit your home while you are away". It only counts once something at home has really changed.
+    // While you are far off he comes over, works for a few minutes and leaves. Walk back in time and he may still be
+    // there, next to what he did: see him first and you have caught him in the act. Respawn or teleport straight home
+    // and there is nobody to catch, he left a step ahead of you.
     static void traces(ServerPlayer p, Watch w, Profile pr, boolean counted) {
+        if (vn.cavemind.life.Glimpse.caughtFor(p)) return;
         if (counted) pr.meterTries++;
         BlockPos home = homeOf(p, pr);
         if (home == null) {
@@ -202,21 +209,71 @@ public final class Meter {
             return;
         }
         ServerLevel lvl = p.serverLevel();
+        long now = p.server.getTickCount();
         double dist = Math.sqrt(home.distSqr(p.blockPosition()));
         boolean loaded = lvl.hasChunksAt(home.offset(-20, 0, -20), home.offset(20, 0, 20));
         if (dist > 48 && !loaded) {
-            // far away, the house is not even loaded: the visit happens now, you will find it on the way back
-            pr.visitAway = true;
+            if (!pr.visitAway) {
+                pr.visitAway = true;
+                pr.visitT0 = now + 400 + p.getRandom().nextInt(1200);
+                pr.visitEnd = pr.visitT0 + 1800 + p.getRandom().nextInt(1800);
+                CaveMind.debug("{}'s home visit: he gets there in {}s and stays {}s", p.getGameProfile().getName(), (pr.visitT0 - now) / 20, (pr.visitEnd - pr.visitT0) / 20);
+            }
             return;
         }
-        boolean freely = dist > 40 || pr.visitAway && dist > 20;
+        boolean jumped = now - pr.lastJump < 200 && dist < 40;
+        if (pr.visitAway) {
+            if (now < pr.visitT0) {
+                if (jumped || dist < 72) pr.visitAway = false;
+                return;
+            }
+            if (jumped) {
+                String did = visit(p, w, pr, home, true);
+                if (did == null) {
+                    pr.visitAway = false;
+                    return;
+                }
+                String lead = now - pr.lastRespawn < 200 ? "Bạn tỉnh dậy ở nhà. Có người vừa ở đây, trước bạn một bước." : "Bạn về tới nhà ngay sau khi có người vừa rời đi.";
+                finish(p, 1, lead + " " + HINT.getOrDefault(did, ""));
+                return;
+            }
+            if (now <= pr.visitEnd && dist > 72) return;
+            String did = visit(p, w, pr, home, true);
+            if (did == null) {
+                pr.visitAway = false;
+                return;
+            }
+            if (now > pr.visitEnd || !catchMe(p, did, home)) finish(p, 1, DONE[1] + " " + HINT.getOrDefault(did, ""));
+            return;
+        }
+        boolean freely = dist > 40;
         if (!freely && pr.meterTries < 8) return;
         String did = visit(p, w, pr, home, freely);
         if (did != null) {
+            if (freely && now - pr.lastJump > 200 && p.getRandom().nextFloat() < 0.6f && catchMe(p, did, home)) return;
             finish(p, 1, DONE[1] + " " + HINT.getOrDefault(did, ""));
             return;
         }
         if (pr.meterTries >= 40) finish(p, 1, "Hắn lảng vảng quanh nhà bạn mấy đêm liền nhưng chưa tìm được lối vào.");
+    }
+
+    // Leaves his body next to what he just did; the stage closes when that scene ends.
+    static boolean catchMe(ServerPlayer p, String did, BlockPos home) {
+        BlockPos spot = List.of("door", "torch", "inside", "prints", "candle").contains(did) ? vn.cavemind.life.Life.lastSpot : Schemes.lastSpot;
+        String hint = HINT.getOrDefault(did, "");
+        return vn.cavemind.life.Glimpse.caught(p, spot != null ? spot : home, seen -> finish(p, 1, seen
+            ? "Bạn bắt quả tang hắn ngay ở nhà mình. Hắn đứng sững lại, rồi tan vào sương. " + hint
+            : DONE[1] + " " + hint));
+    }
+
+    // Respawning, changing dimension or teleporting: you arrive somewhere without walking there.
+    public static void jumped(ServerPlayer p, boolean respawn) {
+        Profile pr = MindData.profile(p);
+        long now = p.server.getTickCount();
+        pr.lastJump = now;
+        if (respawn) pr.lastRespawn = now;
+        pr.lastX = Double.NaN;
+        if (vn.cavemind.life.Glimpse.caughtFor(p)) vn.cavemind.life.Glimpse.cancel(p);
     }
 
     static String visit(ServerPlayer p, Watch w, Profile pr, BlockPos home, boolean freely) {

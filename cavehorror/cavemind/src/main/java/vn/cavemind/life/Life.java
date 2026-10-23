@@ -937,7 +937,10 @@ public final class Life {
         return true;
     }
 
+    public static BlockPos lastSpot;
+
     private static void clue(ServerLevel lvl, LifeData.Base b, String kind, BlockPos at, int radius) {
+        lastSpot = at.immutable();
         for (UUID u : b.owners) {
             Profile pr = MindData.profile(u);
             if (pr != null) pr.clue(new Profile.Clue(kind, at.immutable(), Dread.day(lvl), radius));

@@ -525,7 +525,14 @@ public final class Events {
 
     @SubscribeEvent
     public static void respawned(PlayerEvent.PlayerRespawnEvent e) {
-        if (e.getEntity() instanceof ServerPlayer p) vn.cavemind.chapter.Book.ensure(p);
+        if (!(e.getEntity() instanceof ServerPlayer p)) return;
+        vn.cavemind.chapter.Book.ensure(p);
+        vn.cavemind.man.Meter.jumped(p, true);
+    }
+
+    @SubscribeEvent
+    public static void changedDimension(PlayerEvent.PlayerChangedDimensionEvent e) {
+        if (e.getEntity() instanceof ServerPlayer p && e.getTo() == net.minecraft.world.level.Level.OVERWORLD) vn.cavemind.man.Meter.jumped(p, false);
     }
 
     @SubscribeEvent(priority = EventPriority.HIGH)
