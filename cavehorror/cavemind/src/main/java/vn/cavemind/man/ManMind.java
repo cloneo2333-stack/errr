@@ -93,6 +93,7 @@ public final class ManMind {
         long nextDouse;
         Vec3 dragTo, dragDir;
         boolean dragged;
+        int grip;
         double closest = 1e9;
         boolean darkSeen;
         boolean relaxed;
@@ -1447,13 +1448,13 @@ public final class ManMind {
         start(s, t, now);
     }
 
-    public static void huntHit(ServerPlayer p, Entity e) {
+    public static void huntHit(ServerPlayer p, Entity e, vn.cavemind.sense.Swing.Blow b) {
         MindData.profile(p).bold(4);
         for (Map.Entry<UUID, Session> en : SESSIONS.entrySet()) {
             Session s = en.getValue();
             if (s.hunt == null || !e.getUUID().equals(s.hunt.crawler)) continue;
             ServerPlayer owner = p.server.getPlayerList().getPlayer(en.getKey());
-            s.hunt.hit(owner != null ? owner : p, e, p.server.getTickCount());
+            s.hunt.hit(owner != null ? owner : p, p, e, b, p.server.getTickCount());
             return;
         }
     }
@@ -1578,7 +1579,16 @@ public final class ManMind {
         Director.scare(p, 14);
     }
 
-    public static void attacked(ServerPlayer p, Entity e) {
+    public static void attacked(ServerPlayer p, Entity e, vn.cavemind.sense.Swing.Blow b) {
+        for (Map.Entry<UUID, Session> en : SESSIONS.entrySet()) {
+            Session d = en.getValue();
+            if (d.tac != Tac.DRAG || d.body == null || !d.body.equals(e.getUUID()) || !(e instanceof Mob m)) continue;
+            ServerPlayer victim = p.server.getPlayerList().getPlayer(en.getKey());
+            if (victim != null) {
+                Pack.cut(victim, p, d, m, b, p.server.getTickCount());
+                return;
+            }
+        }
         Session s = SESSIONS.get(p.getUUID());
         Profile pr = MindData.profile(p);
         pr.manHurt++;
@@ -1641,8 +1651,8 @@ public final class ManMind {
         s.hunt = new Hunt(p, w, at, now, why);
         s.hunt.stand = stand;
         s.hunt.marked = s.marked;
-        if (s.hunt.pack >= 2) Pack.sayAll(Pack.members(p), "CƠN ĐIÊN nhắm vào cả nhóm (" + s.hunt.pack + " người). Cần " + s.hunt.need()
-            + " đòn để đẩy lùi hắn. Đứng sát nhau trong ánh sáng thì hắn chỉ lấy tối đa một mạng; tản ra thì hắn có thể lấy " + s.hunt.maxKills());
+        if (s.hunt.pack >= 2) Pack.sayAll(Pack.members(p), "CƠN ĐIÊN nhắm vào cả nhóm (" + s.hunt.pack + " người). Cần chừng " + (s.hunt.need() + 1) / 2
+            + " nhát chém đầy lực để đẩy lùi hắn, vũ khí nặng chỉ cần một nửa. Đứng sát nhau trong ánh sáng thì hắn chỉ lấy tối đa một mạng; tản ra thì hắn có thể lấy " + s.hunt.maxKills());
         pr.manHunts++;
         pr.manLastHuntDay = Dread.day(p.serverLevel());
         CaveMind.debug("the Man hunts {}", p.getGameProfile().getName());

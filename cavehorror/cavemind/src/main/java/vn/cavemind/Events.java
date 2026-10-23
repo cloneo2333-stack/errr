@@ -165,6 +165,7 @@ public final class Events {
         vn.cavemind.damned.Hundred.forget(p);
         vn.cavemind.maze.Maze.logout(p);
         vn.cavemind.gear.Barometer.forget(p.getUUID());
+        vn.cavemind.sense.Swing.forget(p.getUUID());
         Watch.forget(p.getUUID());
         Director.forget(p.getUUID());
         Dread.forget(p.getUUID());
@@ -298,6 +299,11 @@ public final class Events {
         }
     }
 
+    @SubscribeEvent
+    public static void swing(net.minecraftforge.event.entity.player.AttackEntityEvent e) {
+        if (e.getEntity() instanceof ServerPlayer p) vn.cavemind.sense.Swing.attack(p, e.getTarget());
+    }
+
     @SubscribeEvent(priority = EventPriority.HIGH)
     public static void attacked(LivingAttackEvent e) {
         Entity target = e.getEntity();
@@ -305,14 +311,15 @@ public final class Events {
         String role = Compat.role(target);
         Entity src = e.getSource().getEntity();
         ServerPlayer p = src instanceof ServerPlayer sp ? sp : null;
+        vn.cavemind.sense.Swing.Blow blow = p == null ? null : vn.cavemind.sense.Swing.blow(p, target, e.getSource());
         switch (role) {
             case "man" -> {
                 e.setCanceled(true);
-                if (p != null) ManMind.attacked(p, target);
+                if (p != null) ManMind.attacked(p, target, blow);
             }
             case "man_hunt" -> {
                 e.setCanceled(true);
-                if (p != null) ManMind.huntHit(p, target);
+                if (p != null) ManMind.huntHit(p, target, blow);
             }
             case "man_day", "damned_day", "twin" -> {
                 e.setCanceled(true);
@@ -332,7 +339,7 @@ public final class Events {
                 e.setCanceled(true);
                 if (p != null) {
                     if (holdsRose(p)) Haunt.banish(p, "rose_strike");
-                    else vn.cavemind.damned.Game.attacked(p, target);
+                    else vn.cavemind.damned.Game.attacked(p, target, blow);
                 }
             }
             case "damned_maze" -> {

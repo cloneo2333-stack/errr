@@ -102,7 +102,7 @@ public final class Homes {
             pr.homes.removeIf(h -> h.score < 0.3 && (pr.home == null || h.pos.distSqr(pr.home) > MERGE * MERGE));
         }
         // so does staying a long time under a roof or by your own light
-        if (w.indoors || w.light >= 8 && !w.outside) {
+        if (w.indoors || w.ambient >= 8 && !w.outside) {
             Profile.Home h = near(pr, p.blockPosition(), 16);
             if (h == null) h = add(pr, p.blockPosition());
             h.score += 0.06;

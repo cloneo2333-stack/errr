@@ -31,6 +31,7 @@ import vn.cavemind.memory.Profile;
 import vn.cavemind.net.Net;
 import vn.cavemind.sense.Group;
 import vn.cavemind.sense.Sight;
+import vn.cavemind.sense.Swing;
 import vn.cavemind.sense.Watch;
 import vn.cavemind.world.Fx;
 import vn.cavemind.world.Spots;
@@ -39,7 +40,8 @@ final class Hunt {
     UUID crawler;
     Vec3 lastKnown;
     long lastSeen, start, end, phaseAt, nextPath, nextLoop, nextSearch, lastProgressAt;
-    int phase, attackCd, searchTicks, breakTicks, hits, hitsTaken;
+    int phase, attackCd, searchTicks, breakTicks, hits, hitsTaken, weightTaken;
+    long baitSince = -1, noBaitUntil;
     Vec3 searchPoint, lastPos;
     BlockPos breaking, hint, spawnAt;
     boolean caught, gaveUp, retreat, hasLos, wasChasing = true, screamed, fled;
@@ -71,8 +73,9 @@ final class Hunt {
         }
     }
 
+    // in blow weight (Swing.Blow): alone that is 8 rushed swings, 4 full ones or 2 full swings of a heavy weapon
     int need() {
-        return Math.min(9, 3 + 2 * (pack - 1));
+        return Math.min(24, 8 + 5 * (pack - 1));
     }
 
     int maxKills() {
@@ -288,14 +291,45 @@ final class Hunt {
             speed = 1.3;
             m.setAggressive(true);
         } else if (chase) {
-            Vec3 lead = hasLos ? w.vel.scale(Math.min(10, dist * 0.5)) : Vec3.ZERO;
-            goal = lastKnown.add(lead);
-            if (hasLos && dist > 9) {
-                Vec3 to = tgt.position().subtract(e.position());
-                Vec3 perp = new Vec3(-to.z, 0, to.x);
-                if (perp.lengthSqr() > 1e-4) goal = goal.add(perp.normalize().scale(side * Math.min(7, dist * 0.35)));
+            // He reads a slow weapon: while it is ready he circles just out of its reach, and the moment it has been
+            // swung (hit or miss) he goes straight in before it can come round again. After a few seconds of
+            // circling he commits anyway, so standing still with a charged axe does not keep him off for ever.
+            boolean slowHand = Swing.slow(tgt);
+            boolean open = slowHand && hasLos && dist < 8 && attackCd <= 6 && Swing.recovering(tgt, now);
+            boolean ready = slowHand && hasLos && !open && dist > 2.4 && dist < 6 && now >= noBaitUntil;
+            if (open) {
+                goal = tgt.position();
+                speed = 1.6;
+                baitSince = -1;
+                attackCd = Math.min(attackCd, 2);
+                nextPath = Math.min(nextPath, now);
+            } else if (ready) {
+                if (baitSince < 0) {
+                    baitSince = now;
+                    Compat.anim(e, "cm_twitch");
+                    Fx.later(lvl, 12, () -> {
+                        if (e.isAlive()) Compat.anim(e, "empty");
+                    });
+                }
+                if (now - baitSince > 50) {
+                    noBaitUntil = now + 100;
+                    baitSince = -1;
+                }
+                double ang = Math.atan2(e.getZ() - tgt.getZ(), e.getX() - tgt.getX()) + side * 0.5;
+                goal = tgt.position().add(Math.cos(ang) * 4.2, 0, Math.sin(ang) * 4.2);
+                speed = 1.0;
+                attackCd = Math.max(attackCd, 1);
+            } else {
+                baitSince = -1;
+                Vec3 lead = hasLos ? w.vel.scale(Math.min(10, dist * 0.5)) : Vec3.ZERO;
+                goal = lastKnown.add(lead);
+                if (hasLos && dist > 9) {
+                    Vec3 to = tgt.position().subtract(e.position());
+                    Vec3 perp = new Vec3(-to.z, 0, to.x);
+                    if (perp.lengthSqr() > 1e-4) goal = goal.add(perp.normalize().scale(side * Math.min(7, dist * 0.35)));
+                }
+                speed = dist > 22 ? 1.45 : dist > 10 ? 1.3 : 1.15;
             }
-            speed = dist > 22 ? 1.45 : dist > 10 ? 1.3 : 1.15;
             m.setAggressive(true);
         } else {
             searchTicks++;
@@ -422,18 +456,39 @@ final class Hunt {
         return true;
     }
 
-    void hit(ServerPlayer p, Entity e, long now) {
+    // A rushed swing barely registers and a full one makes him flinch, but a full swing of a heavy weapon lands with a
+    // dull boom, throws him about four blocks and drops him to one knee for two seconds.
+    void hit(ServerPlayer p, ServerPlayer by, Entity e, Swing.Blow b, long now) {
         if (retreat || phase == 0) return;
+        if (b == null) b = new Swing.Blow(1, false, false);
         hitsTaken++;
-        Vec3 push = e.position().subtract(p.position());
-        if (push.lengthSqr() > 1e-4) {
-            push = push.normalize().scale(0.9);
-            e.setDeltaMovement(push.x, 0.3, push.z);
+        weightTaken += b.weight();
+        ServerLevel lvl = p.serverLevel();
+        Vec3 push = e.position().subtract(by.position()).multiply(1, 0, 1);
+        push = push.lengthSqr() > 1e-4 ? push.normalize() : Vec3.ZERO;
+        if (b.heavy()) {
+            e.setDeltaMovement(push.x * 0.8, 0.35, push.z * 0.8);
+            e.hurtMarked = true;
+            pauseUntil = now + 40;
+            attackCd = Math.max(attackCd, 50);
+            runUntil = 0;
+            baitSince = -1;
+            Compat.anim(e, "cm_twitch");
+            Fx.later(lvl, 40, () -> {
+                if (e.isAlive()) Compat.anim(e, "empty");
+            });
+            Fx.soundAll(lvl, "minecraft:entity.generic.explode", SoundSource.HOSTILE, e.position(), 0.55f, 0.45f);
+            Fx.soundAll(lvl, "minecraft:block.anvil.land", SoundSource.HOSTILE, e.position(), 0.5f, 0.5f);
+            lvl.sendParticles(net.minecraft.core.particles.ParticleTypes.LARGE_SMOKE, e.getX(), e.getY() + 0.6, e.getZ(), 14, 0.35, 0.3, 0.35, 0.02);
+            Net.fx(by, Net.SHAKE, 1.6f, 10);
+        } else if (b.charged()) {
+            e.setDeltaMovement(push.x * 0.35, 0.18, push.z * 0.35);
+            e.hurtMarked = true;
+            pauseUntil = Math.max(pauseUntil, now + 6);
         }
-        pauseUntil = now + 12;
-        Fx.soundAll(p.serverLevel(), "man:scream_loop", SoundSource.HOSTILE, e.position(), 1.2f, 1.35f);
+        Fx.soundAll(lvl, "man:scream_loop", SoundSource.HOSTILE, e.position(), b.weight() >= 2 ? 1.2f : 0.6f, b.heavy() ? 0.9f : 1.35f);
         Director.scare(p, 6);
-        if (hitsTaken >= need()) {
+        if (weightTaken >= need()) {
             fled = true;
             ServerLevel sl = p.serverLevel();
             boolean blood = vn.cavemind.world.Moon.is(sl, vn.cavemind.world.Moon.BLOOD);

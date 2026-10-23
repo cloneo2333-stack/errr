@@ -235,7 +235,7 @@ public final class Net {
     }
 
     public record Ask(int op, int arg) {
-        public static final int OPEN = 0, MODE = 1, PASTE = 2, CLEAN = 3;
+        public static final int OPEN = 0, MODE = 1, PASTE = 2, CLEAN = 3, SWING = 4;
 
         public Ask(FriendlyByteBuf b) {
             this(b.readByte(), b.readVarInt());
@@ -248,7 +248,10 @@ public final class Net {
 
         public void handle(Supplier<NetworkEvent.Context> ctx) {
             ServerPlayer p = ctx.get().getSender();
-            if (p != null) vn.cavemind.chapter.Book.ask(p, op, arg);
+            if (p != null) ctx.get().enqueueWork(() -> {
+                if (op == SWING) vn.cavemind.sense.Swing.miss(p);
+                else vn.cavemind.chapter.Book.ask(p, op, arg);
+            });
             ctx.get().setPacketHandled(true);
         }
     }

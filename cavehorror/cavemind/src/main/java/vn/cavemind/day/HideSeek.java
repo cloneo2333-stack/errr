@@ -136,7 +136,7 @@ final class HideSeek extends Piece {
     private boolean hiding(ServerPlayer p, Watch w, Profile pr, Entity e, boolean on, long now) {
         ServerLevel lvl = p.serverLevel();
         BlockPos eye = BlockPos.containing(p.getEyePosition());
-        boolean dark = lvl.getMaxLocalRawBrightness(eye) <= 6 || !lvl.canSeeSky(eye) && lvl.getBrightness(net.minecraft.world.level.LightLayer.BLOCK, eye) <= 6;
+        boolean dark = Watch.held(p) <= 6 && (lvl.getMaxLocalRawBrightness(eye) <= 6 || !lvl.canSeeSky(eye) && lvl.getBrightness(net.minecraft.world.level.LightLayer.BLOCK, eye) <= 6);
         boolean hid = p.isCrouching() && w.speed < 0.03 && dark && !on;
         hideTicks = hid ? hideTicks + 1 : Math.max(0, hideTicks - 3);
         int need = (260 + Math.min(4, pr.hidden) * 90) * (pr.lore.contains("g") || pr.lore.contains("h") ? 1 : 2);

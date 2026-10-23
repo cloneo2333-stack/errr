@@ -90,7 +90,7 @@ public final class Game {
     boolean noticed, hunted, caught, why1, warnedSign, los, stuckShown, slept, active, victory;
     // owed: strikes carried in from games you lost or ran from; lost: it found you; payUp: hunt once the pointing is over
     boolean lost, marked, payUp;
-    int gate, owed, watched;
+    int gate, owed, watched, grip;
     String reason = "";
     String cause = "";
     String ending = "";
@@ -336,6 +336,7 @@ public final class Game {
     }
 
     static boolean dark(ServerPlayer p) {
+        if (Watch.held(p) > 6) return false;
         if (Dark.on(p)) return Dark.dark(p);
         ServerLevel lvl = p.serverLevel();
         BlockPos eye = BlockPos.containing(p.getEyePosition());
@@ -345,8 +346,8 @@ public final class Game {
     static int bright(ServerPlayer p) {
         ServerLevel lvl = p.serverLevel();
         BlockPos eye = BlockPos.containing(p.getEyePosition());
-        if (Dark.on(p)) return lvl.getBrightness(LightLayer.SKY, eye) - Math.max(lvl.getSkyDarken(), 7);
-        return lvl.getMaxLocalRawBrightness(eye);
+        if (Dark.on(p)) return Math.max(Watch.held(p), lvl.getBrightness(LightLayer.SKY, eye) - Math.max(lvl.getSkyDarken(), 7));
+        return Math.max(Watch.held(p), lvl.getMaxLocalRawBrightness(eye));
     }
 
     static boolean hiding(ServerPlayer p, Watch w) {
@@ -859,6 +860,7 @@ public final class Game {
 
     boolean grab(ServerPlayer p, Watch w, Mob m, long now) {
         caught = true;
+        grip = 4;
         to(p, S.CAUGHT, now, "chạm được vào bạn");
         Vec3 front = p.getEyePosition().add(Vec3.directionFromRotation(0, p.getYRot()).scale(1.1));
         m.getNavigation().stop();
@@ -875,6 +877,39 @@ public final class Game {
         pr.moment(new Moment(Moment.CAUGHT, Dread.day(lvl), Dread.time(lvl), p.blockPosition(), strikes, 0));
         PaceLog.encounter(p, "damned", "caught", reason);
         return true;
+    }
+
+    private static final Map<UUID, Long> WRENCH_DAY = new HashMap<>();
+
+    // In the two and a half seconds it holds someone before dragging them under, a friend can tear them loose: a heavy
+    // blow does it at once, full swings take two. Ai thua thì đếm: the one who interfered takes over the game owed.
+    void wrench(ServerPlayer owner, ServerPlayer by, int w, boolean heavy, long now) {
+        grip -= w;
+        Entity e = body(owner);
+        if (grip > 0 || e == null) return;
+        ServerLevel lvl = owner.serverLevel();
+        Vec3 at = e.position();
+        owner.removeEffect(MobEffects.MOVEMENT_SLOWDOWN);
+        owner.removeEffect(MobEffects.DARKNESS);
+        Fx.soundAll(lvl, "apollyon:deep_laugh", SoundSource.HOSTILE, at, 0.7f, 0.6f);
+        Fx.soundAll(lvl, "minecraft:block.candle.extinguish", SoundSource.HOSTILE, at, 1.0f, 0.5f);
+        Profile op = MindData.profile(owner), bp = MindData.profile(by);
+        op.dDebt = Math.max(0, op.dDebt - 1);
+        bp.dDebt = Math.min(3, bp.dDebt + 1);
+        tell(owner, by.getGameProfile().getName() + " giằng bạn khỏi tay nó.");
+        tell(by, "Bạn giằng " + owner.getGameProfile().getName() + " khỏi tay nó. Ai thua thì đếm: giờ bạn nợ nó một ván.");
+        long day = Dread.day(lvl);
+        Long last = WRENCH_DAY.get(by.getUUID());
+        if ((last == null || last != day) && by.getRandom().nextFloat() < (heavy ? 0.6f : 0.3f)) {
+            WRENCH_DAY.put(by.getUUID(), day);
+            net.minecraft.world.entity.item.ItemEntity ie = new net.minecraft.world.entity.item.ItemEntity(lvl, at.x, at.y + 0.5, at.z,
+                new net.minecraft.world.item.ItemStack(vn.cavemind.gear.Gear.ECHO.get()));
+            ie.setDefaultPickUpDelay();
+            lvl.addFreshEntity(ie);
+        }
+        holdUntil = now + 20;
+        PaceLog.encounter(owner, "damned", "wrenched free", by.getGameProfile().getName());
+        to(owner, S.RETREAT, now, "bạn bè giằng bạn lại");
     }
 
     boolean caught(ServerPlayer p, Watch w, Entity e, long now) {
@@ -997,19 +1032,33 @@ public final class Game {
         vn.cavemind.life.Child.played(p.server, 60);
     }
 
-    public static void attacked(ServerPlayer p, Entity e) {
+    public static void attacked(ServerPlayer p, Entity e, vn.cavemind.sense.Swing.Blow b) {
         for (Game g : GAMES.values()) {
             if (!e.getUUID().equals(g.body)) continue;
             ServerPlayer owner = p.server.getPlayerList().getPlayer(g.player);
             if (owner == null) return;
             long now = p.server.getTickCount();
+            int w = b == null ? 1 : b.weight();
             Fx.sound(p, "apollyon:damage_noise", SoundSource.HOSTILE, e.position(), 0.8f, 1.4f);
             if (e instanceof Mob m) {
                 m.getNavigation().stop();
                 if (g.walker != null) g.walker.stop(m);
             }
             if (g.s == S.HUNT || g.s == S.LOST) {
-                g.telegraphUntil = now + 20;
+                // a heavy blow holds it for two and a half seconds, a full one for a second, a rushed one hardly at all
+                g.telegraphUntil = Math.max(g.telegraphUntil, now + (w >= 4 ? 50 : w >= 2 ? 20 : 6));
+                if (w >= 4) {
+                    Vec3 push = e.position().subtract(p.position()).multiply(1, 0, 1);
+                    if (push.lengthSqr() > 1e-4) {
+                        push = push.normalize().scale(0.7);
+                        e.setDeltaMovement(push.x, 0.3, push.z);
+                        e.hurtMarked = true;
+                    }
+                }
+                return;
+            }
+            if (g.s == S.CAUGHT && p != owner) {
+                g.wrench(owner, p, w, b != null && b.heavy(), now);
                 return;
             }
             if (g.s == S.CAUGHT || g.s == S.RETREAT) return;

@@ -1,0 +1,105 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:leather_helmet",
+    "minecraft:leather_chestplate",
+    "minecraft:leather_leggings",
+    "minecraft:leather_boots",
+    {
+      "id": "arphex:chitin_armour_helmet",
+      "required": false
+    },
+    {
+      "id": "arphex:chitin_armour_chestplate",
+      "required": false
+    },
+    {
+      "id": "arphex:chitin_armour_leggings",
+      "required": false
+    },
+    {
+      "id": "arphex:chitin_armour_boots",
+      "required": false
+    },
+    {
+      "id": "arphex:chitin_armour_tier_2_helmet",
+      "required": false
+    },
+    {
+      "id": "arphex:chitin_armour_tier_2_chestplate",
+      "required": false
+    },
+    {
+      "id": "arphex:chitin_armour_tier_2_leggings",
+      "required": false
+    },
+    {
+      "id": "arphex:chitin_armour_tier_2_boots",
+      "required": false
+    },
+    {
+      "id": "arphex:chitin_armour_tier_3_helmet",
+      "required": false
+    },
+    {
+      "id": "arphex:chitin_armour_tier_3_chestplate",
+      "required": false
+    },
+    {
+      "id": "arphex:chitin_armour_tier_3_leggings",
+      "required": false
+    },
+    {
+      "id": "arphex:chitin_armour_tier_3_boots",
+      "required": false
+    },
+    {
+      "id": "arphex:umbral_helmet",
+      "required": false
+    },
+    {
+      "id": "arphex:umbral_chestplate",
+      "required": false
+    },
+    {
+      "id": "arphex:umbral_leggings",
+      "required": false
+    },
+    {
+      "id": "arphex:umbral_boots",
+      "required": false
+    },
+    {
+      "id": "arphex:spectral_helmet",
+      "required": false
+    },
+    {
+      "id": "arphex:spectral_chestplate",
+      "required": false
+    },
+    {
+      "id": "arphex:spectral_leggings",
+      "required": false
+    },
+    {
+      "id": "arphex:spectral_boots",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:nightmare_mantleofthe_night_helmet",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:nightmare_mantleofthe_night_chestplate",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:nightmare_mantleofthe_night_leggings",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:nightmare_mantleofthe_night_boots",
+      "required": false
+    }
+  ]
+}
